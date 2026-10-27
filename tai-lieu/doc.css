@@ -1,0 +1,15 @@
+
+.doc-layout{display:grid;grid-template-columns:240px 1fr;gap:32px;align-items:start}
+.toc{position:sticky;top:84px;font-size:14px;max-height:calc(100vh - 100px);overflow:auto}
+.toc a{display:block;color:var(--muted);padding:5px 10px;border-left:2px solid var(--line);text-decoration:none}
+.toc a:hover{color:var(--brand);border-color:var(--brand)}
+.doc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px clamp(16px,4vw,44px);min-width:0}
+.doc h1{margin-bottom:4px}.doc h2{scroll-margin-top:84px;border-top:1px solid var(--line);padding-top:22px}
+.doc h3{margin-top:22px}.doc p,.doc li{max-width:78ch}
+.doc img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px;display:block;margin:14px 0}
+.doc table{margin:12px 0;font-size:14px}
+.doc .tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:14px 0}
+.doc .tw table{margin:0}
+.doc td,.doc th{min-width:110px}
+.doc .meta{color:var(--muted);font-size:14px;margin-bottom:10px}
+@media (max-width:900px){.doc-layout{grid-template-columns:1fr}.toc{display:none}}

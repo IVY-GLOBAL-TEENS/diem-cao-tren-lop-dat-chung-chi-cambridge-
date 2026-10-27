@@ -9,6 +9,7 @@ Website tĩnh (HTML/CSS/JavaScript thuần, không cần cài đặt gì) tổng
 - **KET** – bản đồ part nào của A2 Key được luyện ở buổi nào
 - **Game** – gợi ý game theo lứa tuổi (lớp 5–9) ghép với nội dung unit
 - **Phòng thi ảo KET/PET** (`phong-thi/`) – học sinh luyện kỹ năng, làm đề mô phỏng thi trên máy, chơi game theo cấp độ (tiến độ lưu trên trình duyệt)
+- **Tài liệu** (`tai-lieu/`) – Curriculum CEFR, Bridge-up 94 buổi, khung khen thưởng, đề xuất dashboard
 - **Bài tập** – nhập ngày khai giảng + lịch học → tự xếp lịch 94 buổi, đánh dấu bài đã làm (lưu trên trình duyệt)
 
 ## Cấu trúc thư mục

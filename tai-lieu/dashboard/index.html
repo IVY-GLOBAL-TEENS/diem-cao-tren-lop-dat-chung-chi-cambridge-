@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đề xuất Dashboard quản trị học tập · IVY Teen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/style.css"><link rel="stylesheet" href="../../tai-lieu/doc.css">
+</head><body>
+<header class="topbar"><div class="wrap topbar-inner">
+<a class="brand" href="../../"><span class="brand-mark">IV</span><span class="brand-text"><strong>IVY Teen</strong><small>Giáo trình &amp; Bài tập</small></span></a>
+<nav class="nav" style="display:flex;position:static;flex-direction:row;background:none;border:0;padding:0">
+<a href="../../">← Trang chính</a><a href="../../tai-lieu/" class="active">Tài liệu</a><a href="../../phong-thi/" class="nav-exam">Phòng thi ảo</a></nav>
+</div></header>
+<main class="wrap" style="padding-top:24px;padding-bottom:48px"><div class="crumbs"><a href="../">Tài liệu</a> › Đề xuất Dashboard quản trị học tập</div><div class="doc-layout"><nav class="toc no-print" aria-label="Mục lục"><a href="#tóm-tắt-đề-xuất">Tóm tắt đề xuất</a><a href="#yêu-cầu-của-dự-án-website-teen">Yêu cầu của dự án Website
+Teen</a><a href="#các-dashboard-tham-khảo-và-bài-học-rút-ra">Các dashboard tham
+khảo và bài học rút ra</a><a href="#bảng-so-sánh-tính-năng">Bảng so sánh tính năng</a><a href="#kiến-trúc-dashboard-theo-vai-trò">Kiến trúc dashboard theo vai
+trò</a><a href="#chi-tiết-màn-hình-dashboard-giáo-viên">Chi tiết màn hình
+Dashboard giáo viên</a><a href="#game-hóa-an-toàn-cho-tuổi-teen">Game hóa an toàn cho tuổi
+teen</a><a href="#lộ-trình-triển-khai">Lộ trình triển khai</a><a href="#nguồn-tham-khảo">Nguồn tham khảo</a></nav><article class="doc"><h1 id="đề-xuất-dashboard-quản-trị-học-tập-website-teen-ivy">Đề xuất
+Dashboard quản trị học tập – Website Teen IVY</h1>
+<p class="meta">Cập nhật 27/10/2026</p>
+<h2 id="tóm-tắt-đề-xuất">Tóm tắt đề xuất</h2>
+<p>Đề xuất tối ưu là <strong>một hệ dashboard 4 vai trò (Giáo viên, Học
+sinh, Phụ huynh, Quản lý học vụ), mỗi màn hình chỉ trả lời 3–5 câu hỏi
+quan trọng nhất của vai trò đó</strong>, thay vì một trang tổng hợp mọi
+số liệu.</p>
+<p>Không có sản phẩm nào trên thị trường khớp hoàn toàn với IVY, nên
+phương án tốt nhất là ghép các điểm mạnh đã được kiểm chứng:</p>
+<ul>
+<li><p><strong>Canvas / Google Classroom</strong>: danh sách học sinh
+cần can thiệp (thiếu bài, nộp muộn) và nút nhắc nhở ngay tại
+chỗ.</p></li>
+<li><p><strong>Wayground (Quizizz)</strong>: báo cáo theo từng câu hỏi,
+tô màu, để biết lớp sai ở kỹ năng nào.</p></li>
+<li><p><strong>Duolingo for Schools</strong>: đèn tín hiệu xanh–vàng–đỏ
+cho bài tập hằng ngày và chỉ tiêu điểm XP.</p></li>
+<li><p><strong>Cambridge One</strong>: chấm cả mục ngoài máy (chuyên
+cần, nói, dự án) và cho giáo viên sửa điểm tự động.</p></li>
+<li><p><strong>ClassDojo / sổ liên lạc điện tử VN</strong>: kênh phụ
+huynh nhận tiến độ và nhận xét.</p></li>
+</ul>
+<p>Điểm khác biệt dành riêng cho IVY: theo dõi tiến độ theo <strong>lộ
+trình 94 buổi và unit Gold Experience</strong>, theo <strong>4 kỹ năng
+CEFR</strong> và <strong>dạng bài KET</strong>, cùng cơ chế game hóa
+<strong>theo đội và so với chính mình</strong>, tránh bảng xếp hạng cá
+nhân toàn lớp.</p>
+<h2 id="yêu-cầu-của-dự-án-website-teen">Yêu cầu của dự án Website
+Teen</h2>
+<p>Dashboard phải phục vụ một website giao bài tập tương tác và quản trị
+hoạt động học tập cho học sinh THCS tại IVY. Các yêu cầu rút ra từ
+project:</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 52%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Yêu cầu</th>
+<th>Hệ quả cho dashboard</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lớp xếp theo năng lực CEFR 4 kỹ năng, không theo khối</td>
+<td>Lọc và báo cáo theo cấp độ (Foundation, Bridge-up, Kick-off, Boost,
+IELTS Skills up) và theo kỹ năng Nghe–Nói–Đọc–Viết</td>
+</tr>
+<tr class="even">
+<td>2 buổi tại trung tâm/tuần (105 phút) + bài tập hằng ngày</td>
+<td>Theo dõi tỉ lệ hoàn thành bài hằng ngày, chuỗi ngày học, cảnh báo
+sớm khi bỏ bài</td>
+</tr>
+<tr class="odd">
+<td>Lộ trình 94 buổi bám theo unit Gold Experience</td>
+<td>Thanh tiến độ theo buổi/unit, so sánh tiến độ thực tế với kế
+hoạch</td>
+</tr>
+<tr class="even">
+<td>Khóa học mở bất kỳ thời điểm nào</td>
+<td>Mỗi lớp có mốc thời gian riêng; không dùng học kỳ cố định</td>
+</tr>
+<tr class="odd">
+<td>Định hướng chứng chỉ Cambridge (KET...)</td>
+<td>Báo cáo theo dạng bài thi và mức sẵn sàng thi</td>
+</tr>
+<tr class="even">
+<td>Ngữ pháp là nền tảng, không chạy theo điểm trường</td>
+<td>Theo dõi mức thành thạo từng điểm ngữ pháp, không chỉ điểm tổng</td>
+</tr>
+<tr class="odd">
+<td>Học sinh 10–15 tuổi, dùng nhiều game (escape room, Jeopardy,
+flashcard lặp ngắt quãng...)</td>
+<td>Game hóa theo đội, điểm XP, huy hiệu; ưu tiên tự so với chính
+mình</td>
+</tr>
+</tbody>
+</table></div>
+<p>Một câu hỏi còn mở: IVY đang dùng phần mềm quản lý trung tâm nào (học
+phí, điểm danh) để dashboard đồng bộ dữ liệu, hay website sẽ tự quản lý
+luôn?</p>
+<h2 id="các-dashboard-tham-khảo-và-bài-học-rút-ra">Các dashboard tham
+khảo và bài học rút ra</h2>
+<p>Bài học chung từ nghiên cứu: dashboard hiệu quả chọn <strong>3–5 chỉ
+số cho mỗi đối tượng</strong> và ẩn phần còn lại; lỗi phổ biến nhất là
+hiển thị mọi thứ mà không giúp ai ra quyết định (<a
+href="https://www.forasoft.com/learn/elearning-video/glossary/terms-elearning/dashboard">Fora
+Soft</a>). Dashboard của học sinh nên trả lời: bài nào đến hạn, mình
+đang chậm ở đâu, nên làm gì trước (<a
+href="https://fanruan.com/en/blog/why-most-dashboard-lms-setups-fail">FanRuan</a>).</p>
+<p><a
+href="https://support.google.com/edu/classroom/answer/14221316?hl=en"><strong>Google
+Classroom Analytics</strong></a> — Gom dữ liệu hoạt động của từng lớp
+vào một chỗ và giúp giáo viên nhận ra học sinh cần hỗ trợ. Từ một học
+sinh hoàn thành ít bài, giáo viên bấm xuống danh sách bài còn thiếu để
+theo dõi (<a
+href="https://workspaceupdates.googleblog.com/2023/11/use-google-classroom-analytics+.html">Google</a>).
+Lưu ý: chỉ có ở gói Education Plus.</p>
+<p><a
+href="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-and-download-reports-in-New-Analytics/ta-p/409936"><strong>Canvas
+New Analytics</strong></a> — Mỗi bài tập hiện tỉ lệ nộp đúng hạn, muộn,
+thiếu; giáo viên nhắn tin ngay cho nhóm học sinh thiếu bài hoặc dưới một
+mức điểm (<a
+href="https://asklits.mtholyoke.edu/TDClient/50/Portal/KB/PrintArticle?ID=19887">Mount
+Holyoke</a>). Báo cáo "học sinh cần chú ý" cho giáo viên tự đặt ngưỡng
+(tỉ lệ muộn, số bài thiếu) (<a
+href="https://help.canvas.yale.edu/a/2029620-students-in-need-of-attention-report">Yale</a>).
+Đây là mô hình "thấy vấn đề → hành động ngay" mà IVY nên học.</p>
+<p><a
+href="https://wayground.com/home/solutions/reports"><strong>Wayground
+(trước là Quizizz)</strong></a> — Báo cáo tô màu theo từng câu hỏi, nhìn
+qua là biết lớp sai câu nào (<a
+href="https://www.edutopia.org/article/supercharge-your-wayground-use/">Edutopia</a>).
+Có biểu đồ tiến bộ dài hạn và chia sẻ báo cáo cho phụ huynh. Chế độ cho
+làm lại câu sai khuyến khích sự kiên trì (<a
+href="https://alicekeeler.com/2025/08/05/how-to-use-wayground-formerly-quizizz/">Alice
+Keeler</a>).</p>
+<p><a href="https://teachersfirst.org/blog/?p=4726"><strong>Duolingo for
+Schools</strong></a> — Cạnh tên học sinh có màu cho biết số bài đã xong
+(xanh), nộp muộn (vàng), bỏ lỡ (đỏ). Giáo viên đặt chỉ tiêu XP cho từng
+bài giao (<a
+href="https://fsrinc.com/fsr-press-room/216-5-creative-ways-to-use-duolingo-in-the-classroom">FSR</a>).
+Rất hợp với nhịp bài tập hằng ngày của IVY.</p>
+<p><a
+href="https://pages.cambridgeenglish.org/cambridge-one-latest-updates"><strong>Cambridge
+One</strong></a> — Có "grading categories" để chấm các mục ngoài máy như
+chuyên cần, thái độ, dự án; quản trị viên có thể cho giáo viên sửa điểm
+chấm tự động. Đây cũng là nền tảng đi kèm giáo trình Cambridge, đáng cân
+nhắc tích hợp.</p>
+<p><a
+href="https://www.techlearning.com/ed-tech-ticker/12190"><strong>ClassDojo</strong></a>
+— Mạnh ở kết nối phụ huynh: điểm thưởng hành vi và tin nhắn. Nhiều phụ
+huynh và giáo viên phàn nàn về cơ chế trừ điểm vì tạo cảm giác tiêu cực
+(<a
+href="https://www.capterra.com/p/124446/ClassDojo/reviews/?page=12">Capterra</a>).</p>
+<p><strong>Phần mềm trung tâm ngoại ngữ ở Việt Nam</strong> (EasyEdu,
+Schooly, EClass) — Phụ huynh quen với "sổ liên lạc điện tử": điểm danh,
+bài tập về nhà, nhận xét của giáo viên (<a
+href="https://apps.apple.com/br/app/id6695745734">Schooly</a>). Các hệ
+này mạnh về vận hành (học phí, xếp lớp) nhưng yếu về phân tích kỹ
+năng.</p>
+<p><strong>Nghiên cứu về game hóa</strong> — Bảng xếp hạng là yếu tố
+game hóa bị gắn với nhiều tác dụng tiêu cực nhất, như giảm thành tích
+(<a
+href="https://www.springerprofessional.de/en/the-dark-side-of-gamification-an-overview-of-negative-effects-of/16000882">Toda
+và cộng sự, 2018</a>); không phải học sinh nào cũng hưởng lợi từ nó (<a
+href="https://par.nsf.gov/biblio/10510520">NSF PAR</a>).</p>
+<h2 id="bảng-so-sánh-tính-năng">Bảng so sánh tính năng</h2>
+<p>Không nền tảng nào phủ đủ nhu cầu IVY; cột cuối cho thấy website
+riêng cần gom những gì.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 12%" />
+<col style="width: 10%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tính năng</th>
+<th>Google Classroom</th>
+<th>Canvas</th>
+<th>Wayground</th>
+<th>Duolingo Schools</th>
+<th>Cambridge One</th>
+<th>ClassDojo / app VN</th>
+<th>Website Teen IVY (đề xuất)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Danh sách học sinh thiếu/muộn bài</td>
+<td>Có</td>
+<td>Có, kèm nhắn tin</td>
+<td>Một phần</td>
+<td>Có, màu xanh–vàng–đỏ</td>
+<td>Có</td>
+<td>Sổ liên lạc</td>
+<td>Có, kèm nhắn tin + màu</td>
+</tr>
+<tr class="even">
+<td>Phân tích theo từng câu/kỹ năng</td>
+<td>Theo kỹ năng gắn thẻ</td>
+<td>Theo bài</td>
+<td>Mạnh, theo câu</td>
+<td>Hạn chế</td>
+<td>Theo giáo trình</td>
+<td>Không</td>
+<td>Theo câu, điểm ngữ pháp, 4 kỹ năng</td>
+</tr>
+<tr class="odd">
+<td>Tiến độ theo giáo trình</td>
+<td>Không</td>
+<td>Theo module</td>
+<td>Không</td>
+<td>Theo khóa Duolingo</td>
+<td>Theo sách Cambridge</td>
+<td>Không</td>
+<td>Theo 94 buổi, unit Gold Experience</td>
+</tr>
+<tr class="even">
+<td>Chấm mục ngoài máy (nói, chuyên cần)</td>
+<td>Thủ công</td>
+<td>Có</td>
+<td>Không</td>
+<td>Không</td>
+<td>Có (grading categories)</td>
+<td>Điểm hành vi</td>
+<td>Có</td>
+</tr>
+<tr class="odd">
+<td>Game hóa</td>
+<td>Không</td>
+<td>Không</td>
+<td>Mạnh (điểm, bảng xếp hạng)</td>
+<td>XP, chuỗi ngày</td>
+<td>Ít</td>
+<td>Điểm hành vi</td>
+<td>XP, huy hiệu, thi đua đội</td>
+</tr>
+<tr class="even">
+<td>Phụ huynh xem tiến độ</td>
+<td>Email tóm tắt</td>
+<td>Tài khoản phụ huynh</td>
+<td>Chia sẻ báo cáo</td>
+<td>Không</td>
+<td>Không</td>
+<td>Mạnh</td>
+<td>Có, tóm tắt tuần</td>
+</tr>
+<tr class="odd">
+<td>Phù hợp tiếng Anh THCS VN</td>
+<td>Trung bình</td>
+<td>Thấp (nặng đại học)</td>
+<td>Cao</td>
+<td>Trung bình</td>
+<td>Cao</td>
+<td>Cao (vận hành)</td>
+<td>Cao</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="kiến-trúc-dashboard-theo-vai-trò">Kiến trúc dashboard theo vai
+trò</h2>
+<p>Mỗi vai trò có một trang chủ riêng, tối đa 5 chỉ số, và mọi chỉ số
+đều bấm được để xuống chi tiết hoặc hành động.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 19%" />
+<col style="width: 34%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Vai trò</th>
+<th>Câu hỏi cần trả lời ngay</th>
+<th>Chỉ số chính (3–5)</th>
+<th>Hành động từ dashboard</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Giáo viên</td>
+<td>Hôm nay ai cần mình can thiệp? Lớp đang hổng kiến thức gì? Lớp có
+theo kịp lộ trình?</td>
+<td>Tỉ lệ hoàn thành bài hằng ngày (7 ngày); số học sinh cần chú ý;
+câu/điểm ngữ pháp sai nhiều nhất; buổi thực tế so với kế hoạch; điểm TB
+4 kỹ năng</td>
+<td>Nhắn nhắc học sinh thiếu bài; giao bài ôn bù cho nhóm yếu; mở game
+ôn trên lớp; chấm nói/viết</td>
+</tr>
+<tr class="even">
+<td>Học sinh</td>
+<td>Hôm nay làm gì? Mình tiến bộ đến đâu?</td>
+<td>Nhiệm vụ hôm nay; chuỗi ngày học; XP tuần so với tuần trước; huy
+hiệu sắp đạt; tiến độ unit</td>
+<td>Làm bài, chơi game ôn, lật flashcard lặp ngắt quãng, xem lại câu
+sai</td>
+</tr>
+<tr class="odd">
+<td>Phụ huynh</td>
+<td>Con có học đều không? Con mạnh/yếu ở đâu?</td>
+<td>Chuyên cần buổi tại trung tâm; % bài hằng ngày hoàn thành; xu hướng
+điểm 4 kỹ năng; nhận xét giáo viên</td>
+<td>Nhắn giáo viên; xem báo cáo tuần; xác nhận đã xem</td>
+</tr>
+<tr class="even">
+<td>Quản lý học vụ</td>
+<td>Lớp nào, giáo viên nào cần hỗ trợ? Học sinh nào có nguy cơ bỏ
+học?</td>
+<td>Tỉ lệ hoàn thành theo lớp/cấp độ; học sinh nguy cơ (vắng + bỏ bài);
+tiến độ lớp so kế hoạch; mức sẵn sàng thi KET</td>
+<td>Xem lớp, gửi ghi chú cho giáo viên, lập danh sách gọi phụ huynh, đề
+xuất chuyển cấp độ</td>
+</tr>
+</tbody>
+</table></div>
+<p>Nguyên tắc "học sinh cần chú ý" (theo mô hình Canvas): học sinh được
+gắn cờ khi vượt một ngưỡng giáo viên tự đặt, ví dụ bỏ từ 3 bài hằng ngày
+liên tiếp, vắng 2 buổi trong 4 tuần, hoặc độ chính xác một kỹ năng dưới
+50%. Các ngưỡng này là gợi ý ban đầu, IVY nên điều chỉnh sau vài tuần
+chạy thử.</p>
+<h2 id="chi-tiết-màn-hình-dashboard-giáo-viên">Chi tiết màn hình
+Dashboard giáo viên</h2>
+<p>Trang chủ giáo viên đặt danh sách "học sinh cần chú ý" và nút hành
+động ở vị trí nổi bật nhất, vì đó là việc giáo viên cần làm mỗi
+ngày.</p>
+<p><img src="media/image1.png"
+
+alt="Bố cục trang chủ giáo viên · 4 thẻ chỉ số, 4 khối chi tiết" /></p>
+<p>Bố cục trang chủ giáo viên · 4 thẻ chỉ số, 4 khối chi tiết</p>
+<p>Đọc từ trên xuống: bộ lọc lớp và buổi hiện tại, 4 thẻ chỉ số (thẻ
+"Cần chú ý" được nhấn mạnh), rồi hai khối hành động và hai khối xu
+hướng. Tên học sinh và lý do trong hình chỉ là ví dụ.</p>
+<p>Cách hoạt động của từng khối:</p>
+<ol type="1">
+<li><p><strong>Bài hằng ngày</strong>: bấm vào ra lưới học sinh × ngày,
+mỗi ô xanh (đúng hạn), vàng (muộn), đỏ (bỏ), theo kiểu
+Duolingo.</p></li>
+<li><p><strong>Học sinh cần chú ý</strong>: mỗi dòng có lý do gắn cờ và
+một nút hành động (nhắc học sinh, báo phụ huynh, giao bài bù), theo kiểu
+Canvas.</p></li>
+<li><p><strong>Lỗi sai nhiều nhất</strong>: gom theo câu hỏi, điểm ngữ
+pháp và dạng bài KET, theo kiểu báo cáo tô màu của Wayground; một nút
+tạo ngay bài ôn hoặc game ôn cho buổi tới.</p></li>
+<li><p><strong>Tiến độ lộ trình</strong>: so buổi thực tế với kế hoạch
+94 buổi; lớp chậm quá 2 buổi thì thẻ chuyển màu cảnh báo.</p></li>
+<li><p><strong>Xu hướng 4 kỹ năng</strong>: gồm cả điểm chấm tay (Nói,
+Viết, chuyên cần) như grading categories của Cambridge One; giáo viên
+được sửa điểm chấm tự động.</p></li>
+</ol>
+<h2 id="game-hóa-an-toàn-cho-tuổi-teen">Game hóa an toàn cho tuổi
+teen</h2>
+<p>Giữ sức hút của game nhưng tránh so sánh cá nhân công khai, vì bảng
+xếp hạng là yếu tố dễ gây phản tác dụng nhất và học sinh lớp 7–9 vốn
+ngại bị đem ra so sánh trước bạn bè.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 38%" />
+<col style="width: 22%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nên dùng</th>
+<th>Thay cho</th>
+<th>Lý do</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bảng xếp hạng <strong>theo đội</strong> trong lớp, đổi đội theo
+tháng</td>
+<td>Bảng xếp hạng cá nhân toàn lớp</td>
+<td>Hợp với khuyến nghị chơi theo đội cho lớp 7–9; học sinh yếu không bị
+lộ</td>
+</tr>
+<tr class="even">
+<td>"Kỷ lục của em": XP tuần này so với tuần trước</td>
+<td>Thứ hạng tuyệt đối</td>
+<td>Học sinh nào cũng có thể tiến bộ</td>
+</tr>
+<tr class="odd">
+<td>Chỉ cộng điểm, không trừ điểm</td>
+<td>Trừ điểm hành vi kiểu ClassDojo</td>
+<td>Phản hồi từ người dùng ClassDojo cho thấy trừ điểm gây cảm giác tiêu
+cực</td>
+</tr>
+<tr class="even">
+<td>Huy hiệu cho sự kiên trì (làm lại câu sai, chuỗi 7 ngày)</td>
+<td>Huy hiệu chỉ cho điểm cao</td>
+<td>Khuyến khích thói quen học hằng ngày</td>
+</tr>
+<tr class="odd">
+<td>Bảng xếp hạng cá nhân chỉ trong game trực tiếp trên lớp, tự xóa sau
+buổi</td>
+<td>Bảng xếp hạng lưu vĩnh viễn</td>
+<td>Giữ không khí thi đua ngắn hạn mà không đóng dấu lâu dài</td>
+</tr>
+</tbody>
+</table></div>
+<p>Tùy cấp độ, giao diện cũng nên đổi phong cách: lớp có nhiều học sinh
+lớp 5–6 dùng màu sắc, nhân vật; lớp có học sinh lớp 8–9 dùng giao diện
+tối giản, nhấn vào mục tiêu KET và tiến độ thực.</p>
+<h2 id="lộ-trình-triển-khai">Lộ trình triển khai</h2>
+<p>Bắt đầu bằng MVP cho giáo viên và học sinh ở 1–2 lớp thí điểm (ví dụ
+Bridge-up và Kick-off), rồi mới mở rộng sang phụ huynh và quản lý học
+vụ.</p>
+<p><img src="media/image2.png"
+
+alt="Lộ trình triển khai · 3 giai đoạn, 2 cổng đánh giá" /></p>
+<p>Lộ trình triển khai · 3 giai đoạn, 2 cổng đánh giá</p>
+<p>Mỗi giai đoạn chỉ sang bước tiếp khi qua cổng đánh giá; thời lượng
+từng giai đoạn cần IVY chốt theo nguồn lực lập trình.</p>
+<h2 id="nguồn-tham-khảo">Nguồn tham khảo</h2>
+<ul>
+<li><p><a
+href="https://support.google.com/edu/classroom/answer/14221316?hl=en">Google
+Classroom – Learn about Classroom analytics as a teacher</a></p></li>
+<li><p><a
+href="https://workspaceupdates.googleblog.com/2023/11/use-google-classroom-analytics+.html">Google
+Workspace Updates – Classroom analytics (2023)</a></p></li>
+<li><p><a
+href="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-and-download-reports-in-New-Analytics/ta-p/409936">Canvas
+– View and download reports in New Analytics</a></p></li>
+<li><p><a
+href="https://asklits.mtholyoke.edu/TDClient/50/Portal/KB/PrintArticle?ID=19887">Mount
+Holyoke – Course Analytics in Canvas</a></p></li>
+<li><p><a
+href="https://help.canvas.yale.edu/a/2029620-students-in-need-of-attention-report">Canvas
+@ Yale – Students in Need of Attention report</a></p></li>
+<li><p><a href="https://wayground.com/home/solutions/reports">Wayground
+– Reports</a></p></li>
+<li><p><a
+href="https://www.edutopia.org/article/supercharge-your-wayground-use/">Edutopia
+– Supercharge your Wayground use</a></p></li>
+<li><p><a
+href="https://alicekeeler.com/2025/08/05/how-to-use-wayground-formerly-quizizz/">Alice
+Keeler – How to use Wayground</a></p></li>
+<li><p><a href="https://teachersfirst.org/blog/?p=4726">TeachersFirst –
+Duolingo for Schools</a></p></li>
+<li><p><a
+href="https://fsrinc.com/fsr-press-room/216-5-creative-ways-to-use-duolingo-in-the-classroom">FSR
+– Using Duolingo in the classroom</a></p></li>
+<li><p><a
+href="https://pages.cambridgeenglish.org/cambridge-one-latest-updates">Cambridge
+One – Latest updates</a></p></li>
+<li><p><a href="https://www.techlearning.com/ed-tech-ticker/12190">Tech
+&amp; Learning – What is ClassDojo</a></p></li>
+<li><p><a
+href="https://www.capterra.com/p/124446/ClassDojo/reviews/?page=12">Capterra
+– ClassDojo reviews</a></p></li>
+<li><p><a href="https://apps.apple.com/br/app/id6695745734">Schooly –
+App Store</a></p></li>
+<li><p><a
+href="https://www.forasoft.com/learn/elearning-video/glossary/terms-elearning/dashboard">Fora
+Soft – Analytics dashboard</a></p></li>
+<li><p><a
+href="https://fanruan.com/en/blog/why-most-dashboard-lms-setups-fail">FanRuan
+– Why most dashboard LMS setups fail</a></p></li>
+<li><p><a
+href="https://www.springerprofessional.de/en/the-dark-side-of-gamification-an-overview-of-negative-effects-of/16000882">Toda
+et al. – The Dark Side of Gamification (2018)</a></p></li>
+<li><p><a href="https://par.nsf.gov/biblio/10510520">NSF PAR –
+Leaderboards and motivation</a></p></li>
+</ul>
+</article></div></main>
+<footer class="footer"><div class="wrap">IVY – Trung tâm tiếng Anh THCS · Tài liệu nội bộ chương trình Teen</div></footer>
+</body></html>
