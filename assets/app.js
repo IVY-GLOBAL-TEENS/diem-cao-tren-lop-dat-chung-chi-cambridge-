@@ -86,6 +86,7 @@
         <div class="btn-row">
           <a class="btn primary" href="#/lo-trinh">Xem lộ trình 94 buổi</a>
           <a class="btn" href="#/bai-tap">Theo dõi bài tập</a>
+          <a class="btn" href="phong-thi/" style="border-color:var(--accent);color:var(--accent)">Vào phòng thi ảo</a>
         </div>
       </div>
       <div class="hero-panel">
@@ -125,6 +126,7 @@
         ["#/ket", "Bản đồ KET", "Mỗi part của A2 Key được luyện ở những buổi nào."],
         ["#/game", "Game theo lứa tuổi", "Chọn hình thức game theo tuổi, nội dung theo trình độ."],
         ["#/bai-tap", "Bài tập về nhà", "Lịch học theo ngày khai giảng, đánh dấu bài đã làm."],
+        ["phong-thi/", "Phòng thi ảo KET/PET", "Học sinh luyện kỹ năng, làm đề mô phỏng thi máy, chơi game theo cấp độ."],
       ].map(([h, t, d]) => `<a class="card unit-card" href="${h}"><h3>${t} →</h3><span class="muted">${d}</span></a>`).join("")}
     </div>`;
   }
