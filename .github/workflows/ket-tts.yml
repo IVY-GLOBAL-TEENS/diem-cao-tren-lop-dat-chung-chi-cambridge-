@@ -1,0 +1,47 @@
+name: KET listening audio (Gemini TTS)
+
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "Gemini TTS model"
+        default: "gemini-3.1-flash-tts-preview"
+      rpm:
+        description: "Requests per minute (Free tier: 3 · Tier 1: 10)"
+        default: "3"
+      only:
+        description: "Only these tests, comma separated (e.g. t01-1). Empty = all 50 tests"
+        default: ""
+  schedule:
+    - cron: "17 9 * * *"   # once a day (16:17 Vietnam time) – continues if the daily quota stopped the last run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ket-tts
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Generate audio
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TTS_MODEL: ${{ github.event.inputs.model || 'gemini-3.1-flash-tts-preview' }}
+          TTS_RPM: ${{ github.event.inputs.rpm || '3' }}
+          TTS_ONLY: ${{ github.event.inputs.only || '' }}
+          TTS_MAX_MINUTES: "300"
+        run: python3 ket-audio/generate.py
+      - name: Save audio to the repository
+        if: always()
+        run: |
+          git config user.name "ket-audio-bot"
+          git config user.email "ket-audio-bot@users.noreply.github.com"
+          git add ket-audio/audio
+          git diff --cached --quiet || (git commit -m "KET audio: thêm file nghe Gemini TTS" && git push)
