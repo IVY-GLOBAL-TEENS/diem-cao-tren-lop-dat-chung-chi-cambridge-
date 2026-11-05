@@ -59,6 +59,124 @@ def build_request(turns):
             "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": speech}}
 
 
+PACK_SECONDS = float(os.environ.get("TTS_PACK_SECONDS", "330"))   # max estimated length of one combined request
+SEP = "###"
+
+
+def est_seconds(turns):
+    return sum(len(t["t"].split()) for t in turns) / 2.3 + 1.0      # ~138 words per minute
+
+
+def make_packs(cs, failed):
+    """Group a test's clips (in order) into requests with at most 2 voices and ~PACK_SECONDS of speech.
+    Clips whose pack failed to split before are sent alone."""
+    packs, cur, voices, secs = [], [], set(), 0.0
+    for clip, turns in cs:
+        sp = {t["s"] for t in turns}
+        alone = clip in failed
+        if cur and (alone or len(voices | sp) > 2 or secs + est_seconds(turns) > PACK_SECONDS):
+            packs.append(cur); cur, voices, secs = [], set(), 0.0
+        cur.append((clip, turns)); voices |= sp; secs += est_seconds(turns)
+        if alone:
+            packs.append(cur); cur, voices, secs = [], set(), 0.0
+    if cur:
+        packs.append(cur)
+    return packs
+
+
+def build_pack_request(pack):
+    if len(pack) == 1:
+        return build_request(pack[0][1])
+    speakers = []
+    for _, turns in pack:
+        for t in turns:
+            if t["s"] not in speakers:
+                speakers.append(t["s"])
+    names = [NAMES.get(s, s) for s in speakers]
+    lines = []
+    for i, (_, turns) in enumerate(pack):
+        if i:
+            lines.append(SEP)
+        lines += [f"{NAMES.get(t['s'], t['s'])}: {t['t']}" if len(speakers) > 1 else t["t"] for t in turns]
+    text = (STYLE + f" The text contains {len(pack)} separate recordings divided by the line {SEP}. "
+            f"Do not read {SEP} aloud; instead leave a silence of about four seconds there.\n\n"
+            + (f"TTS the following conversations between {names[0]} and {names[1]}:\n" if len(speakers) > 1 else "")
+            + "\n".join(lines))
+    if len(speakers) == 1:
+        speech = {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOICES.get(speakers[0], "Kore")}}}
+    else:
+        speech = {"multiSpeakerVoiceConfig": {"speakerVoiceConfigs": [
+            {"speaker": NAMES.get(s, s), "voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOICES.get(s, "Kore")}}}
+            for s in speakers[:2]]}}
+    return {"contents": [{"role": "user", "parts": [{"text": text}]}],
+            "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": speech}}
+
+
+def to_wav(raw, mime, dest):
+    if raw[:4] == b"RIFF":
+        open(dest, "wb").write(raw); return
+    rate = mime.split("rate=")[1].split(";")[0] if "rate=" in mime else "24000"
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "s16le", "-ar", rate, "-ac", "1", "-i", "pipe:0", dest],
+                   input=raw, check=True)
+
+
+def wav_duration(path):
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+                         capture_output=True, text=True).stdout.strip()
+    return float(out)
+
+
+def silences(path):
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", path, "-af", "silencedetect=noise=-42dB:d=1.4",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    out, start = [], None
+    for line in r.stderr.splitlines():
+        if "silence_start:" in line:
+            start = float(line.split("silence_start:")[1].split()[0])
+        elif "silence_end:" in line and start is not None:
+            end = float(line.split("silence_end:")[1].split()[0]); out.append((start, end)); start = None
+    return out
+
+
+def split_pack(wav, pack):
+    """Return cut points (seconds) between clips, or None if the audio can't be split reliably."""
+    n = len(pack)
+    if n == 1:
+        return []
+    total = wav_duration(wav)
+    sil = [s for s in silences(wav) if 0.5 < s[0] and s[1] < total - 0.5]
+    if len(sil) < n - 1:
+        return None
+    w = [est_seconds(t) for _, t in pack]
+    cuts, used = [], set()
+    for i in range(1, n):
+        expect = total * sum(w[:i]) / sum(w)
+        cands = [(abs((a + b) / 2 - expect) - 0.6 * (b - a), j) for j, (a, b) in enumerate(sil) if j not in used]
+        if not cands:
+            return None
+        _, j = min(cands); used.add(j); a, b = sil[j]
+        cuts.append((a + b) / 2)
+    if cuts != sorted(cuts):
+        return None
+    bounds = [0.0] + cuts + [total]
+    for i in range(n):                                   # each part must be roughly the expected length
+        seg, exp = bounds[i + 1] - bounds[i], w[i] * total / sum(w)
+        if not (0.55 * exp <= seg <= 1.6 * exp):
+            return None
+    return cuts
+
+
+def save_mp3(src, dest, start=None, end=None):
+    cut = []
+    if start is not None:
+        cut += ["-ss", f"{start:.3f}"]
+    if end is not None:
+        cut += ["-to", f"{end:.3f}"]
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", src, *cut,
+                    "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,loudnorm=I=-18:TP=-2",
+                    "-ac", "1", "-ar", "24000", "-b:a", "32k", dest], check=True)
+
+
 class DailyQuota(Exception):
     pass
 
@@ -85,6 +203,8 @@ def call_api(body):
                             wait = int(float(d["retryDelay"].rstrip("s"))) + 3
                 except Exception:
                     pass
+                if attempt >= 2:
+                    raise DailyQuota("still rate limited after several waits – probably the daily quota")
                 print(f"   rate limited, waiting {wait}s", flush=True)
                 time.sleep(wait)
                 continue
@@ -101,24 +221,11 @@ def call_api(body):
     raise RuntimeError("giving up on this clip after retries")
 
 
-def to_mp3(raw, mime, dest):
-    with tempfile.TemporaryDirectory() as tmp:
-        if raw[:4] == b"RIFF":                       # newer models return WAV
-            src = os.path.join(tmp, "in.wav"); open(src, "wb").write(raw); args = ["-i", src]
-        else:                                        # raw 16-bit PCM, 24 kHz mono
-            rate = "24000"
-            if "rate=" in mime:
-                rate = mime.split("rate=")[1].split(";")[0]
-            src = os.path.join(tmp, "in.pcm"); open(src, "wb").write(raw)
-            args = ["-f", "s16le", "-ar", rate, "-ac", "1", "-i", src]
-        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *args,
-                        "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,loudnorm=I=-18:TP=-2",
-                        "-ac", "1", "-ar", "24000", "-b:a", "32k", dest], check=True)
-
-
 def write_index(done):
     idx = {}
     for key in sorted(done):
+        if "/" not in key:
+            continue
         tid, clip = key.split("/")
         if os.path.exists(os.path.join(OUT, tid, clip + ".mp3")):
             idx.setdefault(tid, []).append(clip)
@@ -133,37 +240,73 @@ def main():
     clips = json.load(open(CLIPS, encoding="utf-8"))
     os.makedirs(OUT, exist_ok=True)
     done = json.load(open(DONE)) if os.path.exists(DONE) else {}
-    todo = []
+    failed = set(done.get("_split_failed", []))
+    errs = done.get("_errors", {})
+    jobs = []
     for tid, cs in clips.items():
         if ONLY and tid not in ONLY:
             continue
-        for clip, turns in cs.items():
-            key = f"{tid}/{clip}"
-            if done.get(key) != script_hash(turns) or not os.path.exists(os.path.join(OUT, tid, clip + ".mp3")):
-                todo.append((tid, clip, turns))
-    print(f"Model {MODEL} · {len(todo)} clips to make · RPM {RPM}", flush=True)
-    start, made, gap = time.time(), 0, 60.0 / max(RPM, 0.1)
+        need = [(clip, turns) for clip, turns in cs.items() if errs.get(f"{tid}/{clip}", 0) < 3 and (
+                done.get(f"{tid}/{clip}") != script_hash(turns) or not os.path.exists(os.path.join(OUT, tid, clip + ".mp3")))]
+        for pack in make_packs(need, {c.split("/")[1] for c in failed if c.startswith(tid + "/")}):
+            jobs.append((tid, pack))
+    n_clips = sum(len(p) for _, p in jobs)
+    print(f"Model {MODEL} · {n_clips} clips to make in {len(jobs)} requests · RPM {RPM}", flush=True)
+    start, made, reqs, gap = time.time(), 0, 0, 60.0 / max(RPM, 0.1)
     try:
-        for tid, clip, turns in todo:
-            if made >= MAX_REQUESTS or (time.time() - start) / 60 > MAX_MINUTES:
+        for tid, pack in jobs:
+            if reqs >= MAX_REQUESTS or (time.time() - start) / 60 > MAX_MINUTES:
                 print("Stopping for this run (limit reached); the next run continues.")
                 break
             t0 = time.time()
-            raw, mime = call_api(build_request(turns))
+            try:
+                raw, mime = call_api(build_pack_request(pack)); reqs += 1
+            except RuntimeError as e:
+                reqs += 1
+                if len(pack) == 1:
+                    key = f"{tid}/{pack[0][0]}"; errs[key] = errs.get(key, 0) + 1
+                else:                       # retry the same pack once more before splitting it into single requests
+                    pk = f"pack:{tid}/{pack[0][0]}"; errs[pk] = errs.get(pk, 0) + 1
+                    if errs[pk] >= 2:
+                        for clip, _ in pack:
+                            failed.add(f"{tid}/{clip}")
+                print(f"  ! {tid}: request failed ({str(e)[:150]})", flush=True)
+                time.sleep(gap); continue
             os.makedirs(os.path.join(OUT, tid), exist_ok=True)
-            to_mp3(raw, mime, os.path.join(OUT, tid, clip + ".mp3"))
-            done[f"{tid}/{clip}"] = script_hash(turns)
-            made += 1
-            if made % 10 == 0:
-                json.dump(done, open(DONE, "w"), indent=0)
-            print(f"  ✓ {tid}/{clip}  ({made}/{len(todo)})", flush=True)
+            with tempfile.TemporaryDirectory() as tmp:
+                wav = os.path.join(tmp, "pack.wav"); to_wav(raw, mime, wav)
+                cuts = split_pack(wav, pack)
+                if cuts is None:
+                    for clip, _ in pack:
+                        failed.add(f"{tid}/{clip}")
+                    print(f"  ✗ {tid}: could not split {len(pack)} clips – they will be made one by one next time", flush=True)
+                else:
+                    bounds = [None] + cuts + [None]
+                    outs = []
+                    for i, (clip, turns) in enumerate(pack):
+                        tmpmp3 = os.path.join(tmp, clip + ".mp3")
+                        save_mp3(wav, tmpmp3, bounds[i], bounds[i + 1])
+                        ok = os.path.exists(tmpmp3) and os.path.getsize(tmpmp3) > 2000 and wav_duration(tmpmp3) > 1.5
+                        outs.append((clip, turns, tmpmp3, ok))
+                    if all(o[3] for o in outs):
+                        for clip, turns, tmpmp3, _ in outs:
+                            os.replace(tmpmp3, os.path.join(OUT, tid, clip + ".mp3"))
+                            done[f"{tid}/{clip}"] = script_hash(turns); failed.discard(f"{tid}/{clip}"); made += 1
+                        print(f"  ✓ {tid}: {', '.join(c for c, _ in pack)}  (request {reqs}/{len(jobs)})", flush=True)
+                    else:
+                        for clip, *_ in outs:
+                            failed.add(f"{tid}/{clip}")
+                        print(f"  ✗ {tid}: a clip came out empty – {len(pack)} clips will be made one by one next time", flush=True)
+            done["_split_failed"] = sorted(failed)
+            json.dump(done, open(DONE, "w"), indent=0)
             time.sleep(max(0.0, gap - (time.time() - t0)))
     except DailyQuota as e:
-        print("Daily quota used up – stopping now; the scheduled run will continue tomorrow.\n", e)
+        print("Daily quota used up – stopping now; the scheduled run will continue tomorrow.\n", str(e)[:200])
     finally:
+        done["_split_failed"] = sorted(failed); done["_errors"] = errs
         json.dump(done, open(DONE, "w"), indent=0)
         total = write_index(done)
-        print(f"Made {made} clips this run · {total} of {sum(len(v) for v in clips.values())} ready in total.")
+        print(f"Made {made} clips with {reqs} requests this run · {total} of {sum(len(v) for v in clips.values())} ready in total.")
 
 
 if __name__ == "__main__":

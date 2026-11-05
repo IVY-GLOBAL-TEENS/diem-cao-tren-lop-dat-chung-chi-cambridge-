@@ -13,7 +13,7 @@ on:
         description: "Only these tests, comma separated (e.g. t01-1). Empty = all 50 tests"
         default: ""
   schedule:
-    - cron: "17 9 * * *"   # once a day (16:17 Vietnam time) – continues if the daily quota stopped the last run
+    - cron: "17 8 * * *"   # mỗi ngày 15:17 giờ VN, ngay sau khi hạn mức miễn phí của Gemini được làm mới (0h giờ Thái Bình Dương)
 
 permissions:
   contents: write
