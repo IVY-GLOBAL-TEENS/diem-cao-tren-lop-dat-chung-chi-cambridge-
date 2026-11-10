@@ -1358,6 +1358,7 @@ function renderChips(){
   <span class="chip" title="Xu"><i style="background:var(--gold)"><svg width="14" height="14" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#b98a08"/><circle cx="12" cy="12" r="6" fill="#ffe08a"/></svg></i><span><small>Xu</small>${S.coins}</span></span>
   <span class="chip" title="Chuỗi ngày học"><i style="background:var(--orange)"><svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2c1 4 6 6 6 12a6 6 0 0 1-12 0c0-3 2-5 3-6 0 2 1 3 2 3 0-4-1-6 1-9z" fill="#fff"/></svg></i><span><small>Chuỗi</small>${S.streak} ngày</span></span>
   <button class="icon-btn" data-act="sound" aria-label="${S.sound?'Tắt':'Bật'} âm hiệu ứng">${S.sound?ICON.sound:ICON.mute}</button>`}
+document.addEventListener('input',e=>{if(e.target&&e.target.id==='ketq'){V.q=e.target.value;const pos=e.target.selectionStart;render();const n=document.getElementById('ketq');if(n){n.focus();try{n.setSelectionRange(pos,pos)}catch(_){}}}});
 function render(){
   const examMode=['test','speak'].includes(V.name);
   $('#app').hidden=examMode;
@@ -1783,10 +1784,30 @@ VIEWS.drill=()=>{const deco=[DRIP+doo('heart','#0b16b0','top:60px;right:14px'),d
   return`<div class="sec-title"><h2>Luyện Đề Theo Kỹ Năng</h2><span class="muted">Dạng bài sát đề thi, có đồng hồ</span></div>
   ${porch(`<div class="booths">${EXAM_ORDER.map((k,i)=>{const e=EXAMS[k];return`<article class="booth" style="--tilt:${e.tilt}">${deco[i]}
     <div class="booth-top"><h3>${e.name}</h3><span class="lvb">${e.level}</span></div>
-    <button class="window" data-act="room" data-arg="${e.id}|listening"><span class="ws">${e.sub}</span><span class="wsub">Bấm để vào phòng luyện</span></button>
+    <button class="window" data-act="room" data-arg="${e.id}|listening"><span class="ws">${e.sub}</span><span class="wsub">${e.id==='ket'?'50 đề theo 25 chủ điểm · bấm để chọn đề':'Bấm để vào phòng luyện'}</span></button>
     <div class="shelf"></div>
     <div class="bskills">${SKILLS.map(s=>{const p=bestPct(e.id,s.id);return`<button class="bsk" style="--c:${s.c}" data-act="room" data-arg="${e.id}|${s.id}">${ICON[s.id]}${s.vi}<small>${p?p+'%':'—'}</small></button>`}).join('')}</div></article>`}).join('')}</div>`)}`};
 function startRoom(ex,sk){go('room',{ex,sk,ans:{},done:false,plays:{},left:EXAMS[ex].time[sk]*60,wi:0,sp:{i:0,phase:'idle',left:0,stars:{}}})}
+/* ---------- KET: kho 50 đề theo chủ điểm (phong-thi/ket/) ---------- */
+let KETCAT=null,KETTOP=null;
+(async()=>{try{const[c,t]=await Promise.all([fetch('ket/catalog.json').then(r=>r.json()),fetch('ket/topics.json').then(r=>r.json())]);KETCAT=c;KETTOP=t;if(V.name==='ketbank')render()}catch(e){KETCAT=[];KETTOP=[]}})();
+const KSK={listening:{tab:'l',parts:'Listening · Part 1–5',hint:'Nghe 5 phần, mỗi đoạn nghe 2 lần khi làm Test.'},reading:{tab:'rw',parts:'Reading & Writing · Part 1–5',hint:'Đọc biển báo, đoạn văn, điền từ (Part 1–5).'},writing:{tab:'rw',parts:'Reading & Writing · Part 6–7',hint:'Viết email 25+ từ (Part 6) và truyện theo tranh 35+ từ (Part 7).'},speaking:{tab:'s',parts:'Speaking · Part 1–2',hint:'Phỏng vấn và thảo luận theo tranh, có giám khảo ảo.'}};
+function ketDone(id){try{return!!localStorage.getItem('ketbank:res:'+id)}catch(e){return false}}
+VIEWS.ketbank=()=>{const sk=V.sk||'listening',K=KSK[sk];
+  const head=`<div class="roomhead"><button class="b3 ghost sm" data-act="go" data-arg="drill">${ICON.back}Luyện đề</button>
+   <div><h2>KET <span class="tag" style="background:var(--navy)">A2</span> · Kho 50 đề theo chủ điểm</h2><div class="muted" style="font-size:.88rem">A2 Key for Schools (2020) · 25 chủ điểm từ vựng Cambridge × 2 đề · chế độ Luyện tập hoặc Test</div></div></div>
+   <div class="tabs" role="tablist">${SKILLS.map(s=>`<button role="tab" aria-selected="${s.id===sk}" data-act="room" data-arg="ket|${s.id}">${ICON[s.id]}${s.vi}</button>`).join('')}</div>`;
+  if(!KETCAT)return head+`<div class="panel">Đang tải kho đề…</div>`;
+  const q=(V.q||'').toLowerCase().trim();
+  const tops=KETTOP.filter(t=>!q||(t.en+' '+t.vi+' '+t.words).toLowerCase().includes(q));
+  const done=KETCAT.filter(c=>ketDone(c[0])).length;
+  return head+`<div class="panel" style="margin-bottom:14px"><div class="row"><div><b style="font-family:var(--display);font-size:1.15rem">${K.parts}</b><div class="hint">${K.hint} Bấm một đề để mở đúng phần ${SKILLS.find(s=>s.id===sk).vi}.</div></div><span class="sp"></span>
+    <span class="tag" style="background:var(--lime)">Đã làm ${done}/${KETCAT.length} đề</span></div>
+    <input id="ketq" class="codein" style="width:100%;letter-spacing:0;text-transform:none;font-family:var(--body);font-weight:700;margin-top:10px" placeholder="Tìm chủ điểm hoặc từ vựng (vd: weather, food, sport)…" value="${esc(V.q||'')}"></div>
+   <div class="ugrid">${tops.map((t,i)=>{const ts=KETCAT.filter(c=>c[1]===t.id);return`<div class="ucard" style="--tilt:${[-1,.8,-.4,1.1,-.7][i%5]}deg;flex-direction:column;gap:10px">
+     <div style="display:flex;gap:12px;align-items:center"><span class="unum" style="background:var(--navy);font-size:1.5rem">${t.icon||''}</span><span class="ubody"><small>Chủ điểm ${+t.id}</small><b>${esc(t.en)}</b><span class="utopic">${esc(t.vi)}</span></span></div>
+     <div style="display:grid;gap:6px;width:100%">${ts.map(c=>`<a class="ticket" style="--c:var(--red);text-decoration:none" href="ket/#${c[0]}/${K.tab}"><span class="ti">${c[2]}</span><span><b>Đề ${c[2]}</b><small>${esc(c[3])}</small>${ketDone(c[0])?'<span class="best">✓ đã làm</span>':''}</span><span class="go">›</span></a>`).join('')}</div></div>`}).join('')||'<div class="panel">Không tìm thấy chủ điểm phù hợp.</div>'}</div>
+   <p class="hint" style="color:var(--rose);margin-top:16px">Muốn làm thử nhanh 1 đề mẫu ngắn? <button class="b3 ghost sm" data-act="room2" data-arg="ket|${sk}">Phòng luyện nhanh</button></p>`};
 VIEWS.room=()=>{const e=EXAMS[V.ex];
   return`<div class="roomhead"><button class="b3 ghost sm" data-act="go" data-arg="drill">${ICON.back}Luyện đề</button>
    <div><h2>${e.name} <span class="tag" style="background:var(--navy)">${e.level}</span></h2><div class="muted" style="font-size:.88rem">${e.sub}</div></div>
@@ -2165,7 +2186,8 @@ function act(a,arg,el){
   case'gpick':{const it=V.q[V.qi];V.qsel=+arg;const ok=V.qsel===it[2];if(ok){V.qscore++;S.missions.grammar=(S.missions.grammar||0)+1;save()}sfx(ok);render();break}
   case'gnext':V.qi++;V.qsel=null;if(V.qi>=V.q.length)finishAct(Math.round(V.qscore/V.q.length*100));render();break;
   /* luyện đề */
-  case'room':{const[ex,sk]=arg.split('|');startRoom(ex,sk);break}
+  case'room':{const[ex,sk]=arg.split('|');if(ex==='ket')go('ketbank',{sk:sk||'listening',q:''});else startRoom(ex,sk);break}
+  case'room2':{const[ex,sk]=arg.split('|');startRoom(ex,sk);break}
   case'retry':if(V.name==='room')startRoom(V.ex,V.sk);else go('challenge');break;
   case'pick':{const[i,j]=arg.split('|').map(Number);V.ans[i]=j;el.parentNode.querySelectorAll('.opt').forEach((b,k)=>b.setAttribute('aria-pressed',k===j));break}
   case'listen':{const e=EXAMS[V.ex];const key=arg;const lines=key==='all'?e.listening.script:e.listening.items[+key].script;

@@ -183,7 +183,7 @@ footer{color:var(--muted);font-size:13px;padding:10px 0 40px;text-align:center}
 <body>
 <header class="top"><div class="wrap">
   <button class="brand" onclick="go('')" aria-label="Trang chủ"><img class="ivylogo-img hdr" src="img/logo-ivy-white.png" alt="IVY English"><span class="logo">A2 Key for Schools<small>Kho đề luyện tập theo chủ điểm · Format 2020</small></span></button>
-  <a href="../" style="color:#fff;font-weight:700;font-size:.9rem;text-decoration:none;border:2px solid rgba(255,255,255,.7);border-radius:999px;padding:5px 12px;margin-left:10px;white-space:nowrap">← Phòng thi ảo</a>
+  <a href="../?view=ketbank" style="color:#fff;font-weight:700;font-size:.9rem;text-decoration:none;border:2px solid rgba(255,255,255,.7);border-radius:999px;padding:5px 12px;margin-left:10px;white-space:nowrap">← Phòng thi ảo</a>
   <div class="spacer"></div>
   <div class="who">Họ tên học sinh: <input id="sname" placeholder="Nhập tên của em…" autocomplete="off"></div>
 </div></header>
@@ -302,7 +302,8 @@ function route(){
   if(typeof closeExam==="function" && document.getElementById("xp")) closeExam();
   TTS.stop(); clearInterval(timerInt);
   const h = location.hash.replace("#","");
-  if(/^t\d\d-\d$/.test(h) && cache[h]) openTest(h);
+  const mt = h.match(/^(t\d\d-\d)(?:\/(rw|l|s|v))?$/);
+  if(mt && cache[mt[1]]) openTest(mt[1], mt[2]);
   else home();
   window.scrollTo(0,0);
 }
@@ -392,9 +393,10 @@ function savePage(){ if(cur && page) store.set("page:"+cur.id, page); }
 function saveResult(){ const r = store.get("res:"+cur.id, {}); const [s,mx] = runScore(state); r[state.key] = {s, mx, mode: state.mode, at: state.at}; store.set("res:"+cur.id, r); }
 
 /* ---------- test page ---------- */
-function openTest(id){
+function openTest(id, tab){
   cur = cache[id]; state = null;
   page = store.get("page:"+id, null) || {tab:"rw", view:null};
+  if(tab){ page.tab = tab; page.view = null; }
   if(typeof loadExp==="function") loadExp(id).then(()=>{ if(cur && cur.id===id && !document.getElementById("xp")) showTab(); });
   const topic = TOPICS.find(t=>t.id===cur.topic) || {};
   document.title = `${topic.en} – Đề ${cur.testNo} · KET for Schools`;
