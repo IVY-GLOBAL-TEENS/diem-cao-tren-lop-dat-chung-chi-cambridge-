@@ -215,7 +215,7 @@ mark.hl{background:#ffe866;color:inherit;padding:0;border-radius:2px}
 .vtable td,.vtable th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
 .vtable th{color:var(--muted);font-weight:600}
 /* ===== IVY branding + mascot + lively practice ===== */
-.ivylogo{display:inline-flex;flex-direction:column;align-items:stretch;gap:2px;background:#fdf3c4;border-radius:7px;padding:4px 6px 4px;box-shadow:0 4px 0 #9c0e1b;font-family:"Oswald","Arial Narrow",Arial,sans-serif;line-height:1;flex:none}
+.ivylogo{display:inline-flex;flex-direction:column;align-items:stretch;gap:2px;background:#fdf3c4;border-radius:7px;padding:4px 6px 4px;box-shadow:0 4px 0 #050a55;font-family:"Oswald","Arial Narrow",Arial,sans-serif;line-height:1;flex:none}
 .ivylogo .lg-box{display:block;background:#cc0a14;color:#fdf3c4;font-weight:700;font-size:19px;line-height:1.25;letter-spacing:.34em;padding:0 .1em 0 .45em;text-align:center}
 .ivylogo .lg-en{display:block;color:#cc0a14;font-weight:700;font-size:10.5px;letter-spacing:.12em;text-align:center}
 .brand{display:flex;align-items:center;gap:14px;border:0;background:none;color:#fff;cursor:pointer;padding:0;text-align:left}
@@ -242,7 +242,7 @@ mark.hl{background:#ffe866;color:inherit;padding:0;border-radius:2px}
 .pcard .ph{display:flex;gap:10px;align-items:center}
 .pcard .pico{font-size:28px;width:46px;height:46px;border-radius:14px;background:#ffe9ea;display:grid;place-items:center;flex:none}
 .pcard.full .pic{background:#fff0c2}
-.pcard .pn{font-family:"Baloo 2",Lexend,sans-serif;font-weight:800;font-size:19px;line-height:1.1;color:#9c0e1b}
+.pcard .pn{font-family:"Baloo 2",Lexend,sans-serif;font-weight:800;font-size:19px;line-height:1.1;color:#050a55}
 .pcard .ps{font-size:13.5px;color:var(--muted)}
 .pcard .pm{font-size:12.5px;color:var(--muted)}
 .pcard .pst{display:flex;flex-direction:column;gap:3px;font-size:13px}
@@ -252,7 +252,7 @@ mark.hl{background:#ffe866;color:inherit;padding:0;border-radius:2px}
 .lnk{border:0;background:none;color:var(--brand);text-decoration:underline;padding:0;font-size:13px;cursor:pointer}
 .pcard .pb{display:flex;gap:8px;margin-top:auto}
 .mbtn{flex:1;border:0;border-radius:12px;padding:9px 8px;font-weight:700;font-size:14px;color:#fff;cursor:pointer;box-shadow:0 3px 0 rgba(0,0,0,.2)}
-.mbtn.practice{background:#14a99c}.mbtn.test{background:#d7192a}
+.mbtn.practice{background:#14a99c}.mbtn.test{background:#0b16b0}
 .mbtn:hover{filter:brightness(1.07)}
 .mbtn:active{transform:translateY(2px);box-shadow:none}
 .revhead{display:flex;gap:18px;align-items:center;border-radius:20px;padding:16px 22px;margin-bottom:16px;border:2px solid}
@@ -272,17 +272,17 @@ mark.hl{background:#ffe866;color:inherit;padding:0;border-radius:2px}
 .xp-cand .ivylogo{transform:scale(.82);transform-origin:left center;margin-right:-6px}
 .xp-cand .xp-avatar .mascot-svg{width:26px;height:32px}
 #xp.fun{background:#fffaf2}
-#xp.fun .xp-head{background:#d7192a;border-bottom:0;box-shadow:0 4px 0 #9c0e1b;color:#fff;position:relative;z-index:3}
+#xp.fun .xp-head{background:#0b16b0;border-bottom:0;box-shadow:0 4px 0 #050a55;color:#fff;position:relative;z-index:3}
 #xp.fun .xp-cand .id,#xp.fun .xp-title{color:#ffe4e6}
 #xp.fun .xp-avatar{background:#fff3c4}
 #xp.fun .xp-ico{color:#fff}#xp.fun .xp-ico:hover{background:rgba(255,255,255,.15)}
-#xp.fun .xp-vbtn{background:#fff3c4;border-color:#fff3c4;color:#9c0e1b}
+#xp.fun .xp-vbtn{background:#fff3c4;border-color:#fff3c4;color:#050a55}
 #xp.fun .xp-banner{background:repeating-linear-gradient(135deg,#fff3c4 0 18px,#ffeeb0 18px 36px);border-bottom:2px dashed #f4c13d;font-family:"Baloo 2",Arial,sans-serif;padding-top:12px}
 #xp.fun .xp-banner .pt{background:#14a99c;color:#fff;border-radius:999px;padding:2px 12px;margin-right:4px}
 #xp.fun .xp-col,#xp.fun .xp-single{background:transparent}
 #xp.fun .xp-left{background:#fff;border-radius:0 0 18px 0;box-shadow:inset -1px 0 0 #f1e4d0}
 #xp.fun .xp-div{background:#fff3c4;border-color:#f4c13d}
-#xp.fun .xq-num{background:#d7192a;color:#fff;border-color:#d7192a;border-radius:10px}
+#xp.fun .xq-num{background:#0b16b0;color:#fff;border-color:#0b16b0;border-radius:10px}
 #xp.fun .xq-opt{border-radius:14px;border-width:2px;border-color:#f1e0d0;box-shadow:0 3px 0 #f1e0d0;transition:transform .1s}
 #xp.fun .xq-opt:hover{transform:translateY(-1px);border-color:#14a99c}
 #xp.fun .xq-opt.sel{border-color:#14a99c;background:#e6f7f4;box-shadow:0 3px 0 #9fdcd4}
@@ -296,7 +296,7 @@ mark.hl{background:#ffe866;color:inherit;padding:0;border-radius:2px}
 #xp.fun .xfb{border-radius:14px}
 #xp.fun .xp-nav{background:#fff;border-top:3px solid #f4c13d}
 #xp.fun .xp-q{border-radius:9px}
-#xp.fun .xp-q.cur{background:#d7192a;border-color:#d7192a}
+#xp.fun .xp-q.cur{background:#0b16b0;border-color:#0b16b0}
 #xp.fun .xp-arr{background:#14a99c;border-radius:12px}
 #xp.fun .xp-fin{background:#f28a1d;border-radius:12px}
 #xp.fun .xp-start{background:#14a99c;border-radius:14px;font-family:"Baloo 2",Arial,sans-serif;font-size:1.15em;box-shadow:0 4px 0 #0b7268}
@@ -345,7 +345,7 @@ img.mascot-svg{object-fit:contain;user-select:none;-webkit-user-drag:none}
 .msw{border:2px solid var(--line);background:#fff;border-radius:14px;padding:10px 12px;font-weight:800;font-size:17px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;color:var(--muted);font-family:"Baloo 2",Lexend,sans-serif}
 .msw small{font-family:Lexend,sans-serif;font-weight:400;font-size:12px}
 .msw.practice.on{border-color:#14a99c;background:#e7f7f5;color:#0e7a70;box-shadow:0 3px 0 #14a99c}
-.msw.test.on{border-color:#d7192a;background:#fff0f1;color:#b3121f;box-shadow:0 3px 0 #d7192a}
+.msw.test.on{border-color:#0b16b0;background:#eef0ff;color:#070e7a;box-shadow:0 3px 0 #0b16b0}
 .pcard.test{border-color:#e9c1c5;box-shadow:0 4px 0 #e9c1c5;background:#fff}
-.pcard.full.test{background:linear-gradient(120deg,#fff 0%,#fff0f1 100%);border-color:#d7192a;box-shadow:0 4px 0 #b3121f}
+.pcard.full.test{background:linear-gradient(120deg,#fff 0%,#eef0ff 100%);border-color:#0b16b0;box-shadow:0 4px 0 #070e7a}
 .pcard.test .pico{background:#f4f4f4}

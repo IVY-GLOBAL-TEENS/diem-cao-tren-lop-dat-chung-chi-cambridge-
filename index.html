@@ -3,43 +3,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IVY Teen – Giáo trình &amp; Bài tập</title>
-  <meta name="description" content="Website giáo trình tiếng Anh THCS của IVY: lộ trình Kick-off A2, ngữ pháp, KET, game theo lứa tuổi và theo dõi bài tập về nhà.">
+  <title>IVY Teen – Bảng điều khiển học tập</title>
+  <meta name="description" content="IVY Teen: lớp học, bài tập về nhà, phòng thi ảo và lộ trình giáo trình tiếng Anh THCS của IVY English.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%230f766e'/><text x='32' y='43' font-size='30' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'>IV</text></svg>">
+  <link rel="icon" href="assets/img/panda-hello.png">
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap topbar-inner">
-      <a class="brand" href="#/">
-        <span class="brand-mark">IV</span>
-        <span class="brand-text"><strong>IVY Teen</strong><small>Giáo trình &amp; Bài tập</small></span>
+  <div class="strip">
+    <div class="strip-in">
+      <a href="#/hoc-sinh">Học sinh</a><span>|</span><a href="#/giao-vien">Giáo viên</a><span>|</span><a href="tai-lieu/">Tài liệu</a><span>|</span><a href="phong-thi/">Phòng thi ảo</a>
+    </div>
+  </div>
+  <header class="banner">
+    <div class="banner-in">
+      <a class="brand" href="#/" aria-label="IVY Teen – Trang chủ">
+        <span class="logo-box"><img src="assets/img/logo-ivy.png" alt="IVY English"></span>
+        <span class="brand-text"><strong>IVY ENGLISH · TEEN</strong><small>Học vui mỗi ngày · Tiến bộ thật sự</small></span>
       </a>
-      <button class="menu-btn" id="menuBtn" aria-label="Mở menu" aria-expanded="false">☰</button>
-      <nav class="nav" id="nav">
-        <a href="#/" data-route="home">Tổng quan</a>
-        <a href="#/kickoff" data-route="kickoff">Kick-off A2</a>
-        <a href="#/lo-trinh" data-route="lo-trinh">Lộ trình 94 buổi</a>
-        <a href="#/ngu-phap" data-route="ngu-phap">Ngữ pháp</a>
-        <a href="#/ket" data-route="ket">KET</a>
-        <a href="#/game" data-route="game">Game</a>
-        <a href="tai-lieu/">Tài liệu</a>
-        <a href="phong-thi/" class="nav-exam">Phòng thi ảo</a>
-        <a href="#/bai-tap" data-route="bai-tap" class="nav-cta">Bài tập</a>
-      </nav>
+      <div class="banner-actions">
+        <a class="round-btn" href="#/huong-dan" title="Hướng dẫn" aria-label="Hướng dẫn">?</a>
+        <a class="round-btn" href="phong-thi/" title="Vào phòng thi" aria-label="Vào phòng thi">🎯</a>
+      </div>
     </div>
   </header>
 
-  <main id="app" class="wrap" tabindex="-1"></main>
+  <div class="shell">
+    <nav class="side" id="side" aria-label="Điều hướng chính">
+      <a href="#/" data-nav="home" title="Bảng điều khiển"><span class="ic">🏠</span><small>Trang chủ</small></a>
+      <a href="#/hoc-sinh" data-nav="hoc-sinh" title="Lớp của em"><span class="ic">🎒</span><small>Lớp học</small></a>
+      <a href="phong-thi/" title="Phòng thi ảo"><span class="ic">🎯</span><small>Phòng thi</small></a>
+      <a href="phong-thi/ket/" title="Kho đề KET"><span class="ic">📝</span><small>Đề KET</small></a>
+      <a href="#/giao-vien" data-nav="giao-vien" title="Góc giáo viên"><span class="ic">👩‍🏫</span><small>Giáo viên</small></a>
+      <a href="#/giao-vien/game" data-nav="game" title="Game theo lứa tuổi"><span class="ic">🎲</span><small>Game</small></a>
+      <a href="tai-lieu/" title="Tài liệu"><span class="ic">📁</span><small>Tài liệu</small></a>
+    </nav>
+    <main id="app" tabindex="-1"></main>
+  </div>
 
-  <footer class="footer">
-    <div class="wrap">
-      IVY – Trung tâm tiếng Anh THCS · Giáo trình Kick-off (A2) theo Gold Experience A2 2nd ed. · Dữ liệu trong <code>data/data.js</code>
-    </div>
-  </footer>
+  <footer class="footer">IVY English – Trung tâm tiếng Anh THCS · Dữ liệu giáo trình trong <code>data/data.js</code></footer>
 
   <script src="data/data.js"></script>
   <script src="assets/app.js"></script>

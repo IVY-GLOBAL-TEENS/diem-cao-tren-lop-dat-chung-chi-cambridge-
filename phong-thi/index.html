@@ -7,7 +7,7 @@
 <style>
 /* Layout: red-and-white craft porch — sticker command bar, porch stage with cardboard booths, level maps of stations; exam mode switches to a plain computer-test screen. One deliberate light look. */
 :root{
-  --red:#d7192a; --red-d:#9c0e1b; --red-l:#ff6b74; --rose:#ffe4e6; --cream:#fffaf6; --white:#ffffff;
+  --red:#0b16b0; --red-d:#050a55; --red-l:#5b6cff; --rose:#e8eaff; --err:#d7192a; --cream:#fffaf6; --white:#ffffff;
   --navy:#1b2a6b; --navy-d:#0f1946; --teal:#14a99c; --teal-d:#0b7268; --orange:#f28a1d; --orange-d:#b35d00;
   --lime:#5fb526; --lime-d:#3d7a12; --sky:#2f9ae0; --sky-d:#1b67a0; --gold:#f4c13d; --gold-d:#b98a08; --grape:#8a4fd6;
   --ink:#2a1a22; --muted:#76626a; --kraft:#efdfc4; --kraft-2:#e3cca6; --kraft-d:#b8976a; --line:#efd2d4; --track:#f6e4e5;
@@ -36,10 +36,10 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .logo .lg-box{display:block;background:#cc0a14;color:#fdf3c4;font-weight:600;font-size:1.7rem;line-height:1.25;letter-spacing:.38em;padding:0 .2em 0 .58em;text-align:center}
 .logo .lg-en{display:block;color:#cc0a14;font-weight:400;font-size:1.12rem;line-height:1;letter-spacing:.07em;text-align:center}
 .nav{display:flex;flex-wrap:wrap;gap:10px;flex:1}
-.stk{--c:var(--red);position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;width:86px;height:78px;border-radius:18px;background:var(--c);border:4px solid var(--white);box-shadow:0 5px 0 rgba(80,0,10,.35);color:var(--white);font-family:var(--display);font-weight:800;font-size:.74rem;letter-spacing:.3px;text-transform:uppercase;text-shadow:0 2px 0 rgba(0,0,0,.2);transition:transform .12s}
+.stk{--c:var(--red);position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;width:86px;height:78px;border-radius:18px;background:var(--c);border:4px solid var(--white);box-shadow:0 5px 0 rgba(5,10,60,.35);color:var(--white);font-family:var(--display);font-weight:800;font-size:.74rem;letter-spacing:.3px;text-transform:uppercase;text-shadow:0 2px 0 rgba(0,0,0,.2);transition:transform .12s}
 .stk svg{width:30px;height:30px}
 .stk:hover{transform:translateY(-2px) rotate(-2deg)}
-.stk[aria-current="true"]{transform:translateY(-3px) rotate(-3deg);box-shadow:0 0 0 4px var(--gold),0 6px 0 rgba(80,0,10,.35)}
+.stk[aria-current="true"]{transform:translateY(-3px) rotate(-3deg);box-shadow:0 0 0 4px var(--gold),0 6px 0 rgba(5,10,60,.35)}
 .stk .new{position:absolute;top:-10px;right:-10px;background:var(--gold);color:var(--ink);font-size:.6rem;padding:1px 6px;border-radius:6px;text-shadow:none;transform:rotate(12deg)}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
 .chip{display:flex;align-items:center;gap:6px;padding:4px 12px 4px 5px;border-radius:999px;background:var(--white);color:var(--ink);font-weight:800;font-size:.85rem;font-variant-numeric:tabular-nums;box-shadow:0 3px 0 var(--red-d)}
@@ -59,7 +59,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .b3.ghost{--c:var(--white);--d:#e2c7ca;color:var(--red);border:2px solid var(--line)}
 .b3.sm{padding:7px 12px;font-size:.85rem;border-radius:11px}
 
-.panel{background:var(--cream);border:4px solid var(--white);border-radius:22px;padding:18px;box-shadow:0 6px 0 rgba(80,0,10,.28)}
+.panel{background:var(--cream);border:4px solid var(--white);border-radius:22px;padding:18px;box-shadow:0 6px 0 rgba(5,10,60,.28)}
 .muted{color:var(--muted)}
 .tag{display:inline-block;padding:2px 10px;border-radius:8px;font-weight:800;font-family:var(--display);font-size:.85rem;color:var(--white)}
 .sec-title{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin-bottom:8px;color:var(--white)}
@@ -70,14 +70,14 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .sp{flex:1}
 
 /* porch stage */
-.porch{position:relative;border-radius:14px;overflow:hidden;border:6px solid var(--white);box-shadow:0 10px 0 rgba(80,0,10,.3);background:repeating-linear-gradient(180deg,#fffaf3 0 30px,#f1e1d6 30px 32px);padding:96px 18px 0}
+.porch{position:relative;border-radius:14px;overflow:hidden;border:6px solid var(--white);box-shadow:0 10px 0 rgba(5,10,60,.3);background:repeating-linear-gradient(180deg,#fffaf3 0 30px,#f1e1d6 30px 32px);padding:96px 18px 0}
 .porch::before{content:"";position:absolute;left:0;right:0;top:0;height:26px;background:linear-gradient(180deg,var(--red),var(--red-d))}
 .porch .post{position:absolute;top:26px;bottom:0;width:18px;background:linear-gradient(90deg,#fff,#e9dfe6)}
 .porch .post.l{left:10px}.porch .post.r{right:10px}
 .bunting{position:absolute;left:0;right:0;top:30px;display:flex;justify-content:space-around;padding:0 26px;pointer-events:none}
 .bunting::before{content:"";position:absolute;left:0;right:0;top:3px;height:2px;background:var(--red-d);opacity:.5}
 .flag{position:relative;width:clamp(20px,3.6vw,40px);aspect-ratio:4/5;background-color:var(--f);background-image:radial-gradient(circle,rgba(255,255,255,.65) 1.5px,transparent 2px),radial-gradient(circle,rgba(255,255,255,.4) 3px,transparent 3.5px);background-size:8px 8px,16px 16px;clip-path:polygon(0 0,100% 0,100% 80%,84% 100%,67% 80%,50% 100%,33% 80%,16% 100%,0 80%);transform:rotate(var(--r));margin-top:var(--y)}
-.flag.w{background-image:radial-gradient(circle,rgba(215,25,42,.5) 1.5px,transparent 2px),radial-gradient(circle,rgba(215,25,42,.3) 3px,transparent 3.5px);box-shadow:inset 0 0 0 2px #f2c9cc}
+.flag.w{background-image:radial-gradient(circle,rgba(11,22,176,.5) 1.5px,transparent 2px),radial-gradient(circle,rgba(11,22,176,.3) 3px,transparent 3.5px);box-shadow:inset 0 0 0 2px #f2c9cc}
 .booths{position:relative;z-index:1;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;align-items:end}
 .floor{position:relative;height:30px;margin:0 -18px;background:linear-gradient(180deg,#e8d6c7,#d8c2ae);border-top:3px solid #cdb39a}
 .booth{position:relative;background:var(--kraft);background-image:repeating-linear-gradient(90deg,rgba(0,0,0,.025) 0 2px,transparent 2px 9px);border-radius:8px 8px 3px 3px;padding:16px 16px 14px;transform:rotate(var(--tilt,0deg));box-shadow:7px 8px 0 rgba(90,50,20,.15),inset 0 0 0 2px var(--kraft-2);transition:transform .2s}
@@ -135,12 +135,12 @@ button.window:hover .ws{color:var(--gold)}
 .map{position:relative;max-width:680px;margin:16px auto 0;padding:10px 0 20px}
 .node{display:flex;align-items:center;gap:14px;margin-left:var(--x);width:max-content;max-width:calc(100% - var(--x))}
 .link{width:0;height:26px;border-left:4px dotted rgba(255,255,255,.75);margin-left:calc(var(--x) + 34px)}
-.stkr{position:relative;flex:none;width:72px;height:72px;border-radius:50%;border:5px solid var(--white);background:var(--c);color:var(--white);display:grid;place-items:center;box-shadow:0 6px 0 rgba(80,0,10,.35)}
+.stkr{position:relative;flex:none;width:72px;height:72px;border-radius:50%;border:5px solid var(--white);background:var(--c);color:var(--white);display:grid;place-items:center;box-shadow:0 6px 0 rgba(5,10,60,.35)}
 .stkr svg{width:34px;height:34px}
-.stkr.done{box-shadow:0 0 0 4px var(--gold),0 6px 0 rgba(80,0,10,.35)}
+.stkr.done{box-shadow:0 0 0 4px var(--gold),0 6px 0 rgba(5,10,60,.35)}
 .stkr.next{animation:pulse 1.4s ease-in-out infinite}
 @keyframes pulse{50%{transform:scale(1.08)}}
-.nlabel{background:var(--white);border-radius:14px;padding:6px 12px 8px;box-shadow:0 4px 0 rgba(80,0,10,.25);min-width:0}
+.nlabel{background:var(--white);border-radius:14px;padding:6px 12px 8px;box-shadow:0 4px 0 rgba(5,10,60,.25);min-width:0}
 .nlabel b{display:block;font-family:var(--display);font-size:1.02rem;line-height:1.15}
 .nlabel small{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.4px;color:var(--c)}
 .nstars{display:flex;gap:1px;margin-top:2px}
@@ -159,10 +159,10 @@ button.window:hover .ws{color:var(--gold)}
 .timer.low{color:var(--white);background:var(--navy)}
 .cols{display:grid;grid-template-columns:1.05fr 1fr;gap:16px;align-items:start}
 .cols>*{min-width:0}
-.passage{background:var(--white);border-radius:18px;padding:20px 22px;font-size:1rem;line-height:1.7;max-height:72vh;overflow:auto;border:4px solid var(--white);box-shadow:0 6px 0 rgba(80,0,10,.28),inset 0 0 0 1px var(--line)}
+.passage{background:var(--white);border-radius:18px;padding:20px 22px;font-size:1rem;line-height:1.7;max-height:72vh;overflow:auto;border:4px solid var(--white);box-shadow:0 6px 0 rgba(5,10,60,.28),inset 0 0 0 1px var(--line)}
 .passage h3{color:var(--red);margin-bottom:8px}
 .passage p{margin:0 0 .8em}
-.q{padding:14px;border-radius:16px;background:var(--cream);border:3px solid var(--white);margin-bottom:10px;box-shadow:0 4px 0 rgba(80,0,10,.2)}
+.q{padding:14px;border-radius:16px;background:var(--cream);border:3px solid var(--white);margin-bottom:10px;box-shadow:0 4px 0 rgba(5,10,60,.2)}
 .q .qt{font-weight:800;margin-bottom:8px;display:flex;gap:8px}
 .qn{flex:none;width:26px;height:26px;border-radius:8px;background:var(--red);color:var(--white);display:grid;place-items:center;font-family:var(--display);font-size:.9rem}
 .opts{display:grid;gap:6px}
@@ -170,10 +170,10 @@ button.window:hover .ws{color:var(--gold)}
 .opt b{flex:none;width:24px;height:24px;border-radius:7px;background:var(--rose);color:var(--red);display:grid;place-items:center;font-family:var(--display);font-size:.85rem}
 .opt[aria-pressed="true"]{border-color:var(--sky);background:#e4f2ff}
 .opt.ok{border-color:var(--lime);background:var(--ok-bg)}
-.opt.bad{border-color:var(--red);background:var(--bad-bg)}
+.opt.bad{border-color:var(--err);background:var(--bad-bg)}
 .opts.ipa .opt{font-size:1.15rem;justify-content:center}
 .gap{width:100%;max-width:240px;padding:8px 12px;border-radius:10px;border:2px solid var(--line);background:var(--white);color:var(--ink)}
-.gap.ok{border-color:var(--lime);background:var(--ok-bg)}.gap.bad{border-color:var(--red);background:var(--bad-bg)}
+.gap.ok{border-color:var(--lime);background:var(--ok-bg)}.gap.bad{border-color:var(--err);background:var(--bad-bg)}
 .player{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:14px;background:var(--rose);border:2px dashed var(--red-l);margin-bottom:10px;flex-wrap:wrap}
 .wave{display:flex;gap:3px;align-items:flex-end;height:24px}
 .wave i{width:4px;background:var(--red);border-radius:3px;height:30%}
@@ -186,7 +186,7 @@ button.window:hover .ws{color:var(--gold)}
 .result .big{font-family:var(--display);font-size:2.6rem;font-weight:800;color:var(--red);line-height:1}
 .stars{display:flex;gap:4px}
 .stars svg{width:30px;height:30px}
-.task{background:var(--white);border-radius:18px;padding:18px 20px;border:4px solid var(--white);box-shadow:0 6px 0 rgba(80,0,10,.28),inset 0 0 0 1px var(--line)}
+.task{background:var(--white);border-radius:18px;padding:18px 20px;border:4px solid var(--white);box-shadow:0 6px 0 rgba(5,10,60,.28),inset 0 0 0 1px var(--line)}
 .task h3{color:var(--red);margin-bottom:6px}
 .task ul{margin:6px 0;padding-left:20px}
 .quote{background:var(--rose);padding:10px 12px;border-radius:10px}
@@ -229,8 +229,8 @@ textarea{width:100%;min-height:220px;padding:14px;border-radius:16px;border:3px 
 .diff{font-size:1.15rem;line-height:1.9;margin-top:10px}
 .diff span{padding:1px 4px;border-radius:5px;margin-right:2px}
 .diff .y{background:var(--ok-bg);color:var(--lime-d)}
-.diff .n{background:var(--bad-bg);color:var(--red);text-decoration:underline wavy}
-.letter{position:relative;background:var(--white);background-image:repeating-linear-gradient(180deg,transparent 0 29px,#f3dadd 29px 30px);border-radius:6px;padding:22px 24px 18px;box-shadow:0 6px 0 rgba(80,0,10,.28);font-family:var(--hand);font-size:1.18rem;line-height:30px;color:var(--navy)}
+.diff .n{background:var(--bad-bg);color:var(--err);text-decoration:underline wavy}
+.letter{position:relative;background:var(--white);background-image:repeating-linear-gradient(180deg,transparent 0 29px,#f3dadd 29px 30px);border-radius:6px;padding:22px 24px 18px;box-shadow:0 6px 0 rgba(5,10,60,.28);font-family:var(--hand);font-size:1.18rem;line-height:30px;color:var(--navy)}
 .letter p{margin:0 0 0}
 .letter .stamp{position:absolute;top:10px;right:12px;width:58px;height:66px;border:3px dashed var(--red);border-radius:4px;display:grid;place-items:center;text-align:center;font-family:var(--display);font-size:.7rem;font-weight:800;color:var(--red);line-height:1.1;transform:rotate(6deg);background:var(--rose)}
 .letter .from{font-family:var(--body);font-size:.8rem;font-weight:800;color:var(--muted);line-height:1.4;margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
@@ -241,7 +241,7 @@ textarea{width:100%;min-height:220px;padding:14px;border-radius:16px;border:3px 
 .sides ul{margin:0;padding-left:18px;font-size:.9rem}
 .photo{border:10px solid var(--white);box-shadow:0 3px 10px rgba(0,0,0,.18);background:#f4efe6;padding:12px 14px;font-size:.95rem;transform:rotate(-1deg);margin:6px 0}
 .photo b{font-family:var(--display);display:block;margin-bottom:2px}
-.dubstage{position:relative;border-radius:18px;border:5px solid var(--white);background:linear-gradient(180deg,#fff5e8 0 70%,#e8d6c7 70%);padding:16px;display:flex;justify-content:space-around;align-items:flex-end;min-height:190px;box-shadow:0 6px 0 rgba(80,0,10,.28);overflow:hidden}
+.dubstage{position:relative;border-radius:18px;border:5px solid var(--white);background:linear-gradient(180deg,#fff5e8 0 70%,#e8d6c7 70%);padding:16px;display:flex;justify-content:space-around;align-items:flex-end;min-height:190px;box-shadow:0 6px 0 rgba(5,10,60,.28);overflow:hidden}
 .dubstage .chr{width:min(150px,32%);height:auto;transition:transform .2s}
 .dubstage .chr.talk{transform:translateY(-6px)}
 .chr .mouth{transform-box:fill-box;transform-origin:center}
@@ -263,7 +263,7 @@ textarea{width:100%;min-height:220px;padding:14px;border-radius:16px;border:3px 
 .flash-wrap{perspective:1200px;max-width:520px;margin:0 auto}
 .flash{position:relative;width:100%;aspect-ratio:16/10;max-width:100%;border:0;background:none;padding:0;transform-style:preserve-3d;transition:transform .5s}
 .flash.flip{transform:rotateY(180deg)}
-.face{position:absolute;inset:0;border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;backface-visibility:hidden;text-align:center;border:5px solid var(--white);box-shadow:0 7px 0 rgba(80,0,10,.3)}
+.face{position:absolute;inset:0;border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;backface-visibility:hidden;text-align:center;border:5px solid var(--white);box-shadow:0 7px 0 rgba(5,10,60,.3)}
 .face.front{background:var(--white);color:var(--red)}
 .face.back{background:var(--navy);color:var(--white);transform:rotateY(180deg)}
 .face .w{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,6vw,2.8rem);line-height:1}
@@ -274,7 +274,7 @@ textarea{width:100%;min-height:220px;padding:14px;border-radius:16px;border:3px 
 .rule b{color:var(--red)}
 .explain{margin-top:10px;padding:10px 12px;border-radius:12px;font-size:.92rem}
 .explain.ok{background:var(--ok-bg);border:2px solid var(--lime)}
-.explain.bad{background:var(--bad-bg);border:2px solid var(--red)}
+.explain.bad{background:var(--bad-bg);border:2px solid var(--err)}
 .bigq{font-family:var(--display);font-size:clamp(1.3rem,3.6vw,1.8rem);font-weight:700;line-height:1.3;margin:6px 0 14px}
 .prog{height:12px;border-radius:9px;background:var(--track);overflow:hidden;margin-bottom:12px}
 .prog i{display:block;height:100%;background:linear-gradient(90deg,var(--red),var(--gold));transition:width .3s}
@@ -401,7 +401,7 @@ th{font-size:.75rem;text-transform:uppercase;letter-spacing:.6px;color:var(--mut
 .scale button[aria-pressed="true"]{background:var(--cb-navy);color:#fff}
 
 /* results */
-.sor{background:var(--white);border:4px solid var(--white);border-radius:6px;box-shadow:0 8px 0 rgba(80,0,10,.3);padding:22px 24px;position:relative;overflow:hidden}
+.sor{background:var(--white);border:4px solid var(--white);border-radius:6px;box-shadow:0 8px 0 rgba(5,10,60,.3);padding:22px 24px;position:relative;overflow:hidden}
 .sor::before{content:"";position:absolute;left:0;right:0;top:0;height:10px;background:repeating-linear-gradient(90deg,var(--red) 0 24px,var(--white) 24px 48px)}
 .sor h2{color:var(--red);font-size:1.8rem;margin:8px 0 4px}
 .grade{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border-radius:12px;background:var(--rose);border:2px solid var(--red);font-family:var(--display);font-weight:800;font-size:1.2rem;color:var(--red)}
@@ -411,7 +411,7 @@ th{font-size:.75rem;text-transform:uppercase;letter-spacing:.6px;color:var(--mut
 
 /* units & new game types */
 .ugrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin-top:16px}
-.ucard{position:relative;display:flex;gap:12px;align-items:flex-start;text-align:left;padding:14px;border:0;border-radius:10px;background:var(--kraft);background-image:repeating-linear-gradient(90deg,rgba(0,0,0,.025) 0 2px,transparent 2px 9px);box-shadow:6px 7px 0 rgba(80,0,10,.28),inset 0 0 0 2px var(--kraft-2);transform:rotate(var(--tilt,0deg));transition:transform .15s}
+.ucard{position:relative;display:flex;gap:12px;align-items:flex-start;text-align:left;padding:14px;border:0;border-radius:10px;background:var(--kraft);background-image:repeating-linear-gradient(90deg,rgba(0,0,0,.025) 0 2px,transparent 2px 9px);box-shadow:6px 7px 0 rgba(5,10,60,.28),inset 0 0 0 2px var(--kraft-2);transform:rotate(var(--tilt,0deg));transition:transform .15s}
 .ucard:hover{transform:rotate(0) translateY(-3px)}
 .unum{flex:none;width:48px;height:48px;border-radius:50%;border:4px solid var(--white);display:grid;place-items:center;color:var(--white);font-family:var(--display);font-weight:800;font-size:1.4rem;box-shadow:0 3px 0 rgba(0,0,0,.18)}
 .ubody{flex:1;min-width:0;display:flex;flex-direction:column}
@@ -420,7 +420,7 @@ th{font-size:.75rem;text-transform:uppercase;letter-spacing:.6px;color:var(--mut
 .utopic{font-size:.82rem;color:var(--muted);font-weight:700}
 .ubadge{position:absolute;top:-10px;right:-8px;background:var(--lime);color:var(--white);font-family:var(--display);font-weight:800;font-size:.68rem;padding:2px 8px;border-radius:6px;transform:rotate(6deg);border:2px solid var(--white)}
 .mgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
-.mcard{aspect-ratio:4/3;max-width:100%;border:4px solid var(--white);border-radius:14px;background:var(--red);background-image:radial-gradient(circle,rgba(255,255,255,.25) 2px,transparent 2.5px);background-size:14px 14px;color:var(--white);font-family:var(--display);font-weight:800;font-size:1.6rem;box-shadow:0 4px 0 rgba(80,0,10,.3);display:grid;place-items:center;padding:6px;transition:transform .2s}
+.mcard{aspect-ratio:4/3;max-width:100%;border:4px solid var(--white);border-radius:14px;background:var(--red);background-image:radial-gradient(circle,rgba(255,255,255,.25) 2px,transparent 2.5px);background-size:14px 14px;color:var(--white);font-family:var(--display);font-weight:800;font-size:1.6rem;box-shadow:0 4px 0 rgba(5,10,60,.3);display:grid;place-items:center;padding:6px;transition:transform .2s}
 .mcard.up{background:var(--white);color:var(--ink);font-size:clamp(.8rem,2.4vw,1.05rem);border-color:var(--line);transform:rotateY(0)}
 .mcard.up.en{color:var(--red)}
 .mcard.got{background:var(--ok-bg);border-color:var(--lime)}
@@ -444,7 +444,7 @@ th{font-size:.75rem;text-transform:uppercase;letter-spacing:.6px;color:var(--mut
 .bucket.over{background:var(--rose)}
 .answer{min-height:56px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px;border-radius:12px;border:3px dashed var(--line);background:var(--white);margin-top:10px}
 .answer.ok{border-color:var(--lime);background:var(--ok-bg)}
-.answer.bad{border-color:var(--red)}
+.answer.bad{border-color:var(--err)}
 .bank{display:flex;flex-wrap:wrap;gap:8px;padding:10px;border-radius:12px;background:var(--rose);margin-bottom:12px}
 .gtext{font-size:1.1rem;line-height:2.4}
 .slot{min-width:84px;padding:2px 10px;border:0;border-bottom:3px solid var(--red);background:var(--track);border-radius:6px 6px 0 0;font-weight:800}
@@ -464,7 +464,7 @@ th{font-size:.75rem;text-transform:uppercase;letter-spacing:.6px;color:var(--mut
 .mill .opt{background:#24357f;border-color:#4b5db0;color:var(--white)}
 .mill .opt b{background:var(--gold);color:var(--ink)}
 .mill .opt.ok{background:var(--lime-d);border-color:var(--lime)}
-.mill .opt.bad{background:var(--red-d);border-color:var(--red-l)}
+.mill .opt.bad{background:#9c0e1b;border-color:#ff6b74}
 .mill .explain{color:var(--ink)}
 .ladder{margin:8px 0 0;padding-left:28px;font-family:var(--display);font-weight:800;font-variant-numeric:tabular-nums}
 .ladder li{padding:2px 8px;border-radius:6px;color:var(--muted)}
@@ -473,15 +473,15 @@ th{font-size:.75rem;text-transform:uppercase;letter-spacing:.6px;color:var(--mut
 .ehunt{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0;font-size:1.15rem}
 .etok{border:2px solid transparent;background:var(--white);border-radius:8px;padding:4px 8px;font-weight:700;box-shadow:0 2px 0 var(--line)}
 .etok:hover{border-color:var(--sky)}
-.etok.bad{background:var(--bad-bg);border-color:var(--red);text-decoration:line-through}
+.etok.bad{background:var(--bad-bg);border-color:var(--err);text-decoration:line-through}
 .etok.miss{background:var(--track);border-color:var(--muted)}
-.tcard{border-radius:18px;border:5px solid var(--white);background:var(--grape);color:var(--white);padding:20px;text-align:center;box-shadow:0 7px 0 rgba(80,0,10,.3)}
+.tcard{border-radius:18px;border:5px solid var(--white);background:var(--grape);color:var(--white);padding:20px;text-align:center;box-shadow:0 7px 0 rgba(5,10,60,.3)}
 .tcard small{font-weight:800;opacity:.85}
 .tword{font-family:var(--display);font-weight:800;font-size:2.6rem;line-height:1.1;margin:6px 0}
 .tban{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center}
 .tban span{background:var(--white);color:var(--red);font-weight:800;border-radius:8px;padding:2px 10px;text-decoration:line-through}
 .escape{max-width:820px;margin:0 auto}
-.estory{background:var(--navy);color:var(--white);border-radius:16px;border:4px solid var(--white);padding:14px 18px;font-weight:700;box-shadow:0 6px 0 rgba(80,0,10,.3)}
+.estory{background:var(--navy);color:var(--white);border-radius:16px;border:4px solid var(--white);padding:14px 18px;font-weight:700;box-shadow:0 6px 0 rgba(5,10,60,.3)}
 .estory p{margin:0 0 4px}
 .locks{display:flex;gap:10px;justify-content:center;margin-top:12px}
 .lock{width:60px;height:70px;border-radius:12px 12px 8px 8px;border:4px solid var(--white);background:var(--muted);color:var(--white);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:1.8rem;position:relative}
@@ -1230,8 +1230,8 @@ const MOCK={
 const TIPS=['Nghe lần 1 lấy ý chính, lần 2 kiểm tra đáp án nhé!','Shadowing: nói NGAY SAU giọng mẫu, như cái bóng.','Mỗi ngày 10 từ mới = 300 từ sau 1 tháng!','Dictation giúp tai và tay cùng tiến bộ.','Speaking: thêm "because…" để kéo dài câu trả lời.','Mỗi trạm đạt 3 sao sẽ mở rương thưởng nhanh hơn.','Dùng từ nối: firstly, however, so, because…'];
 const RANKS=['Mầm non','Chồi xanh','Lá non','Cành ivy','Giàn ivy','Huyền thoại IVY'];
 const BADGES=[
- ['first','Bước đầu','Hoàn thành hoạt động đầu tiên','#2f9ae0'],['perfect','Hoàn hảo','Đạt 3 sao một trạm','#f4c13d'],['streak3','Lửa bền','Học 3 ngày liên tiếp','#d7192a'],
- ['flash','Tia chớp','Thách đấu đạt 8/10 trở lên','#14a99c'],['words','Kho từ','Thuộc 30 từ vựng','#5fb526'],['voice','Giọng ca vàng','Hoàn thành một bài lồng tiếng','#f28a1d'],['debater','Nhà hùng biện','Hoàn thành một trận tranh biện','#8a4fd6'],['mock','Thí sinh','Hoàn thành 1 bài Thi thật','#1b2a6b'],['pass','Đỗ rồi!','Đạt từ 70% bài Thi thật','#9c0e1b']];
+ ['first','Bước đầu','Hoàn thành hoạt động đầu tiên','#2f9ae0'],['perfect','Hoàn hảo','Đạt 3 sao một trạm','#f4c13d'],['streak3','Lửa bền','Học 3 ngày liên tiếp','#0b16b0'],
+ ['flash','Tia chớp','Thách đấu đạt 8/10 trở lên','#14a99c'],['words','Kho từ','Thuộc 30 từ vựng','#5fb526'],['voice','Giọng ca vàng','Hoàn thành một bài lồng tiếng','#f28a1d'],['debater','Nhà hùng biện','Hoàn thành một trận tranh biện','#8a4fd6'],['mock','Thí sinh','Hoàn thành 1 bài Thi thật','#1b2a6b'],['pass','Đỗ rồi!','Đạt từ 70% bài Thi thật','#050a55']];
 
 /* =====================================================================
    STATE
@@ -1318,7 +1318,7 @@ const ICON={
  film:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2" fill="currentColor" fill-opacity=".25"/><path d="M7 5v14M17 5v14M3 9h4M3 15h4M17 9h4M17 15h4"/><path d="M10 9.5l4 2.5-4 2.5z" fill="currentColor"/></svg>',
  bolt:'<svg viewBox="0 0 24 24"><path d="M13 2L4 14h6l-1 8 9-12h-6z" fill="currentColor"/></svg>',
  trophy:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M7 4h10v5a5 5 0 0 1-10 0z" fill="currentColor" fill-opacity=".3"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 14v4M8 21h8"/></svg>',
- star:c=>`<svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.6 1.3 6.5L12 17.2l-5.9 3.2 1.3-6.5L2.5 9.3l6.6-.8z" fill="${c}" stroke="#9c0e1b" stroke-width="1"/></svg>`,
+ star:c=>`<svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.6 1.3 6.5L12 17.2l-5.9 3.2 1.3-6.5L2.5 9.3l6.6-.8z" fill="${c}" stroke="#050a55" stroke-width="1"/></svg>`,
  play:'<svg width="18" height="18" viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z" fill="currentColor"/></svg>',
  sound:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12"/></svg>',
  slow:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 16c0-5 4-8 8-8s7 3 7 6v2H3z" fill="currentColor" fill-opacity=".3"/><path d="M18 14h2a2 2 0 0 0 0-4"/><circle cx="7" cy="18" r="1.5" fill="currentColor"/><circle cx="14" cy="18" r="1.5" fill="currentColor"/></svg>',
@@ -1326,16 +1326,16 @@ const ICON={
  back:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>'
 };
 const sicon=(k,s=20)=>ICON[k].replace('<svg',`<svg width="${s}" height="${s}"`);
-const MASCOT=`<svg viewBox="0 0 100 126" aria-hidden="true"><path d="M22 92l-10 8M78 92l10 8" stroke="#2a1a22" stroke-width="4" stroke-linecap="round"/><path d="M40 112l-4 10M60 112l4 10" stroke="#2a1a22" stroke-width="4" stroke-linecap="round"/><rect x="28" y="6" width="44" height="14" rx="6" fill="#ff8fa0" stroke="#9c0e1b" stroke-width="3"/><rect x="26" y="18" width="48" height="10" fill="#c9ccd8" stroke="#6b6f80" stroke-width="3"/><rect x="26" y="27" width="48" height="66" fill="#f4c13d" stroke="#b98a08" stroke-width="3"/><path d="M42 27v66M58 27v66" stroke="#e5ab14" stroke-width="3"/><path d="M26 93h48L50 120z" fill="#f2d3a8" stroke="#b8976a" stroke-width="3" stroke-linejoin="round"/><path d="M44 110h12L50 120z" fill="#2a1a22"/><circle cx="40" cy="52" r="8" fill="#fff" stroke="#2a1a22" stroke-width="2.5"/><circle cx="60" cy="52" r="8" fill="#fff" stroke="#2a1a22" stroke-width="2.5"/><circle cx="42" cy="54" r="3.5" fill="#2a1a22"/><circle cx="62" cy="54" r="3.5" fill="#2a1a22"/><path d="M41 68q9 9 18 0" stroke="#9c0e1b" stroke-width="3.5" fill="#d7192a" stroke-linecap="round"/><circle cx="32" cy="64" r="4" fill="#ff8fa0" opacity=".7"/><circle cx="68" cy="64" r="4" fill="#ff8fa0" opacity=".7"/><path d="M26 60l-14-6M74 60l14-8" stroke="#2a1a22" stroke-width="4" stroke-linecap="round"/></svg>`;
+const MASCOT=`<svg viewBox="0 0 100 126" aria-hidden="true"><path d="M22 92l-10 8M78 92l10 8" stroke="#2a1a22" stroke-width="4" stroke-linecap="round"/><path d="M40 112l-4 10M60 112l4 10" stroke="#2a1a22" stroke-width="4" stroke-linecap="round"/><rect x="28" y="6" width="44" height="14" rx="6" fill="#ff8fa0" stroke="#050a55" stroke-width="3"/><rect x="26" y="18" width="48" height="10" fill="#c9ccd8" stroke="#6b6f80" stroke-width="3"/><rect x="26" y="27" width="48" height="66" fill="#f4c13d" stroke="#b98a08" stroke-width="3"/><path d="M42 27v66M58 27v66" stroke="#e5ab14" stroke-width="3"/><path d="M26 93h48L50 120z" fill="#f2d3a8" stroke="#b8976a" stroke-width="3" stroke-linejoin="round"/><path d="M44 110h12L50 120z" fill="#2a1a22"/><circle cx="40" cy="52" r="8" fill="#fff" stroke="#2a1a22" stroke-width="2.5"/><circle cx="60" cy="52" r="8" fill="#fff" stroke="#2a1a22" stroke-width="2.5"/><circle cx="42" cy="54" r="3.5" fill="#2a1a22"/><circle cx="62" cy="54" r="3.5" fill="#2a1a22"/><path d="M41 68q9 9 18 0" stroke="#050a55" stroke-width="3.5" fill="#0b16b0" stroke-linecap="round"/><circle cx="32" cy="64" r="4" fill="#ff8fa0" opacity=".7"/><circle cx="68" cy="64" r="4" fill="#ff8fa0" opacity=".7"/><path d="M26 60l-14-6M74 60l14-8" stroke="#2a1a22" stroke-width="4" stroke-linecap="round"/></svg>`;
 const DOODLE={
  heart:c=>`<svg width="30" height="28" viewBox="0 0 30 28"><path d="M15 25C5 17 2 12 4 7s9-5 11 1c2-6 9-6 11-1s-1 10-11 18z" fill="none" stroke="${c}" stroke-width="2.6" stroke-linejoin="round"/></svg>`,
  star:c=>`<svg width="30" height="30" viewBox="0 0 30 30"><path d="M15 3l3 8 9 1-7 6 2 9-7-5-8 5 2-9-6-6 9-1z" fill="${c}" fill-opacity=".25" stroke="${c}" stroke-width="2.4" stroke-linejoin="round"/></svg>`,
  swirl:c=>`<svg width="34" height="20" viewBox="0 0 34 20"><path d="M2 14c4-10 8 4 12-6s8 6 12-4 4 4 6 2" fill="none" stroke="${c}" stroke-width="2.6" stroke-linecap="round"/></svg>`,
- rainbow:()=>`<svg width="56" height="32" viewBox="0 0 56 32"><path d="M6 30a22 22 0 0 1 44 0" fill="none" stroke="#d7192a" stroke-width="4"/><path d="M12 30a16 16 0 0 1 32 0" fill="none" stroke="#f4c13d" stroke-width="4"/><path d="M18 30a10 10 0 0 1 20 0" fill="none" stroke="#2f9ae0" stroke-width="4"/></svg>`,
+ rainbow:()=>`<svg width="56" height="32" viewBox="0 0 56 32"><path d="M6 30a22 22 0 0 1 44 0" fill="none" stroke="#0b16b0" stroke-width="4"/><path d="M12 30a16 16 0 0 1 32 0" fill="none" stroke="#f4c13d" stroke-width="4"/><path d="M18 30a10 10 0 0 1 20 0" fill="none" stroke="#2f9ae0" stroke-width="4"/></svg>`,
  leaf:c=>`<svg width="26" height="26" viewBox="0 0 40 40"><path d="M20 4c5 5 12 5 15 12-5 2-7 7-5 13-6-2-9 1-10 7-1-6-4-9-10-7 2-6 0-11-5-13C8 9 15 9 20 4z" fill="${c}" fill-opacity=".35" stroke="${c}" stroke-width="2.4"/></svg>`
 };
 const doo=(k,c,css)=>`<span class="doo" style="${css}">${DOODLE[k](c)}</span>`;
-const DRIP=`<svg class="drip" viewBox="0 0 300 46" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h300v12c-8 0-8 14-16 14s-6-14-14-14-6 26-14 26-6-26-16-26-8 10-16 10-6-10-14-10-6 30-14 30-8-30-16-30-6 12-14 12-8-12-16-12-6 22-14 22-8-22-16-22-6 8-14 8-8-8-16-8-6 26-14 26-8-26-16-26-6 14-14 14-8-14-14-14-6 20-14 20-8-20-14-20V0z" fill="#d7192a"/></svg>`;
+const DRIP=`<svg class="drip" viewBox="0 0 300 46" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h300v12c-8 0-8 14-16 14s-6-14-14-14-6 26-14 26-6-26-16-26-8 10-16 10-6-10-14-10-6 30-14 30-8-30-16-30-6 12-14 12-8-12-16-12-6 22-14 22-8-22-16-22-6 8-14 8-8-8-16-8-6 26-14 26-8-26-16-26-6 14-14 14-8-14-14-14-6 20-14 20-8-20-14-20V0z" fill="#0b16b0"/></svg>`;
 function bunting(n=16){const cols=['var(--red)','#fff','var(--navy)','#fff','var(--red-l)','var(--gold)','#fff','var(--red)'];
   return`<div class="bunting" aria-hidden="true">${Array.from({length:n},(_,i)=>{const c=cols[i%cols.length];return`<span class="flag ${c==='#fff'?'w':''}" style="--f:${c};--r:${(i%2?3:-3)}deg;--y:${Math.round(Math.sin(i/(n-1)*Math.PI)*14)}px"></span>`}).join('')}</div>`}
 function porch(inner){return`<section class="porch">${bunting()}<span class="post l"></span><span class="post r"></span>${inner}<div class="floor"></div></section>`}
@@ -1343,7 +1343,7 @@ const starRow=(n,max=3,size='')=>Array.from({length:max},(_,i)=>ICON.star(i<n?'#
 
 /* background pattern */
 (function(){const f=`<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140"><g fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="2.2">${[[35,35,1],[105,95,.8],[100,20,.55],[25,110,.6]].map(([x,y,s])=>`<g transform="translate(${x} ${y}) scale(${s})">${[0,60,120,180,240,300].map(a=>`<ellipse cx="0" cy="-13" rx="7" ry="10" transform="rotate(${a})"/>`).join('')}<circle r="5"/></g>`).join('')}</g></svg>`;
-  $('#bg').style.backgroundImage=`url("data:image/svg+xml,${encodeURIComponent(f)}"),radial-gradient(120% 70% at 50% -10%,#ef3445 0,transparent 60%),linear-gradient(180deg,#d7192a 0,#c8132a 55%,#ae0e22 100%)`})();
+  $('#bg').style.backgroundImage=`url("data:image/svg+xml,${encodeURIComponent(f)}"),radial-gradient(120% 70% at 50% -10%,#3b48e0 0,transparent 60%),linear-gradient(180deg,#0b16b0 0,#0a14a0 55%,#070e7a 100%)`})();
 
 /* =====================================================================
    ROUTER
@@ -1375,7 +1375,7 @@ function missionsHTML(){const M=S.missions;const ms=[['vocab','Trả lời đún
    return`<div class="mission"><div class="bar2"><span style="font-size:.88rem;font-weight:700">${l}</span><div><i style="width:${v/t*100}%"></i></div></div>
    ${cl?'<span class="tag" style="background:var(--lime)">Đã nhận</span>':`<button class="b3 gold sm" data-act="claim" data-arg="${k}" ${done?'':'disabled'}>+20 xu</button>`}</div>`}).join('')}
 VIEWS.home=()=>{
-  const deco=[doo('leaf','#5fb526','top:58px;right:14px')+doo('heart','#d7192a','bottom:70px;left:6px'),doo('star','#1b2a6b','top:60px;right:12px')+doo('swirl','#2f9ae0','bottom:74px;right:8px'),doo('rainbow','','top:54px;left:10px')+doo('heart','#f28a1d','bottom:70px;right:10px'),doo('star','#8a4fd6','top:60px;right:14px')+doo('swirl','#d7192a','bottom:74px;left:8px')];
+  const deco=[doo('leaf','#5fb526','top:58px;right:14px')+doo('heart','#0b16b0','bottom:70px;left:6px'),doo('star','#1b2a6b','top:60px;right:12px')+doo('swirl','#2f9ae0','bottom:74px;right:8px'),doo('rainbow','','top:54px;left:10px')+doo('heart','#f28a1d','bottom:70px;right:10px'),doo('star','#8a4fd6','top:60px;right:14px')+doo('swirl','#0b16b0','bottom:74px;left:8px')];
   return`<div class="sec-title"><h2>Luyện Tập Kỹ Năng</h2><span class="muted">Chọn cấp độ · đi qua từng trạm · gom sao mở rương</span></div>
   ${porch(`<div class="booths">${LEVELS.map((lv,i)=>{const st=lvStars(lv),max=lvActs(lv).length*3;return`<article class="booth" style="--tilt:${lv.tilt}">${i===0?DRIP:''}${deco[i%deco.length]}
     <div class="booth-top"><h3>${lv.name}</h3><span class="lvb">${lv.tag}</span></div>
@@ -1567,7 +1567,7 @@ ACT.talk=()=>{const T=TALKS[V.T];const crit=T.debate?DEB_CRIT:TALK_CRIT;
      ${t.say?`<div class="quote" style="margin:8px 0"><b>${T.debate?'Đối thủ':'Câu hỏi'}:</b> ${V.showQ||!hasTTS||T.debate?esc(t.say):'<span class="muted">(bấm Bắt đầu để nghe câu hỏi · <button class="b3 ghost sm" data-act="tshowq">Hiện chữ</button>)</span>'}</div>`:''}
      ${t.card||''}<p class="hint">${t.prep?'Chuẩn bị '+t.prep+' giây · ':''}Nói ${t.talk} giây</p></div>${phr}</div>
     <div class="panel" style="text-align:center">
-     <div class="ring-timer"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="64" stroke="#f6e4e5" stroke-width="12" fill="none"/><circle id="ringc" cx="75" cy="75" r="64" stroke="${V.phase==='talk'?'#d7192a':'#2f9ae0'}" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="${R}" stroke-dashoffset="${R*(1-frac)}"/></svg>
+     <div class="ring-timer"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="64" stroke="#f6e4e5" stroke-width="12" fill="none"/><circle id="ringc" cx="75" cy="75" r="64" stroke="${V.phase==='talk'?'#0b16b0':'#2f9ae0'}" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="${R}" stroke-dashoffset="${R*(1-frac)}"/></svg>
       <div id="ringt">${['prep','talk'].includes(V.phase)?V.left:'–'}<small>${({idle:'sẵn sàng',listen:'đang nghe',prep:'chuẩn bị',talk:'bạn nói'})[V.phase]}</small></div></div>
      ${V.phase==='idle'?`<button class="b3 sky" data-act="tstart">Bắt đầu</button>`:''}
      ${V.phase==='listen'?`<p style="font-weight:800">Hãy lắng nghe…</p><button class="b3 ghost sm" data-act="tskiplisten">Đã nghe xong</button>`:''}
@@ -1654,14 +1654,14 @@ ACT.gapbank=()=>{if(V.done)return actHead()+actResult(V.pct);
 ACT.wheel=()=>{if(V.done)return actHead()+actResult(V.pct);
   const n=V.qs.length,seg=360/n,R=2*Math.PI*64;const need=Math.min(V.jam?3:4,n);
   if(V.phase==='rate')return actHead()+`<div class="panel" style="max-width:640px;margin:0 auto"><h3 style="color:var(--red)">Tự đánh giá bài nói</h3>${rateHTML(TALK_CRIT)}<button class="b3 lime" data-act="wdone" ${TALK_CRIT.every(([k])=>V.stars[k])?'':'disabled'}>Nhận sao</button></div>`;
-  const cols=['#d7192a','#1b2a6b','#f28a1d','#14a99c','#8a4fd6','#2f9ae0','#5fb526','#f4c13d'];
+  const cols=['#0b16b0','#1b2a6b','#f28a1d','#14a99c','#8a4fd6','#2f9ae0','#5fb526','#f4c13d'];
   const wheel=`<svg viewBox="-110 -110 220 220" class="wheel" style="transform:rotate(${V.rot}deg)">${V.qs.map((q,i)=>{const a0=(i*seg-90)*Math.PI/180,a1=((i+1)*seg-90)*Math.PI/180;const x0=100*Math.cos(a0),y0=100*Math.sin(a0),x1=100*Math.cos(a1),y1=100*Math.sin(a1);const am=((i+.5)*seg-90)*Math.PI/180;
-    return`<path d="M0 0L${x0} ${y0}A100 100 0 ${seg>180?1:0} 1 ${x1} ${y1}Z" fill="${V.used.includes(i)?'#efd2d4':cols[i%cols.length]}" stroke="#fff" stroke-width="3"/><text x="${66*Math.cos(am)}" y="${66*Math.sin(am)+7}" text-anchor="middle" font-family="Baloo 2,sans-serif" font-weight="800" font-size="22" fill="#fff">${i+1}</text>`}).join('')}<circle r="16" fill="#fff" stroke="#d7192a" stroke-width="4"/></svg>`;
+    return`<path d="M0 0L${x0} ${y0}A100 100 0 ${seg>180?1:0} 1 ${x1} ${y1}Z" fill="${V.used.includes(i)?'#efd2d4':cols[i%cols.length]}" stroke="#fff" stroke-width="3"/><text x="${66*Math.cos(am)}" y="${66*Math.sin(am)+7}" text-anchor="middle" font-family="Baloo 2,sans-serif" font-weight="800" font-size="22" fill="#fff">${i+1}</text>`}).join('')}<circle r="16" fill="#fff" stroke="#0b16b0" stroke-width="4"/></svg>`;
   const q=V.cur!=null?V.qs[V.cur]:null;const frac=V.phase==='talk'?V.left/(V.jam?60:30):1;
   return actHead(V.jam?'Nói liên tục 1 phút, không ngập ngừng lâu':'')+`<div class="cols"><div class="panel" style="text-align:center"><div class="wheelbox"><span class="pointer"></span>${wheel}</div>
     <button class="b3" data-act="wspin" ${V.phase==='spin'&&V.used.length<n?'':'disabled'}>Quay!</button><p class="hint">Đã trả lời ${V.used.length}/${n} · cần ít nhất ${need} câu để chấm</p></div>
    <div class="panel">${q?`<div class="muted" style="font-weight:800">${V.jam?'Chủ đề':'Câu hỏi'} số ${V.cur+1}</div><div class="bigq">${esc(q)}</div>`:'<div class="bigq muted">Quay vòng để nhận câu hỏi!</div>'}
-    ${V.phase==='talk'?`<div class="ring-timer" style="width:120px;height:120px"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="64" stroke="#f6e4e5" stroke-width="12" fill="none"/><circle id="ringc" cx="75" cy="75" r="64" stroke="#d7192a" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="${R}" stroke-dashoffset="${R*(1-frac)}"/></svg><div id="ringt" style="font-size:1.8rem">${V.left}<small>bạn nói</small></div></div>
+    ${V.phase==='talk'?`<div class="ring-timer" style="width:120px;height:120px"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="64" stroke="#f6e4e5" stroke-width="12" fill="none"/><circle id="ringc" cx="75" cy="75" r="64" stroke="#0b16b0" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="${R}" stroke-dashoffset="${R*(1-frac)}"/></svg><div id="ringt" style="font-size:1.8rem">${V.left}<small>bạn nói</small></div></div>
      <div class="row" style="justify-content:center"><button class="b3 ghost sm" data-act="say" data-arg="${esc(q)}">${ICON.sound}Nghe lại</button><button class="b3 lime sm" data-act="wnext">Xong</button></div>`:''}
     ${V.phase==='spin'&&V.used.length>=need?`<button class="b3 lime" data-act="wrate">Kết thúc & chấm</button>`:''}
     <div style="margin-top:12px"><b style="color:var(--red)">Cụm từ hữu ích</b><ul class="phr">${V.phrases.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div></div></div>`};
@@ -1779,7 +1779,7 @@ VIEWS.gtopic=()=>{const g=GRAMMAR.find(x=>x.id===V.g);const q=V.q;
    LUYỆN ĐỀ (exam-skill rooms)
    ===================================================================== */
 function bestPct(ex,sk){const b=S.best[ex+'.'+sk];return b?b.pct:0}
-VIEWS.drill=()=>{const deco=[DRIP+doo('heart','#d7192a','top:60px;right:14px'),doo('rainbow','','top:58px;left:10px'),doo('leaf','#5fb526','top:62px;right:16px')];
+VIEWS.drill=()=>{const deco=[DRIP+doo('heart','#0b16b0','top:60px;right:14px'),doo('rainbow','','top:58px;left:10px'),doo('leaf','#5fb526','top:62px;right:16px')];
   return`<div class="sec-title"><h2>Luyện Đề Theo Kỹ Năng</h2><span class="muted">Dạng bài sát đề thi, có đồng hồ</span></div>
   ${porch(`<div class="booths">${EXAM_ORDER.map((k,i)=>{const e=EXAMS[k];return`<article class="booth" style="--tilt:${e.tilt}">${deco[i]}
     <div class="booth-top"><h3>${e.name}</h3><span class="lvb">${e.level}</span></div>
@@ -1819,7 +1819,7 @@ ROOM.reading=e=>{const R=e.reading;const tfng=R.tfng;const opts=['TRUE','FALSE',
 function chartSVG(){const d=[['Gaming',70],['Sport',55],['Music',45],['Reading',30]];const W=360,H=200,x0=40,max=80;
   return`<div style="overflow-x:auto"><svg viewBox="0 0 ${W} ${H+30}" style="width:100%;max-width:420px;display:block;margin:10px 0" role="img" aria-label="Biểu đồ cột: Gaming 70, Sport 55, Music 45, Reading 30">
   ${[0,20,40,60,80].map(v=>{const y=H-v/max*(H-20);return`<line x1="${x0}" x2="${W-10}" y1="${y}" y2="${y}" stroke="#efd2d4"/><text x="${x0-6}" y="${y+4}" font-size="11" text-anchor="end" fill="#76626a">${v}</text>`}).join('')}
-  ${d.map(([l,v],i)=>{const bw=50,gx=x0+18+i*78,h=v/max*(H-20);return`<rect x="${gx}" y="${H-h}" width="${bw}" height="${h}" rx="6" fill="${['#d7192a','#1b2a6b','#f28a1d','#14a99c'][i]}"/><text x="${gx+bw/2}" y="${H-h-5}" font-size="12" font-weight="700" text-anchor="middle" fill="#2a1a22">${v}</text><text x="${gx+bw/2}" y="${H+16}" font-size="12" text-anchor="middle" fill="#2a1a22">${l}</text>`}).join('')}
+  ${d.map(([l,v],i)=>{const bw=50,gx=x0+18+i*78,h=v/max*(H-20);return`<rect x="${gx}" y="${H-h}" width="${bw}" height="${h}" rx="6" fill="${['#0b16b0','#1b2a6b','#f28a1d','#14a99c'][i]}"/><text x="${gx+bw/2}" y="${H-h-5}" font-size="12" font-weight="700" text-anchor="middle" fill="#2a1a22">${v}</text><text x="${gx+bw/2}" y="${H+16}" font-size="12" text-anchor="middle" fill="#2a1a22">${l}</text>`}).join('')}
   <text x="10" y="12" font-size="10" fill="#76626a">students</text></svg></div>`}
 ROOM.writing=e=>{const tasks=e.writing;const t=tasks[V.wi];const key=e.id+'.w'+V.wi;const txt=S.drafts[key]||'';const res=V.wres&&V.wres[V.wi];
   return`<div class="steps" style="gap:8px">${tasks.map((x,i)=>`<button class="b3 ${i===V.wi?'gold':'ghost'} sm" data-act="wtask" data-arg="${i}">${esc(x.title)}</button>`).join('')}</div>
@@ -1839,7 +1839,7 @@ ROOM.speaking=e=>{const sp=V.sp;const items=e.speaking;const it=items[sp.i];
   const R=2*Math.PI*64;const total=sp.phase==='prep'?it.prep:it.talk;const frac=sp.phase==='idle'||sp.phase==='rate'?1:sp.left/total;
   return steps+`<div class="cols"><div class="task"><h3>${it.part} · ${it.title}</h3>${it.prompt}<p class="hint">Chuẩn bị ${it.prep} giây · Nói ${it.talk} giây</p></div>
    <div class="panel" style="text-align:center">
-    <div class="ring-timer"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="64" stroke="#f6e4e5" stroke-width="12" fill="none"/><circle id="ringc" cx="75" cy="75" r="64" stroke="${sp.phase==='talk'?'#d7192a':'#2f9ae0'}" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="${R}" stroke-dashoffset="${R*(1-frac)}"/></svg>
+    <div class="ring-timer"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="64" stroke="#f6e4e5" stroke-width="12" fill="none"/><circle id="ringc" cx="75" cy="75" r="64" stroke="${sp.phase==='talk'?'#0b16b0':'#2f9ae0'}" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="${R}" stroke-dashoffset="${R*(1-frac)}"/></svg>
      <div id="ringt">${sp.phase==='prep'||sp.phase==='talk'?sp.left:(sp.phase==='rate'?'✓':it.prep)}<small>${({idle:'sẵn sàng',prep:'chuẩn bị',talk:'đang nói',rate:'tự chấm'})[sp.phase]}</small></div></div>
     ${sp.phase==='idle'?`<button class="b3 sky" data-act="spstart">Bắt đầu chuẩn bị</button>`:''}
     ${sp.phase==='prep'?`<button class="b3" data-act="sptalk">Nói ngay</button>`:''}
@@ -1949,9 +1949,9 @@ function audioBar(pi,part){const played=E.played[pi];const playing=E.playing===p
    ${E.review?`<details class="cb-one" style="margin-bottom:12px"><summary style="cursor:pointer;font-weight:700">Lời thoại (transcript)</summary>${part.audio.map(s=>`<p style="margin:8px 0 2px"><b>${esc(s.label)}</b></p>${s.lines.map(([a,b])=>`<p style="margin:0 0 2px"><b>${esc(a)}:</b> ${esc(b)}</p>`).join('')}`).join('')}</details>`:''}`}
 function picsSVG(){const sky='#e6f3ff',g='#bfe3a0';const tree=x=>`<rect x="${x}" y="40" width="10" height="44" fill="#8a5a2e"/><circle cx="${x+5}" cy="34" r="24" fill="#5fb526"/>`;const kid=(x,c,mood)=>`<circle cx="${x}" cy="54" r="8" fill="#f2c9a0" stroke="#333"/><path d="M${x-8} 84l8-22 8 22z" fill="${c}" stroke="#333"/><path d="M${x-4} ${mood?57:59}q4 ${mood?4:-3} 8 0" stroke="#333" fill="none"/>`;
   return`<div class="pics" role="img" aria-label="Ba bức tranh: 1) Cô bé vẽ tranh ở công viên, trời có gió mạnh. 2) Gió thổi bức tranh mắc lên cây, cô bé buồn. 3) Một cậu bé dùng thang lấy bức tranh đưa cho cô bé, cả hai cười.">
-   <svg viewBox="0 0 120 100"><rect width="120" height="100" fill="${sky}"/><rect y="84" width="120" height="16" fill="${g}"/>${tree(92)}<path d="M28 84l8-28 8 28" stroke="#8a5a2e" stroke-width="2" fill="none"/><rect x="26" y="44" width="20" height="16" fill="#fff" stroke="#333"/><path d="M30 52q4-6 8 0t6 0" stroke="#d7192a" fill="none"/>${kid(58,'#d7192a',1)}<path d="M4 20h18M8 28h22M2 36h14" stroke="#8aa6c8" stroke-width="2" stroke-linecap="round"/><text x="4" y="12" font-size="10" font-weight="700">1</text></svg>
-   <svg viewBox="0 0 120 100"><rect width="120" height="100" fill="${sky}"/><rect y="84" width="120" height="16" fill="${g}"/>${tree(62)}<rect x="56" y="18" width="18" height="14" fill="#fff" stroke="#333" transform="rotate(15 65 25)"/>${kid(30,'#d7192a',0)}<path d="M36 64l18-26" stroke="#333" stroke-width="2"/><path d="M90 20h20M94 28h22" stroke="#8aa6c8" stroke-width="2" stroke-linecap="round"/><text x="4" y="12" font-size="10" font-weight="700">2</text></svg>
-   <svg viewBox="0 0 120 100"><rect width="120" height="100" fill="${sky}"/><rect y="84" width="120" height="16" fill="${g}"/>${tree(70)}<path d="M48 84l20-62M58 84l20-62" stroke="#b47a45" stroke-width="2.5"/>${[0,1,2,3,4].map(i=>`<path d="M${50+i*4} ${78-i*12}h10" stroke="#b47a45" stroke-width="2"/>`).join('')}<circle cx="64" cy="34" r="7" fill="#f2c9a0" stroke="#333"/><rect x="58" y="41" width="12" height="16" fill="#1b2a6b"/><rect x="38" y="40" width="16" height="12" fill="#fff" stroke="#333"/>${kid(26,'#d7192a',1)}<text x="4" y="12" font-size="10" font-weight="700">3</text></svg></div>`}
+   <svg viewBox="0 0 120 100"><rect width="120" height="100" fill="${sky}"/><rect y="84" width="120" height="16" fill="${g}"/>${tree(92)}<path d="M28 84l8-28 8 28" stroke="#8a5a2e" stroke-width="2" fill="none"/><rect x="26" y="44" width="20" height="16" fill="#fff" stroke="#333"/><path d="M30 52q4-6 8 0t6 0" stroke="#0b16b0" fill="none"/>${kid(58,'#0b16b0',1)}<path d="M4 20h18M8 28h22M2 36h14" stroke="#8aa6c8" stroke-width="2" stroke-linecap="round"/><text x="4" y="12" font-size="10" font-weight="700">1</text></svg>
+   <svg viewBox="0 0 120 100"><rect width="120" height="100" fill="${sky}"/><rect y="84" width="120" height="16" fill="${g}"/>${tree(62)}<rect x="56" y="18" width="18" height="14" fill="#fff" stroke="#333" transform="rotate(15 65 25)"/>${kid(30,'#0b16b0',0)}<path d="M36 64l18-26" stroke="#333" stroke-width="2"/><path d="M90 20h20M94 28h22" stroke="#8aa6c8" stroke-width="2" stroke-linecap="round"/><text x="4" y="12" font-size="10" font-weight="700">2</text></svg>
+   <svg viewBox="0 0 120 100"><rect width="120" height="100" fill="${sky}"/><rect y="84" width="120" height="16" fill="${g}"/>${tree(70)}<path d="M48 84l20-62M58 84l20-62" stroke="#b47a45" stroke-width="2.5"/>${[0,1,2,3,4].map(i=>`<path d="M${50+i*4} ${78-i*12}h10" stroke="#b47a45" stroke-width="2"/>`).join('')}<circle cx="64" cy="34" r="7" fill="#f2c9a0" stroke="#333"/><rect x="58" y="41" width="12" height="16" fill="#1b2a6b"/><rect x="38" y="40" width="16" height="12" fill="#fff" stroke="#333"/>${kid(26,'#0b16b0',1)}<text x="4" y="12" font-size="10" font-weight="700">3</text></svg></div>`}
 function renderWriting(pi,part){const ch=part.choice?(E.wchoice[pi]??0):0;const qs=part.choice?[part.qs[ch]]:part.qs;
   return qs.map(q=>{const v=E.ans[q.n]||'';return`<div class="wbox" style="margin-bottom:12px"><div>
    ${part.choice?`<div class="wtabs">${part.qs.map((x,j)=>`<button data-act="cbchoice" data-arg="${pi}|${j}" aria-pressed="${j===ch}" ${E.review?'disabled':''}>${x.label}</button>`).join('')}</div>`:''}
@@ -2003,7 +2003,7 @@ VIEWS.mockres=()=>{const m=MOCK[E.exam];const p=paperOf();const r=E.result;const
 
 function spTurns(){const p=paperOf();return p.parts.flatMap((pt,pi)=>pt.turns.map(([say,resp])=>({pi,say,resp})))}
 function cardHTML(k){
-  if(k==='acts'){const acts=[['playing video games','#2f9ae0','<rect x="6" y="14" width="28" height="14" rx="7" fill="currentColor"/><circle cx="14" cy="21" r="2" fill="#fff"/><circle cx="26" cy="21" r="2" fill="#fff"/>'],['playing football','#5fb526','<circle cx="20" cy="20" r="13" fill="#fff" stroke="currentColor" stroke-width="2.5"/><path d="M20 12l6 4-2 7h-8l-2-7z" fill="currentColor"/>'],['reading','#d7192a','<path d="M6 10c5 0 10 1 14 4 4-3 9-4 14-4v20c-5 0-10 1-14 4-4-3-9-4-14-4z" fill="currentColor" fill-opacity=".3" stroke="currentColor" stroke-width="2.5"/>'],['cooking','#f28a1d','<path d="M8 18h24v6a8 8 0 0 1-8 8h-8a8 8 0 0 1-8-8z" fill="currentColor"/><path d="M14 8v6M20 6v8M26 8v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>'],['going to the cinema','#1b2a6b','<rect x="6" y="10" width="28" height="20" rx="2" fill="currentColor"/><path d="M17 15l8 5-8 5z" fill="#fff"/>']];
+  if(k==='acts'){const acts=[['playing video games','#2f9ae0','<rect x="6" y="14" width="28" height="14" rx="7" fill="currentColor"/><circle cx="14" cy="21" r="2" fill="#fff"/><circle cx="26" cy="21" r="2" fill="#fff"/>'],['playing football','#5fb526','<circle cx="20" cy="20" r="13" fill="#fff" stroke="currentColor" stroke-width="2.5"/><path d="M20 12l6 4-2 7h-8l-2-7z" fill="currentColor"/>'],['reading','#0b16b0','<path d="M6 10c5 0 10 1 14 4 4-3 9-4 14-4v20c-5 0-10 1-14 4-4-3-9-4-14-4z" fill="currentColor" fill-opacity=".3" stroke="currentColor" stroke-width="2.5"/>'],['cooking','#f28a1d','<path d="M8 18h24v6a8 8 0 0 1-8 8h-8a8 8 0 0 1-8-8z" fill="currentColor"/><path d="M14 8v6M20 6v8M26 8v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>'],['going to the cinema','#1b2a6b','<rect x="6" y="10" width="28" height="20" rx="2" fill="currentColor"/><path d="M17 15l8 5-8 5z" fill="#fff"/>']];
     return`<div class="cardbox"><b>Things to do at the weekend</b><div class="acts">${acts.map(([l,c,ic])=>`<div style="color:${c}"><svg viewBox="0 0 40 40">${ic}</svg><span style="color:#1b2134">${l}</span></div>`).join('')}</div></div>`}
   if(k==='photo')return`<div class="cardbox"><b>Your photograph</b><div class="photo" style="margin-top:8px">A sunny afternoon in a city park. A family of four is sitting on a red-and-white picnic blanket under a big tree. The father is cutting a watermelon, the mother is pouring drinks, a teenage girl is taking a photo with her phone, and a small boy is playing with a ball. In the background, some people are jogging and an old man is feeding birds near a lake.</div><p class="hint" style="margin:6px 0 0">Gợi ý: Who? Where? What are they doing? What are they wearing? How do they feel?</p></div>`;
   if(k==='mind')return`<div class="cardbox"><b>Useful things to do in the summer holidays</b><div class="acts">${['volunteer at an animal shelter','work part-time in a café','learn a musical instrument','take a computer course','help his grandparents'].map(t=>`<div>${t}</div>`).join('')}</div></div>`;
@@ -2247,9 +2247,10 @@ document.addEventListener('dragstart',e=>{const t=e.target.closest('[data-drag]'
 document.addEventListener('dragover',e=>{const b=e.target.closest('[data-drop]');if(b){e.preventDefault();b.classList.add('over')}});
 document.addEventListener('dragleave',e=>{const b=e.target.closest('[data-drop]');if(b)b.classList.remove('over')});
 document.addEventListener('drop',e=>{const b=e.target.closest('[data-drop]');if(b&&V.kind==='sort'){e.preventDefault();act('sdrop',b.dataset.drop)}});
+(function(){try{const q=new URLSearchParams(location.search);const lv=q.get('lv'),vw=q.get('view');if(lv&&typeof LEVELS!=='undefined'&&LEVELS.find(x=>x.id===lv))V={name:'level',lv};else if(vw&&VIEWS[vw])V={name:vw};}catch(e){}})();
 render();
 </script>
 
-<a href="../" style="position:fixed;left:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;background:#fff;color:#0f766e;font:700 13px/1 system-ui,sans-serif;padding:9px 12px;border-radius:999px;box-shadow:0 3px 10px rgba(0,0,0,.2);text-decoration:none">← Giáo trình IVY</a>
+<a href="../" style="position:fixed;left:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;background:#fff;color:#0f766e;font:700 13px/1 system-ui,sans-serif;padding:9px 12px;border-radius:999px;box-shadow:0 3px 10px rgba(0,0,0,.2);text-decoration:none">← IVY Teen</a>
 <a href="ket/" style="position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;background:#f4c13d;color:#2a1a22;font:800 13px/1 system-ui,sans-serif;padding:10px 14px;border-radius:999px;box-shadow:0 3px 10px rgba(0,0,0,.25);text-decoration:none">📝 Kho đề KET (50 đề)</a>
 </body></html>

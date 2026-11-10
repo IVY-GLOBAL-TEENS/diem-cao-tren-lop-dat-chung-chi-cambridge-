@@ -1,32 +1,28 @@
-# IVY Teen – Website giáo trình & bài tập
+# IVY Teen – Bảng điều khiển học tập
 
-Website tĩnh (HTML/CSS/JavaScript thuần, không cần cài đặt gì) tổng hợp giáo trình tiếng Anh THCS của IVY:
+Website tĩnh (HTML/CSS/JS thuần) chạy trên GitHub Pages, màu chủ đạo xanh IVY Teen, logo IVY English và linh vật gấu trúc đỏ.
 
-- **Tổng quan** – mô hình học, 5 cấp độ (Foundation → IELTS Skills up)
-- **Kick-off A2** – 11 unit theo Gold Experience A2, phân bổ thời gian trên lớp
-- **Lộ trình 94 buổi** – tìm kiếm/lọc theo unit, dạng buổi; trang chi tiết từng buổi (105 phút theo phút, bài trước/sau buổi, nút sao chép tin nhắn giao bài, in giáo án)
-- **Ngữ pháp** – 19 điểm ngữ pháp nền tảng, buổi dạy lần đầu và ôn lại
-- **KET** – bản đồ part nào của A2 Key được luyện ở buổi nào
-- **Game** – gợi ý game theo lứa tuổi (lớp 5–9) ghép với nội dung unit
-- **Phòng thi ảo KET/PET** (`phong-thi/`) – học sinh luyện kỹ năng, làm đề mô phỏng thi trên máy, chơi game theo cấp độ (tiến độ lưu trên trình duyệt)
-- **Tài liệu** (`tai-lieu/`) – Curriculum CEFR, Bridge-up 94 buổi, khung khen thưởng, đề xuất dashboard
-- **Kho đề KET theo chủ điểm** (`phong-thi/ket/`) – 50 đề A2 Key for Schools (2020) theo 25 chủ điểm; file nghe Gemini lấy từ `ket-audio/audio/` khi đã tạo, nếu chưa có thì dùng giọng đọc của trình duyệt
-- **Bài tập** – nhập ngày khai giảng + lịch học → tự xếp lịch 94 buổi, đánh dấu bài đã làm (lưu trên trình duyệt)
+## Bố cục
+| Khu vực | Địa chỉ | Dành cho |
+|---|---|---|
+| Bảng điều khiển | `#/` | Mọi người: thẻ 5 lớp, việc cần làm, lối tắt |
+| Lớp của em | `#/hoc-sinh/<lớp>` | Học sinh: bài hôm nay, luyện tập, tiến độ (tick bài) |
+| Góc giáo viên | `#/giao-vien/<khoá>` | Tổng quan · Lộ trình · Giáo án từng buổi · Ngữ pháp · Bản đồ KET |
+| Game theo lứa tuổi | `#/giao-vien/game` | Giáo viên |
+| Phòng thi ảo | `phong-thi/` (`?lv=a1` mở thẳng cấp độ) | Học sinh |
+| Kho đề KET | `phong-thi/ket/` | Học sinh |
+| Tài liệu | `tai-lieu/` | Quản lý |
+
+Mã lớp/khoá: `fd` Foundation · `bu` Bridge-up · `ko` Kick-off · `bo` Boost · `pi` IELTS Skills up.
+Foundation, Boost, IELTS Skills up hiện "đang cập nhật" lộ trình (bài luyện theo Unit đã có trong Phòng thi ảo).
 
 ## Cấu trúc thư mục
-
 ```
-index.html          Trang chính
-assets/style.css    Giao diện
-assets/app.js       Chức năng (các trang, bộ lọc, lịch bài tập)
-phong-thi/index.html Phòng thi ảo (một file độc lập)
-data/data.js        TOÀN BỘ nội dung giáo trình – sửa nội dung ở đây
+index.html, assets/       Bảng điều khiển (app.js, style.css, img/)
+data/data.js              Dữ liệu các khoá (sinh từ tools/build_all.py)
+phong-thi/                Phòng thi ảo · phong-thi/ket/ Kho đề KET
+tai-lieu/                 Tài liệu chương trình
+ket-audio/                Công cụ tạo file nghe KET bằng Gemini (GitHub Actions)
+tools/                    Script sinh data.js
 ```
-
-## Sửa nội dung
-
-Mở `data/data.js`, tìm buổi cần sửa (ví dụ `"session_id": "KO-U03-S2"`), sửa chữ trong dấu ngoặc kép rồi lưu. Giữ nguyên dấu `"`, `,`, `{ }`, `[ ]`. Trên GitHub có thể bấm biểu tượng ✏️ để sửa trực tiếp, sau đó **Commit changes** – website tự cập nhật sau 1–2 phút.
-
-## Xem thử trên máy
-
-Bấm đúp `index.html` là mở được bằng trình duyệt.
+Tiến độ học sinh lưu trên trình duyệt của từng máy.
