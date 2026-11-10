@@ -97,6 +97,7 @@
     return `<aside class="rcol">
       <div class="hero-card"><span class="logo-box"><img src="${img("logo-ivy.png")}" alt="IVY English"></span>
         <img class="panda" src="${img("panda-hello.png")}" alt="Linh vật gấu trúc đỏ IVY"><h3>IVY TEEN</h3><p>Học vui mỗi ngày · Tiến bộ thật sự</p></div>
+      ${window.IVY_ACC ? window.IVY_ACC.accountPanel() : ""}
       <div class="panel"><div class="panel-h"><span class="pi">☰</span><div><b>Việc cần làm</b><small>${c ? "Lớp " + esc(c.name) : "Theo dõi lịch học của em"}</small></div></div>${todo}</div>
       <div class="panel"><div class="panel-h"><span class="pi">🔔</span><div><b>Mới cập nhật</b><small>Trên website IVY Teen</small></div></div>
         <ul class="news">
@@ -161,6 +162,8 @@
       return `${hero}<div class="card updating"><img src="${img("panda-sleep.png")}" alt=""><div><h3>Lộ trình lớp ${esc(c.name)} đang cập nhật</h3><p class="muted" style="margin:6px 0 0">Thầy cô đang soạn lộ trình và bài tập hằng ngày cho lớp này. Trong lúc chờ, em vẫn luyện được theo Unit trong Phòng thi ảo nhé!</p></div></div>
         <h2>Luyện tập</h2>${practiceCards(c)}`;
     }
+    const acc = window.IVY_CORE && window.IVY_CORE.session();
+    const locked = acc && acc.role === "hs" && acc.cls && acc.cls.course === cid && acc.cls.start;
     const st = nowState(c), cfg = st.cfg;
     const tasks = []; c.sessions.forEach((s) => { if (has(s.before)) tasks.push(s.session_id + ":before"); if (has(s.after)) tasks.push(s.session_id + ":after"); });
     const doneCount = tasks.filter((k) => cfg.done[k]).length, pct = tasks.length ? Math.round((doneCount / tasks.length) * 100) : 0;
@@ -179,13 +182,14 @@
       <h2>Luyện tập</h2>${practiceCards(c)}
       <h2>Tiến độ của em</h2>
       <div class="card">
-        <div class="grid g3">
+        ${locked ? `<p style="margin:0 0 6px">Lớp <b>${esc(acc.cls.name)}</b> · khai giảng ${esc(acc.cls.start.split("-").reverse().join("/"))} · lịch học do thầy cô cài đặt. <a href="#/cua-em">Xem Góc của em →</a></p>` : ""}
+        <div class="grid g3" ${locked ? "hidden" : ""}>
           <label class="field">Tên lớp<input id="hwCls" value="${esc(cfg.cls)}" placeholder="VD: ${esc(c.name)} K12"></label>
           <label class="field">Ngày khai giảng<input id="hwStart" type="date" value="${esc(cfg.start)}"></label>
           <div class="field">Lịch học (chọn 2 ngày)<div class="days">${DOW.map(([v, l]) => `<label><input type="checkbox" class="hwDay" value="${v}" ${cfg.days.includes(v) ? "checked" : ""}>${l}</label>`).join("")}</div></div>
         </div>
         <div style="margin-top:16px"><div style="display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px"><b>Bài tập đã làm</b><span>${doneCount}/${tasks.length} · ${pct}%</span></div><div class="progress"><i style="width:${pct}%"></i></div></div>
-        <p class="muted" style="font-size:13px;margin:10px 0 0">${esc(c.homework_note || "")} Đánh dấu được lưu trên trình duyệt của máy này.</p>
+        <p class="muted" style="font-size:13px;margin:10px 0 0">${esc(c.homework_note || "")} ${acc && acc.role === "hs" ? "Đánh dấu tự lưu về tài khoản của em để thầy cô theo dõi." : `Đánh dấu được lưu trên trình duyệt của máy này. <a href="#/dang-nhap">Đăng nhập</a> để lưu về tài khoản.`}</p>
       </div>
       <details class="more"><summary>Xem toàn bộ ${c.sessions.length} buổi và bài tập</summary>
         <div class="table-wrap"><table class="stack"><thead><tr><th>#</th><th>Ngày</th><th>Buổi học</th><th>Chuẩn bị trước</th><th>Bài về nhà</th></tr></thead><tbody>${rows}</tbody></table></div>
@@ -193,7 +197,7 @@
   }
 
   function bindClass(cid) {
-    const save = (mut) => { const cfg = cfgOf(cid); mut(cfg); store.set(HW_KEY(cid), cfg); };
+    const save = (mut) => { const cfg = cfgOf(cid); mut(cfg); store.set(HW_KEY(cid), cfg); if (window.IVY_CORE) window.IVY_CORE.soon(); };
     const rerender = () => { const y = window.scrollY; route(); window.scrollTo(0, y); };
     const q = (id) => document.getElementById(id);
     if (!q("hwStart")) return;
@@ -337,9 +341,9 @@
   function pageGuide() {
     return `<div class="page-head"><div><span class="eyebrow">Hướng dẫn</span><h1>Dùng IVY Teen thế nào?</h1></div></div>
       <div class="roles">
-        <a class="card" href="#/hoc-sinh"><span class="pi">🎒</span><h3>Học sinh</h3><span class="muted">Chọn lớp → xem bài hôm nay → luyện theo Unit trong Phòng thi ảo → tick bài đã làm.</span></a>
-        <a class="card" href="#/giao-vien"><span class="pi">👩‍🏫</span><h3>Giáo viên</h3><span class="muted">Chọn khoá → Lộ trình → mở buổi để xem giáo án 105 phút, sao chép tin nhắn giao bài.</span></a>
-        <a class="card" href="tai-lieu/"><span class="pi">📁</span><h3>Quản lý</h3><span class="muted">Tài liệu thiết kế chương trình: curriculum CEFR, khung từng khoá, khen thưởng, dashboard.</span></a>
+        <a class="card" href="#/hoc-sinh"><span class="pi">🎒</span><h3>Học sinh</h3><span class="muted">Đăng nhập bằng mã thầy cô phát (lần đầu đặt mật khẩu) → xem bài hôm nay → luyện trong Phòng thi ảo → tick bài đã làm. Tiến độ tự lưu về tài khoản.</span></a>
+        <a class="card" href="#/giao-vien"><span class="pi">👩‍🏫</span><h3>Giáo viên</h3><span class="muted">Đăng nhập bằng mã giáo viên → tạo lớp, cấp mã học sinh → theo dõi bài tập, điểm KET, học sinh cần chú ý. Góc giáo viên có lộ trình và giáo án từng buổi.</span></a>
+        <a class="card" href="tai-lieu/"><span class="pi">📁</span><h3>Quản lý</h3><span class="muted">Tạo mã giáo viên ở mục Quản lý giáo viên. Tài liệu thiết kế chương trình: curriculum CEFR, khung từng khoá, khen thưởng, dashboard.</span></a>
       </div>`;
   }
 
@@ -371,13 +375,17 @@
       } else html = pageTeachers();
     }
     else if (p[0] === "huong-dan") html = pageGuide();
+    else if (window.IVY_ACC && window.IVY_ACC.routes[p[0]]) { const r = window.IVY_ACC.routes[p[0]](p, q); html = r.html; nav = r.nav || "acc"; after = r.after || null; }
     else html = pageHome();
     app.innerHTML = html;
     document.querySelectorAll(".side a[data-nav]").forEach((a) => a.classList.toggle("active", a.dataset.nav === nav));
     const h1 = app.querySelector("h1");
     document.title = (p.length && h1 ? h1.textContent + " · " : "") + "IVY Teen";
     if (after) after();
+    if (window.IVY_ACC) window.IVY_ACC.updateBadge();
   }
+  window.IVY_APP = { D, C, LOOK, esc, has, schedule, nowState, fmt, iso, route };
+  window.addEventListener("ivy-auth", () => { const h = location.hash.split("?")[0]; if (!/dang-nhap|cua-em|lop-cua-toi|quan-ly/.test(h)) route(); });
   let lastPath = null;
   window.addEventListener("hashchange", () => { const pth = location.hash.split("?")[0]; route(); if (pth !== lastPath) window.scrollTo(0, 0); lastPath = pth; });
   lastPath = location.hash.split("?")[0];
