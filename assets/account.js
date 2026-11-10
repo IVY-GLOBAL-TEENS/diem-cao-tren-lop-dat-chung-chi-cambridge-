@@ -11,7 +11,9 @@
   const dmy = (s) => { if (!s) return "—"; const m = String(s).match(/^(\d{4})-(\d{2})-(\d{2})/); return m ? `${+m[3]}/${+m[2]}/${m[1]}` : s; };
   const ago = (iso) => { if (!iso) return null; const d = new Date(String(iso).slice(0, 10) + "T00:00:00"); if (isNaN(d)) return null; return Math.round((new Date(K.isoDay(new Date()) + "T00:00:00") - d) / 864e5); };
   const agoTxt = (n) => (n == null ? "chưa học" : n <= 0 ? "hôm nay" : n === 1 ? "hôm qua" : n + " ngày trước");
-  const ROLE_HOME = { hs: "#/cua-em", gv: "#/lop-cua-toi", ql: "#/lop-cua-toi" };
+  const ROLE_HOME = { hs: "#/", gv: "#/", ql: "#/" };
+  const nextUrl = (q) => { const n = (q && q.get("next")) || ""; return /^(#\/|phong-thi\/|tai-lieu\/)/.test(n) && !/dang-nhap/.test(n) ? n : null; };
+  const goNext = (q, role) => { const n = nextUrl(q); if (n && !n.startsWith("#")) location.href = n; else location.hash = n || ROLE_HOME[role]; };
   let catalog = null; // danh sách đề KET
   let dashCache = null;
 
@@ -133,11 +135,11 @@
               if (pw.value !== pw2.value) return msg(m, "Hai mật khẩu chưa giống nhau.", "err");
               const j = await busy(go, () => K.api("activate", { code: c, password: pw.value }));
               await busy(go, () => K.afterLogin(j));
-              location.hash = ROLE_HOME[j.profile.role];
+              goNext(q, j.profile.role);
             } else {
               const j = await busy(go, () => K.api("login", { code: c, password: pw.value }));
               await busy(go, () => K.afterLogin(j));
-              location.hash = ROLE_HOME[j.profile.role];
+              goNext(q, j.profile.role);
             }
           } catch (err) { msg(m, err.message, "err"); }
         });
@@ -269,7 +271,7 @@
     const stop = needLogin(["gv", "ql"]); if (stop != null) return { html: stop };
     const tab = q.get("tab") || "tong-quan";
     return {
-      html: `<div class="crumbs"><a href="#/lop-cua-toi">Lớp của tôi</a> › <span id="cName">Lớp</span></div><div id="cBox"><div class="card empty">Đang tải lớp…</div></div>`,
+      html: `<div class="crumbs"><a href="#/">Lớp của tôi</a> › <span id="cName">Lớp</span></div><div id="cBox"><div class="card empty">Đang tải lớp…</div></div>`,
       async after() {
         const box = $("cBox");
         let d;
@@ -368,7 +370,7 @@
       });
       $("dGo").addEventListener("click", async () => {
         if (!confirm("Xoá lớp " + cl.name + "?")) return;
-        try { await busy($("dGo"), () => K.api("deleteClass", { id: cl.id })); dashCache = null; location.hash = "#/lop-cua-toi"; } catch (e) { msg($("dMsg"), e.message, "err"); }
+        try { await busy($("dGo"), () => K.api("deleteClass", { id: cl.id })); dashCache = null; location.hash = "#/"; } catch (e) { msg($("dMsg"), e.message, "err"); }
       });
     } else {
       box.querySelectorAll("tr.row-link[data-code]").forEach((tr) => tr.addEventListener("click", () => { const x = sts.find((y) => y.code === tr.dataset.code); showStudent(x, cl); }));
@@ -396,7 +398,7 @@
   function pageAdmin() {
     const stop = needLogin(["ql"]); if (stop != null) return { html: stop };
     return {
-      html: `<div class="crumbs"><a href="#/lop-cua-toi">Tất cả các lớp</a> › Quản lý giáo viên</div>
+      html: `<div class="crumbs"><a href="#/">Tất cả các lớp</a> › Quản lý giáo viên</div>
         <div class="page-head"><div><span class="eyebrow">Quản lý</span><h1>Mã giáo viên</h1><p class="lead">Mỗi giáo viên một mã. Giáo viên dùng mã để kích hoạt, đặt mật khẩu, rồi tạo lớp và cấp mã cho học sinh của mình – chỉ thấy lớp của mình.</p></div></div>
         <form class="card" id="fT"><div class="grid g3"><label class="field">Họ tên giáo viên<input id="tName" maxlength="60" placeholder="VD: Cô Lan" required></label><div class="field" style="justify-content:flex-end"><button class="btn primary" id="tGo">+ Tạo mã giáo viên</button></div></div><div id="tMsg" class="auth-msg"></div></form>
         <div id="tBox" style="margin-top:16px"><div class="card empty">Đang tải…</div></div>`,
@@ -438,7 +440,7 @@
     if (s.role !== "hs") return `<div class="panel acc-panel"><div class="panel-h"><span class="pi">👩‍🏫</span><div><b>${esc(s.name)}</b><small>${esc(s.role_name || "")}</small></div></div><a class="btn primary block" href="#/lop-cua-toi">Mở lớp của tôi →</a></div>`;
     const snap = Object.assign(K.snapshot(), { days: K.days() });
     const r = analyze({ activated: true, snap }, s.cls);
-    return `<a class="panel acc-panel me" href="#/cua-em"><div class="panel-h"><span class="pi">🎒</span><div><b>${esc(s.name)}</b><small>${s.cls ? "Lớp " + esc(s.cls.name) : "Học sinh"}</small></div></div>
+    return `<a class="panel acc-panel me" href="#/"><div class="panel-h"><span class="pi">🎒</span><div><b>${esc(s.name)}</b><small>${s.cls ? "Lớp " + esc(s.cls.name) : "Học sinh"}</small></div></div>
       <div class="mini-stats"><span>⭐ <b>${r.stars}</b><small>sao</small></span><span>🔥 <b>${r.streak}</b><small>ngày</small></span><span>🏆 <b>${r.ket.tests}</b><small>đề KET</small></span></div></a>`;
   }
 

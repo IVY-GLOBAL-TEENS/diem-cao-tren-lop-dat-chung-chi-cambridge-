@@ -247,6 +247,13 @@ details.more summary{cursor:pointer;font-weight:800;color:var(--blue);margin:8px
 }
 
 /* ---------- tài khoản ---------- */
+body[data-role="guest"] .shell{grid-template-columns:1fr}
+body[data-role="guest"] .side{display:none}
+.strip span{opacity:1}
+.strip b{color:#fff}
+.round-btn.wide{width:auto;padding:0 16px;font-size:14px;border-radius:999px}
+button.round-btn{background:transparent;cursor:pointer;font-family:inherit}
+@media (max-width:860px){.banner-actions{display:flex!important;gap:6px}.banner-actions .acc-btn{display:none}}
 [hidden]{display:none!important}
 .acc-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);color:#fff;text-decoration:none;border-radius:999px;padding:5px 14px 5px 5px;font-weight:700;font-size:14px;border:2px solid rgba(255,255,255,.35)}
 .acc-btn:hover{background:rgba(255,255,255,.24)}

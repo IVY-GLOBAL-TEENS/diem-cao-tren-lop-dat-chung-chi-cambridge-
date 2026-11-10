@@ -13,9 +13,7 @@
 </head>
 <body>
   <div class="strip">
-    <div class="strip-in">
-      <a href="#/hoc-sinh">Học sinh</a><span>|</span><a href="#/giao-vien">Giáo viên</a><span>|</span><a href="tai-lieu/">Tài liệu</a><span>|</span><a href="phong-thi/">Phòng thi ảo</a>
-    </div>
+    <div class="strip-in" id="strip"></div>
   </div>
   <header class="banner">
     <div class="banner-in">
@@ -25,23 +23,14 @@
       </a>
       <div class="banner-actions">
         <a class="acc-btn" id="accBtn" href="#/dang-nhap"><span class="av">👤</span><span class="nm">Đăng nhập</span></a>
-        <a class="round-btn" href="#/huong-dan" title="Hướng dẫn" aria-label="Hướng dẫn">?</a>
-        <a class="round-btn" href="phong-thi/" title="Vào phòng thi" aria-label="Vào phòng thi">🎯</a>
+        <a class="round-btn" href="#/huong-dan" title="Hướng dẫn" aria-label="Hướng dẫn" data-auth>?</a>
+        <button class="round-btn wide" id="outBtn" title="Đăng xuất" data-auth>Đăng xuất</button>
       </div>
     </div>
   </header>
 
   <div class="shell">
-    <nav class="side" id="side" aria-label="Điều hướng chính">
-      <a href="#/" data-nav="home" title="Bảng điều khiển"><span class="ic">🏠</span><small>Trang chủ</small></a>
-      <a href="#/hoc-sinh" data-nav="hoc-sinh" title="Lớp của em"><span class="ic">🎒</span><small>Lớp học</small></a>
-      <a href="phong-thi/" title="Phòng thi ảo"><span class="ic">🎯</span><small>Phòng thi</small></a>
-      <a href="phong-thi/?view=ketbank" title="Kho đề KET"><span class="ic">📝</span><small>Đề KET</small></a>
-      <a href="#/giao-vien" data-nav="giao-vien" title="Góc giáo viên"><span class="ic">👩‍🏫</span><small>Giáo viên</small></a>
-      <a href="#/tai-khoan" data-nav="acc" title="Tài khoản"><span class="ic">👤</span><small>Tài khoản</small></a>
-      <a href="#/giao-vien/game" data-nav="game" title="Game theo lứa tuổi"><span class="ic">🎲</span><small>Game</small></a>
-      <a href="tai-lieu/" title="Tài liệu"><span class="ic">📁</span><small>Tài liệu</small></a>
-    </nav>
+    <nav class="side" id="side" aria-label="Điều hướng chính"></nav>
     <main id="app" tabindex="-1"></main>
   </div>
 

@@ -210,7 +210,7 @@
   /* ---------- pages: teacher ---------- */
   function pageTeachers() {
     return `<div class="page-head"><div><span class="eyebrow">Giáo viên</span><h1>Góc giáo viên</h1><p class="lead">Chọn khoá để xem lộ trình 94 buổi, giáo án từng buổi, mạch ngữ pháp và bản đồ luyện KET.</p></div><span class="sp"></span>
-      <div class="pill-toggle"><a href="#/">🎒 Học sinh</a><a class="on" href="#/giao-vien">👩‍🏫 Giáo viên</a></div></div>
+</div>
       <div class="ccards">${D.courses.map((c) => courseCard(c, `#/giao-vien/${c.id}`, ready(c) ? `${c.total_sessions} buổi · ${c.book}` : c.book)).join("")}</div>
       <h2>Công cụ</h2>
       <div class="grid g3">
@@ -339,12 +339,42 @@
   }
 
   function pageGuide() {
-    return `<div class="page-head"><div><span class="eyebrow">Hướng dẫn</span><h1>Dùng IVY Teen thế nào?</h1></div></div>
+    const role = (account() || {}).role;
+    return `<style>.roles>.card{display:none}.roles>.card.r-${role}{display:block}</style><div class="page-head"><div><span class="eyebrow">Hướng dẫn</span><h1>Dùng IVY Teen thế nào?</h1></div></div>
       <div class="roles">
-        <a class="card" href="#/hoc-sinh"><span class="pi">🎒</span><h3>Học sinh</h3><span class="muted">Đăng nhập bằng mã thầy cô phát (lần đầu đặt mật khẩu) → xem bài hôm nay → luyện trong Phòng thi ảo → tick bài đã làm. Tiến độ tự lưu về tài khoản.</span></a>
-        <a class="card" href="#/giao-vien"><span class="pi">👩‍🏫</span><h3>Giáo viên</h3><span class="muted">Đăng nhập bằng mã giáo viên → tạo lớp, cấp mã học sinh → theo dõi bài tập, điểm KET, học sinh cần chú ý. Góc giáo viên có lộ trình và giáo án từng buổi.</span></a>
-        <a class="card" href="tai-lieu/"><span class="pi">📁</span><h3>Quản lý</h3><span class="muted">Tạo mã giáo viên ở mục Quản lý giáo viên. Tài liệu thiết kế chương trình: curriculum CEFR, khung từng khoá, khen thưởng, dashboard.</span></a>
+        <a class="card r-hs" href="#/"><span class="pi">🎒</span><h3>Học sinh</h3><span class="muted">Đăng nhập bằng mã thầy cô phát (lần đầu đặt mật khẩu) → xem bài hôm nay → luyện trong Phòng thi ảo → tick bài đã làm. Tiến độ tự lưu về tài khoản.</span></a>
+        <a class="card r-gv r-ql" href="#/"><span class="pi">👩‍🏫</span><h3>Giáo viên</h3><span class="muted">Đăng nhập bằng mã giáo viên → tạo lớp, cấp mã học sinh → theo dõi bài tập, điểm KET, học sinh cần chú ý. Góc giáo viên có lộ trình và giáo án từng buổi.</span></a>
+        <a class="card r-ql" href="#/quan-ly"><span class="pi">🗝️</span><h3>Quản lý</h3><span class="muted">Tạo mã giáo viên ở mục Quản lý giáo viên. Tài liệu thiết kế chương trình: curriculum CEFR, khung từng khoá, khen thưởng, dashboard.</span></a>
       </div>`;
+  }
+
+  /* ---------- giao diện theo vai trò ---------- */
+  const NAV = {
+    hs: (a) => [["#/", "home", "🏠", "Trang chủ"], [a.cls ? `#/hoc-sinh/${a.cls.course}` : "#/", "hoc-sinh", "🎒", "Bài tập"], [a.cls && C[a.cls.course] ? examLink(C[a.cls.course]) : "phong-thi/", "", "🎯", "Phòng thi"], ["phong-thi/?view=ketbank", "", "📝", "Đề KET"], ["#/huong-dan", "huong-dan", "❓", "Hướng dẫn"]],
+    gv: () => [["#/", "home", "🏠", "Lớp của tôi"], ["#/giao-vien", "giao-vien", "📚", "Giáo án"], ["#/giao-vien/game", "game", "🎲", "Game"], ["phong-thi/", "", "🎯", "Phòng thi"], ["phong-thi/?view=ketbank", "", "📝", "Đề KET"], ["tai-lieu/", "", "📁", "Tài liệu"]],
+    ql: () => [["#/", "home", "🏠", "Các lớp"], ["#/quan-ly", "quan-ly", "🗝️", "Giáo viên"], ["#/giao-vien", "giao-vien", "📚", "Giáo án"], ["#/hoc-sinh", "hoc-sinh", "🎒", "Xem như HS"], ["phong-thi/", "", "🎯", "Phòng thi"], ["phong-thi/?view=ketbank", "", "📝", "Đề KET"], ["tai-lieu/", "", "📁", "Tài liệu"]],
+  };
+  const ALLOW = {
+    hs: ["", "hoc-sinh", "cua-em", "tai-khoan", "huong-dan", "dang-nhap"],
+    gv: ["", "giao-vien", "lop-cua-toi", "tai-khoan", "huong-dan", "dang-nhap"],
+    ql: ["", "giao-vien", "lop-cua-toi", "quan-ly", "hoc-sinh", "tai-khoan", "huong-dan", "dang-nhap"],
+  };
+  const ROLE_LABEL = { hs: "Học sinh", gv: "Giáo viên", ql: "Quản lý" };
+  function account() {
+    const K = window.IVY_CORE;
+    if (!K || !K.API) return null;
+    const a = K.session();
+    if (!a || !a.token || !ALLOW[a.role]) return null;
+    try { const b = a.token.split(".")[0].replace(/-/g, "+").replace(/_/g, "/"); const pl = JSON.parse(atob(b + "===".slice((b.length + 3) % 4))); if (!pl.e || pl.e < Date.now()) { K.ls.del("ivy-acc"); return null; } } catch (e) { return null; }
+    return a;
+  }
+  function chrome(a, nav) {
+    const role = a ? a.role : "guest";
+    document.body.dataset.role = role;
+    document.getElementById("side").innerHTML = a ? NAV[role](a).map(([h, k, ic, l]) => `<a href="${h}" ${k ? `data-nav="${k}"` : ""} class="${k && k === nav ? "active" : ""}" title="${esc(l)}"><span class="ic">${ic}</span><small>${esc(l)}</small></a>`).join("") : "";
+    document.getElementById("strip").innerHTML = a ? `<span>Giao diện <b>${ROLE_LABEL[role]}</b> · ${esc(a.name)}${role === "hs" && a.cls ? " · Lớp " + esc(a.cls.name) : ""}</span>` : `<span>IVY English · Teen</span>`;
+    document.querySelectorAll("[data-auth]").forEach((el) => (el.hidden = !a));
+    document.querySelector(".brand").setAttribute("href", "#/");
   }
 
   /* ---------- router ---------- */
@@ -357,7 +387,16 @@
     if (parts0[0] === "buoi" && parts0[1]) { location.replace("#/giao-vien/ko/buoi/" + parts0[1]); return; }
     const q = new URLSearchParams(qs || ""), p = path.split("/").filter(Boolean);
     let html, nav = "home", after = null;
-    if (!p.length) html = pageHome();
+    const a = account();
+    const R = window.IVY_ACC ? window.IVY_ACC.routes : {};
+    if (!a) {
+      chrome(null);
+      if (p[0] !== "dang-nhap") { location.replace("#/dang-nhap" + (path && path !== "/" ? "?next=" + encodeURIComponent("#/" + path + (qs ? "?" + qs : "")) : "")); return; }
+    } else if (!ALLOW[a.role].includes(p[0] || "")) { location.replace("#/"); return; }
+    else if (a.role === "hs" && p[0] === "hoc-sinh" && (!a.cls || p[1] !== a.cls.course)) { location.replace(a.cls ? "#/hoc-sinh/" + a.cls.course : "#/"); return; }
+    if (!a) { const r = R["dang-nhap"](p, q); html = r.html; after = r.after; nav = ""; }
+    else if (!p.length) { const r = a.role === "hs" ? R["cua-em"](p, q) : R["lop-cua-toi"](["lop-cua-toi"], q); html = r.html; after = r.after; }
+    else if (p[0] === "cua-em" || (p[0] === "lop-cua-toi" && !p[1])) { location.replace("#/"); return; }
     else if (p[0] === "hoc-sinh") { nav = "hoc-sinh"; if (p[1] && C[p[1]]) { html = pageClass(p[1]); after = () => bindClass(p[1]); } else html = pageStudents(); }
     else if (p[0] === "giao-vien") {
       nav = "giao-vien";
@@ -375,17 +414,19 @@
       } else html = pageTeachers();
     }
     else if (p[0] === "huong-dan") html = pageGuide();
-    else if (window.IVY_ACC && window.IVY_ACC.routes[p[0]]) { const r = window.IVY_ACC.routes[p[0]](p, q); html = r.html; nav = r.nav || "acc"; after = r.after || null; }
+    else if (R[p[0]]) { const r = R[p[0]](p, q); html = r.html; nav = p[0] === "lop-cua-toi" ? "home" : p[0]; after = r.after || null; }
     else html = pageHome();
+    if (html === undefined) return;
+    chrome(a, nav);
     app.innerHTML = html;
-    document.querySelectorAll(".side a[data-nav]").forEach((a) => a.classList.toggle("active", a.dataset.nav === nav));
     const h1 = app.querySelector("h1");
     document.title = (p.length && h1 ? h1.textContent + " · " : "") + "IVY Teen";
     if (after) after();
     if (window.IVY_ACC) window.IVY_ACC.updateBadge();
   }
   window.IVY_APP = { D, C, LOOK, esc, has, schedule, nowState, fmt, iso, route };
-  window.addEventListener("ivy-auth", () => { const h = location.hash.split("?")[0]; if (!/dang-nhap|cua-em|lop-cua-toi|quan-ly/.test(h)) route(); });
+  window.addEventListener("ivy-auth", () => { if (!/dang-nhap/.test(location.hash)) route(); });
+  document.getElementById("outBtn").addEventListener("click", async () => { if (!confirm("Đăng xuất khỏi IVY Teen?")) return; await window.IVY_CORE.logout(); location.hash = "#/dang-nhap"; route(); });
   let lastPath = null;
   window.addEventListener("hashchange", () => { const pth = location.hash.split("?")[0]; route(); if (pth !== lastPath) window.scrollTo(0, 0); lastPath = pth; });
   lastPath = location.hash.split("?")[0];
