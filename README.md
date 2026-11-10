@@ -22,7 +22,6 @@ index.html, assets/       Bảng điều khiển (app.js, style.css, img/)
 data/data.js              Dữ liệu các khoá (sinh từ tools/build_all.py)
 phong-thi/                Phòng thi ảo · phong-thi/ket/ Kho đề KET
 tai-lieu/                 Tài liệu chương trình
-ket-audio/                Công cụ tạo file nghe KET bằng Gemini (GitHub Actions)
 tools/                    Script sinh data.js
 ```
 Tiến độ học sinh lưu trên trình duyệt của từng máy.
