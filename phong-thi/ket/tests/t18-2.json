@@ -1,0 +1,187 @@
+{
+  "id": "t18-2", "topic": "18", "testNo": 2,
+  "title": "Jobs and Days Out",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "CITY MUSEUM", "text": "Bags and coats must be left in the lockers on the ground floor.\nPhotos are allowed, but please do not touch the paintings.",
+        "options": ["You can take your bag into the museum.", "You mustn't take photos in the museum.", "Visitors have to put their coats away before they go in."], "answer": 2 },
+      { "kind": "message", "header": "From: Dad  To: Linh", "text": "Linh, the bank closes at 4 today, so I can't get the money for your school trip. Can you ask your teacher if you can pay on Monday?",
+        "options": ["Linh should talk to her teacher about the money.", "Linh's dad wants her to go to the bank.", "The school trip is on Monday."], "answer": 0 },
+      { "kind": "notice", "header": "GREENWAY GARAGE", "text": "Car repairs: Monday–Friday 8.00–6.00\nWe also wash cars – Saturdays only.\nNo need to book!",
+        "options": ["You must make an appointment for a repair.", "You can get your car washed at the weekend.", "The garage is open every day of the week."], "answer": 1 },
+      { "kind": "email", "header": "From: Sunrise Travel  To: Mrs Okafor", "text": "Your train tickets for the trip to Edinburgh are ready. You can collect them from our office, or we can post them to you for £2.",
+        "options": ["Mrs Okafor will have to pay if she wants the tickets sent to her.", "The travel agent will post the tickets for free.", "Mrs Okafor must collect the tickets from the station."], "answer": 0 },
+      { "kind": "sign", "header": "PALACE THEATRE", "text": "Tonight's show will start 15 minutes late because of a problem with the lights.\nDoors open at 7.15.",
+        "options": ["The theatre will have no lights tonight.", "There is no show at the theatre tonight.", "Tonight's show will begin later than planned."], "answer": 2 },
+      { "kind": "note", "header": "From: Ana  To: Mum", "text": "Mum, Dr Hill's office phoned. Your appointment tomorrow is cancelled because she's ill. Please call the doctor's to get a new one. I've gone to the cinema with Jake – back by 9.",
+        "options": ["Dr Hill wants Ana's mum to phone her at home.", "Ana's mum needs to make another appointment.", "Ana will be at the doctor's until 9."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about their best day out.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Tuan", "text": "For my thirteenth birthday, my parents took me to see a musical at the big theatre in the city. We sat in the front row, so I could see everything. The singing was amazing, and at the end the actors came out and talked to us. Before the show, we had dinner at a small Vietnamese restaurant nearby. My dad said it was the best noodle soup he'd ever had!" },
+        { "label": "B", "title": "Grace", "text": "Last spring my family stayed at a hotel in the mountains for two nights. My grandparents paid for the trip as a present for my mum's birthday. The hotel had an indoor swimming pool and a games room, so my brother and I were never bored. The only problem was the weather – it rained every day, so we couldn't go walking. I'd still like to go back next year." },
+        { "label": "C", "title": "Marco", "text": "My best day out was a cooking class at an Italian restaurant in town. My friend Leo won two places in a competition and invited me. The chef taught us to make pizza and fresh pasta. It was harder than I thought, and my first pizza was a bit black! But we ate everything at the end. Now I cook dinner for my family every Sunday." }
+      ],
+      "items": [
+        { "q": "Who went somewhere because of a prize?", "answer": "C" },
+        { "q": "Who had a meal before the main activity of the day?", "answer": "A" },
+        { "q": "Who says the weather spoiled part of the trip?", "answer": "B" },
+        { "q": "Who now does something new at home?", "answer": "C" },
+        { "q": "Who met some performers?", "answer": "A" },
+        { "q": "Whose day out was a present for someone else?", "answer": "B" },
+        { "q": "Who did something wrong the first time they tried?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "The bike doctor",
+      "text": "When fourteen-year-old Jamal Hussain's bike broke last year, he didn't have enough money to take it to a shop. \"The man at the bike shop said it would cost forty pounds,\" he says. \"So I decided to repair it myself.\"\n\nJamal watched videos online and borrowed some tools from his grandfather, who used to work at a car garage. \"Grandad helped me a lot at the beginning. He showed me how to use the tools properly.\" After three weekends, the bike was working again.\n\nSoon Jamal's friends started bringing him their bikes. Then the neighbours did the same. Now Jamal has his own small business in his grandfather's garage. He opens on Saturday mornings and usually repairs four or five bikes a day. \"I'm not as fast as a real mechanic,\" he says, \"but I'm getting better.\"\n\nJamal charges much less than the shops – usually five or ten pounds. \"I don't want to get rich. I just enjoy it. And people are always happy when they ride away on their bikes.\"\n\nHis parents were worried at first. \"My mum thought I wouldn't have time for my homework,\" says Jamal. \"But I only work on Saturdays, and my school marks are still good.\"\n\nNext year, Jamal wants to give free lessons at the sports centre to teach other teenagers how to look after their bikes. \"Everyone should know how to repair a tyre,\" he says.",
+      "items": [
+        { "q": "Why did Jamal decide to repair his bike himself?", "options": ["He wanted to learn something new.", "A repair at the shop cost too much for him.", "The bike shop was closed."], "answer": 1 },
+        { "q": "How did Jamal's grandfather help him?", "options": ["He bought him some new tools.", "He paid for the repairs.", "He taught him how to use the tools."], "answer": 2 },
+        { "q": "What does Jamal say about his work?", "options": ["He works more slowly than an expert.", "He repairs cars as well as bikes.", "He opens his garage every day."], "answer": 0 },
+        { "q": "Why was Jamal's mother worried?", "options": ["She thought he would hurt himself.", "She thought he would have no time for school work.", "She didn't want strangers to come to the house."], "answer": 1 },
+        { "q": "What does Jamal plan to do next year?", "options": ["open a shop in town", "work at a car garage", "teach other young people"], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "The first cinemas",
+      "text": "The first films were made in the 1890s. At that time there were no cinemas, so people {19} to theatres, cafés and even tents at country fairs to see them. The films were very short – often less than a minute – and they had no sound.\n\nIn 1905, the first real cinema {20} in the city of Pittsburgh in the USA. It was called the Nickelodeon, because a ticket {21} just five cents, or a 'nickel'. It was very popular, and soon there were thousands of cinemas across the country.\n\nIn the 1920s and 1930s, cinemas became huge, beautiful buildings, with seats for more than 2,000 people. Because the films had no sound, a musician often {22} the piano during the film. Going to the cinema every week was a big {23} for many families.\n\nToday lots of people watch films at home, but cinemas are still popular. Many people still go there to {24} the latest films on a really big screen.",
+      "items": [
+        { "options": ["visited", "went", "arrived"], "answer": 1 },
+        { "options": ["opened", "showed", "played"], "answer": 0 },
+        { "options": ["paid", "spent", "cost"], "answer": 2 },
+        { "options": ["did", "made", "played"], "answer": 2 },
+        { "options": ["news", "event", "match"], "answer": 1 },
+        { "options": ["see", "look", "notice"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Kevin  To: Grandma", "text": "Hi Grandma,\nThank you {25} the birthday card! It arrived yesterday. Mum says you're coming to visit next month. {26} you like to go to the new museum in town with me? There's {27} exhibition about space, and it's really good. My class went there last week.\nLove,\nKevin" },
+        { "header": "From: Grandma  To: Kevin", "text": "Dear Kevin,\nI'm glad the card arrived. I sent it from the post office two weeks ago, so I was worried! I'd love to go to the museum with you. I've never been to a space exhibition {28}. After that, we {29} have lunch at the Italian restaurant near the station – it's my favourite. {30} you like pizza?\nLove,\nGrandma" }
+      ],
+      "answers": [ ["for"], ["would"], ["an"], ["before"], ["can", "could", "will", "should", "might", "may", "shall", "must"], ["do"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You were going to go to the swimming pool with your English friend, Jo, tomorrow, but you can't go now. Write an email to Jo.",
+      "points": ["tell Jo why you can't go swimming tomorrow", "suggest another day to go", "say what you want to do after swimming"],
+      "model": "Hi Jo,\nSorry, I can't go to the swimming pool with you tomorrow because I have to go to the dentist at eleven. Can we go on Sunday instead? After swimming, let's have a hot chocolate at the café.\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👨‍👩‍👦🍝🎂", "caption": "a family having dinner at a restaurant for a boy's birthday" },
+        { "emoji": "🧾😟👛", "caption": "the father looks for his wallet when the waiter brings the bill" },
+        { "emoji": "👦💷😊", "caption": "the boy takes money out of his pocket and gives it to the waiter; everyone smiles" }
+      ],
+      "model": "Last Friday Sam and his parents had dinner at a restaurant for his birthday. The food was delicious. When the waiter brought the bill, Dad looked for his wallet, but he couldn't find it. He left it at home! Luckily, Sam had his birthday money in his pocket, so he paid for dinner."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Where is the girl's mum now?",
+        "options": [ {"emoji":"🏦","label":"bank"}, {"emoji":"📮","label":"post office"}, {"emoji":"📚","label":"library"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Dad, where's Mum? Is she still at the bank?"}, {"s":"M","t":"No, she finished there an hour ago."}, {"s":"F","t":"So is she at the library? She wanted to get a new book."}, {"s":"M","t":"She was going to go there, but it's closed today. She's at the post office now, sending a parcel to Aunt Mai."} ] },
+      { "q": "How much does the girl pay to go into the museum?",
+        "options": [ {"emoji":"🎟️","label":"£4"}, {"emoji":"🎟️","label":"£6"}, {"emoji":"🎟️","label":"£8"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Excuse me, how much is it to get into the science museum?"}, {"s":"M","t":"It's eight pounds for adults."}, {"s":"F","t":"I'm fourteen. Is it cheaper for children?"}, {"s":"M","t":"Yes, under-sixteens pay six pounds. It's only four pounds on Wednesdays, but today's Saturday, I'm afraid."}, {"s":"F","t":"That's OK. One ticket, please."} ] },
+      { "q": "What's the matter with the boy?",
+        "options": [ {"emoji":"🤧","label":"cold"}, {"emoji":"🤕","label":"headache"}, {"emoji":"🦶","label":"hurt foot"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Hello, Ben. What's the problem today? Is it your cold again?"}, {"s":"M","t":"No, doctor, that's much better now. I hurt my foot playing football yesterday."}, {"s":"F","t":"I see. Does your head hurt too?"}, {"s":"M","t":"A little, but that's only because I didn't sleep well."}, {"s":"F","t":"OK, let me look at your foot."} ] },
+      { "q": "What time does the swimming pool close today?",
+        "options": [ {"emoji":"🕕","label":"6:00"}, {"emoji":"🕖","label":"7:00"}, {"emoji":"🕗","label":"8:00"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Let's go swimming after school today. The pool closes at eight, doesn't it?"}, {"s":"F","t":"Only in summer. In winter it closes at seven."}, {"s":"M","t":"OK, so we've got lots of time."}, {"s":"F","t":"Not today. Today it closes at six, because there's a swimming competition in the evening. We'll have to go straight after school."} ] },
+      { "q": "Where are the friends going to have lunch?",
+        "options": [ {"emoji":"☕","label":"café"}, {"emoji":"🍽️","label":"restaurant"}, {"emoji":"🏠","label":"at home"} ], "answer": 2,
+        "script": [ {"s":"F","t":"I'm hungry. Shall we go to that Italian restaurant?"}, {"s":"M","t":"It's a bit expensive. What about the café in the park?"}, {"s":"F","t":"It's closed in the winter. Let's just go back to my house – my dad's making soup."}, {"s":"M","t":"Even better!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a hotel manager talking to a group of students on a school trip.",
+      "title": "Park View Hotel",
+      "items": [
+        { "label": "Breakfast for school groups starts at:", "answer": ["7.30", "7:30", "half past seven", "seven thirty"] },
+        { "label": "The swimming pool is on floor:", "answer": ["2", "two", "second", "2nd"] },
+        { "label": "Day of museum visit:", "answer": ["tuesday"] },
+        { "label": "Receptionist's name: Mr", "answer": ["ruiz"] },
+        { "label": "A new room key costs: £", "answer": ["15", "fifteen"] }
+      ],
+      "script": [ {"s":"M","t":"Good evening, everyone, and welcome to the Park View Hotel. I hope you had a good journey. I'm the hotel manager, and I'm going to tell you a few important things. First, breakfast. It's in the restaurant on the ground floor. For most guests it starts at seven o'clock, but for school groups it's at half past seven, so please don't come down earlier. We also have a lovely swimming pool. It isn't in the basement like in a lot of hotels – it's on the second floor, next to the gym. You can use it from four until eight every evening. Your teachers tell me you're going to visit the city museum on Tuesday and the castle on Wednesday. The tourist bus stops right outside the hotel, so it's very easy. If you have any problems with your room, please talk to our receptionist, Mr Ruiz. That's R-U-I-Z. He speaks Spanish and English. And finally, please be careful with your room keys. If you lose one, you'll have to pay fifteen pounds for a new one. Have a great stay!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Max talking to his friend Chloe about her new weekend job at a café.",
+      "items": [
+        { "q": "When does Chloe work at the café?", "options": ["on Saturday mornings", "on Sunday afternoons", "every evening after school"], "answer": 1 },
+        { "q": "What does Chloe do at the café?", "options": ["She cooks food.", "She washes the dishes.", "She serves the customers."], "answer": 2 },
+        { "q": "What does Chloe like best about the job?", "options": ["the people she works with", "the free food", "the money"], "answer": 0 },
+        { "q": "What is Chloe going to spend her money on?", "options": ["a holiday", "concert tickets", "new clothes"], "answer": 0 },
+        { "q": "What is Max going to do?", "options": ["ask for a job at the café", "visit Chloe at work on Sunday", "try to get a job at the cinema"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Chloe. I heard you've got a job at the café in the high street. Is that right?"},
+        {"s":"F","t":"Yes! I started two weeks ago. I wanted to work on Saturday mornings, but another girl already does that. So I work on Sunday afternoons, from twelve until five."},
+        {"s":"M","t":"Cool. Do you cook?"},
+        {"s":"F","t":"No, I'm not allowed to cook yet. I thought I'd be in the kitchen washing plates all day, but they have a machine for that. I take people's orders and bring the food to their tables."},
+        {"s":"M","t":"Do you like it?"},
+        {"s":"F","t":"I love it. The money isn't much – five pounds an hour. I get a free lunch, which is nice. But the best thing is the other waiters. They're really funny and we laugh all afternoon."},
+        {"s":"M","t":"What are you going to do with the money? Buy clothes?"},
+        {"s":"F","t":"My friends spend their money on clothes and concert tickets, but I'm saving it. My cousin and I want to go to Paris in the summer, and I have to pay for my train ticket."},
+        {"s":"M","t":"That sounds great. Maybe I could ask for a job at the café too!"},
+        {"s":"F","t":"They don't need anyone at the moment. But the cinema next door is looking for someone to sell tickets at the weekend."},
+        {"s":"M","t":"Really? I'll go there this afternoon and ask."},
+        {"s":"F","t":"Good luck! And come and have a hot chocolate at the café one Sunday."},
+        {"s":"M","t":"Not this Sunday – I've got a football match. But soon!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a woman phoning a hotel.", "q": "Why is she phoning?", "options": ["to book a room", "to change her booking", "to complain about her room"], "answer": 1,
+        "script": [ {"s":"F","t":"Hello. My name's Helen Ward. I've got a room at your hotel for Friday and Saturday night."}, {"s":"M","t":"Yes, Mrs Ward, I can see your booking here."}, {"s":"F","t":"The problem is, I can't come on Friday now because of my work. Could I have the room for Saturday and Sunday night instead?"}, {"s":"M","t":"Let me check. Yes, that's fine."} ] },
+      { "intro": "You will hear a boy talking about a visit to the dentist.", "q": "How did he feel after the visit?", "options": ["frightened", "pleased", "angry"], "answer": 1,
+        "script": [ {"s":"M","t":"I went to the dentist this morning. I was really scared before I went, because last time it hurt a lot. We had to wait twenty minutes, but I didn't mind – I read a comic. The dentist was really kind, and she said my teeth were perfect, so she didn't need to do anything! I was so happy when I came out."} ] },
+      { "intro": "You will hear two friends talking about a film they saw at the cinema.", "q": "What did the girl think of the film?", "options": ["The story was hard to follow.", "The actors were bad.", "It was too long."], "answer": 0,
+        "script": [ {"s":"M","t":"So what did you think of the film?"}, {"s":"F","t":"Well, the actors were good, I suppose, and it wasn't too long."}, {"s":"M","t":"But?"}, {"s":"F","t":"I didn't understand what was happening half the time. There were too many people in the story, and they kept going to different places!"} ] },
+      { "intro": "You will hear a man talking at a tourist information centre.", "q": "What does the man want?", "options": ["a map of the town", "information about buses", "the address of a hotel"], "answer": 2,
+        "script": [ {"s":"F","t":"Good morning. Would you like a map of the town?"}, {"s":"M","t":"No, thanks, I've already got one. I'm looking for the Grand Hotel. I know it's in Hill Street, but I don't know the number."}, {"s":"F","t":"It's number forty-two. Would you like to take the bus?"}, {"s":"M","t":"No, I'll walk. Thanks."} ] },
+      { "intro": "You will hear a girl talking about the new swimming pool in her town.", "q": "What problem does she talk about?", "options": ["The tickets are expensive.", "It's a long way from her home.", "It's too busy."], "answer": 2,
+        "script": [ {"s":"F","t":"The new swimming pool in our town is lovely. It's big, the water's warm, and tickets are only two pounds. I thought it would be a long way from my house, but it's only ten minutes on my bike. The only problem is that everyone in town wants to go there! There are so many people in the water that I can hardly swim."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Hannah talking to her friend Leo about a school project. Which place did each student visit?",
+      "people": ["Ryan", "Mia", "Duc", "Sophie", "Hannah"],
+      "options": ["bank", "café", "garage", "hotel", "museum", "post office", "restaurant", "theatre"],
+      "answers": ["D", "H", "A", "G", "E"],
+      "script": [
+        {"s":"M","t":"Hi Hannah. How's your project about jobs in our town going?"},
+        {"s":"F","t":"Great! Each of us visited a different place and talked to someone who works there. Ryan wanted to go to the garage, because he loves cars, but they were too busy. So he went to the hotel by the river and talked to the receptionist."},
+        {"s":"M","t":"And Mia? She loves acting."},
+        {"s":"F","t":"That's right, so she went to the theatre. She even met one of the actors!"},
+        {"s":"M","t":"What about Duc? Did he go to the post office? His mum works there."},
+        {"s":"F","t":"He thought about it, but in the end he chose the bank. He wants to work with money one day."},
+        {"s":"M","t":"And Sophie?"},
+        {"s":"F","t":"Sophie wanted to visit the café in the park, but it was closed for the week. So she went to the Chinese restaurant in Market Street instead. The cook showed her the kitchen."},
+        {"s":"M","t":"Lucky her! And where did you go?"},
+        {"s":"F","t":"I went to the museum. I talked to a woman who looks after the old paintings. It was really interesting."},
+        {"s":"M","t":"It sounds like a great project."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Eating out", "questions": ["How often do you eat at a restaurant?", "What do you like to order at a café?"], "extended": "Please tell me something about your favourite restaurant or café." },
+        { "topic": "Holidays", "questions": ["Have you ever stayed in a hotel?", "What do you like to visit on holiday?"], "extended": "Please tell me something about a holiday you enjoyed." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show people doing different jobs in a town. Would you like to do these different jobs? Say why or why not.",
+      "pictures": [ {"emoji":"👩‍⚕️","label":"doctor"}, {"emoji":"💇","label":"hairdresser"}, {"emoji":"🏨","label":"hotel receptionist"}, {"emoji":"🍽️","label":"waiter in a restaurant"}, {"emoji":"📚","label":"librarian"} ],
+      "prompts": ["Do you think being a doctor is interesting?", "Is working as a hairdresser fun?", "Do you think working in a hotel is difficult?", "Is being a waiter in a restaurant boring?", "Which of these jobs would you like best?"],
+      "followup": ["Would you prefer to work inside or outside? Why?", "Which job do you think is the most important?", "What job would you like to do in the future?"],
+      "usefulLanguage": ["I'd like to be a ... because ...", "I wouldn't like to work in a ... because ...", "What do you think?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

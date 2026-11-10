@@ -1,0 +1,187 @@
+{
+  "id": "t25-2", "topic": "25", "testNo": 2,
+  "title": "The World of Work",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "HOTEL RECEPTION", "text": "If there is nobody at the desk, please ring the bell.\nA member of staff will come and help you.",
+        "options": ["Guests should wait outside the hotel.", "The reception desk is closed today.", "You can call someone to come to the desk."], "answer": 2 },
+      { "kind": "message", "header": "From: Dad  To: Emma", "text": "I'm stuck in a meeting with my boss and won't finish work until 7. There's pasta in the fridge for you and Tom – just warm it up.",
+        "options": ["Emma and Tom can have dinner without their dad.", "Emma's dad wants her to cook some pasta.", "Emma's dad has a meeting at 7 o'clock."], "answer": 0 },
+      { "kind": "notice", "header": "SCHOOL CAFÉ", "text": "We need students to help in the café at lunchtime, three days a week.\nYou'll get a free lunch every day you work!\nSpeak to Mrs Jones in the kitchen.",
+        "options": ["Students will get money for working in the café.", "Helpers don't have to pay for their lunch.", "The café is only open three days a week."], "answer": 1 },
+      { "kind": "email", "header": "From: Sunway Travel  To: Mr Brown", "text": "Your plane tickets to Rome are ready. You can collect them from our office, or our travel agent can email them to you. Have a great trip!",
+        "options": ["Mr Brown has to go to the office to get his tickets.", "Mr Brown's tickets have been lost.", "Mr Brown can get his tickets in two different ways."], "answer": 2 },
+      { "kind": "sign", "header": "FACTORY – STAFF ONLY", "text": "Visitors must wear a helmet and follow the instructions of their guide at all times.",
+        "options": ["Visitors are not allowed to enter the factory.", "Visitors must do what their guide tells them.", "Factory workers don't need to wear a helmet."], "answer": 1 },
+      { "kind": "message", "header": "From: Grace  To: Lily", "text": "I got the job at the bookshop! I start on Saturday, so I can't come shopping with you. How about Sunday afternoon instead?",
+        "options": ["Grace wants to meet Lily on a different day.", "Grace is going to buy some books on Sunday.", "Lily has started a new job at the bookshop."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their summer jobs.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Noah", "text": "Last summer I worked as a waiter in a café by the beach. I got the job because my best friend's mum is the manager there. The work was hard – I was on my feet all day, and some customers were quite rude. But I earned enough money to buy a new bike, and I learned to carry four plates at once! I'm going back this summer, but only for three days a week." },
+        { "label": "B", "title": "Priya", "text": "I love tennis, so I helped the coach at our local club with a summer course for young children. I didn't get any money for it, but the coach gave me free lessons, which was great. The children were only six or seven years old, so I had to be very patient with them. At the end of the course, their parents gave me a card and some flowers. I felt really proud." },
+        { "label": "C", "title": "Minh", "text": "My aunt is a photographer, and she has a small studio in the city. In the holidays I answered the phone, wrote emails for her and kept her diary. It was a bit boring, but sometimes she took me to weddings and I helped her with the cameras. She paid me ten pounds a day. Now I know that I want to be a photographer, too." }
+      ],
+      "items": [
+        { "q": "Who got their job because they knew someone's parent?", "answer": "A" },
+        { "q": "Who did not get paid for their work?", "answer": "B" },
+        { "q": "Who did some office work?", "answer": "C" },
+        { "q": "Who received presents at the end of their job?", "answer": "B" },
+        { "q": "Who is planning to do the same job again?", "answer": "A" },
+        { "q": "Who has decided what job they want in the future?", "answer": "C" },
+        { "q": "Who worked with young children?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "Meet the teenage boss",
+      "text": "When fifteen-year-old Jack Evans's laptop stopped working two years ago, his parents said it was too expensive to repair. So Jack watched some videos online and fixed it himself. \"It took me a whole weekend,\" he says, \"but when it turned on again, I was so happy!\"\n\nSoon, friends and neighbours started bringing him their broken computers and phones. Now Jack has his own small business, called Fix-it Jack. He works in his bedroom, where he has a big desk full of tools. He has more than fifty customers, and most of them find him through his website, which his sister made for him.\n\nBut running a company when you're still at school isn't easy. \"My parents have one important rule,\" says Jack. \"Homework comes first.\" So his working hours are short: one hour after school and three hours on Saturday. He never works on Sundays. \"That's my day for football and seeing my friends.\"\n\nJack charges much less than the shops in town, but he still earns about a hundred pounds a month. He's saving most of it for university, where he wants to study engineering.\n\nDoes he like being his own boss? \"Yes, because I can decide what to do,\" he says. \"But when a customer is angry, there's nobody else to talk to them. I have to stay calm and be very polite!\"",
+      "items": [
+        { "q": "Why did Jack repair his own laptop?", "options": ["His parents didn't want to pay for a repair.", "He had learnt how to do it at school.", "The shop was closed at the weekend."], "answer": 0 },
+        { "q": "How do most customers find Jack?", "options": ["through his neighbours", "on the internet", "through his sister's friends"], "answer": 1 },
+        { "q": "What is the rule that Jack's parents have?", "options": ["He mustn't work in his bedroom.", "He mustn't work on Saturdays.", "He must do his school work before his business work."], "answer": 2 },
+        { "q": "What is Jack going to do with his money?", "options": ["use it to pay for his studies", "spend it on football", "buy some new tools"], "answer": 0 },
+        { "q": "What does Jack find difficult about being his own boss?", "options": ["deciding what to do every day", "dealing with unhappy customers", "working alone in his bedroom"], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "London's taxi drivers",
+      "text": "Becoming a taxi driver in London is not easy. Before they can {19} one of the city's famous black taxis, drivers have to pass a very difficult test called 'The Knowledge'.\n\nTo pass, they must learn about 25,000 streets and thousands of important places, like hotels, theatres and hospitals. They can't use a map or a computer to {20} them – they have to remember everything!\n\nMost people {21} three or four years to get ready for the test. Many of them ride around the city on a motorbike every day, and they {22} notes about the streets and buildings they see.\n\nIn the test, the examiner names two places, and the driver must explain the {23} way to drive from one to the other. Only about half of the people who start ever pass.\n\nScientists have found that all this hard work actually {24} the drivers' brains. The part of the brain that helps us remember places gets bigger!",
+      "items": [
+        { "options": ["ride", "drive", "travel"], "answer": 1 },
+        { "options": ["explain", "say", "help"], "answer": 2 },
+        { "options": ["take", "keep", "make"], "answer": 0 },
+        { "options": ["do", "get", "make"], "answer": 2 },
+        { "options": ["smallest", "shortest", "lowest"], "answer": 1 },
+        { "options": ["changes", "moves", "turns"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Hana  To: Aunt Sue", "text": "Hi Aunt Sue,\nI'm doing a school project about jobs, and I've chosen nursing because of you! Can I ask you {25} questions? What time do you start work, and {26} you work at weekends? Also, what do you like most {27} your job?\nLove, Hana" },
+        { "header": "From: Aunt Sue  To: Hana", "text": "Hi Hana,\nWhat a lovely idea! My working hours change every week. Sometimes I start at seven in the morning and sometimes I work at night. I usually work {28} Saturdays and Sundays twice a month. The best part of my job is helping people {29} are ill. It's hard work, but I've never wanted to do {30} else!\nSue" }
+      ],
+      "answers": [ ["some", "any"], ["do"], ["about"], ["on"], ["who", "that"], ["anything"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your mother or father has got a new job. Write an email to your English friend, Sam.",
+      "points": ["say what the new job is", "describe the place where they work", "say how your family feels about the new job"],
+      "model": "Hi Sam,\nGreat news! My dad has got a new job. He's a manager at a big hotel near the beach. His office is on the top floor and it has a view of the sea! We're all really happy for him.\nAn"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦☕🧾", "caption": "a teenage boy in a waiter's uniform on his first day at a busy café" },
+        { "emoji": "🍝💥😳", "caption": "the boy drops a plate of pasta near a customer's table" },
+        { "emoji": "🧑‍💼👵😊", "caption": "the manager and the old customer smiling; the customer gives the boy some money" }
+      ],
+      "model": "On Saturday Daniel started his first job as a waiter in a busy café. He felt nervous. At lunchtime he was carrying a plate of pasta when he dropped it on the floor next to an old lady. He was very embarrassed. But the lady just laughed, and when she left, she gave him a big tip!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What is the boy's mother's job?",
+        "options": [ {"emoji":"👩‍⚕️","label":"nurse"}, {"emoji":"🩺","label":"doctor"}, {"emoji":"👮‍♀️","label":"police officer"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Your mum works at the hospital, doesn't she, Carlos? Is she a doctor?"}, {"s":"M","t":"No, she's a nurse. My aunt's a doctor at the same hospital."}, {"s":"F","t":"Oh! I saw your mum in a uniform at the station last week."}, {"s":"M","t":"Ah, that was my other aunt. She's a police officer."} ] },
+      { "q": "Where will they meet Dad after work?",
+        "options": [ {"emoji":"🏢","label":"at his office"}, {"emoji":"🚉","label":"at the station"}, {"emoji":"☕","label":"at a café"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Mum, are we going to meet Dad at his office?"}, {"s":"F2","t":"No, he finishes late today, so it's easier to meet in town. Let's wait for him at the café opposite the station."}, {"s":"F","t":"Why not inside the station?"}, {"s":"F2","t":"It's too busy and cold in there. The café's much warmer."} ] },
+      { "q": "How much does the girl earn an hour for babysitting?",
+        "options": [ {"emoji":"💷","label":"£5"}, {"emoji":"💷","label":"£8"}, {"emoji":"💷","label":"£10"} ], "answer": 1,
+        "script": [ {"s":"M","t":"You babysit for your neighbours, don't you? How much do they pay you?"}, {"s":"F","t":"Eight pounds an hour. My friend gets ten, but she looks after three children!"}, {"s":"M","t":"That's not bad. I only get five pounds for washing my dad's car."}, {"s":"F","t":"Five pounds an hour?"}, {"s":"M","t":"No, for the whole car!"} ] },
+      { "q": "Who did the class meet at the TV studio?",
+        "options": [ {"emoji":"🎤","label":"singer"}, {"emoji":"🎭","label":"actor"}, {"emoji":"📰","label":"journalist"} ], "answer": 2,
+        "script": [ {"s":"F","t":"How was your school trip to the TV studio?"}, {"s":"M","t":"Brilliant! We hoped to see a famous singer, but she wasn't there that day."}, {"s":"F","t":"Did you see any actors?"}, {"s":"M","t":"We saw where they film a drama, but there weren't any actors. But we met a journalist who reads the news. She was really friendly and talked to us for ages."} ] },
+      { "q": "What does the man need to buy for his new job?",
+        "options": [ {"emoji":"💼","label":"bag"}, {"emoji":"👔","label":"shirt"}, {"emoji":"👞","label":"shoes"} ], "answer": 0,
+        "script": [ {"s":"F","t":"When do you start your new job at the bank, Paul?"}, {"s":"M","t":"On Monday. They give us a uniform, so I don't need any shirts."}, {"s":"F","t":"What about shoes?"}, {"s":"M","t":"I've got some good black ones. But I need a bag for my laptop – my old one's broken."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a man on the radio talking about a writing competition.",
+      "title": "Young Reporter Competition",
+      "items": [
+        { "label": "Story topic: a person with an unusual", "answer": ["job"] },
+        { "label": "Maximum number of words:", "answer": ["300", "three hundred"] },
+        { "label": "Last day to send story: 28th", "answer": ["february"] },
+        { "label": "Prize: a day with a newspaper", "answer": ["photographer"] },
+        { "label": "Email your story to: Simon", "answer": ["dawlish"] }
+      ],
+      "script": [ {"s":"M","t":"Do you love writing? Are you between eleven and fifteen? Then why not enter our Young Reporter competition? This year, we'd like you to write a news story about a person in your town who has an unusual job. Last year the topic was sport, and we got hundreds of stories about footballers! This time, think about someone different – maybe a man who repairs old clocks, or a woman who works with snakes at the zoo. You'll need to talk to them and ask lots of questions, just like a real journalist. Your story must be no longer than three hundred words. Two hundred is fine too, but please don't send more than three hundred. The last day to send your story is the twenty-eighth of February – we can't accept anything after that. The winner will spend a day working with one of our photographers at the newspaper, taking pictures of real news stories. The winning story will also appear in the newspaper. Please email your story to our editor, Simon Dawlish. That's D-A-W-L-I-S-H. Good luck!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Ruby talking to her friend Tom about his work experience week at a hotel.",
+      "items": [
+        { "q": "Where did Tom work in the hotel?", "options": ["in the kitchen", "at the reception desk", "in the manager's office"], "answer": 1 },
+        { "q": "What didn't Tom like about the job?", "options": ["talking to guests", "writing emails", "the clothes he had to wear"], "answer": 2 },
+        { "q": "What were Tom's working hours?", "options": ["eight o'clock until four o'clock", "eight o'clock until eleven o'clock", "four o'clock until eleven o'clock"], "answer": 0 },
+        { "q": "What does Tom want to do in the future?", "options": ["work in a hotel", "be a pilot", "teach French"], "answer": 1 },
+        { "q": "Where will Ruby do her work experience?", "options": ["at a zoo", "at a school", "at a hairdresser's"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Tom! How was your work experience week at the Grand Hotel?"},
+        {"s":"M","t":"It was brilliant, Ruby. I wanted to work in the kitchen, but they didn't need anyone there, so I helped the receptionist instead."},
+        {"s":"F","t":"What did you do?"},
+        {"s":"M","t":"I answered the phone and helped guests when they arrived. I also wrote emails to people who wanted to book rooms. The manager checked them before I sent them."},
+        {"s":"F","t":"Was it difficult?"},
+        {"s":"M","t":"Not really. The worst thing was the uniform! I had to wear a black suit and tie every day, and it was so hot. But the guests were really nice. One old man from Canada gave me a book about his country."},
+        {"s":"F","t":"That's kind. Did you have to work long hours?"},
+        {"s":"M","t":"I started at eight and finished at four. That's the same as school, really – but with no lessons! The receptionists usually work until eleven at night, though."},
+        {"s":"F","t":"Would you like to work in a hotel when you're older?"},
+        {"s":"M","t":"Maybe. The manager said I'd be good at it, because I'm friendly and I can speak French. But I'd prefer to be a pilot. Then I can stay in hotels all over the world!"},
+        {"s":"F","t":"Ha! I'm doing my work experience next month at a hairdresser's."},
+        {"s":"M","t":"Really? I thought you wanted to go to the zoo."},
+        {"s":"F","t":"I did, but all the places there were taken."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking about his father's job.", "q": "What does the boy say about his father's job?", "options": ["It's easy.", "It's tiring.", "It pays well."], "answer": 1,
+        "script": [ {"s":"M","t":"My dad's a painter – not pictures, houses! He paints people's walls and doors. He says it's an easy job, but it isn't. He climbs ladders all day and carries heavy things, and when he gets home, he falls asleep on the sofa before dinner! He doesn't earn much money, but he likes being his own boss."} ] },
+      { "intro": "You will hear a woman talking to a group of visitors.", "q": "Who is the woman?", "options": ["a tour guide", "a teacher", "a shop assistant"], "answer": 0,
+        "script": [ {"s":"F","t":"Good morning, everyone, and welcome to the castle. My name's Helen, and I'll be with you for the next hour. We'll start in the Great Hall, where the king and queen ate their dinner, and finish in the gift shop. Please stay together, and don't touch the paintings. Any questions before we start? No? Follow me, then."} ] },
+      { "intro": "You will hear a girl talking to her friend about a job interview.", "q": "How does the girl feel?", "options": ["excited", "disappointed", "nervous"], "answer": 2,
+        "script": [ {"s":"F","t":"I've got an interview tomorrow for the Saturday job at the pet shop."}, {"s":"M","t":"That's great! Are you looking forward to it?"}, {"s":"F","t":"Not really. I can't stop thinking about it. What if they ask me something I don't know? My hands are shaking just talking about it!"}, {"s":"M","t":"Don't worry. You'll be fine."} ] },
+      { "intro": "You will hear a mechanic leaving a message for a customer.", "q": "Why is he calling?", "options": ["to say the car is ready", "to ask for more money", "to change the time of a meeting"], "answer": 0,
+        "script": [ {"s":"M","t":"Hello, Mrs Taylor. This is Dave from Northside Garage. I'm calling about your car. We've finished the work, and it's ready to collect. It cost a bit less than we said – just ninety pounds. We're open until six today, or you can come tomorrow morning if that's easier. Thanks. Bye."} ] },
+      { "intro": "You will hear a teacher talking to her class about a visitor.", "q": "What should students do before the visit?", "options": ["prepare some questions", "find out about the visitor's work", "bring some photos"], "answer": 1,
+        "script": [ {"s":"F","t":"Next Thursday an explorer called Anna Rivera is coming to talk to us. She has travelled to the North Pole! She'll show us photos and a short film. You don't need to prepare any questions – she'll answer anything you like at the end. But please look at her website before Thursday and read about her journeys. Then you'll understand her talk better."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Daniel telling his friend Maya about his family. Where does each person work?",
+      "people": ["his mum", "his dad", "his sister", "his uncle Tony", "his grandmother"],
+      "options": ["bank", "factory", "hospital", "hotel", "office", "pharmacy", "school", "shop"],
+      "answers": ["C", "B", "F", "D", "H"],
+      "script": [
+        {"s":"F","t":"Daniel, for our English homework we have to write about our families' jobs. Can I ask you about yours?"},
+        {"s":"M","t":"Sure. My mum used to work in an office, but now she works at the hospital. She isn't a doctor or a nurse, though – she's a receptionist there."},
+        {"s":"F","t":"And your dad? Didn't he work in a bank?"},
+        {"s":"M","t":"He did, but he left last year. Now he's a manager at a big car factory outside town. He loves it."},
+        {"s":"F","t":"What about your sister? She's still a student, isn't she?"},
+        {"s":"M","t":"She finished university in June. She wanted to be a teacher, but she changed her mind. Now she's a chemist, so she works in a pharmacy."},
+        {"s":"F","t":"And your uncle – the one who drives a taxi?"},
+        {"s":"M","t":"No, that's my other uncle. Uncle Tony is a waiter. He works in a hotel restaurant by the sea."},
+        {"s":"F","t":"And your grandmother? Has she stopped working?"},
+        {"s":"M","t":"No! She's seventy, but she still works three days a week in a clothes shop. She loves talking to the customers."},
+        {"s":"F","t":"What a busy family!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Helping at home", "questions": ["What jobs do you do at home?", "Do your parents give you money for helping?"], "extended": "Please tell me something about how you help your family." },
+        { "topic": "Work and school", "questions": ["What do you want to study after school?", "Which job do you think is the most difficult?"], "extended": "Please tell me something about a person with an interesting job." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different jobs young people can do in the holidays. Do you think these jobs are good for teenagers? Say why or why not.",
+      "pictures": [ {"emoji":"☕","label":"working in a café"}, {"emoji":"🐕","label":"walking people's dogs"}, {"emoji":"📰","label":"delivering newspapers"}, {"emoji":"👶","label":"babysitting"}, {"emoji":"🛒","label":"working in a shop"} ],
+      "prompts": ["Do you think working in a café is fun?", "Is walking people's dogs a good job for a teenager?", "Do you think delivering newspapers is boring?", "Is babysitting difficult?", "Which of these jobs do you like best?"],
+      "followup": ["Would you like to have a job in the holidays? Why or why not?", "What would you do with the money you earn?", "Is it better to work alone or with other people?"],
+      "usefulLanguage": ["I'd like to ... because ...", "I think ... would be boring because ...", "What do you think?", "I agree.", "I don't agree, because ..."]
+    }
+  }
+}

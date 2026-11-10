@@ -1,0 +1,186 @@
+{
+  "id": "t21-2", "topic": "21", "testNo": 2,
+  "title": "Islands, Stars and Space",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "STAR NIGHT AT HILLTOP SCHOOL", "text": "Look at the moon and stars through our big telescope!\nFriday, 8–10 p.m.\nIf the sky is cloudy, we will try again the next Friday.",
+        "options": ["This event happens every Friday.", "You need to bring your own telescope.", "The event may not happen because of the weather."], "answer": 2 },
+      { "kind": "message", "header": "From: Alex  To: Ming", "text": "Boats to the island leave from the beach at the east end of town, not the west. I'll wait for you outside the ticket office.",
+        "options": ["Ming should go to the west of the town.", "Alex will meet Ming near the place where you buy tickets.", "Alex has already bought the tickets."], "answer": 1 },
+      { "kind": "label", "header": "HIGHLAND JUMPER", "text": "Made by hand from the wool of sheep on Scottish farms.\nKeeps you warm even in the coldest winter.",
+        "options": ["Nobody used a machine to make this jumper.", "This jumper is only for summer.", "The wool comes from all over the world."], "answer": 0 },
+      { "kind": "notice", "header": "OUTDOOR EXPLORERS CAMP", "text": "For ages 10–14. Learn to build a fire, find your way in the forest and sleep under the stars!\nOnly 30 places – book early.",
+        "options": ["Only adults can join this camp.", "You might not get a place if you wait too long.", "The camp takes place in a hotel."], "answer": 1 },
+      { "kind": "email", "header": "From: Dad  To: Rosie", "text": "The weather's changed – it's too windy to go up the mountain today. Let's go to the Space Museum instead. It opens at ten.",
+        "options": ["They won't climb the mountain because of the weather.", "The museum is closed today.", "Dad wants to leave the house at ten."], "answer": 0 },
+      { "kind": "sign", "header": "MILL LAKE", "text": "DANGER! Thin ice.\nDo not walk or skate on the lake.",
+        "options": ["You can skate here in winter.", "The lake is too deep for swimming.", "It is not safe to go on the ice."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about a special trip in nature.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Leah", "text": "Last winter my family travelled to the north of Norway. We wanted to see the Northern Lights – green and pink lights that move across the sky. For four nights it was cloudy and we saw nothing. I was really sad. Then, on our last night, the clouds disappeared and the sky was full of colour. My dad cried! I took lots of photos, but they don't show how amazing it really was." },
+        { "label": "B", "title": "Minh", "text": "In the summer I visited Ha Long Bay in the north-east of Vietnam with my school. There are almost two thousand islands there, and some of them have caves inside. We explored one of the caves by boat. Our teacher told us lots of old stories about the islands. The water was so clear that I could see fish swimming under our boat. I want to go back with my parents next year." },
+        { "label": "C", "title": "Daniel", "text": "My older brother and I climbed a mountain in Wales at three o'clock in the morning. We wanted to watch the sun come up from the top. It was dark and cold, and we used torches to see the path. When we arrived, the sky was orange and we could see the sea far away in the west. We drank hot chocolate and ate sandwiches. It was the best breakfast ever!" }
+      ],
+      "items": [
+        { "q": "Who had to wait a long time to see what they wanted?", "answer": "A" },
+        { "q": "Who went on the trip with their classmates?", "answer": "B" },
+        { "q": "Who went with a brother or sister?", "answer": "C" },
+        { "q": "Who says their pictures are not as good as the real thing?", "answer": "A" },
+        { "q": "Who saw animals in the water?", "answer": "B" },
+        { "q": "Who had a meal in the place they visited?", "answer": "C" },
+        { "q": "Who would like to visit the place again?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "The girl who wants to go to space",
+      "text": "When Isla Ford was eight, her grandmother gave her a small telescope for her birthday. \"I put it next to my bedroom window and looked at the moon every night,\" says Isla, who is now fourteen. \"I couldn't believe how many things I could see – mountains, holes, everything!\"\n\nIsla lives in a small village in the countryside, far from any big town. \"That's lucky for me,\" she explains. \"In cities there are so many lights that you can't see the stars very well. Here the sky is really dark at night.\"\n\nLast year, Isla started a star club at her school. Every month, the members meet in the school field on a clear night and look at the stars and planets together. \"At the first meeting only three people came, and two of them were my best friends!\" she laughs. \"Now we have twenty members, and some parents come too.\"\n\nIn the summer, Isla won a competition for young scientists. She had to write about what life would be like for people living on the moon. Her prize was a week at a space centre in the United States. \"I met real astronauts, and I tried a machine that showed me what it's like to walk on the moon. It was the most exciting week of my life.\"\n\nIsla wants to study science at university. \"Lots of people say it's impossible to become an astronaut,\" she says. \"But someone has to go to Mars one day. Why not me?\"",
+      "items": [
+        { "q": "What did Isla do with her telescope when she was younger?", "options": ["She took it to her grandmother's house.", "She used it to look at the moon from her room.", "She looked at the stars in the school field."], "answer": 1 },
+        { "q": "Why is Isla's village a good place to look at the stars?", "options": ["There are not many lights there.", "It is on a high hill.", "The weather is usually clear."], "answer": 0 },
+        { "q": "What does Isla say about the first meeting of her club?", "options": ["Lots of parents came.", "It was in a classroom.", "Very few people came."], "answer": 2 },
+        { "q": "What did Isla have to do for the competition?", "options": ["make a model of the moon", "write about living on the moon", "take photos of the night sky"], "answer": 1 },
+        { "q": "How does Isla feel about her future?", "options": ["sure that she will go to Mars", "sad because her dream is impossible", "hopeful that she can become an astronaut"], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "Iceland – the land of ice and fire",
+      "text": "Iceland is a small island in the north of the Atlantic Ocean. It is often {19} 'the land of ice and fire' because it has huge areas of ice and also mountains that sometimes send out fire and hot rocks.\n\nIn winter, the days are very short, and the sun only {20} for about four hours. But in summer, it never really gets dark, and people can play golf at midnight!\n\nNot many trees {21} in Iceland because of the cold winds, but there is lots of green grass and there are many beautiful flowers in spring. The water in some lakes and rivers is hot, and people often {22} a swim in them, even when there is snow on the ground.\n\nIceland is also famous for its sheep. Their thick wool {23} them warm in winter, and people use it to make jumpers and hats. Every year, thousands of tourists come to {24} the island's mountains, beaches and ice caves.",
+      "items": [
+        { "options": ["called", "told", "spoken"], "answer": 0 },
+        { "options": ["burns", "shines", "lights"], "answer": 1 },
+        { "options": ["rise", "build", "grow"], "answer": 2 },
+        { "options": ["have", "make", "do"], "answer": 0 },
+        { "options": ["holds", "keeps", "stays"], "answer": 1 },
+        { "options": ["go", "stay", "explore"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Lucy  To: Hannah", "text": "Hi Hannah,\nGuess what? We're going to spend a week {25} an island in Greece this summer! My mum found a small house right next to the sea. I've never been to Greece before. Have you {26} been there? I want to swim every day and explore the hills.\nLucy" },
+        { "header": "From: Hannah  To: Lucy", "text": "Hi Lucy,\nThat's amazing! Yes, I went there two years {27}. It was really hot, so take {28} of sun cream! The sea is much warmer {29} in England. You should visit the old town at night – {30} is very beautiful.\nHannah" }
+      ],
+      "answers": [ ["on"], ["ever"], ["ago"], ["lots", "plenty"], ["than"], ["it", "that"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your class is going on a trip to the mountains next week. Write an email to your English friend, Sam.",
+      "points": ["say when you are going", "tell Sam what you will do there", "ask Sam what you should take"],
+      "model": "Hi Sam,\nMy class is going on a trip to the mountains next Thursday! We're going to walk up a big hill and have a picnic next to a lake. What should I take with me? Do I need a warm jumper?\nThanks,\nHoa"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦👴🔭", "caption": "a boy and his grandfather in the garden at night with a telescope" },
+        { "emoji": "☁️🌙😞", "caption": "big clouds cover the moon and the stars; the boy looks sad" },
+        { "emoji": "🌠✨😃", "caption": "the clouds have gone and the boy points at a shooting star in the clear sky" }
+      ],
+      "model": "One evening, Sam and his grandfather took a telescope into the garden. They wanted to look at the moon and the stars. But soon big clouds covered the sky and Sam felt sad. They waited for half an hour. Then the clouds went away, and suddenly Sam saw a shooting star. It was amazing!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which room will they visit first at the museum?",
+        "options": [ {"emoji":"🚀","label":"space room"}, {"emoji":"🌍","label":"Planet Earth room"}, {"emoji":"🦕","label":"dinosaur room"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Shall we start with the space room? I really want to see the rocket."}, {"s":"F","t":"Look, it's very busy in there now. Let's go to the Planet Earth room first. There's a big model of the world with all the mountains and seas."}, {"s":"M","t":"OK. And the dinosaur room?"}, {"s":"F","t":"It's closed today. We can see the rocket after lunch."} ] },
+      { "q": "What is the weather like on the island today?",
+        "options": [ {"emoji":"☀️","label":"hot and sunny"}, {"emoji":"🌧️","label":"rainy"}, {"emoji":"💨","label":"windy"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Hi Mum, it's me. We're on the island!"}, {"s":"F","t":"Great! What's the weather like? It was raining when you left."}, {"s":"M","t":"Yesterday it rained all day here too, but today it's really hot and sunny. We're going to the beach."}, {"s":"F","t":"Is it windy? It's very windy here."}, {"s":"M","t":"No, not at all."} ] },
+      { "q": "What did the boy's grandmother make for him?",
+        "options": [ {"emoji":"🧣","label":"scarf"}, {"emoji":"🧤","label":"gloves"}, {"emoji":"🧶","label":"wool hat"} ], "answer": 2,
+        "script": [ {"s":"F","t":"That's a nice hat, Max. Is it new?"}, {"s":"M","t":"Yes, my grandma made it for me from wool. She wanted to make a scarf, but she didn't have enough wool."}, {"s":"F","t":"And are those gloves new too?"}, {"s":"M","t":"No, I've had those for ages."} ] },
+      { "q": "Where are they going to watch the stars tonight?",
+        "options": [ {"emoji":"⛰️","label":"on the hill"}, {"emoji":"🏡","label":"in the garden"}, {"emoji":"🏖️","label":"on the beach"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Let's watch the stars tonight. Shall we sit in the garden?"}, {"s":"F","t":"There are too many lights from the houses. What about the beach?"}, {"s":"M","t":"It's too cold and windy by the sea at night. Let's drive up the hill behind the village. It's really dark up there."}, {"s":"F","t":"Good idea."} ] },
+      { "q": "What time will the girl's boat leave?",
+        "options": [ {"emoji":"🕙","label":"10:00"}, {"emoji":"🕥","label":"10:30"}, {"emoji":"🕚","label":"11:00"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Two tickets for the ten o'clock boat to the island, please."}, {"s":"M","t":"Sorry, that one's full. The next one leaves at half past ten."}, {"s":"F","t":"Is there one at eleven?"}, {"s":"M","t":"No. After half past ten, there isn't another boat until the afternoon."}, {"s":"F","t":"OK, half past ten, then."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a guide talking about a boat trip to an island.",
+      "title": "Sea Bird Boat Trip",
+      "items": [
+        { "label": "Name of the island:", "answer": ["fenna"] },
+        { "label": "Boat leaves at:", "answer": ["9.15", "9:15", "quarter past nine", "a quarter past nine"] },
+        { "label": "Length of trip (hours):", "answer": ["3", "three"] },
+        { "label": "Lunch: picnic on the", "answer": ["beach"] },
+        { "label": "Price for children: £", "answer": ["12", "twelve"] }
+      ],
+      "script": [ {"s":"M","t":"Good morning, and welcome to Sea Bird Tours. Today we're taking you to a very special place – Fenna Island. That's F-E-N-N-A. It's a small island about five kilometres west of here, and nobody lives there – only thousands of birds! Our boat leaves at a quarter past nine, so please be here ten minutes before that. Don't be late – we can't wait for anyone, because the sea gets rough later in the day. The trip takes three hours in total. Some people think it's a whole day, but we're back by lunchtime. We'll sail all round the island first, and then we'll stop for lunch. There isn't a café on the island, so we'll have a picnic on the beach. We give you sandwiches and water. Remember it's windy on the sea, even in summer, so bring a warm jumper. Tickets cost twenty pounds for adults and twelve pounds for children under sixteen. And if you're lucky, you might see some seals swimming near the boat. Any questions?"} ]
+    },
+    "part3": {
+      "intro": "You will hear Sara talking to her friend Tom about a visit to a space centre.",
+      "items": [
+        { "q": "Who did Sara go to the space centre with?", "options": ["her dad", "her class", "her cousin"], "answer": 2 },
+        { "q": "What did Sara enjoy most?", "options": ["wearing a space suit", "seeing a moon rock", "watching a film"], "answer": 0 },
+        { "q": "What did Sara learn about astronauts?", "options": ["They sleep for sixteen hours a day.", "They see the sun come up many times a day.", "They can't drink water in space."], "answer": 1 },
+        { "q": "What did Sara buy at the shop?", "options": ["a model rocket", "a poster", "a pen"], "answer": 1 },
+        { "q": "What does Sara suggest to Tom?", "options": ["taking the train there tomorrow", "going there with Tom's mum", "going to a special evening event"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Sara. How was the space centre?"},
+        {"s":"F","t":"Brilliant, thanks, Tom! I went with my cousin Ella. My parents were busy, and my class is going next month, but I couldn't wait that long!"},
+        {"s":"M","t":"So what was the best part?"},
+        {"s":"F","t":"We saw a real rock from the moon, which was cool, and we watched a film about the stars. But the best thing was trying on a real space suit. It was so heavy, but I loved it!"},
+        {"s":"M","t":"Did you learn anything interesting?"},
+        {"s":"F","t":"Yes! Astronauts on the space station go round the world very fast, so they see the sun come up sixteen times every day. Can you believe it? And they drink water from special bags."},
+        {"s":"M","t":"Wow. Did you buy anything?"},
+        {"s":"F","t":"The shop was really expensive. I wanted a model rocket, but it was forty pounds! So I just got a poster of the moon for my bedroom wall. Ella bought a pen with stars on it."},
+        {"s":"M","t":"Sounds great. I'd love to go."},
+        {"s":"F","t":"You should! It's only an hour away by train. Actually, there's a special star night there next month. You can look at the planets through a really big telescope. Shall we go together?"},
+        {"s":"M","t":"Yes, please! I'll ask my mum tonight."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his father about a TV programme.", "q": "Why does the boy want to watch the programme?", "options": ["It's for his homework.", "His friend is on it.", "He loves programmes about the sea."], "answer": 0,
+        "script": [ {"s":"M","t":"Dad, can I watch the programme about the Pacific Ocean tonight?"}, {"s":"M2","t":"Really? I thought you didn't like nature programmes."}, {"s":"M","t":"I don't usually. But our geography teacher says we have to watch it and write about it for tomorrow."}, {"s":"M2","t":"OK, then. It starts at seven."} ] },
+      { "intro": "You will hear a girl talking about her favourite season.", "q": "Why does the girl like winter?", "options": ["She loves skiing.", "She likes cold weather.", "She can spend time with her family."], "answer": 2,
+        "script": [ {"s":"F","t":"Most of my friends love summer, but my favourite season is winter. It's not because of the cold – I hate being cold! And I'm terrible at skiing. But in winter my whole family comes to my grandparents' house in the countryside. We sit around the fire, tell stories and play games. It's the best."} ] },
+      { "intro": "You will hear a man talking to a group of students at a lake.", "q": "What is the man talking about?", "options": ["the plants that grow by the lake", "how to stay safe near the water", "the history of the lake"], "answer": 1,
+        "script": [ {"s":"M","t":"Welcome to Blue Lake, everyone. Before we start, some important things. The water here is very deep and very cold, even in summer, so nobody goes into the water without a life jacket. Stay together on the path, and don't climb on the rocks – they're wet. Later, I'll tell you about the plants and fish that live here."} ] },
+      { "intro": "You will hear two friends talking about a walk in the hills.", "q": "What does the boy say about the walk?", "options": ["It was longer than he expected.", "The weather was terrible.", "He got lost."], "answer": 0,
+        "script": [ {"s":"F","t":"How was your walk in the hills yesterday? Did it rain?"}, {"s":"M","t":"No, the weather was lovely. But the map said it was eight kilometres, and it was more like fifteen! We didn't get home until nine o'clock."}, {"s":"F","t":"Did you get lost?"}, {"s":"M","t":"No, we followed the path. The map was just wrong!"} ] },
+      { "intro": "You will hear a girl leaving a message for her friend.", "q": "What does she want her friend to do?", "options": ["meet her earlier", "bring a warm coat", "buy some food"], "answer": 1,
+        "script": [ {"s":"F","t":"Hi Jo, it's Amy. About tomorrow's picnic by the river – I've got all the food, so don't worry about that. We're still meeting at twelve at the bridge. But it's going to be colder than they said on the news – only ten degrees – so please bring a warm coat. See you!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Mai talking to her dad about her friends' summer holidays. Where is each friend going?",
+      "people": ["Ella", "Josh", "Hana", "Ben", "Sofia"],
+      "options": ["a big city", "a forest", "a lake", "a farm", "a river", "an island", "the mountains", "the beach"],
+      "answers": ["F", "D", "B", "C", "G"],
+      "script": [
+        {"s":"M","t":"So, Mai, where are all your friends going this summer?"},
+        {"s":"F","t":"Well, Ella went to the mountains in Switzerland last year, but this year she's going to an island in Greece. She's so lucky!"},
+        {"s":"M","t":"And Josh?"},
+        {"s":"F","t":"Josh's parents wanted to go to a big city, but his little sister wanted to see animals. So they're staying on a farm in the countryside. He has to get up at six every morning to help!"},
+        {"s":"M","t":"Ha! What about Hana?"},
+        {"s":"F","t":"Hana's going camping in a forest with her outdoor club. They're going to sleep in tents and cook on a fire."},
+        {"s":"M","t":"That sounds fun. And Ben?"},
+        {"s":"F","t":"Ben loves fishing, so his grandfather is taking him to a lake in the north of Scotland. They're going to stay in a little wooden house next to the water."},
+        {"s":"M","t":"And Sofia?"},
+        {"s":"F","t":"She's going to the mountains with her parents. They're going to walk every day, about twenty kilometres! I'd be too tired."},
+        {"s":"M","t":"Well, you're going on a river boat trip with us!"},
+        {"s":"F","t":"I know, Dad. I can't wait!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "The night sky", "questions": ["Can you see the stars from your home?", "Do you like looking at the moon?"], "extended": "Please tell me something about what you know about space." },
+        { "topic": "Places in nature", "questions": ["Have you ever been to an island?", "Do you prefer the sea or the mountains?"], "extended": "Please tell me something about a place in nature you would like to visit." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different places in nature to visit on holiday. Do you like these different places? Say why or why not.",
+      "pictures": [ {"emoji":"🏝️","label":"an island"}, {"emoji":"🏔️","label":"the mountains"}, {"emoji":"🌲","label":"a forest"}, {"emoji":"🏞️","label":"a lake"}, {"emoji":"🌌","label":"a star night in the countryside"} ],
+      "prompts": ["Do you think a holiday on an island is exciting?", "Is a holiday in the mountains fun?", "Do you think a forest is a good place to explore?", "Is looking at the stars boring?", "Which of these places would you like to visit most?"],
+      "followup": ["Do you prefer hot places or cold places? Why?", "Would you like to travel into space one day?", "Is it important to look after the natural world? Why?"],
+      "usefulLanguage": ["I'd love to go to ... because ...", "I don't think ... is very interesting because ...", "What do you think?", "You're right.", "I'm not sure about that."]
+    }
+  }
+}

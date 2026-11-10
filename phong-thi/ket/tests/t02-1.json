@@ -1,0 +1,186 @@
+{
+  "id": "t02-1", "topic": "02", "testNo": 1,
+  "title": "The Clothes Swap",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "CHANGING ROOMS", "text": "You may try on up to four items at a time.\nPlease give any clothes you don't want to the shop assistant.",
+        "options": ["You can only stay in the changing room for four minutes.", "You should leave unwanted clothes in the changing room.", "You can't take more than four things in with you."], "answer": 2 },
+      { "kind": "message", "header": "From: Grandma  To: Linh", "text": "Linh, I found your purple umbrella in my car! I'll bring it on Sunday, and I'll also bring the new sweater I bought for you.",
+        "options": ["Grandma will give Linh two things on Sunday.", "Linh left her sweater in Grandma's car.", "Grandma wants to borrow Linh's umbrella."], "answer": 0 },
+      { "kind": "notice", "header": "SCHOOL UNIFORM", "text": "From Monday, students may wear black or dark blue trainers in PE lessons only.\nShoes must be worn in all other lessons.",
+        "options": ["Students can wear trainers in every lesson.", "Students have to wear shoes in most lessons.", "Students must buy new trainers before Monday."], "answer": 1 },
+      { "kind": "label", "header": "BLUE JEANS – WASHING INSTRUCTIONS", "text": "Wash at 30°C with dark colours.\nTurn inside out before washing.\nDo not dry in the sun – the colour may change.",
+        "options": ["Wash these jeans with white clothes.", "Keep these jeans out of the sun when they are drying.", "Wash these jeans in very hot water."], "answer": 1 },
+      { "kind": "email", "header": "From: Max  To: Ollie", "text": "Don't forget the costume party at Sara's on Saturday! I'm going as a pirate. Can I borrow your black hat? Mine is too small for me now.",
+        "options": ["Max wants Ollie to buy him a new hat.", "Ollie is going to dress as a pirate.", "Max needs something for his costume."], "answer": 2 },
+      { "kind": "notice", "header": "LOST PROPERTY", "text": "Found in the sports hall: a brown leather wallet and a pair of glasses in a red case.\nPlease ask at the school office before Friday.",
+        "options": ["Someone has found two things in the sports hall.", "You can collect lost things after Friday.", "The wallet was found in the school office."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about buying clothes.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Isabel", "text": "I don't enjoy shopping in big stores because they're always so busy. I prefer buying second-hand clothes at the market near my house, which is only open on Sundays. Last month I found a brilliant leather jacket there for eight pounds! I also like changing old clothes – I cut my dad's old jeans to make some shorts. My friends always want to know where I get my clothes." },
+        { "label": "B", "title": "Kofi", "text": "I'm not very interested in fashion. I usually wear jeans, a T-shirt and trainers, and I really hate trying on clothes in shops. So I buy most of my clothes online – it's quick and I can do it at home. The only problem is that sometimes things are the wrong size, and then I have to send them back. Mum says I should go to the shops with her, but I'm always too busy." },
+        { "label": "C", "title": "Ngoc Anh", "text": "I go shopping with my older sister every month. She works in a clothes shop, so she knows a lot about fashion and helps me choose things. I love bright colours – my favourite thing is a yellow raincoat with big pockets. I save my pocket money for shopping, but I never spend it all at once. When I leave school, I'd like to design clothes and have my own shop." }
+      ],
+      "items": [
+        { "q": "Who buys clothes at a place that only opens one day a week?", "answer": "A" },
+        { "q": "Who gets help from a family member when choosing clothes?", "answer": "C" },
+        { "q": "Who sometimes has to return clothes?", "answer": "B" },
+        { "q": "Who has made something new from an old piece of clothing?", "answer": "A" },
+        { "q": "Who doesn't like putting on clothes in a shop to see if they fit?", "answer": "B" },
+        { "q": "Who hopes to have a job in fashion in the future?", "answer": "C" },
+        { "q": "Who says other people are interested in their clothes?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "The girl behind the costumes",
+      "text": "Thirteen-year-old Hana Kim has always loved clothes. But she isn't interested in buying the latest fashion – she prefers making her own. This year, she made all the costumes for her school play, Alice in Wonderland.\n\n\"Our drama teacher, Mrs Bell, asked me in September,\" says Hana. \"At first I said no, because I thought it was too much work. There are twenty-two people in the play! But my grandmother offered to help me, so I changed my mind.\" Hana's grandmother made dresses for a famous shop in London for forty years, and she taught Hana to make clothes when she was eight.\n\nThe most difficult costume was for the White Rabbit. \"He wears a red jacket, a white shirt and a big gold watch,\" explains Hana. \"The jacket took me three weeks. Then I had to make it again because it was too small for Daniel, the boy who plays the Rabbit!\"\n\nHana didn't buy much new material. Instead, she asked students to bring old clothes from home. \"People gave me shirts, skirts, curtains, even an old wedding dress,\" she laughs. \"I cut them up and used them again. It was cheaper and better for the planet.\"\n\nThe play was a big success, and everyone loved the costumes. Now a theatre in the town has asked Hana to help with the costumes for its Christmas show. \"I'm really excited,\" she says. \"But first I need to make myself a new school skirt – I haven't had time all term!\"",
+      "items": [
+        { "q": "Why did Hana say no to Mrs Bell at first?", "options": ["She didn't like the play.", "She thought the job was too big.", "She was too busy with her school work."], "answer": 1 },
+        { "q": "What do we learn about Hana's grandmother?", "options": ["She used to make clothes as her job.", "She has a shop in London.", "She is helping with the Christmas show."], "answer": 0 },
+        { "q": "Why did Hana make the White Rabbit's jacket twice?", "options": ["She lost the first one.", "Daniel didn't like the colour.", "The first one didn't fit Daniel."], "answer": 2 },
+        { "q": "Where did most of the material for the costumes come from?", "options": ["a shop in the town", "students' homes", "the school drama room"], "answer": 1 },
+        { "q": "What will Hana do before she starts working on the Christmas show?", "options": ["make some school clothes for herself", "buy a new skirt in the town", "take a holiday with her family"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The story of jeans",
+      "text": "Today, people all over the world {19} jeans, but they were not always fashionable. In 1873, Levi Strauss and Jacob Davis started making strong trousers for men who worked in the mines in the USA. The trousers were made of a thick blue {20} called denim, and they had small metal buttons to make the pockets stronger.\n\nFor many years, only workers wore jeans. Then, in the 1950s, film stars started wearing them, and soon jeans were very {21} with young people. Some schools didn't {22} students to wear them because teachers thought jeans looked untidy!\n\nToday you can buy jeans in many different styles and colours. Some are tight, some are loose, and some even have holes in them. Most people have at {23} one pair, and the average person in the UK owns seven pairs! Jeans are more than 150 years old, but it doesn't look like they will go out of {24} soon.",
+      "items": [
+        { "options": ["dress", "wear", "put"], "answer": 1 },
+        { "options": ["fashion", "material", "costume"], "answer": 1 },
+        { "options": ["popular", "famous", "favourite"], "answer": 0 },
+        { "options": ["allow", "let", "agree"], "answer": 0 },
+        { "options": ["last", "most", "least"], "answer": 2 },
+        { "options": ["clothes", "colour", "fashion"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Lily  To: Rosa", "text": "Hi Rosa,\nI'm going shopping {25} Saturday because I need a dress for my cousin's wedding. Would you like to come {26} me? You're much better at choosing clothes {27} I am! We could go to the new shopping centre and have lunch there.\nLily" },
+        { "header": "From: Rosa  To: Lily", "text": "Hi Lily,\nI'd love to! I need {28} new pair of trainers anyway – my old ones are too small now. Shall we meet at the bus stop at ten? Don't forget to bring {29} umbrella, because it's going to rain all day. I lost mine last week, so I'll wear my raincoat. {30} you want, we can go to the cinema after lunch too.\nRosa" }
+      ],
+      "answers": [ ["on", "this", "next"], ["with"], ["than"], ["a"], ["an", "your"], ["if"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You bought some new clothes last weekend. Write an email to your English friend, Charlie.",
+      "points": ["say what clothes you bought", "explain where you bought them", "tell Charlie when you are going to wear them"],
+      "model": "Hi Charlie,\nLast weekend I bought a new jacket and some black jeans. I got them at the market near my school – they were really cheap! I'm going to wear them to my cousin's birthday party on Saturday.\nBye,\nAn"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🧥🏬", "caption": "a girl looking at a red coat in a shop window; the price label is very high" },
+        { "emoji": "👧🐕💷", "caption": "the girl walking a neighbour's dog and the neighbour giving her money" },
+        { "emoji": "🏷️🧥😊", "caption": "the girl in the shop holding the red coat under a big SALE sign" }
+      ],
+      "model": "Lan saw a beautiful red coat in a shop window, but it cost eighty pounds and she only had twenty. So every afternoon she walked her neighbour's dog and he paid her five pounds. A month later she went back to the shop. The coat was in the sale, so she bought it!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What will the boy wear to the party?",
+        "options": [ {"emoji":"👔","label":"blue shirt"}, {"emoji":"👕","label":"T-shirt"}, {"emoji":"🧶","label":"green sweater"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Are you wearing your new blue shirt to Emma's party tonight?"}, {"s":"M","t":"I wanted to, but there's a mark on it, so Mum's washing it."}, {"s":"F","t":"What about your T-shirt with the football on it?"}, {"s":"M","t":"It's a bit old now. I'll wear my green sweater. It's going to be cold this evening anyway."} ] },
+      { "q": "Which bag does the girl buy?",
+        "options": [ {"emoji":"🎒","label":"backpack"}, {"emoji":"👜","label":"handbag"}, {"emoji":"🏋️","label":"sports bag"} ], "answer": 0,
+        "script": [ {"s":"F","t":"I need a new bag for school. Can I look at that backpack, please?"}, {"s":"M","t":"Of course. It's a nice one, and it's got lots of pockets."}, {"s":"F","t":"Hmm, it's quite expensive. How much is the sports bag?"}, {"s":"M","t":"Twenty pounds, but it isn't big enough for all your books. And the handbags are only for small things."}, {"s":"F","t":"Then I'll take the backpack. I can use my birthday money."} ] },
+      { "q": "What has the boy lost?",
+        "options": [ {"emoji":"⌚","label":"watch"}, {"emoji":"👓","label":"glasses"}, {"emoji":"🧤","label":"gloves"} ], "answer": 2,
+        "script": [ {"s":"F","t":"What's wrong, Leo? You look worried."}, {"s":"M","t":"I've lost something at the swimming pool."}, {"s":"F","t":"Not your watch again!"}, {"s":"M","t":"No, I'm wearing my watch, look. And my glasses are here in my bag. It's my gloves. I think I left them in the changing room."}, {"s":"F","t":"Let's go back and ask."} ] },
+      { "q": "Where is the girl's jacket?",
+        "options": [ {"emoji":"🪑","label":"on a chair"}, {"emoji":"🚪","label":"behind the door"}, {"emoji":"🚗","label":"in the car"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Dad, where's my denim jacket? I need it for school."}, {"s":"M","t":"Did you leave it in the car yesterday?"}, {"s":"F","t":"No, I've checked. And it isn't on the chair in my bedroom."}, {"s":"M","t":"Oh, I remember now. It was wet, so I put it behind the kitchen door to dry."} ] },
+      { "q": "How much did the boy pay for his trainers?",
+        "options": [ {"emoji":"💷","label":"£35"}, {"emoji":"💷","label":"£45"}, {"emoji":"💷","label":"£55"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Do you like my new trainers?"}, {"s":"F","t":"They're great! Were they expensive?"}, {"s":"M","t":"They were fifty-five pounds in the shop window, but I got ten pounds off because I'm a student."}, {"s":"F","t":"So forty-five? That's not bad."}, {"s":"M","t":"Yes. My brother paid thirty-five for his, but they aren't as nice as mine."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about a clothes swap at their school.",
+      "title": "School Clothes Swap",
+      "items": [
+        { "label": "Day:", "answer": ["friday"] },
+        { "label": "Place: the school", "answer": ["library"] },
+        { "label": "Ticket for students: £", "answer": ["1", "one", "1.00"] },
+        { "label": "Do not bring: shoes or", "answer": ["trainers"] },
+        { "label": "Organiser: Miss", "answer": ["doyle"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everyone. Next week our school is having a clothes swap to make money for the children's hospital. It was going to be on Thursday, but there's a parents' evening that day, so now it's on Friday, after school. We can't use the hall because the drama club needs it, so please come to the library. It's bigger than you think! Here's how it works. Bring clothes that you don't wear any more – jackets, jeans, skirts, blouses, sweaters, T-shirts, even belts and bags. Please make sure they're clean. Then you can choose some different clothes to take home. You can try things on in the room next to the library. Tickets cost one pound for students. Teachers and parents pay two pounds. All the money goes to the hospital. Please don't bring shoes or trainers – we haven't got enough space for them this year. Hats, purses and watches are fine. If you have any questions, talk to Miss Doyle. That's D-O-Y-L-E. She's our new Art teacher, and she's organising everything."} ]
+    },
+    "part3": {
+      "intro": "You will hear Leo talking to his aunt about clothes for a school trip.",
+      "items": [
+        { "q": "Where is Leo's class going this year?", "options": ["France", "Italy", "Austria"], "answer": 1 },
+        { "q": "What does Leo need to buy?", "options": ["boots", "a coat", "ski trousers"], "answer": 0 },
+        { "q": "What's the problem with the coat from Leo's cousin?", "options": ["It doesn't fit him.", "He doesn't like the colours.", "It is very old."], "answer": 1 },
+        { "q": "Where will Leo and his aunt go shopping?", "options": ["to a market", "to a shopping centre", "to a sports shop"], "answer": 2 },
+        { "q": "When will they go shopping?", "options": ["on Saturday morning", "on Saturday afternoon", "on Sunday"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Leo. Your mum says you're going on a school trip soon."},
+        {"s":"M","t":"Yes, Aunt Kate! We're going skiing in February. Last year the class went to France, but this year we're going to Italy. I can't wait!"},
+        {"s":"F","t":"Lovely! Have you got all the clothes you need? It'll be very cold in the mountains."},
+        {"s":"M","t":"Not yet. The teacher gave us a list. I need a warm coat, a hat, gloves, boots and special ski trousers. Grandma's already given me a hat and gloves for Christmas."},
+        {"s":"F","t":"What about a coat?"},
+        {"s":"M","t":"My cousin Ben gave me his old ski coat. It fits me and it's nearly new, but it's bright orange and purple! I look terrible in it."},
+        {"s":"F","t":"Ha! Well, nobody cares what you look like on a mountain."},
+        {"s":"M","t":"I know, but everyone will take photos! Anyway, the school's going to lend us the ski trousers, so I only need to buy some boots. My old ones are too small."},
+        {"s":"F","t":"Shall I take you shopping? There's a market on Sundays, but they don't sell good boots there."},
+        {"s":"M","t":"Mum says the big shopping centre is really expensive. My friend got his boots at the sports shop in town. They've got a sale at the moment."},
+        {"s":"F","t":"Then let's go there. Are you free on Saturday?"},
+        {"s":"M","t":"I've got football practice in the afternoon, but the morning's fine."},
+        {"s":"F","t":"Great. I'll pick you up at ten. And maybe we can find you a different coat in the sale too!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her mother about a dress.", "q": "Why doesn't the girl want to wear the dress?", "options": ["It's too short.", "It isn't comfortable.", "It isn't fashionable."], "answer": 1,
+        "script": [ {"s":"F2","t":"Mum, I don't want to wear this dress to the wedding."}, {"s":"F","t":"But it looks lovely on you! And I made it longer for you last week."}, {"s":"F2","t":"I know it looks nice, and the colour's great. But it's so tight that I can't sit down or eat anything!"}, {"s":"F","t":"Oh dear. Let's go and find something else, then."} ] },
+      { "intro": "You will hear a boy leaving a message for his friend.", "q": "Why is the boy calling?", "options": ["to ask to borrow something", "to give back something his friend left", "to invite his friend to a party"], "answer": 0,
+        "script": [ {"s":"M","t":"Hi Sam, it's Jake. You know the costume party at school tomorrow? I'm going as a cowboy, but I haven't got any boots. Have you still got those brown ones from the school play? Could I have them for the evening? I'll give them back on Monday, I promise. See you at the party – and don't forget your costume! Bye."} ] },
+      { "intro": "You will hear two friends talking about a new school uniform.", "q": "What does the girl think about the new uniform?", "options": ["It's more expensive than the old one.", "It's better than the old one.", "It will be too warm in summer."], "answer": 1,
+        "script": [ {"s":"M","t":"Have you seen the new uniform for next year?"}, {"s":"F","t":"Yes, the grey trousers and the dark blue jacket? Mum says it costs the same as the old one."}, {"s":"M","t":"I think it looks boring."}, {"s":"F","t":"Really? I much prefer it. The old skirt was horrible, and now girls can wear trousers too. I'll be much warmer in winter!"} ] },
+      { "intro": "You will hear a boy talking about going shopping with his dad.", "q": "How did the boy feel?", "options": ["bored", "pleased", "embarrassed"], "answer": 2,
+        "script": [ {"s":"M","t":"Yesterday Dad took me to buy a suit for my sister's wedding. I thought it would be really boring, but the shop was quite interesting. The problem was Dad. He kept telling the shop assistant about me – how fast I'm growing, how small I was as a baby – in front of everyone! And two girls from my class were in the shop too. I wanted to hide behind the coats!"} ] },
+      { "intro": "You will hear a woman talking on the radio about a new shop.", "q": "What is special about the shop?", "options": ["You don't have to pay for anything there.", "Students make all the clothes there.", "It only has clothes for children."], "answer": 0,
+        "script": [ {"s":"F","t":"This week we visited a new shop in Bridge Street called Second Chance. Everything there – coats, shoes, jeans, even school uniforms – was given by local families. And the best thing is, it's all free! If you need clothes, just go in and take what you need. Most of the clothes are for children, but there are some for adults too. The shop is open every day except Sunday."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Amy talking to her friend Jack about a costume party. What costume did each person wear?",
+      "people": ["Amy's brother", "Lucy", "Mr Hill", "Kim", "Amy's dad"],
+      "options": ["astronaut", "cat", "clown", "doctor", "king", "pirate", "police officer", "princess"],
+      "answers": ["F", "B", "E", "C", "G"],
+      "script": [
+        {"s":"M","t":"Hi Amy. How was the costume party on Saturday?"},
+        {"s":"F","t":"Brilliant, Jack! Everyone dressed up. My brother wanted to be an astronaut, but that costume was forty pounds in the shop, so Mum said no. In the end he was a pirate. He wore Dad's old boots and a big black hat."},
+        {"s":"M","t":"Ha! What about Lucy? Was she a princess again?"},
+        {"s":"F","t":"No, she says she's too old for princess dresses now. She wore black tights, a black T-shirt and a black skirt, and she had two little ears on her head. She was a cat – a really cute one!"},
+        {"s":"M","t":"And Mr Hill? I heard he came too."},
+        {"s":"F","t":"Yes! Everyone thought he'd come as a doctor again, like last year. But this time he wore a long red coat and a gold crown. He was a king!"},
+        {"s":"M","t":"What about Kim? She always has funny ideas."},
+        {"s":"F","t":"She was a clown. She had yellow trousers, orange hair and enormous red shoes. She could hardly walk!"},
+        {"s":"M","t":"And your dad? Did he dress up?"},
+        {"s":"F","t":"He borrowed my uncle's uniform – a dark blue jacket, trousers and a hat. My uncle's a police officer, you know. Dad tried to look very serious, but he kept laughing!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Clothes", "questions": ["What clothes do you like wearing at the weekend?", "Do you wear a uniform at school?"], "extended": "Please tell me something about your favourite clothes." },
+        { "topic": "Shopping", "questions": ["Where do you usually buy your clothes?", "Who do you go shopping with?"], "extended": "Please tell me something about the last time you went shopping." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different kinds of clothes. Do you like these different kinds of clothes? Say why or why not.",
+      "pictures": [ {"emoji":"👔","label":"school uniform"}, {"emoji":"🎭","label":"party costume"}, {"emoji":"🏃","label":"sports clothes"}, {"emoji":"🏷️","label":"second-hand clothes"}, {"emoji":"👗","label":"smart clothes for a wedding"} ],
+      "prompts": ["Do you think wearing a school uniform is a good idea?", "Is it fun to wear a costume?", "Are sports clothes comfortable?", "Do you think buying second-hand clothes is a good idea?", "Which of these clothes do you like best?"],
+      "followup": ["Do you prefer wearing jeans or smart clothes? Why?", "Do you think fashion is important for teenagers?", "Would you like to design your own clothes? Why or why not?"],
+      "usefulLanguage": ["I think ... is comfortable because ...", "I don't like wearing ... very much.", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

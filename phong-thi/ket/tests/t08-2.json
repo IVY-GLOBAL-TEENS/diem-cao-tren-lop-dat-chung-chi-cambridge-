@@ -1,0 +1,190 @@
+{
+  "id": "t08-2", "topic": "08", "testNo": 2,
+  "title": "New Neighbours, New Friends",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "WELCOME TO THE NEIGHBOURHOOD!", "text": "Street party for new and old neighbours – Saturday 3 p.m., outside number 12.\nPlease bring something to eat and share. Children welcome!",
+        "options": ["Everyone should bring some food to the party.", "The party is only for people who have just moved here.", "Children must come with a grandparent."], "answer": 0 },
+      { "kind": "message", "header": "From: Grandma  To: Leo", "text": "Leo, I'm at your aunt's flat and I've left my glasses at your house. Could your dad bring them when he picks me up tonight? Love, Grandma",
+        "options": ["Grandma wants Leo to visit his aunt.", "Leo's dad has lost his glasses.", "Grandma needs Leo's dad to bring something."], "answer": 2 },
+      { "kind": "sign", "header": "CITY SWIMMING POOL", "text": "Children under 8 must swim with a parent or another adult.\nOlder brothers and sisters under 18 may not look after them.",
+        "options": ["Young children can swim with their teenage brother.", "A child of seven needs an adult with them.", "Parents must stay in the pool all the time."], "answer": 1 },
+      { "kind": "email", "header": "From: Ms Rivera  To: Class 8B", "text": "Our pen-friends from Madrid arrive next Tuesday. Please write a short letter about yourself and your family before then. I'll give the letters to them on their first day.",
+        "options": ["Students should write about their families before Tuesday.", "The pen-friends will write letters to the class on Tuesday.", "Ms Rivera is going to Madrid next week."], "answer": 0 },
+      { "kind": "message", "header": "From: Kate  To: Mum", "text": "Mum, I'm at Lily's. Her parents have invited me to stay for dinner. Mr Brown will drive me home at 8. Is that OK? Kate",
+        "options": ["Kate is cooking dinner at Lily's house.", "Kate will get a lift home from her friend's father.", "Kate wants Mum to collect her at 8."], "answer": 1 },
+      { "kind": "notice", "header": "NEWTOWN YOUTH CLUB", "text": "New group for teenagers who have just moved to the town.\nMeet other young people and make friends!\nEvery Thursday, 5–7 p.m. Free.",
+        "options": ["You have to pay to join this group.", "The group is for parents and their teenage children.", "The group helps young people who are new in the area."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about their neighbours.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Ethan", "text": "Our neighbour, Mrs Okafor, is eighty-two and lives alone. She was a teacher in Nigeria for forty years. Her legs aren't very strong now, so I take her dog for a walk every day after school. When I come back, we often play chess together. She taught me how to play, and now I'm in the school chess club. My mum says Mrs Okafor is like another grandmother to me." },
+        { "label": "B", "title": "Mai", "text": "A young married couple live next door to us. Mr and Ms Clark have twin babies, a boy and a girl. Ms Clark is a doctor and sometimes she works at night. On Saturday evenings I look after the twins for a few hours, and the Clarks pay me. I'm saving the money for a new bike. The babies are sometimes noisy at night, but I don't mind – they're so sweet!" },
+        { "label": "C", "title": "Jakub", "text": "Last year an Italian family moved into the flat above ours. Their son, Marco, is the same age as me, and now we walk to school together every morning. Marco is teaching me Italian, and I help him with his Polish homework. On Friday evenings Marco's dad cooks a big dinner for both our families. He says it's the best way to make friends with your neighbours!" }
+      ],
+      "items": [
+        { "q": "Who earns money from their neighbours?", "answer": "B" },
+        { "q": "Who has learnt a game from a neighbour?", "answer": "A" },
+        { "q": "Who goes to school with a neighbour?", "answer": "C" },
+        { "q": "Who helps to look after a neighbour's pet?", "answer": "A" },
+        { "q": "Who is learning a new language?", "answer": "C" },
+        { "q": "Who says their neighbours are sometimes noisy?", "answer": "B" },
+        { "q": "Who often eats a meal with their neighbours?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "Meeting my pen-friend at last",
+      "text": "Fourteen-year-old Pham Lan from Hanoi has a pen-friend in England called Chloe. They started writing to each other four years ago, when Lan's English teacher, Miss Hoa, started a project with a school in York.\n\n\"Most students sent emails, but Miss Hoa said real letters were more special,\" Lan says. \"So Chloe and I always write on paper. It takes two weeks for a letter to arrive, but I love opening the envelope. Chloe often puts photos of her family inside.\"\n\nIn their letters, the girls write about school, hobbies and their families. \"Chloe hasn't got any brothers or sisters, so she loves hearing about my two younger brothers,\" Lan laughs. \"She thinks they're funny. I think they're noisy!\"\n\nThis summer, Lan finally met Chloe. Lan's father had to go to London for work, so the whole family went with him, and they took the train to York for three days. \"I was really nervous before we met,\" Lan says. \"I was worried that my English wasn't good enough. But when I saw Chloe at the station, we hugged and started talking immediately, like old friends.\"\n\nChloe's parents took both families to the seaside, and Chloe showed Lan her school. \"It's much bigger than mine, and they don't wear uniforms!\" says Lan.\n\nNow the girls are planning Chloe's visit to Vietnam next year. \"I can't wait to show her my city,\" Lan says. \"And my brothers are already practising their English!\"",
+      "items": [
+        { "q": "Why do Lan and Chloe send letters, not emails?", "options": ["Chloe doesn't have a computer.", "Their teacher thought letters were better.", "Emails take too long to arrive."], "answer": 1 },
+        { "q": "What does Chloe enjoy reading about in Lan's letters?", "options": ["Lan's brothers", "Lan's school", "Lan's hobbies"], "answer": 0 },
+        { "q": "Why did Lan's family go to England?", "options": ["Chloe's family invited them.", "Lan won a prize for her letters.", "Lan's father had to work there."], "answer": 2 },
+        { "q": "How did Lan feel before she met Chloe?", "options": ["excited about going to the seaside", "afraid that her English was not good", "tired after the long train journey"], "answer": 1 },
+        { "q": "What is Lan looking forward to?", "options": ["showing Chloe around her city", "visiting Chloe's school again", "hearing her brothers speak English"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "Making friends at a new school",
+      "text": "Moving to a new school can be difficult. You don't know anyone, and it can take time to {19} new friends. Here are some ideas to help.\n\nFirst, smile and say hello to people. It sounds simple, but a friendly face {20} a big difference. Then try to find students who are {21} in the same things as you. Join a club or a sports team – it's much easier to talk to someone when you're doing an activity together.\n\nDon't be afraid to ask questions. Most people like talking about themselves, so ask your classmates about their families, pets or favourite music. And remember to listen {22} to their answers!\n\nIt's also a good idea to {23} in touch with your old friends. You can send them messages or have a video call at the weekend. They can give you advice when you feel lonely.\n\nFinally, be patient. Real friendships don't happen in one day. But after a few months, your new school will {24} to feel like home.",
+      "items": [
+        { "options": ["have", "do", "make"], "answer": 2 },
+        { "options": ["makes", "does", "gives"], "answer": 0 },
+        { "options": ["pleased", "interested", "happy"], "answer": 1 },
+        { "options": ["loudly", "slowly", "carefully"], "answer": 2 },
+        { "options": ["hold", "keep", "have"], "answer": 1 },
+        { "options": ["start", "open", "finish"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ana  To: Lucy", "text": "Hi Lucy,\nA new family moved into the house next to {25} last week. They've got a daughter called Sara. She's thirteen, the same age {26} me! She's really friendly and she loves tennis too. We played together {27} Sunday afternoon. Would you like to meet her?\nAna" },
+        { "header": "From: Lucy  To: Ana", "text": "Hi Ana,\nYes, I'd love to meet her! Why don't you bring her to {28} birthday party on Friday? There will be lots of people, so one more guest is no problem. Does she know {29} to get to my house? If not, you can come together. My mum is going to make {30} big chocolate cake!\nLucy" }
+      ],
+      "answers": [ ["ours", "mine", "us"], ["as"], ["on", "last"], ["my", "the"], ["how"], ["a"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "A new student has joined your class. Write an email to your English friend, Charlie.",
+      "points": ["say where the new student comes from", "say what you like about him or her", "tell Charlie what you are going to do together this weekend"],
+      "model": "Hi Charlie,\nThere's a new girl in my class called Yuki. She comes from Japan. I like her because she's very friendly and funny. This weekend we're going to go swimming together and then have lunch at my house.\nBye,\nNam"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🚚📦👦", "caption": "a boy watching from his window as a family moves boxes into the house next door" },
+        { "emoji": "⚽🌳😟", "caption": "the boy kicks his football over the fence into the neighbours' garden and looks worried" },
+        { "emoji": "👦👧⚽", "caption": "a girl from the new family brings the ball back and the two children play football together" }
+      ],
+      "model": "One Saturday a new family moved into the house next to Alex's. Alex watched them from his window. Later, he was playing football in the garden when he kicked the ball over the fence. He was worried. Then a girl came out with his ball. Her name was Rosa, and they played football together all afternoon."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which is Ben's new friend?",
+        "options": [ {"emoji":"🚲","label":"boy on a bike"}, {"emoji":"🛹","label":"boy with a skateboard"}, {"emoji":"⚽","label":"boy with a football"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Who was the boy you were with in the park, Ben? The one with the skateboard?"}, {"s":"M","t":"No, that's Harry from my class. My new friend is Dan. He's the one on the bike."}, {"s":"F","t":"Oh. Does he play football with you?"}, {"s":"M","t":"Not really. He prefers cycling. He goes everywhere on his bike."} ] },
+      { "q": "Where did the girl meet her best friend?",
+        "options": [ {"emoji":"🏫","label":"at school"}, {"emoji":"🏖️","label":"on holiday"}, {"emoji":"🎾","label":"at the tennis club"} ], "answer": 1,
+        "script": [ {"s":"M","t":"How long have you known Kim? Did you meet at school?"}, {"s":"F","t":"No, she goes to a different school. We met three years ago on holiday in Spain. Our families were at the same hotel."}, {"s":"M","t":"And now you play tennis together, don't you?"}, {"s":"F","t":"Yes, every Saturday at the tennis club."} ] },
+      { "q": "What will the boy take to his friend's house?",
+        "options": [ {"emoji":"🎮","label":"video game"}, {"emoji":"📚","label":"book"}, {"emoji":"💐","label":"flowers"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Mum, I'm having dinner at Tom's house tonight. Shall I take my new video game?"}, {"s":"F","t":"Not tonight – you'll be eating with his family, not playing games. It's polite to take something for his parents. What about some flowers for Mrs Shaw?"}, {"s":"M","t":"I thought about a book, but I don't know what she likes to read. OK, flowers."} ] },
+      { "q": "How old is the girl's sister?",
+        "options": [ {"emoji":"👧","label":"12"}, {"emoji":"👩","label":"15"}, {"emoji":"🚗","label":"17"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Is that your sister? She looks about fifteen."}, {"s":"F","t":"Everyone says that! She's actually seventeen. She's learning to drive."}, {"s":"M","t":"And your brother's twelve, isn't he?"}, {"s":"F","t":"Yes, he's the youngest in our family. He's always asking my sister to drive him to his friends' houses, but she can't yet!"} ] },
+      { "q": "When is the boy's party?",
+        "options": [ {"emoji":"📅","label":"Friday"}, {"emoji":"📅","label":"Saturday"}, {"emoji":"📅","label":"Sunday"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Are you having your birthday party on Saturday, Kevin?"}, {"s":"M","t":"My birthday's on Saturday, but my grandparents are visiting that day."}, {"s":"F","t":"What about Sunday, then?"}, {"s":"M","t":"We're going to my aunt's on Sunday. So the party's on Friday, after school."}, {"s":"F","t":"Great, I'll be there!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman telling students about an international pen-friend club.",
+      "title": "International Pen-friend Club",
+      "items": [
+        { "label": "Youngest age to join:", "answer": ["11", "eleven"] },
+        { "label": "Number of countries:", "answer": ["30", "thirty"] },
+        { "label": "Cost per year: £", "answer": ["8", "eight"] },
+        { "label": "First letter must be about your:", "answer": ["family"] },
+        { "label": "Speak to: Mr", "answer": ["fenwick"] }
+      ],
+      "script": [ {"s":"F","t":"Hi everyone. I'm here to tell you about the International Pen-friend Club. It's a great way to make friends in other countries and practise your English at the same time. The club is for teenagers, and you need to be at least eleven years old to join. Most of our members are between eleven and fifteen. At the moment we have members in thirty countries – last year it was only twenty, so we're growing fast! Joining costs eight pounds a year. It used to be ten, but we've made it cheaper this year. When you join, we'll send you the name and address of your new pen-friend. In your first letter, please don't write about school – everyone does that! Write about your family. Tell your pen-friend about your parents, brothers and sisters, grandparents and even your pets. If you'd like to join, speak to Mr Fenwick in the languages department. That's F-E-N-W-I-C-K. He'll give you a form. Remember, a pen-friend can become a friend for life. My mum still writes to her pen-friend in Japan after thirty years!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Sophie talking to her friend Ryan about her brother's wedding.",
+      "items": [
+        { "q": "Where will the wedding be?", "options": ["in a church", "in a hotel", "in a garden"], "answer": 2 },
+        { "q": "Who is Sophie's brother marrying?", "options": ["a girl he was at school with", "a woman he met at work", "his best friend's cousin"], "answer": 1 },
+        { "q": "What is Sophie going to do at the wedding?", "options": ["read a poem", "sing a song", "take photos"], "answer": 0 },
+        { "q": "What is Sophie worried about?", "options": ["her dress", "the weather", "forgetting her words"], "answer": 1 },
+        { "q": "How many guests will there be?", "options": ["about fifty", "about eighty", "about a hundred"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Sophie. Is it true your brother's getting married?"},
+        {"s":"F","t":"Yes! Daniel's getting married next month. I'm so excited."},
+        {"s":"M","t":"Where's the wedding going to be? In the big church in town?"},
+        {"s":"F","t":"That was Mum's idea, but Daniel and Anna wanted to be outside. So it's going to be in my grandparents' garden. It's really big and there are lots of flowers."},
+        {"s":"M","t":"Lovely. Is Anna the girl he went to school with?"},
+        {"s":"F","t":"No, everyone thinks that! They met at work – they're both nurses at the hospital."},
+        {"s":"M","t":"Are you going to do anything special at the wedding? You're a good singer."},
+        {"s":"F","t":"Anna's cousin is going to sing. I'm going to read a short poem about love. And Uncle Tom's taking all the photos."},
+        {"s":"M","t":"Are you nervous?"},
+        {"s":"F","t":"Not about the poem – I've practised it lots, so I won't forget it. And I've already got my dress. It's blue and I love it. But I keep checking the weather on my phone. If it rains, we'll all get wet!"},
+        {"s":"M","t":"I'm sure it'll be sunny. How many people are coming?"},
+        {"s":"F","t":"Daniel wanted about fifty, and Anna wanted about eighty. In the end, they've invited a hundred guests! Grandma's worried there won't be enough chairs."},
+        {"s":"M","t":"Ha! Well, I hope you have a great day."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking about his grandfather.", "q": "What does the boy like best about his grandfather?", "options": ["He is good at sport.", "He tells funny stories.", "He gives him money."], "answer": 1,
+        "script": [ {"s":"M","t":"My grandad's seventy, but he still plays tennis twice a week. That's amazing! He always gives me some pocket money when I visit him, which is nice. But the best thing about him is his stories about when he was a teenager. They always make me laugh so much."} ] },
+      { "intro": "You will hear a girl talking to her friend about a party.", "q": "Why can't the girl go to the party?", "options": ["She has to look after her little brother.", "She is visiting her grandparents.", "She hasn't got anything to wear."], "answer": 0,
+        "script": [ {"s":"M","t":"Are you going to Chloe's party on Saturday?"}, {"s":"F","t":"I can't. My parents are going to my uncle's wedding, and someone has to stay at home with my baby brother."}, {"s":"M","t":"Can't your grandma look after him?"}, {"s":"F","t":"She usually does, but she's on holiday. It's a shame – I bought a new dress for the party, too!"} ] },
+      { "intro": "You will hear a woman talking to her neighbour.", "q": "Why is she talking to her neighbour?", "options": ["to say sorry for some noise", "to ask her to look after a key", "to invite her to a meal"], "answer": 1,
+        "script": [ {"s":"F","t":"Hello, Mrs Lee. We're going away for a week to visit my husband's parents. Could you keep this key for us, please? A man's coming on Wednesday to repair the washing machine, so could you let him in? Thanks so much. I'll bring you something nice from the seaside!"} ] },
+      { "intro": "You will hear two friends talking about a new student.", "q": "What do they agree about the new student?", "options": ["He is very funny.", "He is good at football.", "He is very friendly."], "answer": 2,
+        "script": [ {"s":"M","t":"What do you think of the new guy, Felix?"}, {"s":"F","t":"I like him. He said hello to everyone on his first day. He's really friendly."}, {"s":"M","t":"Yes, I agree. He asked me to sit with him at lunch. He isn't great at football, though!"}, {"s":"F","t":"He says he prefers basketball. And his jokes aren't very funny."}, {"s":"M","t":"Really? I think they're quite funny."} ] },
+      { "intro": "You will hear a girl talking about her family.", "q": "How does she feel about living with her grandparents?", "options": ["pleased", "bored", "worried"], "answer": 0,
+        "script": [ {"s":"F","t":"Last year my grandparents sold their house and came to live with us. I was a bit worried at first, because I had to share a room with my sister. But actually it's great. Grandma helps me with my homework, and Grandpa and I play cards every evening. The house is never boring now!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Jamie talking to his mum about his birthday party. What is each person going to do at the party?",
+      "people": ["cousin Zoe", "Ali", "Grandpa", "Mrs Grant", "Jamie's sister"],
+      "options": ["make the cake", "choose the music", "take photos", "organise games", "put up balloons", "drive guests home", "make sandwiches", "clean up"],
+      "answers": ["E", "B", "D", "A", "C"],
+      "script": [
+        {"s":"M","t":"Mum, can we talk about my party on Saturday? Lots of people want to help."},
+        {"s":"F","t":"That's nice. What about your cousin Zoe? She's good at cooking. Is she making sandwiches?"},
+        {"s":"M","t":"She wanted to, but Dad's already doing the food. So Zoe's going to put up the balloons. She's coming early in the morning."},
+        {"s":"F","t":"OK. And your friend Ali? He's got a great camera."},
+        {"s":"M","t":"Yes, but he says he wants to enjoy the party, not take pictures all the time. He's going to choose the music. He's got really good songs on his phone."},
+        {"s":"F","t":"Perfect. And Grandpa's coming, of course."},
+        {"s":"M","t":"I asked him to drive my friends home at the end, but he doesn't like driving at night. So he's going to organise some games. He knows lots of old party games!"},
+        {"s":"F","t":"Our neighbour, Mrs Grant, called this morning. She said she'd love to help."},
+        {"s":"M","t":"Really? She makes amazing cakes."},
+        {"s":"F","t":"Exactly. She's going to make a chocolate birthday cake for you."},
+        {"s":"M","t":"Brilliant! And what about my sister? She always wants to do something."},
+        {"s":"F","t":"Lucy wanted to choose the music, but Ali's doing that now. So she's going to take the photos with my camera."},
+        {"s":"M","t":"Great. And who's going to clean up afterwards?"},
+        {"s":"F","t":"You are, Jamie!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Your neighbours", "questions": ["Do you know your neighbours well?", "Are there any teenagers in your street?"], "extended": "Please tell me something about the people who live near you." },
+        { "topic": "Making friends", "questions": ["Where did you meet your best friend?", "What do you and your friends do after school?"], "extended": "Please tell me something about a good friend." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to make new friends. Do you like these different ways of making friends? Say why or why not.",
+      "pictures": [ {"emoji":"⚽","label":"joining a sports team"}, {"emoji":"💻","label":"chatting online"}, {"emoji":"✉️","label":"having a pen-friend"}, {"emoji":"🎭","label":"joining a drama club"}, {"emoji":"🏕️","label":"going to summer camp"} ],
+      "prompts": ["Do you think joining a sports team is a good way to make friends?", "Is chatting online with new people a good idea?", "Do you think having a pen-friend is interesting?", "Is going to summer camp fun?", "Which of these ways of making friends do you like best?"],
+      "followup": ["Do you prefer having one best friend or lots of friends? Why?", "Is it easy to make friends at a new school?", "Would you like to have a pen-friend in another country? Why or why not?"],
+      "usefulLanguage": ["I think ... is a good way to make friends because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

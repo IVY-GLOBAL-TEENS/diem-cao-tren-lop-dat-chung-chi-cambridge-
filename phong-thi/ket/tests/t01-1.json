@@ -1,0 +1,188 @@
+{
+  "id": "t01-1", "topic": "01", "testNo": 1,
+  "title": "Gadgets at Home",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "COMPUTER ROOM", "text": "Please turn off computers and lights when you leave.\nLaptops must not be taken out of this room.",
+        "options": ["You can borrow a laptop to use at home.", "Students should switch things off before going out.", "The lights in this room do not work."], "answer": 1 },
+      { "kind": "message", "header": "From: Mum  To: Lucy", "text": "Lucy, the cooker isn't working, so we're getting pizza tonight. Can you buy some juice on your way home? There's none in the fridge.",
+        "options": ["Lucy needs to get something to drink.", "Lucy should cook dinner tonight.", "Lucy must repair the cooker."], "answer": 0 },
+      { "kind": "label", "header": "HAIRDRYER", "text": "Do not use near water.\nSwitch off and let it cool for 10 minutes before you put it away.",
+        "options": ["This hairdryer is only for use in the bathroom.", "The hairdryer takes 10 minutes to get hot.", "Wait before you put the hairdryer back in its place."], "answer": 2 },
+      { "kind": "notice", "header": "FOR SALE", "text": "TV – only two years old, works perfectly.\nFree DVD player with it!\n£60 – call Sam on 07799 812 456 after 6 p.m.",
+        "options": ["You will get two things for £60.", "The TV is not working very well.", "You can phone Sam at any time."], "answer": 0 },
+      { "kind": "message", "header": "From: Tom  To: Ben", "text": "My phone's battery is almost dead. If you can't get me, text my sister Amy – she's with me at the football match.",
+        "options": ["Tom has lost his phone at the football match.", "Ben can contact Tom through his sister.", "Amy wants Ben to send her a message."], "answer": 1 },
+      { "kind": "sign", "header": "SCHOOL HALL", "text": "Mobile phones must be switched off during the concert.\nPhotos allowed – but no cameras with flash, please.",
+        "options": ["You can't take any photographs in the hall.", "You must leave your phone outside the hall.", "You are allowed to take pictures without a flash."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their favourite piece of technology.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Carla", "text": "My favourite thing is my old radio. It was my grandfather's, and he gave it to me last year when he moved house. It doesn't look very modern, but the sound is brilliant. I listen to music on it every morning while I get ready for school. My friends laugh at it, but I don't care. I'd never change it for a new one!" },
+        { "label": "B", "title": "Daniel", "text": "I saved my pocket money for eight months to buy my laptop. It wasn't cheap, but it's really fast and light, so I take it to school every day. I do all my homework on it and I'm learning to make short films with it, too. My only problem is the battery – I always have to remember to charge it before I go to bed." },
+        { "label": "C", "title": "Hoa", "text": "I love my camera. My aunt bought it for my birthday because she knows I enjoy taking photos of animals and flowers. I take it everywhere with me, even on holiday. Last month one of my photos won a prize in a competition at school! I'd like to be a photographer when I'm older, so I practise a lot." }
+      ],
+      "items": [
+        { "q": "Whose favourite thing belonged to someone else before?", "answer": "A" },
+        { "q": "Who paid for their favourite thing with their own money?", "answer": "B" },
+        { "q": "Who has won something because of their favourite thing?", "answer": "C" },
+        { "q": "Who uses their favourite thing before going to school?", "answer": "A" },
+        { "q": "Who says there is something they don't like about their favourite thing?", "answer": "B" },
+        { "q": "Who wants to have a job connected with their favourite thing?", "answer": "C" },
+        { "q": "Who says other people think their favourite thing is funny?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "No screens for a week!",
+      "text": "Last month, fourteen-year-old Max Turner and his family tried something very different. For a whole week, they didn't use any screens at home – no TV, no computer, no tablets and no mobile phones.\n\n\"It was my mum's idea,\" says Max. \"She was angry because we never talked at dinner. My dad was always reading emails on his phone, and my sister and I were watching videos. At first I thought it was a terrible idea. I was sure I'd be bored.\"\n\nThe first two days were difficult. \"I kept putting my hand in my pocket to look for my phone,\" Max laughs. \"And in the evenings the living room was very quiet without the TV.\" But then things got better. The family found an old radio in the garage and started listening to music together while they cooked. Max's dad taught him to play chess, and Max read two books – \"more than I read in the whole of last year!\"\n\nThere were some problems, too. Max had to do his school project at the library because he couldn't use the family computer. \"That was OK, but it took a long time to get there by bus,\" he says.\n\nNow the family has a new rule: no phones at the dinner table and no TV after nine o'clock. \"I still love my phone,\" says Max, \"but now I know there are other fun things to do.\"",
+      "items": [
+        { "q": "Why did Max's family decide to stop using screens?", "options": ["Max's mum wanted the family to talk more.", "Max's dad was spending too much money on phones.", "The children were not doing their homework."], "answer": 0 },
+        { "q": "How did Max feel before the week started?", "options": ["excited about trying something new", "worried that he would have nothing to do", "angry with his sister"], "answer": 1 },
+        { "q": "What did the family do with the radio?", "options": ["They gave it to a neighbour.", "They repaired it in the garage.", "They used it in the kitchen."], "answer": 2 },
+        { "q": "What was difficult about doing the school project?", "options": ["Max couldn't find the right books.", "The library was a long journey from Max's home.", "The library computers were not working."], "answer": 1 },
+        { "q": "What is the best title for this article?", "options": ["A week that changed a family's habits", "Why teenagers should not have phones", "How to repair old gadgets"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The history of the television",
+      "text": "Today almost every home has a television, but it is quite a new {19}. The first TVs were made in the 1920s. They were very big and heavy, and the picture was small and only in black and white. Not many people could {20} to buy one because they were very expensive.\n\nIn the 1950s, TVs became much more popular. Families {21} together in the living room every evening to watch their favourite programmes. Colour TV {22} in many countries in the 1960s and 1970s, and soon people could choose from lots of different channels.\n\nNow TVs are thin and light, and we can {23} them on the wall like a picture. Many of us also watch programmes on our laptops and mobile phones. But scientists think TVs will {24} on changing – maybe one day we will watch films on our kitchen windows!",
+      "items": [
+        { "options": ["invention", "information", "instruction"], "answer": 0 },
+        { "options": ["spend", "afford", "pay"], "answer": 1 },
+        { "options": ["sat", "stood", "went"], "answer": 0 },
+        { "options": ["arrived", "reached", "got"], "answer": 0 },
+        { "options": ["put", "make", "take"], "answer": 0 },
+        { "options": ["stay", "hold", "keep"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Jake  To: Nam", "text": "Hi Nam,\nI've got a problem with my laptop. It won't turn on and I need {25} for my History project. Can I come to your house {26} Saturday and use your computer? I won't need it for long – maybe {27} hour.\nThanks,\nJake" },
+        { "header": "From: Nam  To: Jake", "text": "Hi Jake,\nOf course you can! My dad is good {28} repairing computers, so bring your laptop with you. He {29} fix almost anything! Come at about ten o'clock – we can play video games when you finish {30} project!\nNam" }
+      ],
+      "answers": [ ["it", "one"], ["on", "this", "next"], ["an", "one"], ["at"], ["can", "could", "will"], ["your", "the", "that", "this"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your family has bought a new TV. Write an email to your English friend, Alex.",
+      "points": ["say where the TV is in your house", "describe the new TV", "invite Alex to watch something with you"],
+      "model": "Hi Alex,\nWe've got a new TV! It's in the living room next to the window. It's really big and the picture is amazing. Would you like to come and watch a football match with me on Sunday afternoon?\nSee you,\nMinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦📱🔋", "caption": "a boy at home sees his phone battery is almost empty" },
+        { "emoji": "🚌🌧️😟", "caption": "the boy on a bus in the rain; his phone is dead and he looks worried" },
+        { "emoji": "👵☎️😊", "caption": "an old woman at a shop lets the boy use her phone to call his mum" }
+      ],
+      "model": "One afternoon Leo was playing games on his phone. He didn't notice that the battery was almost empty. Later, he took the bus to the city centre, but it started to rain and his phone stopped working. He was worried because he couldn't call his mum. Luckily, a kind old woman in a shop lent him her phone, and he called home."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What did the boy get for his birthday?",
+        "options": [ {"emoji":"📷","label":"camera"}, {"emoji":"🎧","label":"MP3 player"}, {"emoji":"💻","label":"laptop"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Happy birthday, Josh! Did you get a new laptop? I know you wanted one."}, {"s":"M","t":"No, Mum said I have to wait until Christmas for that. But I got a camera from my parents."}, {"s":"F","t":"Cool! And did your brother give you anything?"}, {"s":"M","t":"He said he'd buy me an MP3 player, but he forgot! He's going to get it next week."} ] },
+      { "q": "Where is the girl's mobile phone?",
+        "options": [ {"emoji":"🛋️","label":"on the sofa"}, {"emoji":"🎒","label":"in her bag"}, {"emoji":"🍳","label":"next to the cooker"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, have you seen my mobile? I can't find it anywhere."}, {"s":"M","t":"Did you look on the sofa? You were sitting there this morning."}, {"s":"F","t":"Yes, and it isn't in my school bag either."}, {"s":"M","t":"Oh, wait – I can see it. It's in the kitchen, next to the cooker. You were making breakfast with it in your hand!"} ] },
+      { "q": "What is broken in the boy's bedroom?",
+        "options": [ {"emoji":"💡","label":"lamp"}, {"emoji":"⏰","label":"clock"}, {"emoji":"📻","label":"radio"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Mum, something's wrong in my bedroom."}, {"s":"F","t":"Is it the lamp again? I bought a new light for it yesterday."}, {"s":"M","t":"No, the lamp's fine. It's my clock. It stopped in the night, so I nearly missed the bus."}, {"s":"F","t":"Oh dear. Well, use the alarm on the radio until we get a new one."} ] },
+      { "q": "How much did the girl pay for her headphones?",
+        "options": [ {"emoji":"💷","label":"£15"}, {"emoji":"💷","label":"£25"}, {"emoji":"💷","label":"£50"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Those are great headphones, Sophie. Were they expensive?"}, {"s":"F","t":"Well, they usually cost fifty pounds, but they were half price in the sale."}, {"s":"M","t":"So you paid twenty-five?"}, {"s":"F","t":"That's right. My friend bought some for fifteen pounds, but they don't sound as good as mine."} ] },
+      { "q": "What will the family watch tonight?",
+        "options": [ {"emoji":"⚽","label":"football match"}, {"emoji":"🦁","label":"animal programme"}, {"emoji":"🎬","label":"film"} ], "answer": 1,
+        "script": [ {"s":"F","t":"What's on TV tonight? Is there a good film?"}, {"s":"M","t":"There's one at nine, but it finishes too late for the children."}, {"s":"F","t":"What about the football?"}, {"s":"M","t":"That was yesterday. Let's watch the programme about lions in Africa at seven. Everyone will like that."}, {"s":"F","t":"Good idea."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about a technology club.",
+      "title": "After-school Technology Club",
+      "items": [
+        { "label": "Day:", "answer": ["wednesday", "wednesdays"] },
+        { "label": "Room number:", "answer": ["14", "fourteen"] },
+        { "label": "This term students will make a:", "answer": ["radio"] },
+        { "label": "Bring:", "answer": ["notebook", "a notebook"] },
+        { "label": "Teacher's name: Mr", "answer": ["kemp"] }
+      ],
+      "script": [ {"s":"F","t":"Good morning, everyone. I'd like to tell you about our new Technology Club. Last year the club met on Mondays, but lots of students had football practice then, so this year we're meeting on Wednesdays, from half past three until five o'clock. We won't be in the computer room, because it's too small. We'll meet in Room fourteen, next to the library. This term we're going to make something really exciting. We thought about building a small robot, but it's too difficult for beginners. So instead, you'll each make your own radio, and you can take it home at the end of term! You don't need to buy anything – the school will pay for everything. But please bring a notebook, because you'll need to write down the instructions. You don't need to bring a laptop. The club is run by a new teacher, Mr Kemp. That's K-E-M-P. He was an engineer before he became a teacher, so he knows a lot about electricity. If you want to join, please write your name on the list outside the staff room before Friday."} ]
+    },
+    "part3": {
+      "intro": "You will hear Anna talking to her friend Mark about buying a new mobile phone.",
+      "items": [
+        { "q": "Why does Anna need a new phone?", "options": ["She dropped her old one.", "Her old one is too slow.", "Someone took her old one."], "answer": 0 },
+        { "q": "Who is going to pay for the new phone?", "options": ["Anna's parents", "Anna and her grandmother", "only Anna"], "answer": 1 },
+        { "q": "What is most important for Anna in a new phone?", "options": ["a big screen", "a good camera", "a long battery life"], "answer": 1 },
+        { "q": "Where will Anna buy her phone?", "options": ["at a shop in the city centre", "on the internet", "from Mark's cousin"], "answer": 2 },
+        { "q": "What will Anna and Mark do on Saturday?", "options": ["go to a phone shop", "take photos in the park", "go to the cinema"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Anna. Why aren't you answering my texts?"},
+        {"s":"F","t":"Sorry, Mark. My phone's broken. I dropped it on the floor in the kitchen and now the screen doesn't work. It wasn't slow or anything – it was a good phone!"},
+        {"s":"M","t":"Oh no. Are your parents going to buy you a new one?"},
+        {"s":"F","t":"Mum says I have to pay for half of it myself. I've got some birthday money, and my grandma's going to pay the rest. That's really kind of her."},
+        {"s":"M","t":"So what kind of phone do you want? One with a big screen for watching videos?"},
+        {"s":"F","t":"The screen doesn't matter much. I want one with a really good camera, because I take so many photos. The battery's important too, but I can always charge it at school."},
+        {"s":"M","t":"Are you going to buy it online? It's usually cheaper."},
+        {"s":"F","t":"I looked on the internet, but my mum doesn't like buying things that way. And the shops in the city centre are so expensive."},
+        {"s":"M","t":"Why don't you ask my cousin Tim? He's selling his phone because he's got a new one. It's only a year old and the camera's amazing."},
+        {"s":"F","t":"Really? That's a great idea! I'll ask him. I'll buy it from him if it's not too expensive."},
+        {"s":"M","t":"Shall we go to the cinema this weekend?"},
+        {"s":"F","t":"Maybe next week. On Saturday I want to go to the phone shop in town to buy a case for my new phone. Do you want to come?"},
+        {"s":"M","t":"Sure. Then we can take some photos in the park on Sunday!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his mother about a computer game.", "q": "Why does the boy want to stay up late?", "options": ["to finish a game with his friends", "to download a new game", "to watch a programme about games"], "answer": 0,
+        "script": [ {"s":"M","t":"Mum, can I stay up until ten tonight?"}, {"s":"F","t":"It's a school night, Ryan. Is there something on TV?"}, {"s":"M","t":"No, it's the game I'm playing online with Jack and Leo. We're on the last level and we want to finish it together tonight."}, {"s":"F","t":"Hmm. OK, but only until half past nine."} ] },
+      { "intro": "You will hear a girl leaving a message for her father.", "q": "What does she want her father to do?", "options": ["bring her laptop to school", "pick her up later than usual", "buy a new charger for her phone"], "answer": 1,
+        "script": [ {"s":"F","t":"Hi Dad, it's Mai. I'm still at school because the science teacher asked us to help with the computers for tomorrow's exam. Can you collect me at five, not four? Don't worry about my laptop – I've got it with me. And my phone's fine, I charged it in the classroom. See you later!"} ] },
+      { "intro": "You will hear two friends talking about a new fridge.", "q": "What does the boy think about the new fridge?", "options": ["It is too noisy.", "It is too expensive.", "It is too big."], "answer": 2,
+        "script": [ {"s":"F","t":"Your parents bought a new fridge, didn't they? What's it like?"}, {"s":"M","t":"It's really modern and quiet – our old one made a terrible noise at night. And Dad found it in the sale, so it was cheap."}, {"s":"F","t":"Sounds perfect."}, {"s":"M","t":"Not really. It's so huge that we can't open the kitchen door properly now!"} ] },
+      { "intro": "You will hear a teacher talking to her class.", "q": "Why is the teacher talking to the class?", "options": ["to explain a new rule about phones", "to tell them about a broken computer", "to ask them to turn off the lights"], "answer": 0,
+        "script": [ {"s":"F","t":"Before we start, listen please. From next Monday, you must leave your mobile phones in your lockers during lessons. You can use them at lunchtime, but not in the classroom. If I see a phone in a lesson, I'll keep it until the end of the day. Is that clear? Good. Now, open your books at page twenty."} ] },
+      { "intro": "You will hear a boy talking about his grandmother.", "q": "How does the boy feel about his grandmother?", "options": ["surprised that she likes technology", "worried that she is often alone", "sorry that she can't use a phone"], "answer": 0,
+        "script": [ {"s":"M","t":"My grandma's seventy-five, and I thought she wouldn't know anything about computers. But when I visited her last weekend, she showed me her new laptop. She sends emails to her friends, she reads the news online and she even calls my cousins in Australia on video! I couldn't believe it. She knows more than my dad!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Emma talking to her dad about what her family uses in the house. Which appliance does each person use most?",
+      "people": ["Mum", "Grandpa", "Emma's brother", "Aunt Rosa", "Emma"],
+      "options": ["cooker", "hairdryer", "heating", "lamp", "laptop", "radio", "television", "video recorder"],
+      "answers": ["A", "F", "G", "B", "E"],
+      "script": [
+        {"s":"M","t":"Emma, what's your homework about tonight?"},
+        {"s":"F","t":"We have to find out which machine each person in our family uses the most. Can you help me, Dad? Let's start with Mum. Is it the laptop? She works on it a lot."},
+        {"s":"M","t":"She uses her work laptop at the office, but at home she's always in the kitchen. She loves cooking, so I'd say the cooker."},
+        {"s":"F","t":"OK. What about Grandpa? He watches a lot of TV."},
+        {"s":"M","t":"Not really. He says there's nothing good on TV these days. He listens to the radio all day – the news, the football, everything."},
+        {"s":"F","t":"That's true. And my brother? He's always on the computer."},
+        {"s":"M","t":"Well, he doesn't have his own computer. But he watches cartoons on the television every afternoon after school. He'd watch it all night if I let him!"},
+        {"s":"F","t":"Ha! And Aunt Rosa? When she stayed with us, she was always cold, so she turned the heating up."},
+        {"s":"M","t":"Yes, but what she really used every day was your mum's hairdryer! She spent ages doing her hair every morning."},
+        {"s":"F","t":"That's right. Now me. I think it's my lamp, because I read in bed every night."},
+        {"s":"M","t":"Really? I think it's the laptop – you use it for homework and for chatting with your friends."},
+        {"s":"F","t":"OK, you're right. I'll write laptop."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Technology at home", "questions": ["How many TVs have you got in your house?", "What do you usually do on your computer or phone?"], "extended": "Please tell me something about the things you use every day at home." },
+        { "topic": "Music", "questions": ["When do you listen to music?", "Do you listen to music on a phone, a radio or something else?"], "extended": "Please tell me something about your favourite singer or band." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things people use at home. Do you like these different things? Say why or why not.",
+      "pictures": [ {"emoji":"📺","label":"television"}, {"emoji":"📻","label":"radio"}, {"emoji":"💻","label":"laptop"}, {"emoji":"📷","label":"camera"}, {"emoji":"🎮","label":"video games"} ],
+      "prompts": ["Do you think watching TV is fun?", "Is it useful to have a laptop?", "Do you think listening to the radio is boring?", "Is taking photos with a camera exciting?", "Which of these things do you like best?"],
+      "followup": ["Do you prefer using a laptop or a phone? Why?", "Do you think people use their phones too much?", "Would you like to live without a TV for a week? Why or why not?"],
+      "usefulLanguage": ["I think ... is useful because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

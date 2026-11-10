@@ -1,0 +1,188 @@
+{
+  "id": "t03-2", "topic": "03", "testNo": 2,
+  "title": "Colours Around Us",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SCHOOL LIBRARY", "text": "Books with a green sticker can be borrowed for two weeks.\nBooks with a red sticker must stay in the library.",
+        "options": ["You can borrow every book for two weeks.", "You can't take books with a red sticker home.", "Books with a green sticker are new."], "answer": 1 },
+      { "kind": "message", "header": "From: Mum  To: Hoang", "text": "Hoang, the grey cat from next door was in our kitchen again this morning! Please don't leave the back door open when you go out.",
+        "options": ["Mum wants Hoang to keep a door closed.", "Hoang should give the cat some food.", "The family has got a new grey cat."], "answer": 0 },
+      { "kind": "notice", "header": "SWIMMING LESSONS", "text": "Yellow group: Tuesdays, 4 p.m.\nBlue group: Thursdays, 4 p.m.\nWhen you can swim 25 metres, you can move from the yellow group to the blue group.",
+        "options": ["Both groups have lessons on the same day.", "The yellow group swims on Thursdays.", "Swimmers can change group when they improve."], "answer": 2 },
+      { "kind": "label", "header": "DARK RED SWEATER", "text": "Wash with similar colours.\nThe colour may come out the first time you wash it.",
+        "options": ["You should only wash this sweater by hand.", "It's fine to wash this sweater with white clothes.", "This sweater might change the colour of other clothes."], "answer": 2 },
+      { "kind": "email", "header": "From: Ms Park  To: Year 7", "text": "On Friday it's 'Wear Your Colour' Day! Wear something in your class colour: 7A blue, 7B green, 7C orange. Please bring £1 for the children's hospital.",
+        "options": ["Everyone must wear the same colour on Friday.", "Students should give some money on Friday.", "Students can buy something orange for £1."], "answer": 1 },
+      { "kind": "note", "header": "From: Lucas  To: Dad", "text": "Dad, I've taken your black umbrella because mine's broken. I'll bring it back after football. Your brown one is in the car.",
+        "options": ["Lucas has borrowed something from his dad.", "Lucas has broken his dad's umbrella.", "Dad's black umbrella is in the car."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about a colourful festival they went to.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Priya", "text": "Last March I went to the Holi festival in India with my parents. At Holi, everyone throws coloured powder and water at each other. I wore an old white T-shirt, and by lunchtime it was pink, green and yellow! It took me three days to wash the colour out of my hair. Some girls I met there taught me a traditional dance too. It was the best day of my holiday." },
+        { "label": "B", "title": "Tuan", "text": "Every year my family goes to Hoi An for the Mid-Autumn Festival. The streets are full of lanterns – red, orange, purple and every other colour you can think of. My little sister and I always make our own lantern at home before we go. This year ours was a yellow star. My grandparents live in Hoi An, so we stay at their house for a week." },
+        { "label": "C", "title": "Sofia", "text": "I went to a flower festival in Holland with my school. There were huge pictures made from millions of flowers, like a pink and white elephant and a red dragon. We cycled past fields of tulips, which was hard work but beautiful. I took lots of photos, and one of them is now on the wall in our classroom. The only problem was the weather – it rained all week, and the sky was always grey." }
+      ],
+      "items": [
+        { "q": "Who made something to take to the festival?", "answer": "B" },
+        { "q": "Who found it difficult to get clean after the festival?", "answer": "A" },
+        { "q": "Who stayed with family members?", "answer": "B" },
+        { "q": "Who was disappointed by the weather?", "answer": "C" },
+        { "q": "Who learned something new at the festival?", "answer": "A" },
+        { "q": "Who has something from the trip at school?", "answer": "C" },
+        { "q": "Who goes to the festival every year?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "A different way of seeing",
+      "text": "When Ethan Wood was nine, his art teacher asked the class to paint a picture of a park. Ethan was happy with his picture, but when his teacher saw it, she was surprised. The grass was brown and the trees had red leaves. \"I was sure I was using green,\" Ethan remembers.\n\nHis teacher spoke to his parents, and a doctor told them that Ethan was colour-blind. This means he can't see some colours in the same way as other people. Ethan finds it hard to see the difference between red and green, and sometimes between blue and purple. About one in twelve boys are colour-blind, but very few girls have this problem.\n\n\"Most of the time it isn't a problem,\" says Ethan, who is now thirteen. \"But football can be difficult. Last year our team played in green shirts and the other team wore red. I kept passing the ball to the wrong players!\" Now his coach always makes sure the teams wear very different colours, like white and dark blue.\n\nFor his birthday, Ethan's grandparents bought him special glasses that help colour-blind people see colours more clearly. \"The first time I put them on, I looked at the garden and couldn't stop smiling. The flowers were so bright!\" he says. \"I don't wear them all the time, but I love using them when we go somewhere beautiful.\"\n\nEthan still loves art. \"I write the names of the colours on all my pencils,\" he laughs. \"Then I never choose the wrong one!\"",
+      "items": [
+        { "q": "How did Ethan's teacher first see that there was a problem?", "options": ["He couldn't read the board.", "He used unusual colours in a picture.", "He didn't want to paint the park."], "answer": 1 },
+        { "q": "What does the writer say about colour-blindness?", "options": ["It is more usual in boys than in girls.", "Most colour-blind people can't see blue.", "Doctors can make it better."], "answer": 0 },
+        { "q": "What happened when Ethan played football last year?", "options": ["He wore the wrong shirt.", "He gave the ball to the other team.", "He didn't play because of his eyes."], "answer": 1 },
+        { "q": "How did Ethan feel when he first wore the special glasses?", "options": ["worried", "bored", "happy"], "answer": 2 },
+        { "q": "How does Ethan make sure he uses the right colour in art?", "options": ["He wears his special glasses.", "He asks his teacher to help him.", "He reads the words on his pencils."], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "How does a rainbow happen?",
+      "text": "A rainbow is one of the most beautiful things in nature. You can only see one when the sun is {19} and it is raining at the same time. The sun must be behind you, and the rain must be in front of you.\n\nLight from the sun looks white, but it is really {20} of many colours. When sunlight goes through raindrops, it breaks into different colours: red, orange, yellow, green, blue and purple. Red is always at the top of a rainbow, and purple is always at the {21}.\n\nSometimes you can see two rainbows at the same time. The second one is lighter, and its colours are in the {22} order – red is at the bottom!\n\nIn many countries there are old stories about rainbows. In Ireland, people say there is a pot of gold at the end of a rainbow. But nobody has ever found it, because you can never {23} the end of a rainbow – it moves when you move! If you want to {24} a photo of one, be quick, because most rainbows only last a few minutes.",
+      "items": [
+        { "options": ["shining", "lighting", "burning"], "answer": 0 },
+        { "options": ["done", "made", "built"], "answer": 1 },
+        { "options": ["bottom", "end", "under"], "answer": 0 },
+        { "options": ["opposite", "next", "last"], "answer": 0 },
+        { "options": ["arrive", "get", "reach"], "answer": 2 },
+        { "options": ["make", "take", "do"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Anna  To: Phuong", "text": "Hi Phuong,\nIt's my birthday party next Saturday, and the theme is 'Black and White'. Everyone has to wear black and white clothes! I've got a white shirt, {25} I haven't got any black trousers. Can I borrow {26} from you? I think we're the {27} size.\nLove,\nAnna" },
+        { "header": "From: Phuong  To: Anna", "text": "Hi Anna,\nOf course! I've got two pairs, so you can choose. What a fun theme! I'm going to wear my black dress {28} white spots. {29} you like, I can come to your house early and help you put up black and white balloons. See you {30} Saturday!\nPhuong" }
+      ],
+      "answers": [ ["but"], ["some"], ["same"], ["with"], ["if"], ["on", "this", "next"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You have painted your bedroom a new colour. Write an email to your English friend, Alex.",
+      "points": ["say what colour your bedroom is now", "explain why you chose that colour", "invite Alex to come and see it"],
+      "model": "Hi Alex,\nMy dad and I painted my bedroom last weekend. It's light green now! I chose green because it's my favourite colour and it makes me feel calm. Would you like to come and see it on Saturday afternoon?\nBye,\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦👕🧦", "caption": "a boy putting his white football shirt into the washing machine; a red sock is inside too" },
+        { "emoji": "👕🩷😱", "caption": "the boy holding up his football shirt, which is now pink; he looks shocked" },
+        { "emoji": "⚽🥅🎉", "caption": "the boy in the pink shirt scores a goal and his team are cheering" }
+      ],
+      "model": "On Friday evening Tom washed his white football shirt for the match. He didn't see that one of his red socks was in the machine too. When he took the shirt out, it was pink! Tom was very unhappy. But the next day he wore it to the match and scored the winning goal. Now it's his lucky shirt!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which car is Dad's new car?",
+        "options": [ {"emoji":"🚗🩶","label":"grey car"}, {"emoji":"🚗🔴","label":"red car"}, {"emoji":"🚗⚪","label":"white car"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Have you seen Dad's new car? It's outside."}, {"s":"F","t":"Is it that red one?"}, {"s":"M","t":"No, that's Mrs Taylor's. Dad's is the grey one next to it."}, {"s":"F","t":"Grey? He always said he wanted a white car."}, {"s":"M","t":"He did, but the white one was more expensive."} ] },
+      { "q": "Which flowers does the boy buy for his grandmother?",
+        "options": [ {"emoji":"🌼","label":"yellow flowers"}, {"emoji":"🌹","label":"pink roses"}, {"emoji":"💜","label":"purple flowers"} ], "answer": 2,
+        "script": [ {"s":"M","t":"I'd like some flowers for my grandma, please. She loves yellow ones."}, {"s":"F","t":"Sorry, we haven't got any yellow ones today. But these pink roses are lovely."}, {"s":"M","t":"Hmm, her garden's already full of pink roses. What about those purple ones?"}, {"s":"F","t":"They're five pounds."}, {"s":"M","t":"Perfect. I'll take them."} ] },
+      { "q": "Which girl is Hannah?",
+        "options": [ {"emoji":"👱‍♀️","label":"light hair, green dress"}, {"emoji":"👩","label":"dark hair, green dress"}, {"emoji":"👩","label":"dark hair, blue dress"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Which one is your sister Hannah? The girl with light hair?"}, {"s":"F","t":"No, that's my cousin. Hannah's got dark hair, like me."}, {"s":"M","t":"Is she the one in the blue dress?"}, {"s":"F","t":"No, that's her friend. Hannah's wearing green. It's her favourite colour."} ] },
+      { "q": "Which bird did the girl see in the garden?",
+        "options": [ {"emoji":"🐦‍⬛","label":"black bird"}, {"emoji":"🐦","label":"bird with a red front"}, {"emoji":"🐦","label":"blue and yellow bird"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, there was a beautiful bird in the garden this morning."}, {"s":"M","t":"Was it a robin? They've got a red front."}, {"s":"F","t":"No, it was small and blue, with a yellow front."}, {"s":"M","t":"Ah, that's a blue tit. We often see blackbirds here, but blue tits don't come very often."} ] },
+      { "q": "Which pencil case does the boy choose?",
+        "options": [ {"emoji":"🟠","label":"orange"}, {"emoji":"⚫","label":"black"}, {"emoji":"🩷","label":"pink"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Look at these pencil cases, Sam. This pink one's lovely."}, {"s":"M","t":"My sister's got that one. I want something different."}, {"s":"F","t":"What about black? It won't look dirty."}, {"s":"M","t":"Black's so boring. I'll get the orange one. Then nobody will take it by mistake!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a man talking on the radio about a summer painting course for young people.",
+      "title": "Summer Painting Course",
+      "items": [
+        { "label": "Classes are from Monday to:", "answer": ["thursday"] },
+        { "label": "In the first week, students paint:", "answer": ["boats", "the boats"] },
+        { "label": "Price for students: £ ___ a week", "answer": ["45", "forty-five", "forty five"] },
+        { "label": "Bring these paints: blue, yellow and", "answer": ["white"] },
+        { "label": "Teacher's name: Mrs", "answer": ["fenton"] }
+      ],
+      "script": [ {"s":"M","t":"Are you between eleven and fifteen? Do you love colours? Then come to our summer painting course! The course runs from Monday to Thursday every week in August. We used to have classes on Fridays too, but now that's the day we clean the studio! In the first week, we'll go down to the harbour and paint the boats. They're all different colours – red, blue, green and orange – so it's a great place to start. In the second week, we'll paint the flowers in the city park. The course costs forty-five pounds a week for students. Adults can join too, but they pay sixty pounds. We'll give you brushes, paper and some paints – we've got lots of red, black and brown. But please bring your own blue, yellow and white, because we always run out of those colours. And wear old clothes, of course! Your teacher will be Mrs Fenton. That's F-E-N-T-O-N. She's a well-known artist, and her paintings of the sea are in lots of galleries. We hope to see you there!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Mia talking to her grandfather about her holiday in Iceland.",
+      "items": [
+        { "q": "On which night did Mia see the northern lights?", "options": ["the first night", "the second night", "the third night"], "answer": 2 },
+        { "q": "What colour were the lights mostly?", "options": ["pink", "green", "purple"], "answer": 1 },
+        { "q": "Why didn't Mia take any good photos?", "options": ["Her phone wasn't good enough.", "It was too cloudy.", "She forgot her camera."], "answer": 0 },
+        { "q": "What was unusual about the beaches?", "options": ["They were covered in snow.", "The sand was black.", "The water was hot."], "answer": 1 },
+        { "q": "What did Mia buy for her grandfather?", "options": ["a hat", "a sweater", "a photo"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"M","t":"Welcome back, Mia! How was Iceland?"},
+        {"s":"F","t":"Amazing, Grandpa! It was really cold, but I loved it."},
+        {"s":"M","t":"Did you see the northern lights?"},
+        {"s":"F","t":"Yes! We tried on the first night, but it was too cloudy. On the second night we were too tired after a long walk, so we went to bed early. But on the third night the sky was clear, and suddenly there they were!"},
+        {"s":"M","t":"What colours were they? I've seen photos with pink and purple lights."},
+        {"s":"F","t":"Sometimes they're pink, but ours were mostly green – bright green, moving across the dark sky like a river. There was a little bit of purple at the end."},
+        {"s":"M","t":"Did you take any photos?"},
+        {"s":"F","t":"I tried, but my phone wasn't good enough – all my photos were just black! Luckily Dad had his big camera, so he got some great ones."},
+        {"s":"M","t":"And what else did you do?"},
+        {"s":"F","t":"We swam in a hot pool outside, even when it was snowing. And we walked on some beaches where the sand is black, because of the volcanoes. It looked so strange!"},
+        {"s":"M","t":"Did you bring me anything?"},
+        {"s":"F","t":"Of course! I wanted to get you a sweater, but they were really expensive. So I got you this grey and white hat instead."},
+        {"s":"M","t":"Lovely, thank you! Will you go back one day?"},
+        {"s":"F","t":"I hope so. Mum says next time we'll go in summer, when it's light nearly all night. But you can't see the northern lights then."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her father about a school project.", "q": "What does she need help with?", "options": ["finding information online", "choosing a colour for a poster", "drawing some flags"], "answer": 1,
+        "script": [ {"s":"F","t":"Dad, can you help me with my geography project? It's a poster about flags of the world."}, {"s":"M","t":"Sure. Do you need help finding information?"}, {"s":"F","t":"No, I've done that, and I've drawn all the flags. But I can't decide on the background. White looks boring, and black is too dark."}, {"s":"M","t":"What about light blue, like the sky?"} ] },
+      { "intro": "You will hear a boy leaving a message for his friend.", "q": "Why is he calling?", "options": ["to say he will be late", "to ask what he should wear", "to explain where he is"], "answer": 2,
+        "script": [ {"s":"M","t":"Hi Ana, it's Kevin. I'm at the concert already – I got here early. It's really busy, so it won't be easy to find me. I'm near the front, next to the big speaker on the left, and I'm wearing my orange cap. So look for orange! Text me when you arrive."} ] },
+      { "intro": "You will hear two friends talking about a new café.", "q": "What does the girl think about the café?", "options": ["The colours are too strong.", "The food is too expensive.", "It is too small."], "answer": 0,
+        "script": [ {"s":"M","t":"Have you been to the new café in the square?"}, {"s":"F","t":"Yes, last weekend. The cakes are really good, and they aren't expensive."}, {"s":"M","t":"It's quite small, isn't it?"}, {"s":"F","t":"There's enough space. But the walls are bright red and the chairs are bright yellow – it hurts my eyes! I couldn't relax at all."} ] },
+      { "intro": "You will hear a teacher talking to her class in a science lesson.", "q": "What will the students do today?", "options": ["watch a video", "make a rainbow", "mix different colours"], "answer": 2,
+        "script": [ {"s":"F","t":"Last week we watched a video about light and colour. Today you're going to do an experiment. Each group has three small bottles of water – red, yellow and blue. Mix them and see what new colours you can make. Can you make green? Orange? Purple? Write everything in your book. Next week we'll try to make our own rainbow with a glass of water and a torch."} ] },
+      { "intro": "You will hear a man talking about his job.", "q": "What is his job?", "options": ["fashion designer", "house painter", "artist"], "answer": 1,
+        "script": [ {"s":"M","t":"In my job, I talk to people about colour all the time. Lots of people want white walls in every room, but I try to help them choose something more exciting – a light green for a bedroom, maybe, or a warm orange for a kitchen. I'm not an artist, and I don't paint pictures. I just make people's homes look beautiful. I can usually finish one room in two days."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Jack talking to his friend Emma about a school art competition. What did each student paint?",
+      "people": ["Ruby", "Daniel", "Kai", "Lucy", "Jack"],
+      "options": ["a brown horse", "a green frog", "a grey elephant", "an orange fish", "a pink flamingo", "a purple flower", "a white boat", "a yellow sun"],
+      "answers": ["E", "C", "B", "H", "G"],
+      "script": [
+        {"s":"F","t":"Jack, have you seen the paintings for the art competition? They're all in the hall now."},
+        {"s":"M","t":"Yes! Ruby's is amazing. At first I thought it was a big pink flower, but it's a flamingo standing in a lake."},
+        {"s":"F","t":"Oh yes, Ruby loves birds. What did Daniel paint? He said he was going to do a horse."},
+        {"s":"M","t":"He wanted to, but he said horses are too difficult to draw. So he did a big grey elephant instead. It's really good."},
+        {"s":"F","t":"And Kai? He always paints the sea."},
+        {"s":"M","t":"Not this time. He painted a green frog sitting on a leaf. It's very funny – it's got huge eyes."},
+        {"s":"F","t":"What about Lucy? Did she paint her cat?"},
+        {"s":"M","t":"No. Her cat's black, and she says black paint looks too dark on paper. So she painted the yellow sun going down over the hills behind her house. The sky's orange and pink."},
+        {"s":"F","t":"Lovely. And yours? You haven't told me!"},
+        {"s":"M","t":"Mine's a white boat on a dark blue sea. I wanted to put an orange fish in the water under the boat, but I didn't have enough time."},
+        {"s":"F","t":"Well, I think you'll win!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Colours", "questions": ["What colour are your favourite clothes?", "What colours do you like in a bedroom?"], "extended": "Please tell me something about the colours in your home." },
+        { "topic": "Nature", "questions": ["Do you like going to the park?", "What's your favourite season?"], "extended": "Please tell me something about a beautiful place you have visited." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different colourful things. Do you like these different things? Say why or why not.",
+      "pictures": [ {"emoji":"🌈","label":"a rainbow"}, {"emoji":"🎆","label":"fireworks"}, {"emoji":"🏮","label":"a lantern festival"}, {"emoji":"🌷","label":"a flower garden"}, {"emoji":"🍂","label":"autumn trees"} ],
+      "prompts": ["Do you think rainbows are beautiful?", "Is watching fireworks exciting?", "Would you like to go to a lantern festival?", "Do you think visiting a flower garden is boring?", "Which of these things do you like best?"],
+      "followup": ["Do you prefer bright colours or light colours? Why?", "What colour would you like your school uniform to be?", "Do you think some colours are better for boys or for girls?"],
+      "usefulLanguage": ["I think ... is beautiful because ...", "I don't really like ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

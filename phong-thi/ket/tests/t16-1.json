@@ -1,0 +1,187 @@
+{
+  "id": "t16-1", "topic": "16", "testNo": 1,
+  "title": "Weekends in the Countryside",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "GREEN VALLEY CAMPSITE", "text": "Campfires only in the fire area next to the lake.\nPlease put out all fires before 10 p.m.",
+        "options": ["You can make a fire anywhere on the campsite.", "Fires must be finished before ten o'clock at night.", "The lake is closed after 10 p.m."], "answer": 1 },
+      { "kind": "message", "header": "From: Grandma  To: Linh", "text": "Linh, the path across the fields to the farm is very muddy after all the rain. Walk along the road from the village instead. See you at lunchtime!",
+        "options": ["Linh should not use the path today.", "Grandma will meet Linh on the path.", "Linh needs to buy some new boots."], "answer": 0 },
+      { "kind": "notice", "header": "FOREST WALKS", "text": "The red path is closed because some trees have fallen.\nTake the blue path to the top of the hill – it's longer, but the views are better!",
+        "options": ["The blue path is shorter than the red one.", "People are cutting down trees on the blue path.", "Walkers can still get to the top of the hill."], "answer": 2 },
+      { "kind": "notice", "header": "SNOWDEN HILL RAILWAY", "text": "Trains to the top of the mountain every 30 minutes.\nLast train down: 5.30 p.m.\nChildren under 5 travel free.",
+        "options": ["All children can travel on the train for free.", "Trains go up the mountain once an hour.", "If you miss the 5.30 train, you will have to walk down."], "answer": 2 },
+      { "kind": "email", "header": "From: Tom  To: Oscar", "text": "We're staying on the island until Friday. There aren't any shops here, so we catch fish in the sea for dinner! Tomorrow Dad's taking us across to the village by boat to buy bread.",
+        "options": ["Tom's family are going to get some food in the village.", "There is a shop on the island that sells fish.", "Tom is coming home from the island tomorrow."], "answer": 0 },
+      { "kind": "sign", "header": "HILLTOP FARM", "text": "Please close the gate behind you.\nDogs must stay on a lead in this field – there are sheep here.",
+        "options": ["Dogs are not allowed in this field.", "People with dogs must keep them close to them.", "The sheep are in the next field."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their favourite place in the countryside.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Hana", "text": "My favourite place is a small lake high up in the mountains. You can't drive there – you have to walk for two hours along a narrow path through a forest. I go every summer with my uncle, who knows every hill in the area. The water is very cold, but I always swim in it! There's no phone signal, so it's really quiet and I can read for hours." },
+        { "label": "B", "title": "Leo", "text": "My grandparents live on a farm near a village by a river. I stay with them for two weeks every summer. I help my grandad feed the cows, and in the evening we go fishing in the river. Last year I caught a really big fish and we cooked it for dinner! I love the farm, but I hate getting up at five o'clock – farmers start work very early." },
+        { "label": "C", "title": "Mai", "text": "Last spring my family took a train and then a boat to a little island. There are no cars there, so everyone rides bikes. We stayed at a campsite next to the beach, and I slept in a tent for the first time. In the middle of the island there's a wood full of birds, and I took lots of photos of them. I'd love to go back next year with my best friend." }
+      ],
+      "items": [
+        { "q": "Who has to walk to get to their favourite place?", "answer": "A" },
+        { "q": "Who used two kinds of transport to get to their favourite place?", "answer": "C" },
+        { "q": "Who ate something that they got themselves?", "answer": "B" },
+        { "q": "Who enjoys going into the water at their favourite place?", "answer": "A" },
+        { "q": "Who says there is something they don't enjoy?", "answer": "B" },
+        { "q": "Who did something for the first time at their favourite place?", "answer": "C" },
+        { "q": "Who goes with someone who knows the countryside there very well?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "My home on the canal",
+      "text": "Most teenagers live in a house or a flat. But thirteen-year-old Freya Hill lives on a boat! Two years ago, her parents sold their house in the city and bought a long, narrow boat. Now the family travel slowly along the canals of England.\n\n\"At first I was angry,\" says Freya. \"I didn't want to leave my friends. But my parents wanted a quieter life, closer to nature, and now I understand why.\" Every morning Freya wakes up and sees something different from her window – fields of sheep, a little village or a wood full of birds.\n\nThe boat moves very slowly – only about six kilometres an hour. \"People walking on the path next to the canal often go faster than us!\" Freya laughs. Sometimes the canal goes over a river on a bridge, and sometimes it goes through a dark tunnel under a hill.\n\nFreya doesn't go to a normal school. Her mum teaches her on the boat in the mornings, and in the afternoons she does lessons online. \"I miss being in a class with other students,\" she says, \"but I've met lots of other children who live on boats.\"\n\nLife on the canal isn't always easy. In winter the boat is very cold, and the family have to carry water from taps in the villages. \"But I wouldn't change it,\" says Freya. \"Next year we're going to travel to Scotland, and I can't wait to see the mountains and lakes there.\"",
+      "items": [
+        { "q": "Why did Freya's family move onto a boat?", "options": ["Freya didn't like her school in the city.", "Her parents wanted a different kind of life.", "Their house in the city was too expensive."], "answer": 1 },
+        { "q": "What does Freya say about the speed of the boat?", "options": ["It is slower than some people on foot.", "It goes faster on rivers than on canals.", "It is too slow for her."], "answer": 0 },
+        { "q": "How does Freya study?", "options": ["She goes to schools in different villages.", "She has lessons with her mum and on the internet.", "She studies with other children who live on boats."], "answer": 1 },
+        { "q": "What is difficult about living on the boat?", "options": ["There isn't enough space for the family.", "The family often get lost on the canals.", "They have to get water from somewhere else."], "answer": 2 },
+        { "q": "What is Freya looking forward to?", "options": ["seeing a new part of the country", "going back to live in the city", "making friends at a new school"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The Lake District",
+      "text": "The Lake District is an {19} in the north-west of England. It is famous for its beautiful lakes, high mountains and green hills. In 1951 it became one of England's first national parks, and today it is the biggest national park in the country.\n\nEngland's highest mountain, Scafell Pike, is in the Lake District. It is 978 metres high, and thousands of people {20} to the top every year. The largest lake is Windermere, which is about 18 kilometres long. Visitors can {21} a boat trip on it, or walk along the paths through the woods next to the water.\n\nThe writer Beatrix Potter loved the area. She bought several farms there, and before she died she {22} them to the National Trust, so that the fields and villages would never change.\n\nMillions of people visit the Lake District every year, and many of them {23} at campsites near the lakes. It can get very busy in summer, but if you {24} early in the morning, the paths are much quieter.",
+      "items": [
+        { "options": ["area", "part", "place"], "answer": 0 },
+        { "options": ["climb", "jump", "rise"], "answer": 0 },
+        { "options": ["make", "take", "do"], "answer": 1 },
+        { "options": ["showed", "paid", "gave"], "answer": 2 },
+        { "options": ["spend", "live", "stay"], "answer": 2 },
+        { "options": ["reach", "arrive", "get"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Sofia  To: Nadia", "text": "Hi Nadia,\nMy family is going camping next weekend at a campsite {25} the sea. Would you like to come {26} us? There's a beautiful beach and a forest with lots of paths to explore. We're going to leave {27} Saturday morning and come back on Sunday evening.\nLove,\nSofia" },
+        { "header": "From: Nadia  To: Sofia", "text": "Hi Sofia,\nThanks for asking me – I'd love to come! I've never been camping {28}, so I'm really excited. Do I need {29} bring a tent, {30} can I share yours? My mum says I can take her sleeping bag.\nSee you soon,\nNadia" }
+      ],
+      "answers": [ ["by", "near", "beside"], ["with"], ["on", "this", "next"], ["before"], ["to"], ["or"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You are going to spend a weekend in the countryside with your family. Write an email to your English friend, Sam.",
+      "points": ["say where you are going", "say how you will travel there", "tell Sam what you want to do there"],
+      "model": "Hi Sam,\nThis weekend my family is going to a small village near the mountains. We're going to take the train there on Saturday morning. I want to walk up a hill and swim in the lake. I'll send you some photos!\nBye,\nAn"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧👦🌲", "caption": "a girl and her brother walking along a path in a forest" },
+        { "emoji": "🐑🌊😟", "caption": "the children find a small lamb next to a river; it looks lost" },
+        { "emoji": "👨‍🌾🐑😊", "caption": "a farmer at a farm gate smiling and taking the lamb from the children" }
+      ],
+      "model": "Last Sunday Ella and her brother Max went for a walk in the forest near their village. When they got to the river, they saw a small lamb. It was alone and it looked lost. They carried it carefully to the farm on the hill. The farmer was very happy and thanked them. He gave them some fresh eggs to take home."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Where did the boy's family go on holiday?",
+        "options": [ {"emoji":"🏝️","label":"island"}, {"emoji":"⛰️","label":"mountains"}, {"emoji":"🏞️","label":"lake"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Did you have a good holiday, Ben? Did you go to the island again?"}, {"s":"M","t":"No, we went there last year. Dad wanted to go to the mountains this time, but Mum said it would be too cold."}, {"s":"F","t":"So where did you go?"}, {"s":"M","t":"We stayed in a little wooden house next to a lake. We went swimming every day. It was great!"} ] },
+      { "q": "How will they travel to Grandma's village?",
+        "options": [ {"emoji":"🚂","label":"train"}, {"emoji":"🚌","label":"bus"}, {"emoji":"🚲","label":"bike"} ], "answer": 0,
+        "script": [ {"s":"M","t":"How shall we get to Grandma's village on Saturday? Shall we go by bike?"}, {"s":"F","t":"It's twenty kilometres – that's too far! The bus goes there, but only twice a day."}, {"s":"M","t":"What about the train? They've opened a new railway station in the village."}, {"s":"F","t":"Really? Great, let's take the train then. It's much quicker."} ] },
+      { "q": "What did the girl see in the forest?",
+        "options": [ {"emoji":"🦌","label":"deer"}, {"emoji":"🦉","label":"owl"}, {"emoji":"🐿️","label":"squirrel"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Dad, guess what I saw in the forest this morning!"}, {"s":"M","t":"A squirrel? There are lots of them in the trees there."}, {"s":"F","t":"No, it was bigger than that, and it was sitting on a branch. It was an owl! It looked at me with its big yellow eyes."}, {"s":"M","t":"Wow, you were lucky. I've only ever seen deer in that forest."} ] },
+      { "q": "Where are the children going to have their picnic?",
+        "options": [ {"emoji":"🌳","label":"under a tree"}, {"emoji":"🏖️","label":"on the beach"}, {"emoji":"⛰️","label":"on the hill"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Let's have our picnic on the beach."}, {"s":"F","t":"It's too windy there today. We'll get sand in our sandwiches!"}, {"s":"M","t":"OK. What about the top of the hill? There's a great view from there."}, {"s":"F","t":"It's a long walk and I'm hungry now. Let's sit under that big tree by the river."}, {"s":"M","t":"Fine. At least it's not too sunny there."} ] },
+      { "q": "What time does the boat to the island leave?",
+        "options": [ {"emoji":"🕘","label":"9:00"}, {"emoji":"🕙","label":"10:15"}, {"emoji":"🕦","label":"11:30"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Excuse me, when's the next boat to the island?"}, {"s":"M","t":"The nine o'clock boat has just left, I'm afraid. The next one usually goes at quarter past ten, but it's late today because of the weather."}, {"s":"F","t":"Oh. So when does it leave?"}, {"s":"M","t":"At half past eleven. You can wait in the café over there."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about a school trip to a farm.",
+      "title": "Countryside Day at Brook Farm",
+      "items": [
+        { "label": "Bus leaves school at:", "answer": ["8.45", "8:45", "quarter to nine", "a quarter to nine"] },
+        { "label": "First activity: a walk through the", "answer": ["wood", "woods"] },
+        { "label": "Students will help to feed the:", "answer": ["goats"] },
+        { "label": "Everyone must wear:", "answer": ["boots"] },
+        { "label": "Farmer's name: Mr", "answer": ["dunmore"] }
+      ],
+      "script": [ {"s":"F","t":"OK, everyone, listen carefully, please. Next Thursday we're going on our countryside day at Brook Farm. The farm is about an hour from here, so the bus will leave school at quarter to nine. Please don't be late! When we arrive, our first activity is a walk. We won't climb the hill behind the farm, because it's too steep and the path isn't safe. Instead, we'll walk through the wood down to the river, and you can look for birds and insects there. After that, we'll go back to the farm. There are lots of cows and sheep, but they live in the big fields, so we won't get close to them. You're going to help feed the goats. They're very friendly, but they eat everything, so be careful with your bags! The farm is very muddy at this time of year, so everyone must wear boots. Trainers are no good. You don't need to bring lunch, because the farm café is giving us soup and bread. The farmer will show us around. His name's Mr Dunmore. That's D-U-N-M-O-R-E. He has lived on the farm all his life, so please ask him lots of questions!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Daniel talking to his friend Maya about a cycling trip.",
+      "items": [
+        { "q": "How long was Daniel's cycling trip?", "options": ["two days", "three days", "four days"], "answer": 1 },
+        { "q": "What was the problem on the first day?", "options": ["They got lost.", "Daniel's bike broke.", "The weather was bad."], "answer": 2 },
+        { "q": "Where did they sleep on the second night?", "options": ["at a campsite", "in a hotel in a village", "at a friend's house"], "answer": 0 },
+        { "q": "What did Daniel like most about the trip?", "options": ["swimming in the sea", "riding through the forest", "the view from the bridge"], "answer": 2 },
+        { "q": "What is Daniel going to do next summer?", "options": ["go on the same trip with Maya", "cycle in the mountains", "visit an island"], "answer": 1 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Daniel! How was your cycling trip with your dad?"},
+        {"s":"M","t":"Brilliant, thanks, Maya. We rode all the way along the river from our town to the sea. We planned to do it in two days, but it took three."},
+        {"s":"F","t":"Why? Did you get lost?"},
+        {"s":"M","t":"No, the path next to the river is easy to follow. And our bikes were fine too. But on the first day it rained all afternoon, so we stopped early."},
+        {"s":"F","t":"Oh no! Where did you sleep?"},
+        {"s":"M","t":"The first night we stayed in a small hotel in a village. It was lovely and warm. Then on the second night we put up our tent at a campsite by a lake."},
+        {"s":"F","t":"Didn't Dad's friend live near there? You told me you might stay with him."},
+        {"s":"M","t":"Yes, but he was on holiday, so we didn't see him."},
+        {"s":"F","t":"So what was the best part? Swimming in the sea at the end?"},
+        {"s":"M","t":"The water was too cold for swimming, actually! And the ride through the forest was nice, but there were lots of insects. The best thing was the old railway bridge over the river. You can see the whole valley from the top. It was amazing."},
+        {"s":"F","t":"It sounds great. I'd love to do that trip."},
+        {"s":"M","t":"You should! I want to try something harder next summer. Dad and I are going to cycle in the mountains in Wales."},
+        {"s":"F","t":"Wow. Rather you than me!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her father about a walk.", "q": "Why doesn't the girl want to go up the mountain?", "options": ["She has hurt her foot.", "The weather is going to be bad.", "She doesn't enjoy walking."], "answer": 0,
+        "script": [ {"s":"M","t":"Are you ready, Zoe? The weather's perfect for walking up the mountain today."}, {"s":"F","t":"I know, Dad, and I usually love walking. But I fell over on the path by the river yesterday, and my foot still hurts a lot."}, {"s":"M","t":"Oh dear. Then let's just walk along the lake today. It's flat there."}, {"s":"F","t":"OK, thanks."} ] },
+      { "intro": "You will hear a boy leaving a message for his friend.", "q": "Why is the boy calling?", "options": ["to invite his friend on a camping trip", "to change the time they are meeting", "to ask to borrow something"], "answer": 2,
+        "script": [ {"s":"M","t":"Hi Felix, it's Kevin. You know we're going camping at the lake this weekend with my uncle? Well, I've got everything – the tent, the sleeping bags and the food – but I can't find my torch anywhere. Could I use yours? I can come and get it from your house tonight. We're still meeting at the bus station at ten tomorrow. Call me back!"} ] },
+      { "intro": "You will hear two friends talking about a village.", "q": "What does the girl think about her grandmother's village?", "options": ["It is too quiet for her.", "It is nicer than she expected.", "It is too far from the city."], "answer": 1,
+        "script": [ {"s":"M","t":"So, did you enjoy staying with your grandma in her village?"}, {"s":"F","t":"Yes! Before I went, I thought it would be really boring. But it's beautiful – there are old stone houses, a little river and fields of flowers everywhere."}, {"s":"M","t":"Isn't it a long way from the city, though?"}, {"s":"F","t":"Only an hour by bus. And there's a great café there too!"} ] },
+      { "intro": "You will hear a teacher talking to her class about a trip.", "q": "What is the main reason for the trip to the beach?", "options": ["to go swimming in the sea", "to learn about the animals on the beach", "to help clean the beach"], "answer": 1,
+        "script": [ {"s":"F","t":"On Friday our class is going to Sandy Bay. I know some of you want to swim, but it's not a holiday – we're going to study the small animals and fish that live in the rock pools on the beach. Another class is going to clean the beach the week after, and you can help them if you want. Remember to bring a notebook and a pencil."} ] },
+      { "intro": "You will hear a boy talking about a day on a farm.", "q": "How did the boy feel about his day on the farm?", "options": ["surprised that farmers work so hard", "afraid of some of the animals", "bored because there was nothing to do"], "answer": 0,
+        "script": [ {"s":"M","t":"Last Saturday I spent the day on my cousin's farm. I thought farmers just drove tractors around the fields all day! But we started at six o'clock, and we fed the animals, cleaned the barn and repaired a fence. The horses were big, but they were really gentle. By the evening I was so tired – I can't believe my cousin does that every day!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Leo talking to his mum about his friends' summer holidays. Where did each friend go?",
+      "people": ["Ryan", "Chloe", "Minh", "Sara", "Jake"],
+      "options": ["beach", "campsite", "canal", "farm", "island", "lake", "mountain", "rainforest"],
+      "answers": ["H", "E", "G", "D", "C"],
+      "script": [
+        {"s":"F","t":"So, Leo, did you hear about everyone's holidays today at school?"},
+        {"s":"M","t":"Yes! Ryan had the most exciting one. His parents took him to Brazil, and they spent a week in the rainforest. He saw monkeys and huge butterflies."},
+        {"s":"F","t":"Lucky Ryan! What about Chloe? Did she go to the beach again?"},
+        {"s":"M","t":"She wanted to, but her parents chose somewhere different this year. They took a boat to a small island in Scotland. There were no cars at all!"},
+        {"s":"F","t":"Sounds peaceful. And Minh? He always goes camping, doesn't he?"},
+        {"s":"M","t":"Not this time. He went with his dad to climb a mountain in Wales. It took them six hours to get to the top!"},
+        {"s":"F","t":"Wow. What about Sara?"},
+        {"s":"M","t":"Sara stayed at her aunt's farm. She looked after the chickens and rode a horse every day."},
+        {"s":"F","t":"She loves animals, doesn't she? And Jake? I thought his family had a holiday house by a lake."},
+        {"s":"M","t":"They sold it last year. This summer they hired a boat and travelled along a canal for a week. He said it was really slow, but fun."},
+        {"s":"F","t":"Everyone had such different holidays!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "The countryside", "questions": ["How often do you go to the countryside?", "Who do you go to the countryside with?"], "extended": "Please tell me something about a place in the countryside you like." },
+        { "topic": "Going for walks", "questions": ["Where do you like walking?", "Do you prefer walking in a forest or on a beach?"], "extended": "Please tell me something about a walk you went on." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things you can do in the countryside. Do you like these different things? Say why or why not.",
+      "pictures": [ {"emoji":"⛺","label":"camping by a lake"}, {"emoji":"🎣","label":"fishing in a river"}, {"emoji":"🏔️","label":"climbing a mountain"}, {"emoji":"🚴","label":"cycling in a forest"}, {"emoji":"🐄","label":"visiting a farm"} ],
+      "prompts": ["Do you think camping by a lake is fun?", "Is fishing in a river boring?", "Do you think climbing a mountain is difficult?", "Is cycling in a forest exciting?", "Which of these things do you like best?"],
+      "followup": ["Do you prefer the countryside or the city? Why?", "Would you like to live on a farm? Why or why not?", "Is it better to go to the countryside with your family or with friends?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

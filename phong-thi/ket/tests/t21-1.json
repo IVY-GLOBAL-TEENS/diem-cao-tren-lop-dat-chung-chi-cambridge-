@@ -1,0 +1,184 @@
+{
+  "id": "t21-1", "topic": "21", "testNo": 1,
+  "title": "Out in the Countryside",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "GREENWOOD FOREST PARK", "text": "No fires in the forest!\nBarbecues are only allowed in the picnic area next to the lake.",
+        "options": ["You can cook food in one part of the park.", "There is a café next to the lake.", "You can make a fire anywhere in the forest."], "answer": 0 },
+      { "kind": "message", "header": "From: Kim  To: Josh", "text": "Josh, the river path is closed because there's too much water after all that rain. Let's walk up the hill instead. Meet me at the farm gate at ten.",
+        "options": ["Kim wants to go swimming in the river.", "Kim has changed the plan for their walk.", "The farm gate is closed today."], "answer": 1 },
+      { "kind": "notice", "header": "SCHOOL GARDEN CLUB", "text": "Help us plant flowers and trees this spring!\nEvery Wednesday after school.\nWear old clothes – you don't need to bring anything else.",
+        "options": ["You must bring your own plants.", "The club meets every day in spring.", "Students might get dirty at the club."], "answer": 2 },
+      { "kind": "label", "header": "WINTER HAT", "text": "100% wool.\nWash by hand in cold water.\nDo not dry near a fire or a heater.",
+        "options": ["You can wash this hat in hot water.", "This hat is made of different materials.", "Do not leave this hat somewhere hot to dry."], "answer": 2 },
+      { "kind": "email", "header": "From: Mrs Shaw  To: Class 7B", "text": "Our trip to Puffin Island is on Tuesday. The boat leaves at 8.30, so please be at school by 7.45. Bring a coat – it's often windy by the sea.",
+        "options": ["The boat leaves from the school at 7.45.", "Students need to arrive before eight o'clock.", "The trip will only happen if it isn't windy."], "answer": 1 },
+      { "kind": "note", "header": "From: Mum  To: Daisy", "text": "Daisy – please water the plants in the garden this evening. It's been so hot today! Don't forget the tomatoes next to the wall.",
+        "options": ["Daisy should give the plants some water later.", "Daisy needs to pick the tomatoes.", "The weather will be hot this evening."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their favourite place in nature.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Freya", "text": "My favourite place is a small lake in the mountains in the north of Scotland. We go there every summer and stay in a wooden house near the water. The lake is really cold, even in August, but I still swim in it every morning. At night there are no lights anywhere, so you can see thousands of stars in the sky. I've never seen anything so beautiful." },
+        { "label": "B", "title": "Kofi", "text": "There's a forest only ten minutes from my house, and I go there almost every weekend with my dog. I know every path. In spring the ground is covered in blue flowers, and in autumn the trees turn red and gold. Last year I helped the forest workers to plant two hundred young trees. I'd like to work outdoors like them when I leave school." },
+        { "label": "C", "title": "Thao", "text": "My grandparents live on a small island in the south of Vietnam. You can only get there by boat, and there are no cars on the island at all! I love walking along the beach and exploring the rocks. My cousin taught me to fish in the sea. It's very hot in summer, so we have a rest in the afternoon and go out again in the evening." }
+      ],
+      "items": [
+        { "q": "Who visits their favourite place most often?", "answer": "B" },
+        { "q": "Who goes into cold water?", "answer": "A" },
+        { "q": "Who has an idea for a future job connected to the place?", "answer": "B" },
+        { "q": "Who learned to do something new from a family member?", "answer": "C" },
+        { "q": "Who talks about what you can see at night?", "answer": "A" },
+        { "q": "Who says there is no traffic in the place?", "answer": "C" },
+        { "q": "Who did some work to help nature?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "The boy who saved his river",
+      "text": "When thirteen-year-old Ollie Grant went fishing with his grandfather last spring, he didn't catch any fish. Instead, he pulled three plastic bags and an old shoe out of the river.\n\n\"I was really angry,\" Ollie says. \"My grandad told me that when he was a boy, the water was so clean you could see the fish swimming. Now it's brown and full of rubbish.\"\n\nOllie decided to do something. He made a poster and put it up in the town library. It asked people to help him clean the river on Saturday mornings. \"I thought maybe five people would come,\" he says. \"But on the first day, forty people were there – children, parents, even my head teacher!\"\n\nSince then, the group has taken more than two hundred bags of rubbish out of the river. They have also planted trees and flowers along the sides of the river. \"Trees are important because they give shade, and that keeps the water cool for the fish,\" Ollie explains.\n\nIt isn't always easy. \"In winter it's freezing, and our hands get really cold. Some weeks only a few people come. But I never want to stop.\"\n\nThe work is making a difference. Last month, Ollie and his grandfather went fishing in the same place. This time Ollie caught a fish – and there was no plastic anywhere.\n\n\"It was the best day ever,\" he smiles. \"Now I want to help clean every river in the country!\"",
+      "items": [
+        { "q": "What happened when Ollie went fishing last spring?", "options": ["He caught a lot of fish.", "He found rubbish in the river.", "He lost his shoe in the water."], "answer": 1 },
+        { "q": "What did Ollie's grandfather tell him?", "options": ["The river used to be much cleaner.", "The fish had moved to another river.", "He used to swim in the river."], "answer": 0 },
+        { "q": "How did Ollie feel about the first Saturday?", "options": ["disappointed that so few people came", "surprised by the number of helpers", "worried about his head teacher"], "answer": 1 },
+        { "q": "Why has the group planted trees?", "options": ["to make the river look beautiful", "to stop people throwing rubbish", "to help the fish in the river"], "answer": 2 },
+        { "q": "What is Ollie's plan for the future?", "options": ["to clean other rivers too", "to go fishing every week", "to start a fishing club"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "Antarctica",
+      "text": "Antarctica is the coldest place in the {19}. It is at the bottom of the Earth, around the South Pole, and about ninety-eight per cent of it is {20} with ice. In some places, the ice is more than four kilometres thick!\n\nNobody lives in Antarctica all the time, but about four thousand scientists go there in summer. They study the ice, the sea and the animals that live there, such as penguins. In winter, only about a thousand people {21} because the weather is too dangerous. The sun doesn't {22} for weeks, and it is dark all day.\n\nThere are no trees or flowers, but some very small plants can {23} on the rocks. Antarctica is also a great place to look at the night sky, because the air is so clean.\n\nPeople first {24} Antarctica about two hundred years ago. Today, a few thousand tourists visit it every year by ship.",
+      "items": [
+        { "options": ["land", "ground", "world"], "answer": 2 },
+        { "options": ["filled", "covered", "closed"], "answer": 1 },
+        { "options": ["stay", "spend", "rest"], "answer": 0 },
+        { "options": ["burn", "shine", "light"], "answer": 1 },
+        { "options": ["build", "plant", "grow"], "answer": 2 },
+        { "options": ["discovered", "invented", "created"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ellie  To: Grace", "text": "Hi Grace,\nWe're going camping in the countryside {25} weekend. Would you like to come with {26}? We're staying next to a lake, so bring your swimming things. My dad says there {27} be lots of stars at night because there aren't any lights there.\nEllie" },
+        { "header": "From: Grace  To: Ellie", "text": "Hi Ellie,\nYes please! I've never been camping {28}, so I'm really excited. Do I need to bring a tent? I've got {29} sleeping bag, but it's quite old. Is that OK? I hope it doesn't rain! {30} time does your dad want to leave?\nGrace" }
+      ],
+      "answers": [ ["this", "next"], ["us", "me"], ["will", "might", "may", "should", "could", "must", "can"], ["before"], ["a"], ["what"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Last weekend you went for a walk in the countryside with your family. Write an email to your English friend, Charlie.",
+      "points": ["say where you went", "tell Charlie what you saw", "say how you felt at the end of the day"],
+      "model": "Hi Charlie,\nLast Sunday I went for a long walk with my family by the river near my grandparents' village. We saw lots of beautiful flowers and some ducks on the water. At the end of the day I was really tired but happy.\nNam"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧👨🌱", "caption": "a girl and her father planting a very small tree in their garden in spring" },
+        { "emoji": "☀️👧💧", "caption": "on a very hot summer day, the girl gives the little tree water from a watering can" },
+        { "emoji": "🌳🍎😊", "caption": "a few years later, the tree is tall and the girl is picking apples from it" }
+      ],
+      "model": "One spring day, Anna and her dad planted a small apple tree in the garden. That summer was very hot, so Anna gave the tree water every evening. She looked after it carefully for years. Now the tree is taller than her house, and every autumn Anna picks lots of delicious apples from it."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which animal did the boy see in the forest?",
+        "options": [ {"emoji":"🐇","label":"rabbit"}, {"emoji":"🐦","label":"bird"}, {"emoji":"🦊","label":"fox"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Did you see any animals on your walk in the forest, Tom?"}, {"s":"M","t":"We hoped to see some rabbits, but there weren't any."}, {"s":"F","t":"That's a shame. What about birds?"}, {"s":"M","t":"We heard lots of them, but they were too high up in the trees to see. But when we stopped for lunch by the river, a fox came really close to us! I took a photo."} ] },
+      { "q": "What will the weather be like on the mountain tomorrow?",
+        "options": [ {"emoji":"☀️","label":"sunny"}, {"emoji":"🌧️","label":"rainy"}, {"emoji":"❄️","label":"snowy"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Shall we climb the mountain tomorrow?"}, {"s":"F","t":"Let me check the weather. Today it's raining, but tomorrow it'll be sunny all day."}, {"s":"M","t":"Will there be any snow at the top?"}, {"s":"F","t":"Not now, it's summer! There was snow up there in May, but it's all gone."} ] },
+      { "q": "Where will the family have their picnic?",
+        "options": [ {"emoji":"🏞️","label":"by the lake"}, {"emoji":"🌾","label":"in a field"}, {"emoji":"⛰️","label":"on the hill"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Where shall we have our picnic? By the lake?"}, {"s":"M","t":"There are too many people there on Sundays. What about the top of the hill? The view's amazing."}, {"s":"F","t":"It's a long walk with all this food!"}, {"s":"M","t":"OK, then. What about the field next to the farm? There's a big tree there, so we can sit in the shade."}, {"s":"F","t":"Perfect."} ] },
+      { "q": "What is the boy growing in the school garden?",
+        "options": [ {"emoji":"🍅","label":"tomatoes"}, {"emoji":"🌻","label":"sunflowers"}, {"emoji":"🍓","label":"strawberries"} ], "answer": 1,
+        "script": [ {"s":"F","t":"What are you growing in your part of the school garden, Ryan?"}, {"s":"M","t":"I wanted to grow tomatoes, but Mr Clark said our garden is too cold for them."}, {"s":"F","t":"So what are you growing?"}, {"s":"M","t":"Sunflowers! They can grow really tall – maybe two metres. Next year I'm going to try strawberries."} ] },
+      { "q": "How did the girl get to the island?",
+        "options": [ {"emoji":"🚤","label":"by boat"}, {"emoji":"🚲","label":"by bike"}, {"emoji":"🚶‍♀️","label":"on foot"} ], "answer": 2,
+        "script": [ {"s":"M","t":"How did you get to the island? By boat?"}, {"s":"F","t":"That's how most people go. But in the morning the sea goes out a long way, and you can walk across the sand."}, {"s":"M","t":"Really?"}, {"s":"F","t":"Yes! We walked there in the morning. But we had to come back by boat in the afternoon, because the water came back."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a guide talking to a group of students about a day at a forest centre.",
+      "title": "A Day at Greenwood Forest Centre",
+      "items": [
+        { "label": "Walk starts at:", "answer": ["10.15", "10:15", "quarter past ten", "a quarter past ten"] },
+        { "label": "Length of walk (km):", "answer": ["6", "six"] },
+        { "label": "Lunch: next to the", "answer": ["river"] },
+        { "label": "Afternoon activity: planting", "answer": ["trees", "tree"] },
+        { "label": "Guide's name: Kate", "answer": ["morrow"] }
+      ],
+      "script": [ {"s":"F","t":"Good morning, everyone, and welcome to Greenwood Forest Centre. Here's the plan for today. First, you can leave your bags in the classroom. Our walk through the forest starts at a quarter past ten, so you've got fifteen minutes to get ready. The walk is six kilometres. Some groups do the long walk to the top of the hill – that's ten kilometres – but it's too far for today. On the way, we'll look at the different trees and plants, and if you're quiet, you might see some deer. At about half past twelve we'll stop for lunch next to the river. Please don't go into the water – it's deeper than it looks! In the afternoon, you're going to help us plant trees. Every year about a thousand trees in this forest are lost because of strong winds, so we need your help. We'll give you gloves, but please wear old shoes or boots. My name's Kate Morrow, and I'll be your guide today. That's M-O-R-R-O-W. If you have any questions, just ask me. OK, let's go!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Ben talking to his friend Lucy about his summer holiday on a farm.",
+      "items": [
+        { "q": "Where is the farm?", "options": ["in the north", "in the south", "in the west"], "answer": 2 },
+        { "q": "What did Ben do every morning?", "options": ["gave food to the sheep", "worked in the fields", "went to the beach"], "answer": 0 },
+        { "q": "What surprised Ben about the farm?", "options": ["how hard the work was", "how quiet it was at night", "how big the farm was"], "answer": 1 },
+        { "q": "What didn't Ben like about the farm?", "options": ["the food", "the weather", "the insects"], "answer": 2 },
+        { "q": "When will Ben go to the farm again?", "options": ["in the spring", "next summer", "in the winter holidays"], "answer": 1 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Ben! You look really brown. Where have you been?"},
+        {"s":"M","t":"I spent three weeks on my uncle's farm in the countryside."},
+        {"s":"F","t":"Is that in the north, near the mountains?"},
+        {"s":"M","t":"No, it's in the west, near the sea. My uncle used to live in the south, but he moved there five years ago."},
+        {"s":"F","t":"So what did you do there all day?"},
+        {"s":"M","t":"Lots! Every morning I got up at six and helped to give food to the sheep. In the afternoons I sometimes worked in the fields, but only when it wasn't too hot. And once or twice we went to the beach."},
+        {"s":"F","t":"Was the work hard?"},
+        {"s":"M","t":"Not really. But the thing that surprised me was how quiet it was. At home in the city there's always noise from cars. On the farm, at night, I could only hear the wind in the trees. And the sky was full of stars."},
+        {"s":"F","t":"Was there anything you didn't like?"},
+        {"s":"M","t":"The weather was perfect and my aunt's food was great. But the insects were terrible, especially near the river in the evenings. I've still got bites everywhere!"},
+        {"s":"F","t":"Will you go back?"},
+        {"s":"M","t":"Definitely. My uncle wants me to come in the spring, when the baby sheep are born. But I can't, because I've got exams. So I'll go next summer again, and maybe I'll take my sister."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her father about a school project.", "q": "What is the project about?", "options": ["the moon", "plants in the school garden", "the river near their home"], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, can you help me with my science project?"}, {"s":"M","t":"Sure. What's it about? Space again? You did the moon last term."}, {"s":"F","t":"No, this time it's about the river at the end of our street. We have to find out what plants and animals live in the water. Can we go there on Saturday?"}, {"s":"M","t":"Good idea."} ] },
+      { "intro": "You will hear a boy talking about a walk he went on.", "q": "How did the boy feel at the end of the walk?", "options": ["disappointed because of the weather", "pleased with what he did", "angry with his brother"], "answer": 1,
+        "script": [ {"s":"M","t":"Yesterday I climbed Snow Hill with my brother. It took four hours to get to the top, and my legs really hurt. When we got there, there was so much cloud that we couldn't see anything! But I didn't mind. It's the highest hill in our area, and I did it. I'm really pleased with myself."} ] },
+      { "intro": "You will hear a teacher talking to students on a school trip.", "q": "What must the students NOT do?", "options": ["take photos", "leave the paths", "pick flowers"], "answer": 2,
+        "script": [ {"s":"F","t":"Right, everyone, we're in the forest now. You can take as many photos of the flowers as you like, but please don't pick them. Leave them for other people to enjoy. In this part of the forest, you don't have to stay on the paths – you're free to explore. But stay where you can see a teacher, please."} ] },
+      { "intro": "You will hear two friends talking about the weather.", "q": "Why does the girl want it to snow?", "options": ["to take pictures for a competition", "to play in the snow", "to miss school"], "answer": 0,
+        "script": [ {"s":"M","t":"It's so cold today. The news says it might snow tonight."}, {"s":"F","t":"I hope it does! I don't want to make a snowman or anything – I'm too old for that."}, {"s":"M","t":"Ha! So you want school to close?"}, {"s":"F","t":"No, I like school! I want to take photos of the hills when they're white. It's for a photo competition."} ] },
+      { "intro": "You will hear a woman talking on the radio about a TV programme.", "q": "What is tonight's programme about?", "options": ["a hot desert", "animals in a cold place", "a journey across the sea"], "answer": 1,
+        "script": [ {"s":"F","t":"Tonight at eight, don't miss Wild World. This week, the team travels to a small island in the far north, where it's winter for nine months of the year. They'll show you how the birds there find food on the ice and snow. And next week, the team visits a hot desert in Africa."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Nam talking to his teacher about the class nature project. What will each student make a poster about?",
+      "people": ["Lily", "Omar", "Sara", "Duc", "Nam"],
+      "options": ["flowers", "forests", "ice", "islands", "mountains", "rivers", "stars", "the sea"],
+      "answers": ["E", "F", "A", "G", "C"],
+      "script": [
+        {"s":"F","t":"Right, Nam, you're helping me with the list. Let's check who's doing what for the nature project. Lily wanted to do flowers, didn't she?"},
+        {"s":"M","t":"She did, Miss, but Sara chose flowers first. So Lily's doing mountains. She climbed one with her family in the summer, so she's got lots of photos."},
+        {"s":"F","t":"So Sara's doing flowers. Good. What about Omar? Islands, wasn't it?"},
+        {"s":"M","t":"He was going to, but he couldn't find enough information. He's doing rivers now. He lives next to a big one, so he can go and look at it."},
+        {"s":"F","t":"Great. And Duc?"},
+        {"s":"M","t":"Duc's really interested in space. He wanted to do the moon, but you said there wasn't enough to write about. So he's doing stars."},
+        {"s":"F","t":"Oh yes, I remember. And you, Nam? Are you doing the sea?"},
+        {"s":"M","t":"I was going to do forests, but Lily's sister did forests last year, and I want something different. So I'm doing ice – you know, in the far north and the south of the world."},
+        {"s":"F","t":"Excellent. That's an interesting topic. Get started, then!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "The countryside", "questions": ["Do you often go to the countryside?", "What can you see near your home – hills, rivers or a forest?"], "extended": "Please tell me something about a beautiful place in nature you have visited." },
+        { "topic": "Seasons", "questions": ["What's your favourite season?", "What do you like doing in summer?"], "extended": "Please tell me something about the weather where you live." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things people do outdoors. Do you like these different activities? Say why or why not.",
+      "pictures": [ {"emoji":"⛺","label":"camping"}, {"emoji":"🏔️","label":"climbing a mountain"}, {"emoji":"🏞️","label":"swimming in a lake"}, {"emoji":"🧺","label":"having a picnic"}, {"emoji":"🌱","label":"gardening"} ],
+      "prompts": ["Do you think camping is fun?", "Is climbing a mountain difficult?", "Do you think swimming in a lake is a good idea?", "Is gardening boring?", "Which of these activities do you like best?"],
+      "followup": ["Do you prefer the countryside or the city? Why?", "Do you spend enough time outdoors?", "Would you like to live on an island? Why or why not?"],
+      "usefulLanguage": ["I love ... because ...", "I don't enjoy ... because ...", "What about you?", "I think so too.", "That's a good idea, but ..."]
+    }
+  }
+}

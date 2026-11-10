@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KET for Schools – Kho đề luyện tập theo chủ điểm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Oswald:wght@600;700&family=Lexend:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1d2433; --muted:#5d6678; --line:#e3e6ee; --bg:#f6f4ef; --card:#fff;
+  --brand:#d7192a; --brand2:#ffe9ea; --brand-d:#9c0e1b; --accent:#e0802a; --accent2:#fdf1e5;
+  --ok:#1f8a4c; --okbg:#e6f5ec; --bad:#c23b3b; --badbg:#fbeaea;
+  --r:14px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Lexend,system-ui,sans-serif;font-size:16px;line-height:1.5}
+button{font-family:inherit;font-size:inherit;cursor:pointer}
+input,select,textarea{font-family:inherit;font-size:inherit}
+a{color:var(--brand)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+header.top{background:var(--brand);color:#fff;box-shadow:0 4px 0 var(--brand-d)}
+header.top .wrap{display:flex;align-items:center;gap:14px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.logo{font-weight:700;font-size:19px;letter-spacing:.2px;cursor:pointer}
+.logo small{display:block;font-weight:400;font-size:12.5px;opacity:.85}
+.spacer{flex:1}
+.who{display:flex;align-items:center;gap:8px;font-size:14px}
+.who input{border:0;border-radius:8px;padding:7px 10px;width:190px}
+.hero{padding:30px 0 10px}
+.hero h1{font-size:28px;margin:0 0 6px;line-height:1.25}
+.hero p{margin:0;color:var(--muted);max-width:760px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 4px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13.5px;color:var(--muted)}
+.search{margin:18px 0 10px;display:flex;gap:10px}
+.search input{flex:1;border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-bottom:30px}
+.topic{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
+.topic .t{display:flex;gap:10px;align-items:flex-start}
+.topic .ic{font-size:28px;line-height:1}
+.topic h3{margin:0;font-size:15.5px;line-height:1.3}
+.topic .vi{font-size:13px;color:var(--muted)}
+.topic .num{font-size:11.5px;color:var(--muted)}
+.topic .btns{display:flex;gap:8px;margin-top:auto}
+.tbtn{flex:1;border:1px solid var(--brand);background:#fff;color:var(--brand);border-radius:10px;padding:7px 6px;font-weight:600;font-size:14px;display:flex;flex-direction:column;align-items:center;line-height:1.2}
+.tbtn:hover{background:var(--brand2)}
+.tbtn .sc{font-weight:400;font-size:11px;color:var(--muted)}
+.tbtn[disabled]{opacity:.45;cursor:not-allowed}
+.vocab{font-size:12px;color:var(--muted);cursor:pointer;user-select:none}
+.vocab-list{font-size:12.5px;color:var(--ink);background:var(--bg);border-radius:8px;padding:8px;display:none}
+.vocab-list.show{display:block}
+section.box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;margin-bottom:18px}
+section.box h2{margin:0 0 10px;font-size:19px}
+.books{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.book{border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px}
+.book b{display:block}
+.book span{color:var(--muted);font-size:13px}
+/* test view */
+.testhead{padding:20px 0 8px;display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap}
+.testhead h1{margin:0;font-size:24px;line-height:1.25}
+.testhead .sub{color:var(--muted);font-size:14px}
+.back{border:1px solid var(--line);background:#fff;border-radius:10px;padding:7px 12px}
+.tabs{display:flex;gap:6px;border-bottom:2px solid var(--line);margin:10px 0 18px;position:sticky;top:0;background:var(--bg);z-index:5;padding-top:6px;flex-wrap:wrap}
+.tab{border:0;background:transparent;padding:10px 14px;border-radius:10px 10px 0 0;color:var(--muted);font-weight:600;margin-bottom:-2px;border-bottom:3px solid transparent}
+.tab.on{color:var(--brand);border-bottom-color:var(--brand)}
+.tab .badge:empty{display:none}
+.tab .badge{font-size:12px;background:var(--brand2);color:var(--brand);border-radius:999px;padding:1px 8px;margin-left:6px}
+.timer{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--muted);font-size:14px;padding:10px 4px;display:flex;gap:8px;align-items:center}
+@media (max-width:600px){.tabs{flex-wrap:nowrap;overflow-x:auto}.tab{padding:8px 9px;white-space:nowrap;font-size:14.5px}.timer{white-space:nowrap}.logo{font-size:16px}}
+.timer button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:3px 8px;font-size:13px}
+.part{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;margin-bottom:18px}
+.part h2{margin:0 0 4px;font-size:18px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.part h2 .qs{font-size:13px;color:var(--muted);font-weight:400}
+.rubric{color:var(--muted);font-size:14.5px;margin:0 0 14px}
+.serif{font-family:"Source Serif 4",Georgia,serif;font-size:17px;line-height:1.6}
+.q{display:grid;grid-template-columns:36px 1fr;gap:6px 10px;padding:12px 0;border-top:1px dashed var(--line)}
+.q:first-of-type{border-top:0}
+.qn{width:30px;height:30px;border-radius:50%;background:var(--brand2);color:var(--brand);display:grid;place-items:center;font-weight:700;font-size:14px}
+.q.ok .qn{background:var(--ok);color:#fff}.q.bad .qn{background:var(--bad);color:#fff}
+.opts{display:flex;flex-direction:column;gap:6px}
+.opt{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:10px;padding:8px 12px;cursor:pointer;background:#fff;text-align:left}
+.opt:hover{border-color:#b9c3d6}
+.opt .L{font-weight:700;color:var(--muted);min-width:16px}
+.opt.sel{border-color:var(--brand);background:var(--brand2)}
+.opt.right{border-color:var(--ok);background:var(--okbg)}
+.opt.wrong{border-color:var(--bad);background:var(--badbg)}
+.done .opt{cursor:default}
+.nrow{display:grid;grid-template-columns:minmax(220px,1fr) 1.3fr;gap:16px;align-items:start}
+@media (max-width:720px){.nrow{grid-template-columns:1fr}}
+.ntc{border-radius:10px;padding:14px 16px;font-size:15.5px;white-space:pre-line}
+.ntc .h{font-weight:700;font-size:13px;letter-spacing:.4px;margin-bottom:6px;white-space:normal}
+.ntc.sign,.ntc.notice{background:#fffbe8;border:2px solid #1d2433;text-align:center}
+.ntc.label{background:#fff;border:2px dashed #8a93a6;text-align:center}
+.ntc.message{background:#e9f1ff;border-radius:16px 16px 16px 4px}
+.ntc.email{background:#fff;border:1px solid var(--line);box-shadow:0 1px 0 var(--line)}
+.ntc.note{background:#fff7c9;transform:rotate(-.6deg);box-shadow:2px 3px 0 #e8dca0}
+.texts3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px}
+@media (max-width:820px){.texts3{grid-template-columns:1fr}}
+.tx{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:#fcfcfa}
+.tx h4{margin:0 0 6px;font-size:15px}.tx h4 b{color:var(--accent);margin-right:6px}
+.tx p{margin:0;font-size:15px;line-height:1.55;font-family:"Source Serif 4",Georgia,serif}
+.abc{display:flex;gap:6px}
+.abc button{width:40px;height:34px;border:1px solid var(--line);border-radius:8px;background:#fff;font-weight:700}
+.abc button.sel{background:var(--brand);color:#fff;border-color:var(--brand)}
+.abc button.right{background:var(--ok);color:#fff;border-color:var(--ok)}
+.abc button.wrong{background:var(--bad);color:#fff;border-color:var(--bad)}
+.m2{display:grid;grid-template-columns:36px 1fr auto;gap:10px;align-items:center;padding:8px 0;border-top:1px dashed var(--line)}
+.article{background:#fcfcfa;border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-bottom:10px}
+.article h3{margin:0 0 8px;font-size:18px}
+.article p{margin:0 0 10px}
+.gap{display:inline-block;min-width:44px;text-align:center;font-weight:700;color:var(--brand);background:var(--brand2);border-radius:6px;padding:0 6px;font-family:Lexend,sans-serif;font-size:14px}
+.gapin{width:110px;border:0;border-bottom:2px solid var(--brand);background:var(--brand2);padding:2px 6px;border-radius:4px 4px 0 0;font-family:Lexend,sans-serif;font-size:15px}
+.gapin.right{border-color:var(--ok);background:var(--okbg)}.gapin.wrong{border-color:var(--bad);background:var(--badbg)}
+.fix{font-size:13px;color:var(--ok);font-weight:600;margin-left:4px;font-family:Lexend,sans-serif}
+.cloze4{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:4px 16px}
+.cloze4 .q{border-top:0}
+.cloze4 .opts{flex-direction:row;flex-wrap:wrap}
+.cloze4 .opt{padding:6px 10px}
+textarea{width:100%;min-height:140px;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:15.5px;line-height:1.5;resize:vertical}
+.wc{font-size:13px;color:var(--muted);margin-top:4px}
+.points{margin:6px 0 12px;padding-left:22px}
+.pics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px}
+@media (max-width:640px){.pics{grid-template-columns:1fr}}
+.pic{border:2px solid var(--ink);border-radius:10px;padding:14px 10px;text-align:center;background:#fff;position:relative}
+.pic .e{font-size:44px;line-height:1.2}
+.pic .c{font-size:13px;color:var(--muted)}
+.pic .n{position:absolute;top:6px;left:8px;font-weight:700;font-size:12px;color:var(--muted)}
+.model{background:var(--accent2);border-left:4px solid var(--accent);border-radius:8px;padding:10px 14px;margin-top:10px;white-space:pre-line;font-family:"Source Serif 4",Georgia,serif;display:none}
+.done .model{display:block}
+.model b{font-family:Lexend,sans-serif;font-size:13px;display:block;color:var(--accent)}
+.submitbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 18px;margin-bottom:30px}
+.primary{background:var(--brand);color:#fff;border:0;border-radius:10px;padding:10px 18px;font-weight:600}
+.primary:hover{filter:brightness(1.08)}
+.ghost{background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px 16px}
+.score{font-weight:700;font-size:18px}
+.play{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--brand2);border-radius:10px;padding:8px 12px;margin:6px 0 12px}
+.play button{border:0;background:var(--brand);color:#fff;border-radius:8px;padding:6px 12px;font-weight:600;font-size:14px}
+.play button.stop{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.play .cnt{font-size:13px;color:var(--muted)}
+.play.playing{outline:2px solid var(--brand)}
+.picopts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.picopt{border:2px solid var(--line);border-radius:12px;background:#fff;padding:10px 6px;text-align:center;cursor:pointer;position:relative}
+.picopt .e{font-size:40px;line-height:1.2}
+.picopt .lab{font-size:13.5px}
+.picopt .L{position:absolute;top:5px;left:8px;font-weight:700;color:var(--muted);font-size:13px}
+.picopt.sel{border-color:var(--brand);background:var(--brand2)}
+.picopt.right{border-color:var(--ok);background:var(--okbg)}
+.picopt.wrong{border-color:var(--bad);background:var(--badbg)}
+.notes{border:2px solid var(--ink);border-radius:10px;padding:14px 18px;background:#fff;max-width:560px}
+.notes h3{text-align:center;margin:0 0 10px;font-size:17px}
+.notes .row{display:flex;gap:10px;align-items:center;padding:6px 0;flex-wrap:wrap}
+.notes .row .qn{flex:0 0 30px}
+.match5{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:720px){.match5{grid-template-columns:1fr}}
+.match5 select{border:1px solid var(--line);border-radius:8px;padding:6px 8px;background:#fff;min-width:150px}
+.match5 select.right{border-color:var(--ok);background:var(--okbg)}.match5 select.wrong{border-color:var(--bad);background:var(--badbg)}
+.optlist{border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:#fcfcfa}
+.optlist div{padding:2px 0}
+.script{display:none;margin-top:10px;background:#f4f6fa;border-radius:10px;padding:10px 14px;font-size:14.5px}
+.script.show{display:block}
+.script p{margin:3px 0}.script b{color:var(--brand);font-size:12.5px;margin-right:6px}
+.tlink{font-size:13px;border:0;background:none;color:var(--brand);text-decoration:underline;padding:0}
+.spk .card{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:10px;background:#fcfcfa}
+.spk ul{margin:6px 0;padding-left:20px}
+.spk li{margin:4px 0}
+.say{border:0;background:var(--brand2);color:var(--brand);border-radius:6px;font-size:12px;padding:2px 7px;margin-left:6px}
+.picgrid5{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:10px 0}
+@media (max-width:640px){.picgrid5{grid-template-columns:repeat(3,1fr)}}
+.picgrid5 div{border:2px solid var(--ink);border-radius:10px;text-align:center;padding:10px 4px;background:#fff}
+.picgrid5 .e{font-size:38px}.picgrid5 .lab{font-size:13px}
+.ul{display:flex;flex-wrap:wrap;gap:6px}.ul span{background:var(--accent2);border-radius:999px;padding:3px 10px;font-size:13.5px}
+.sumgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:10px 0 14px}
+.sum{border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.sum .big{font-size:28px;font-weight:700;color:var(--brand)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;border-radius:10px;padding:10px 16px;font-size:14px;opacity:0;transition:.25s;pointer-events:none;z-index:50}
+.toast.show{opacity:1}
+.copybox{width:100%;min-height:150px;font-size:13px;font-family:ui-monospace,monospace}
+.warn{background:var(--accent2);border-radius:10px;padding:10px 14px;font-size:14px;margin-bottom:14px}
+footer{color:var(--muted);font-size:13px;padding:10px 0 40px;text-align:center}
+.hide{display:none!important}
+</style>
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <button class="brand" onclick="go('')" aria-label="Trang chủ"><img class="ivylogo-img hdr" src="img/logo-ivy-white.png" alt="IVY English"><span class="logo">A2 Key for Schools<small>Kho đề luyện tập theo chủ điểm · Format 2020</small></span></button>
+  <a href="../" style="color:#fff;font-weight:700;font-size:.9rem;text-decoration:none;border:2px solid rgba(255,255,255,.7);border-radius:999px;padding:5px 12px;margin-left:10px;white-space:nowrap">← Phòng thi ảo</a>
+  <div class="spacer"></div>
+  <div class="who">Họ tên học sinh: <input id="sname" placeholder="Nhập tên của em…" autocomplete="off"></div>
+</div></header>
+<main class="wrap" id="app"></main>
+<div class="toast" id="toast"></div>
+<footer>Đề luyện tập biên soạn theo định dạng A2 Key for Schools (2020) và danh sách từ vựng chính thức của Cambridge. Không phải đề thi chính thức của Cambridge.</footer>
+
+<script>
+const LETTERS = "ABCDEFGH";
+const AUDIO_SET = {};   // test id -> Set of clip keys with Gemini audio
+let TOPICS = [];
+const cache = {};
+let cur = null;      // current test object
+let state = null;    // answers/state for current test
+let timerInt = null;
+
+const $ = (s, el=document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem("ketbank:"+k); return v==null? d : JSON.parse(v);}catch(e){return d;} },
+  set(k, v){ try{ localStorage.setItem("ketbank:"+k, JSON.stringify(v)); }catch(e){} }
+};
+function toast(m){ const t=$("#toast"); t.textContent=m; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2200); }
+function wcount(s){ return (s.match(/[A-Za-z0-9'’-]+/g)||[]).length; }
+function norm(s){ return String(s||"").toLowerCase().replace(/[£$€]/g,"").replace(/[.,!?;]+$/,"").replace(/\s+/g," ").trim(); }
+
+/* ---------- speech ---------- */
+const TTS = {
+  voices: [], rate: store.get("rate", 0.9), queue: [], playing: false, onend: null,
+  init(){
+    if(!("speechSynthesis" in window)) return;
+    const load = () => { this.voices = speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang)); };
+    load(); speechSynthesis.onvoiceschanged = load;
+  },
+  pick(sp){
+    const v = this.voices; if(!v.length) return null;
+    const fem = /female|samantha|victoria|karen|moira|tessa|fiona|serena|susan|hazel|libby|sonia|mia|zira|aria|jenny|emma|amy|kate|martha|ava|allison|google uk english female|natasha|clara/i;
+    const mal = /\bmale\b|daniel|alex|fred|tom\b|oliver|george|ryan|guy|david|mark|james|arthur|google uk english male|thomas|aaron|rishi|lee/i;
+    const gb = v.filter(x=>/en[-_]GB/i.test(x.lang));
+    const pool = gb.length? gb : v;
+    const F = pool.filter(x=>fem.test(x.name) && !/\bmale\b/i.test(x.name)).concat(v.filter(x=>fem.test(x.name)&& !/\bmale\b/i.test(x.name)));
+    const M = pool.filter(x=>mal.test(x.name) && !/female/i.test(x.name)).concat(v.filter(x=>mal.test(x.name)&&!/female/i.test(x.name)));
+    if(sp==="F") return F[0]||pool[0];
+    if(sp==="F2") return F[1]||F[0]||pool[1]||pool[0];
+    if(sp==="M") return M[0]||pool[0];
+    if(sp==="M2") return M[1]||M[0]||pool[1]||pool[0];
+    return pool[0];
+  },
+  pitch(sp, voice){
+    const isF = /F/.test(sp), name = voice? voice.name : "";
+    const vf = /female|samantha|victoria|karen|moira|tessa|fiona|serena|susan|hazel|libby|sonia|zira|aria|jenny|emma|amy|kate|martha|ava|allison|natasha|clara/i.test(name);
+    let p = 1;
+    if(isF && !vf) p = 1.35; if(!isF && sp!=="N" && vf) p = 0.7;
+    if(sp==="M2") p *= 0.92; if(sp==="F2") p *= 1.08;
+    return p;
+  },
+  split(text){ return (text.match(/[^.!?]+[.!?]+["”’']?|[^.!?]+$/g)||[text]).map(s=>s.trim()).filter(Boolean); },
+  /* Pre-generated Gemini audio (ket-audio/audio/<test>/<clip>.mp3 ở gốc repo) is used when available; browser voice otherwise */
+  audio: null, total: 0,
+  hasClip(clip){ return !!(clip && cur && AUDIO_SET[cur.id] && AUDIO_SET[cur.id].has(clip)); },
+  progress(){ if(this.audio){ const d=this.audio.duration; return d? this.audio.currentTime/d : 0; } return this.total ? 1 - this.queue.length/this.total : 0; },
+  play(turns, onend, clip){
+    this.stop();
+    if(this.hasClip(clip)){
+      const a = new Audio(`../../ket-audio/audio/${cur.id}/${clip}.mp3`); this.audio = a; this.playing = true; this.onend = onend;
+      a.playbackRate = Math.max(0.7, Math.min(1.1, (this.forceRate||this.rate)/0.9));
+      const fin = () => { if(this.audio!==a) return; this.audio=null; this.playing=false; const f=this.onend; this.onend=null; f && f(); };
+      a.onended = fin; a.onerror = () => { if(this.audio!==a) return; this.audio=null; this.playing=false; this._fallback(turns, onend); };
+      a.play().catch(()=>{ if(this.audio===a){ this.audio=null; this.playing=false; this._fallback(turns, onend); } });
+      return true;
+    }
+    return this._fallback(turns, onend);
+  },
+  _fallback(turns, onend){
+    if(!("speechSynthesis" in window)){ toast("Trình duyệt không hỗ trợ đọc âm thanh. Hãy dùng Chrome hoặc Edge."); return false; }
+    const q = [];
+    turns.forEach(t => { this.split(t.t).forEach((s,i)=>q.push({s:t.s, t:s, gap: i===0})); });
+    this.queue = q; this.total = q.length; this.playing = true; this.onend = onend;
+    this._next(); return true;
+  },
+  _next(){
+    if(!this.playing) return;
+    const it = this.queue.shift();
+    if(!it){ this.playing=false; const f=this.onend; this.onend=null; f && f(); return; }
+    const u = new SpeechSynthesisUtterance(it.t);
+    const v = this.pick(it.s); if(v){ u.voice=v; u.lang=v.lang; } else u.lang="en-GB";
+    u.rate = this.forceRate || this.rate; u.pitch = this.pitch(it.s, v);
+    u.onend = () => setTimeout(()=>this._next(), it.gap? 350:120);
+    u.onerror = () => setTimeout(()=>this._next(), 50);
+    speechSynthesis.speak(u);
+  },
+  stop(){ if(this.audio){ const a=this.audio; this.audio=null; try{a.pause();}catch(e){} } this.playing=false; this.queue=[]; const f=this.onend; this.onend=null; try{speechSynthesis.cancel();}catch(e){} f && f(true); }
+};
+TTS.init();
+
+/* ---------- routing ---------- */
+function go(h){ location.hash = h ? h : ""; if(!h) route(); }
+window.addEventListener("hashchange", route);
+
+async function boot(){
+  const n = $("#sname"); n.value = store.get("name","");
+  n.addEventListener("input", ()=>store.set("name", n.value.trim()));
+  try { TOPICS = await (await fetch("topics.json")).json(); }
+  catch(e){ $("#app").innerHTML = "<p>Không tải được dữ liệu.</p>"; return; }
+  // probe which tests exist
+  try { const am = await (await fetch("../../ket-audio/audio/index.json")).json(); Object.entries(am).forEach(([k,v])=>AUDIO_SET[k]=new Set(v)); } catch(e){}
+  let ids = [];
+  try { ids = await (await fetch("tests/index.json")).json(); } catch(e){}
+  await Promise.all(ids.map(async id => {
+    try { const r = await fetch(`tests/${id}.json`); if(r.ok){ cache[id] = await r.json(); } } catch(e){}
+  }));
+  route();
+}
+
+function route(){
+  if(typeof closeExam==="function" && document.getElementById("xp")) closeExam();
+  TTS.stop(); clearInterval(timerInt);
+  const h = location.hash.replace("#","");
+  if(/^t\d\d-\d$/.test(h) && cache[h]) openTest(h);
+  else home();
+  window.scrollTo(0,0);
+}
+
+/* ---------- home ---------- */
+const BOOKS = [
+  ["A2 Key for Schools 1 & 2 for the Revised 2020 Exam (Authentic Practice Tests)", "Cambridge University Press & Assessment · mỗi cuốn 4 đề thật do Cambridge biên soạn · có audio & đáp án"],
+  ["A2 Key for Schools Trainer 1 & 2 (Second Edition)", "Cambridge · 6 đề full + hướng dẫn từng phần, bài tập từ vựng/ngữ pháp từ lỗi thật của thí sinh"],
+  ["Collins Practice Tests for A2 Key for Schools (KET), Volume 1", "Sarah Jane Lewis, Patrick McMahon · 8 đề full theo format 2020, có phần luyện Speaking theo chủ đề"],
+  ["Practice Tests A2 Key for Schools (Revised 2020 Exam)", "Express Publishing · 10 đề full, bao quát chủ đề – từ vựng theo syllabus"],
+  ["Key A2 Practice Tests (Revised 2020 Exam)", "Express Publishing · Jenny Doole · cho phiên bản Key (không phải for Schools)"],
+  ["Practise and Pass A2 Key for Schools", "Delta Publishing · Megan Roderick, Bernardo Morales · ôn từng bước cho học sinh 10–14 tuổi"]
+];
+function lastScore(id){ const r = store.get("res:"+id, null); if(!r) return ""; const p=[];
+  const f = (k,l) => { const x = r[k]; if(x && x.mx) p.push(`${l} ${x.s}/${x.mx}`); };
+  f("rw-all-test","R"); f("l-all-test","L"); if(p.length) return "Test: "+p.join(" · ");
+  const n = Object.keys(r).length; return n ? `✓ đã làm ${n} phần` : ""; }
+function home(){
+  document.title = "KET for Schools – Kho đề luyện tập theo chủ điểm";
+  const nTests = Object.keys(cache).length;
+  $("#app").innerHTML = `
+  <div class="hero"><div class="hero-in"><div>
+    <h1>Kho đề luyện A2 Key for Schools theo chủ điểm từ vựng</h1>
+    <p>25 chủ điểm theo danh sách từ vựng chính thức của Cambridge, mỗi chủ điểm 2 đề full theo định dạng thi 2020: Reading & Writing (7 phần), Listening (5 phần) và Speaking (2 phần). Chọn chủ điểm rồi bấm Đề 1 hoặc Đề 2 để làm bài.</p>
+    <div class="stats"><span class="chip">📚 ${nTests} đề sẵn sàng</span><span class="chip">📝 R&W 60 phút · 30 câu + 2 bài viết</span><span class="chip">🎧 Listening ~30 phút · 25 câu</span><span class="chip">🗣️ Speaking 2 phần</span><span class="chip">🧩 Luyện từng Part hoặc cả bài</span></div>
+  </div><div class="hero-m">${mascot("wave","bob")}<div class="bubble">Xin chào! Mình là bạn Gấu trúc đỏ của IVY 🐾 Chọn một chủ điểm để luyện cùng mình nhé!</div></div></div></div>
+  <div class="search"><input id="q" placeholder="Tìm chủ điểm hoặc từ vựng (ví dụ: weather, hairdryer, thời tiết)…"></div>
+  <div class="grid" id="grid"></div>
+  <section class="box"><h2>Cách làm bài</h2>
+    <ul>
+      <li><b>Chọn cách làm:</b> làm <b>cả bài</b> hoặc <b>từng Part</b>; mỗi phần có 2 chế độ <b>📘 Luyện tập</b> (không giới hạn giờ, có giải thích, từ vựng) và <b>📝 Test</b> (tính giờ, chống gian lận).</li>
+      <li><b>Reading & Writing:</b> câu 1–30 chấm tự động; Writing (câu 31–32) có bài mẫu để so sánh, giáo viên chấm.</li>
+      <li><b>Listening:</b> chế độ Test nghe 2 lần như thi thật, Luyện tập nghe không giới hạn. Nên dùng Chrome/Edge trên máy tính hoặc điện thoại, bật loa. Sau khi nộp sẽ xem được lời thoại (transcript).</li>
+      <li><b>Speaking:</b> luyện theo cặp hoặc với giáo viên; bấm 🔊 để nghe giám khảo hỏi.</li>
+      <li>Làm xong, bấm <i>Sao chép kết quả</i> rồi gửi cho cô qua Zalo/Messenger.</li>
+    </ul>
+  </section>
+  <section class="box"><h2>Sách luyện đề tham khảo (format 2020)</h2>
+    <div class="books">${BOOKS.map(b=>`<div class="book"><b>${esc(b[0])}</b><span>${esc(b[1])}</span></div>`).join("")}</div>
+  </section>`;
+  const grid = $("#grid");
+  const render = (q="") => {
+    q = q.toLowerCase().trim();
+    grid.innerHTML = TOPICS.filter(t => !q || (t.en+" "+t.vi+" "+t.words).toLowerCase().includes(q)).map(t => `
+      <div class="topic">
+        <div class="t"><div class="ic">${t.icon}</div><div><div class="num">Chủ điểm ${+t.id}</div><h3>${esc(t.en)}</h3><div class="vi">${esc(t.vi)}</div></div></div>
+        <div class="vocab" data-id="${t.id}">▸ Xem từ vựng (${t.words.split(",").length} từ)</div>
+        <div class="vocab-list" id="v${t.id}">${esc(t.words)}</div>
+        <div class="btns">${[1,2].map(n=>{const id=`t${t.id}-${n}`; const ok=!!cache[id];
+          return `<button class="tbtn" ${ok?"":"disabled"} onclick="go('${id}')">Đề ${n}<span class="sc">${ok? (lastScore(id)||esc(cache[id].title)) : "đang cập nhật"}</span></button>`}).join("")}</div>
+      </div>`).join("") || `<p>Không tìm thấy chủ điểm phù hợp.</p>`;
+    grid.querySelectorAll(".vocab").forEach(v => v.onclick = () => { const l=$("#v"+v.dataset.id); l.classList.toggle("show"); v.textContent = (l.classList.contains("show")?"▾ Ẩn":"▸ Xem")+` từ vựng (${l.textContent.split(",").length} từ)`; });
+  };
+  render();
+  $("#q").addEventListener("input", e => render(e.target.value));
+}
+
+/* ---------- mascot: IVY red panda (images from IVY's mascot set) ---------- */
+const PANDA = { wave:"hello", happy:"lolly", cheer:"dance", wow:"proud", sad:"sleep", think:"look", run:"run", drink:"drink", stack:"stack" };
+function mascot(mood="happy", cls=""){
+  const f = PANDA[mood] || "hello";
+  return `<img class="mascot-svg ${cls} m-${mood}" src="img/panda-${f}.png" alt="" aria-hidden="true" draggable="false">`;
+}
+const IVYLOGO = `<img class="ivylogo-img" src="img/logo-ivy.png" alt="IVY English">`;
+
+/* ---------- runs: a whole paper or one Part, in Practice or Test mode ---------- */
+const PARTS = {
+  rw: {1:{q:[1,6],min:7,name:"Biển báo, tin nhắn ngắn",task:"6 câu trắc nghiệm",ic:"🪧"},2:{q:[7,13],min:8,name:"3 đoạn văn – tìm người phù hợp",task:"7 câu A/B/C",ic:"👥"},3:{q:[14,18],min:10,name:"Đọc hiểu bài dài",task:"5 câu trắc nghiệm",ic:"📰"},4:{q:[19,24],min:7,name:"Chọn từ điền vào bài",task:"6 chỗ trống",ic:"🧩"},5:{q:[25,30],min:6,name:"Điền từ ngữ pháp",task:"6 chỗ trống",ic:"✏️"},6:{q:[31,31],min:10,name:"Viết email ngắn",task:"25 từ trở lên",ic:"✉️"},7:{q:[32,32],min:12,name:"Viết truyện theo tranh",task:"35 từ trở lên",ic:"🖼️"}},
+  l: {1:{q:[1,5],min:7,name:"Hội thoại ngắn – chọn tranh",task:"5 câu",ic:"🖼️"},2:{q:[6,10],min:6,name:"Nghe điền thông tin",task:"5 chỗ trống",ic:"📝"},3:{q:[11,15],min:7,name:"Hội thoại dài",task:"5 câu trắc nghiệm",ic:"💬"},4:{q:[16,20],min:7,name:"5 đoạn nghe ngắn",task:"5 câu trắc nghiệm",ic:"🎧"},5:{q:[21,25],min:8,name:"Nghe và nối",task:"5 câu nối A–H",ic:"🔗"}}
+};
+const partNums = p => Object.keys(PARTS[p]).map(Number);
+function runQs(run){ const out=[]; run.parts.forEach(pt=>{ const [a,b]=PARTS[run.paper][pt].q; for(let n=a;n<=b;n++) out.push(n); }); return out; }
+function runAutoQs(run){ return runQs(run).filter(n => run.paper==="l" || n<=30); }
+function runMinutes(run){ return run.parts.reduce((s,pt)=>s+PARTS[run.paper][pt].min,0); }
+function runKey(paper, part, mode){ return `${paper}-${part||"all"}-${mode}`; }
+function runLabel(run){ return `${run.paper==="rw"?"Reading & Writing":"Listening"} – ${run.part?("Part "+run.part):"cả bài"}`; }
+function newRun(paper, part, mode){ return { key: runKey(paper,part,mode), paper, part: +part||0, parts: +part?[+part]:partNums(paper), mode, rw:{}, l:{}, w6:"", w7:"", plays:{}, doneRW:false, doneL:false }; }
+function getRun(paper, part, mode){ return store.get(`run:${cur.id}:${runKey(paper,part,mode)}`, null); }
+function getRunByKey(key){ return store.get(`run:${cur.id}:${key}`, null); }
+function allRuns(){ const out=[]; ["rw","l"].forEach(p=>[0,...partNums(p)].forEach(pt=>["practice","test"].forEach(m=>{ const r=getRun(p,pt,m); if(r) out.push(r); }))); return out; }
+function runDone(r){ return r.paper==="rw" ? !!r.doneRW : !!r.doneL; }
+function runScore(r){ const prev=state; state=r; const qs=runAutoQs(r); const s=qs.filter(n=>xpCorrect(r.paper,n).ok).length; state=prev; return [s, qs.length]; }
+function runViol(r){ return ((r.viol||{})[r.paper]||[]); }
+let page = null;   // per-test page state: {tab, view}
+function save(){ if(state && state.key && cur) store.set(`run:${cur.id}:${state.key}`, state); }
+function savePage(){ if(cur && page) store.set("page:"+cur.id, page); }
+function saveResult(){ const r = store.get("res:"+cur.id, {}); const [s,mx] = runScore(state); r[state.key] = {s, mx, mode: state.mode, at: state.at}; store.set("res:"+cur.id, r); }
+
+/* ---------- test page ---------- */
+function openTest(id){
+  cur = cache[id]; state = null;
+  page = store.get("page:"+id, null) || {tab:"rw", view:null};
+  if(typeof loadExp==="function") loadExp(id).then(()=>{ if(cur && cur.id===id && !document.getElementById("xp")) showTab(); });
+  const topic = TOPICS.find(t=>t.id===cur.topic) || {};
+  document.title = `${topic.en} – Đề ${cur.testNo} · KET for Schools`;
+  $("#app").innerHTML = `
+  <div class="testhead">
+    <button class="back" onclick="go('')">← Chủ điểm</button>
+    <div><div class="sub">${topic.icon||""} Chủ điểm ${+cur.topic}: ${esc(topic.en)} (${esc(topic.vi)}) · Đề ${cur.testNo}</div><h1>${esc(cur.title)}</h1></div>
+  </div>
+  <div class="tabs">
+    <button class="tab" data-t="rw">📖 Reading & Writing</button>
+    <button class="tab" data-t="l">🎧 Listening</button>
+    <button class="tab" data-t="s">🗣️ Speaking</button>
+    <button class="tab" data-t="v">📚 Từ vựng</button>
+    <button class="tab" data-t="res">🏆 Kết quả</button>
+  </div>
+  <div id="pane"></div>`;
+  document.querySelectorAll(".tab").forEach(b => b.onclick = () => { page.tab=b.dataset.t; page.view=null; savePage(); showTab(); window.scrollTo(0,0); });
+  showTab();
+}
+function showTab(){
+  TTS.stop();
+  document.querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.t===page.tab));
+  const p = $("#pane"); const t = page.tab;
+  if(t==="rw" || t==="l"){
+    const r = page.view && page.view.startsWith(t+"-") ? getRunByKey(page.view) : null;
+    if(r && runDone(r)){ state = r; p.innerHTML = reviewHead() + (t==="rw" ? renderRW() : renderL()); }
+    else p.innerHTML = chooserHTML(t);
+  }
+  else if(t==="s") p.innerHTML = renderS();
+  else if(t==="v") p.innerHTML = renderV();
+  else p.innerHTML = renderRes();
+  bindPane();
+}
+function chooserHTML(paper){
+  const rw = paper==="rw", tot = rw ? 60 : 35;
+  const m = (page && page.mode) || "practice", test = m==="test";
+  const row = pt => { const r = getRun(paper,pt,m); let st = "", btn = test ? "📝 Bắt đầu Test" : "📘 Luyện tập";
+    if(r && runDone(r)){ const [s,mx] = runScore(r); const v = runViol(r).filter(x=>x.v).length;
+      st = `<span class="rs ${m}">Lần gần nhất: <b>${mx?`${s}/${mx}`:"đã nộp"}</b>${test&&v?` · ⚠️ ${v} vi phạm`:""}</span><button class="lnk" data-act="review" data-key="${r.key}">Xem lại</button>`;
+      btn = test ? "📝 Test lại" : "📘 Luyện lại"; }
+    else if(r && r["xpstarted_"+paper]){ btn = test ? "▶ Tiếp tục Test" : "▶ Tiếp tục luyện"; st = `<span class="rs prog">Đang làm dở</span>`; }
+    return { btn:`<button class="mbtn ${m}" data-act="run" data-paper="${paper}" data-part="${pt}" data-mode="${m}">${btn}</button>`, st }; };
+  const card = pt => { const P = pt ? PARTS[paper][pt] : null; const a = row(pt);
+    const title = pt ? `Part ${pt}` : `Cả bài ${rw?"Reading & Writing":"Listening"}`;
+    const sub = pt ? `${P.name} · ${P.task}` : (rw ? "7 phần · câu 1–32 · như đề thi thật" : "5 phần · câu 1–25 · như đề thi thật");
+    const meta = test ? `⏱ ${pt?P.min:tot} phút${!rw?" · nghe 2 lần":""} · tự nộp khi hết giờ` : `Không giới hạn giờ · có giải thích${!rw?" · nghe lại thoải mái":" · từ vựng"}`;
+    return `<div class="pcard ${pt?"":"full"} ${m}"><div class="ph"><span class="pico">${pt?P.ic:(test?"⏱️":"🏁")}</span><div><div class="pn">${title}</div><div class="ps">${esc(sub)}</div></div></div>
+      <div class="pm">${meta}</div><div class="pst">${a.st}</div><div class="pb">${a.btn}</div></div>`; };
+  const bubble = test
+    ? (rw ? "Chế độ <b>Test</b>: chọn <b>từng Part</b> hoặc <b>cả bài</b>. Có tính giờ, toàn màn hình, không xem đáp án cho tới khi nộp bài. Cố lên! 💪"
+          : "Chế độ <b>Test</b>: mỗi đoạn chỉ được nghe <b>2 lần</b> như thi thật. Chọn từng Part hoặc cả bài nhé!")
+    : (rw ? "Hôm nay em muốn luyện gì nào? Làm <b>từng Part</b> để quen dạng bài, hoặc thử <b>cả bài</b>. Luyện tập có giải thích và từ vựng!"
+          : "Đeo tai nghe vào nhé! 🎧 <b>Luyện tập</b> được nghe lại thoải mái và xem lời thoại sau khi kiểm tra.");
+  return `<div class="modeswitch" role="tablist">
+      <button class="msw practice ${test?"":"on"}" data-act="mode" data-mode="practice">📘 Luyện tập<small>có giải thích, không tính giờ</small></button>
+      <button class="msw test ${test?"on":""}" data-act="mode" data-mode="test">📝 Test<small>tính giờ như thi thật</small></button></div>
+    <div class="chooser-hero">${mascot(test?"run":"wave","bob")}<div class="bubble">${bubble}</div></div>
+    <div class="pgrid">${card(0)}${partNums(paper).map(card).join("")}</div>`;
+}
+function reviewHead(){
+  const r = state, [s,mx] = runScore(r), prac = r.mode==="practice";
+  const pct = mx ? s/mx : 1; const stars = pct>=0.9?3:pct>=0.7?2:pct>=0.4?1:0;
+  const msg = !mx ? "Bài viết của em đã được lưu. So sánh với bài mẫu bên dưới rồi gửi cho cô chấm nhé!"
+    : pct>=0.9 ? "Xuất sắc! Em nắm bài rất chắc 🎉" : pct>=0.7 ? "Làm tốt lắm! Xem lại vài câu sai là hoàn hảo." : pct>=0.4 ? "Cố lên! Đọc kỹ phần giải thích ở các câu sai nhé." : "Không sao cả – luyện thêm phần này ở chế độ Luyện tập nhé!";
+  const nxt = r.part && r.part < partNums(r.paper).length ? r.part+1 : 0;
+  return `<div class="revhead ${prac?"pr":"ts"}">${mascot(pct>=0.7?"cheer":pct>=0.4?"happy":"sad","bob")}<div class="rv">
+      <div class="rl">${esc(runLabel(r))} · ${prac?"📘 Luyện tập":"📝 Test"}${r.at?` · nộp lúc ${esc(r.at)}`:""}</div>
+      ${mx?`<div class="rsc">${s}<span>/${mx}</span> <span class="stars">${"⭐".repeat(stars)}<i>${"☆".repeat(3-stars)}</i></span></div>`:""}
+      <div class="rmsg">${msg}</div>
+      <div class="racts"><button class="ghost" data-act="back">← Chọn phần khác</button><button class="primary" data-act="run" data-paper="${r.paper}" data-part="${r.part}" data-mode="${r.mode}">↻ Làm lại</button>${nxt?`<button class="primary" data-act="run" data-paper="${r.paper}" data-part="${nxt}" data-mode="${r.mode}">Part ${nxt} →</button>`:""}</div></div></div>
+    ${violHTML(r)}`;
+}
+function violHTML(r){
+  if(!r || r.mode!=="test") return "";
+  const v = runViol(r), vs = v.filter(x=>x.v);
+  return `<div class="violbox ${vs.length?"bad":""}"><b>Chế độ Test · ${vs.length ? `⚠️ ${vs.length} lần vi phạm` : "✓ Không có vi phạm"}</b>${v.length?`<ul>${v.map(x=>`<li>${x.v?"⚠️ ":""}${esc(x.t)} – ${esc(x.type)}</li>`).join("")}</ul>`:""}</div>`;
+}
+
+/* --- question helpers --- */
+function mcqHTML(sec, key, n, q, options, ans, done, sel){
+  const st = done ? (sel===ans?"ok":"bad") : "";
+  return `<div class="q ${st}"><div class="qn">${n}</div><div>${q?`<div style="margin-bottom:6px">${esc(q)}</div>`:""}
+    <div class="opts">${options.map((o,i)=>{ let c="opt"; if(sel===i) c+=" sel"; if(done){ if(i===ans) c+=" right"; else if(sel===i) c+=" wrong"; }
+      return `<button class="${c}" data-sec="${sec}" data-k="${key}" data-v="${i}"><span class="L">${LETTERS[i]}</span><span>${esc(o)}</span></button>`; }).join("")}</div>${done?explHTML(sec,n):""}</div></div>`;
+}
+function explHTML(sec, n){ const e = (typeof EXP!=="undefined" && EXP[cur.id]) ? (sec==="rw"?EXP[cur.id].reading:EXP[cur.id].listening)?.[String(n)] : ""; return e ? `<div class="expl">💡 ${esc(e)}</div>` : ""; }
+function explList(sec, from, to){ let h=""; for(let n=from;n<=to;n++){ const e=explHTML(sec,n); if(e) h+=`<div style="margin-top:6px"><b>Câu ${n}</b>${e}</div>`; } return h; }
+function para(t){ return String(t).split(/\n\s*\n/).map(p=>`<p>${esc(p).replace(/\n/g,"<br>")}</p>`).join(""); }
+function gapsDisplay(t){ return para(t).replace(/\{(\d+)\}/g, (_,n)=>`<span class="gap">(${n})</span>`); }
+
+/* --- Reading & Writing review --- */
+function renderRW(){
+  const R = cur.reading, W = cur.writing, d = true, a = state.rw, inc = pt => state.parts.includes(pt);
+  let h = "";
+  if(inc(1)){
+  h += `<div class="part done"><h2>Part 1 <span class="qs">Questions 1–6</span></h2><p class="rubric">For each question, choose the correct answer.</p>`;
+  R.part1.items.forEach((it,i)=>{ const n=i+1;
+    h += `<div class="nrow" style="padding:12px 0;border-top:${i?"1px dashed var(--line)":"0"}"><div class="ntc ${esc(it.kind)}">${it.header?`<div class="h">${esc(it.header)}</div>`:""}${esc(it.text)}</div>
+      <div>${mcqHTML("rw","p1_"+i,n,"",it.options,it.answer,d,a["p1_"+i])}</div></div>`; });
+  h += `</div>`; }
+  if(inc(2)){
+  const P2 = R.part2;
+  h += `<div class="part done"><h2>Part 2 <span class="qs">Questions 7–13</span></h2><p class="rubric">${esc(P2.question||"For each question, choose the correct answer.")}<br><b>${esc(P2.intro)}</b></p>
+    <div class="texts3">${P2.texts.map(t=>`<div class="tx"><h4><b>${t.label}</b>${esc(t.title)}</h4><p>${esc(t.text)}</p></div>`).join("")}</div>`;
+  P2.items.forEach((it,i)=>{ const n=7+i, k="p2_"+i, sel=a[k]; const st = sel===it.answer?"ok":"bad";
+    h += `<div class="m2 q ${st}" style="grid-template-columns:36px 1fr auto"><div class="qn">${n}</div><div>${esc(it.q)}</div><div class="abc">${["A","B","C"].map(L=>{let c=""; if(sel===L)c="sel"; if(L===it.answer)c="right"; else if(sel===L)c="wrong"; return `<button class="${c}">${L}</button>`}).join("")}</div></div><div style="margin-left:46px">${explHTML("rw",n)}</div>`; });
+  h += `</div>`; }
+  if(inc(3)){
+  h += `<div class="part done"><h2>Part 3 <span class="qs">Questions 14–18</span></h2><p class="rubric">For each question, choose the correct answer.</p>
+    <div class="article serif"><h3>${esc(R.part3.title)}</h3>${para(R.part3.text)}</div>`;
+  R.part3.items.forEach((it,i)=> h += mcqHTML("rw","p3_"+i,14+i,it.q,it.options,it.answer,d,a["p3_"+i]));
+  h += `</div>`; }
+  if(inc(4)){
+  h += `<div class="part done"><h2>Part 4 <span class="qs">Questions 19–24</span></h2><p class="rubric">For each question, choose the correct answer.</p>
+    <div class="article serif"><h3>${esc(R.part4.title)}</h3>${gapsDisplay(R.part4.text)}</div><div class="cloze4">`;
+  R.part4.items.forEach((it,i)=> h += mcqHTML("rw","p4_"+i,19+i,"",it.options,it.answer,d,a["p4_"+i]));
+  h += `</div></div>`; }
+  if(inc(5)){
+  h += `<div class="part done"><h2>Part 5 <span class="qs">Questions 25–30</span></h2><p class="rubric">For each question, write the correct answer. Write <b>one</b> word for each gap.</p>`;
+  R.part5.texts.forEach(t=>{
+    const body = para(t.text).replace(/\{(\d+)\}/g, (_,n)=>{ const i=+n-25, v=a["p5_"+i]||"", acc=R.part5.answers[i]; const ok = acc.includes(norm(v));
+      return `<b class="gap">(${n})</b> <input class="gapin ${ok?"right":"wrong"}" value="${esc(v)}" disabled>${ok?"":`<span class="fix">→ ${esc(acc.join(" / "))}</span>`}`; });
+    h += `<div class="article serif">${t.header?`<div style="font-family:Lexend;font-size:13px;color:var(--muted);margin-bottom:6px">${esc(t.header)}</div>`:""}${body}</div>`; });
+  h += explList("rw",25,30) + `</div>`; }
+  if(inc(6)){
+  h += `<div class="part done"><h2>Part 6 <span class="qs">Question 31</span></h2>
+    <p class="serif" style="margin:0 0 6px">${esc(W.part6.situation)}</p><p style="margin:0">In your email:</p>
+    <ul class="points serif">${W.part6.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>
+    <div class="mywrite"><b>Bài của em (${wcount(state.w6)} từ)</b><div>${esc(state.w6)||"<i>(trống)</i>"}</div></div>
+    <div class="model"><b>Bài mẫu tham khảo</b>${esc(W.part6.model)}</div></div>`; }
+  if(inc(7)){
+  h += `<div class="part done"><h2>Part 7 <span class="qs">Question 32</span></h2><p class="rubric">${esc(W.part7.instruction)}</p>
+    <div class="pics">${W.part7.pictures.map((p,i)=>`<div class="pic"><span class="n">${i+1}</span><div class="e">${esc(p.emoji)}</div><div class="c">${esc(p.caption)}</div></div>`).join("")}</div>
+    <div class="mywrite"><b>Bài của em (${wcount(state.w7)} từ)</b><div>${esc(state.w7)||"<i>(trống)</i>"}</div></div>
+    <div class="model"><b>Bài mẫu tham khảo</b>${esc(W.part7.model)}</div></div>`; }
+  return h;
+}
+
+/* --- Listening review --- */
+function playerHTML(key, label){
+  return `<div class="play" id="pl-${key}"><button data-play="${key}">▶ ${label||"Nghe lại"}</button><button class="stop" data-stop="1">■ Dừng</button>
+    <span class="cnt" style="margin-left:auto">Tốc độ <select data-rate="1">${[0.75,0.85,0.9,1].map(r=>`<option value="${r}" ${TTS.rate==r?"selected":""}>${r}×</option>`).join("")}</select></span></div>`;
+}
+function scriptHTML(key, turns){
+  return `<button class="tlink" data-tr="${key}">Xem lời thoại (transcript)</button><div class="script" id="tr-${key}">${turns.map(t=>`<p><b>${esc(t.s)}</b>${esc(t.t)}</p>`).join("")}</div>`;
+}
+function renderL(){
+  const L = cur.listening, d = true, a = state.l, inc = pt => state.parts.includes(pt);
+  let h = "";
+  if(inc(1)){
+  h += `<div class="part done"><h2>Part 1 <span class="qs">Questions 1–5</span></h2><p class="rubric">For each question, choose the correct answer.</p>`;
+  L.part1.items.forEach((it,i)=>{ const k="p1_"+i, sel=a[k]; const st=sel===it.answer?"ok":"bad";
+    h += `<div class="q ${st}"><div class="qn">${i+1}</div><div><div style="margin-bottom:6px;font-weight:600">${esc(it.q)}</div>${playerHTML("l1_"+i)}
+      <div class="picopts">${it.options.map((o,j)=>{ let c="picopt"; if(sel===j)c+=" sel"; if(j===it.answer)c+=" right"; else if(sel===j)c+=" wrong";
+        return `<div class="${c}"><span class="L">${LETTERS[j]}</span><div class="e">${esc(o.emoji)}</div><div class="lab">${esc(o.label)}</div></div>`}).join("")}</div>
+      ${explHTML("l",i+1)}${scriptHTML("l1_"+i, it.script)}</div></div>`; });
+  h += `</div>`; }
+  if(inc(2)){
+  const P2=L.part2;
+  h += `<div class="part done"><h2>Part 2 <span class="qs">Questions 6–10</span></h2><p class="rubric"><b>${esc(P2.intro)}</b></p>${playerHTML("l2")}
+    <div class="notes"><h3>${esc(P2.title)}</h3>${P2.items.map((it,i)=>{ const v=a["p2_"+i]||""; const ok = it.answer.includes(norm(v));
+      return `<div class="row"><div class="qn" style="background:${ok?"var(--ok)":"var(--bad)"};color:#fff">${6+i}</div><span>${esc(it.label)}</span>
+      <input class="gapin ${ok?"right":"wrong"}" value="${esc(v)}" disabled>${ok?"":`<span class="fix">→ ${esc(it.answer[0])}</span>`}</div>`}).join("")}</div>
+    ${explList("l",6,10)}${scriptHTML("l2", P2.script)}</div>`; }
+  if(inc(3)){
+  h += `<div class="part done"><h2>Part 3 <span class="qs">Questions 11–15</span></h2><p class="rubric"><b>${esc(L.part3.intro)}</b></p>${playerHTML("l3")}`;
+  L.part3.items.forEach((it,i)=> h += mcqHTML("l","p3_"+i,11+i,it.q,it.options,it.answer,d,a["p3_"+i]));
+  h += scriptHTML("l3", L.part3.script) + `</div>`; }
+  if(inc(4)){
+  h += `<div class="part done"><h2>Part 4 <span class="qs">Questions 16–20</span></h2>`;
+  L.part4.items.forEach((it,i)=>{ h += `<div style="padding-top:8px;border-top:${i?"1px dashed var(--line)":"0"}"><p style="margin:6px 0 0"><b>${16+i}.</b> ${esc(it.intro)}</p>${playerHTML("l4_"+i)}${mcqHTML("l","p4_"+i,16+i,it.q,it.options,it.answer,d,a["p4_"+i])}${scriptHTML("l4_"+i,it.script)}</div>`; });
+  h += `</div>`; }
+  if(inc(5)){
+  const P5=L.part5;
+  h += `<div class="part done"><h2>Part 5 <span class="qs">Questions 21–25</span></h2><p class="rubric"><b>${esc(P5.intro)}</b></p>${playerHTML("l5")}
+    <div class="match5"><div>${P5.people.map((p,i)=>{ const sel=a["p5_"+i]||""; const ok=sel===P5.answers[i];
+      return `<div class="row" style="display:flex;gap:10px;align-items:center;padding:6px 0"><div class="qn" style="background:${ok?"var(--ok)":"var(--bad)"};color:#fff">${21+i}</div><span style="flex:1">${esc(p)}</span>
+        <b class="${ok?"okt":"badt"}">${sel||"—"}</b>${ok?"":`<span class="fix">→ ${P5.answers[i]}</span>`}</div>`}).join("")}</div>
+      <div class="optlist">${P5.options.map((o,j)=>`<div><b>${LETTERS[j]}</b> &nbsp;${esc(o)}</div>`).join("")}</div></div>
+    ${explList("l",21,25)}${scriptHTML("l5", P5.script)}</div>`; }
+  return h;
+}
+function scriptFor(key){
+  const L=cur.listening; const [p,i]=key.split("_");
+  if(p==="l1") return L.part1.items[+i].script;
+  if(p==="l2") return L.part2.script;
+  if(p==="l3") return L.part3.script;
+  if(p==="l4") return L.part4.items[+i].script;
+  if(p==="l5") return L.part5.script;
+}
+function scoreRW(){ return runScore(state)[0]; }
+function scoreL(){ return runScore(state)[0]; }
+
+/* --- Speaking --- */
+function renderS(){
+  const S=cur.speaking; const s1=S.part1, s2=S.part2;
+  const say = t => `<button class="say" data-say="${esc(t)}">🔊</button>`;
+  return `<div class="chooser-hero">${mascot("happy","bob")}<div class="bubble">Speaking làm theo cặp với giám khảo, khoảng 8–10 phút. Bấm 🔊 để nghe câu hỏi. Nhớ trả lời bằng câu đầy đủ và nói thêm lý do (<i>because…</i>) nhé!</div></div>
+  <div class="part spk"><h2>Part 1 <span class="qs">3–4 phút · Giám khảo hỏi từng bạn</span></h2>
+    <div class="card"><b>Phase 1</b><ul>${s1.phase1.map(q=>`<li>${esc(q)}${say(q)}</li>`).join("")}</ul></div>
+    ${s1.phase2.map(p=>`<div class="card"><b>Phase 2 – ${esc(p.topic)}</b><ul>${p.questions.map(q=>`<li>${esc(q)}${say(q)}</li>`).join("")}<li><i>${esc(p.extended)}</i>${say(p.extended)}</li></ul></div>`).join("")}
+  </div>
+  <div class="part spk"><h2>Part 2 <span class="qs">5–6 phút · Hai bạn thảo luận với nhau</span></h2>
+    <p class="serif">${esc(s2.task)} ${say(s2.task)}</p>
+    <div class="picgrid5">${s2.pictures.map(p=>`<div><div class="e">${esc(p.emoji)}</div><div class="lab">${esc(p.label)}</div></div>`).join("")}</div>
+    <div class="card"><b>Câu hỏi gợi ý của giám khảo</b><ul>${s2.prompts.map(q=>`<li>${esc(q)}${say(q)}</li>`).join("")}</ul></div>
+    <div class="card"><b>Câu hỏi mở rộng</b><ul>${s2.followup.map(q=>`<li>${esc(q)}${say(q)}</li>`).join("")}</ul></div>
+    ${s2.usefulLanguage? `<div class="card"><b>Mẫu câu hữu ích</b><div class="ul" style="margin-top:6px">${s2.usefulLanguage.map(u=>`<span>${esc(u)}</span>`).join("")}</div></div>`:""}
+  </div>`;
+}
+
+/* --- Vocabulary --- */
+function renderV(){
+  const e = (typeof EXP!=="undefined") ? EXP[cur.id] : null;
+  if(!e || !e.vocab) return `<div class="part"><p>Đang tải từ vựng…</p></div>`;
+  const topic = TOPICS.find(t=>t.id===cur.topic)||{};
+  return `<div class="chooser-hero">${mascot("wow","bob")}<div class="bubble">Học trước ${e.vocab.length} từ này thì làm bài sẽ dễ hơn nhiều đó! Bấm 🔊 để nghe phát âm.</div></div>
+    <div class="part"><h2>Từ vựng của đề <span class="qs">${e.vocab.length} từ · chủ điểm ${esc(topic.en)}</span></h2>
+    <table class="vtable"><tr><th>Từ</th><th>Loại</th><th>Phiên âm</th><th>Nghĩa</th><th>Ví dụ</th></tr>
+    ${e.vocab.map(w=>`<tr><td><b>${esc(w.w)}</b> <button class="say" data-say="${esc(w.w)}">🔊</button></td><td>${esc(w.pos||"")}</td><td style="color:var(--muted)">${esc(w.ipa||"")}</td><td style="color:var(--brand);font-weight:600">${esc(w.vi)}</td><td class="serif" style="font-size:15px">${esc(w.ex||"")}</td></tr>`).join("")}</table>
+    <p class="rubric" style="margin-top:14px">Toàn bộ từ vựng của chủ điểm (danh sách Cambridge): ${esc(topic.words)}</p></div>`;
+}
+
+/* --- Results --- */
+function resultText(){
+  const topic = TOPICS.find(t=>t.id===cur.topic)||{};
+  const name = store.get("name","") || "(chưa nhập tên)";
+  const runs = allRuns().filter(runDone);
+  const L = [`KET for Schools – ${topic.en} – Đề ${cur.testNo} (${cur.title})`, `Học sinh: ${name}`, `Ngày gửi: ${new Date().toLocaleString("vi-VN")}`, ""];
+  if(!runs.length) L.push("(Chưa nộp phần nào)");
+  runs.forEach(r => { const [s,mx] = runScore(r); const v = runViol(r).filter(x=>x.v);
+    L.push(`• ${runLabel(r)} – ${r.mode==="practice"?"Luyện tập":"Test"}: ${mx?`${s}/${mx}`:"bài viết"}${r.at?` (nộp ${r.at})`:""}${r.mode==="test"?` – vi phạm: ${v.length}${v.length?" ["+v.map(x=>x.t+" "+x.type).join("; ")+"]":""}`:""}`); });
+  const wr = runs.filter(r=>r.paper==="rw" && (r.parts.includes(6)||r.parts.includes(7)));
+  wr.forEach(r => { if(r.parts.includes(6) && r.w6) L.push("", `Writing Part 6 – ${r.mode==="practice"?"Luyện tập":"Test"} (${wcount(r.w6)} words):`, r.w6);
+                    if(r.parts.includes(7) && r.w7) L.push("", `Writing Part 7 – ${r.mode==="practice"?"Luyện tập":"Test"} (${wcount(r.w7)} words):`, r.w7); });
+  return L.join("\n");
+}
+function renderRes(){
+  const runs = allRuns().filter(runDone);
+  return `<div class="part"><h2>🏆 Kết quả của đề này</h2>
+    ${runs.length ? `<table class="vtable"><tr><th>Phần</th><th>Chế độ</th><th>Điểm</th><th>Nộp lúc</th><th>Vi phạm</th><th></th></tr>${runs.map(r=>{ const [s,mx]=runScore(r); const v=runViol(r).filter(x=>x.v).length;
+      return `<tr><td>${esc(runLabel(r))}</td><td>${r.mode==="practice"?"📘 Luyện tập":"📝 Test"}</td><td><b>${mx?`${s}/${mx}`:"Bài viết"}</b></td><td>${esc(r.at||"")}</td><td>${r.mode==="test"?(v?`⚠️ ${v}`:"0"):"—"}</td><td><button class="lnk" data-act="review" data-key="${r.key}">Xem lại</button></td></tr>`}).join("")}</table>`
+      : `<div class="chooser-hero">${mascot("think")}<div class="bubble">Em chưa nộp phần nào của đề này. Vào tab Reading & Writing hoặc Listening để bắt đầu nhé!</div></div>`}
+    <p class="rubric" style="margin-top:14px">Bấm <b>Sao chép kết quả</b> rồi dán gửi cho cô qua Zalo/Messenger (gồm điểm, vi phạm và bài viết).</p>
+    <textarea class="copybox" readonly id="restext">${esc(resultText())}</textarea>
+    <div style="display:flex;gap:10px;margin-top:10px;flex-wrap:wrap"><button class="primary" data-act="copy">📋 Sao chép kết quả</button></div>
+  </div>`;
+}
+
+/* --- events --- */
+function bindPane(){
+  const p = $("#pane");
+  p.onclick = e => {
+    const pl = e.target.closest("[data-play]");
+    if(pl){ const key=pl.dataset.play; const box=$("#pl-"+key);
+      document.querySelectorAll(".play.playing").forEach(x=>x.classList.remove("playing"));
+      if(TTS.play(scriptFor(key), ()=>box.classList.remove("playing"), key)) box.classList.add("playing");
+      return; }
+    if(e.target.closest("[data-stop]")){ TTS.stop(); return; }
+    const sy = e.target.closest("[data-say]"); if(sy){ TTS.play([{s:"F",t:sy.dataset.say}]); return; }
+    const tr = e.target.closest("[data-tr]"); if(tr){ $("#tr-"+tr.dataset.tr).classList.toggle("show"); return; }
+    const act = e.target.closest("[data-act]"); if(!act) return;
+    const A = act.dataset.act;
+    if(A==="run"){ const {paper, part, mode} = act.dataset; let r = getRun(paper, +part, mode);
+      if(!r || runDone(r)) r = newRun(paper, +part, mode);
+      state = r; save(); startExam(paper); return; }
+    if(A==="review"){ const k = act.dataset.key; page.tab = k.split("-")[0]; page.view = k; savePage(); showTab(); window.scrollTo(0,0); return; }
+    if(A==="mode"){ page.mode = act.dataset.mode; savePage(); showTab(); return; }
+    if(A==="back"){ page.view = null; savePage(); showTab(); window.scrollTo(0,0); return; }
+    if(A==="copy"){ const txt=$("#restext"); txt.value=resultText();
+      const fallback = () => { txt.focus(); txt.select(); try{ document.execCommand("copy"); toast("Đã sao chép!"); }catch(e){ toast("Hãy bôi đen ô kết quả và sao chép thủ công."); } };
+      if(navigator.clipboard) navigator.clipboard.writeText(txt.value).then(()=>toast("Đã sao chép! Dán gửi cho cô nhé."), fallback); else fallback(); }
+  };
+  p.onchange = e => { const t=e.target;
+    if(t.dataset.rate){ TTS.rate=+t.value; store.set("rate",TTS.rate); p.querySelectorAll("[data-rate]").forEach(s=>s.value=t.value); } };
+}
+
+boot();
+</script>
+<script src="player.js"></script>
+</body>
+</html>

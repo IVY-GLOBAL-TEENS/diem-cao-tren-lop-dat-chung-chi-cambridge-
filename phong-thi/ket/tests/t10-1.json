@@ -1,0 +1,190 @@
+{
+  "id": "t10-1", "topic": "10", "testNo": 1,
+  "title": "Health Week at School",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SCHOOL NURSE", "text": "If you feel ill, tell your teacher first.\nThe nurse's room is open 8.30 a.m. – 3.30 p.m.\nAfter that, please go to the school office.",
+        "options": ["You must see the nurse before lessons start.", "Ask your teacher before you go to the nurse.", "The nurse works in the school office in the afternoon."], "answer": 1 },
+      { "kind": "message", "header": "From: Dad  To: Linh", "text": "Linh, I've got a dentist appointment at four, so I can't take you to swimming. Grandma will drive you there. Don't forget your towel!",
+        "options": ["Linh's dad has to go to the dentist.", "Linh can't go swimming today.", "Linh needs to buy a new towel."], "answer": 0 },
+      { "kind": "label", "header": "COLD MEDICINE – Children 8–14", "text": "Take one spoon three times a day after meals.\nDo not take for more than five days.\nIf the pain does not stop, see a doctor.",
+        "options": ["Take this medicine before you eat.", "You can take this medicine for a week.", "Visit a doctor if you still feel pain."], "answer": 2 },
+      { "kind": "notice", "header": "RIVERSIDE SPORTS CENTRE", "text": "The swimming pool is closed on Monday for cleaning.\nThe gym is open as usual.\nChildren under 12 must come with an adult.",
+        "options": ["You can't swim here on Monday.", "The gym is closed on Monday.", "Children can't use the gym."], "answer": 0 },
+      { "kind": "message", "header": "From: Ana  To: Ben", "text": "I hurt my foot at football yesterday, so I can't walk to school this week. Could you bring my maths book to my house after school? Thanks!",
+        "options": ["Ana broke her foot playing football.", "Ana wants Ben to take something to her home.", "Ana is going to walk to school with Ben."], "answer": 1 },
+      { "kind": "sign", "header": "PARK ROAD PHARMACY", "text": "Back in 15 minutes.\nIf you need help now, please go to the chemist's on Hill Street – open until 10 p.m.",
+        "options": ["This pharmacy closes at 10 p.m.", "This pharmacy will open again tomorrow.", "There is another place where you can get help now."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about how they keep fit.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Mai", "text": "I go swimming three mornings a week before school. The pool opens at six, so I have to get up very early, and sometimes I feel tired in my lessons. But swimming is great for my back. I had a lot of pain last year after I fell off my bike, and the doctor told me to swim. Now my back doesn't hurt at all. My older sister sometimes comes with me." },
+        { "label": "B", "title": "Oliver", "text": "I'm in the school basketball team, and we practise every Tuesday and Thursday. Our coach is very strict – if we're late, we have to run round the hall ten times! I broke my arm in a match last winter, and I couldn't play for two months. That was terrible, because I love the game. Now I always do some exercises to get warm before I start." },
+        { "label": "C", "title": "Sofia", "text": "I don't like team sports, so I go walking with my dog every evening. We walk for about an hour in the park near my house. I also eat lots of fruit and vegetables, and I drink water, not cola. My mum's a nurse, and she says sleep is important for your health too, so I go to bed at ten o'clock every night – even at weekends!" }
+      ],
+      "items": [
+        { "q": "Who started their exercise because a doctor told them to?", "answer": "A" },
+        { "q": "Who was not able to do their sport for some time?", "answer": "B" },
+        { "q": "Who gets advice about health from a parent?", "answer": "C" },
+        { "q": "Who sometimes finds it hard to stay awake at school?", "answer": "A" },
+        { "q": "Who doesn't enjoy playing sports in a team?", "answer": "C" },
+        { "q": "Who has to do extra exercise if they don't arrive on time?", "answer": "B" },
+        { "q": "Who sometimes does their exercise with a brother or sister?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "From hospital bed to running track",
+      "text": "Last spring, thirteen-year-old Hannah Brooks had a bad accident. She was riding her bike to school when she hit a big stone and fell into the road. \"I don't remember much,\" she says. \"I just remember the pain in my leg and a kind woman calling an ambulance.\"\n\nAt the hospital, the doctors told Hannah that her leg was broken in two places. She stayed there for ten days. \"The first few days were awful. I couldn't sleep because my leg hurt so much, and I missed my friends. But the nurses were brilliant. One nurse, Rosa, played cards with me every evening after she finished work.\"\n\nWhen Hannah got home, she couldn't walk without help for six weeks. Then the doctor gave her some special exercises to make her leg strong again. \"They were really boring, but I did them every day,\" she says.\n\nNow Hannah is fit and well again, and she has a new hobby – running. In June, she ran five kilometres in a race in the park and got four hundred pounds for the children's hospital. \"I wanted to say thank you,\" she explains. \"The money will buy games and books for children who have to stay there.\"\n\nAnd Hannah's plans for the future? \"Before the accident, I wanted to be a teacher. Now I'd like to be a nurse, like Rosa. I know it's hard work, but I want to help people feel better.\"",
+      "items": [
+        { "q": "What happened to Hannah last spring?", "options": ["She fell off her bike on the way to school.", "A car hit her while she was walking.", "She fell while she was running in the park."], "answer": 0 },
+        { "q": "What was difficult for Hannah in her first days in hospital?", "options": ["She didn't like the hospital food.", "She found it hard to sleep.", "The nurses were too busy to talk to her."], "answer": 1 },
+        { "q": "What does Hannah say about her exercises?", "options": ["They were very painful.", "She did them with her friends.", "She didn't enjoy them, but she did them."], "answer": 2 },
+        { "q": "Why did Hannah run in the race?", "options": ["to thank the hospital", "to get ready for a competition", "because Rosa asked her to"], "answer": 0 },
+        { "q": "How has the accident changed Hannah?", "options": ["She is afraid of riding her bike now.", "She wants to do a different job in the future.", "She has decided to become a teacher."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "The history of the toothbrush",
+      "text": "People have always wanted to keep their teeth clean. About 5,000 years ago, people in Egypt {19} small sticks to clean their teeth. They bit one end of the stick until it was soft, and then they rubbed it on their teeth.\n\nThe first toothbrush with hair on it was {20} in China about 1,500 years ago. The hair came from pigs, and the handle was made of wood or bone. Later, the idea {21} popular in Europe, too.\n\nIn 1938, an American company started to make toothbrushes from nylon, a kind of plastic. These new toothbrushes were much cheaper, and they also {22} longer than the old ones, so soon almost every family had them.\n\nToday dentists {23} us to brush our teeth twice a day for two minutes and to get a new toothbrush every three months. They also say we should {24} sweet drinks, because sugar is very bad for our teeth and our health.",
+      "items": [
+        { "options": ["did", "used", "worked"], "answer": 1 },
+        { "options": ["discovered", "grown", "invented"], "answer": 2 },
+        { "options": ["became", "turned", "made"], "answer": 0 },
+        { "options": ["stayed", "spent", "lasted"], "answer": 2 },
+        { "options": ["say", "tell", "speak"], "answer": 1 },
+        { "options": ["avoid", "miss", "stop"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Leo  To: Jamie", "text": "Hi Jamie,\nI'm sorry I wasn't at school today. I've got a bad cold and a temperature, so Mum said I had to stay {25} bed. I feel a bit better now, but I'm still very tired. Did the teacher give us {26} homework?\nLeo" },
+        { "header": "From: Jamie  To: Leo", "text": "Hi Leo,\nPoor you! Yes, we have to read pages 20 to 25 {27} our science books and answer the questions. It isn't difficult. I can bring {28} to your house tomorrow if you like. My mum says you should drink lots of water and rest as {29} as possible. Get well soon – the football team needs you {30} Saturday!\nJamie" }
+      ],
+      "answers": [ ["in"], ["any", "some"], ["in", "of", "from"], ["them", "it"], ["much", "often", "long"], ["on", "this", "next", "by", "for"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You were ill and missed a school trip yesterday. Write an email to your English friend, Sam.",
+      "points": ["say what was wrong with you", "tell Sam what you did at home", "ask Sam about the trip"],
+      "model": "Hi Sam,\nI'm sorry I didn't come on the trip yesterday. I had a terrible stomach ache and a high temperature. I stayed in bed all day and slept a lot. Did you have a good time at the museum? What did you see?\nBest wishes,\nAn"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🏃‍♀️🌳☀️", "caption": "a girl running in the park early in the morning" },
+        { "emoji": "🤕🦶🐕", "caption": "the girl sitting on the ground holding her foot; a man with a dog stops to help her" },
+        { "emoji": "🏥👩‍⚕️👩", "caption": "a nurse at the hospital puts a bandage on the girl's foot while her mum watches" }
+      ],
+      "model": "Last Saturday Emma went running in the park before breakfast. She was running very fast when she fell over a stone. Her foot hurt a lot and she couldn't walk. A man with a dog stopped and called her mum. They went to the hospital, and a nurse put a bandage on Emma's foot."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What's wrong with the boy?",
+        "options": [ {"emoji":"🦷","label":"toothache"}, {"emoji":"🤕","label":"headache"}, {"emoji":"🤢","label":"stomach ache"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Tom, you didn't eat any breakfast. Have you got a stomach ache?"}, {"s":"M","t":"No, Mum, my stomach's fine. It's my tooth. It really hurts when I drink something cold."}, {"s":"F","t":"Oh dear. Have you got a headache too?"}, {"s":"M","t":"No, it's just the tooth."}, {"s":"F","t":"Right. I'll phone the dentist and make an appointment for this afternoon."} ] },
+      { "q": "What time is the girl's appointment with the doctor?",
+        "options": [ {"emoji":"🕘","label":"9:15"}, {"emoji":"🕥","label":"10:30"}, {"emoji":"🕚","label":"11:00"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Hello, I'd like to make an appointment with Doctor Shaw for my daughter, please."}, {"s":"M","t":"Doctor Shaw can see her at quarter past nine tomorrow morning."}, {"s":"F","t":"Oh, that's too early. She's got an exam at school. Is there anything later?"}, {"s":"M","t":"There's half past ten or eleven o'clock."}, {"s":"F","t":"Her exam finishes at half past ten, so eleven, please."}, {"s":"M","t":"Fine. Eleven o'clock, then."} ] },
+      { "q": "Which sport does the girl do now?",
+        "options": [ {"emoji":"🚴","label":"cycling"}, {"emoji":"🏊","label":"swimming"}, {"emoji":"🎾","label":"tennis"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Do you still play tennis on Saturdays, Kate?"}, {"s":"F","t":"Not any more. I hurt my arm last year, and the doctor said tennis wasn't good for it."}, {"s":"M","t":"So do you go cycling with your brother?"}, {"s":"F","t":"I'd like to, but my bike's broken. I go swimming now, three times a week. It's great exercise, and my arm doesn't hurt at all."} ] },
+      { "q": "What does the man buy at the chemist's?",
+        "options": [ {"emoji":"🧼","label":"soap"}, {"emoji":"🪥","label":"toothbrush"}, {"emoji":"💊","label":"medicine"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Good morning. Can I help you?"}, {"s":"M","t":"Yes, my son's got a cold. Have you got any cough medicine for children?"}, {"s":"F","t":"I'm sorry, we haven't got any today. We'll have some tomorrow."}, {"s":"M","t":"Oh well. I'll take some soap, then. No, wait, we've got lots at home. Just this toothbrush, please. He needs a new one."} ] },
+      { "q": "How did the boy hurt his leg?",
+        "options": [ {"emoji":"⚽","label":"playing football"}, {"emoji":"🛹","label":"skateboarding"}, {"emoji":"🪜","label":"falling down stairs"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Sam, what happened to your leg? Did you fall off your skateboard again?"}, {"s":"M","t":"No, I haven't used it for weeks."}, {"s":"F","t":"Was it at football, then?"}, {"s":"M","t":"Everyone thinks that, but I wasn't even playing. I fell down the stairs at school because I was carrying too many books!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about Health Week at their school.",
+      "title": "Greenfield School Health Week",
+      "items": [
+        { "label": "Day of the Fun Run:", "answer": ["friday"] },
+        { "label": "Length of the run: (kilometres)", "answer": ["3", "three"] },
+        { "label": "Bring a bottle of:", "answer": ["water"] },
+        { "label": "Name of school nurse: Mrs", "answer": ["finch"] },
+        { "label": "Healthy breakfast costs: £", "answer": ["1.50", "1,50", "1:50", "one fifty", "one pound fifty"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everyone. As you know, next week is Health Week here at Greenfield School, and I'd like to tell you what's happening. There are lots of activities at lunchtime every day, but the biggest event is the Fun Run. We planned it for Wednesday, but the men are cutting the grass on the field that day, so the Fun Run will be on Friday afternoon instead. Last year the run was five kilometres, and lots of younger students found it too long. So this year it's only three kilometres – that's two times round the park. Please wear trainers, and bring a bottle of water with you. Don't bring sweets or cola, please! On Tuesday, our school nurse is giving a talk in the hall about how to sleep well and stay healthy. Her name is Mrs Finch – that's F-I-N-C-H. She's new this year, so come and say hello. And every morning there'll be a healthy breakfast in the dining room from eight o'clock, with fruit, eggs and fresh bread. It usually costs two pounds, but during Health Week it's only one pound fifty. See you there!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Mia talking to her friend Jake about doing exercise with his dad.",
+      "items": [
+        { "q": "Why did Jake start running every day?", "options": ["He wants to join the school football team.", "His dad needs to get fitter.", "He has been ill."], "answer": 1 },
+        { "q": "When do Jake and his dad go running?", "options": ["after school", "in the evening", "before breakfast"], "answer": 2 },
+        { "q": "What do they do on Sundays?", "options": ["go swimming", "ride their bikes", "play tennis"], "answer": 1 },
+        { "q": "How is Jake's dad now?", "options": ["He feels less tired.", "He is much thinner.", "His back still hurts."], "answer": 0 },
+        { "q": "What does Mia decide to do?", "options": ["go with Jake and his dad on Sunday", "go running with her mum", "start running before school"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Jake. I saw you in the park really early this morning. Were you running?"},
+        {"s":"M","t":"Yes, with my dad. We go every day now."},
+        {"s":"F","t":"Really? Are you training for the school football team?"},
+        {"s":"M","t":"No, I'm already in the team. It's for my dad. He went to the doctor last month because he felt tired all the time, and the doctor said he had to get fitter. So I said I'd help him."},
+        {"s":"F","t":"That's kind of you. But why so early? Why not after school?"},
+        {"s":"M","t":"I have too much homework after school, and Dad doesn't get home from work until eight in the evening. So we go at half past six, before breakfast. It's hard to get up, but it feels great afterwards."},
+        {"s":"F","t":"Do you go running on Sundays too?"},
+        {"s":"M","t":"No. We wanted to go swimming on Sundays, but the pool's closed for repairs. We thought about tennis too, but it's really expensive at the sports centre. So we take our bikes and ride along the river."},
+        {"s":"F","t":"That sounds lovely. And is it working? Is your dad thinner now?"},
+        {"s":"M","t":"Not much yet! But he says he isn't tired after work any more, and he has much more energy. He used to have a bad back too, but it doesn't hurt now."},
+        {"s":"F","t":"That's brilliant. My mum always says she wants to do more exercise."},
+        {"s":"M","t":"She could come running with us!"},
+        {"s":"F","t":"She'd never get up at six! But I'd love to come on a bike ride. Can I join you next Sunday?"},
+        {"s":"M","t":"Of course! We leave at nine o'clock."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl telling her friend about a visit to the dentist.", "q": "How did she feel at the dentist?", "options": ["frightened", "bored", "surprised"], "answer": 2,
+        "script": [ {"s":"M","t":"How was the dentist, Chloe? Were you scared?"}, {"s":"F","t":"Not really. I've been lots of times. And it was really quick, so I didn't get bored."}, {"s":"M","t":"So was everything OK?"}, {"s":"F","t":"Yes, but I couldn't believe what she said. I eat sweets every day, and she said my teeth are perfect! I really thought I'd have a problem."} ] },
+      { "intro": "You will hear a school nurse leaving a message for a parent.", "q": "Why is the nurse calling?", "options": ["to ask a parent to take a child home", "to say that a child has had an accident", "to ask a parent to bring some medicine"], "answer": 0,
+        "script": [ {"s":"F","t":"Hello, this is Mrs Lee, the nurse at Park School. Your son Daniel is fine, so please don't worry – there hasn't been an accident. But he's got a high temperature and he says he feels sick. I've given him some water, and he's lying down in my room. I think he should go home and rest. Could you come and get him as soon as possible? Thank you."} ] },
+      { "intro": "You will hear a boy talking to his friend about his grandmother's exercise class.", "q": "What does the boy think about the class?", "options": ["It's too difficult for his grandmother.", "It's good for his grandmother.", "It costs too much money."], "answer": 1,
+        "script": [ {"s":"F","t":"Is your grandma still going to that exercise class?"}, {"s":"M","t":"Yes, twice a week at the sports centre. At first I thought it would be too hard for someone who's seventy-two. But she's really good at it! She sleeps better, and she walks to the shops now. I think it's the best thing she's ever done."}, {"s":"F","t":"Is it expensive?"}, {"s":"M","t":"No, it's cheap for older people."} ] },
+      { "intro": "You will hear two friends talking about a visit to the hospital.", "q": "Why did the girl go to the hospital?", "options": ["to see a new baby", "to visit her grandfather", "to have her arm checked"], "answer": 0,
+        "script": [ {"s":"M","t":"I saw you at the hospital yesterday, Lan. Was it your arm again? You broke it in the summer."}, {"s":"F","t":"No, my arm's fine now. The doctor checked it last month."}, {"s":"M","t":"Your grandad works there, doesn't he?"}, {"s":"F","t":"He did, but he stopped last year. No, I went to see my aunt. She had a baby girl on Tuesday! She's so small and beautiful."} ] },
+      { "intro": "You will hear a PE teacher talking to her class.", "q": "What is the most important thing the teacher wants them to remember?", "options": ["Drink water during the lesson.", "Don't start running too fast.", "Wear something warm."], "answer": 1,
+        "script": [ {"s":"F","t":"OK, everyone. Today we're running round the field four times. It's hot, so you won't need your jackets, and there's water by the door if you need it. But listen – this is the most important thing. Last week lots of you ran really fast at the start, and then you had to stop because you were too tired. So start slowly today. You'll finish much more easily."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Mai talking to her dad about a sports camp. What problem did each person have?",
+      "people": ["Lily", "the swimming teacher", "Tom", "the cook", "Mai"],
+      "options": ["back pain", "burnt hand", "cold", "cut finger", "earache", "stomach ache", "broken leg", "toothache"],
+      "answers": ["E", "A", "D", "B", "F"],
+      "script": [
+        {"s":"M","t":"Welcome home, Mai! How was the sports camp?"},
+        {"s":"F","t":"Great, Dad, but lots of people had to see the camp nurse!"},
+        {"s":"M","t":"Oh no! What about Lily? She was so excited about the swimming."},
+        {"s":"F","t":"She swam every day, but on Wednesday her ear started to hurt. She thought she was getting a cold, but the nurse said it was earache from the water."},
+        {"s":"M","t":"Poor Lily. And your swimming teacher, the young man?"},
+        {"s":"F","t":"Mr Grant? He carried all the boats to the lake by himself on the first day, and then his back hurt for the whole week. He had to teach sitting in a chair!"},
+        {"s":"M","t":"Ha! What about Tom? Did he break his leg again?"},
+        {"s":"F","t":"No, he was very careful this time. But he helped with the barbecue on Friday and cut his finger with a knife."},
+        {"s":"M","t":"Oh dear. Was it bad?"},
+        {"s":"F","t":"No, the nurse cleaned it and put a plaster on it. The cook had a worse problem. She burnt her hand on the cooker."},
+        {"s":"M","t":"Ouch. And you? You didn't get toothache again, did you?"},
+        {"s":"F","t":"No, my teeth were fine! But on the last night I ate too much cake at the party, and I had a stomach ache all night."},
+        {"s":"M","t":"Well, no cake for you this week, then!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Keeping fit", "questions": ["What exercise do you do every week?", "Do you walk or go by bus to school?"], "extended": "Please tell me something about the sports you like doing." },
+        { "topic": "Being ill", "questions": ["What do you do when you have a cold?", "When did you last go to the doctor?"], "extended": "Please tell me something about the things you do to stay healthy." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to keep fit. Do you like these different activities? Say why or why not.",
+      "pictures": [ {"emoji":"🏊","label":"swimming"}, {"emoji":"🚴","label":"cycling"}, {"emoji":"🧘","label":"yoga"}, {"emoji":"⚽","label":"playing football"}, {"emoji":"🐕","label":"walking the dog"} ],
+      "prompts": ["Do you think swimming is fun?", "Is cycling dangerous?", "Do you think yoga is boring?", "Is playing football a good way to get fit?", "Which of these activities do you like best?"],
+      "followup": ["Do you prefer exercising alone or with friends? Why?", "Do you think students should do more exercise at school?", "Is it better to exercise in the morning or in the evening? Why?"],
+      "usefulLanguage": ["I think ... is good for your health because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

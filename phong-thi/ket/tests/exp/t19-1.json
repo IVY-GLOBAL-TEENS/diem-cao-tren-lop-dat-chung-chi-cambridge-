@@ -1,0 +1,232 @@
+{
+ "id": "t19-1",
+ "reading": {
+  "1": "Đáp án A. \"The store will open at 8 a.m. – one hour earlier than usual\" – sớm hơn bình thường 1 tiếng, vậy bình thường cửa hàng mở lúc 9 giờ. Đợt giảm giá bắt đầu (starts) chứ không kết thúc vào thứ Bảy (B), và \"Everything half price\" – mọi thứ đều giảm, không chỉ quần áo mùa đông (C).",
+  "2": "Đáp án B. Giày giá \"£45\" mà Jess chỉ có \"£30\" – thiếu 15 bảng. Jess muốn mượn (\"borrow\") và sẽ trả lại, không phải xin quà (A); cô chưa mua giày (C).",
+  "3": "Đáp án C. \"Please give any clothes you don't want to the shop assistant\" – đưa đồ không muốn mua cho nhân viên. Không bắt buộc phải mua (A), và không tự để lên kệ (B).",
+  "4": "Đáp án A. \"The free book is always the one with the lowest price\" – cuốn được tặng là cuốn rẻ nhất. Bạn chỉ cần mua 2 cuốn (\"Buy 2 books\") để được cuốn thứ ba, nên C sai.",
+  "5": "Đáp án C. \"the shop in town doesn't take cheques any more\" – cửa hàng không nhận séc nữa, nên ông không trả tiền theo cách quen thuộc được. Tom đề nghị dùng thẻ của chính Tom (\"my card\"), nên A sai.",
+  "6": "Đáp án B. \"Open until 10 p.m. every other day of the holidays\" – các ngày còn lại trong kỳ nghỉ mở đến 10 giờ tối, tức là có thể mua sắm muộn. Ngày 26/12 đóng cửa (\"Closed on 25th and 26th December\"), nên C sai.",
+  "7": "Đáp án A. Kofi: \"I spent all the money I got for washing my neighbours' cars\" – tiền cậu kiếm được nhờ rửa xe.",
+  "8": "Đáp án B. Anya: \"I saw it in an advertisement and loved it\" – thấy chiếc áo khoác trong quảng cáo.",
+  "9": "Đáp án A. Kofi: \"The shop assistant ... showed me how to play my first song\" – người bán hàng chỉ cậu cách chơi đàn.",
+  "10": "Đáp án B. Anya: \"So I waited for the sale, and then I bought it for half price\" – đợi đến đợt giảm giá.",
+  "11": "Đáp án C. Lan: \"One day I'd like to have my own bookshop and sell books\" – muốn làm công việc giống chủ hiệu sách.",
+  "12": "Đáp án B. Anya: \"My sister always wants to borrow it, but I never say yes!\" – không cho chị/em gái mượn.",
+  "13": "Đáp án C. Lan: \"The owner ... tells me when new books arrive\" – chủ hiệu sách báo cho cô khi có sách mới.",
+  "14": "Đáp án B. \"It was my dad's idea.\" Bố đọc trên tạp chí (\"He read about it in a magazine\"), không phải Ella đọc, nên C sai.",
+  "15": "Đáp án A. \"I left my purse at home, so I couldn't buy anything!\" – cô vẫn đi cửa hàng với bạn nhưng không mang ví. Cô vẫn gặp bạn bè nên B sai.",
+  "16": "Đáp án C. \"she borrowed books from the library instead of buying them\" – mượn sách ở thư viện. Cô đổi quần áo (không phải sách) với chị/em họ, nên B sai.",
+  "17": "Đáp án B. \"I spent some of it on a present ... and I put the rest in the bank\" – tiêu một phần, phần còn lại gửi ngân hàng. Cô đang để dành mua xe đạp, chưa mua (A).",
+  "18": "Đáp án C. \"she thinks more before she spends her money now\" – giờ cô suy nghĩ kỹ trước khi mua. Cô vẫn đi mua sắm (\"Ella still goes shopping\"), nên A sai.",
+  "19": "Đáp án A. \"told the shop assistant what they wanted\" – \"tell + người + điều gì\". \"said\" phải là \"said to\"; \"spoke\" không đi trực tiếp với tân ngữ chỉ người như vậy.",
+  "20": "Đáp án B. \"choose their own food\" – tự chọn đồ ăn. \"decide\" cần \"on\" hoặc \"to + V\"; \"want\" không hợp nghĩa \"lấy từ kệ\".",
+  "21": "Đáp án A. \"Prices were lower\" – giá thấp hơn. Với \"price\" ta dùng \"high/low\", không dùng \"small\"; \"fewer\" dùng cho danh từ đếm được về số lượng.",
+  "22": "Đáp án C. \"find everything they needed in one place\" – tìm thấy mọi thứ ở một nơi. \"look\" cần \"for\"; \"search\" cần \"for\" và nghĩa là \"đang tìm\", chưa chắc thấy.",
+  "23": "Đáp án C. \"pay for their food\" – trả tiền cho thứ gì: \"pay for\". \"spend\" đi với \"on\"; \"cost\" có chủ ngữ là vật.",
+  "24": "Đáp án B. Cụm cố định \"do the shopping\" – đi mua sắm. Không nói \"make the shopping\" hay \"go the shopping\" (chỉ nói \"go shopping\").",
+  "25": "Đáp án: on. \"on + thứ trong tuần\": \"on Saturday\". Cũng chấp nhận \"this\" hoặc \"next\" (this/next Saturday).",
+  "26": "Đáp án: what. \"I don't know what to get him\" – không biết mua gì: \"what + to + động từ\".",
+  "27": "Đáp án: than. So sánh \"more than\" – nhiều hơn: \"more than twenty pounds\".",
+  "28": "Đáp án: that. Đại từ quan hệ thay cho vật \"a sports shop\": \"a sports shop that has a sale\". Cũng chấp nhận \"which\".",
+  "29": "Đáp án: they. Đại từ \"they\" thay cho danh từ số nhiều \"trainers\": \"they were really cheap\".",
+  "30": "Đáp án: can. Động từ khuyết thiếu để gợi ý: \"We can meet at the bus stop\". Cũng chấp nhận: could, will, should."
+ },
+ "listening": {
+  "1": "Đáp án A. Joe: \"So I just got this cap.\" Áo phông (T-shirt) \"too expensive\", còn tất (socks) cho bố thì cậu quên mua (\"I forgot!\").",
+  "2": "Đáp án B. \"Nine pounds.\" 12 bảng là giá in trên sách, 6 bảng là giá bạn cô mua trên mạng.",
+  "3": "Đáp án A. \"Then I'll pay in cash.\" Thẻ tín dụng \"isn't working today\", và cửa hàng \"don't take cheques any more\".",
+  "4": "Đáp án C. \"There's one in the department store now\". Cửa hàng cạnh ngân hàng \"closed last month\", còn tòa nhà đối diện siêu thị là quán cà phê.",
+  "5": "Đáp án B. \"It opens at eleven on Sundays\". Mẹ đoán 10 giờ nhưng sai; 12 giờ là giờ ăn trưa.",
+  "6": "Đáp án: Sunday. \"It's on until Sunday – not next Wednesday\" – chú ý, Wednesday là thông tin sai trong quảng cáo.",
+  "7": "Đáp án: 15. \"School bags were thirty pounds, but now they're only fifteen pounds.\" 30 bảng là giá cũ.",
+  "8": "Đáp án: socks. \"you'll get a free pair of socks\". Ô dù miễn phí đã hết (\"the free umbrellas finished yesterday\").",
+  "9": "Đáp án: 4 (fourth). \"It's on the fourth floor\". Tầng 2 (second floor) là đồ dùng đi học.",
+  "10": "Đáp án: 7.30. \"at half past seven, not at nine o'clock\" – tối nay đóng cửa sớm hơn bình thường.",
+  "11": "Đáp án C. \"Ten pounds. So that's twenty-five altogether.\" (15 + 10). Bà hứa cho thêm 5 bảng nhưng quên, nên không phải 30.",
+  "12": "Đáp án A. \"It was forty pounds! That's much more than we've got.\" – quá đắt.",
+  "13": "Đáp án B. Hai bạn chọn \"a plant for her office\" – \"Perfect!\". Sách nấu ăn mẹ đã có, còn vòng cổ là bố định mua.",
+  "14": "Đáp án C. \"What about Saturday morning? – OK, Saturday morning.\" Chiều nay Amy đi bơi, còn cửa hàng hoa đóng cửa Chủ nhật.",
+  "15": "Đáp án A. Ben: \"I'll make the cake this year. You can make the card.\" – Ben làm bánh, Amy làm thiệp.",
+  "16": "Đáp án B. \"there's a hole in the arm\" – áo bị thủng một lỗ ở tay. Áo vừa (\"it fits fine\") và cô thích màu (\"I love the colour\").",
+  "17": "Đáp án A. \"you can buy food from everywhere – Japanese noodles, Mexican sauces, French cheese\". Cậu nói \"It isn't cheap\" và nó đóng cửa lúc 10 giờ.",
+  "18": "Đáp án C. \"I just wanted to know how much it costs.\" Cô không muốn thử váy bây giờ (\"Not now, thanks\").",
+  "19": "Đáp án B. \"I like going into town with my friends on Saturdays.\" Cậu thừa nhận đồ trên mạng rẻ hơn và đến nhanh, nên A và C sai.",
+  "20": "Đáp án C. \"The store will close in fifteen minutes\" – thông báo siêu thị sắp đóng cửa. Bãi đỗ xe chỉ được nhắc giờ đóng cổng, không yêu cầu dời xe.",
+  "21": "Đáp án A (boots). Mẹ muốn mua kính râm nhưng quá đắt, \"So she bought some brown boots in the sale instead.\"",
+  "22": "Đáp án H (watch). \"His old watch stopped working, so he got a new one\".",
+  "23": "Đáp án B (computer game). Lẽ ra phải mua từ điển, nhưng \"he spent all his money on a computer game\".",
+  "24": "Đáp án F (plant). Bà xem vòng cổ rất lâu, \"But in the end she bought a plant for her kitchen.\"",
+  "25": "Đáp án D (jeans). Sara: \"I tried on about ten pairs of jeans! Finally I found some I liked.\""
+ },
+ "vocab": [
+  {
+   "w": "department store",
+   "pos": "n",
+   "ipa": "/dɪˈpɑːtmənt stɔː(r)/",
+   "vi": "cửa hàng bách hóa",
+   "ex": "The department store is at the end of this street."
+  },
+  {
+   "w": "sale",
+   "pos": "n",
+   "ipa": "/seɪl/",
+   "vi": "đợt giảm giá",
+   "ex": "Our big summer sale has started!"
+  },
+  {
+   "w": "price",
+   "pos": "n",
+   "ipa": "/praɪs/",
+   "vi": "giá",
+   "ex": "There isn't a price on this dress."
+  },
+  {
+   "w": "cost",
+   "pos": "v",
+   "ipa": "/kɒst/",
+   "vi": "có giá",
+   "ex": "The trainers cost £45."
+  },
+  {
+   "w": "cheap",
+   "pos": "adj",
+   "ipa": "/tʃiːp/",
+   "vi": "rẻ",
+   "ex": "I bought some trainers there and they were really cheap."
+  },
+  {
+   "w": "expensive",
+   "pos": "adj",
+   "ipa": "/ɪkˈspensɪv/",
+   "vi": "đắt",
+   "ex": "The T-shirts were all too expensive."
+  },
+  {
+   "w": "spend (on)",
+   "pos": "v",
+   "ipa": "/spend/",
+   "vi": "tiêu (tiền) vào",
+   "ex": "He spent all his money on a computer game."
+  },
+  {
+   "w": "pay (for)",
+   "pos": "v",
+   "ipa": "/peɪ/",
+   "vi": "trả tiền (cho)",
+   "ex": "Shoppers pay for their food at a machine."
+  },
+  {
+   "w": "cash",
+   "pos": "n",
+   "ipa": "/kæʃ/",
+   "vi": "tiền mặt",
+   "ex": "Then I'll pay in cash."
+  },
+  {
+   "w": "credit card",
+   "pos": "n",
+   "ipa": "/ˈkredɪt kɑːd/",
+   "vi": "thẻ tín dụng",
+   "ex": "My credit card isn't working today."
+  },
+  {
+   "w": "cheque",
+   "pos": "n",
+   "ipa": "/tʃek/",
+   "vi": "séc",
+   "ex": "Sorry, we don't take cheques any more."
+  },
+  {
+   "w": "change",
+   "pos": "n",
+   "ipa": "/tʃeɪndʒ/",
+   "vi": "tiền thừa (trả lại)",
+   "ex": "Thank you. And here's your change."
+  },
+  {
+   "w": "customer",
+   "pos": "n",
+   "ipa": "/ˈkʌstəmə(r)/",
+   "vi": "khách hàng",
+   "ex": "Customers could choose their own food."
+  },
+  {
+   "w": "shop assistant",
+   "pos": "n",
+   "ipa": "/ˈʃɒp əsɪstənt/",
+   "vi": "nhân viên bán hàng",
+   "ex": "Please give any clothes you don't want to the shop assistant."
+  },
+  {
+   "w": "shopper",
+   "pos": "n",
+   "ipa": "/ˈʃɒpə(r)/",
+   "vi": "người mua sắm",
+   "ex": "Good morning, shoppers."
+  },
+  {
+   "w": "bookshop",
+   "pos": "n",
+   "ipa": "/ˈbʊkʃɒp/",
+   "vi": "hiệu sách",
+   "ex": "I spend most of my pocket money in the bookshop."
+  },
+  {
+   "w": "supermarket",
+   "pos": "n",
+   "ipa": "/ˈsuːpəmɑːkɪt/",
+   "vi": "siêu thị",
+   "ex": "The new supermarket near my house is great."
+  },
+  {
+   "w": "advertisement",
+   "pos": "n",
+   "ipa": "/ədˈvɜːtɪsmənt/",
+   "vi": "quảng cáo",
+   "ex": "I saw it in an advertisement and loved it."
+  },
+  {
+   "w": "try on",
+   "pos": "phr v",
+   "ipa": "/traɪ ˈɒn/",
+   "vi": "mặc thử",
+   "ex": "You can try on up to 4 things at a time."
+  },
+  {
+   "w": "half price",
+   "pos": "phrase",
+   "ipa": "/hɑːf ˈpraɪs/",
+   "vi": "nửa giá",
+   "ex": "I bought it for half price."
+  },
+  {
+   "w": "borrow",
+   "pos": "v",
+   "ipa": "/ˈbɒrəʊ/",
+   "vi": "mượn",
+   "ex": "Can I borrow the rest?"
+  },
+  {
+   "w": "pocket money",
+   "pos": "n",
+   "ipa": "/ˈpɒkɪt mʌni/",
+   "vi": "tiền tiêu vặt",
+   "ex": "I spent all my pocket money."
+  },
+  {
+   "w": "save",
+   "pos": "v",
+   "ipa": "/seɪv/",
+   "vi": "tiết kiệm, để dành",
+   "ex": "I'm saving for a new bike."
+  },
+  {
+   "w": "do the shopping",
+   "pos": "phrase",
+   "ipa": "/duː ðə ˈʃɒpɪŋ/",
+   "vi": "đi mua sắm, đi chợ",
+   "ex": "Many people now do their shopping online."
+  }
+ ]
+}

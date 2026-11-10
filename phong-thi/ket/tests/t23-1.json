@@ -1,0 +1,186 @@
+{
+  "id": "t23-1", "topic": "23", "testNo": 1,
+  "title": "Trains, Boats and Bikes",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "PLATFORM 3", "text": "Trains to Manchester are delayed by 20 minutes.\nPassengers for York: please go to Platform 5.",
+        "options": ["All trains from Platform 3 are cancelled.", "The train to York leaves from a different platform.", "Passengers for Manchester should go to Platform 5."], "answer": 1 },
+      { "kind": "message", "header": "From: Dad  To: Ellie", "text": "There's a problem with one of the car tyres, so I'm at the garage. Can you get the bus home from school today? Take the number 12, not the 15.",
+        "options": ["Dad will collect Ellie from the garage.", "Dad has bought new tyres for the car.", "Ellie needs to catch the number 12 bus."], "answer": 2 },
+      { "kind": "notice", "header": "CITY BIKES", "text": "Hire a bike for £2 an hour.\nReturn it to any bike station in the city.\nYou must be 14 or older.",
+        "options": ["Children under 14 can't hire a bike.", "You have to take the bike back to the same place.", "It costs £2 to use a bike for a whole day."], "answer": 0 },
+      { "kind": "notice", "header": "SCHOOL TRIP – LUGGAGE", "text": "You may take one small bag onto the coach.\nLarge suitcases must go under the coach.\nWrite your name on all your luggage.",
+        "options": ["You can't take any bags onto the coach with you.", "Each passenger can bring only one suitcase.", "Your bags should have your name on them."], "answer": 2 },
+      { "kind": "email", "header": "From: Mrs Shaw  To: Class 9C", "text": "The boat trip on the canal is on Thursday. We'll walk to the bridge on River Street and get on the boat there at 10 a.m. Wear warm clothes – it can be cold on the water!",
+        "options": ["Students will get on the boat near a bridge.", "Students will travel to the canal by bus.", "The trip will be in the afternoon."], "answer": 0 },
+      { "kind": "sign", "header": "SHOPPING CENTRE CAR PARK", "text": "Free parking for shoppers – 2 hours.\nAfter that, £5 per hour.\nNo motorbikes.",
+        "options": ["You don't have to pay if you park for an hour.", "Motorbikes can park here for free.", "Parking costs £5 for the first two hours."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about the best journey they have been on.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Freya", "text": "Last summer my family took the night train from London to Scotland. We left at nine in the evening and arrived the next morning. Our room had two small beds, and I slept really well – I loved the sound of the train. When I woke up, I looked out of the window and saw mountains and lakes. It was much more exciting than flying, and we didn't have to wait at an airport!" },
+        { "label": "B", "title": "Thuy", "text": "My best journey was a boat trip with my grandparents in Ha Long Bay. We spent two days on the boat and slept in small rooms called cabins. Our tour guide told us stories about the islands and their history, and we swam in the sea every morning. The only problem was that I felt sick on the first day because the sea was rough. But on the second day I was fine." },
+        { "label": "C", "title": "Ben", "text": "Last year my cousin and I cycled sixty kilometres along a canal in the south of England. It took us three days. We had to carry our bags on our bikes, so they were really heavy. On the second day one of my tyres had a hole in it, but a man on a boat stopped and helped us repair it. My legs hurt at the end, but I felt really proud." }
+      ],
+      "items": [
+        { "q": "Who enjoyed the view when they woke up?", "answer": "A" },
+        { "q": "Who had a problem with their transport?", "answer": "C" },
+        { "q": "Who didn't feel well during the journey?", "answer": "B" },
+        { "q": "Who says their journey was better than travelling another way?", "answer": "A" },
+        { "q": "Who learned about a place from someone working there?", "answer": "B" },
+        { "q": "Who got help from someone they didn't know?", "answer": "C" },
+        { "q": "Who was pleased with themselves after the journey?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "All aboard with Jake!",
+      "text": "Every Saturday, while his friends are still in bed, fourteen-year-old Jake Morris catches the 7.15 bus to Hillbrook station. Jake isn't going on a journey. He's going to work – on one of the oldest railways in the country.\n\nThe Hillbrook Railway has old steam trains which carry tourists through the hills for eight miles. All the people who work there are volunteers – they don't get any money. \"My grandad took me on the train when I was six,\" says Jake. \"I asked the driver lots of questions, and he let me sit in the engine for a minute. I never forgot it.\"\n\nJake started helping at the railway two years ago. At first he only cleaned the windows and seats. Now he sells tickets, helps passengers with their luggage and tells visitors about the history of the railway. \"The best part is talking to people,\" he says. \"Some visitors travelled on these trains when they were children!\"\n\nThe work isn't always easy. \"In winter it's freezing on the platform, and you're standing up all day,\" he says. \"Getting up early is fine – I'm used to it. But my hands are always cold.\"\n\nJake can't drive the train yet – you have to be eighteen. But the engineers are already teaching him how the engine works. \"I'm going to study engineering at university,\" he says. \"And one day I'll drive the Hillbrook train myself.\"",
+      "items": [
+        { "q": "Why does Jake go to Hillbrook station on Saturdays?", "options": ["to travel to his grandfather's house", "to work without getting paid", "to meet his friends"], "answer": 1 },
+        { "q": "What happened when Jake was six?", "options": ["He went inside a train engine.", "He met a famous train driver.", "He got lost at the station."], "answer": 0 },
+        { "q": "What does Jake enjoy most about the railway?", "options": ["cleaning the trains", "selling tickets", "chatting to visitors"], "answer": 2 },
+        { "q": "What does Jake find difficult?", "options": ["getting up early", "the cold weather", "carrying heavy luggage"], "answer": 1 },
+        { "q": "What does Jake want to do in the future?", "options": ["drive a train", "work as a tour guide", "buy his own engine"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The London Underground",
+      "text": "The London Underground is the oldest underground railway in the world. The first line was {19} in 1863. It was only six kilometres long, and the trains had steam engines. On the first day, about 38,000 passengers {20} a ride on the new railway.\n\nToday there are eleven lines and 272 stations. More than four million people {21} the Underground every day. Many of them use it to get to work, because the streets above are often full of {22}.\n\nThe famous Underground map was drawn in 1931 by an engineer called Harry Beck. He didn't show the real distances between stations. {23}, he used straight lines and bright colours, so the map was easy to read. Many cities around the world have copied his idea.\n\nLondoners call the Underground 'the Tube' because of the round shape of its tunnels. If you visit London, don't {24} to buy a travel card – it's much cheaper than paying for each journey.",
+      "items": [
+        { "options": ["begun", "opened", "appeared"], "answer": 1 },
+        { "options": ["took", "made", "did"], "answer": 0 },
+        { "options": ["spend", "go", "use"], "answer": 2 },
+        { "options": ["transport", "traffic", "travel"], "answer": 1 },
+        { "options": ["Instead", "Again", "Also"], "answer": 0 },
+        { "options": ["miss", "lose", "forget"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Aisha  To: Carlos", "text": "Hi Carlos,\nI'm so excited that you're coming to visit! Your train arrives {25} 3.20 on Friday, right? I'll meet you on the platform. If the train is delayed, send me a message. We can take a taxi to my house because it's too far {26} walk with your suitcase.\nAisha" },
+        { "header": "From: Carlos  To: Aisha", "text": "Hi Aisha,\nYes, that's right! I've {27} bought my ticket. It was cheaper {28} I expected. I'm bringing a big suitcase because I've got some presents for {29} family. I'm sure I'll see you on the platform – you'll be the girl with {30} red umbrella!\nCarlos" }
+      ],
+      "answers": [ ["at"], ["to"], ["just", "already"], ["than"], ["your", "the"], ["a", "the", "your"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You are going on a school trip by coach next week. Write an email to your English friend, Charlie.",
+      "points": ["say where you are going", "say how long the journey will take", "tell Charlie what you will take with you"],
+      "model": "Hi Charlie,\nNext Tuesday my class is going on a trip to Hue by coach. The journey will take about four hours, so we're leaving at six in the morning! I'm taking some snacks, my camera and a good book to read.\nBye,\nTuan"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🚗🛣️👨‍👩‍👧", "caption": "a family driving on a motorway with suitcases on the roof of the car" },
+        { "emoji": "🚗💥🛞", "caption": "the car stopped at the side of the road with a flat tyre; the family look unhappy" },
+        { "emoji": "🔧🏖️🌅", "caption": "a mechanic changing the tyre; later the family arriving at the beach at sunset" }
+      ],
+      "model": "Last summer Lily and her parents drove to the beach for a holiday. After two hours on the motorway, there was a loud noise. The car had a flat tyre! Dad phoned a mechanic, and he came and changed the tyre. They arrived at the beach very late, but they watched a beautiful sunset."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "How did the girl get to school today?",
+        "options": [ {"emoji":"🚌","label":"bus"}, {"emoji":"🚲","label":"bike"}, {"emoji":"🚗","label":"car"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Hi Zoe. Did you come on your bike today? It's a lovely morning."}, {"s":"F","t":"I wanted to, but it's got a flat tyre."}, {"s":"M","t":"So did your mum drive you?"}, {"s":"F","t":"She couldn't. She had to leave early for work. So I took the bus. It was really crowded!"} ] },
+      { "q": "Where will the friends meet?",
+        "options": [ {"emoji":"🚉","label":"station entrance"}, {"emoji":"☕","label":"café"}, {"emoji":"🎫","label":"ticket office"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Shall we meet at the station entrance at ten?"}, {"s":"M","t":"It's always so busy there. What about the ticket office?"}, {"s":"F","t":"We've already got our tickets, so we don't need to go there. Let's meet in the café next to platform one. We can have a hot drink before the train leaves."}, {"s":"M","t":"Good idea. See you there."} ] },
+      { "q": "What is the boy's uncle's job?",
+        "options": [ {"emoji":"🔧","label":"mechanic"}, {"emoji":"👨‍✈️","label":"pilot"}, {"emoji":"🚕","label":"taxi driver"} ], "answer": 0,
+        "script": [ {"s":"F","t":"What does your uncle do, Sam? Is he still a taxi driver?"}, {"s":"M","t":"No, he stopped two years ago. Now he works at the airport."}, {"s":"F","t":"Is he a pilot? That's so cool!"}, {"s":"M","t":"No, he repairs the engines of the planes. He's a mechanic. But he'd love to fly one day."} ] },
+      { "q": "How long will the coach journey take?",
+        "options": [ {"emoji":"🚌","label":"2 hours"}, {"emoji":"🚌","label":"3 hours"}, {"emoji":"🚌","label":"4 hours"} ], "answer": 1,
+        "script": [ {"s":"M","t":"How long is the coach journey to the mountains, Ms Lee?"}, {"s":"F","t":"Usually about two hours, but they're repairing the motorway, so it'll be longer this time."}, {"s":"M","t":"Four hours?"}, {"s":"F","t":"No, not that bad! About three hours. We'll stop for lunch on the way."} ] },
+      { "q": "Which way should the woman go to the museum?",
+        "options": [ {"emoji":"⬅️🚦","label":"left at the traffic lights"}, {"emoji":"⬆️","label":"straight on at the roundabout"}, {"emoji":"➡️","label":"right at the roundabout"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Excuse me, how do I get to the museum? Do I turn left at the traffic lights?"}, {"s":"M","t":"No, that road goes to the bus station. Go to the roundabout and turn right there."}, {"s":"F","t":"Not straight on?"}, {"s":"M","t":"No, straight on takes you to the bridge. Turn right, and the museum's on your left."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a tour guide talking to some tourists about a boat tour.",
+      "title": "River Boat Tour",
+      "items": [
+        { "label": "Boat leaves at:", "answer": ["10.15", "10:15", "quarter past ten", "a quarter past ten"] },
+        { "label": "Name of boat: The", "answer": ["kestrel"] },
+        { "label": "First stop: the old", "answer": ["market"] },
+        { "label": "Lunch at a restaurant next to the", "answer": ["castle"] },
+        { "label": "Student return ticket: £", "answer": ["6", "six"] }
+      ],
+      "script": [ {"s":"M","t":"Good morning, everyone, and welcome to River Tours. My name's Paul and I'm your tour guide today. Our boat leaves in twenty minutes, at a quarter past ten, so please don't go too far. The tour usually starts at ten, but there's a small problem with the engine this morning, and the mechanic is just finishing. Our boat is called the Kestrel. That's K-E-S-T-R-E-L. It's the blue and white boat next to the bridge. We'll travel along the river for about an hour, and then we'll stop at the old market, where you can buy fruit and presents. After that, we'll sail to the castle. We'll have lunch at a restaurant next to the castle, and you'll have time to explore before we come back. Now, tickets. Adults pay twelve pounds for a return ticket, and students pay six pounds. If you only want a single ticket, it's four pounds. Please keep your ticket with you all day. And remember – don't stand near the sides of the boat while it's moving!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Mai talking to her friend Leo about her journey to visit her cousins in Scotland.",
+      "items": [
+        { "q": "How did Mai's family get to the airport?", "options": ["by train", "by car", "by taxi"], "answer": 1 },
+        { "q": "What did Mai do while they were waiting for the flight?", "options": ["She read a book.", "She played games.", "She watched the planes."], "answer": 2 },
+        { "q": "What happened to Mai's suitcase?", "options": ["It arrived two days late.", "It was left in the car.", "It arrived the next day."], "answer": 0 },
+        { "q": "How did Mai feel about sailing at the end of the holiday?", "options": ["still frightened", "sure she could do it", "bored with it"], "answer": 1 },
+        { "q": "How did the family travel home?", "options": ["by coach", "by plane", "by train"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Mai! How was your trip to Scotland?"},
+        {"s":"F","t":"Great when we got there – but the journey was terrible! First, our train to the airport was cancelled, so Dad had to drive us there."},
+        {"s":"M","t":"Oh no. Did you get there in time?"},
+        {"s":"F","t":"Yes, but then our flight was delayed for three hours."},
+        {"s":"M","t":"Three hours! What did you do?"},
+        {"s":"F","t":"My brother played games on his phone, and Mum slept. I wanted to read my book, but I left it in the car! So I just watched the planes taking off and landing. It was actually quite interesting."},
+        {"s":"M","t":"And when you arrived?"},
+        {"s":"F","t":"Our luggage didn't arrive with us! Mum's suitcase came the next day, but mine didn't come until two days after we arrived. I had to wear my cousin's clothes."},
+        {"s":"M","t":"Ha! Did you have a good time with your cousins?"},
+        {"s":"F","t":"Brilliant. They live near a lake, and we went sailing every day in my uncle's small boat. I was scared at first, but by the end of the week I could sail it on my own."},
+        {"s":"M","t":"Cool. Did you fly home too?"},
+        {"s":"F","t":"No, we came back by train this time. Dad said, 'No more planes!' We thought about taking the coach because it's cheaper, but the train was more comfortable. It took nine hours, but I didn't mind."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his mother about the new school bus.", "q": "What does the boy think about the new bus?", "options": ["It is too small.", "It takes too long.", "The seats are uncomfortable."], "answer": 1,
+        "script": [ {"s":"F","t":"How was the new school bus, Danny?"}, {"s":"M","t":"It's much bigger than the old one, and the seats are really comfortable."}, {"s":"F","t":"That's nice."}, {"s":"M","t":"But it's so slow! It stops at every bus stop in town. The journey took fifty minutes this morning!"} ] },
+      { "intro": "You will hear a girl leaving a message for her friend.", "q": "Why is the girl calling?", "options": ["to say she will be late", "to ask her friend to bring something", "to change where they meet"], "answer": 2,
+        "script": [ {"s":"F","t":"Hi Oscar, it's Nina. I'm on the train now, and it's on time, so I'll be at Central Station at four, like we planned. But please don't wait for me on the platform – it's very crowded on Saturdays. Let's meet outside the tourist information centre instead. It's just opposite the station. See you soon!"} ] },
+      { "intro": "You will hear a man talking about his job as a pilot.", "q": "What does he like most about his job?", "options": ["visiting different countries", "the view from the plane", "meeting passengers"], "answer": 1,
+        "script": [ {"s":"M","t":"People always think the best thing about being a pilot is travelling to other countries. But usually I only stay one night, so I just see the hotel and the airport! And I don't talk to the passengers much. For me, it's what I see from the window. Flying over the mountains when the sun comes up – it's amazing every time."} ] },
+      { "intro": "You will hear two friends talking about a bike ride.", "q": "How does the girl feel about the bike ride?", "options": ["nervous", "excited", "disappointed"], "answer": 0,
+        "script": [ {"s":"M","t":"Are you ready for the bike ride tomorrow, Hoa?"}, {"s":"F","t":"I'm not sure. It's forty kilometres, and I've never cycled that far before."}, {"s":"M","t":"Don't worry, we'll stop lots of times."}, {"s":"F","t":"I know, but there are some big hills, and I'm afraid I'll be too slow and everyone will have to wait for me."} ] },
+      { "intro": "You will hear an announcement at a railway station.", "q": "What should passengers for Bristol do now?", "options": ["wait on the platform", "buy a new ticket", "take a coach"], "answer": 2,
+        "script": [ {"s":"F","t":"Attention, please. Because of a problem on the railway line, the eleven fifteen train to Bristol will not run today. Passengers for Bristol should leave the station by the main entrance, where coaches are waiting to take you there. You don't need a new ticket. We are very sorry for the delay to your journey."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Kate talking to her friend Tom about a school project. How does each person in her family usually travel?",
+      "people": ["Kate's mum", "Kate's dad", "Josh (her brother)", "Grandma", "Kate"],
+      "options": ["bike", "bus", "car", "motorbike", "taxi", "train", "tram", "walking"],
+      "answers": ["G", "D", "F", "B", "A"],
+      "script": [
+        {"s":"M","t":"Kate, our project is about transport. How does everyone in your family travel every day? Let's start with your mum."},
+        {"s":"F","t":"Mum works at the hospital in the city centre. She used to drive there, but parking was a problem. So now she goes on the tram. There's a stop just outside our house."},
+        {"s":"M","t":"And your dad?"},
+        {"s":"F","t":"Dad's a mechanic at a garage near the motorway. It's too far to go by bike, so he rides his motorbike. He loves it!"},
+        {"s":"M","t":"What about your brother, Josh?"},
+        {"s":"F","t":"He's at university in another town. He catches the train every morning at quarter past seven. He'd like a car, but he hasn't got his driving licence yet."},
+        {"s":"M","t":"And your grandma? Does she still work?"},
+        {"s":"F","t":"Not any more, but she goes to the swimming pool every morning. She takes the bus. She says taxis are too expensive."},
+        {"s":"M","t":"And you?"},
+        {"s":"F","t":"I cycle to school. It only takes ten minutes. When it rains, Dad says I should walk, but I still take my bike!"},
+        {"s":"M","t":"Great, thanks, Kate. That's everyone in your family. Now let's ask my family the same questions."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Travelling to school", "questions": ["How do you get to school every day?", "How long does the journey take?"], "extended": "Please tell me something about the transport in your town." },
+        { "topic": "Trips", "questions": ["Where did you go on your last trip?", "Who did you travel with?"], "extended": "Please tell me something about a journey you enjoyed." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to travel. Do you like these different ways of travelling? Say why or why not.",
+      "pictures": [ {"emoji":"✈️","label":"plane"}, {"emoji":"🚆","label":"train"}, {"emoji":"🚗","label":"car"}, {"emoji":"🚲","label":"bike"}, {"emoji":"⛴️","label":"boat"} ],
+      "prompts": ["Do you think travelling by plane is exciting?", "Do you like long train journeys?", "Is travelling by car boring?", "Do you think cycling is a good way to travel?", "Which of these ways of travelling do you like best?"],
+      "followup": ["Do you prefer travelling with your family or with friends? Why?", "Is there a lot of traffic in your town?", "Where would you like to travel in the future?"],
+      "usefulLanguage": ["I think travelling by ... is fun because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

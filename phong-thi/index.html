@@ -1450,7 +1450,7 @@ VIEWS.home=()=>{
    <div class="panel mascot">${MASCOT}<div class="bubble">${TIPS[Math.floor(Math.random()*TIPS.length)]}</div></div>
    <div class="panel dockcard"><h3>Nhiệm vụ hôm nay</h3>${missionsHTML()}</div>
    <div class="panel dockcard"><h3>Sắp đi thi?</h3><p class="muted" style="margin:0 0 10px;font-size:.92rem"><b>Luyện đề</b> theo kỹ năng KET, PET, Pre-IELTS. <b>Thi thật</b> mô phỏng bài thi trên máy, đủ các Part.</p>
-    <div class="row"><button class="b3 teal sm" data-act="go" data-arg="drill">Luyện đề</button><button class="b3 navy sm" data-act="go" data-arg="mock">Thi thật</button></div></div>
+    <div class="row"><button class="b3 teal sm" data-act="go" data-arg="drill">Luyện đề</button><button class="b3 navy sm" data-act="go" data-arg="mock">Thi thật</button></div><a class="b3 gold sm" href="ket/" style="margin-top:10px;text-decoration:none;width:100%">📝 Kho đề KET theo chủ điểm · 50 đề</a></div>
   </div>`};
 
 /* level map */
@@ -2314,4 +2314,5 @@ render();
 </script>
 
 <a href="../" style="position:fixed;left:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;background:#fff;color:#0f766e;font:700 13px/1 system-ui,sans-serif;padding:9px 12px;border-radius:999px;box-shadow:0 3px 10px rgba(0,0,0,.2);text-decoration:none">← Giáo trình IVY</a>
+<a href="ket/" style="position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;background:#f4c13d;color:#2a1a22;font:800 13px/1 system-ui,sans-serif;padding:10px 14px;border-radius:999px;box-shadow:0 3px 10px rgba(0,0,0,.25);text-decoration:none">📝 Kho đề KET (50 đề)</a>
 </body></html>

@@ -1,0 +1,189 @@
+{
+  "id": "t03-1", "topic": "03", "testNo": 1,
+  "title": "The Colour Run",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "ART ROOM", "text": "Wet paintings – please do not touch!\nPut your brushes in the grey box next to the sink when you finish.",
+        "options": ["Some of the paintings are not dry yet.", "You must wash the grey box after the lesson.", "Brushes are kept next to the paintings."], "answer": 0 },
+      { "kind": "message", "header": "From: Jess  To: Kim", "text": "I'm at the bus stop. I'm wearing my purple coat and a yellow hat, so you'll see me easily! The bus is late, so don't hurry.",
+        "options": ["Jess has missed the bus.", "Kim needs to bring a yellow hat.", "Jess is explaining how Kim can find her."], "answer": 2 },
+      { "kind": "notice", "header": "COLOUR RUN – SATURDAY", "text": "Every runner gets a free white T-shirt. Wear it during the race – by the end, it won't be white any more!\nPlease wear old trainers.",
+        "options": ["You have to buy a white T-shirt for the race.", "Your T-shirt will be a different colour after the race.", "You should bring new trainers to the race."], "answer": 1 },
+      { "kind": "label", "header": "LIGHT GREEN PAINT", "text": "Enough for one small room.\nFor a darker green, paint the wall two times.\nKeep away from children.",
+        "options": ["Using more paint will make the colour stronger.", "There is enough paint here for a big room.", "Children can use this paint safely."], "answer": 0 },
+      { "kind": "email", "header": "From: Mr Ellis  To: Class 8B", "text": "Tomorrow we're drawing trees in the park. Please bring coloured pencils – especially greens and browns. If it rains, we'll draw fruit in the classroom.",
+        "options": ["The class will certainly go to the park tomorrow.", "Students will need pencils in some special colours.", "Students should bring some fruit to school."], "answer": 1 },
+      { "kind": "sign", "header": "SCHOOL CAR PARK", "text": "Red area: teachers only.\nBlue area: visitors.\nParents collecting children, please wait in the yellow area.",
+        "options": ["Visitors can park in the red area.", "Teachers should park in the blue area.", "Parents should stop in the yellow area."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their favourite colour.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Rosa", "text": "My favourite colour is orange. It's warm and happy, like the sun! My bedroom walls are orange – Dad and I painted them together last summer. Some people think the colour is too bright, but I love waking up in there. My grandma always buys me orange things for my birthday, and this year she gave me orange trainers. My friends call me 'the orange girl' now!" },
+        { "label": "B", "title": "Minh", "text": "I've always liked dark blue. Most of my clothes are dark blue or black, because I think they look smart. My mum says I should wear lighter colours sometimes, but I don't agree with her. I also love the sea, and I want to be a diver when I'm older, so I can see the blue water every day. The only red thing I've got is my school bag – it was a present from my uncle." },
+        { "label": "C", "title": "Freya", "text": "Green is my favourite colour because I love nature. At the weekends I go walking in the hills with my family and take photos of trees and plants. I've got hundreds of pictures! I don't wear green clothes very often, because I don't think green looks good on me. But my bedroom is full of plants – I've got twenty-three of them, and I give them water every morning before school." }
+      ],
+      "items": [
+        { "q": "Who decorated a room with a family member?", "answer": "A" },
+        { "q": "Who has a different opinion from a parent about colours?", "answer": "B" },
+        { "q": "Who doesn't often wear their favourite colour?", "answer": "C" },
+        { "q": "Who has a new name because of their favourite colour?", "answer": "A" },
+        { "q": "Who would like a job connected with their favourite colour?", "answer": "B" },
+        { "q": "Who does something before school every day?", "answer": "C" },
+        { "q": "Who got a present in their favourite colour?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "From grey to great",
+      "text": "For years, the long wall behind Greenfield School was grey and ugly. Students walked past it every day without looking at it. Then fourteen-year-old Lena Novak had an idea.\n\n\"I asked the head teacher if I could paint a picture on it,\" says Lena. \"She said yes, but only if I could find the money for the paint myself.\" So Lena and her friends washed cars in the school car park every Saturday for two months. They made one hundred and eighty pounds – enough for twenty tins of paint.\n\nLena wanted the picture to show the town's river, with green trees, a blue sky and red and yellow birds. \"At first I wanted lots of dark colours, like dark green and purple. But my art teacher said light colours would look better because the street is quite narrow. She was right,\" Lena says.\n\nPainting the wall took three weeks. Thirty students helped, and some parents came to paint after work too. \"The hardest part was the sky,\" Lena explains. \"We had to mix white and blue again and again before we got the right colour.\"\n\nNow people from all over town come to take photos of the wall. The local newspaper wrote a story about it, and the town hospital has asked Lena to paint a wall in its children's area. \"I'm going to use lots of yellow, orange and pink there,\" she says. \"Happy colours for children who are ill.\"",
+      "items": [
+        { "q": "What did the head teacher say Lena had to do?", "options": ["find the money for the paint", "choose a different wall", "show her a drawing first"], "answer": 0 },
+        { "q": "How did Lena get the money?", "options": ["She sold some of her paintings.", "Her parents gave it to her.", "She and her friends washed cars."], "answer": 2 },
+        { "q": "Why did Lena change her mind about the colours?", "options": ["Her teacher gave her some advice.", "Dark paint was too expensive.", "Her friends didn't like dark colours."], "answer": 0 },
+        { "q": "What was difficult about painting the wall?", "options": ["finding enough people to help", "making the right colour for the sky", "painting the birds on the river"], "answer": 1 },
+        { "q": "What is Lena going to do next?", "options": ["take photos of the town", "write a story for the newspaper", "paint a picture at a hospital"], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "Why are flamingos pink?",
+      "text": "Flamingos are famous for their beautiful pink colour. But did you know that baby flamingos are not pink at all? When they are born, they are grey or white. They only {19} pink when they are two or three years old.\n\nSo where does the colour come {20}? The answer is food. Flamingos eat very small animals and plants that live in water. These {21} a natural orange-red colour inside them, and slowly this changes the colour of the birds' feathers. If flamingos in a zoo don't get the right food, they become very {22} – almost white!\n\nThe colour is also important when flamingos are looking for a partner. Scientists think that the brightest pink birds are the healthiest, so other flamingos usually {23} them. Some flamingos even put a special oil from their bodies on their feathers to make them look pinker – a bit {24} wearing make-up!",
+      "items": [
+        { "options": ["make", "bring", "turn"], "answer": 2 },
+        { "options": ["from", "of", "out"], "answer": 0 },
+        { "options": ["own", "have", "get"], "answer": 1 },
+        { "options": ["light", "dark", "bright"], "answer": 0 },
+        { "options": ["decide", "choose", "agree"], "answer": 1 },
+        { "options": ["same", "as", "like"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Tara  To: Jade", "text": "Hi Jade,\nI'm making a costume for the Colour Run next Saturday. I want to be a rainbow! I've got red, orange and yellow material, but I haven't got {25} green or blue. Have you got {26}? My mum says she can help me make it, {27} she's very busy this week.\nTara" },
+        { "header": "From: Jade  To: Tara", "text": "Hi Tara,\nWhat a great idea! I've got some light blue material. I'll also ask my brother – he's got an old green T-shirt {28} he doesn't wear any more. Can I make a costume too? I'd like to go {29} a sunflower! Let's meet at my house {30} Thursday and work on them together.\nJade" }
+      ],
+      "answers": [ ["any"], ["some", "any"], ["but", "although", "though"], ["that", "which"], ["as"], ["on", "this", "next"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You have painted a picture for a school art competition. Write an email to your English friend, Kim.",
+      "points": ["say what is in your picture", "tell Kim which colours you used", "say when the winner will be chosen"],
+      "model": "Hi Kim,\nI've painted a picture for our school art competition! It shows my grandparents' farm at sunset. I used lots of orange, pink and purple for the sky, and dark green for the fields. The teachers will choose the winner next Friday.\nBye,\nHa"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🖌️🤍", "caption": "a girl painting a garden fence white; a tin of red paint is on the grass" },
+        { "emoji": "🐕🔴🐾", "caption": "a dog runs through the red paint and leaves red footprints all over the white fence" },
+        { "emoji": "🌸🖌️😊", "caption": "the girl has painted green stems under the red footprints so they look like flowers; her dad is smiling" }
+      ],
+      "model": "Last Sunday Mai was painting the garden fence white. Suddenly her dog ran across the garden, put its feet in a tin of red paint and jumped up at the fence. There were red footprints everywhere! Mai had an idea. She painted green lines under them, and they looked like beautiful flowers. Her dad loved it."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which T-shirt does the boy buy?",
+        "options": [ {"emoji":"👕🔴","label":"red T-shirt"}, {"emoji":"👕🟢","label":"green T-shirt"}, {"emoji":"👕🩶","label":"grey T-shirt"} ], "answer": 1,
+        "script": [ {"s":"M","t":"I like this T-shirt, but which colour should I get? Red or green?"}, {"s":"F","t":"You've already got lots of red clothes. What about this grey one?"}, {"s":"M","t":"Grey's a bit boring. I'll take the green one. It goes well with my jeans."}, {"s":"F","t":"Good choice."} ] },
+      { "q": "What colour is the girl's new bike?",
+        "options": [ {"emoji":"🚲🟣","label":"purple"}, {"emoji":"🚲🩷","label":"pink"}, {"emoji":"🚲⚪","label":"white"} ], "answer": 0,
+        "script": [ {"s":"F","t":"I got my new bike today!"}, {"s":"M","t":"Great! Is it pink, like your old one?"}, {"s":"F","t":"No, I wanted something different. I nearly chose a white one, but white gets dirty so quickly. So I got a purple one, with black wheels."}, {"s":"M","t":"Cool! Let's go for a ride."} ] },
+      { "q": "Where are the girl's paints?",
+        "options": [ {"emoji":"🎒","label":"in the black bag"}, {"emoji":"📦","label":"in the brown box"}, {"emoji":"🍳","label":"on the kitchen shelf"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, where are my paints? They aren't in my black bag."}, {"s":"M","t":"Did you look in the brown box under your desk?"}, {"s":"F","t":"Yes, but there are only pencils in there."}, {"s":"M","t":"Oh, sorry, I remember now. I put them on the shelf in the kitchen, next to the radio."} ] },
+      { "q": "What is the boy painting?",
+        "options": [ {"emoji":"🌅","label":"sunset"}, {"emoji":"🌊","label":"sea"}, {"emoji":"🌲","label":"forest"} ], "answer": 0,
+        "script": [ {"s":"F","t":"What are you painting, Tom? Is it the sea? There's so much blue."}, {"s":"M","t":"No, the blue is the sky. Look, this is the orange sun. It's going down behind the hills."}, {"s":"F","t":"Oh, it's a sunset! I thought those dark green shapes were trees."}, {"s":"M","t":"No, they're hills. Maybe I'll add some trees later."} ] },
+      { "q": "Which is Mia's dog?",
+        "options": [ {"emoji":"🐕","label":"brown dog"}, {"emoji":"🐕","label":"black dog with white ears"}, {"emoji":"🐕","label":"white dog with black ears"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Look, that's my dog in this photo."}, {"s":"M","t":"Which one? The brown one?"}, {"s":"F","t":"No, that's my neighbour's dog. Mine is the white one with black ears."}, {"s":"M","t":"Oh, and who's the black one with white ears? They look the same!"}, {"s":"F","t":"That's his brother. He lives with my cousin."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman talking about a colour run for charity.",
+      "title": "Hillside Colour Run",
+      "items": [
+        { "label": "Date: Sunday ___ June", "answer": ["12", "12th", "twelfth", "twelve", "the 12th", "the twelfth"] },
+        { "label": "Length of the run: ___ kilometres", "answer": ["5", "five"] },
+        { "label": "Colour at the finish:", "answer": ["purple"] },
+        { "label": "Ticket for under-16s: £", "answer": ["8", "eight"] },
+        { "label": "The run starts at: ___ Park", "answer": ["wickham"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, and thanks for coming. I'm here to tell you about the Hillside Colour Run. It's a fun run where people throw coloured powder at you while you run! It's on Sunday the twelfth of June. We wanted to have it in May, but the park was already busy then. Don't worry – you don't have to be a fast runner. The run is five kilometres. Last year it was ten, but lots of people told us that was too long. At every kilometre there's a different colour: first red, then yellow, then blue, then green. And at the finish, everyone gets covered in purple! So please wear white clothes – you'll look like a rainbow at the end. Tickets for adults are fifteen pounds. If you're under sixteen, it's eight pounds, and you get a free T-shirt too. All the money goes to the children's hospital. The run starts at Wickham Park. That's W-I-C-K-H-A-M. It's next to the railway station. Please arrive at nine o'clock. And one more thing: bring some sunglasses to keep the powder out of your eyes!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Oliver talking to his friend Hannah about a school trip to an art gallery.",
+      "items": [
+        { "q": "Before the trip, Oliver thought it would be", "options": ["boring.", "difficult.", "tiring."], "answer": 0 },
+        { "q": "Oliver's favourite painting was", "options": ["a picture of a king.", "a yellow circle.", "a green and orange fish."], "answer": 1 },
+        { "q": "In the afternoon, the students", "options": ["painted pictures.", "drew animals.", "made pictures with paper."], "answer": 2 },
+        { "q": "What did Oliver buy in the gift shop?", "options": ["some postcards", "a poster", "some pens"], "answer": 1 },
+        { "q": "What will the next exhibition be about?", "options": ["artists from the 1960s", "paintings of the sea", "the colour red"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Oliver. How was the school trip to the art gallery?"},
+        {"s":"M","t":"Really good, Hannah! I thought it would be boring, but it wasn't at all."},
+        {"s":"F","t":"What did you see?"},
+        {"s":"M","t":"There were lots of old paintings of kings and queens, but they were very dark – mostly brown and black. My favourite was a modern one. It was just a big yellow circle on a light blue background."},
+        {"s":"F","t":"That sounds easy! I could paint that."},
+        {"s":"M","t":"That's what everyone said! But the guide told us the artist painted it in 1960, and now it's worth millions."},
+        {"s":"F","t":"Did you do anything else?"},
+        {"s":"M","t":"Yes, in the afternoon there was a class. We wanted to paint, but there wasn't enough time, so we made pictures with coloured paper instead. I made a green and orange fish."},
+        {"s":"F","t":"Cool. Did you buy anything in the gift shop?"},
+        {"s":"M","t":"The postcards were really expensive, and I've already got lots of pens. So I bought a poster of the yellow circle for my bedroom wall. It was only three pounds."},
+        {"s":"F","t":"Are you going to go back?"},
+        {"s":"M","t":"Yes! Next month there's a new exhibition all about the colour red – red clothes, red paintings, even red food! My mum wants to go, and you can come with us if you like."},
+        {"s":"F","t":"I'd love to. But not on a Saturday – I've got swimming."},
+        {"s":"M","t":"That's fine. We'll go on a Sunday."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his mother about his bedroom.", "q": "Why does he want to change the colour of his room?", "options": ["It makes the room look small.", "He doesn't like blue any more.", "His friends laugh at it."], "answer": 0,
+        "script": [ {"s":"M","t":"Mum, can we paint my bedroom a different colour?"}, {"s":"F","t":"But you chose that dark blue only last year! You said blue was your favourite colour."}, {"s":"M","t":"It still is. My friends think the room's cool, too. But it's so dark – it feels tiny, like a cupboard. I'd like something lighter, like white or light grey."} ] },
+      { "intro": "You will hear a girl talking to her friend about a birthday present.", "q": "How does the girl feel about the present?", "options": ["excited", "surprised", "disappointed"], "answer": 2,
+        "script": [ {"s":"F","t":"My aunt gave me a sweater for my birthday. It's bright pink with big yellow spots."}, {"s":"M","t":"Wow! Did you know she was going to give you clothes?"}, {"s":"F","t":"Yes, she always does. She was so pleased with it, so I said thank you. But I'll never wear it – I only like black and grey clothes. I really wanted some new headphones."} ] },
+      { "intro": "You will hear a teacher talking to her class.", "q": "What does the teacher want the students to do?", "options": ["bring paint from home", "wear old clothes tomorrow", "clean the art room"], "answer": 1,
+        "script": [ {"s":"F","t":"Tomorrow we're going to start painting the big picture for the school hall. We'll use lots of paint, especially red and black, and they're very difficult to wash out. So please bring an old shirt or T-shirt to wear over your uniform. Don't worry about paint or brushes – I've got everything we need. And we'll all clean the room together at the end."} ] },
+      { "intro": "You will hear two friends talking about a film.", "q": "What did the boy like most about the film?", "options": ["the colours", "the music", "the story"], "answer": 0,
+        "script": [ {"s":"F","t":"Did you enjoy the film last night?"}, {"s":"M","t":"Well, the story was a bit silly, and the music was much too loud."}, {"s":"F","t":"Oh dear. So you didn't like it?"}, {"s":"M","t":"I did, actually, because it looked amazing. Every part had different colours – purple forests, orange seas, pink mountains. I've never seen anything like it."} ] },
+      { "intro": "You will hear a woman talking on the radio about a garden.", "q": "Why do most people visit the garden in May?", "options": ["to buy plants", "to see the flowers", "to have a picnic"], "answer": 1,
+        "script": [ {"s":"F","t":"Hillcrest Garden is lovely all year, but May is the best time to visit. That's when thousands of flowers open – red, yellow, white, and even dark purple ones that look almost black. People come from all over the country to see them. You can have a picnic by the lake, but please don't pick the flowers. And the garden shop sells plants, but only in the autumn."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Lily talking to her friend Ben about sports day. What colour T-shirt will each team wear?",
+      "people": ["the Lions", "the Eagles", "the Dolphins", "the Bears", "the Tigers"],
+      "options": ["black", "blue", "green", "orange", "pink", "purple", "red", "yellow"],
+      "answers": ["D", "F", "C", "B", "G"],
+      "script": [
+        {"s":"M","t":"Lily, do you know the team colours for sports day yet?"},
+        {"s":"F","t":"Yes, Mr Price told us this morning. You're in the Lions, aren't you? You wanted yellow, but the Lions are orange this year."},
+        {"s":"M","t":"Orange? Oh well, it's quite like yellow. What about your team, the Eagles?"},
+        {"s":"F","t":"We all wanted black, but the teachers said it's too hot to wear black in the sun. So we've got purple."},
+        {"s":"M","t":"Purple's nice. And the Dolphins? Blue, I suppose, like the sea?"},
+        {"s":"F","t":"That's what everyone thought! But no, they're green. Blue is for the Bears."},
+        {"s":"M","t":"That's strange. Bears are brown!"},
+        {"s":"F","t":"I know, but the shop didn't have any brown T-shirts. Dark blue was the closest colour, Mr Price said."},
+        {"s":"M","t":"And the Tigers? My sister's in that team. She said they asked for pink."},
+        {"s":"F","t":"They did, but some of the boys weren't happy about it. So in the end they chose red. It looks really good with the white shorts."},
+        {"s":"M","t":"So everyone wears white shorts?"},
+        {"s":"F","t":"Yes, and white socks. By the end of the day they'll be grey, I'm sure!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Colours", "questions": ["What's your favourite colour?", "What colour is your bedroom?"], "extended": "Please tell me something about the colours of the clothes you like wearing." },
+        { "topic": "Art", "questions": ["Do you like drawing or painting?", "Have you got art lessons at school?"], "extended": "Please tell me something about a picture you like." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different colourful activities. Do you like these different activities? Say why or why not.",
+      "pictures": [ {"emoji":"🎨","label":"painting pictures"}, {"emoji":"🏃🌈","label":"a colour run"}, {"emoji":"🌷","label":"growing flowers"}, {"emoji":"🖌️🏠","label":"painting a bedroom"}, {"emoji":"📸🌅","label":"taking photos of sunsets"} ],
+      "prompts": ["Do you think painting pictures is fun?", "Would you like to do a colour run?", "Is growing flowers interesting?", "Do you think painting a bedroom is hard work?", "Which of these activities do you like best?"],
+      "followup": ["Do you prefer bright colours or dark colours? Why?", "What colour would you like your bedroom to be?", "Do you think colours can make people happy or sad?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like ... very much.", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

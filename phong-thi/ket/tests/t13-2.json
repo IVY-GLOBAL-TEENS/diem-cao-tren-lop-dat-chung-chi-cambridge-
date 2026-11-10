@@ -1,0 +1,190 @@
+{
+  "id": "t13-2", "topic": "13", "testNo": 2,
+  "title": "How Big, How Far, How Long?",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "CITY ZOO – PENGUIN FEEDING", "text": "Every day at 11.15 and 3.45.\nPlease arrive a few minutes early – feeding only lasts a quarter of an hour.",
+        "options": ["You must arrive at the zoo before 11.15.", "Penguin feeding lasts half an hour.", "You can watch the penguins eat twice a day."], "answer": 2 },
+      { "kind": "label", "header": "RICE – 2 kg", "text": "Use 75 grams for each person.\nCook in boiling water for 12 minutes, then leave for a moment before you serve it.",
+        "options": ["This bag is enough for one person.", "Cook the rice for less than a quarter of an hour.", "You need two litres of water."], "answer": 1 },
+      { "kind": "message", "header": "From: Kai  To: Ben", "text": "Ben, Sunday's bike ride is 30 km, not 20 – Dad changed the route! We'll stop for lunch halfway. We're leaving at 9, so be at my house by quarter to.",
+        "options": ["Ben should arrive at Kai's house at 8.45.", "The bike ride will be shorter than they planned.", "They will have lunch at the end of the ride."], "answer": 0 },
+      { "kind": "notice", "header": "LOST DOG", "text": "Small brown dog, about 40 cm tall, 8 kilos.\nLast seen in Hill Park on Monday morning.\nPlease call Rosie: 07700 345 118.",
+        "options": ["Rosie found a dog in Hill Park.", "Rosie's dog went missing at the start of the week.", "Rosie's dog is very big and heavy."], "answer": 1 },
+      { "kind": "email", "header": "From: Mr Lewis  To: Class 8B", "text": "Science trip tomorrow: the coach leaves at 8 o'clock and the journey takes an hour and a half. Bring warm clothes – it'll be about 5 degrees at the lake.",
+        "options": ["You'll arrive at the lake at 8 o'clock.", "The weather at the lake will be warm.", "The journey to the lake will take 90 minutes."], "answer": 2 },
+      { "kind": "note", "header": "From: Mum  To: Grace", "text": "Grace, please water the plants while I'm away – one litre each, every two days. Not more, or they'll die! Back next week. Love, Mum",
+        "options": ["Grace must not give the plants too much water.", "Grace should water the plants every day.", "Mum will be away for two days."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about how they get to school.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Freya", "text": "I live three kilometres from school, and I walk there every day with my neighbour, Tom. It takes us about forty minutes. In winter, when the temperature is below zero, the path by the river is dangerous, so Mum drives us. I like walking because it wakes me up, and Tom and I always have lots to talk about." },
+        { "label": "B", "title": "Arjun", "text": "My school is twelve miles from my village, so I go by bus. The journey takes an hour, but it feels much longer because the bus stops so often! I usually do my homework on the bus, or I listen to music. I have to get up at quarter past six, which I hate. I'd love to live closer to school." },
+        { "label": "C", "title": "Linh", "text": "I cycle to school. It's only four kilometres, and I can do it in fifteen minutes if I'm quick. Last year I won a prize for cycling to school every day for a whole year – even when it was raining! My bike is very old – it was my brother's – but it's light, only about nine kilos." }
+      ],
+      "items": [
+        { "q": "Who doesn't travel to school the same way all year?", "answer": "A" },
+        { "q": "Who uses their journey time to do school work?", "answer": "B" },
+        { "q": "Who got something because of their journey?", "answer": "C" },
+        { "q": "Who goes to school with someone they know?", "answer": "A" },
+        { "q": "Who doesn't like getting up early?", "answer": "B" },
+        { "q": "Who uses something that belonged to a family member?", "answer": "C" },
+        { "q": "Who lives the furthest from school?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "The boy with the giant pumpkin",
+      "text": "When fourteen-year-old Oscar Hill started growing vegetables in his grandfather's garden two years ago, he never thought he would be on television. But last October, his pumpkin won first prize at a national competition. It weighed two hundred and fifty kilos – more than three grown men!\n\n\"Grandpa has grown pumpkins for years,\" says Oscar. \"He gave me some seeds and said, 'Let's see who can grow the biggest one.' I really wanted to beat him.\"\n\nGrowing a giant pumpkin is hard work. Oscar planted his seeds in April. In summer, the pumpkin got about ten kilos heavier every day, and Oscar had to give it up to a hundred litres of water a day. \"I measured it every morning before school,\" he says. \"Once it grew fifteen centimetres in a week!\"\n\nThere were some problems, too. One night in August, the temperature fell to five degrees, and Oscar was worried. \"I covered the pumpkin with blankets to keep it warm,\" he laughs. \"My mum wasn't very happy – they were from our beds!\"\n\nMoving the pumpkin to the competition was difficult. It took eight people and half an hour to put it into a van. \"I was so nervous on the journey,\" Oscar remembers. \"It was eighty miles, and I kept thinking it would fall out.\"\n\nSo what happened to the pumpkin after the competition? \"We made soup for the whole street,\" says Oscar. \"And I kept the seeds for next year!\"",
+      "items": [
+        { "q": "Why did Oscar start growing a big pumpkin?", "options": ["He wanted to be on television.", "He wanted to win against his grandfather.", "He needed money for a competition."], "answer": 1 },
+        { "q": "What did Oscar do every day in summer?", "options": ["He gave the pumpkin a lot of water.", "He took photos of the pumpkin.", "He put blankets on the pumpkin."], "answer": 0 },
+        { "q": "Why was Oscar's mum unhappy?", "options": ["Oscar was late for school.", "The pumpkin was too big for the garden.", "Oscar used things from the house."], "answer": 2 },
+        { "q": "How did Oscar feel on the way to the competition?", "options": ["excited", "bored", "worried"], "answer": 2 },
+        { "q": "What happened to the pumpkin in the end?", "options": ["People ate it.", "Oscar sold it.", "It went to a museum."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The cheetah",
+      "text": "The cheetah is the fastest animal on land. It can run at more than a hundred kilometres an hour – the same {19} as a car on a motorway. But it can only run this fast for about twenty or thirty seconds. After that, it is too tired and has to {20} a rest.\n\nCheetahs are smaller than lions. An adult cheetah is about one metre twenty centimetres long and weighs between thirty-five and sixty kilos. Its long tail {21} it to turn quickly when it is running.\n\nCheetahs live in Africa, where the temperature can {22} forty degrees during the day. They usually hunt in the early morning or the evening, when it is {23}.\n\nBaby cheetahs stay with their mother for about a year and a half. In that time, she {24} them everything they need to know to live on their own. Then they leave her and find their own place to live.",
+      "items": [
+        { "options": ["speed", "size", "way"], "answer": 0 },
+        { "options": ["make", "have", "do"], "answer": 1 },
+        { "options": ["lets", "makes", "helps"], "answer": 2 },
+        { "options": ["reach", "go", "rise"], "answer": 0 },
+        { "options": ["warmer", "hotter", "cooler"], "answer": 2 },
+        { "options": ["learns", "teaches", "studies"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Sam  To: Rob", "text": "Hi Rob,\nAre you ready {25} the camping trip? Dad says the campsite is about sixty miles away, so it'll take {26} two hours to drive there. It's going to be cold at night – only four degrees! – so bring a warm jacket. Can you also bring {27} torch? Mine is broken.\nSam" },
+        { "header": "From: Rob  To: Sam", "text": "Hi Sam,\nYes, I've packed everything. My bag weighs eight kilos – it's heavier {28} I thought! I've got two torches, so I can bring one for you. What time {29} your dad picking me up on Friday? I can't wait. I've never been camping {30}!\nRob" }
+      ],
+      "answers": [ ["for"], ["about", "around", "nearly", "almost", "over", "roughly", "only", "just"], ["a", "your", "the"], ["than"], ["is"], ["before"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your English friend, Ruby, wants to cook a dish from your country. Write an email to Ruby.",
+      "points": ["say which dish she should make", "tell her what she needs to buy", "say how long it takes to make"],
+      "model": "Hi Ruby,\nYou should make spring rolls – they're delicious! You need to buy 300 grams of meat, some vegetables and rice paper. It takes about forty minutes to make them and fifteen minutes to cook them. Good luck!\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👨‍👩‍👧‍👦🚗🏖️", "caption": "a family putting bags into a car; a road sign says 'Beach 200 km'" },
+        { "emoji": "🚗🌧️😩", "caption": "the car stopped at the side of a road in the rain with a flat tyre" },
+        { "emoji": "👨‍🌾🚜🌅", "caption": "a farmer helping the family; later the family on the beach in the evening sun" }
+      ],
+      "model": "Last summer, Nam's family drove two hundred kilometres to the beach. After two hours, the car stopped because it had a problem with a tyre. It was raining and everyone was unhappy. Then a kind farmer stopped and helped them. They arrived at the beach three hours late, but the sunset was beautiful."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "How much flour does the girl need?",
+        "options": [ {"emoji":"🥣","label":"150 g"}, {"emoji":"🥣","label":"250 g"}, {"emoji":"🥣","label":"500 g"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, we need to buy flour for the birthday cake."}, {"s":"M","t":"How much? There's about a hundred and fifty grams in the cupboard."}, {"s":"F","t":"The recipe says two hundred and fifty grams for one cake. But I want to make two – one for home and one for school."}, {"s":"M","t":"So you need five hundred grams. Let's buy a one-kilo bag."} ] },
+      { "q": "How long will the train journey take?",
+        "options": [ {"emoji":"🚆","label":"45 minutes"}, {"emoji":"🚆","label":"1 hour"}, {"emoji":"🚆","label":"1 hour 30 minutes"} ], "answer": 0,
+        "script": [ {"s":"M","t":"How long does the train to Brighton take, Mum? Is it an hour and a half, like last time?"}, {"s":"F","t":"No, we took the slow train last time. This one's much faster."}, {"s":"M","t":"So about an hour?"}, {"s":"F","t":"Even less – forty-five minutes. We'll be there by ten."} ] },
+      { "q": "How far is the boy's new school from his home?",
+        "options": [ {"emoji":"🏫","label":"half a mile"}, {"emoji":"🏫","label":"2 miles"}, {"emoji":"🏫","label":"5 miles"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Is your new school near your house, Max?"}, {"s":"M","t":"Not really. My old school was only half a mile away, so I could walk."}, {"s":"F","t":"And now?"}, {"s":"M","t":"It's two miles, so I cycle. My cousin's school is five miles away – he has to take the bus."} ] },
+      { "q": "What did the girl buy at the market?",
+        "options": [ {"emoji":"🍎","label":"1 kg of apples"}, {"emoji":"🍓","label":"half a kilo of strawberries"}, {"emoji":"🍌","label":"2 kg of bananas"} ], "answer": 2,
+        "script": [ {"s":"M","t":"What did you get at the market, Ana? Strawberries?"}, {"s":"F","t":"I wanted half a kilo, but they were all sold. And the apples didn't look very good."}, {"s":"M","t":"So what's in the bag?"}, {"s":"F","t":"Bananas – two kilos! We can make banana bread this weekend."} ] },
+      { "q": "When is the boy's swimming competition?",
+        "options": [ {"emoji":"📅","label":"Tuesday 4th"}, {"emoji":"📅","label":"Saturday 8th"}, {"emoji":"📅","label":"Saturday 15th"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Is your swimming competition next Saturday, Jack? The fifteenth?"}, {"s":"M","t":"It was going to be, but they moved it. Now it's this Saturday, the eighth."}, {"s":"F","t":"But today's Tuesday! That's only four days. Are you ready?"}, {"s":"M","t":"Nearly. I've got training today and on Thursday."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a man talking about a cookery course for teenagers.",
+      "title": "Teen Cookery Course",
+      "items": [
+        { "label": "The course lasts (weeks):", "answer": ["6", "six"] },
+        { "label": "Day:", "answer": ["thursday", "thursdays"] },
+        { "label": "First lesson: how to make", "answer": ["pizza", "pizzas"] },
+        { "label": "Bring: a plastic", "answer": ["box"] },
+        { "label": "Teacher's name: Ms", "answer": ["bryant"] }
+      ],
+      "script": [ {"s":"M","t":"Hi everyone. If you love food, why not join our cookery course for teenagers at the Riverside Centre? It starts next month, and it lasts for six weeks. Last year we had a four-week course, but everyone asked for more lessons! Classes are every Thursday, from half past four until six o'clock – that's an hour and a half each week. We can't have classes on Tuesdays, because another group uses the kitchen then. In the first lesson, you'll learn how to make pizza – the bread and everything! Then in week two you'll make soup, and later you'll try some cakes. Don't worry about measuring – we'll teach you how to weigh things in grams and kilos, and how to measure milk and water in litres. Please bring a plastic box so you can take your food home – you'll want to share it with your family! You don't need to bring any food; we buy all of it. Your teacher is Ms Bryant. That's B-R-Y-A-N-T. She works as a cook in a big hotel, so she really knows what she's doing. Call the centre or visit our website to book a place."} ]
+    },
+    "part3": {
+      "intro": "You will hear Nam talking to his friend Zoe about a family holiday in Scotland.",
+      "items": [
+        { "q": "How far did Nam's family drive?", "options": ["about 500 miles", "about 800 miles", "about 1,000 miles"], "answer": 1 },
+        { "q": "What was the weather like?", "options": ["colder than Nam expected", "hotter than usual", "rainy every day"], "answer": 0 },
+        { "q": "What did Nam enjoy most?", "options": ["swimming in a lake", "visiting a castle", "climbing a mountain"], "answer": 2 },
+        { "q": "How long did it take them to get to the top of the mountain?", "options": ["three hours", "four and a half hours", "seven and a half hours"], "answer": 1 },
+        { "q": "What will Nam do tomorrow?", "options": ["show Zoe a video", "send Zoe a map", "plan another trip"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Nam! How was Scotland?"},
+        {"s":"M","t":"Brilliant, thanks! We drove all around the country for two weeks."},
+        {"s":"F","t":"How far did you drive?"},
+        {"s":"M","t":"Dad said we'd do about five hundred miles, but we got lost twice! In the end it was about eight hundred miles."},
+        {"s":"F","t":"Wow! That's more than a thousand kilometres."},
+        {"s":"M","t":"Nearly thirteen hundred kilometres, Dad says."},
+        {"s":"F","t":"Was it hot?"},
+        {"s":"M","t":"I thought it would be about twenty degrees, because it was July. But some days it was only twelve! It rained one day, but the rest of the time it was sunny."},
+        {"s":"F","t":"Did you swim in any lakes?"},
+        {"s":"M","t":"Mum did, but the water was too cold for me! We visited a castle too, which was OK. But the best day was when we climbed Ben Nevis. It's thirteen hundred and forty-five metres high – the highest mountain in Britain!"},
+        {"s":"F","t":"Amazing! How long did it take?"},
+        {"s":"M","t":"The sign said three hours to the top, but it took us four and a half, because my little sister was slow. Then going down took another three hours, so we walked for seven and a half hours altogether."},
+        {"s":"F","t":"You must have been tired! Did you take any photos?"},
+        {"s":"M","t":"I made a video at the top. Come to my house tomorrow and I'll show you!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to a friend about a cake she made.", "q": "Why did the cake go wrong?", "options": ["She cooked it for too long.", "She used too much sugar.", "The oven wasn't hot enough."], "answer": 0,
+        "script": [ {"s":"F","t":"My cake was terrible! I put in two hundred grams of sugar, like the recipe said, and the oven was at a hundred and eighty degrees – exactly right. But then I went to watch TV and forgot about it. It was in the oven for an hour, not forty minutes. It was black!"}, {"s":"M","t":"Oh no!"} ] },
+      { "intro": "You will hear a boy talking about his new watch.", "q": "What does he like most about it?", "options": ["It was very cheap.", "It tells him the temperature.", "It shows how fast he runs."], "answer": 2,
+        "script": [ {"s":"M","t":"My new watch is great. It tells me the time and the date, of course, and even the temperature outside. But the best thing is when I go running – it shows my speed, so I know how many minutes it takes me to run a kilometre. It wasn't cheap. I saved my pocket money for a whole year!"} ] },
+      { "intro": "You will hear a teacher talking to her class.", "q": "What is she telling them about?", "options": ["a change to the timetable", "the rules for an exam", "a new classroom"], "answer": 1,
+        "script": [ {"s":"F","t":"Right, everyone, listen please. Tomorrow's maths exam is an hour and a quarter long, and it's in this classroom as usual. You can't leave in the first thirty minutes. Bring a ruler, because some questions ask you to measure lines in centimetres. And all phones must be in your bags, switched off. Any questions?"} ] },
+      { "intro": "You will hear a man talking to his daughter after a bike ride.", "q": "How does the girl feel?", "options": ["tired", "excited", "angry"], "answer": 0,
+        "script": [ {"s":"M","t":"Well done, Lily! Twenty-five kilometres – that's the furthest you've ever cycled."}, {"s":"F","t":"Thanks, Dad. It was fun, but my legs really hurt and I can't stop yawning. I just want to lie on the sofa."}, {"s":"M","t":"Shall we go out for pizza to celebrate?"}, {"s":"F","t":"Maybe tomorrow. I need to go to bed!"} ] },
+      { "intro": "You will hear a woman on the radio talking about a man who walked a long way.", "q": "Why is the man in the news?", "options": ["He walked faster than anyone before.", "He is very young.", "He walked from one end of Britain to the other."], "answer": 2,
+        "script": [ {"s":"F","t":"Today we're talking to Joe Banks, who has just walked from the north of Scotland to the south of England. That's more than a thousand kilometres! He wasn't fast – it took him nine weeks, walking about twenty kilometres a day. And Joe isn't a young sportsman. He's a seventy-year-old grandfather, and he did it to raise money for his local hospital."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Hana talking to her dad about a science project. What did each person measure?",
+      "people": ["Kim", "Oliver", "Priya", "Tom", "Hana"],
+      "options": ["the height of a tree", "the length of the playground", "the temperature of the classroom", "the weight of a cat", "how far they walk in a day", "how long it takes to run 100 metres", "how much rain falls in a week", "how many hours they sleep"],
+      "answers": ["D", "A", "G", "F", "C"],
+      "script": [
+        {"s":"M","t":"How's your science project going, Hana?"},
+        {"s":"F","t":"Good! We all had to measure something every day for a week. Kim wanted to measure the length of the playground, but that was too easy, so she weighed her cat every day."},
+        {"s":"M","t":"Her cat? Did it get heavier?"},
+        {"s":"F","t":"No! It was four kilos every day."},
+        {"s":"M","t":"Ha! What about Oliver?"},
+        {"s":"F","t":"He wanted to measure how far he walks in a day, but his phone broke. So he measured the big tree in his garden. It's eleven metres tall!"},
+        {"s":"M","t":"Wow. And Priya?"},
+        {"s":"F","t":"She put a big bottle in her garden and measured the rain. There was nearly two litres in one week!"},
+        {"s":"M","t":"That's a lot. What about Tom? He loves sport."},
+        {"s":"F","t":"Yes – he ran a hundred metres every day and checked the time. On Monday it took him seventeen seconds, but by Friday it was only fifteen!"},
+        {"s":"M","t":"And you? Did you measure how many hours you sleep? You're always tired!"},
+        {"s":"F","t":"Dad! No. I checked the temperature in our classroom every morning and every afternoon. It was always about four degrees warmer after lunch."},
+        {"s":"M","t":"Interesting! That's why everyone wants to sleep in the afternoon."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Cooking", "questions": ["How often do you cook at home?", "How many minutes does it take you to make breakfast?"], "extended": "Please tell me something about a dish you can cook." },
+        { "topic": "Journeys", "questions": ["How far is your school from your home?", "How long does it take you to get to school?"], "extended": "Please tell me something about a long journey you have made." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to travel on holiday. Do you like these different ways of travelling? Say why or why not.",
+      "pictures": [ {"emoji":"✈️","label":"by plane"}, {"emoji":"🚆","label":"by train"}, {"emoji":"🚗","label":"by car"}, {"emoji":"🚲","label":"by bike"}, {"emoji":"🥾","label":"walking"} ],
+      "prompts": ["Do you think travelling by plane is exciting?", "Is a long train journey boring?", "Do you like travelling hundreds of kilometres by car?", "Is cycling a few miles every day fun?", "Which of these ways of travelling do you like best?"],
+      "followup": ["Do you prefer short journeys or long journeys? Why?", "What is the longest journey you have made?", "Would you like to walk a long way for a week? Why or why not?"],
+      "usefulLanguage": ["I think ... is exciting because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

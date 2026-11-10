@@ -1,0 +1,192 @@
+{
+  "id": "t05-1", "topic": "05", "testNo": 1,
+  "title": "Read All About It",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "SCHOOL MAGAZINE", "text": "We need writers!\nSend your article (300 words or fewer) to Mr Fox by email before Friday. The best ones will be in the June magazine.",
+        "options": ["Only the best writers can join the magazine team.", "Your article must not be longer than 300 words.", "The magazine comes out every Friday."], "answer": 1 },
+      { "kind": "note", "header": "From: Mum  To: Kim", "text": "Kim – the electricity bill came today. It's much higher than last month! Please turn off your computer and the lights when you go out.\nMum",
+        "options": ["Mum wants Kim to use less electricity.", "Kim has to pay the bill.", "This month's bill is cheaper than last month's."], "answer": 0 },
+      { "kind": "sign", "header": "CITY LIBRARY", "text": "Newspapers and magazines must stay in the reading room.\nYou can borrow books for three weeks with a library card.",
+        "options": ["You can take magazines home for three weeks.", "You can buy newspapers in the reading room.", "You need a card if you want to take a book home."], "answer": 2 },
+      { "kind": "message", "header": "From: Ali  To: Jake", "text": "Have you finished your part of the science project? Send it to me tonight and I'll print everything tomorrow. Don't forget the photos!",
+        "options": ["Ali wants Jake to send his work today.", "Jake has to print the whole project.", "Ali has forgotten to take some photos."], "answer": 0 },
+      { "kind": "label", "header": "TICKET – SCHOOL SPRING CONCERT", "text": "Friday 12 April, 7 p.m.\nAdults £5 – students free\nShow this ticket at the door. No tickets on sale on the night.",
+        "options": ["You can buy a ticket when you arrive.", "Students do not have to pay.", "The concert starts at 5 p.m."], "answer": 1 },
+      { "kind": "email", "header": "From: Mrs Patel  To: Year 8 parents", "text": "Please fill in the green form for the theatre trip and return it to the school office by Monday. Students should also bring their school diaries every day this week.",
+        "options": ["The school office will send parents a form on Monday.", "Students must take their diaries to the theatre.", "Parents should give a form back to the school by Monday."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their jobs on the school magazine.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Priya", "text": "I write the sports page for our school magazine. Every week I watch the school teams play and write an article about the match. My grandfather was a sports writer for a newspaper, and he gives me lots of tips. Last month the town council gave me a diploma for my article about our girls' football team! I'd love to work for a big newspaper one day." },
+        { "label": "B", "title": "Jonas", "text": "My job is the advertisements. The magazine costs a lot to print, so I visit shops and cafés in our town and ask them to pay for an advert. It isn't easy – some owners say no – but I've already found twelve. One café near the school even gave us its menu to put in the magazine. I'm not very good at writing, but I'm good at talking to people!" },
+        { "label": "C", "title": "Hoa", "text": "I answer the letters on the 'Ask Hoa' page. Students write to me about their problems – friends, homework or parents – and I write back with advice. I never print their names. I wasn't sure about the job at first, but my English teacher said I'd be good at it. Sometimes I get twenty letters a week, so I write my answers in a notebook on the bus." }
+      ],
+      "items": [
+        { "q": "Who gets advice from an older relative?", "answer": "A" },
+        { "q": "Who brings money to the magazine?", "answer": "B" },
+        { "q": "Who keeps some people's names secret?", "answer": "C" },
+        { "q": "Who has received a prize for their writing?", "answer": "A" },
+        { "q": "Who says one part of their job is difficult?", "answer": "B" },
+        { "q": "Who does some of their work while travelling?", "answer": "C" },
+        { "q": "Who has a plan for a future job?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "A diary from the past",
+      "text": "When thirteen-year-old Isla Bennett helped her grandmother clean the attic last spring, she found an old wooden box. Inside, there was a diary, some letters, an old passport and a pile of postcards from the 1960s. They belonged to Isla's great-aunt Margaret, who died before Isla was born.\n\n\"At first I just wanted to look at the postcards, because they had beautiful pictures of the seaside,\" says Isla. \"But then I opened the diary and I couldn't stop reading.\" Margaret wrote it when she was fifteen. In it, she described her school, her friends and her dream of becoming a nurse.\n\nIsla's history teacher, Mr Okoye, was looking for ideas for a class project about life in the past. When Isla showed him the diary, he was very excited. The whole class read parts of it and compared Margaret's school days with their own. \"We couldn't believe there were fifty students in her class!\" Isla laughs.\n\nLater, a journalist from the local newspaper heard about the project and wrote an article about it. Lots of people in the town read it, and one woman, now eighty, wrote a letter to Isla. She was in Margaret's class at school! She sent Isla a photo of the two girls when they were fifteen.\n\nNow Isla writes in her own diary every evening. \"Maybe one day someone will find it in an attic,\" she says. \"I'd like them to know what life was like for me.\"",
+      "items": [
+        { "q": "What did Isla want to look at first?", "options": ["the letters", "the postcards", "the diary"], "answer": 1 },
+        { "q": "What do we learn about Margaret's diary?", "options": ["She wrote it when she was a teenager.", "She wrote it when she was working as a nurse.", "She wrote it for a school project."], "answer": 0 },
+        { "q": "What surprised Isla's class?", "options": ["Margaret's school was far from her home.", "Margaret's class was very big.", "Margaret's teacher was very strict."], "answer": 1 },
+        { "q": "What happened after the newspaper article?", "options": ["Isla wrote letters to old people in the town.", "Isla met Margaret's history teacher.", "Someone who knew Margaret contacted Isla."], "answer": 2 },
+        { "q": "Why does Isla write a diary now?", "options": ["Her teacher asked her to.", "She wants to make it into a book.", "She wants people in the future to know about her life."], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "The story of the postcard",
+      "text": "The first postcards were {19} in Austria in 1869. They were cheaper to send than letters because people didn't need an envelope. At first, postcards had no pictures. There was only space for an address on one side and a short message on the {20}.\n\nPicture postcards became very popular at the beginning of the twentieth century. People bought them when they went on holiday and sent them to friends and family {21} home. Some people also started to {22} postcards as a hobby and kept them in special books.\n\nToday, most people send emails and text messages instead, so fewer postcards are sent every year. But many people still love getting one, because it shows that someone {23} about them while they were away. And collecting old postcards is still popular – some rare ones {24} hundreds of pounds!",
+      "items": [
+        { "options": ["done", "built", "made"], "answer": 2 },
+        { "options": ["other", "another", "second"], "answer": 0 },
+        { "options": ["behind", "back", "again"], "answer": 1 },
+        { "options": ["collect", "catch", "bring"], "answer": 0 },
+        { "options": ["believed", "thought", "knew"], "answer": 1 },
+        { "options": ["cost", "pay", "spend"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ben  To: Nam", "text": "Hi Nam,\nDid you see the advertisement {25} the school magazine? There's a writing competition, and the prize is two tickets {26} the theatre. You're really good at writing, so you should enter! You have to fill in a form and write a story about {27} adventure.\nBen" },
+        { "header": "From: Nam  To: Ben", "text": "Hi Ben,\nThanks for telling me! I didn't know about it. I'll ask Ms Grey for a form tomorrow. I've {28} started a story for my English project, so maybe I can use that one. If I win, would you like {29} come to the theatre with me? I hope I'm luckier {30} last time!\nNam" }
+      ],
+      "answers": [ ["in"], ["for", "to"], ["an", "your", "any"], ["already", "just"], ["to"], ["than"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You read an interesting article in a magazine. Write an email to your English friend, Ella.",
+      "points": ["say which magazine you read", "say what the article was about", "tell Ella why she should read it"],
+      "model": "Hi Ella,\nYesterday I read Teen World magazine. There was a great article about a girl who sailed around the world alone. You should read it because you love the sea and adventures! I'll send it to you.\nMai"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦🎂✉️", "caption": "a boy putting a birthday card in a postbox" },
+        { "emoji": "📬😮", "caption": "a few days later, the same envelope comes back to the boy's house – there is no stamp on it" },
+        { "emoji": "📞🎉👵", "caption": "the boy on the phone, singing to his smiling grandmother" }
+      ],
+      "model": "Last week Hugo wrote a birthday card for his grandma and posted it. Three days later, the postman brought the card back to Hugo's house. Hugo forgot to put a stamp on the envelope! The card was too late, so he called his grandma and sang 'Happy Birthday' on the phone."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What did the girl forget to bring to school?",
+        "options": [ {"emoji":"📔","label":"diary"}, {"emoji":"📝","label":"form"}, {"emoji":"💳","label":"library card"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Oh no, I've left something at home."}, {"s":"M","t":"Your diary? Mr Green's checking them today."}, {"s":"F","t":"No, my diary's in my bag. And I've got my library card, too."}, {"s":"M","t":"So what is it?"}, {"s":"F","t":"The form for the museum trip. Mum signed it last night, but it's still on the kitchen table!"} ] },
+      { "q": "Which magazine does the boy buy?",
+        "options": [ {"emoji":"🐾","label":"animal magazine"}, {"emoji":"⚽","label":"football magazine"}, {"emoji":"🎮","label":"games magazine"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Are you getting your football magazine again?"}, {"s":"M","t":"I usually do, but it's more expensive this month."}, {"s":"F","t":"What about the games one?"}, {"s":"M","t":"My brother's already bought that, so I can read his. I'll get this one about animals. There's an article about sharks in it."} ] },
+      { "q": "How much is the bill?",
+        "options": [ {"emoji":"💷","label":"£18"}, {"emoji":"💷","label":"£24"}, {"emoji":"💷","label":"£30"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Excuse me, I think there's a mistake on our bill. It says thirty pounds."}, {"s":"F","t":"Let me see. Two pizzas – that's eighteen pounds – and two juices."}, {"s":"M","t":"Yes, but it also says two ice creams. We didn't have any."}, {"s":"F","t":"Oh, I'm sorry. So it's twenty-four pounds, not thirty. I'll bring you a new bill."} ] },
+      { "q": "Where will the girl put the note for her brother?",
+        "options": [ {"emoji":"🚪","label":"on the front door"}, {"emoji":"🧊","label":"on the fridge"}, {"emoji":"🛏️","label":"on his bed"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, I'm going to Anna's. I'll leave a note for Sam on the front door."}, {"s":"M","t":"He always comes in through the garden. Put it on the fridge. He goes there first."}, {"s":"F","t":"There are too many notes on the fridge already. He won't see it."}, {"s":"M","t":"Then put it on his bed. He always throws his school bag there when he gets home."}, {"s":"F","t":"Good idea."} ] },
+      { "q": "What is the girl's history project going to be about?",
+        "options": [ {"emoji":"🏰","label":"castles"}, {"emoji":"🚂","label":"trains"}, {"emoji":"🚢","label":"ships"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Have you chosen a topic for your history project?"}, {"s":"F","t":"I wanted to do castles, but Lucy's already doing that."}, {"s":"M","t":"What about ships? You love the sea."}, {"s":"F","t":"There aren't any good books about ships in the library. I'll do trains. My grandad's got a box of old train tickets, and I can put them in my project."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman from a local newspaper talking to students about a writing competition.",
+      "title": "Young Reporters Competition",
+      "items": [
+        { "label": "Write an article about an interesting:", "answer": ["person"] },
+        { "label": "Maximum number of words:", "answer": ["250", "two hundred and fifty", "two hundred fifty"] },
+        { "label": "Name of the newspaper: The … News", "answer": ["kesworth"] },
+        { "label": "The winner gets a diploma and a:", "answer": ["laptop", "new laptop"] },
+        { "label": "Day the winning article will be in the newspaper:", "answer": ["saturday"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everyone. My name's Helen Shaw, and I work for our local newspaper. I'm here to tell you about our Young Reporters competition. This year, we'd like you to write an article about an interesting person in your town. Last year the topic was buildings, and we got lots of articles about the castle, so we wanted something different! It could be a neighbour, a shop owner or even someone in your family. Your article must be no longer than two hundred and fifty words. Some students sent us five hundred words last year, and we couldn't read them all! You can type it or write it by hand, and send it to us by email or by post. Our newspaper is called The Kesworth News. That's K-E-S-W-O-R-T-H. You'll find our address on the back page. The winner will get a diploma and a new laptop. Last year's winner got a camera, but we think a laptop is more useful for a young reporter. We'll print the winning article in the newspaper on Saturday the twentieth of June. The newspaper usually comes out on Thursdays, but that week we're making a special weekend newspaper. Good luck, everyone!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Nina talking to her friend Leo about a letter from her favourite writer.",
+      "items": [
+        { "q": "How did Nina contact the writer?", "options": ["by email", "by letter", "through her website"], "answer": 1 },
+        { "q": "What did the writer send Nina?", "options": ["a signed book", "a birthday card", "a letter with a drawing"], "answer": 2 },
+        { "q": "How long did Nina wait for an answer?", "options": ["two months", "two weeks", "six months"], "answer": 0 },
+        { "q": "What was the writer's advice?", "options": ["read lots of books", "write in a diary every day", "join a writing club"], "answer": 1 },
+        { "q": "What is Nina going to do this weekend?", "options": ["write an article for the school magazine", "start writing her own book", "send another letter to the writer"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Nina. You look happy!"},
+        {"s":"F","t":"I am! Do you remember I wanted to write to Ruby Hart, the writer of the Moon Island books?"},
+        {"s":"M","t":"Yes. Did you send her an email?"},
+        {"s":"F","t":"I wanted to, but there was no email address on her website. So I wrote her a real letter and sent it to the company that makes her books. I put a birthday card in the envelope too, because it was her birthday that month."},
+        {"s":"M","t":"Nice. When did you send it?"},
+        {"s":"F","t":"In September, so I waited two months. I thought she'd never answer. Then yesterday a big envelope arrived."},
+        {"s":"M","t":"What was in it? A signed book?"},
+        {"s":"F","t":"I hoped so! But no, it was a long letter, and at the bottom she drew a picture of the dragon from Moon Island. It's amazing. I'm going to put it on my bedroom wall."},
+        {"s":"M","t":"Cool. What did she say?"},
+        {"s":"F","t":"I asked her how to become a writer. She said lots of people tell you to read a lot, and that's important, but the best thing is to write in a diary every day – even just a few lines."},
+        {"s":"M","t":"Are you going to do that?"},
+        {"s":"F","t":"I've already started! And Mr Davis wants me to write an article about the letter for the school magazine. I'm doing that this weekend."},
+        {"s":"M","t":"Maybe one day you'll write your own book!"},
+        {"s":"F","t":"Maybe – but not yet!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his mother about a form.", "q": "What does the boy need help with?", "options": ["finding some information", "writing his address", "paying for the club"], "answer": 0,
+        "script": [ {"s":"M","t":"Mum, can you help me with this form for the swimming club? I've already written my name and address."}, {"s":"F","t":"So what's the problem? I've paid for it already."}, {"s":"M","t":"It asks for the name and phone number of our doctor. I don't know them."}, {"s":"F","t":"OK, I'll find them for you after dinner."} ] },
+      { "intro": "You will hear a girl talking about a newspaper article.", "q": "Why did she like the article?", "options": ["It had beautiful photos.", "It was about someone she knows.", "It was very funny."], "answer": 1,
+        "script": [ {"s":"F","t":"Did you see the article in yesterday's newspaper about the old cinema? The photos were OK, but the best part was the interview with Mr Brooks. He lives next door to us! He told them about working at the cinema fifty years ago. I'm going to cut it out and keep it."} ] },
+      { "intro": "You will hear a man talking to a waitress in a café.", "q": "What is the problem?", "options": ["The menu is not in English.", "He has the wrong bill.", "His food is cold."], "answer": 1,
+        "script": [ {"s":"M","t":"Excuse me. I don't think this bill is mine. I only had a cheese sandwich and a coffee, but this says two burgers and a milkshake."}, {"s":"F","t":"Oh, I'm so sorry. That's for the table by the window. Here's yours."}, {"s":"M","t":"Thank you. And the sandwich was lovely."} ] },
+      { "intro": "You will hear a teacher talking to her class about their projects.", "q": "What is the teacher doing?", "options": ["giving the class more time", "explaining how to find information", "telling students what their projects must have"], "answer": 2,
+        "script": [ {"s":"F","t":"Remember, your projects about famous people are due on Friday. Every project must have at least three pictures and a list of the books and websites you used. If it doesn't have these, I can't give you a good mark. No, Tom, I'm sorry, I can't give you more time. Friday is the last day."} ] },
+      { "intro": "You will hear two friends talking about a magazine.", "q": "What does the girl think about the magazine now?", "options": ["It's more expensive than before.", "It has too many advertisements.", "It isn't as interesting as before."], "answer": 2,
+        "script": [ {"s":"M","t":"Are you still buying Pop Teen every week?"}, {"s":"F","t":"No, I stopped last month. It's the same price as before, and there aren't more adverts than in other magazines. But all the articles are about the same three singers now. It's boring."}, {"s":"M","t":"Oh, I didn't know that."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Tom talking to his mum about the post. What did each person get?",
+      "people": ["Dad", "Grandma", "Tom's sister Lucy", "Mum", "Tom"],
+      "options": ["bill", "birthday card", "letter from school", "magazine", "newspaper", "postcard", "ticket", "driving licence"],
+      "answers": ["A", "F", "D", "H", "G"],
+      "script": [
+        {"s":"M","t":"Mum, the post's here! There's lots today."},
+        {"s":"F","t":"Great. Is there anything for me? I'm waiting for my new driving licence."},
+        {"s":"M","t":"Yes, this one's for you. It says 'Driving Licence' on the envelope."},
+        {"s":"F","t":"Finally! Now I can drive again. What else?"},
+        {"s":"M","t":"This one's for Dad. It looks like a bill."},
+        {"s":"F","t":"Oh dear. It's probably the phone bill. He won't be happy."},
+        {"s":"M","t":"And here's a postcard for Grandma. It's got a picture of Rome on it."},
+        {"s":"F","t":"That's from her friend Maria. She's on holiday in Italy. Is there a birthday card for Grandma, too? It's her birthday next week."},
+        {"s":"M","t":"No, nothing else for Grandma. Here's Lucy's magazine – the one about horses. She gets it every month."},
+        {"s":"F","t":"She'll be pleased. Anything from school? They said they'd send a letter about the trip."},
+        {"s":"M","t":"No, nothing from school. And the newspaper isn't here yet."},
+        {"s":"F","t":"It always comes later on Saturdays."},
+        {"s":"M","t":"Oh, and look – this one's for me! It's my ticket for the concert in May!"},
+        {"s":"F","t":"Lucky you! Is that everything?"},
+        {"s":"M","t":"There's just an advertisement for a new pizza restaurant. Shall I put it in the bin?"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Reading", "questions": ["Do you read magazines or newspapers?", "What was the last book you read?"], "extended": "Please tell me something about your favourite book or magazine." },
+        { "topic": "Writing", "questions": ["Do you write a diary?", "Who do you send messages to?"], "extended": "Please tell me something about the things you write at school." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things people read. Do you like reading these different things? Say why or why not.",
+      "pictures": [ {"emoji":"📰","label":"newspaper"}, {"emoji":"📖","label":"story book"}, {"emoji":"📚","label":"magazine"}, {"emoji":"🖼️","label":"postcard from a friend"}, {"emoji":"📱","label":"messages on a phone"} ],
+      "prompts": ["Do you think reading newspapers is interesting?", "Is reading story books fun?", "Do you think magazines are better than books?", "Is it nice to get a postcard from a friend?", "Which of these things do you like reading best?"],
+      "followup": ["Do you prefer reading on paper or on a screen? Why?", "Do you think young people read enough?", "Would you like to write an article for a magazine? Why or why not?", "Have you got a passport or a student card? When do you use it?"],
+      "usefulLanguage": ["I think ... is interesting because ...", "I don't like reading ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "t19-1", "topic": "19", "testNo": 1,
+  "title": "Shopping in the Sales",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "HARRISON'S DEPARTMENT STORE", "text": "Winter sale starts on Saturday!\nEverything half price.\nThe store will open at 8 a.m. – one hour earlier than usual.",
+        "options": ["The store usually opens at 9 a.m.", "The sale finishes on Saturday.", "Only winter clothes are cheaper in the sale."], "answer": 0 },
+      { "kind": "message", "header": "From: Jess  To: Mum", "text": "Mum, I've found some trainers I really like, but they cost £45 and I've only got £30 with me. Can I borrow the rest? I'll pay you back from my birthday money.",
+        "options": ["Jess wants her mum to buy her the trainers as a present.", "Jess needs £15 more to buy the trainers.", "Jess has already bought some trainers."], "answer": 1 },
+      { "kind": "notice", "header": "CHANGING ROOMS", "text": "You can try on up to 4 things at a time.\nPlease give any clothes you don't want to the shop assistant.",
+        "options": ["Customers must buy the clothes they try on.", "You should put clothes back on the shelves yourself.", "An assistant will take the clothes you decide not to buy."], "answer": 2 },
+      { "kind": "notice", "header": "BROWN'S BOOKSHOP", "text": "Buy 2 books and get a third one free!\n(The free book is always the one with the lowest price.)",
+        "options": ["You get the cheapest of the three books for nothing.", "All the books in the shop cost the same price.", "You have to buy three books to get a free one."], "answer": 0 },
+      { "kind": "message", "header": "From: Tom  To: Grandad", "text": "Grandad, the shop in town doesn't take cheques any more – only cash or credit cards. Shall I pay with my card and you give me the money later?",
+        "options": ["Tom wants to borrow Grandad's credit card.", "The shop only takes cheques.", "Grandad can't pay in his usual way at the shop."], "answer": 2 },
+      { "kind": "sign", "header": "FRESHWAY SUPERMARKET", "text": "Closed on 25th and 26th December.\nOpen until 10 p.m. every other day of the holidays.",
+        "options": ["The supermarket closes early during the holidays.", "You can go shopping late on most days of the holidays.", "The supermarket is open on 26th December."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about something they bought with their own money.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Kofi", "text": "I bought my guitar from a second-hand shop near the market. It wasn't new, of course, but it only cost sixty pounds – a new one is about two hundred! I spent all the money I got for washing my neighbours' cars. The shop assistant was really helpful and showed me how to play my first song. Now I play every day, and I'm in a band with my cousins." },
+        { "label": "B", "title": "Anya", "text": "My favourite thing is a red jacket from a department store in the city. I saw it in an advertisement and loved it, but it was too expensive. So I waited for the sale, and then I bought it for half price with my birthday money. I wear it almost every day. My sister always wants to borrow it, but I never say yes!" },
+        { "label": "C", "title": "Lan", "text": "I love reading, so I spend most of my pocket money in the bookshop on my street. Last month I bought a beautiful book about the history of art. It was expensive, but it was worth it. The owner knows me well now and tells me when new books arrive. One day I'd like to have my own bookshop and sell books to customers like me." }
+      ],
+      "items": [
+        { "q": "Who paid with money they earned by working?", "answer": "A" },
+        { "q": "Who first saw the thing they wanted in an advertisement?", "answer": "B" },
+        { "q": "Who was shown how to use the thing they bought?", "answer": "A" },
+        { "q": "Who waited until the price went down?", "answer": "B" },
+        { "q": "Who would like to have the same job as the person who sells to them?", "answer": "C" },
+        { "q": "Who won't let a family member use the thing they bought?", "answer": "B" },
+        { "q": "Who hears about new things from a shop?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "A month without shopping",
+      "text": "Thirteen-year-old Ella Morgan loves shopping. \"Every Saturday I went into town with my friends and spent all my pocket money,\" she says. \"Clothes, make-up, snacks – I bought something every week. But I never had money for important things.\"\n\nSo in January, Ella tried something new: for a whole month, she didn't buy anything except bus tickets. \"It was my dad's idea. He read about it in a magazine and said it would be good for me. I thought, why not?\"\n\nThe first week was the hardest. \"My friends went to the new department store, and I went with them. But I left my purse at home, so I couldn't buy anything! I felt a bit sad watching them pay for things.\"\n\nThen Ella found other things to do. She swapped clothes with her cousin, and she borrowed books from the library instead of buying them at the bookshop. \"I also learned to make cakes, which is much cheaper than buying them at the café.\"\n\nAt the end of the month, Ella had saved forty pounds. \"I spent some of it on a present for my mum's birthday, and I put the rest in the bank. I'm saving for a new bike.\"\n\nElla still goes shopping, but she thinks more before she spends her money now. \"Before, I bought lots of things I didn't really need. Now I always ask myself: do I really want this?\"",
+      "items": [
+        { "q": "Why did Ella decide to stop shopping for a month?", "options": ["A friend asked her to try it.", "Her father suggested it.", "She read about it in a magazine."], "answer": 1 },
+        { "q": "What happened in the first week?", "options": ["She went to the shops but didn't take any money.", "She stopped meeting her friends.", "She bought presents for her friends."], "answer": 0 },
+        { "q": "How did Ella get new books to read?", "options": ["She bought them cheaply.", "Her cousin gave them to her.", "She borrowed them."], "answer": 2 },
+        { "q": "What did Ella do with the money she saved?", "options": ["She bought a new bike.", "She spent part of it and kept the rest.", "She gave all of it to her mum."], "answer": 1 },
+        { "q": "How is Ella different now?", "options": ["She never goes shopping.", "She only goes shopping with her parents.", "She thinks carefully before she buys things."], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "The first supermarket",
+      "text": "Before supermarkets, people did their shopping in small shops. They {19} the shop assistant what they wanted, and the assistant got everything from the shelves for them. This took a long time.\n\nIn 1916, a man called Clarence Saunders opened a new kind of shop in Memphis, USA. It was called Piggly Wiggly. For the first time, customers could {20} their own food from the shelves and put it in a basket. Then they paid at the door before they left. Prices were {21} because the store didn't need so many assistants.\n\nThe idea quickly became popular. By the 1950s, there were large supermarkets in many countries, and people could {22} everything they needed in one place.\n\nToday, some supermarkets don't even have assistants at the checkout – shoppers {23} for their food themselves at a machine. And many people now {24} their shopping online and get it delivered to their homes.",
+      "items": [
+        { "options": ["told", "said", "spoke"], "answer": 0 },
+        { "options": ["decide", "choose", "want"], "answer": 1 },
+        { "options": ["lower", "smaller", "fewer"], "answer": 0 },
+        { "options": ["look", "search", "find"], "answer": 2 },
+        { "options": ["spend", "cost", "pay"], "answer": 2 },
+        { "options": ["make", "do", "go"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Mia  To: Hoa", "text": "Hi Hoa,\nIt's my brother's birthday next week and I want to buy him something nice. Can you come shopping with me {25} Saturday? I don't know {26} to get him. He likes football, so maybe a T-shirt? I can't spend more {27} twenty pounds.\nMia" },
+        { "header": "From: Hoa  To: Mia", "text": "Hi Mia,\nSure! There's a sports shop in the shopping centre {28} has a sale at the moment. I bought some trainers there last week and {29} were really cheap. We {30} meet at the bus stop at ten. Don't forget to bring cash – the shop doesn't take cards!\nHoa" }
+      ],
+      "answers": [ ["on", "this", "next"], ["what"], ["than"], ["that", "which"], ["they"], ["can", "could", "will", "should"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You went shopping yesterday. Write an email to your English friend, Chris.",
+      "points": ["say where you went shopping", "tell Chris what you bought", "explain why you liked it"],
+      "model": "Hi Chris,\nYesterday I went shopping at the new department store in town with my mum. I bought a pair of blue jeans and a black T-shirt. I liked the jeans because they were really comfortable and not too expensive.\nAnna"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🧥🏷️😮", "caption": "a girl looks at a green coat with a high price in a shop window" },
+        { "emoji": "🐷💰📅", "caption": "the girl at home putting coins into a money box; a calendar shows several weeks" },
+        { "emoji": "🏷️🧥😃", "caption": "the girl back at the shop; the coat now has a 'half price' sign" }
+      ],
+      "model": "One day Mai saw a beautiful green coat in a shop window, but it cost eighty pounds. She didn't have enough money, so she started saving her pocket money every week. After two months, she went back to the shop. The coat was in the sale for only forty pounds! She bought it and was very happy."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What did the boy buy?",
+        "options": [ {"emoji":"🧢","label":"cap"}, {"emoji":"🧦","label":"socks"}, {"emoji":"👕","label":"T-shirt"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Did you find anything at the shops, Joe?"}, {"s":"M","t":"I wanted a new T-shirt, but they were all too expensive. So I just got this cap. It was only eight pounds."}, {"s":"F","t":"Nice! And did you get the socks for Dad's birthday?"}, {"s":"M","t":"Oh no, I forgot! I'll go back tomorrow."} ] },
+      { "q": "How much did the girl pay for her book?",
+        "options": [ {"emoji":"📕","label":"£6"}, {"emoji":"📕","label":"£9"}, {"emoji":"📕","label":"£12"} ], "answer": 1,
+        "script": [ {"s":"M","t":"That's a nice book. Was it expensive?"}, {"s":"F","t":"The price on the back says twelve pounds, but there was a sale at the bookshop."}, {"s":"M","t":"So how much did you pay?"}, {"s":"F","t":"Nine pounds. My friend bought the same book online for six, but she had to wait a week for it."} ] },
+      { "q": "How will the woman pay?",
+        "options": [ {"emoji":"💵","label":"cash"}, {"emoji":"💳","label":"credit card"}, {"emoji":"📝","label":"cheque"} ], "answer": 0,
+        "script": [ {"s":"M","t":"That's thirty-two pounds fifty, please. Would you like to pay by card?"}, {"s":"F","t":"I usually do, but my credit card isn't working today. Can I pay by cheque?"}, {"s":"M","t":"Sorry, we don't take cheques any more."}, {"s":"F","t":"Then I'll pay in cash. Here's forty pounds."}, {"s":"M","t":"Thank you. And here's your change."} ] },
+      { "q": "Where is the shoe shop?",
+        "options": [ {"emoji":"🏦","label":"next to the bank"}, {"emoji":"🛒","label":"opposite the supermarket"}, {"emoji":"🏬","label":"in the department store"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Excuse me, is there a shoe shop near here?"}, {"s":"M","t":"There was one next to the bank, but it closed last month. There's one in the department store now, on the second floor."}, {"s":"F","t":"Is that the big store opposite the supermarket?"}, {"s":"M","t":"No, that's a café. The department store is at the end of this street."} ] },
+      { "q": "What time does the computer shop open on Sundays?",
+        "options": [ {"emoji":"🕙","label":"10:00"}, {"emoji":"🕚","label":"11:00"}, {"emoji":"🕛","label":"12:00"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Mum, can we go to the computer shop on Sunday? I want to buy a new game."}, {"s":"F","t":"OK, but it doesn't open at nine like on weekdays. I think it opens at ten."}, {"s":"M","t":"I checked on their website. It opens at eleven on Sundays and closes at four."}, {"s":"F","t":"Fine. We'll go before lunch, then. Lunch is at twelve."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear an announcement in a department store.",
+      "title": "Kingsley's Summer Sale",
+      "items": [
+        { "label": "Last day of the sale:", "answer": ["sunday"] },
+        { "label": "Price of a school bag now: £", "answer": ["15", "fifteen"] },
+        { "label": "Free with every pair of shoes:", "answer": ["socks", "a pair of socks", "pair of socks"] },
+        { "label": "The café is on floor:", "answer": ["4", "four", "fourth", "4th"] },
+        { "label": "The store closes tonight at: (p.m.)", "answer": ["7.30", "7:30", "half past seven", "seven thirty"] }
+      ],
+      "script": [ {"s":"F","t":"Good morning, shoppers, and welcome to Kingsley's Department Store. Our big summer sale has started! It's on until Sunday – not next Wednesday, as it said in some of our advertisements – so don't wait too long. On the second floor you'll find everything you need for the new school year. School bags were thirty pounds, but now they're only fifteen pounds. School shoes are cheaper too, and if you buy any pair of shoes today, you'll get a free pair of socks. Sorry, but the free umbrellas finished yesterday. When you're tired of shopping, why not visit our café? It's on the fourth floor, and it has great views of the city. Try our chocolate cake – it's only two pounds fifty. And please remember that the store is closing earlier than usual tonight, at half past seven, not at nine o'clock. Thank you for shopping at Kingsley's!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Ben talking to his sister Amy about a birthday present for their mum.",
+      "items": [
+        { "q": "How much money have Ben and Amy got together?", "options": ["£20", "£30", "£25"], "answer": 2 },
+        { "q": "Why don't they buy Mum a scarf?", "options": ["It costs too much.", "Mum has lots of scarves.", "The shop has closed."], "answer": 0 },
+        { "q": "What are they going to buy?", "options": ["a book", "a plant", "a necklace"], "answer": 1 },
+        { "q": "When are they going to go shopping?", "options": ["after school today", "on Sunday afternoon", "on Saturday morning"], "answer": 2 },
+        { "q": "What is Ben going to make for Mum?", "options": ["a cake", "a card", "breakfast"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"M","t":"Amy, it's Mum's birthday next week. We need to buy her a present. I've got fifteen pounds. How much have you got?"},
+        {"s":"F","t":"Ten pounds. So that's twenty-five altogether."},
+        {"s":"M","t":"Grandma said she'd give us five more, but she forgot."},
+        {"s":"F","t":"Never mind. What about a scarf? I saw a lovely one in the department store."},
+        {"s":"M","t":"I saw it too. It was forty pounds! That's much more than we've got."},
+        {"s":"F","t":"Oh. Well, what about a book? She loves cooking."},
+        {"s":"M","t":"She got two cookbooks for Christmas. What about a plant for her office? There's a flower shop next to the bank, and their prices are good."},
+        {"s":"F","t":"Perfect! She always says her office is boring. Dad wanted to buy her a necklace, so a plant is a good idea from us."},
+        {"s":"M","t":"Let's go after school today."},
+        {"s":"F","t":"I can't, I've got swimming. And the flower shop is closed on Sundays. What about Saturday morning?"},
+        {"s":"M","t":"OK, Saturday morning. Shall we make her a birthday card too?"},
+        {"s":"F","t":"Yes. And I'll make a cake."},
+        {"s":"M","t":"You always burn cakes! I'll make the cake this year. You can make the card."},
+        {"s":"F","t":"Fine!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to a shop assistant.", "q": "Why does she want to bring back the jumper?", "options": ["It's the wrong size.", "There's something wrong with it.", "She doesn't like the colour."], "answer": 1,
+        "script": [ {"s":"F","t":"Hi. I bought this jumper here last week, but I'd like to bring it back."}, {"s":"M","t":"Is there a problem? Is it too small?"}, {"s":"F","t":"No, it fits fine, and I love the colour. But look – there's a hole in the arm."}, {"s":"M","t":"Oh dear, I'm sorry. Would you like your money back, or a new one?"} ] },
+      { "intro": "You will hear a boy talking about a new supermarket.", "q": "What does he say about it?", "options": ["It sells food from many countries.", "It's cheaper than other shops.", "It's open all night."], "answer": 0,
+        "script": [ {"s":"M","t":"The new supermarket near my house is great. It isn't cheap – some things cost more than at the market. And it closes at ten, like the other supermarkets. But you can buy food from everywhere – Japanese noodles, Mexican sauces, French cheese. My mum loves cooking, so she's really happy."} ] },
+      { "intro": "You will hear a woman talking to a shop assistant.", "q": "What does the woman want?", "options": ["to try on a dress", "to find a different colour", "to know the price of something"], "answer": 2,
+        "script": [ {"s":"F","t":"Excuse me. This dress is lovely, but there isn't a price on it."}, {"s":"M","t":"It's thirty-five pounds. Would you like to try it on? The changing rooms are over there."}, {"s":"F","t":"Not now, thanks. I just wanted to know how much it costs. I'll come back with my daughter on Saturday."} ] },
+      { "intro": "You will hear two friends talking about shopping.", "q": "Why does the boy prefer going to the shops?", "options": ["Things are cheaper there.", "He can go with his friends.", "He gets things more quickly."], "answer": 1,
+        "script": [ {"s":"F","t":"Do you buy things online?"}, {"s":"M","t":"Not much. Things are often cheaper online, and they arrive quickly, too."}, {"s":"F","t":"So why don't you?"}, {"s":"M","t":"I like going into town with my friends on Saturdays. We look in all the shops and have lunch together. Shopping online on your own isn't fun."} ] },
+      { "intro": "You will hear an announcement in a supermarket.", "q": "Why is the man speaking to the customers?", "options": ["to tell them about special offers", "to ask them to move their cars", "to tell them the shop is closing soon"], "answer": 2,
+        "script": [ {"s":"M","t":"Attention please, shoppers. The store will close in fifteen minutes, at eight o'clock. Please take your shopping to the checkout now. Customers who are in the car park, please remember the gates close at quarter past eight. We'll be open again tomorrow morning at seven. Thank you for shopping with us."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Sara talking to her friend Jake about a shopping trip. What did each person buy?",
+      "people": ["Sara's mum", "Sara's dad", "Sara's brother", "Sara's grandmother", "Sara"],
+      "options": ["boots", "computer game", "dictionary", "jeans", "necklace", "plant", "sunglasses", "watch"],
+      "answers": ["A", "H", "B", "F", "D"],
+      "script": [
+        {"s":"M","t":"Hi Sara. Did you have a good time in town on Saturday?"},
+        {"s":"F","t":"Yes, the whole family went to the new shopping centre. Everyone bought something!"},
+        {"s":"M","t":"What did your mum get?"},
+        {"s":"F","t":"She wanted some sunglasses for our holiday, but they were all too expensive. So she bought some brown boots in the sale instead. They were half price!"},
+        {"s":"M","t":"Nice. And your dad?"},
+        {"s":"F","t":"His old watch stopped working, so he got a new one in the department store. He paid in cash because he forgot his credit card."},
+        {"s":"M","t":"What about your brother? Did he buy a dictionary for school? Your mum said he needed one."},
+        {"s":"F","t":"He was supposed to! But he spent all his money on a computer game. Mum wasn't very happy."},
+        {"s":"M","t":"Ha! Did your grandma come too?"},
+        {"s":"F","t":"Yes. I thought she'd buy a necklace – she looked at them for ages. But in the end she bought a plant for her kitchen."},
+        {"s":"M","t":"And you?"},
+        {"s":"F","t":"I tried on about ten pairs of jeans! Finally I found some I liked. They cost twenty-five pounds."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Shopping", "questions": ["Who do you usually go shopping with?", "What's your favourite shop?"], "extended": "Please tell me something about the last time you went shopping." },
+        { "topic": "Clothes", "questions": ["What clothes do you like wearing at the weekend?", "Do you like trying on clothes in shops?"], "extended": "Please tell me something about your favourite clothes." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different places to go shopping. Do you like shopping in these different places? Say why or why not.",
+      "pictures": [ {"emoji":"🏬","label":"department store"}, {"emoji":"🧺","label":"market"}, {"emoji":"🛒","label":"supermarket"}, {"emoji":"💻","label":"shopping online"}, {"emoji":"📚","label":"bookshop"} ],
+      "prompts": ["Do you think shopping in a department store is fun?", "Are markets good places to find cheap things?", "Do you think going to the supermarket is boring?", "Is shopping online easy?", "Which of these places do you like best?"],
+      "followup": ["Do you prefer shopping alone or with friends? Why?", "Do you think young people spend too much money on clothes?", "What would you buy if you had fifty pounds?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like shopping at ... because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

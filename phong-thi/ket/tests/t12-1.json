@@ -1,0 +1,188 @@
+{
+  "id": "t12-1", "topic": "12", "testNo": 1,
+  "title": "Moving into a New Home",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SWIMMING POOL – CHANGING ROOMS", "text": "Please take your towel home with you.\nTowels left here after 6 p.m. will go in the lost property box by the entrance.",
+        "options": ["You can borrow a towel at the entrance.", "The changing rooms close at 6 p.m.", "Towels that people forget will be kept near the door."], "answer": 2 },
+      { "kind": "message", "header": "From: Dad  To: Linh", "text": "Linh, I'm working late tonight. The front door key is under the plant next to the gate. Please close the living room curtains when it gets dark.",
+        "options": ["Linh needs to do something when it gets dark.", "Linh's dad has lost his key.", "Linh must wait at the gate for her dad."], "answer": 0 },
+      { "kind": "notice", "header": "FLAT TO RENT", "text": "Two-bedroom flat on the third floor.\nNew kitchen with fridge and cooker.\nNo garden, but there is a garage.\nCall 0161 455 2390.",
+        "options": ["There is somewhere outside to sit and relax.", "You can park a car at the flat.", "The kitchen needs some new things."], "answer": 1 },
+      { "kind": "email", "header": "From: Aunt Sue  To: Jamie", "text": "Jamie, you're welcome to stay with us next weekend! You can sleep on the sofa in the sitting room – it's very comfortable. Bring your own pillow if you like.",
+        "options": ["Jamie can bring something from home to sleep on.", "Jamie will have his own bedroom.", "Aunt Sue's sofa isn't very comfortable."], "answer": 0 },
+      { "kind": "sign", "header": "CAMPSITE SHOWERS", "text": "Hot water takes about two minutes to arrive.\nPlease turn off the shower after use and hang your towel outside to dry.",
+        "options": ["The water in the showers is always cold.", "You must bring your own towel.", "You have to wait a short time for hot water."], "answer": 2 },
+      { "kind": "note", "header": "From: Mum  To: Oscar", "text": "Oscar, Grandpa is coming for dinner tonight. Please tidy your bedroom and put your books back on the shelf. I'll clean the dining room.",
+        "options": ["Mum wants Oscar to cook dinner.", "Oscar has to put some things away.", "Grandpa is going to stay the night."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their bedrooms.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Sofia", "text": "I share my bedroom with my younger sister, Ana. It isn't very big, so we have bunk beds – I sleep at the top. We have only one desk, so we take turns to use it for homework. The walls are yellow, and Mum made us curtains with flowers on them. Sometimes Ana is noisy when I want to read, but at night we tell each other stories and laugh a lot." },
+        { "label": "B", "title": "Kenji", "text": "My bedroom is at the top of our house, under the roof. Last summer Dad and I painted the walls blue together and put up shelves for all my books and model cars. My favourite thing is the big window – I can see the whole town from my bed! In winter it gets quite cold up there, though, because the heating doesn't work very well." },
+        { "label": "C", "title": "Mai", "text": "We moved into a new apartment last month, and for the first time in my life I have my own room. It's small, but it's mine! I chose a grey carpet and a lamp that looks like the moon. I haven't got much furniture yet – just a bed, a chair and a cupboard for my clothes. Next month my grandma is going to give me her old desk." }
+      ],
+      "items": [
+        { "q": "Who has to share something with another person?", "answer": "A" },
+        { "q": "Who painted their room with a family member?", "answer": "B" },
+        { "q": "Who is waiting to get a piece of furniture?", "answer": "C" },
+        { "q": "Who complains about the temperature in their room?", "answer": "B" },
+        { "q": "Who has never had a bedroom of their own before?", "answer": "C" },
+        { "q": "Who has something in their room that a family member made?", "answer": "A" },
+        { "q": "Who enjoys what they can see from their room?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "My home is a boat!",
+      "text": "Fourteen-year-old Ellie Morgan doesn't live in a house or a flat. For the last two years, her home has been a long, narrow boat on a river near Oxford.\n\n\"My parents always wanted to try living on the water,\" says Ellie. \"When my dad got a new job that he could do from home, they decided to sell our house and buy the boat. I was nervous at first because I didn't want to leave my friends, but I still go to the same school. I just take a different bus!\"\n\nThe boat is only two metres wide, so there isn't much space. The kitchen, the living room and the bathroom are all very small. \"We've got a tiny cooker and a fridge, and the shower is so small that you can't turn round in it,\" Ellie laughs. \"We had to sell most of our furniture. I only kept my bed and one shelf of books.\"\n\nEllie's favourite place is the roof. \"In summer, we grow tomatoes and flowers up there in boxes. It's our garden! I often sit there and do my homework.\"\n\nWinter is harder. \"There isn't any gas heating, so we burn wood to keep warm. Some mornings it's really cold when I get up.\"\n\nDoes Ellie want to live in a house again? \"Maybe when I'm older,\" she says. \"But for now, I love waking up and seeing ducks outside my bedroom window. And every few weeks we move the boat, so I get a new view – and a new address!\"",
+      "items": [
+        { "q": "Why did Ellie's family move onto a boat?", "options": ["Ellie wanted to live nearer her school.", "Ellie's dad started working from home.", "Their old house was too expensive."], "answer": 1 },
+        { "q": "What does Ellie say about the shower?", "options": ["It doesn't have hot water.", "It is next to the kitchen.", "There isn't much room in it."], "answer": 2 },
+        { "q": "What does Ellie use the roof for?", "options": ["studying and growing plants", "sleeping on hot nights", "keeping her books"], "answer": 0 },
+        { "q": "What is difficult about winter on the boat?", "options": ["The river is too cold for swimming.", "There is no wood to burn.", "It can be cold early in the day."], "answer": 2 },
+        { "q": "What does Ellie like about life on the boat?", "options": ["She has more space than before.", "She enjoys what she sees from her window.", "Her friends often come to stay."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "Houses with grass roofs",
+      "text": "In Norway, you can still see many old houses with grass on the {19}. People started building homes like this hundreds of years ago. First they put pieces of wood on top of the house, and then they covered them {20} grass and earth.\n\nThese roofs were very useful. In winter, the grass {21} the heat inside, so the rooms stayed warm without much heating. In summer, it kept the house cool. The roofs were also strong and could {22} for many years. Some families even let their goats climb up and eat the grass, so they never had to cut it!\n\nToday, grass roofs are becoming popular again, not only in Norway but in many other countries too. Builders say they are good for the environment because birds and insects can {23} there. If you want to {24} one of these old houses, there are some in a museum near Oslo where you can walk through the kitchens and bedrooms.",
+      "items": [
+        { "options": ["roof", "wall", "floor"], "answer": 0 },
+        { "options": ["by", "with", "of"], "answer": 1 },
+        { "options": ["stopped", "stayed", "kept"], "answer": 2 },
+        { "options": ["last", "pass", "spend"], "answer": 0 },
+        { "options": ["keep", "live", "put"], "answer": 1 },
+        { "options": ["go", "travel", "visit"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Hana  To: Leo", "text": "Hi Leo,\nWe moved into our new house {25} Saturday! It's much bigger {26} our old flat. My bedroom is upstairs and it has {27} own bathroom with a shower. Can you come and see it next weekend? You can stay the night if you want.\nHana" },
+        { "header": "From: Leo  To: Hana", "text": "Hi Hana,\nThat's great news! I'd love to come. {28} you got a garden? I could bring my football. My mum {29} drive me there on Saturday morning. What's your new address? Send it to me and I'll put it {30} her phone.\nLeo" }
+      ],
+      "answers": [ ["on", "last"], ["than"], ["its"], ["have"], ["will", "can", "could", "might"], ["in", "into", "on"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You have just changed things in your bedroom. Write an email to your English friend, Sam.",
+      "points": ["say what you changed in your bedroom", "explain why you changed it", "tell Sam what you want to buy for your room next"],
+      "model": "Hi Sam,\nLast weekend I changed my bedroom! I moved my bed next to the window and put my desk near the door. Now I have more space for my homework. Next, I want to buy a new lamp.\nNam"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🎒🚪", "caption": "a girl outside her front door looking in her school bag; no key" },
+        { "emoji": "🌧️🏡😟", "caption": "the girl sitting on a step in the garden near the gate in the rain, looking sad" },
+        { "emoji": "👴☕🧣", "caption": "an old neighbour giving the girl a towel and a hot drink in his kitchen" }
+      ],
+      "model": "Last Tuesday, Anna came home from school, but she couldn't find her key in her bag. Her parents were at work, so she sat in the garden and waited. Then it started to rain. Her neighbour, Mr Brown, saw her and invited her into his kitchen. He gave her a towel and a hot drink until her mum came home."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Where are the boy's keys?",
+        "options": [ {"emoji":"🛋️","label":"on the sofa"}, {"emoji":"🚪","label":"on the hall table"}, {"emoji":"🛁","label":"in the bathroom"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Mum, I'm late for school and I can't find my keys. Did you put them on the table in the hall?"}, {"s":"F","t":"No, I didn't touch them. Have you looked on the sofa? You were watching TV there last night."}, {"s":"M","t":"I've looked everywhere in the living room. They're not there."}, {"s":"F","t":"Wait – I can see them. They're in the bathroom, next to the towels. You left them there when you had a shower!"}, {"s":"M","t":"Thanks, Mum!"} ] },
+      { "q": "Which room does the girl like best in her new flat?",
+        "options": [ {"emoji":"🛏️","label":"her bedroom"}, {"emoji":"🍳","label":"the kitchen"}, {"emoji":"🍽️","label":"the dining room"} ], "answer": 0,
+        "script": [ {"s":"M","t":"So how's the new flat, Lisa? Do you like it?"}, {"s":"F","t":"It's lovely. The kitchen's really big, so Mum's happy – she loves cooking."}, {"s":"M","t":"And is there a dining room?"}, {"s":"F","t":"Yes, it's nice, but we only eat there at weekends. My bedroom is the best room, though. It's got a huge window and lots of shelves. I spend all my time there!"} ] },
+      { "q": "What did the boy buy for his room?",
+        "options": [ {"emoji":"🪟","label":"curtains"}, {"emoji":"🕰️","label":"clock"}, {"emoji":"💡","label":"lamp"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Did you find anything at the furniture shop, Sam?"}, {"s":"M","t":"Yes! I wanted some new curtains, but they were too expensive."}, {"s":"F","t":"What about a lamp for your desk?"}, {"s":"M","t":"My dad's going to give me his old one. So I bought a clock for the wall. It looks like a football!"}, {"s":"F","t":"That sounds great."} ] },
+      { "q": "Which is the girl's house?",
+        "options": [ {"emoji":"🏠","label":"house with a garage"}, {"emoji":"🏡","label":"house with a blue gate"}, {"emoji":"🏪","label":"flat above a shop"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Hi Rosa, I'm in your street, but I can't find your house. Is it the one with the garage?"}, {"s":"F","t":"No, that's my neighbour's. Ours hasn't got a garage. Look for the blue gate."}, {"s":"M","t":"Oh, I see it. Is it next to the shop?"}, {"s":"F","t":"Yes. The flat above the shop is my cousin's, and we're the house next to it. Come in – the door's open!"} ] },
+      { "q": "What does the father want the boy to do?",
+        "options": [ {"emoji":"🥣","label":"wash the bowls"}, {"emoji":"🛏️","label":"make his bed"}, {"emoji":"🧹","label":"clean the floor"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Dad, can I go to Tom's house now?"}, {"s":"M2","t":"Not yet. Have you made your bed?"}, {"s":"M","t":"Yes, I did it after breakfast. And I cleaned my bedroom floor yesterday."}, {"s":"M2","t":"OK, good. But there are still some dirty bowls in the kitchen. Wash those first, please, and then you can go."}, {"s":"M","t":"Oh, all right."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about a trip to a farmhouse museum.",
+      "title": "Trip to Hilltop Farmhouse Museum",
+      "items": [
+        { "label": "Day of trip:", "answer": ["friday"] },
+        { "label": "Meet in the school:", "answer": ["hall"] },
+        { "label": "Bus leaves at:", "answer": ["8.45", "8:45", "quarter to nine", "a quarter to nine"] },
+        { "label": "In the kitchen, students will make:", "answer": ["bread"] },
+        { "label": "Guide's name: Mrs", "answer": ["oakley"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everyone. I want to tell you about our trip to Hilltop Farmhouse, a museum that shows how families lived two hundred years ago. We planned to go on Thursday, but the museum is closed that day, so we're going on Friday instead. Please don't come to the classroom that morning. We'll all meet in the school hall, because it's bigger. The bus arrives at half past eight, and we'll leave at quarter to nine. Don't be late – the bus won't wait! At the farmhouse, you'll see all the rooms. The bedrooms are very small and there's no bathroom – people washed in a big bowl! But the best room is the kitchen. There's no fridge or cooker, just a big fire. You won't cook soup, because that takes too long, but you'll make bread, and you can take it home with you. Our guide for the day is Mrs Oakley. That's O-A-K-L-E-Y. She lived on the farm when she was a child, so she knows lots of stories about the house. Bring a packed lunch and a warm coat, because the old house has no heating and it's very cold inside."} ]
+    },
+    "part3": {
+      "intro": "You will hear Jack talking to his friend Mia about moving house.",
+      "items": [
+        { "q": "Why is Jack's family moving?", "options": ["His mum has a new job in another town.", "They need more bedrooms.", "They want a garden for their dog."], "answer": 2 },
+        { "q": "When is the family moving?", "options": ["this weekend", "next Saturday", "in two weeks"], "answer": 1 },
+        { "q": "What will Mia help Jack with?", "options": ["putting books into boxes", "carrying furniture", "cleaning the kitchen"], "answer": 0 },
+        { "q": "What does Jack like most about the new house?", "options": ["His bedroom is bigger.", "It is closer to school.", "It has a room for playing games."], "answer": 2 },
+        { "q": "What is Jack going to do now?", "options": ["write down his new address", "phone his uncle", "order a pizza"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Jack. Is it true that you're moving house?"},
+        {"s":"M","t":"Yes, it is. But don't worry, we're staying in the same town."},
+        {"s":"F","t":"Oh good! I thought your mum had a new job somewhere else."},
+        {"s":"M","t":"No, she's still working at the hospital. And our flat has enough bedrooms. But we got a dog last year, and he really needs a garden. The new house has a big one."},
+        {"s":"F","t":"Great. So are you moving this weekend?"},
+        {"s":"M","t":"We wanted to, but the van wasn't free. So it's next Saturday. Then I'll have two weeks to get my room ready before school starts."},
+        {"s":"F","t":"Can I help?"},
+        {"s":"M","t":"That would be great. Dad and my uncle are going to carry the furniture, and Mum's cleaning the kitchen. Could you help me put my books into boxes? I've got hundreds!"},
+        {"s":"F","t":"Sure, I love books. Is your new bedroom bigger than your old one?"},
+        {"s":"M","t":"Actually, it's about the same. And the house is further from school, so I'll have to take the bus. But there's a big room downstairs, and we're going to use it for games and table tennis. That's the best thing about it."},
+        {"s":"F","t":"Cool! Will you send me your new address?"},
+        {"s":"M","t":"I'll write it down for you now – have you got a pen? And Mum says we'll have a pizza party when we're in. You're invited!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to a friend about her grandparents' house.", "q": "What does she say about the house?", "options": ["It is too far away.", "It is very old.", "It is always cold."], "answer": 1,
+        "script": [ {"s":"F","t":"We go to my grandparents' house every summer. It's a long journey, but I don't mind. The house was built three hundred years ago – the doors are so low that my dad always hits his head! There are no computers there, but it's warm and comfortable, and Grandma makes the best cakes."}, {"s":"M","t":"It sounds lovely."} ] },
+      { "intro": "You will hear a woman leaving a message for her son.", "q": "Why is she calling?", "options": ["to ask him to buy some food", "to tell him she will be late", "to ask him to do something before he goes out"], "answer": 2,
+        "script": [ {"s":"F","t":"Hi Ollie, it's Mum. I know you're going to football practice at six. Before you go, can you close all the windows and turn off the heating? It was on all day yesterday. I'll be home at the usual time, and there's food in the fridge for dinner, so you don't need to go to the shop. Thanks, love!"} ] },
+      { "intro": "You will hear two friends talking about a new sofa.", "q": "How does the boy feel about the sofa?", "options": ["pleased because it is comfortable", "angry because it was expensive", "disappointed because of its colour"], "answer": 0,
+        "script": [ {"s":"F","t":"Did your parents get the new sofa?"}, {"s":"M","t":"Yes, it came yesterday. I didn't like the colour at first – it's bright orange! But it's so comfortable. I fell asleep on it last night while I was watching a film."}, {"s":"F","t":"Was it expensive?"}, {"s":"M","t":"Not really. It was in the sale. I really love it now."} ] },
+      { "intro": "You will hear a teacher talking to students at a summer camp.", "q": "What is the teacher talking about?", "options": ["where the students will sleep", "the rules for the bathrooms", "what time dinner is"], "answer": 1,
+        "script": [ {"s":"F","t":"Welcome, everyone. Before you go to your rooms, I need to tell you a few things about the bathrooms. Boys use the ones downstairs and girls use the ones upstairs. Please don't stay in the shower for more than five minutes, so there's hot water for everyone. And take your towels back to your room – don't leave them on the floor. Oh, and dinner's at seven, but I'll tell you more about that later."} ] },
+      { "intro": "You will hear a boy talking about his favourite place at home.", "q": "Why does he like this place?", "options": ["He can see the garden from there.", "His friends can play there with him.", "It is quiet there."], "answer": 2,
+        "script": [ {"s":"M","t":"My favourite place is a small room under the stairs. Dad keeps boxes in there, but there's space for a chair and a lamp. It hasn't got a window, so I can't see outside. My friends think it's strange, but nobody comes in there, and my little brothers can't find me. It's the only place in our house where I can read without any noise."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Nina talking to her mum about getting the house ready for Grandpa's birthday party. Which job is each person going to do?",
+      "people": ["Dad", "Grandma", "Nina's brother Sam", "Aunt Jo", "Nina"],
+      "options": ["clean the bathroom", "clean the carpet", "cook in the kitchen", "hang up the lights", "put out chairs", "tidy the garden", "wash the curtains", "wash the towels"],
+      "answers": ["F", "C", "B", "E", "D"],
+      "script": [
+        {"s":"F","t":"Mum, there's so much to do before Grandpa's party tomorrow. Who's doing what?"},
+        {"s":"F2","t":"Well, your dad wanted to clean the bathroom, but I've already done that. So he's going to tidy the garden. There are leaves everywhere, and people will sit outside if it's sunny."},
+        {"s":"F","t":"Good idea. And Grandma? She can't do anything difficult."},
+        {"s":"F2","t":"She wants to help, so she's going to make her famous cakes. She'll be in the kitchen all afternoon."},
+        {"s":"F","t":"What about Sam? He never helps!"},
+        {"s":"F2","t":"Well, he has to this time. The dog has made the living room carpet really dirty, so Sam's going to clean it."},
+        {"s":"F","t":"Ha! And Aunt Jo? Is she coming early?"},
+        {"s":"F2","t":"Yes, she'll be here at two. I thought she could wash the curtains in the dining room, but there isn't time for them to dry. So she'll bring some chairs from her house and put them out in the garden and the living room."},
+        {"s":"F","t":"And me?"},
+        {"s":"F2","t":"Could you wash all the towels for the guests?"},
+        {"s":"F","t":"Mum! Can I do something more fun? What about the coloured lights? I could hang them up in the hall and around the front door."},
+        {"s":"F2","t":"OK, you're good at that. I'll do the towels myself."},
+        {"s":"F","t":"Thanks, Mum!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Your home", "questions": ["Do you live in a house or a flat?", "How many rooms are there in your home?"], "extended": "Please tell me something about your favourite room at home." },
+        { "topic": "Your bedroom", "questions": ["Do you share your bedroom with anyone?", "What colour are the walls in your bedroom?"], "extended": "Please tell me something about the furniture in your bedroom." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different places where people live. Would you like to live in these places? Say why or why not.",
+      "pictures": [ {"emoji":"🏢","label":"flat in a big city"}, {"emoji":"🏡","label":"house with a garden"}, {"emoji":"🛥️","label":"boat on a river"}, {"emoji":"🏰","label":"old castle"}, {"emoji":"🏕️","label":"tent in the mountains"} ],
+      "prompts": ["Do you think living in a flat in a big city is exciting?", "Is a house with a garden good for a family?", "Do you think living on a boat is fun?", "Would an old castle be cold and uncomfortable?", "Which of these places would you like to live in best?"],
+      "followup": ["Do you prefer living in a house or a flat? Why?", "Would you like to live in the countryside or in a city?", "Is it important to have your own bedroom? Why or why not?"],
+      "usefulLanguage": ["I'd like to live in ... because ...", "I wouldn't like to live in ... because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

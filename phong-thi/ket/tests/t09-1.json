@@ -1,0 +1,191 @@
+{
+  "id": "t09-1", "topic": "09", "testNo": 1,
+  "title": "Cooking at Home and Eating Out",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SCHOOL CANTEEN", "text": "Hot meals served 12–1.30.\nSandwiches and fruit available all afternoon.\nPlease put your plate and glass on the trolley when you finish.",
+        "options": ["You can get a hot meal until 2 o'clock.", "Students must wash up their own plates.", "You can buy something cold to eat after lunchtime."], "answer": 2 },
+      { "kind": "message", "header": "From: Dad  To: Ana", "text": "Ana, I'll be late home tonight. There's chicken soup in the fridge – just heat it on the cooker. Don't eat all the biscuits before dinner!",
+        "options": ["Ana's dinner is ready to warm up.", "Ana has to buy some chicken.", "Dad wants Ana to make some biscuits."], "answer": 0 },
+      { "kind": "label", "header": "STRAWBERRY JAM", "text": "Keep in the fridge after opening and eat within 4 weeks.\nContains: fruit, sugar, lemon juice.",
+        "options": ["There is no sugar in this jam.", "Once the jar is open, keep it somewhere cold.", "You must eat the jam within 4 weeks of buying it."], "answer": 1 },
+      { "kind": "notice", "header": "PIZZA PALACE", "text": "Students: show your school card and get a free drink with any large pizza.\nMonday to Thursday only.",
+        "options": ["Students can get a free pizza on Mondays.", "You need a school card to get a free drink.", "You can get this offer every day of the week."], "answer": 1 },
+      { "kind": "email", "header": "From: Mr Lewis  To: Cookery Club", "text": "Next week we're making vegetable pasta. I'll bring the pasta and the oil. Please each bring two vegetables, for example an onion and a carrot. Don't forget your aprons!",
+        "options": ["Mr Lewis will bring all the vegetables.", "Students should bring some oil and pasta.", "Each student needs to bring some food."], "answer": 2 },
+      { "kind": "note", "header": "From: Tom  To: Mum", "text": "Mum, I've washed up the breakfast things and put the clean bowls in the cupboard. I've gone to buy bread for lunch – back soon! Tom",
+        "options": ["Tom has already cleaned the dishes.", "Tom wants Mum to buy some bread.", "Tom has made breakfast for Mum."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about their favourite place to eat.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Rosa", "text": "My favourite café is The Blue Door. It's small and quite old, but it's near my school, so my friends and I go there every Friday afternoon. They make the best hot chocolate in town, with lots of cream on top. The owner, Mr Wood, knows all our names and always asks about our exams. And it's cheap, so my pocket money is enough for a drink and a piece of cake." },
+        { "label": "B", "title": "Duc", "text": "My uncle has a Vietnamese restaurant in the city centre, and it's my favourite place to eat. On Saturdays I work there as a waiter. I take the food to the tables and he pays me ten pounds. My favourite dish is the beef noodle soup – I could eat it every day! The restaurant is always busy, so you should phone and book a table before you go." },
+        { "label": "C", "title": "Nina", "text": "Pizza Garden is quite expensive, so my family only goes there for special days, like birthdays. The best thing is that children can go into the kitchen and make their own pizza with the cook. You choose what to put on it – cheese, tomatoes, onions, chicken, anything! I had my twelfth birthday there. In summer you can sit outside and eat under the trees." }
+      ],
+      "items": [
+        { "q": "Who has a job at the place they write about?", "answer": "B" },
+        { "q": "Who says you can cook your own food there?", "answer": "C" },
+        { "q": "Who says the place doesn't cost much?", "answer": "A" },
+        { "q": "Who goes there with friends on the same day every week?", "answer": "A" },
+        { "q": "Who says it's a good idea to reserve a table?", "answer": "B" },
+        { "q": "Who goes there when their family is celebrating?", "answer": "C" },
+        { "q": "Who says someone who works there is interested in their school life?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "Young cook of the year",
+      "text": "When Leo Grant was eight, he tried to make his first omelette. \"I burned it, the kitchen was full of smoke and my dad had to open all the windows,\" he laughs. Now, aged thirteen, he has just won the National Young Cook competition.\n\nLeo learned to cook with his grandmother, who comes from Jamaica. \"Every Sunday we made lunch for the whole family,\" he says. \"She never used a recipe book. She just told me to taste everything while it was cooking and add a bit more salt or pepper.\"\n\nIn the competition, each young cook had two hours to make a main course and a dessert. Leo made grilled fish with rice and a spicy tomato sauce, and then a banana and chocolate cake. \"I was really nervous at the start. My hands were shaking and I cut my finger on a knife,\" Leo says. \"But after ten minutes I forgot about the cameras and just enjoyed it.\"\n\nThe judges loved the fish, but they said the cake was a bit too sweet. \"They were right,\" says Leo. \"I put in too much sugar. Next time I'll be more careful.\"\n\nLeo won five hundred pounds and a day in the kitchen of a famous London restaurant. He plans to spend the money on new knives and pans. \"My mum says I should save it, but good knives are really important for a cook,\" he says.\n\nDoes he want to be a chef one day? \"Maybe,\" he says. \"But first I want to cook for my family. My grandmother says it's my turn now!\"",
+      "items": [
+        { "q": "What happened when Leo cooked for the first time?", "options": ["His dad helped him make an omelette.", "He made a meal for the whole family.", "He burned the food he was making."], "answer": 2 },
+        { "q": "What did Leo's grandmother teach him?", "options": ["to taste food while he cooks", "to follow recipes carefully", "to make Jamaican desserts"], "answer": 0 },
+        { "q": "What problem did Leo have at the start of the competition?", "options": ["He was too slow.", "He hurt himself.", "He forgot what to cook."], "answer": 1 },
+        { "q": "What did the judges think about Leo's food?", "options": ["The fish was too spicy.", "The cake looked wonderful.", "The cake had too much sugar in it."], "answer": 2 },
+        { "q": "What is Leo going to do with the prize money?", "options": ["buy things for cooking", "save it in the bank", "take his family to a restaurant"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The story of the sandwich",
+      "text": "The sandwich is one of the most popular {19} in the world. But where does its name come from?\n\nMany people believe it comes from John Montagu, the Earl of Sandwich, who {20} in England in the 1700s. The story says that he loved playing cards and didn't want to {21} his game to eat. So he asked for some meat between two {22} of bread. That way, he could eat with one hand and keep playing with the other. Soon his friends started to {23} for \"the same as Sandwich\".\n\nOf course, people ate bread with meat or cheese long before this. But the name became famous, and now we use it all over the world. Today there are thousands of {24} kinds of sandwiches, from simple cheese and tomato to chicken salad and egg. Some people even put chips or crisps inside their sandwiches!",
+      "items": [
+        { "options": ["snacks", "cooks", "menus"], "answer": 0 },
+        { "options": ["stayed", "lived", "stopped"], "answer": 1 },
+        { "options": ["break", "close", "stop"], "answer": 2 },
+        { "options": ["slices", "cups", "bowls"], "answer": 0 },
+        { "options": ["say", "tell", "ask"], "answer": 2 },
+        { "options": ["equal", "different", "separate"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ben  To: Grandma", "text": "Hi Grandma,\nThanks {25} the recipe book! Last night I made a chicken pie for the family. It took {26} long time, but everyone said it was delicious. Dad ate three pieces! Next week I want to try {27} lemon cake on page 20. Can you help me?\nLove,\nBen" },
+        { "header": "From: Grandma  To: Ben", "text": "Dear Ben,\nI'm so happy you like the book. That lemon cake is {28} favourite! Of course I can help. Come to my house on Saturday morning and we can make it together. Please bring some eggs, because I haven't got {29} left. Your grandad will be pleased – he loves cake more {30} anyone!\nGrandma" }
+      ],
+      "answers": [ ["for"], ["a"], ["the", "that", "this"], ["my", "our", "a"], ["any", "many", "enough"], ["than"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Last weekend you went to a new restaurant. Write an email to your English friend, Jo.",
+      "points": ["say who you went with", "tell Jo what you ate", "suggest going to the restaurant together"],
+      "model": "Hi Jo,\nLast Saturday I went to a new Italian restaurant in town with my parents and my sister. I had pasta with tomato sauce and a chocolate ice cream. It was delicious! Shall we go there together next weekend?\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🍳🌅", "caption": "a girl cooking pancakes in the kitchen early in the morning while her parents are asleep" },
+        { "emoji": "🔥💨😱", "caption": "black smoke coming from the frying pan; the girl looks scared" },
+        { "emoji": "👨‍👩‍👧🥣😄", "caption": "the family laughing at the table, eating bowls of cereal with fruit" }
+      ],
+      "model": "On Sunday morning Mai wanted to make breakfast for her parents. She got up early and started cooking pancakes while they were asleep. But she was looking at her phone and the pancakes burned. There was smoke everywhere! Her parents ran into the kitchen. In the end they all laughed and had cereal and fruit instead."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What did the boy have for lunch?",
+        "options": [ {"emoji":"🍔","label":"burger"}, {"emoji":"🍝","label":"pasta"}, {"emoji":"🥗","label":"salad"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Did you have a burger at the café again today, Matt?"}, {"s":"M","t":"I wanted one, but they didn't have any. So I had pasta with tomato sauce."}, {"s":"F","t":"Not the salad? You said you wanted to eat more vegetables."}, {"s":"M","t":"I know. Maybe tomorrow!"} ] },
+      { "q": "What does the mother need from the shop?",
+        "options": [ {"emoji":"🥚","label":"eggs"}, {"emoji":"🧈","label":"butter"}, {"emoji":"🥛","label":"milk"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Jack, can you go to the shop for me? I'm making pancakes."}, {"s":"M","t":"Sure. Do you need eggs?"}, {"s":"F","t":"No, I bought eggs yesterday, and there's plenty of butter in the fridge. But we haven't got any milk."}, {"s":"M","t":"OK, I'll get a big bottle."} ] },
+      { "q": "How much will the boy pay?",
+        "options": [ {"emoji":"🍕","label":"£7.50"}, {"emoji":"🍕","label":"£9.00"}, {"emoji":"🍕🥤","label":"£9.50"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Excuse me, how much is a cheese pizza, please?"}, {"s":"F","t":"A small one is seven pounds fifty, and a large one is nine pounds."}, {"s":"M","t":"I'll have a small one, please. Does that come with a drink?"}, {"s":"F","t":"No, drinks are two pounds extra."}, {"s":"M","t":"Oh. Just the pizza then, thanks. I've got some water in my bag."} ] },
+      { "q": "Where are they going to have their picnic?",
+        "options": [ {"emoji":"🏞️","label":"by the river"}, {"emoji":"🌳","label":"in the park"}, {"emoji":"🏖️","label":"on the beach"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Shall we have our picnic in the park on Sunday?"}, {"s":"M","t":"It's always so busy there. What about the beach?"}, {"s":"F","t":"It's too far – it takes an hour by bus. Let's go to the river. There's a nice place under the trees."}, {"s":"M","t":"Perfect. I'll bring the sandwiches."} ] },
+      { "q": "What will they have for dessert?",
+        "options": [ {"emoji":"🎂","label":"chocolate cake"}, {"emoji":"🍨","label":"ice cream"}, {"emoji":"🍓","label":"fruit salad"} ], "answer": 1,
+        "script": [ {"s":"M","t":"What are we having for dessert tonight, Mum? Chocolate cake?"}, {"s":"F","t":"I didn't have time to make a cake. I thought about a fruit salad, but Grandma doesn't like fruit much."}, {"s":"M","t":"Everyone likes ice cream!"}, {"s":"F","t":"Good idea. There's some in the freezer. We'll have that."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a man telling students about a summer cooking course.",
+      "title": "Summer Cooking Course",
+      "items": [
+        { "label": "Number of days:", "answer": ["5", "five"] },
+        { "label": "Starts each day at:", "answer": ["9.30", "9:30", "half past nine", "nine thirty"] },
+        { "label": "On the first day, students will make:", "answer": ["pizza", "pizzas"] },
+        { "label": "Bring a plastic:", "answer": ["box", "a box"] },
+        { "label": "Chef's name: Paul", "answer": ["harding"] }
+      ],
+      "script": [ {"s":"M","t":"Hello, everyone. If you love food, listen carefully! This summer, the Green Street Community Centre is running a cooking course for teenagers. It's in the first week of August, and it lasts for five days, from Monday to Friday. Last year the course was only three days, but everyone wanted more time in the kitchen! Each day starts at half past nine and finishes at one o'clock, so you can go home for lunch – or eat what you've cooked! On the first day, you'll learn to make pizza. We'll make the bread ourselves, and you can choose what to put on top. Later in the week you'll cook soup, pasta and a chicken salad, and on the last day there's a cake competition. You don't need to bring any food – we'll buy everything. But please bring a plastic box, because you'll want to take some food home for your family. The kitchen has all the knives, plates and bowls you need. Your teacher is a real chef. His name is Paul Harding – that's H-A-R-D-I-N-G – and he works in the kitchen at the Riverside Hotel. The course costs forty pounds. To book a place, please call the centre before the end of June."} ]
+    },
+    "part3": {
+      "intro": "You will hear Hannah talking to her dad about cooking a birthday dinner for her mum.",
+      "items": [
+        { "q": "When will they cook the dinner?", "options": ["on Friday evening", "on Saturday evening", "on Sunday at lunchtime"], "answer": 0 },
+        { "q": "What will they cook for the main course?", "options": ["roast chicken", "fish with rice", "pasta with vegetables"], "answer": 1 },
+        { "q": "What will Hannah's brother do?", "options": ["buy some flowers", "make the dessert", "wash up after dinner"], "answer": 2 },
+        { "q": "What do they need to buy?", "options": ["lemons", "onions", "potatoes"], "answer": 1 },
+        { "q": "Why won't they make a cake?", "options": ["Hannah doesn't know how to make one.", "Mum doesn't like sweet things.", "Grandma is bringing one."], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Dad, it's Mum's birthday on Saturday. Can we cook a special dinner for her?"},
+        {"s":"M","t":"That's a lovely idea, Hannah. But on Saturday evening we're going to the theatre with Mum, remember?"},
+        {"s":"F","t":"Oh yes. What about Sunday lunch?"},
+        {"s":"M","t":"Your grandparents are taking her out for lunch on Sunday. Let's do it on Friday evening. She'll be tired after work, so she'll love it."},
+        {"s":"F","t":"OK, Friday. What shall we cook? Roast chicken? It's her favourite."},
+        {"s":"M","t":"It was her favourite, but she doesn't eat meat any more."},
+        {"s":"F","t":"Pasta with vegetables, then?"},
+        {"s":"M","t":"Hmm, we have pasta every week. Let's do something different. What about grilled fish with rice? I can show you how to cook it."},
+        {"s":"F","t":"Yes! And can Sam help?"},
+        {"s":"M","t":"Your brother can't cook at all! The last time he fried some eggs, he burned them. He can wash up after dinner – he's good at that."},
+        {"s":"F","t":"Ha! OK. Do we need to buy anything?"},
+        {"s":"M","t":"Let me check. We've got rice, and there are plenty of lemons and potatoes. But there aren't any onions, so I'll get some tomorrow."},
+        {"s":"F","t":"And a birthday cake?"},
+        {"s":"M","t":"Grandma phoned yesterday. She's making a chocolate cake and she'll bring it on Friday. So we don't need to make one."},
+        {"s":"F","t":"Great. Mum's going to be so surprised!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking about a new café.", "q": "What did she like best about the café?", "options": ["the food", "the waiters", "the view"], "answer": 1,
+        "script": [ {"s":"F","t":"I went to the new café by the river yesterday. Everyone says you can see the whole river from the windows, but we sat at the back, so I didn't see much. The sandwiches were OK, nothing special. But the waiters were great – so friendly and funny. One of them even sang 'Happy Birthday' to my friend!"} ] },
+      { "intro": "You will hear a boy talking to his mother in the kitchen.", "q": "Why is the boy hungry?", "options": ["He didn't have any breakfast.", "He played football after school.", "He didn't like his school lunch."], "answer": 0,
+        "script": [ {"s":"M","t":"Mum, is there anything to eat? I'm really hungry."}, {"s":"F","t":"Didn't you eat your lunch at school? It was fish and chips today – you love that."}, {"s":"M","t":"Yes, I ate it all. But I got up late this morning and didn't have time for breakfast, so I've been hungry all day."}, {"s":"F","t":"There's some bread and cheese in the fridge."} ] },
+      { "intro": "You will hear a man talking on the radio about breakfast.", "q": "What is the man saying?", "options": ["Breakfast should always be a hot meal.", "Teenagers eat too much at breakfast.", "It's a good idea to eat breakfast every day."], "answer": 2,
+        "script": [ {"s":"M","t":"Lots of teenagers don't eat breakfast. They say they're not hungry, or they don't have time. But breakfast gives you energy for the morning and helps you to think at school. It doesn't need to be a big hot meal – a bowl of cereal, or some bread and fruit, is fine. Just try to eat something before you leave home every morning."} ] },
+      { "intro": "You will hear two friends talking about a school barbecue.", "q": "What does the boy think about the barbecue?", "options": ["It was too crowded.", "The food was too expensive.", "The music was too loud."], "answer": 0,
+        "script": [ {"s":"F","t":"Did you enjoy the school barbecue on Saturday?"}, {"s":"M","t":"Not really. The burgers were nice and they only cost a pound each. But there were so many people! I had to wait half an hour for my food, and I couldn't find anywhere to sit."}, {"s":"F","t":"The band was good, though."}, {"s":"M","t":"Yes, the music was great."} ] },
+      { "intro": "You will hear a girl leaving a message for her friend.", "q": "What does she want her friend to bring?", "options": ["some plates", "something to drink", "some fruit"], "answer": 1,
+        "script": [ {"s":"F","t":"Hi Ellie, it's Grace. About the picnic tomorrow – Mum's made lots of sandwiches and I'm bringing some fruit. We've got paper plates, too. But we haven't got anything to drink. Could you bring some lemonade or a bottle of orange juice? Thanks! See you at eleven."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Josh talking to his friend about a food festival. What did each person in his family eat?",
+      "people": ["Josh's dad", "Josh's mum", "his sister Amy", "Grandpa", "Josh"],
+      "options": ["burger", "chicken curry", "fish and chips", "ice cream", "noodles", "pizza", "salad", "steak"],
+      "answers": ["E", "G", "F", "C", "B"],
+      "script": [
+        {"s":"F","t":"How was the food festival on Sunday, Josh?"},
+        {"s":"M","t":"Brilliant! There was food from all over the world."},
+        {"s":"F","t":"What did your dad have? He loves steak."},
+        {"s":"M","t":"He does, but the steak was really expensive. So he went to the Chinese stall and had noodles with vegetables. He said they were the best he's ever eaten."},
+        {"s":"F","t":"And your mum?"},
+        {"s":"M","t":"She wasn't very hungry, so she just had a salad with cheese and tomatoes."},
+        {"s":"F","t":"What about your sister? Did she get a burger? She always has burgers."},
+        {"s":"M","t":"She wanted one, but the queue was too long. So she had a pizza instead. She ate the whole thing!"},
+        {"s":"F","t":"Ha! Did your grandpa come too?"},
+        {"s":"M","t":"Yes. He doesn't like trying new food, so he found a stall selling fish and chips. He was very happy."},
+        {"s":"F","t":"And you?"},
+        {"s":"M","t":"I had a chicken curry from the Indian stall. It was really hot, so I needed lots of water! After that I wanted an ice cream, but they didn't have any left."},
+        {"s":"F","t":"It sounds like a great day."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Meals at home", "questions": ["What do you usually have for breakfast?", "Who cooks dinner in your family?"], "extended": "Please tell me something about your favourite meal." },
+        { "topic": "Eating out", "questions": ["How often do you eat in a café or restaurant?", "What do you like to order?"], "extended": "Please tell me something about a café or restaurant you like." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different places to eat. Do you like eating in these different places? Say why or why not.",
+      "pictures": [ {"emoji":"🍕","label":"pizza restaurant"}, {"emoji":"🧺","label":"picnic in the park"}, {"emoji":"🏫","label":"school canteen"}, {"emoji":"☕","label":"café with friends"}, {"emoji":"🏠","label":"family dinner at home"} ],
+      "prompts": ["Do you think eating in a pizza restaurant is fun?", "Is having a picnic in the park a good idea?", "Do you think the school canteen is a nice place to eat?", "Is eating at home with your family boring?", "Which of these places do you like best?"],
+      "followup": ["Do you prefer eating at home or eating out? Why?", "Can you cook? What can you make?", "What food do you think is healthy?"],
+      "usefulLanguage": ["I think ... is great because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

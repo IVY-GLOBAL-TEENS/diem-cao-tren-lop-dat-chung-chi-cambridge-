@@ -1,0 +1,190 @@
+{
+  "id": "t25-1", "topic": "25", "testNo": 1,
+  "title": "Job Shadow Day",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "JOB SHADOW DAY – YEAR 9", "text": "Would you like to spend a day with a doctor, a pilot, a journalist or someone with another interesting job?\nWrite your name and the job you'd like on the list in the staff room by Friday.",
+        "options": ["Students should choose a job and add their name by Friday.", "Students will meet a doctor in the staff room on Friday.", "Students can only choose from three different jobs."], "answer": 0 },
+      { "kind": "sign", "header": "HAIR BY HELEN", "text": "No appointment needed on Saturdays.\nMonday–Friday: please book with our receptionist or call 01632 960 455.",
+        "options": ["The hairdresser's is closed on Saturdays.", "You must phone to book on every day of the week.", "You can just walk in without booking on Saturday."], "answer": 2 },
+      { "kind": "message", "header": "From: Mum  To: Duc", "text": "Duc, I've got a meeting at the office until 6. Can you take your sister to the dentist at 4.30? The address is in my diary on the kitchen table.",
+        "options": ["Duc's mum has an appointment at the dentist.", "Duc needs to go somewhere with his sister.", "Duc should look for his mum's diary at her office."], "answer": 1 },
+      { "kind": "notice", "header": "STAFF WANTED", "text": "Saturday shop assistant (age 16+)\nFriendly and good with customers.\nWe give you a uniform.\nAsk the manager for details.",
+        "options": ["You need to bring your own uniform.", "The shop is looking for someone to work at the weekend.", "The manager wants to find a new job."], "answer": 1 },
+      { "kind": "email", "header": "From: Mr Reed  To: Class 8B", "text": "Tomorrow a police officer is coming to talk to us about her job. Please write two questions for her tonight. We'll start at 9, so don't be late!",
+        "options": ["Students need to prepare something before the visit.", "The police officer will visit the school tonight.", "Students will write about the visit after the talk."], "answer": 0 },
+      { "kind": "label", "header": "CITY PHARMACY", "text": "Take one tablet three times a day after meals.\nIf you don't feel better after 5 days, see your doctor.",
+        "options": ["Take this medicine before you eat.", "You must stop taking the tablets after two days.", "Visit a doctor if the medicine doesn't help."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about the jobs their parents do.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Sofia", "text": "My mum is a pilot. She flies big planes to Asia and America, so she's often away for three or four days. I miss her, but she always brings me something small from the places she visits. She has to wear a uniform and get up very early. Last summer she took me to see the inside of her plane, and I sat in her seat! I'd like to fly planes too one day." },
+        { "label": "B", "title": "Hamid", "text": "My dad is a farmer. We have cows and we grow vegetables. His working hours are very long – he starts at five in the morning, even at weekends. I help him with the animals before school. It's hard work, but I like being outside. Last year Dad did a business course, so now he can sell our vegetables online. But I don't want to be a farmer – I want to be an engineer." },
+        { "label": "C", "title": "Lily", "text": "My mum is a journalist for our local newspaper. She writes about everything – sport, business and schools. She works from home on Mondays and Fridays, so she's there when I get back from school. Sometimes she interviews famous people. Last month she met a well-known singer and got me a signed photo! She's always busy with emails and phone calls, and her desk is a terrible mess." }
+      ],
+      "items": [
+        { "q": "Whose parent studied something new recently?", "answer": "B" },
+        { "q": "Whose parent gives them presents from other countries?", "answer": "A" },
+        { "q": "Who wants a different job from their parent's?", "answer": "B" },
+        { "q": "Whose parent is sometimes at home in the afternoon?", "answer": "C" },
+        { "q": "Who went on a special visit to see where their parent works?", "answer": "A" },
+        { "q": "Who helps their parent with their work?", "answer": "B" },
+        { "q": "Whose parent doesn't keep their work area tidy?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "The young guide of Hoi An",
+      "text": "Every Saturday morning, fourteen-year-old Nguyen Mai Anh waits outside the old market in Hoi An, Vietnam, with a small sign that says FREE TOURS IN ENGLISH. She isn't a real tour guide – she's a student – but visitors from all over the world love her tours.\n\n\"I started last year,\" Mai Anh explains. \"My English teacher said I needed to practise speaking more. I was very shy, and I never wanted to speak in class. My cousin works as a tour guide, and she said I should try it. On my first tour I was so nervous that I forgot everything! But the guests were very kind.\"\n\nMai Anh's tours last two hours. She shows visitors the old houses, the river and her favourite places to eat. She doesn't earn any money, but some guests send her books or postcards when they get home. \"I've got postcards from twelve countries now,\" she says. \"They're all on my bedroom wall.\"\n\nThe tours have helped her a lot. Her English is much better, and she isn't shy any more. Last month she even gave a talk about her work in front of the whole school.\n\nSo does she want to be a tour guide when she's older? \"Maybe,\" she laughs. \"But I'd really like to be a journalist. I love meeting people and listening to their stories – and journalists do that every day.\"",
+      "items": [
+        { "q": "Why did Mai Anh start giving tours?", "options": ["Her teacher told her to become a guide.", "She wanted to get better at speaking English.", "She needed to earn some money."], "answer": 1 },
+        { "q": "How did she feel on her first tour?", "options": ["very worried", "rather bored", "really excited"], "answer": 0 },
+        { "q": "What do some guests do after their tour?", "options": ["give her some money", "put photos of her online", "send her things from abroad"], "answer": 2 },
+        { "q": "How has Mai Anh changed since she started the tours?", "options": ["She feels more confident.", "She has made more friends at school.", "She has found a paid job."], "answer": 0 },
+        { "q": "What does Mai Anh say about her future?", "options": ["She is sure she will be a tour guide.", "She would like a job where she hears people's stories.", "She wants to work with her cousin."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "The best job in the world?",
+      "text": "Have you ever dreamed of eating ice cream at work? For a few lucky people, it is their job! Ice cream tasters work for big food {19} and try new flavours before they go into the shops.\n\nIt sounds easy, but it is a serious job. Tasters usually have a {20} in food science, and they have to taste lots of different ice creams every day. They don't eat ice cream in the same way as we do. They use a gold spoon, because other metals can {21} the taste. Then they write notes about each flavour for the manager.\n\nOne famous taster, John Harrison, {22} for the same company for more than twenty years. His company even paid a lot of money to protect his tongue!\n\nTasters must also look {23} their health. Most of them don't drink coffee or eat very hot, spicy food, because these can hurt the tongue. So if you want this job, you may have to {24} up some things you love!",
+      "items": [
+        { "options": ["companies", "customers", "markets"], "answer": 0 },
+        { "options": ["letter", "diploma", "message"], "answer": 1 },
+        { "options": ["change", "move", "turn"], "answer": 0 },
+        { "options": ["worked", "earned", "employed"], "answer": 0 },
+        { "options": ["at", "after", "for"], "answer": 1 },
+        { "options": ["take", "put", "give"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ben  To: Uncle Jim", "text": "Hi Uncle Jim,\nNext month all the students in my year have to do a week of work experience. I'd love to work {25} a mechanic, like you! Could I come to your garage? I'm really interested {26} cars.\nBen" },
+        { "header": "From: Uncle Jim  To: Ben", "text": "Hi Ben,\nOf course! You can start {27} Monday the 10th. We open at eight, so you'll need to get up early. Wear old clothes, because {28} work is very dirty. My boss says you can help me repair {29} old car that a customer brought in yesterday. It's the oldest car I've {30} seen!\nJim" }
+      ],
+      "answers": [ ["as"], ["in"], ["on", "from"], ["the", "our", "my", "this", "your"], ["an", "the", "that", "this"], ["ever"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Yesterday you spent a day at work with someone in your family. Write an email to your English friend, Kim.",
+      "points": ["say where you worked", "tell Kim what you did", "say if you would like to do this job in the future"],
+      "model": "Hi Kim,\nYesterday I worked at my aunt's hairdresser's in town. I washed the customers' hair and cleaned the floor. It was tiring but fun! I'd like to be a hairdresser when I'm older because I love meeting people.\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧📸⚽", "caption": "a girl taking photos at a school football match" },
+        { "emoji": "💻📧📰", "caption": "the girl at her computer, sending her photos by email to a newspaper" },
+        { "emoji": "🗞️👨‍👩‍👧😃", "caption": "the girl and her parents looking happily at her photo in the newspaper" }
+      ],
+      "model": "Last Saturday Emily took photos at her school's football match. One photo of the winning goal was really exciting. That evening she sent it by email to the local newspaper. A journalist liked it very much. On Monday, Emily and her parents bought the newspaper and saw her photo on the first page. They were very proud!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What does the girl's uncle do?",
+        "options": [ {"emoji":"👨‍✈️","label":"pilot"}, {"emoji":"🦷","label":"dentist"}, {"emoji":"👨‍🏫","label":"teacher"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Is that your uncle in the photo? Is he a pilot? He's wearing a uniform."}, {"s":"F","t":"No, that was for a fancy dress party. He's a dentist. He works at the hospital in town."}, {"s":"M","t":"Really? I thought he was a teacher at your school."}, {"s":"F","t":"That's my aunt, his wife. She teaches maths."} ] },
+      { "q": "Where does the boy's sister work now?",
+        "options": [ {"emoji":"🏢","label":"office"}, {"emoji":"🏭","label":"factory"}, {"emoji":"🏨","label":"hotel"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Does your sister still work in that big office in the city centre?"}, {"s":"M","t":"No, she left in March. She works at a hotel by the sea now."}, {"s":"F","t":"As a receptionist?"}, {"s":"M","t":"Yes. And before the office, she worked in a car factory, but she hated it."} ] },
+      { "q": "What time does the father's meeting start tomorrow?",
+        "options": [ {"emoji":"🕘","label":"9:00"}, {"emoji":"🕤","label":"9:30"}, {"emoji":"🕙","label":"10:00"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Dad, can you drive me to school tomorrow?"}, {"s":"M","t":"Sorry, love. Usually I start work at half past nine, but tomorrow there's an early meeting at nine."}, {"s":"F","t":"How long is it?"}, {"s":"M","t":"An hour. It finishes at ten, and then I've got to meet some customers."} ] },
+      { "q": "What will the boy buy for his mother?",
+        "options": [ {"emoji":"👜","label":"bag"}, {"emoji":"📔","label":"diary"}, {"emoji":"☕","label":"mug"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Mum starts her new job as a manager on Monday. I want to buy her something."}, {"s":"F","t":"What about a new bag for work?"}, {"s":"M","t":"Dad's already bought her one."}, {"s":"F","t":"A diary, then, for all her meetings?"}, {"s":"M","t":"She uses her phone for that. I'll get her a mug for her desk – she drinks so much coffee!"} ] },
+      { "q": "Which job does the girl want to do?",
+        "options": [ {"emoji":"🎤","label":"singer"}, {"emoji":"📷","label":"photographer"}, {"emoji":"🎭","label":"actor"} ], "answer": 1,
+        "script": [ {"s":"M","t":"What do you want to be when you leave school, Tara?"}, {"s":"F","t":"Everyone thinks I'll be a singer because I'm in the school choir. But that's just a hobby."}, {"s":"M","t":"You're great in the school plays. What about an actor?"}, {"s":"F","t":"I'm too shy for that, really. I want to be a photographer. I love taking pictures of people."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman talking to students about summer jobs at a zoo.",
+      "title": "Summer Jobs at Greenfield Zoo",
+      "items": [
+        { "label": "Minimum age:", "answer": ["16", "sixteen"] },
+        { "label": "Work starts at:", "answer": ["8.30", "8:30", "half past eight"] },
+        { "label": "Pay per hour: £", "answer": ["7", "seven"] },
+        { "label": "Colour of uniform T-shirt:", "answer": ["green"] },
+        { "label": "Send an email to: Mrs", "answer": ["fenwick"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everyone. My name's Julia, and I work at Greenfield Zoo. We need some young people to work for us this summer. You must be sixteen or older – sorry, we can't take fifteen-year-olds. The jobs are in our café and our gift shop, and we also need some guides to help visitors find their way around. The working day starts at half past eight, before the zoo opens at ten, and finishes at four. You'll work five days a week, and that includes weekends. Last year we paid six pounds fifty an hour, but this year you'll earn seven pounds an hour, and you'll get a free lunch every day in the staff café. We'll give you a uniform – a green T-shirt and a cap. You'll need to bring your own black trousers and comfortable shoes. If you're interested, please send an email to our manager, Mrs Fenwick. That's F-E-N-W-I-C-K. Tell her about yourself and why you'd like to work with us. The last day to send it is the thirtieth of April. Thank you!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Kate talking to her grandfather about his first job.",
+      "items": [
+        { "q": "Why did Grandpa start working at a factory?", "options": ["He wanted to have his own money.", "His father told him to.", "He didn't like working on the farm."], "answer": 0 },
+        { "q": "What was his job after his first year?", "options": ["cleaning machines", "driving", "selling shoes in shops"], "answer": 1 },
+        { "q": "What did Grandpa think of his second job?", "options": ["He enjoyed seeing new places.", "The pay was too low.", "He was often bored."], "answer": 0 },
+        { "q": "What did Grandpa buy with his money?", "options": ["a motorbike", "a present for his mother", "a musical instrument"], "answer": 2 },
+        { "q": "Why did Grandpa leave the factory?", "options": ["He wanted to join the police.", "The factory closed.", "He started playing in a band."], "answer": 1 }
+      ],
+      "script": [
+        {"s":"F","t":"Grandpa, for my homework I have to ask someone about their first job. What was yours?"},
+        {"s":"M","t":"Well, I left school at sixteen and got a job in a shoe factory. My father wanted me to work on our farm, but I wanted to earn my own money."},
+        {"s":"F","t":"What did you do there?"},
+        {"s":"M","t":"At first I cleaned the machines. It was a dirty job! After a year, they made me a driver. I took the shoes to shops all over the country."},
+        {"s":"F","t":"Did you like that?"},
+        {"s":"M","t":"I loved it. I saw lots of different towns that I didn't know. The hours were long, though. Sometimes I didn't get home until ten at night."},
+        {"s":"F","t":"How much did you earn?"},
+        {"s":"M","t":"Eight pounds a week! That sounds like nothing now, but it was quite a lot then. I gave half to my mother and saved the rest."},
+        {"s":"F","t":"What did you buy with your money?"},
+        {"s":"M","t":"My friends all bought motorbikes, but I wanted a guitar. I played in a band in the evenings."},
+        {"s":"F","t":"Really? So why did you leave the factory?"},
+        {"s":"M","t":"When I was twenty-two, the factory closed down. I didn't know what to do. Then a friend told me the police were looking for new officers. I was a police officer for thirty years after that."},
+        {"s":"F","t":"Wow! Can I interview you for my project, then?"},
+        {"s":"M","t":"Of course you can."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking about her mother's new job.", "q": "How does the girl feel about her mother's job?", "options": ["worried", "proud", "angry"], "answer": 1,
+        "script": [ {"s":"F","t":"My mum has just started a new job at the hospital. She's a nurse on the children's ward. She works at night sometimes, so I don't see her much, but I don't mind. She helps so many sick kids, and they all love her. I tell everyone at school about her!"} ] },
+      { "intro": "You will hear a shop assistant talking to a customer.", "q": "What does the shop assistant offer to do?", "options": ["order a different size", "give the money back", "call the manager"], "answer": 0,
+        "script": [ {"s":"F","t":"Hi. I bought this jacket last week, but it's too small."}, {"s":"M","t":"I'm sorry. We haven't got a bigger one in the shop at the moment, but I can order a large one for you. It'll be here on Thursday."}, {"s":"F","t":"Can't I just have my money back?"}, {"s":"M","t":"Only with a receipt, I'm afraid. Have you got one?"}, {"s":"F","t":"No. OK, please order it."} ] },
+      { "intro": "You will hear a boy leaving a message for his friend.", "q": "Why is the boy calling?", "options": ["to invite him to a football match", "to ask for help with homework", "to tell him about a job"], "answer": 2,
+        "script": [ {"s":"M","t":"Hi Sam, it's Oliver. Guess what! The café near the station needs someone to wash dishes on Saturday mornings. My cousin works there, and she says the manager wants a student. You said you wanted to earn some money, so call them soon! See you at football practice."} ] },
+      { "intro": "You will hear a woman talking about her job.", "q": "What does she like most about being a tour guide?", "options": ["travelling to different countries", "meeting new people", "speaking other languages"], "answer": 1,
+        "script": [ {"s":"F","t":"I've been a tour guide for ten years. I take groups around Italy and France. People think the travelling is the best part, but I'm tired of hotels and buses! And yes, I speak four languages, which is useful. But really, it's the people. Every week I meet new guests from all over the world, and some of them become good friends."} ] },
+      { "intro": "You will hear two friends talking about Careers Day at school.", "q": "What did the girl think about the engineer's talk?", "options": ["It was more interesting than she expected.", "It was too long.", "It was difficult to understand."], "answer": 0,
+        "script": [ {"s":"M","t":"Which talk did you go to on Careers Day?"}, {"s":"F","t":"The one by the engineer. I only went because my friend wanted to, and I thought it would be boring."}, {"s":"M","t":"And was it?"}, {"s":"F","t":"Not at all! She showed us how she builds bridges, and then we made a small one from paper. I loved it. Maybe I'll be an engineer!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Ethan talking to his friend Zara about the visitors at Careers Day. What job does each visitor do?",
+      "people": ["Mr Carter", "Mrs Okafor", "Ms Lee", "Mr Novak", "Mrs Garcia"],
+      "options": ["artist", "chemist", "engineer", "footballer", "journalist", "mechanic", "musician", "travel agent"],
+      "answers": ["F", "B", "E", "G", "C"],
+      "script": [
+        {"s":"F","t":"Ethan, did you meet any interesting people at Careers Day yesterday? I was ill, so I missed it."},
+        {"s":"M","t":"Yes, lots! First there was Mr Carter. Everyone thought he was a footballer, because he was wearing a sports shirt. But he repairs cars – he's got his own garage."},
+        {"s":"F","t":"So he's a mechanic. What about Mrs Okafor?"},
+        {"s":"M","t":"She's a chemist. She works in a pharmacy in the town centre, and she told us how to choose the right medicine."},
+        {"s":"F","t":"Interesting. And Ms Lee? Is she the one who paints?"},
+        {"s":"M","t":"No, that's her sister – she's an artist. Ms Lee writes for the local newspaper. She interviewed me for a story about the day!"},
+        {"s":"F","t":"Cool! Who was next?"},
+        {"s":"M","t":"Mr Novak. He played the violin for us. He plays in an orchestra and travels all over the world."},
+        {"s":"F","t":"So he's a musician. Was he good?"},
+        {"s":"M","t":"Brilliant! He said he practises for four hours every day, even on holiday."},
+        {"s":"F","t":"Wow. And the last one?"},
+        {"s":"M","t":"Mrs Garcia. She used to be a travel agent, but now she designs bridges and roads. She was my favourite."},
+        {"s":"F","t":"I'm sorry I missed it!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Jobs in your family", "questions": ["What job does someone in your family do?", "Where does he or she work?"], "extended": "Please tell me something about a job that someone in your family does." },
+        { "topic": "Your future", "questions": ["What job would you like to do when you're older?", "Would you like to work in an office?"], "extended": "Please tell me something about your dream job." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different jobs. Do you think these jobs are interesting? Say why or why not.",
+      "pictures": [ {"emoji":"👩‍✈️","label":"pilot"}, {"emoji":"👨‍🌾","label":"farmer"}, {"emoji":"📸","label":"photographer"}, {"emoji":"🎤","label":"singer"}, {"emoji":"👩‍🏫","label":"teacher"} ],
+      "prompts": ["Do you think being a pilot is exciting?", "Is being a farmer hard work?", "Do you think a photographer has an interesting job?", "Is being a singer a good job?", "Which of these jobs do you like best?"],
+      "followup": ["Would you prefer to work inside or outside? Why?", "Do you think it's important to earn a lot of money?", "Would you like to do the same job as your parents? Why or why not?"],
+      "usefulLanguage": ["I think ... is interesting because ...", "I wouldn't like to be a ... because ...", "What about you?", "I agree with you.", "That's a good idea."]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "t13-1", "topic": "13", "testNo": 1,
+  "title": "Faster, Further, Higher",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SWIMMING POOL", "text": "Water temperature today: 26 degrees.\nChildren under 8 must stay in the small pool (1 metre deep).",
+        "options": ["Young children have to use the pool that isn't very deep.", "The water is colder than usual today.", "The big pool is 1 metre deep."], "answer": 0 },
+      { "kind": "message", "header": "From: Coach Davies  To: Running team", "text": "Practice is half an hour longer this week because of Saturday's race. On Tuesday and Thursday we'll start at 4.15 and finish at 5.45.",
+        "options": ["Practice will be on Saturday this week.", "Practice usually starts at 4.15.", "Practice will take more time than usual this week."], "answer": 2 },
+      { "kind": "label", "header": "BREAD FLOUR – 1 kg", "text": "Use 500 grams for one loaf.\nKeep in a cool, dry place.\nUse within 6 weeks of opening.",
+        "options": ["This bag is only enough for one loaf.", "You can make two loaves with this bag.", "You must keep this bag in the fridge."], "answer": 1 },
+      { "kind": "notice", "header": "SCHOOL FUN RUN", "text": "This year's run is 5 kilometres – that's 2 km more than last year!\nCollect your number from the sports hall one week before the race.",
+        "options": ["Last year's race was 3 km.", "You can get your number on the day of the race.", "The race starts at the sports hall."], "answer": 0 },
+      { "kind": "email", "header": "From: Lan  To: Mia", "text": "Mia, it'll be 34 degrees on Saturday! Let's go to the lake in the morning, not the afternoon, when it's hottest. Bring lots of water – at least a litre.",
+        "options": ["Lan will bring water for both of them.", "Lan wants to go out before it gets too hot.", "Lan wants to stay at the lake all day."], "answer": 1 },
+      { "kind": "note", "header": "From: Dad  To: Oliver", "text": "The pizza's in the oven – it'll be ready at quarter past six. Don't leave it in longer than 20 minutes or it'll burn! Back at 7.",
+        "options": ["Dad wants Oliver to put the pizza in the oven.", "Dad will be home at quarter past six.", "Oliver must not forget about the pizza."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about a sporting challenge they did.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Jamal", "text": "Last year I swam five kilometres in the sea to raise money for a children's hospital. It took me nearly two hours! The water temperature was only fifteen degrees, so I wore a special suit. My uncle swam next to me the whole time. My arms hurt for a week afterwards, but we raised eight hundred pounds, so it was worth it." },
+        { "label": "B", "title": "Anya", "text": "I'm in the school high jump team. When I started two years ago, I could only jump one metre. Now I can jump one metre fifty-five centimetres! I practise for an hour every day after school, and my coach says I could be in the national team in a few years. My next competition is in three weeks." },
+        { "label": "C", "title": "Duc", "text": "Last summer my dad and I cycled from our home in Leeds to my grandma's house in London. It's about two hundred miles, and we did it in four days. Every evening we stayed in a small hotel. On the second day it rained for hours and I wanted to stop, but Dad made me laugh and we kept going. It was the best week of the year!" }
+      ],
+      "items": [
+        { "q": "Who did their challenge to help other people?", "answer": "A" },
+        { "q": "Who did their challenge in cold water?", "answer": "A" },
+        { "q": "Who trains every day?", "answer": "B" },
+        { "q": "Who nearly gave up?", "answer": "C" },
+        { "q": "Who hopes to do well at a higher level in the future?", "answer": "B" },
+        { "q": "Who felt pain after their challenge?", "answer": "A" },
+        { "q": "Who slept away from home during their challenge?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "The girl who loves the weather",
+      "text": "Every morning at seven o'clock, before breakfast, thirteen-year-old Isla Grant goes out into her garden with a notebook. She isn't looking at the flowers – she's checking the weather.\n\nIsla has her own small weather station. It measures the temperature, the rain and the wind. \"My grandad gave it to me for my tenth birthday,\" she says. \"He was a farmer, so the weather was really important for his work. At first I only looked at it for a few minutes a week, but soon I was checking it every day.\"\n\nIsla writes everything in her notebook and then puts it on a website for weather fans. Last year she recorded a hundred and ten centimetres of rain. The coldest day was in January, when it was minus eight degrees. The hottest was in July: thirty-one degrees. \"That's very hot for Scotland!\" she laughs.\n\nLast month, a local radio station heard about Isla and asked her to give the weather news every Saturday morning. \"I was really worried the first time,\" she says. \"I only had ninety seconds, and I spoke too quickly. But now I enjoy it.\"\n\nIsla wants to study weather at university. \"People think it's boring, but the weather changes every hour of every day,\" she says. \"You never know what's coming next. That's why I love it!\"",
+      "items": [
+        { "q": "What does Isla do every morning?", "options": ["She has breakfast in the garden.", "She waters the flowers.", "She writes down information about the weather."], "answer": 2 },
+        { "q": "What do we learn about Isla's grandad?", "options": ["He bought her a notebook.", "The weather was important for his job.", "He checks the weather station every day."], "answer": 1 },
+        { "q": "What does Isla say about last year?", "options": ["One day in July was very hot.", "There was less rain than usual.", "January was warmer than usual."], "answer": 0 },
+        { "q": "How did Isla feel the first time she was on the radio?", "options": ["bored", "excited", "nervous"], "answer": 2 },
+        { "q": "Why does Isla love the weather?", "options": ["It is easy to understand.", "It is always changing.", "It helps her with her school work."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "The marathon",
+      "text": "The marathon is a running race of just over forty-two kilometres, or about twenty-six miles. The story {19} that thousands of years ago, a Greek soldier ran all the way from the town of Marathon to Athens with some important news.\n\nThe first Olympic marathon {20} place in Athens in 1896. The distance changed a few times after that, but in 1921 it became the {21} we use today.\n\nToday, the fastest runners can finish a marathon in just over two hours, but most people take between four and five hours. Runners usually {22} for months before a big race. On the day, they must drink lots of water, because they can lose more than two litres {23} the race, especially when the temperature is high.\n\nMany big cities, like London and New York, have a marathon every year. Thousands of people take part, and some of them run in funny clothes to {24} money for children's hospitals and other charities.",
+      "items": [
+        { "options": ["tells", "says", "speaks"], "answer": 1 },
+        { "options": ["took", "had", "made"], "answer": 0 },
+        { "options": ["height", "weight", "length"], "answer": 2 },
+        { "options": ["train", "study", "learn"], "answer": 0 },
+        { "options": ["between", "during", "across"], "answer": 1 },
+        { "options": ["lift", "build", "raise"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ella  To: Nadia", "text": "Hi Nadia,\nI'm making a cake for Mum's birthday. The recipe needs 200 grams of sugar, but I've only got half {25} much. Have you got {26} sugar I could borrow? I need it in the next hour, because the cake has to cook for forty-five minutes.\nElla" },
+        { "header": "From: Nadia  To: Ella", "text": "Hi Ella,\nYes, we've got a big 2-kilo bag! I'll bring some round {27} a moment. Do you need anything {28}? We've also got eggs and butter. Don't forget to check the temperature of the oven – last week the oven was {29} hot that my cake burned! It was {30} worst cake ever.\nNadia" }
+      ],
+      "answers": [ ["as"], ["any", "some"], ["in"], ["else", "more"], ["so"], ["the", "my"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You ran in a race at your school yesterday. Write an email to your English friend, Charlie.",
+      "points": ["say how long the race was", "tell Charlie how you did in the race", "say what you will do to get ready for the next race"],
+      "model": "Hi Charlie,\nYesterday I ran in a three-kilometre race at school. It took me fifteen minutes and I came fourth! There's another race next month, so I'm going to run in the park for half an hour every day.\nMinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧📖🎂", "caption": "a girl in a kitchen reading a cake recipe: 250 g flour, 3 eggs, 30 minutes" },
+        { "emoji": "📱🔥😱", "caption": "the girl talking on her phone while smoke comes out of the oven behind her" },
+        { "emoji": "👨‍👩‍👧🍦", "caption": "the family laughing and eating ice cream; a black cake on the table" }
+      ],
+      "model": "Last Sunday, Mai decided to make a cake for her family. She put 250 grams of flour and three eggs in a bowl and put the cake in the oven for thirty minutes. Then her friend phoned and they talked for an hour. The cake was black! In the end, the family ate ice cream instead and laughed a lot."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "How far did the girl run this morning?",
+        "options": [ {"emoji":"🏃‍♀️","label":"2 km"}, {"emoji":"🏃‍♀️","label":"5 km"}, {"emoji":"🏃‍♀️","label":"10 km"} ], "answer": 1,
+        "script": [ {"s":"M","t":"You look tired, Sara. Did you go running this morning?"}, {"s":"F","t":"Yes. Usually I run two kilometres around the park, but today I did five."}, {"s":"M","t":"Wow! Are you training for the big race?"}, {"s":"F","t":"Yes, the ten-kilometre race in May. I've got two months to get ready!"} ] },
+      { "q": "What is the temperature today?",
+        "options": [ {"emoji":"🌡️","label":"12°C"}, {"emoji":"🌡️","label":"18°C"}, {"emoji":"🌡️","label":"21°C"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Shall we have lunch in the garden? It's sunny."}, {"s":"M","t":"It's sunny, but it's only twelve degrees. Yesterday it was twenty-one!"}, {"s":"F","t":"Really? The radio said it would be eighteen today."}, {"s":"M","t":"Well, the radio was wrong. Let's eat inside and go out later."} ] },
+      { "q": "How much milk does the boy need?",
+        "options": [ {"emoji":"🥛","label":"half a litre"}, {"emoji":"🥛","label":"1 litre"}, {"emoji":"🥛","label":"2 litres"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Mum, I'm making pancakes for everyone. Is there any milk?"}, {"s":"F","t":"There's half a litre in the fridge. Is that enough?"}, {"s":"M","t":"The recipe says one litre for four people, but there are eight of us today with Grandma and Grandpa and the cousins."}, {"s":"F","t":"So you need two litres. I'll go to the shop."} ] },
+      { "q": "What time does the swimming lesson start?",
+        "options": [ {"emoji":"🕞","label":"3:45"}, {"emoji":"🕓","label":"4:15"}, {"emoji":"🕟","label":"4:30"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Hurry up, Tom! Your swimming lesson starts at quarter past four."}, {"s":"M","t":"No, Mum, they changed it. It's at half past four now."}, {"s":"F","t":"Oh, OK. But it takes fifteen minutes to get there, and it's already quarter to four."}, {"s":"M","t":"That's fine. We've got lots of time."} ] },
+      { "q": "How tall is the boy now?",
+        "options": [ {"emoji":"📏","label":"1 m 45 cm"}, {"emoji":"📏","label":"1 m 52 cm"}, {"emoji":"📏","label":"1 m 60 cm"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Let's see how tall you are now, Ben. Stand still against the door for a moment."}, {"s":"M","t":"Last year I was one metre forty-five."}, {"s":"F","t":"Well, now you're one metre fifty-two! You've grown seven centimetres."}, {"s":"M","t":"Great! I want to be one metre sixty, like my brother."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about a charity walk.",
+      "title": "School Charity Walk",
+      "items": [
+        { "label": "Length of walk (kilometres):", "answer": ["12", "twelve"] },
+        { "label": "Meet outside the:", "answer": ["station", "railway station"] },
+        { "label": "Bring water (litres):", "answer": ["2", "two"] },
+        { "label": "Lunch at a:", "answer": ["farm"] },
+        { "label": "Teacher to ask: Mr", "answer": ["fletcher"] }
+      ],
+      "script": [ {"s":"M","t":"Good afternoon, everyone. Next Saturday our school is having a charity walk to raise money for the town hospital. Last year the walk was eight kilometres, but this year it's longer – twelve kilometres. Don't worry, there'll be lots of stops! We'll meet at quarter to nine outside the railway station, not at school. The weather report says it will be warm – about twenty-four degrees – so please bring at least two litres of water. Half a litre isn't enough! Wear comfortable shoes and a hat. We'll stop for lunch after about six kilometres. We thought about having lunch at the café in the village, but it's too small for a hundred students. So we'll eat at a farm near the river, where you can buy sandwiches and drinks. We'll finish at about four o'clock, and your parents can collect you from the park. If you have any questions, please ask Mr Fletcher. That's F-L-E-T-C-H-E-R. He's organising the walk this year. And don't forget to collect your form from the school office this week."} ]
+    },
+    "part3": {
+      "intro": "You will hear Leo talking to his friend Amy about a cycling race.",
+      "items": [
+        { "q": "How long is the race for Leo's age group?", "options": ["30 kilometres", "50 kilometres", "80 kilometres"], "answer": 0 },
+        { "q": "How often does Leo train now?", "options": ["every day", "twice a week", "three times a week"], "answer": 2 },
+        { "q": "What is Leo's problem when he cycles?", "options": ["His bike is too heavy.", "He doesn't like hot weather.", "He can't go up hills quickly."], "answer": 1 },
+        { "q": "What does Amy suggest?", "options": ["training early in the morning", "buying a lighter bike", "drinking more water"], "answer": 0 },
+        { "q": "What time does Leo's race start?", "options": ["at eight o'clock", "at half past nine", "at quarter past ten"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Leo. Are you still doing the cycling race next month?"},
+        {"s":"M","t":"Yes! I'm really excited about it."},
+        {"s":"F","t":"Is it fifty kilometres, like last year? My brother did that one."},
+        {"s":"M","t":"That's the adults' race. Some of them do eighty kilometres! It's shorter for under-fifteens. We only do thirty kilometres – that's about eighteen miles."},
+        {"s":"F","t":"That's still a long way. Are you training a lot?"},
+        {"s":"M","t":"I'd like to train every day, but I've got too much homework. Before, I only went out twice a week. Now I go three times – on Monday, Wednesday and Saturday."},
+        {"s":"F","t":"Is your bike OK? It looks quite heavy."},
+        {"s":"M","t":"It's about twelve kilos, which is fine. And I'm quite good on hills. My real problem is the heat. When it's more than thirty degrees, I feel terrible after a few minutes."},
+        {"s":"F","t":"Why don't you train before school, when it's cooler? You could go out at half past six."},
+        {"s":"M","t":"That's a good idea. I already drink lots of water, but that doesn't help much."},
+        {"s":"F","t":"So when does the race start?"},
+        {"s":"M","t":"The adults start at half past nine, and we start forty-five minutes later, at quarter past ten. But I need to be there at eight o'clock to get my number."},
+        {"s":"F","t":"I'll come and watch you!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his mum about a recipe.", "q": "What is the problem?", "options": ["He hasn't got enough eggs.", "He doesn't understand the measurements.", "The oven isn't hot enough."], "answer": 1,
+        "script": [ {"s":"M","t":"Mum, this recipe is from an American website. It says two cups of flour and one stick of butter. How many grams is that? Our scales only show grams and kilos!"}, {"s":"F","t":"Hmm, I'm not sure. Let me look on my phone."}, {"s":"M","t":"Thanks. I've got all the eggs, and the oven's already at a hundred and eighty degrees."} ] },
+      { "intro": "You will hear a girl talking about a holiday.", "q": "What did she enjoy most?", "options": ["the hot weather", "the long journey", "climbing a mountain"], "answer": 2,
+        "script": [ {"s":"F","t":"We drove eight hundred kilometres to the mountains. It took two days, which was really boring. The temperature was nearly thirty-five degrees every day – too hot for me. But on the last day we climbed to the top of a mountain, two thousand metres high. The view was amazing. I'll never forget it!"} ] },
+      { "intro": "You will hear a man on the radio talking about the weather.", "q": "What will the weather be like at the weekend?", "options": ["colder than this week", "hotter than this week", "the same as this week"], "answer": 0,
+        "script": [ {"s":"M","t":"It's been a lovely warm week, with temperatures of around twenty-two degrees. But get your coats ready! On Saturday and Sunday it'll only be ten or eleven degrees, and there'll be strong winds. The warm weather won't come back until next Wednesday."} ] },
+      { "intro": "You will hear two friends talking about a phone app.", "q": "Why does the girl like the app?", "options": ["It shows how far she walks.", "It helps her to sleep.", "It teaches her about sport."], "answer": 0,
+        "script": [ {"s":"F","t":"Look at this app. It counts how many steps I take and how many kilometres I walk every day. Yesterday I walked seven kilometres!"}, {"s":"M","t":"Cool. Does it tell you how many hours you sleep, too?"}, {"s":"F","t":"It can, but I don't use that. I just love seeing how far I've gone each day."} ] },
+      { "intro": "You will hear a girl leaving a message for her friend.", "q": "Why is she calling?", "options": ["to say she will be late", "to change where they will meet", "to ask her friend to bring something"], "answer": 1,
+        "script": [ {"s":"F","t":"Hi Jess, it's Mai. About the cinema tonight – the film still starts at seven, but let's not meet outside the cinema, because it's going to rain. Let's meet in the café opposite instead, at quarter to seven. I'll get there a few minutes early and buy the tickets. See you!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Josh talking to his grandmother about Sports Day at his school. Which event did each person win?",
+      "people": ["Ali", "Hannah", "Kevin", "Josh's sister Lucy", "Josh"],
+      "options": ["100 metres", "800 metres", "3-kilometre run", "50-metre swim", "high jump", "long jump", "relay race", "throwing the ball"],
+      "answers": ["C", "E", "A", "D", "H"],
+      "script": [
+        {"s":"F","t":"How was Sports Day, Josh? Did your friends win anything?"},
+        {"s":"M","t":"Yes, lots! Ali won the three-kilometre run. He finished in eleven minutes – nearly a minute before everyone else."},
+        {"s":"F","t":"Wonderful. Wasn't he in the eight hundred metres too?"},
+        {"s":"M","t":"He wanted to be, but you can only do two events, so he chose the relay race. His team came second."},
+        {"s":"F","t":"And Hannah? She's very good at the long jump, isn't she?"},
+        {"s":"M","t":"She usually is, but this time she came third in that. She won the high jump, though – she jumped one metre forty!"},
+        {"s":"F","t":"Clever girl. And what about Kevin?"},
+        {"s":"M","t":"Kevin won the hundred metres. It took him only thirteen seconds. Everyone was cheering."},
+        {"s":"F","t":"And your sister? Lucy's a good runner."},
+        {"s":"M","t":"She hurt her leg last week, so she couldn't run. But she won the fifty-metre swimming race in the pool."},
+        {"s":"F","t":"And you, Josh?"},
+        {"s":"M","t":"I wasn't fast enough for any of the races. But I won the ball throwing! I threw it thirty-five metres."},
+        {"s":"F","t":"Well done, Josh! I'm very proud of you. Let's have some cake to celebrate."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Sport", "questions": ["How many hours of sport do you do every week?", "How far is it from your home to the nearest park or sports centre?"], "extended": "Please tell me something about a sport you like." },
+        { "topic": "The weather", "questions": ["What's the temperature like in your town in summer?", "Which month is the coldest in your country?"], "extended": "Please tell me something about your favourite kind of weather." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to keep fit. Do you like these different activities? Say why or why not.",
+      "pictures": [ {"emoji":"🏃","label":"running 5 kilometres"}, {"emoji":"🏊","label":"swimming 20 lengths"}, {"emoji":"🚴","label":"cycling for an hour"}, {"emoji":"🚶","label":"walking a few miles"}, {"emoji":"⚽","label":"playing football"} ],
+      "prompts": ["Do you think running five kilometres is difficult?", "Is swimming a good way to keep fit?", "Do you think cycling for an hour is fun?", "Is walking a few miles boring?", "Which of these activities do you like best?"],
+      "followup": ["Do you prefer doing sport inside or outside? Why?", "How many minutes of exercise should people do every day?", "Do you like doing sport when the temperature is very high?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

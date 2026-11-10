@@ -1,0 +1,188 @@
+{
+  "id": "t02-2", "topic": "02", "testNo": 2,
+  "title": "Old Clothes, New Ideas",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SWIMMING POOL", "text": "Please leave your shoes on the shelf outside.\nLockers for bags and clothes cost 50p – you get your money back when you leave.",
+        "options": ["You have to pay to wear shoes near the pool.", "You will get back the money you put in a locker.", "Bags are not allowed in the swimming pool."], "answer": 1 },
+      { "kind": "message", "header": "From: Dad  To: Hugo", "text": "Hugo, your black school trousers are still wet. Wear your grey ones today and I'll iron the black ones tonight.",
+        "options": ["Hugo's school trousers need washing again tonight.", "Dad can't find Hugo's black trousers.", "Hugo should wear different trousers today."], "answer": 2 },
+      { "kind": "notice", "header": "SCHOOL DISCO – FRIDAY 7 P.M.", "text": "This year's theme: the 1980s!\nCome in clothes from that time – ask your parents, they may have some!\nPrize for the best costume. No school uniform, please.",
+        "options": ["Students can wear old fashions to the disco.", "Students should come to the disco in their uniform.", "Parents can win a prize at the disco."], "answer": 0 },
+      { "kind": "sign", "header": "SALE", "text": "Winter coats and boots: half price.\nSummer clothes: buy one, get one free.\nSale ends on Sunday.",
+        "options": ["Everything in the shop is half price.", "The sale begins on Sunday.", "You can get two summer things for the price of one."], "answer": 2 },
+      { "kind": "message", "header": "From: Ella  To: Mum", "text": "I left my purse at Grace's house, so I can't pay for the bus. Can you pick me up from the park at five? Grace's mum will bring the purse to school tomorrow.",
+        "options": ["Ella would like a lift home.", "Ella lost her purse in the park.", "Ella wants Mum to go to Grace's house."], "answer": 0 },
+      { "kind": "notice", "header": "YEAR 8 CAMPING TRIP – WHAT TO PACK", "text": "Walking boots, a raincoat, a warm sweater and a hat.\nPlease leave expensive watches and phones at home.",
+        "options": ["Students must buy new boots for the trip.", "Students will need clothes for cold or wet weather.", "Students will wear their school uniform on the trip."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three students describe the uniform at their school.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Oliver – England", "text": "At my school we wear black trousers or a black skirt, a white shirt and a dark green jacket with the school name on the pocket. We also have to wear a tie, which I hate because it's so uncomfortable. The worst thing is the price of the jacket – my parents paid sixty pounds for it! But I think a uniform is a good idea, because nobody has to worry about fashion." },
+        { "label": "B", "title": "Mai – Vietnam", "text": "At my school, girls wear a white blouse and a dark blue skirt or trousers, and boys wear a white shirt. On Mondays we also wear a red scarf for our school meeting. I like my uniform because it's light and cool when the weather is hot. My mum buys me two new shirts every year because I'm growing quickly. When I finish school, I want to keep my old uniform to remember my friends." },
+        { "label": "C", "title": "Lucas – Brazil", "text": "My school doesn't have a strict uniform. We only have to wear a school T-shirt – it's yellow with a blue picture on it – and we can choose our own jeans or shorts. Some students wear really expensive trainers to look cool, which I think is silly. Last year our class had a competition to design a new T-shirt for the school, and mine won! Now everyone wears my design." }
+      ],
+      "items": [
+        { "q": "Who wears something extra on one day of the week?", "answer": "B" },
+        { "q": "Who says part of their uniform is not comfortable?", "answer": "A" },
+        { "q": "Who helped to create their school's uniform?", "answer": "C" },
+        { "q": "Who likes their uniform because of the weather?", "answer": "B" },
+        { "q": "Who thinks some students care too much about how they look?", "answer": "C" },
+        { "q": "Who talks about how much their uniform costs?", "answer": "A" },
+        { "q": "Who would like to keep their uniform in the future?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "Old trainers, new life",
+      "text": "When fourteen-year-old Joe Barker's favourite trainers got dirty and broken, his mum told him to throw them away. But Joe didn't want to lose them. Instead, he watched some videos online and learned how to clean and repair them. \"They looked almost new when I finished,\" he says. \"I couldn't believe it.\"\n\nSoon his friends started asking him to clean their trainers too. At first Joe did it for free, but now he asks for between five and fifteen pounds, because some jobs take much longer than others. \"Some trainers just need a wash. Others need new laces, or they have holes I have to repair,\" he explains. He only works in the garage at the weekends, because during the week he has too much homework.\n\nJoe also buys old trainers at second-hand shops, repairs them and sells them online. \"Last month I found a pair of white trainers for two pounds. After a few hours of work, I sold them for forty!\" He is saving the money for a holiday in Japan, where he wants to visit some famous shoe shops.\n\nHis parents are happy about his business, but there is one problem. \"We can't park the car in the garage any more,\" laughs his dad. \"There are shoes everywhere!\"\n\nJoe thinks more young people should repair their clothes and shoes. \"Fashion changes so quickly, and people throw away lots of things. But if you look after your clothes, they can last for years.\"",
+      "items": [
+        { "q": "Why did Joe first learn to repair trainers?", "options": ["His mum asked him to do it.", "He wanted to keep his favourite pair.", "He wanted to start a business."], "answer": 1 },
+        { "q": "How much does Joe ask his friends to pay?", "options": ["nothing at all", "the same price for every pair", "a different price for different jobs"], "answer": 2 },
+        { "q": "When does Joe work on trainers?", "options": ["only on Saturdays and Sundays", "every evening after his homework", "during the school holidays"], "answer": 0 },
+        { "q": "What is Joe going to do with the money he makes?", "options": ["travel to another country", "buy some expensive trainers", "open a shoe shop"], "answer": 0 },
+        { "q": "What problem does Joe's dad talk about?", "options": ["Joe spends too much time in the garage.", "There is no space for the car.", "Joe's business is too noisy."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "The story of the umbrella",
+      "text": "People have {19} umbrellas for more than 3,000 years. The first umbrellas, in China and Egypt, were not for the rain. They kept the sun off important people, like kings and queens.\n\nIn Europe, umbrellas only became popular in the 18th century. A British man called Jonas Hanway was one of the first men to carry an umbrella in London. At first people {20} at him, because they thought umbrellas were only for women! But soon many other men {21} his example.\n\nEarly umbrellas were very heavy because they were made of wood and thick material. Then, in 1852, Samuel Fox {22} an umbrella with metal parts. It was much lighter and stronger, and we still use the {23} design today.\n\nNow you can buy umbrellas in every colour, and some are small enough to {24} in your pocket or bag. But people still forget them – thousands are left on London buses and trains every year!",
+      "items": [
+        { "options": ["used", "worn", "spent"], "answer": 0 },
+        { "options": ["joked", "laughed", "enjoyed"], "answer": 1 },
+        { "options": ["went", "took", "followed"], "answer": 2 },
+        { "options": ["discovered", "invented", "found"], "answer": 1 },
+        { "options": ["same", "similar", "equal"], "answer": 0 },
+        { "options": ["fit", "match", "suit"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ben  To: Carlos", "text": "Hi Carlos,\nI think I left my sports bag on {25} bus this afternoon. My football boots and my wallet are in it! Did you see it? It's dark blue {26} a white star on the side. I'm really worried {27} Mum only bought me the boots last week.\nBen" },
+        { "header": "From: Carlos  To: Ben", "text": "Hi Ben,\nDon't worry! I saw your bag under the seat, so I took it home with {28}. Your boots and wallet are fine. I'll bring them to school tomorrow. By the way, {29} you seen my black hat? I can't find it anywhere. I think I left it in the changing room {30} we were playing football.\nCarlos" }
+      ],
+      "answers": [ ["the", "a", "our"], ["with"], ["because", "as", "since"], ["me"], ["have"], ["when", "while"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You left your jacket at your English friend Jamie's house yesterday. Write an email to Jamie.",
+      "points": ["describe your jacket", "say where you think you left it", "ask Jamie to bring it to you"],
+      "model": "Hi Jamie,\nI think I left my jacket at your house yesterday. It's dark green with two big pockets. I think it's on the chair in your bedroom. Could you bring it to school tomorrow, please? I need it!\nThanks,\nDuc"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦🧢💨", "caption": "a boy walking in a park by a lake; the wind is blowing his new hat off his head" },
+        { "emoji": "🧢🌊😟", "caption": "the hat is in the water in the middle of the lake and the boy looks sad" },
+        { "emoji": "🐕🧢😄", "caption": "a dog comes out of the lake with the wet hat in its mouth and the boy is laughing" }
+      ],
+      "model": "On Saturday Nam was walking by the lake in the park. He was wearing the new hat his grandma gave him. Suddenly, the wind blew it off his head and it fell into the water. Nam was very sad. Then a big dog jumped into the lake and brought the hat back to him!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What is the girl going to wear to the concert?",
+        "options": [ {"emoji":"👗","label":"long dress"}, {"emoji":"👖","label":"jeans and a top"}, {"emoji":"🖤","label":"black skirt"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Dad, what should I wear to the school concert? I was going to wear my long dress."}, {"s":"M","t":"It'll be really hot in the hall. What about your black skirt?"}, {"s":"F","t":"Hmm, I'd prefer to wear my jeans and my new pink top. The teacher says we don't need to dress smartly."}, {"s":"M","t":"Fine. That sounds comfortable."} ] },
+      { "q": "What did the boy buy for his mum's birthday?",
+        "options": [ {"emoji":"☂️","label":"umbrella"}, {"emoji":"🧣","label":"scarf"}, {"emoji":"👛","label":"purse"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Did you get a present for Mum's birthday, Tom?"}, {"s":"M","t":"Yes. I wanted to buy her an umbrella because she lost hers, but Dad's already bought her one."}, {"s":"F","t":"So what did you get?"}, {"s":"M","t":"I looked at some scarves, but they were all too expensive. In the end I got her a purse. Her old one's broken."} ] },
+      { "q": "Which boy is Daniel?",
+        "options": [ {"emoji":"🧢","label":"boy in a cap and shorts"}, {"emoji":"👕","label":"boy in a T-shirt and glasses"}, {"emoji":"🧥","label":"boy in a coat and glasses"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Which one is your cousin Daniel? Is he the boy in the cap?"}, {"s":"M","t":"No, that's his friend. Daniel wears glasses."}, {"s":"F","t":"Oh, the one in the long coat?"}, {"s":"M","t":"No, he never wears a coat, even in winter! He's the one in the red T-shirt, next to the door."} ] },
+      { "q": "When does the sale finish?",
+        "options": [ {"emoji":"📅","label":"Saturday"}, {"emoji":"📅","label":"Sunday"}, {"emoji":"📅","label":"Monday"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Do you want to go to the sale at Fashion Corner? I want some new jeans."}, {"s":"F","t":"Is it still on? I thought it finished last Saturday."}, {"s":"M","t":"No, the poster in the window says it goes on until Monday."}, {"s":"F","t":"Great. Then let's go on Sunday – I'm busy tomorrow."} ] },
+      { "q": "What must the boy take to school tomorrow?",
+        "options": [ {"emoji":"👟","label":"trainers"}, {"emoji":"🩳","label":"shorts"}, {"emoji":"🧥","label":"raincoat"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Mum, where are my sports shorts? I need them tomorrow."}, {"s":"F","t":"Isn't PE on Thursday? Tomorrow's Wednesday."}, {"s":"M","t":"Oh, you're right. But we're going to the park for science, and the teacher says we need trainers, not school shoes."}, {"s":"F","t":"OK. Take your raincoat too."}, {"s":"M","t":"I don't need it. It's going to be sunny all day."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a guide talking to visitors about a fashion exhibition at a museum.",
+      "title": "Fashion Through Time",
+      "items": [
+        { "label": "The exhibition is on floor:", "answer": ["3", "three", "third", "3rd"] },
+        { "label": "Oldest thing: a pair of", "answer": ["boots", "leather boots", "brown boots", "brown leather boots"] },
+        { "label": "In the last room, visitors can try on:", "answer": ["hats"] },
+        { "label": "Designer of the pink suit: Lily", "answer": ["grant"] },
+        { "label": "The shop closes at:", "answer": ["5.30", "5:30", "half past five", "17.30", "17:30"] }
+      ],
+      "script": [ {"s":"F","t":"Welcome to the City Museum. My name's Rachel, and I'm going to tell you about our new exhibition, Fashion Through Time. It isn't on the ground floor with the paintings – you'll find it on the third floor. Take the lift next to the café. The exhibition shows clothes from the last three hundred years. Most people think the oldest thing is the beautiful blue dress near the door, but that's from 1850. Our oldest thing is a pair of brown leather boots from 1720 – they're very small! In the next room there are skirts, tights and shoes from the 1960s. In the last room, you can try on some hats from the past and take photos. Please don't touch the coats and suits, because they're very old. Don't miss the modern room – there's a wonderful pink suit by the young designer Lily Grant. That's G-R-A-N-T. She's only twenty-four! After your visit, you can go to the museum shop. It sells T-shirts, bags and umbrellas with pictures from the exhibition. The museum closes at six o'clock, but the shop closes a little earlier, at half past five."} ]
+    },
+    "part3": {
+      "intro": "You will hear Emily talking to her friend Sam about a fashion show at their school.",
+      "items": [
+        { "q": "What is Emily's skirt made from?", "options": ["newspapers", "plastic bags", "old maps"], "answer": 1 },
+        { "q": "Who made Sam's suit?", "options": ["his sister", "his mum", "his grandmother"], "answer": 0 },
+        { "q": "Where will the show be if the weather is good?", "options": ["in the school hall", "in the sports hall", "in the playground"], "answer": 2 },
+        { "q": "How much is a ticket for a student?", "options": ["£1", "£3", "£4"], "answer": 0 },
+        { "q": "Who will choose the winner?", "options": ["the head teacher", "Mr Ford", "a woman from a magazine"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Sam, are you going to be in the fashion show on Friday?"},
+        {"s":"M","t":"Yes, Mr Ford asked me. I'm a bit nervous. What about you, Emily?"},
+        {"s":"F","t":"I'm in it too. Everyone has to wear clothes made from old things. I wanted to make a dress from newspapers, but it was too difficult. So my grandma and I made a skirt from old plastic bags!"},
+        {"s":"M","t":"Cool! I'm wearing a suit made of old maps. My sister made it – she's really good at that kind of thing. Mum wanted to help, but she's too busy at work."},
+        {"s":"F","t":"A suit made of maps? I want to see that! Is the show going to be in the school hall?"},
+        {"s":"M","t":"It was going to be there, but now it's going to be outside in the playground, because more people can come. If it rains, we'll use the sports hall."},
+        {"s":"F","t":"And how much are the tickets?"},
+        {"s":"M","t":"Three pounds for adults and one pound for students. All the money's going to an animal hospital."},
+        {"s":"F","t":"Who's choosing the winner? Mr Ford?"},
+        {"s":"M","t":"No, he's just organising it. Last year it was the head teacher, but this year a woman from a fashion magazine is coming!"},
+        {"s":"F","t":"Wow! Now I'm really nervous. What shoes are you going to wear?"},
+        {"s":"M","t":"My black school shoes – they look good with the suit. My trainers are too dirty."},
+        {"s":"F","t":"Ha! I'll wear my boots with my skirt."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking about her new glasses.", "q": "How does she feel about her glasses now?", "options": ["worried that people will laugh at her", "sorry that she chose that colour", "happy that she has them"], "answer": 2,
+        "script": [ {"s":"F","t":"When the eye doctor said I needed glasses, I was really worried. I thought everyone at school would laugh at me, so I chose some boring brown ones. But on my first day, my friends said they looked great, and now I can see the board clearly. I love them! Next time I might choose a more exciting colour, but these are fine for now."} ] },
+      { "intro": "You will hear a boy talking to a shop assistant.", "q": "Why does the boy want to bring back the jacket?", "options": ["It's the wrong size.", "There's a hole in it.", "He doesn't like the colour."], "answer": 1,
+        "script": [ {"s":"M","t":"Hello. I bought this jacket here on Saturday, but I'd like to bring it back."}, {"s":"F","t":"Is it too small? We've got bigger sizes."}, {"s":"M","t":"No, the size is fine, and I love the colour. But look – there's a hole in the pocket. I only saw it when I got home."}, {"s":"F","t":"Oh, I'm sorry. Would you like another one?"} ] },
+      { "intro": "You will hear a mother talking to her son.", "q": "What does she want him to do?", "options": ["put his clothes away", "wash his football shirt", "get ready for school"], "answer": 0,
+        "script": [ {"s":"F","t":"Ryan, have you seen your bedroom? There are clothes all over the floor – jeans, socks, your school sweater. And your clean shirts are still on the bed. I've already washed your football shirt, so don't worry about that. But please put everything in your cupboard before dinner. I'm not doing it for you!"} ] },
+      { "intro": "You will hear two friends talking about a clothes website.", "q": "What does the boy say about the website?", "options": ["The clothes are cheap.", "It's difficult to use.", "It only has clothes for girls."], "answer": 1,
+        "script": [ {"s":"F","t":"Have you tried that new clothes website, Style Teen?"}, {"s":"M","t":"Yes, my sister showed me. There are lots of nice jackets and trainers for boys on it."}, {"s":"F","t":"And the prices are good, aren't they?"}, {"s":"M","t":"Not really – most things cost more than in the shops. And it's so confusing! I spent twenty minutes trying to find my size and then I gave up."} ] },
+      { "intro": "You will hear a teacher talking to her class before a school trip.", "q": "What is the teacher mainly talking about?", "options": ["what time the bus leaves", "where to meet", "what students should wear"], "answer": 2,
+        "script": [ {"s":"F","t":"OK, everyone, just a few things about tomorrow's trip to the farm. We'll meet here in the classroom as usual. Now, it's going to be very muddy, so please don't come in your school uniform or your best trainers. Wear old clothes and boots, and bring a raincoat. And put a warm hat in your bag – it can get cold there in the afternoon."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Oscar talking to his mum after a family holiday. What did each person leave at the hotel?",
+      "people": ["Dad", "Grandma", "Ruby", "Uncle Pete", "Oscar"],
+      "options": ["belt", "glasses", "raincoat", "shorts", "swimming costume", "trainers", "umbrella", "watch"],
+      "answers": ["A", "G", "E", "C", "D"],
+      "script": [
+        {"s":"F","t":"Oscar, the hotel phoned. They found lots of our things in the rooms! I can't believe this family."},
+        {"s":"M","t":"Oh no! What did they find? Was it Dad's watch? He couldn't find it at the airport."},
+        {"s":"F","t":"No, he found his watch in his coat pocket on the plane. But he left his belt on the bathroom door."},
+        {"s":"M","t":"Typical! What about Grandma? She's always losing her glasses."},
+        {"s":"F","t":"Her glasses are fine – she's wearing them now. It was her umbrella. She left it next to the bed."},
+        {"s":"M","t":"And Ruby? I'm sure my sister forgot something."},
+        {"s":"F","t":"Yes, her swimming costume. It was still wet, so she put it outside on the balcony and forgot about it."},
+        {"s":"M","t":"Uncle Pete said he left his trainers under the bed."},
+        {"s":"F","t":"No, he found those when he was packing. But the hotel has got his raincoat. It was in the cupboard by the door."},
+        {"s":"M","t":"Well, that's everyone except me. I packed everything really carefully."},
+        {"s":"F","t":"Really? Then whose shorts are these? The hotel says they're blue with yellow stars on them."},
+        {"s":"M","t":"Oh! They're mine. I wore them on the beach on the last day."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Your school uniform", "questions": ["What do you wear to school?", "Do you like wearing a uniform?"], "extended": "Please tell me something about the clothes you wear at school." },
+        { "topic": "Clothes and weather", "questions": ["What do you wear when it's cold?", "What clothes do you take on holiday?"], "extended": "Please tell me something about your favourite jacket or coat." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things people wear or carry. Do you like these different things? Say why or why not.",
+      "pictures": [ {"emoji":"⌚","label":"watch"}, {"emoji":"🕶️","label":"sunglasses"}, {"emoji":"🧢","label":"cap"}, {"emoji":"🎒","label":"backpack"}, {"emoji":"☂️","label":"umbrella"} ],
+      "prompts": ["Do you think a watch is useful?", "Are sunglasses fashionable?", "Do you like wearing a cap?", "Is a backpack better than a handbag for school?", "Which of these things do you like best?"],
+      "followup": ["Do you prefer buying clothes in shops or online? Why?", "Do you think it's a good idea to repair old clothes?", "What do you always carry in your bag?"],
+      "usefulLanguage": ["I think ... is useful because ...", "I never wear ... because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "t20-2", "topic": "20", "testNo": 2,
+  "title": "Sporty Holidays",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SANDY BAY BEACH", "text": "Surfboards for hire – £10 an hour.\nSurfing lessons for beginners every morning at 9 a.m.\nAsk at the blue hut.",
+        "options": ["You can only go surfing in the morning.", "You can learn to surf here.", "Surfboards are free before 9 a.m."], "answer": 1 },
+      { "kind": "message", "header": "From: Ana  To: Kenji", "text": "Our riding lesson is at 4.30 today, not 2.30. Remember to wear boots – no trainers allowed at the riding school!",
+        "options": ["Kenji can wear trainers to the lesson.", "The lesson will last two hours.", "The lesson will start later than planned."], "answer": 2 },
+      { "kind": "notice", "header": "LAKESIDE FISHING", "text": "Fishing is only allowed from the wooden platforms.\nPlease put every fish you catch back into the water.",
+        "options": ["You can't take home any fish you catch.", "You can fish anywhere around the lake.", "Wooden platforms are for sale here."], "answer": 0 },
+      { "kind": "email", "header": "From: Mr Lee  To: Year 8 students", "text": "Ski trip: please pay the last £50 by Friday. If you haven't got skis, you can borrow some at the hotel – there's no need to buy them.",
+        "options": ["Students must buy skis before the trip.", "The whole trip costs £50.", "Some money must be paid by the end of the week."], "answer": 2 },
+      { "kind": "label", "header": "SKATEBOARD – SPEEDY 3", "text": "For riders aged 8+.\nAlways wear a helmet and knee pads.\nNot for use on roads.",
+        "options": ["You should not ride this skateboard in the street.", "Only children under 8 need a helmet.", "Knee pads come with this skateboard."], "answer": 0 },
+      { "kind": "note", "header": "From: Grandma  To: Leo", "text": "Leo – Uncle Pete has got two tickets for the baseball game on Sunday. He'll meet you at the stadium gate at 1 o'clock. Take your cap – it's going to be sunny!",
+        "options": ["Leo's uncle will drive him to the stadium.", "Leo needs to meet his uncle at the stadium.", "Leo has to buy a ticket for the game."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about a holiday with sport.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Noah", "text": "Last summer my family spent a week at a sailing school next to a lake in Wales. On the first day I fell in the water three times! The water was really cold, but the teachers were very patient with me. By the end of the week I could sail a small boat on my own. In the evenings we were too tired to do anything except eat and sleep. I'd love to go back next year." },
+        { "label": "B", "title": "Priya", "text": "In February I went skiing in Italy with my school. I was the only person in my class who had never skied before, so I felt quite worried. But my ski teacher was brilliant, and after three days I could go down the easy runs with my friends. We stayed in a wooden hotel in the mountains. My favourite part was the big snowball fight with our teachers on the last night!" },
+        { "label": "C", "title": "Huy", "text": "I spend every summer with my grandparents in a small town by the sea in Vietnam. My grandfather taught me to surf when I was nine, and now I'm better than him! I get up at five every morning because that's when the waves are best. I also go fishing with him in his little boat. Last year I entered a surfing competition for teenagers and came second." }
+      ],
+      "items": [
+        { "q": "Who learned their sport from a relative?", "answer": "C" },
+        { "q": "Who could do their sport without help at the end of the holiday?", "answer": "A" },
+        { "q": "Who was a beginner when the other people in their group were not?", "answer": "B" },
+        { "q": "Who gets up very early to do their sport?", "answer": "C" },
+        { "q": "Who mentions having fun with some adults?", "answer": "B" },
+        { "q": "Who says they had no energy left in the evenings?", "answer": "A" },
+        { "q": "Who did well in a competition?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "A young star of tennis",
+      "text": "Meet Lucia Romano, a thirteen-year-old tennis player from Leeds who has just won her first national competition.\n\nLucia started playing tennis when she was six. \"My parents aren't sporty at all,\" she says. \"But there were tennis courts in the park opposite our flat, and I watched people play there every day from my window. One day I asked Dad to buy me a racket.\"\n\nNow Lucia practises for two hours every day – one hour before school and one hour after. \"My friends think I'm crazy, but I love it. The only thing I don't like is running. My coach makes us run around the courts ten times before we start!\"\n\nLucia's school helps her a lot. When she has competitions in other cities, her teachers send her homework by email. \"I do it at the hotel in the evening. It's hard, but I don't want to be behind my classmates.\"\n\nWinning the competition last month was a big surprise. \"I was so nervous before the final that I couldn't eat any breakfast,\" she says. \"The other girl was a year older than me, and she won the first set easily. But then I started to enjoy the game, and everything changed.\"\n\nLucia's prize was a new racket and a week of training with a famous coach in Spain. \"I'm going in the summer holidays. I can't wait – but I'll miss my cat!\"",
+      "items": [
+        { "q": "How did Lucia become interested in tennis?", "options": ["Her parents played it.", "She saw people playing near her home.", "A friend gave her a racket."], "answer": 1 },
+        { "q": "What does Lucia dislike about her training?", "options": ["getting up early", "practising every day", "the running"], "answer": 2 },
+        { "q": "What happens when Lucia goes to competitions?", "options": ["She does her schoolwork in the evenings.", "Her teachers travel with her.", "She doesn't have to do any homework."], "answer": 0 },
+        { "q": "How did Lucia feel before the final?", "options": ["excited", "nervous", "hungry"], "answer": 1 },
+        { "q": "What is Lucia going to do in the summer?", "options": ["buy a new racket", "take her cat to Spain", "train in another country"], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "The story of skateboarding",
+      "text": "The first skateboards appeared in California in the 1950s. Surfers wanted something to do when there were no waves in the sea, so they {19} the idea of putting wheels on small pieces of wood. Then they rode them along the streets. People called it 'sidewalk surfing'.\n\nIn the 1970s, skateboards became much better. New wheels made them faster and {20} to ride, and skateboarders started to do jumps and tricks. Special skateboard parks opened in many cities, and young people {21} hours there every weekend.\n\nToday, skateboarding is {22} all over the world. In 2021, it became an Olympic sport for the first time, and some of the {23} were only thirteen years old! But many people still skate just for fun. If you want to {24} it, remember to wear a helmet – everyone falls off sometimes!",
+      "items": [
+        { "options": ["had", "made", "thought"], "answer": 0 },
+        { "options": ["heavier", "easier", "slower"], "answer": 1 },
+        { "options": ["took", "spent", "kept"], "answer": 1 },
+        { "options": ["interested", "pleased", "popular"], "answer": 2 },
+        { "options": ["coaches", "winners", "visitors"], "answer": 1 },
+        { "options": ["miss", "enter", "try"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Chloe  To: Amira", "text": "Hi Amira,\nDo you want to go ice skating {25} me tomorrow? The new ice rink opened last week and my brother says it's {26} best one in town. We can go in the afternoon – I have {27} finish my homework in the morning.\nChloe" },
+        { "header": "From: Amira  To: Chloe", "text": "Hi Chloe,\nI'd love to come, but I can't skate very well. The last time I tried, I fell over {28} lot! Will you help me? I haven't got {29} own skates, but I think you can hire them there. Shall we meet at the bus stop {30} two o'clock?\nAmira" }
+      ],
+      "answers": [ ["with"], ["the"], ["to"], ["a"], ["my"], ["at", "around", "about"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your English friend Jo has asked you to play tennis this weekend, but you can't. Write an email to Jo.",
+      "points": ["say sorry and explain why you can't play", "suggest another day", "say what you would like to do after the game"],
+      "model": "Hi Jo,\nSorry, I can't play tennis this weekend because I've got a swimming competition on Saturday and Sunday. Can we play next Wednesday after school? After the game, let's go to the café at the sports centre for a drink.\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🏄🏖️", "caption": "a girl on a beach carrying a surfboard towards the sea" },
+        { "emoji": "🌊💦😮", "caption": "the girl falling off her surfboard into a big wave; a surf teacher swimming near her" },
+        { "emoji": "🏄‍♀️🌊👏", "caption": "the girl standing on her surfboard on a wave while her family claps on the beach" }
+      ],
+      "model": "Last summer Mai went to the beach with her family. She wanted to learn to surf, so she had a lesson. At first it was very difficult and she fell into the water many times. But her teacher helped her and she didn't stop trying. Finally, she stood up on a wave and her family clapped!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What time does the girl's race start?",
+        "options": [ {"emoji":"🕥","label":"10:30"}, {"emoji":"🕙","label":"10:00"}, {"emoji":"🕚","label":"11:00"} ], "answer": 0,
+        "script": [ {"s":"M","t":"When does your swimming race start, Kate?"}, {"s":"F","t":"The competition starts at ten, but the girls' races are later."}, {"s":"M","t":"So is yours at eleven?"}, {"s":"F","t":"No, that's my friend's race. Mine is at half past ten. But I have to be at the pool before that to get ready."} ] },
+      { "q": "Which sport is the boy's dad watching today?",
+        "options": [ {"emoji":"⚾","label":"baseball"}, {"emoji":"🎾","label":"tennis"}, {"emoji":"⛳","label":"golf"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Is your dad watching the tennis on TV again?"}, {"s":"M","t":"No, that finished yesterday. It's golf today. He watches it for hours!"}, {"s":"F","t":"My dad's the same with baseball. He even stays up at night to watch games from America."}, {"s":"M","t":"Ha! Shall we go outside, then?"} ] },
+      { "q": "What will the girl take on the boat trip?",
+        "options": [ {"emoji":"🎣","label":"fishing rod"}, {"emoji":"🧥","label":"jacket"}, {"emoji":"👙","label":"swimming costume"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Are you ready for the boat trip, Lan? Don't forget your swimming costume."}, {"s":"F","t":"We aren't going swimming, Dad. The water's too cold. We're going fishing."}, {"s":"M","t":"Oh! Have you got a fishing rod?"}, {"s":"F","t":"There are rods on the boat for everyone. But it's windy on the sea, so I'll take my warm jacket."} ] },
+      { "q": "How did the boy get to football practice?",
+        "options": [ {"emoji":"🚶","label":"walked"}, {"emoji":"🚲","label":"by bike"}, {"emoji":"🚌","label":"by bus"} ], "answer": 0,
+        "script": [ {"s":"F","t":"You're late, Ali! Did you cycle here?"}, {"s":"M","t":"I wanted to, but my brother took my bike this morning."}, {"s":"F","t":"So did you come by bus?"}, {"s":"M","t":"I waited at the bus stop for twenty minutes, but it didn't come. So in the end I walked. That's why I'm late. Sorry, coach."} ] },
+      { "q": "What did the girl win?",
+        "options": [ {"emoji":"🏅","label":"medal"}, {"emoji":"🏆","label":"cup"}, {"emoji":"👟","label":"trainers"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Well done for winning the race, Ella! Did you get a medal?"}, {"s":"F","t":"Everyone who finished got a medal. But the winner got something better."}, {"s":"M","t":"A cup?"}, {"s":"F","t":"No, the cup was for the best team. I got a pair of new running trainers!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman talking about a sailing club for young people.",
+      "title": "Blue Water Sailing Club",
+      "items": [
+        { "label": "Club meets on:", "answer": ["saturday", "saturdays"] },
+        { "label": "You must be able to swim (metres):", "answer": ["200", "two hundred"] },
+        { "label": "Cost per month: £", "answer": ["30", "thirty"] },
+        { "label": "Bring a:", "answer": ["towel"] },
+        { "label": "Teacher: Kevin", "answer": ["nolan"] }
+      ],
+      "script": [ {"s":"F","t":"Hi, everyone. Thanks for coming to hear about the Blue Water Sailing Club. We're a club for young people aged eleven to sixteen, and we sail on Green Lake, just outside town. Last year we met on Sundays, but the lake is very busy then, so now the club meets on Saturdays, from ten until one. You don't need to know anything about sailing before you start. But you must be able to swim two hundred metres. Fifty metres isn't enough – sometimes you fall in, and the lake is quite deep! It costs thirty pounds a month to be a member. That pays for the boats and your lessons. We give everyone a life jacket, so you don't need to buy one. But please bring a towel, because you'll probably get wet. And wear old trainers, not your best ones! Your teacher will be Kevin Nolan. That's N-O-L-A-N. He's sailed all over the world and he's won lots of races. If you'd like to join, please fill in a form at the sports centre."} ]
+    },
+    "part3": {
+      "intro": "You will hear Leo talking to his friend Nina about his skiing holiday.",
+      "items": [
+        { "q": "Where did Leo's family stay?", "options": ["in a flat", "in a hotel", "with friends"], "answer": 1 },
+        { "q": "What did Leo find difficult on the first day?", "options": ["standing up on the snow", "carrying his skis", "walking in his ski boots"], "answer": 2 },
+        { "q": "Who taught Leo to ski?", "options": ["a teacher at a ski school", "his father", "his sister"], "answer": 0 },
+        { "q": "What did Leo enjoy most on holiday?", "options": ["snowboarding", "skiing down the mountain", "skating on a lake"], "answer": 2 },
+        { "q": "What is Leo going to do next month?", "options": ["go to an indoor ski centre", "go back to Austria", "have snowboarding lessons"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Leo! How was your skiing holiday in Austria?"},
+        {"s":"M","t":"Amazing, thanks, Nina. We stayed in a small hotel in the mountains. Last year we went to France and rented a flat with some friends, but Mum didn't want to cook this time!"},
+        {"s":"F","t":"Was it your first time on skis?"},
+        {"s":"M","t":"Yes. The first day was really hard. Standing up on the snow wasn't too bad, and carrying the skis was OK. The problem was the boots. They were so heavy, and I could hardly walk in them!"},
+        {"s":"F","t":"Did your dad teach you? He's a good skier, isn't he?"},
+        {"s":"M","t":"He wanted to teach me, but he's not very patient! So I joined a ski school. My teacher was a young woman called Anna. She was great, and she spoke really good English. My sister had lessons with her too."},
+        {"s":"F","t":"Did you try snowboarding as well?"},
+        {"s":"M","t":"My sister did, but I didn't have time. Skiing down the mountain on the last day was fun. But the best thing was on the last afternoon, when we went ice skating on a frozen lake. There were mountains all around, and it was snowing a little. It was beautiful."},
+        {"s":"F","t":"Sounds lovely. Will you go back to Austria next year?"},
+        {"s":"M","t":"I hope so! But first I want to practise. There's an indoor ski centre about an hour from here. Dad says we can go there next month. Some of my friends from school want to come too."},
+        {"s":"F","t":"Can I come?"},
+        {"s":"M","t":"Of course!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his mother after a hockey match.", "q": "Why is the boy unhappy?", "options": ["His team lost the match.", "He didn't get the chance to play.", "He hurt his leg."], "answer": 1,
+        "script": [ {"s":"F","t":"How was the match? You won, didn't you?"}, {"s":"M","t":"Yes, four–one. But the coach kept me on the bench for the whole game. I didn't play at all! And I practised so hard this week."}, {"s":"F","t":"Oh dear. Well, I'm sure you'll play next time."} ] },
+      { "intro": "You will hear a teacher talking to her class.", "q": "What is the teacher telling the class about?", "options": ["a lesson that will be in a different place", "a new sports team at the school", "the results of a competition"], "answer": 0,
+        "script": [ {"s":"F","t":"OK, everyone, listen please. The weather forecast says it's going to rain all day tomorrow, so we won't have our PE lesson on the field. Instead, we'll play table-tennis and volleyball in the sports hall. So please bring your indoor trainers, not your football boots. Thank you."} ] },
+      { "intro": "You will hear two friends talking about a cycling trip.", "q": "What does the boy suggest?", "options": ["going a shorter way", "taking the train back", "starting earlier"], "answer": 2,
+        "script": [ {"s":"F","t":"So we're cycling to the beach on Saturday? It's thirty kilometres!"}, {"s":"M","t":"I know. Why don't we leave at seven instead of nine? Then we can have a rest on the beach before lunch."}, {"s":"F","t":"Seven? That's so early!"}, {"s":"M","t":"But it'll be cooler then, and we won't get so tired."} ] },
+      { "intro": "You will hear a girl talking about a new sports centre in her town.", "q": "What does she think about the sports centre?", "options": ["It doesn't have enough sports.", "It's difficult to get to.", "It's too old."], "answer": 1,
+        "script": [ {"s":"F","t":"The new sports centre opened last week. It's got a big pool, a climbing wall and four tennis courts, and everything's really modern. The only thing is, you can't walk or cycle there. It's outside town, next to the motorway, so you need a car or the bus. I go with my mum on Saturdays, but I'd love to go more often."} ] },
+      { "intro": "You will hear a boy talking to his grandmother about a football match.", "q": "What did the boy like most about the match?", "options": ["seeing his favourite player", "the food at the stadium", "the noise of the crowd"], "answer": 2,
+        "script": [ {"s":"F","t":"Did you enjoy the match yesterday, Sami?"}, {"s":"M","t":"Yes! The game wasn't very exciting – it finished nil–nil. And my favourite footballer didn't play because he was ill. But the fans were amazing. Fifty thousand people singing together – it was so loud! I loved it."}, {"s":"F","t":"And the food?"}, {"s":"M","t":"Too expensive!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Rosa talking to her friend about her family's holiday by the sea. What did each person do most on holiday?",
+      "people": ["her dad", "her mum", "her brother", "her grandpa", "Rosa"],
+      "options": ["fishing", "riding", "sailing", "surfing", "swimming", "tennis", "volleyball", "walking"],
+      "answers": ["C", "H", "D", "A", "B"],
+      "script": [
+        {"s":"M","t":"Hi Rosa! How was your holiday by the sea?"},
+        {"s":"F","t":"Brilliant, thanks. We all did different things. My dad hired a little boat and went sailing every morning. He wanted to go fishing too, but he never had time."},
+        {"s":"M","t":"What about your mum? Did she go in the boat with him?"},
+        {"s":"F","t":"No, she feels sick on boats! She played tennis once, but mostly she went for long walks along the cliffs. She walked about ten kilometres every day."},
+        {"s":"M","t":"Wow. And your brother? Did he play volleyball on the beach? He's in the school team, isn't he?"},
+        {"s":"F","t":"He watched other people play, but he spent all his time with his surfboard. He's really good at surfing now."},
+        {"s":"M","t":"And your grandpa came too, didn't he?"},
+        {"s":"F","t":"Yes. He sat by the river with his fishing rod for hours every day. He caught a really big fish on the last day!"},
+        {"s":"M","t":"So what did you do? Lots of swimming?"},
+        {"s":"F","t":"No, the sea was too cold for swimming! There was a riding school near our hotel, so I went riding every afternoon. My horse was called Star."},
+        {"s":"M","t":"That sounds great."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Sports you do", "questions": ["What sport do you do in your free time?", "Who do you usually do sport with?"], "extended": "Please tell me something about a sport you are good at." },
+        { "topic": "Holidays", "questions": ["Where do you like to go on holiday?", "Do you do any sport on holiday?"], "extended": "Please tell me something about your last holiday." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different sports people do on holiday. Do you like these different sports? Say why or why not.",
+      "pictures": [ {"emoji":"⛷️","label":"skiing"}, {"emoji":"⛵","label":"sailing"}, {"emoji":"🏇","label":"horse riding"}, {"emoji":"🛹","label":"skateboarding"}, {"emoji":"🎣","label":"fishing"} ],
+      "prompts": ["Do you think skiing is exciting?", "Is sailing difficult?", "Do you think horse riding is fun?", "Is skateboarding dangerous?", "Which of these sports do you like best?"],
+      "followup": ["Do you prefer sports on the beach or in the mountains? Why?", "Would you like to learn a new sport on holiday?", "Do you think sports holidays are expensive?"],
+      "usefulLanguage": ["I'd like to try ... because ...", "I think ... is boring because ...", "What do you think?", "Me too.", "I don't agree. I think ..."]
+    }
+  }
+}

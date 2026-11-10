@@ -1,0 +1,187 @@
+{
+  "id": "t23-2", "topic": "23", "testNo": 2,
+  "title": "Holidays Abroad",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "AIRPORT – GATE 12", "text": "Flight BA427 to Rome\nNow boarding: passengers with young children and passengers in rows 20–35.\nAll other passengers, please wait.",
+        "options": ["Everyone on the flight can get on the plane now.", "Some passengers have to wait before they get on the plane.", "The flight to Rome is delayed."], "answer": 1 },
+      { "kind": "message", "header": "From: Mum  To: Kim", "text": "Your passport is in the top drawer of my desk. Please put it in your bag tonight – you'll need it at the airport tomorrow, and we can't come back home for it!",
+        "options": ["Kim should pack her passport today.", "Kim's passport is already at the airport.", "Mum can't find Kim's passport."], "answer": 0 },
+      { "kind": "notice", "header": "TOURIST INFORMATION CENTRE", "text": "Free city maps\nBus and tram tickets sold here\nBook a city tour with a guide: daily at 11 a.m. and 2 p.m.",
+        "options": ["You have to pay for a map here.", "You can buy train tickets here.", "There are guided tours twice a day."], "answer": 2 },
+      { "kind": "sign", "header": "CROSSING", "text": "Cyclists: get off your bike and walk across.\nWait for the green light.",
+        "options": ["Cyclists mustn't ride over this crossing.", "Bikes are not allowed on this road.", "Cyclists can cross when the light is red."], "answer": 0 },
+      { "kind": "email", "header": "From: Sunshine Travel  To: Mr Tran", "text": "Your coach from the airport to the hotel will leave at 4.30 p.m. If your flight is delayed, please phone us and we'll send a taxi for you at no extra cost.",
+        "options": ["Mr Tran must pay for a taxi if his flight is late.", "The travel company will help if the flight arrives late.", "Mr Tran should take a taxi to the airport."], "answer": 1 },
+      { "kind": "label", "header": "LUGGAGE TAG", "text": "If found, please return to:\nSofia Martins, Room 214, Harbour Hotel\nThank you!",
+        "options": ["Sofia works at a hotel.", "Sofia has found someone's bag.", "Sofia is staying at the Harbour Hotel."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about travelling around a city they visited on holiday.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Daniel", "text": "Last spring I went to Tokyo with my dad. We used the underground every day. The trains were very clean and they were never late – not even one minute! But the map of the underground was really difficult to understand. On our first day we took the wrong train and went to the other side of the city. In the end, a kind passenger showed us the right way." },
+        { "label": "B", "title": "Sara", "text": "I visited Venice in Italy with my family last summer. There are no cars in the city at all! Instead of buses, people travel on boats called water buses. They were great fun, but the tickets cost a lot of money, so we walked most of the time. We crossed lots of little bridges over the canals. My feet hurt every evening!" },
+        { "label": "C", "title": "Phong", "text": "In October I went to London with my school. My favourite thing was travelling on the red buses. They have two floors, and I always ran to get the front seat upstairs because you can see everything from there. We also went on a boat tour along the river. It rained almost every day, but I didn't mind because there were so many things to see." }
+      ],
+      "items": [
+        { "q": "Who visited a city with no cars?", "answer": "B" },
+        { "q": "Who had a problem finding the right way?", "answer": "A" },
+        { "q": "Who liked sitting in one special place?", "answer": "C" },
+        { "q": "Who says travelling was very expensive?", "answer": "B" },
+        { "q": "Who says the transport was always on time?", "answer": "A" },
+        { "q": "Who had bad weather?", "answer": "C" },
+        { "q": "Who walked a lot?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "To Asia without a plane",
+      "text": "Most people who travel from Europe to Asia take a plane. The flight takes about twelve hours. But last summer, thirteen-year-old Felix Weber and his mother travelled from Berlin to Hanoi to visit his grandparents – and they didn't get on a plane once. The journey took them nineteen days.\n\n\"Mum and I wanted to see the countries between Germany and Vietnam, not just the sky,\" says Felix. \"And planes are bad for the environment.\" His father couldn't travel with them because he had to work, so he flew out to meet them at the end.\n\nThey travelled mostly by train. The longest part of the journey was the train across Russia and Mongolia, which took six days. \"I thought I'd be bored, but I wasn't,\" says Felix. \"I played cards with other passengers and watched the view from the window for hours.\"\n\nThere were some problems, too. In China, their train was delayed for nine hours because of a problem with the engine. \"We slept on the floor of the station,\" Felix says. \"It wasn't fun, but now it's a funny story.\"\n\nWhen they finally arrived in Hanoi, Felix's grandparents met them at the railway station. \"My grandma cried when she saw us,\" he remembers.\n\nFelix wrote a blog during the trip, and lots of people read it. \"Next summer, Mum and I want to travel to Spain by bike,\" he says. \"Maybe I'll write a book about that journey!\"",
+      "items": [
+        { "q": "Why did Felix and his mother decide not to fly?", "options": ["Flights were too expensive.", "They wanted to see more places.", "Felix is afraid of flying."], "answer": 1 },
+        { "q": "What do we learn about Felix's father?", "options": ["He went to Vietnam by plane.", "He stayed at home with the grandparents.", "He drove them to the station in Berlin."], "answer": 0 },
+        { "q": "What does Felix say about the train across Russia?", "options": ["He was bored most of the time.", "He found lots of things to do.", "He couldn't sleep on it."], "answer": 1 },
+        { "q": "What happened in China?", "options": ["They missed their train.", "They lost their luggage.", "They had to wait a long time."], "answer": 2 },
+        { "q": "What is Felix planning to do next?", "options": ["go on a cycling trip", "start writing a blog", "visit his grandparents again"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The first long car journey",
+      "text": "In August 1888, a German woman called Bertha Benz {19} history. Her husband, Karl, had built one of the first cars, but he didn't believe it could travel very far. Bertha wanted to show him that he was wrong.\n\nEarly one morning, she and her two teenage sons {20} the house without telling Karl. They drove 106 kilometres to visit her mother in another town. There were no petrol stations then, so Bertha had to buy fuel from a chemist's shop {21} the way.\n\nThe journey wasn't easy. The car had no roof, and the roads were very bad. When the brakes stopped working, Bertha {22} them herself with help from a shoemaker. The car couldn't go up hills, so the boys had to get out and {23} it.\n\nThey arrived in the evening, and Bertha sent a message to Karl. Her journey showed people that cars were useful, and soon many people wanted to {24} one.",
+      "items": [
+        { "options": ["made", "did", "took"], "answer": 0 },
+        { "options": ["went", "left", "moved"], "answer": 1 },
+        { "options": ["by", "in", "on"], "answer": 2 },
+        { "options": ["built", "cleaned", "repaired"], "answer": 2 },
+        { "options": ["carry", "push", "throw"], "answer": 1 },
+        { "options": ["buy", "sell", "spend"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Grandpa  To: Jamie", "text": "Hi Jamie,\nI'm looking forward {25} your visit next week! When you get off the train, walk out of the station and turn left. My house is only five minutes {26} there. If you have a lot of luggage, call me and I'll come and meet you {27} the car.\nGrandpa" },
+        { "header": "From: Jamie  To: Grandpa", "text": "Hi Grandpa,\nThanks! I'm travelling alone for the first time, so I'm a bit nervous. Mum is going to drive me {28} the station. My train arrives at half past one. I'm only bringing a small bag, so I {29} need any help. Can we go fishing {30} I'm there?\nJamie" }
+      ],
+      "answers": [ ["to"], ["from"], ["in", "with"], ["to"], ["won't", "don't", "shan't"], ["while", "when"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You are going on holiday with your family next month. Write an email to your English friend, Mia.",
+      "points": ["say where you are going", "say how you will travel there", "tell Mia what you are excited about"],
+      "model": "Hi Mia,\nNext month my family is going to Da Nang for a week. We're going to fly there from Hanoi – it's my first time on a plane! I'm really excited about swimming in the sea and visiting the Golden Bridge.\nLove,\nThao"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🚋👜", "caption": "a girl sitting on a tram with her bag on the seat next to her, looking out of the window" },
+        { "emoji": "👧🚋😱", "caption": "the girl standing at a tram stop as the tram leaves; her bag is still on the seat" },
+        { "emoji": "👨‍✈️👜😊", "caption": "a tram driver giving the bag back to the girl at the tram station" }
+      ],
+      "model": "Last Saturday Anna took the tram into the city centre. She put her bag on the seat next to her and looked out of the window. When she got off, she forgot her bag! She ran to the tram station and asked for help. Later, the tram driver gave her the bag. She was so happy."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What did the boy forget to pack?",
+        "options": [ {"emoji":"🛂","label":"passport"}, {"emoji":"🕶️","label":"sunglasses"}, {"emoji":"🔌","label":"phone charger"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Have you got everything for the trip, Leo? What about your passport?"}, {"s":"M","t":"Yes, it's in my bag with my ticket."}, {"s":"F","t":"And your sunglasses?"}, {"s":"M","t":"I'm wearing them! Oh no – my phone charger. It's still next to my bed at home."}, {"s":"F","t":"Don't worry, you can borrow mine."} ] },
+      { "q": "How will the family get to the airport?",
+        "options": [ {"emoji":"🚕","label":"taxi"}, {"emoji":"🚆","label":"train"}, {"emoji":"🚌","label":"bus"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Shall we get a taxi to the airport tomorrow?"}, {"s":"F","t":"It's too expensive. What about the bus? It stops right outside our house."}, {"s":"M","t":"But it takes almost two hours. The train only takes forty minutes."}, {"s":"F","t":"OK, let's do that. The station isn't far, and we can walk there with our suitcases."} ] },
+      { "q": "What time does the flight leave?",
+        "options": [ {"emoji":"🕘","label":"9:15"}, {"emoji":"🕚","label":"10:50"}, {"emoji":"🕐","label":"1:00"} ], "answer": 1,
+        "script": [ {"s":"F","t":"What time's our flight, Dad? Nine fifteen?"}, {"s":"M","t":"No, that's when we have to be at the airport. The flight leaves at ten fifty."}, {"s":"F","t":"And when do we arrive in Paris?"}, {"s":"M","t":"At about one o'clock, if there aren't any delays."} ] },
+      { "q": "What does the woman's son want to be?",
+        "options": [ {"emoji":"👨‍✈️","label":"pilot"}, {"emoji":"🚆","label":"train driver"}, {"emoji":"👷","label":"engineer"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Your son loves planes, doesn't he? Does he want to be a pilot?"}, {"s":"F","t":"He did when he was little. Now he's more interested in how planes work."}, {"s":"M","t":"So an engineer?"}, {"s":"F","t":"Yes, he wants to design plane engines. His best friend wants to be a train driver, but that's not for him."} ] },
+      { "q": "What does the boy's Uncle Mark drive?",
+        "options": [ {"emoji":"🚛","label":"lorry"}, {"emoji":"🚌","label":"coach"}, {"emoji":"🚕","label":"taxi"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Your Uncle Mark drives a coach, doesn't he? He took us on the school trip."}, {"s":"M","t":"No, that was my other uncle, Uncle Tony. Uncle Mark drives a lorry."}, {"s":"F","t":"Oh! Does he go far?"}, {"s":"M","t":"Yes, all over Europe. He was a taxi driver when he was young, but he loves long journeys more."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about a visit to an airport.",
+      "title": "Class Visit to City Airport",
+      "items": [
+        { "label": "Day of visit:", "answer": ["tuesday"] },
+        { "label": "Coach leaves school at:", "answer": ["8.30", "8:30", "half past eight"] },
+        { "label": "Students will talk to a:", "answer": ["pilot"] },
+        { "label": "Price of sandwich and drink: £", "answer": ["5", "five"] },
+        { "label": "Name of airport guide: Mrs", "answer": ["brennan"] }
+      ],
+      "script": [ {"s":"M","t":"OK, everyone, listen carefully. Our visit to City Airport is next week. It was on Monday, but the airport asked us to change it, so we're going on Tuesday instead. The coach will leave from the school gate at half past eight, so please be there by quarter past. The journey takes about an hour if the traffic isn't bad. When we arrive, we'll watch the planes taking off from the top floor of the airport. After that, we'll go inside a real plane, and you can sit in the seats and look at the engines. A pilot is going to talk to us about his job, so think of some good questions. Last year, students met one of the engineers, but this year he isn't free. For lunch, there's a café at the airport. A sandwich and a drink cost five pounds. Or you can bring your own lunch if you prefer. Our guide at the airport is Mrs Brennan. That's B-R-E-N-N-A-N. And remember – you don't need your passport, because we aren't flying anywhere!"} ]
+    },
+    "part3": {
+      "intro": "You will hear a girl, Ella, asking a man at a tourist information centre about travelling around a city.",
+      "items": [
+        { "q": "How long is Ella's family staying in the city?", "options": ["one day", "two days", "three days"], "answer": 2 },
+        { "q": "Where can't they use their travel card?", "options": ["on the underground", "on the buses", "on the trams"], "answer": 0 },
+        { "q": "How will they get to the castle?", "options": ["on foot", "by tram", "by bus"], "answer": 1 },
+        { "q": "Why is the boat tour free for children today?", "options": ["It is a holiday.", "The boat is new.", "They have a travel card."], "answer": 0 },
+        { "q": "What does the man say about the railway museum?", "options": ["It is closed today.", "Visitors can drive a model train there.", "It is next to the bridge."], "answer": 1 }
+      ],
+      "script": [
+        {"s":"F","t":"Hello. I'm here with my family for three days. What's the best way to get around the city?"},
+        {"s":"M","t":"The trams are the quickest. You can buy a travel card for one day for eight pounds, or for three days for eighteen pounds."},
+        {"s":"F","t":"Three days, please. We arrived this morning and we're leaving on Sunday. Can we use the card on the buses too?"},
+        {"s":"M","t":"Yes, on the buses and the trams, but not on the underground. That's a different ticket."},
+        {"s":"F","t":"OK. We'd like to visit the castle tomorrow. How do we get there?"},
+        {"s":"M","t":"Take tram number four from the stop outside. It's about fifteen minutes. You could walk, but it's a long way, and it's all uphill. There's no bus that goes there."},
+        {"s":"F","t":"The tram, then. And is there a boat tour on the river?"},
+        {"s":"M","t":"Yes, there's one every hour from the bridge. It usually costs ten pounds, but today it's free for children because it's a national holiday."},
+        {"s":"F","t":"Brilliant! My little brother loves boats. Is there anything else we should see?"},
+        {"s":"M","t":"The railway museum is very popular. It's open every day except Monday. There are lots of old trains, and you can even drive a model train."},
+        {"s":"F","t":"My dad will love that! Can I take a map, please?"},
+        {"s":"M","t":"Here you are. It's free, and it shows all the tram stops."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her friend about her first flight.", "q": "How did the girl feel during the flight?", "options": ["frightened", "bored", "excited"], "answer": 2,
+        "script": [ {"s":"M","t":"How was your flight to Spain, Amy? It was your first one, wasn't it?"}, {"s":"F","t":"Yes! I thought I'd be scared, but I wasn't at all."}, {"s":"M","t":"Long flights can be boring, though."}, {"s":"F","t":"It was only two hours, and I looked out of the window the whole time. When we went up through the clouds, I couldn't stop smiling!"} ] },
+      { "intro": "You will hear a man talking about traffic on the radio.", "q": "What is the problem on the motorway?", "options": ["A lorry has broken down.", "There has been an accident.", "The road is closed for repairs."], "answer": 0,
+        "script": [ {"s":"M","t":"And now the traffic news. There are long delays on the motorway this morning, near the airport. A lorry has stopped on the road with an engine problem, and a mechanic is on the way. There's no accident, and no one is hurt, but drivers should leave home early. And the road repairs on Bridge Street have finished, so that road is open again."} ] },
+      { "intro": "You will hear a boy talking about his grandmother.", "q": "What does the boy say about his grandmother?", "options": ["She has visited lots of countries.", "She is afraid of flying.", "She travels for her job."], "answer": 0,
+        "script": [ {"s":"M","t":"My grandma is seventy-two, but she's always travelling. Last year she went to Peru, and this spring she's going to Japan. She's been to about forty countries now! She doesn't enjoy long flights, but she says it's worth it. She stopped working ten years ago, so now she has lots of time to explore."} ] },
+      { "intro": "You will hear a boy talking to his mother at a petrol station.", "q": "Why have they stopped at the petrol station?", "options": ["to buy something to eat", "to check the tyres", "to get petrol"], "answer": 1,
+        "script": [ {"s":"M","t":"Mum, why are we stopping here? We've got lots of petrol."}, {"s":"F","t":"I know. But the car felt strange on the motorway, so I want to look at the tyres."}, {"s":"M","t":"Can I get some crisps from the shop while you do that?"}, {"s":"F","t":"No, we'll have lunch soon. Wait in the car, please."} ] },
+      { "intro": "You will hear a girl leaving a message for her mother.", "q": "Why is the girl calling?", "options": ["Her bus has broken down.", "She has lost her ticket.", "She missed her train."], "answer": 2,
+        "script": [ {"s":"F","t":"Hi Mum, it's me. I'm at the station. I'm really sorry, but I missed the four o'clock train. The bus from school was slow because of the traffic, and when I got to the platform, the train was just leaving. Don't worry, I've still got my ticket, and I can use it on the next train. It arrives at quarter past five. Can you meet me then?"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Hugo talking to his friend Nadia about a family holiday. What did each person forget to bring?",
+      "people": ["Hugo's dad", "Hugo's mum", "Lily (his sister)", "Grandpa", "Hugo"],
+      "options": ["camera", "map", "passport", "phone", "sunglasses", "swimming shorts", "ticket", "umbrella"],
+      "answers": ["C", "E", "A", "H", "F"],
+      "script": [
+        {"s":"F","t":"Hi Hugo! How was your holiday in Italy?"},
+        {"s":"M","t":"Good, but my family forgot so many things! Dad forgot his passport. We were already on the motorway, and we had to drive back home to get it."},
+        {"s":"F","t":"Oh no! Did you miss the flight?"},
+        {"s":"M","t":"No, luckily. And Dad had all our tickets on his phone, so that was OK."},
+        {"s":"F","t":"And your mum? She's usually so organised."},
+        {"s":"M","t":"She packed everything, but she left her sunglasses on the kitchen table. It was really sunny, so she had to buy some at the airport."},
+        {"s":"F","t":"What about your sister?"},
+        {"s":"M","t":"Lily forgot her camera. She was upset, because she wanted to take photos of the beach. She used Mum's phone instead."},
+        {"s":"F","t":"Your grandpa came too, didn't he?"},
+        {"s":"M","t":"Yes. He remembered to bring a map of the city, but he forgot his umbrella. And of course it rained on the second day!"},
+        {"s":"F","t":"And you? Did you remember everything?"},
+        {"s":"M","t":"I thought so. But when we opened the suitcases at the hotel, I didn't have my swimming shorts! I had to borrow some from Grandpa. They were enormous!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Holidays", "questions": ["Where do you like to go on holiday?", "Have you ever been on a plane?"], "extended": "Please tell me something about your last holiday." },
+        { "topic": "Transport in your town", "questions": ["Are there trams or an underground in your city?", "Is there a lot of traffic near your school?"], "extended": "Please tell me something about how people travel in your town." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things tourists can do on holiday. Do you like these different activities? Say why or why not.",
+      "pictures": [ {"emoji":"🚁","label":"helicopter ride"}, {"emoji":"🚌","label":"city bus tour"}, {"emoji":"⛵","label":"sailing"}, {"emoji":"🗺️","label":"exploring with a map"}, {"emoji":"🚲","label":"cycling tour"} ],
+      "prompts": ["Do you think a helicopter ride is exciting?", "Is a bus tour a good way to see a city?", "Do you think sailing is difficult?", "Do you like exploring a new place with a map?", "Which of these activities do you like best?"],
+      "followup": ["Do you prefer holidays in the city or by the sea? Why?", "Would you like to visit another country? Which one?", "What do you always take with you on holiday?"],
+      "usefulLanguage": ["I think ... is exciting because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

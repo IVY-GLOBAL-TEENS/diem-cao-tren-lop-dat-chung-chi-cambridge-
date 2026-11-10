@@ -43,5 +43,6 @@ jobs:
         run: |
           git config user.name "ket-audio-bot"
           git config user.email "ket-audio-bot@users.noreply.github.com"
+          [ -d ket-audio/audio ] || { echo "Chưa có file nghe mới."; exit 0; }
           git add ket-audio/audio
           git diff --cached --quiet || (git commit -m "KET audio: thêm file nghe Gemini TTS" && git push)

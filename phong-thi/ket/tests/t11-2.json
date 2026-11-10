@@ -1,0 +1,188 @@
+{
+  "id": "t11-2", "topic": "11", "testNo": 2,
+  "title": "Summer Holiday Fun",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "GREEN VALLEY CAMPSITE", "text": "Barbecues only in the area next to the river.\nPlease be quiet after 10 p.m.\nShop open 8 a.m. – 8 p.m.",
+        "options": ["You can have a barbecue next to your tent.", "You should not make a lot of noise late in the evening.", "The campsite shop is open all night."], "answer": 1 },
+      { "kind": "message", "header": "From: Mum  To: Ollie", "text": "Ollie, no beach picnic today – it's going to rain all afternoon. Grandma has invited us to her house instead. Bring your new board game!",
+        "options": ["The family are going to Grandma's house and not the beach.", "Ollie should take a game to the beach.", "Grandma is coming to the picnic."], "answer": 0 },
+      { "kind": "notice", "header": "SUMMER MUSIC FESTIVAL", "text": "Saturday 12 – Sunday 13 July, City Park\nWeekend ticket: £30\nDay ticket: £18\nUnder-12s free with an adult",
+        "options": ["Children under 12 can't go to the festival.", "A ticket for both days costs more than £30.", "You can buy a ticket for just one day."], "answer": 2 },
+      { "kind": "email", "header": "From: Ms Evans  To: Class 8A", "text": "The class camping trip is next weekend. The school will bring the tents, but you need your own sleeping bag. Please give me your form by Wednesday.",
+        "options": ["Students must bring their own tent.", "Ms Evans needs the forms before Thursday.", "The camping trip is this weekend."], "answer": 1 },
+      { "kind": "sign", "header": "BEACH BIKE HIRE", "text": "Bikes: £5 an hour or £20 a day\nHelmets free\nPlease bring bikes back by 6 p.m.",
+        "options": ["Hiring a bike for a day costs less than hiring it for five hours.", "You have to pay for a helmet.", "You can keep the bike until the next morning."], "answer": 0 },
+      { "kind": "message", "header": "From: Tuan  To: Marco", "text": "Are you coming to the quiz at the youth club on Friday? We need one more person for our team. It starts at 7 and costs £2.",
+        "options": ["Tuan's team has too many people.", "The quiz is at Tuan's house.", "Marco will need some money for the quiz."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their best day of the summer holidays.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Lily", "text": "My best day was at the beach with my cousins. We built a huge sandcastle and swam in the sea all morning. Then my uncle made a barbecue, and we ate sausages and burgers on the sand. In the evening we played music and watched the sun go down. I didn't take my phone with me, so I haven't got any photos – but I'll never forget that day!" },
+        { "label": "B", "title": "Duc", "text": "I went to a music festival with my older brother. It was my first time! We stayed at the campsite there for two nights. It rained a lot and our tent got wet, but we didn't care. My favourite band played on Saturday night, and I danced for two hours. I bought a T-shirt with the band's name on it, and I wear it all the time now." },
+        { "label": "C", "title": "Martha", "text": "My grandparents took me to a big museum in London. We saw dinosaurs and old cars, and I drew lots of pictures in my notebook. At lunchtime we had a picnic in the park next to the museum. The best part was in the museum café. There was a quiz, and Grandpa won it! The prize was a book about space, and he gave it to me." }
+      ],
+      "items": [
+        { "q": "Who slept outside?", "answer": "B" },
+        { "q": "Who got a present from a family member?", "answer": "C" },
+        { "q": "Who has no pictures of their best day?", "answer": "A" },
+        { "q": "Who spent the day by the sea?", "answer": "A" },
+        { "q": "Who had bad weather?", "answer": "B" },
+        { "q": "Who did some art during the day?", "answer": "C" },
+        { "q": "Who bought some clothes?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "Music in the park",
+      "text": "Last summer, fourteen-year-old Zara Ahmed had an idea. \"There are lots of young musicians in our town, but there's nowhere for them to play,\" she says. \"So I decided to have a music festival in the park.\"\n\nAt first, it wasn't easy. Zara had to write to the town office to ask if she could use the park. \"They said yes, but only if an adult helped me,\" she explains. \"Luckily, my aunt works for a radio station, and she knows a lot about music events.\"\n\nZara put a message on the internet and asked bands to send her videos. Forty-two bands answered! \"Choosing was really hard. I wanted everyone to play, but there was only time for twelve bands.\" The youngest musician was a nine-year-old boy who played the guitar and sang.\n\nOn the day of the festival, about eight hundred people came to the park. They brought blankets and picnics, and some families stayed all day. The festival was free, but Zara asked people to give some money for a new playground in the park. \"We got over two thousand pounds!\"\n\nDid anything go wrong? \"In the afternoon, it started to rain, and lots of people went home. I was really sad. But after half an hour the sun came out, and they all came back!\"\n\nZara is already planning next year's festival. \"This time I want to have dance groups and artists too.\"",
+      "items": [
+        { "q": "Why did Zara decide to have a festival?", "options": ["Young musicians had no place to play.", "She wanted to play in a band.", "The park needed more visitors."], "answer": 0 },
+        { "q": "Who helped Zara with the festival?", "options": ["someone from the town office", "a family member who knew about music events", "a famous musician"], "answer": 1 },
+        { "q": "What was difficult for Zara?", "options": ["finding enough bands", "making videos of the bands", "deciding which bands could play"], "answer": 2 },
+        { "q": "What did Zara ask people at the festival to do?", "options": ["give money for something in the park", "buy a ticket", "bring a picnic"], "answer": 0 },
+        { "q": "What happened when it rained?", "options": ["The festival finished early.", "Many people left but came back later.", "The bands played inside."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "Camping holidays",
+      "text": "People have slept in tents for thousands of years, but camping as a hobby only {19} about 150 years ago. One of the first people to write about it was a British man called Thomas Hiram Holding. In 1908 he wrote a book that {20} people how to camp, and he also started one of the first camping clubs.\n\nAt first, camping was only popular with people who liked walking or riding bicycles. But when cars became cheaper in the 1950s, many families started to {21} their holidays at campsites. It was much cheaper than staying in a hotel.\n\nToday camping is more popular than ever. Some campsites have swimming pools, shops and even restaurants. There is also a new kind of camping called 'glamping'. People {22} in big, comfortable tents with real beds and electricity – but it can be very {23}!\n\nHowever, many campers still love the simple things: cooking on a fire, looking {24} the stars at night and waking up to the sound of birds.",
+      "items": [
+        { "options": ["began", "opened", "did"], "answer": 0 },
+        { "options": ["learned", "taught", "studied"], "answer": 1 },
+        { "options": ["pass", "use", "spend"], "answer": 2 },
+        { "options": ["stay", "keep", "hold"], "answer": 0 },
+        { "options": ["rich", "expensive", "valuable"], "answer": 1 },
+        { "options": ["after", "like", "at"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ella  To: Freya", "text": "Hi Freya,\nWe're having a barbecue in our garden {25} Saturday for my brother's birthday. Would you like to come? It starts at four o'clock. My dad is going to cook, and my brother's band is going {26} play some music. You don't need to bring anything, {27} you can bring your guitar if you like!\nElla" },
+        { "header": "From: Freya  To: Ella", "text": "Hi Ella,\nThanks for inviting me! I'd love to come, but I'm going camping with my family this weekend. We're leaving {28} Friday evening and we won't be back {29} Sunday. I'm really sorry. Could we meet next week instead? Maybe we {30} have a picnic in the park.\nFreya" }
+      ],
+      "answers": [ ["on", "this", "next"], ["to"], ["but", "although", "though"], ["on", "this"], ["until", "till", "before"], ["could", "can", "should", "might"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You are going to have a picnic with some friends next weekend. Write an email to your English friend, Max.",
+      "points": ["invite Max to the picnic", "say where the picnic will be", "tell Max what to bring"],
+      "model": "Hi Max,\nWe're having a picnic on Sunday afternoon. Would you like to come? We're going to meet at the lake in Central Park at twelve o'clock. Can you bring some sandwiches and your ball? We can play football after lunch.\nSee you,\nNgoc"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🚗⛺🌲", "caption": "a family arriving at a campsite in a forest and putting up a tent" },
+        { "emoji": "🌧️💨⛺", "caption": "a storm at night; the wind is blowing the tent away" },
+        { "emoji": "🚗😴☀️", "caption": "the family waking up in their car in the morning and laughing" }
+      ],
+      "model": "Last summer, Linh and her family went camping in the forest. They arrived in the afternoon and put up their tent near some trees. That night there was a terrible storm, and the wind blew their tent away! They had to sleep in the car. In the morning, they all laughed about it."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What will the family cook at the barbecue?",
+        "options": [ {"emoji":"🍔","label":"burgers"}, {"emoji":"🐟","label":"fish"}, {"emoji":"🌭","label":"sausages"} ], "answer": 2,
+        "script": [ {"s":"F","t":"What shall we cook at the barbecue tonight? Burgers?"}, {"s":"M","t":"We had burgers last time. What about some fish?"}, {"s":"F","t":"Your brother doesn't eat fish. Let's get sausages – everyone likes those."}, {"s":"M","t":"OK. I'll buy some on the way home from the beach."}, {"s":"F","t":"Good. And can you get some bread too? We haven't got any."} ] },
+      { "q": "Where are the friends going to meet?",
+        "options": [ {"emoji":"☕","label":"beach café"}, {"emoji":"🅿️","label":"car park"}, {"emoji":"🚏","label":"bus stop"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Shall we meet at the bus stop and go to the beach together?"}, {"s":"F","t":"The bus is always late. I'll go on my bike. Let's meet at the beach café."}, {"s":"M","t":"The café's closed on Mondays."}, {"s":"F","t":"Oh, OK. Then let's meet in the car park next to the beach. I'll wait for you there at ten."} ] },
+      { "q": "What time does the first band start?",
+        "options": [ {"emoji":"🕡","label":"6:45"}, {"emoji":"🕕","label":"6:15"}, {"emoji":"🕖","label":"7:15"} ], "answer": 0,
+        "script": [ {"s":"M","t":"When does the concert at the festival start? Seven o'clock?"}, {"s":"F","t":"The doors open at quarter past six, and the first band starts at quarter to seven."}, {"s":"M","t":"And when's our favourite band on?"}, {"s":"F","t":"Not until quarter past seven. But I want to hear the first band too, so let's get there early."} ] },
+      { "q": "What did the boy buy at the market?",
+        "options": [ {"emoji":"💿","label":"CDs"}, {"emoji":"🖼️","label":"painting"}, {"emoji":"📚","label":"comic books"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Did you find anything good at the market, Tom?"}, {"s":"M","t":"I wanted some old CDs for Dad's CD player, but they were too expensive."}, {"s":"F","t":"What about the paintings? There are always some nice ones."}, {"s":"M","t":"I saw a nice one, but it was too big to carry. So I bought these comic books. Five for two pounds!"} ] },
+      { "q": "Which tent does the girl choose?",
+        "options": [ {"emoji":"🟩⛺","label":"small green tent"}, {"emoji":"🟧⛺","label":"orange tent"}, {"emoji":"🟦⛺","label":"big blue tent"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Hello. I need a tent for a school camping trip."}, {"s":"M","t":"This big blue one is very popular."}, {"s":"F","t":"It's too heavy for me to carry. What about the small green one?"}, {"s":"M","t":"That's only for one person. This orange one is for two people, and it's very light."}, {"s":"F","t":"Perfect. My friend Ana can share it with me. I'll take it."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a man on the radio talking about a summer holiday club.",
+      "title": "Sandy Bay Holiday Club",
+      "items": [
+        { "label": "First day: Monday July", "answer": ["22", "22nd", "twenty-second", "the twenty-second", "twenty second", "the 22nd"] },
+        { "label": "New activity this year:", "answer": ["photography"] },
+        { "label": "Bring a:", "answer": ["hat"] },
+        { "label": "Price for one day: £", "answer": ["15", "fifteen"] },
+        { "label": "To book, phone Kelly", "answer": ["mabbott"] }
+      ],
+      "script": [ {"s":"M","t":"Good morning! This is Radio Bay, and I've got some news for young people who get bored in the summer holidays. Sandy Bay Holiday Club is back! It's for children aged ten to fifteen. The club starts on Monday the twenty-second of July and it goes on for two weeks. Every day there's swimming in the sea and sailing, and this year there's something new: photography. You'll learn how to take great photos of the beach and the animals that live there. Last year we did painting, but not many people wanted to do it again. You don't need to bring a camera – we'll give you one. But please bring a hat, because it gets very hot on the beach. Lunch is a picnic on the beach, and that's in the price, so you don't need to bring any food or drinks. It costs fifteen pounds for one day, or twelve pounds a day if you come for the whole week. To book a place, phone Kelly Mabbott. That's M-A-B-B-O-T-T. Have a great summer!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Sophie talking to her friend Ryan about a party for their teacher.",
+      "items": [
+        { "q": "Why are they having a party?", "options": ["It's their teacher's birthday.", "Their teacher is leaving.", "The exams have finished."], "answer": 1 },
+        { "q": "Where will the party be?", "options": ["in the school hall", "in the park", "in their classroom"], "answer": 2 },
+        { "q": "What will Ryan do at the party?", "options": ["make a cake", "play some music", "take photographs"], "answer": 1 },
+        { "q": "What present will they buy?", "options": ["a plant", "a book", "a camera"], "answer": 0 },
+        { "q": "When will they get the classroom ready?", "options": ["on Thursday after school", "on Friday at lunchtime", "on Friday before school"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Ryan, have you heard? Mrs Collins is leaving at the end of term. She's going to live in Scotland."},
+        {"s":"M","t":"I know. I'm really sad – she's the best teacher we've ever had. Shall we have a party for her on the last day?"},
+        {"s":"F","t":"Good idea! It can be a surprise. Her birthday's in December, so she won't guess."},
+        {"s":"M","t":"Where can we have it? The school hall's nice and big."},
+        {"s":"F","t":"There's a concert in the hall that day. What about the park? We could have a picnic."},
+        {"s":"M","t":"It might rain. Let's just have it in our classroom. We can make it look nice."},
+        {"s":"F","t":"OK. My sister's going to make a cake – she makes amazing ones. Can you play your guitar? Everyone loves it when you play."},
+        {"s":"M","t":"Sure. I'll learn one of her favourite songs. And Max can take photos with his new camera."},
+        {"s":"F","t":"Perfect. We should buy her a present too. Everyone can give a pound."},
+        {"s":"M","t":"What about a book? She reads all the time."},
+        {"s":"F","t":"She's got hundreds of books! She always talks about her garden. Let's get her a nice plant."},
+        {"s":"M","t":"Good idea. A camera would be nice too, but it's too expensive."},
+        {"s":"F","t":"When shall we get the classroom ready? On Friday morning, before school?"},
+        {"s":"M","t":"That's too early – the school doors don't open until eight. And Friday lunchtime is too late. Let's do it on Thursday after school."},
+        {"s":"F","t":"OK. Thursday at half past three, then."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her friend about a book.", "q": "What does the girl think of the book?", "options": ["It's too long.", "It's exciting.", "It's difficult to understand."], "answer": 1,
+        "script": [ {"s":"M","t":"Is that the book Mr Ali told us to read in the holidays?"}, {"s":"F","t":"Yes. I thought I wouldn't like it because it's got four hundred pages. But I couldn't stop reading! Every chapter ends with something surprising. I read it in three days."}, {"s":"M","t":"Is the English hard?"}, {"s":"F","t":"No, it's quite easy, actually."} ] },
+      { "intro": "You will hear a boy talking about a dance class.", "q": "Why did the boy join the dance class?", "options": ["His sister asked him to.", "He wanted to do some exercise.", "His friends were in the class."], "answer": 1,
+        "script": [ {"s":"M","t":"Everyone asks me why I joined the street dance class. My sister goes to it, but she didn't ask me to come – she was really surprised when I arrived! And none of my friends dance. I just wanted to do some exercise in the holidays, because I sit at my computer too much and football has finished for the summer. And now I love it!"} ] },
+      { "intro": "You will hear a mother talking to her son about a holiday.", "q": "Where will the family go on holiday?", "options": ["to the beach", "to the mountains", "to a city"], "answer": 2,
+        "script": [ {"s":"F","t":"Dad wanted to go to the mountains again this year."}, {"s":"M","t":"Oh no, all that walking! Can't we go to the beach?"}, {"s":"F","t":"Your sister doesn't like the beach – she gets too hot. So we've decided on Barcelona. There are beaches near the city, but we'll mostly visit museums and parks."}, {"s":"M","t":"Great! I've always wanted to go there."} ] },
+      { "intro": "You will hear a girl leaving a message for her friend.", "q": "Why is the girl calling?", "options": ["to borrow something", "to invite her friend to a party", "to change a plan"], "answer": 0,
+        "script": [ {"s":"F","t":"Hi Kim, it's Lucy. You know the party at Sam's house on Saturday? I want to take some photos there, but my camera's broken. Could I borrow yours? I'll be really careful with it, I promise. I can come and get it on Friday after school. See you at the party! Thanks!"} ] },
+      { "intro": "You will hear a man talking about a new youth club.", "q": "Why is the man talking?", "options": ["to tell people about a competition", "to say the club is closing", "to ask young people to become members"], "answer": 2,
+        "script": [ {"s":"M","t":"Our new youth club opened last month in the old library on Bridge Street. We've already got sixty members, but we want more! There's a music room with guitars and drums, a computer room, and an art room where you can paint and draw. It's open every evening from four until eight, and it's free. So come along and bring your friends – you can join on your first night!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Oscar talking to his mum about his first week at a holiday club. What did he do each day?",
+      "people": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "options": ["bike ride", "camping", "dancing", "museum visit", "painting", "picnic", "quiz", "swimming"],
+      "answers": ["D", "E", "A", "G", "B"],
+      "script": [
+        {"s":"F","t":"So, Oscar, how was your first week at the holiday club?"},
+        {"s":"M","t":"Brilliant, Mum! On Monday we were going to ride our bikes along the river, but it rained all day. So we went to the transport museum instead."},
+        {"s":"F","t":"Oh, you love that place. What about Tuesday?"},
+        {"s":"M","t":"Tuesday was art day. We painted pictures of the sea. Mine's in my bag. I'll show you later."},
+        {"s":"F","t":"Lovely. And Wednesday? Did you go dancing? The club's website said there was a dance class."},
+        {"s":"M","t":"That's next week. On Wednesday the weather was good, so we did the bike ride that we missed on Monday. We cycled twenty kilometres!"},
+        {"s":"F","t":"Wow! You must be tired. And Thursday?"},
+        {"s":"M","t":"We were going to go swimming, but the pool was closed. So we had a big quiz in the hall instead. My team came second."},
+        {"s":"F","t":"Well done! And today? Did you have the picnic?"},
+        {"s":"M","t":"No, that's next Friday. Today we learned how to put up tents in the field, and tonight we're camping there! I've only come home to get my sleeping bag."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Holidays", "questions": ["Where did you go on your last holiday?", "Do you prefer the beach or the mountains?"], "extended": "Please tell me something about your best holiday." },
+        { "topic": "Weekends", "questions": ["What do you usually do on Saturdays?", "Do you go out with your friends at the weekend?"], "extended": "Please tell me something about what you did last weekend." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things to do in the summer holidays. Do you like these different activities? Say why or why not.",
+      "pictures": [ {"emoji":"⛺","label":"camping"}, {"emoji":"🎤","label":"going to a music festival"}, {"emoji":"🧺","label":"having a picnic"}, {"emoji":"🏛️","label":"visiting a museum"}, {"emoji":"🏖️","label":"going to the beach"} ],
+      "prompts": ["Do you think camping is fun?", "Is going to a music festival exciting?", "Do you think having a picnic is a good idea?", "Is visiting a museum boring?", "Which of these activities do you like best?"],
+      "followup": ["Do you prefer spending the holidays with your family or with your friends? Why?", "Do you think summer holidays are too long?", "Would you like to sleep in a tent? Why or why not?"],
+      "usefulLanguage": ["I think ... is exciting because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

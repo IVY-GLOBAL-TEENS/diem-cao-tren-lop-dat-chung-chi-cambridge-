@@ -1,0 +1,188 @@
+{
+  "id": "t22-2", "topic": "22", "testNo": 2,
+  "title": "The School Time Capsule",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "SWIMMING POOL", "text": "From Monday 3rd June, the pool will open one hour earlier, at 6 a.m.\nClosing time stays the same: 9 p.m.",
+        "options": ["The pool will close earlier from June.", "You can swim at 6 a.m. from June.", "The pool will be closed on Monday 3rd June."], "answer": 1 },
+      { "kind": "message", "header": "From: Alex  To: Mum", "text": "The bus is really slow today, so I'll miss the start of my piano lesson at quarter past five. Can you call Mrs Hart and tell her I'll be about twenty minutes late?",
+        "options": ["Alex wants Mum to contact his teacher.", "Alex wants to change the day of his lesson.", "Alex needs Mum to drive him to his lesson."], "answer": 0 },
+      { "kind": "sign", "header": "SUNNY CAFÉ", "text": "Breakfast served until 11.30 a.m.\nLunch from 12 noon\nClosed every Monday",
+        "options": ["The café is open seven days a week.", "Lunch starts at half past eleven.", "You can't order breakfast after 11.30 a.m."], "answer": 2 },
+      { "kind": "email", "header": "From: Mr Cole  To: Year 7 parents", "text": "The school calendar for next year is now on our website. Please note that the spring holidays will be two weeks long, not one, and will start on 3rd April.",
+        "options": ["Parents can find the holiday dates online.", "The spring holidays will be shorter next year.", "The holidays will finish on 3rd April."], "answer": 0 },
+      { "kind": "note", "header": "Ines –", "text": "Your mum phoned. Your dentist's appointment is tomorrow at 9.15, not today. She'll collect you from school at nine.\nMrs Ross (school office)",
+        "options": ["Ines should go to the dentist today.", "Ines will leave school in the morning tomorrow.", "Ines must phone her mum at nine."], "answer": 1 },
+      { "kind": "notice", "header": "MONTHLY CHESS CLUB", "text": "We meet on the first Saturday of every month, 2–4 p.m.\nThis month's meeting is on the 9th because of the holidays.",
+        "options": ["The club meets every Saturday.", "The club usually meets in the morning.", "This month the meeting is on a different date."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about a normal Saturday.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Ravi", "text": "On Saturdays I sleep until about eleven o'clock, because I get up at half past six on weekdays. After lunch I work for three hours in my parents' café. I take orders and clean the tables. My dad pays me a little money, and I'm saving it for a new bike. In the evening I usually watch a film with my older brother. We never go to bed before midnight!" },
+        { "label": "B", "title": "Chloe", "text": "My Saturdays start early. I have a dance class at eight o'clock in the morning, so I get up at seven. It's hard in winter when it's dark and cold outside, but I love dancing. After that I meet my best friend in town and we have hot chocolate together. In the afternoon I do all my homework, because I want my Sunday to be free." },
+        { "label": "C", "title": "Minh", "text": "Every Saturday my family drives to my grandparents' house in the countryside. The journey takes an hour and a half each way. My grandmother cooks a big lunch and we all eat together – sometimes there are fifteen people at the table! In the afternoon my cousins and I play football in the fields. I'm always tired when we get home at about nine o'clock at night." }
+      ],
+      "items": [
+        { "q": "Who earns money on Saturdays?", "answer": "A" },
+        { "q": "Who finds it difficult to get up at one time of the year?", "answer": "B" },
+        { "q": "Who spends three hours travelling on Saturdays?", "answer": "C" },
+        { "q": "Who goes to bed very late on Saturdays?", "answer": "A" },
+        { "q": "Who finishes their school work before Sunday?", "answer": "B" },
+        { "q": "Who has a meal with a lot of people?", "answer": "C" },
+        { "q": "Who spends time with a friend in town?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "A letter to the future",
+      "text": "Last spring, thirteen-year-old Yasmin Ali and her class did something unusual. They made a time capsule – a metal box full of things from today – and put it in the ground under a tree in the school garden. Nobody will open it until 2050.\n\nThe idea came from their History teacher, Mr Okafor. \"We were learning about life a century ago,\" explains Yasmin. \"We looked at old photos and newspapers, and I loved them. Then Mr Okafor asked us, 'What will people in the future want to know about us?'\"\n\nEach student chose one thing to put in the box. Some brought photos or a copy of the school timetable. Yasmin wanted to put in her old phone, but her teacher said it wouldn't work in twenty-five years. \"So I wrote a letter to myself instead,\" she says. \"I described a normal day in my life – what time I get up, what I have for breakfast, my favourite songs.\"\n\nThe class worked on the project every Friday afternoon for two months. On the last day, the whole school came to watch. \"Some parents came too, and a reporter from the local newspaper took photos,\" says Yasmin. \"I was a bit nervous, but it was really exciting.\"\n\nYasmin will be thirty-eight when the box is opened. \"I hope I can come back for it,\" she says. \"I wonder if I'll laugh when I read my letter!\"",
+      "items": [
+        { "q": "Why did the class make a time capsule?", "options": ["They found an old one in the school garden.", "Their teacher asked them to think about the future.", "A newspaper asked schools to make one."], "answer": 1 },
+        { "q": "Why didn't Yasmin put her phone in the box?", "options": ["It probably wouldn't work in the future.", "She needed it every day.", "It was too big for the box."], "answer": 0 },
+        { "q": "What did Yasmin write about in her letter?", "options": ["what she does every day", "her plans for the future", "the history of her school"], "answer": 0 },
+        { "q": "How did Yasmin feel on the day they put the box in the ground?", "options": ["sad because the project was finished", "bored because it took a long time", "nervous but excited"], "answer": 2 },
+        { "q": "What does Yasmin say about 2050?", "options": ["She wants to be a History teacher then.", "She would like to be there when the box is opened.", "She is going to make another time capsule."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "Telling the time",
+      "text": "Before clocks, people {19} the sun to tell the time. When the sun was at its highest point in the sky, it was noon. About 3,500 years ago, the Egyptians made sundials. These used the shadow of a stick to show the hours, but they didn't {20} at night or on cloudy days.\n\nWater clocks were the next big {21}. Water went slowly from one pot into another, and people could see how much time had passed.\n\nThe first machine clocks were {22} in Europe in the thirteenth century. They were very big and were usually on church towers, so everyone in the town could hear them ring. These clocks only had an hour hand. The minute hand was {23} later, in the seventeenth century.\n\nToday, many young people don't wear a watch at all. They {24} the time on their mobile phones instead.",
+      "items": [
+        { "options": ["used", "made", "put"], "answer": 0 },
+        { "options": ["play", "work", "do"], "answer": 1 },
+        { "options": ["thought", "mind", "idea"], "answer": 2 },
+        { "options": ["grown", "built", "drawn"], "answer": 1 },
+        { "options": ["joined", "collected", "added"], "answer": 2 },
+        { "options": ["check", "look", "show"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Hana  To: Oliver", "text": "Hi Oliver,\nMy family is having a party {25} New Year's Eve. Would you like to come? It starts at eight o'clock in the evening and finishes after midnight. We're going to watch the fireworks from {26} garden. My dad says you can stay at our house {27} you want.\nHana" },
+        { "header": "From: Oliver  To: Hana", "text": "Hi Hana,\nThanks {28} inviting me! I'd love to come – my mum said yes. I'm visiting my grandparents in the afternoon, so I might be a {29} late. Is that OK? Shall I bring something to eat? I can make a cake – I'm better at cakes {30} pizza!\nOliver" }
+      ],
+      "answers": [ ["on", "for"], ["our", "the", "my"], ["if"], ["for"], ["little", "bit"], ["than"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your English friend, Sam, is going to stay with you for a weekend next month. Write an email to Sam.",
+      "points": ["say which weekend is best for the visit", "tell Sam what time to arrive", "say what you will do on Saturday evening"],
+      "model": "Hi Sam,\nThe best weekend for your visit is the 14th and 15th of May. Please arrive at our house at about four o'clock on Friday afternoon. On Saturday evening we can go to the night market in the city centre.\nSee you soon,\nHuong"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👴🎁⌚", "caption": "a grandfather giving a boy an old watch at a birthday party" },
+        { "emoji": "👦🌳😟", "caption": "the boy in the park looking at his empty wrist, looking worried" },
+        { "emoji": "🐕⌚😊", "caption": "a dog bringing the watch to the boy; the boy is smiling" }
+      ],
+      "model": "On his twelfth birthday, Daniel's grandfather gave him an old watch. It was over fifty years old. The next weekend Daniel played football in the park. When he looked at his wrist, the watch wasn't there! He looked for an hour. Then a friendly dog ran to him with the watch in its mouth."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What time will the family have dinner tonight?",
+        "options": [ {"emoji":"🕖","label":"7:00"}, {"emoji":"🕢","label":"7:30"}, {"emoji":"🕗","label":"8:00"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Mum, I'm hungry. When's dinner? Seven o'clock, as usual?"}, {"s":"F","t":"Not tonight. Dad's working late, and he won't be home until half past seven."}, {"s":"M","t":"So we'll eat as soon as he gets home?"}, {"s":"F","t":"A bit after that. The chicken needs half an hour in the oven, so let's say eight o'clock."} ] },
+      { "q": "Which day is the girl's piano exam?",
+        "options": [ {"emoji":"📅","label":"Tuesday"}, {"emoji":"📅","label":"Wednesday"}, {"emoji":"📅","label":"Thursday"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Is your piano exam this Thursday, Rosa?"}, {"s":"F","t":"It was on Thursday, but my teacher moved it."}, {"s":"M","t":"To Tuesday, then?"}, {"s":"F","t":"No, Tuesday is my normal lesson. The exam's the day after, on Wednesday, at quarter to ten in the morning."} ] },
+      { "q": "What is the boy going to buy for his sister's birthday?",
+        "options": [ {"emoji":"📔","label":"diary"}, {"emoji":"🗓️","label":"calendar"}, {"emoji":"⌚","label":"watch"} ], "answer": 0,
+        "script": [ {"s":"F","t":"What are you getting Anna for her birthday, Ben? A watch?"}, {"s":"M","t":"She's already got one. I thought about a calendar with photos of horses on it."}, {"s":"F","t":"Oh, she'll love that."}, {"s":"M","t":"Hmm, but I saw one just like it in her room yesterday. So I'm going to buy her a diary. She can write in it every day."} ] },
+      { "q": "When is the school concert?",
+        "options": [ {"emoji":"🗓️","label":"12 May"}, {"emoji":"🗓️","label":"22 May"}, {"emoji":"🗓️","label":"2 June"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Is the school concert still on the twelfth of May?"}, {"s":"M","t":"No, that was the old date. They changed it because the new hall isn't ready yet."}, {"s":"F","t":"So is it in June now?"}, {"s":"M","t":"No, it's on the twenty-second of May. The second of June is sports day."} ] },
+      { "q": "What time did the boy go to bed last night?",
+        "options": [ {"emoji":"🕚","label":"11:00"}, {"emoji":"🕙","label":"10:00"}, {"emoji":"🕛","label":"midnight"} ], "answer": 0,
+        "script": [ {"s":"F","t":"You look tired, Pete. Did you go to bed late last night?"}, {"s":"M","t":"Yes. I usually go at ten o'clock, but there was a great film on TV."}, {"s":"F","t":"Did it finish at midnight?"}, {"s":"M","t":"No, at eleven. I went to bed straight after it finished."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman on the radio talking about a special event at a clock museum.",
+      "title": "Night at the Clock Museum",
+      "items": [
+        { "label": "Day:", "answer": ["saturday"] },
+        { "label": "Event starts at:", "answer": ["7.30", "7:30", "half past seven", "7.30 p.m.", "7:30 p.m."] },
+        { "label": "Ticket for children under 16: £", "answer": ["4", "four"] },
+        { "label": "Age of oldest clock: ______ years", "answer": ["400", "four hundred"] },
+        { "label": "Talk about clock-maker: John", "answer": ["harlow"] }
+      ],
+      "script": [ {"s":"F","t":"Good morning, and welcome to What's On. This week, the Old Town Clock Museum is having a special event called Night at the Museum. It's on Saturday the twenty-ninth of October – that's the night when the clocks go back one hour. The museum usually closes at five, but on that evening it opens again at half past seven, and the event finishes at ten. Tickets for adults cost eight pounds. Children under sixteen pay four pounds, and children under five can go in free. There are more than two hundred clocks in the museum. The oldest one is four hundred years old, and it still works! At nine o'clock, a guide will show visitors how it works. There's also a talk about the famous clock-maker John Harlow. That's H-A-R-L-O-W. He made the big clock on the town hall in eighteen sixty. You can buy tickets on the museum website, or at the door on the night. And don't forget to change your clocks before you go to bed!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Ruby talking to her friend Theo about a surprise party for their friend Kim.",
+      "items": [
+        { "q": "When will the party be?", "options": ["on Friday evening", "on Saturday afternoon", "on Saturday evening"], "answer": 2 },
+        { "q": "Why won't the party be at Kim's house?", "options": ["Her house is too small.", "Kim mustn't know about the party.", "Kim's parents said no."], "answer": 1 },
+        { "q": "What time must the guests arrive?", "options": ["6.45", "7.00", "8.00"], "answer": 0 },
+        { "q": "What will Theo bring to the party?", "options": ["pizza", "a cake", "drinks"], "answer": 1 },
+        { "q": "What present will they give Kim?", "options": ["a book", "a violin", "a watch"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Theo, it's Kim's birthday next Friday. Shall we have a surprise party for her?"},
+        {"s":"M","t":"Great idea! On Friday evening?"},
+        {"s":"F","t":"She has a violin lesson every Friday, and she doesn't finish until eight. What about Saturday?"},
+        {"s":"M","t":"I've got football on Saturday afternoon. Can we have it in the evening?"},
+        {"s":"F","t":"Yes, Saturday evening is fine. And we can have it at my flat. My parents said it's OK."},
+        {"s":"M","t":"Why not at Kim's house? It's much bigger."},
+        {"s":"F","t":"Because then it isn't a surprise! Her mum is going to bring her to my flat at seven o'clock. So everyone has to arrive before that – at quarter to seven at the latest."},
+        {"s":"M","t":"OK, I'll tell everyone. What about food?"},
+        {"s":"F","t":"My dad's making pizzas. Can you bring a cake? You make really good chocolate ones."},
+        {"s":"M","t":"Sure. And drinks?"},
+        {"s":"F","t":"Lily's bringing the drinks. Now, the present. I thought about a book, but she's got so many."},
+        {"s":"M","t":"What about a new watch? She's always asking people what time it is!"},
+        {"s":"F","t":"Ha – perfect! Her old one broke last month. Let's all pay for it together."},
+        {"s":"M","t":"Good. I'll send everyone a message tonight with the date, the time and the plan. Kim mustn't see it!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her friend about the summer holidays.", "q": "What does the girl think about the summer holidays?", "options": ["They go too quickly.", "They are too long.", "They are boring."], "answer": 0,
+        "script": [ {"s":"M","t":"Only one week of the holidays left! Are you sad?"}, {"s":"F","t":"Very! Every year it's the same. In June I think I've got so much time – nine whole weeks! But then suddenly it's the end of August, and I haven't done half the things I wanted."}, {"s":"M","t":"I'm a bit bored now, actually."}, {"s":"F","t":"Not me! I'd like them to go on for ever."} ] },
+      { "intro": "You will hear a boy leaving a message for his father.", "q": "What does the boy want his father to do?", "options": ["buy him a new alarm clock", "wake him up early tomorrow", "drive him to school"], "answer": 1,
+        "script": [ {"s":"M","t":"Hi Dad, it's Jamie. I'm at Leo's house. Tomorrow's the school trip, and the coach leaves at half past six in the morning! My alarm clock isn't working, so can you wake me up at quarter to six? Don't worry about driving me – Leo's mum is taking us. See you tonight."} ] },
+      { "intro": "You will hear a woman talking about her working hours.", "q": "Why does she like her new working hours?", "options": ["She doesn't have to get up early.", "She earns more money.", "She can spend more time with her children."], "answer": 2,
+        "script": [ {"s":"F","t":"I used to work from nine to five every day, and I never saw my kids after school. Now I start at seven in the morning and finish at three. Getting up at six isn't easy, and the money's the same. But now I can meet my children at the school gate every afternoon, and we do things together."} ] },
+      { "intro": "You will hear two friends talking about a film.", "q": "What did the boy think of the film?", "options": ["It was too long.", "It was very funny.", "It was hard to understand."], "answer": 2,
+        "script": [ {"s":"F","t":"Did you see that film about time travel last night?"}, {"s":"M","t":"Yes. It was three hours long, but the time went really fast."}, {"s":"F","t":"Was it funny? It looked funny in the advert."}, {"s":"M","t":"Not really. And I didn't understand it at all. The boy goes back to the eighteenth century, then to next year, then to yesterday. I was completely lost!"} ] },
+      { "intro": "You will hear a teacher talking to students about an exam.", "q": "What does the teacher want the students to do?", "options": ["arrive early on the day of the exam", "bring a watch to the exam", "study late on Sunday evening"], "answer": 0,
+        "script": [ {"s":"F","t":"Your English exam is next Monday at nine o'clock. Please be in the hall by twenty to nine, because we can't let anyone in late. There are clocks on the walls, so you don't need to bring a watch. And please don't study until midnight on Sunday – go to bed early!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Max talking to his friend Zara about a school project. What time does each person in Max's family get up on weekdays?",
+      "people": ["Max's dad", "Max's mum", "Ella (his sister)", "Grandpa", "Max"],
+      "options": ["5.00", "5.30", "6.15", "6.45", "7.00", "7.30", "8.00", "9.30"],
+      "answers": ["B", "C", "F", "D", "E"],
+      "script": [
+        {"s":"F","t":"Max, for our project we need to know what time everyone in your family gets up. Let's start with your dad."},
+        {"s":"M","t":"Dad's a baker, so he gets up really early – at half past five. Well, his alarm rings at five, but he stays in bed for another thirty minutes!"},
+        {"s":"F","t":"And your mum?"},
+        {"s":"M","t":"She starts work at eight, but she gets up at quarter past six. She likes to go running before breakfast."},
+        {"s":"F","t":"What about your sister?"},
+        {"s":"M","t":"Ella's sixteen. Her alarm goes off at seven, but she never gets up then. Mum has to shout at half past seven, and then she finally gets up."},
+        {"s":"F","t":"Ha! And your grandpa? He lives with you, doesn't he?"},
+        {"s":"M","t":"Yes. You'd think he'd sleep late because he doesn't work any more. But he gets up at quarter to seven every day to walk the dog. Then he goes back to bed at half past nine!"},
+        {"s":"F","t":"That's funny. And you?"},
+        {"s":"M","t":"At seven o'clock. I have breakfast at quarter past and leave home at eight."},
+        {"s":"F","t":"Great, thanks. I'll write it all down."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Your daily routine", "questions": ["What time do you get up on school days?", "What do you do after school every day?"], "extended": "Please tell me something about your Saturdays." },
+        { "topic": "Special days", "questions": ["When is your birthday?", "What do you usually do on New Year's Eve?"], "extended": "Please tell me something about your favourite festival." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different special days in the year. Do you like these different special days? Say why or why not.",
+      "pictures": [ {"emoji":"🎂","label":"birthday party"}, {"emoji":"🎆","label":"New Year's Eve fireworks"}, {"emoji":"🧧","label":"Lunar New Year (Tết)"}, {"emoji":"🏃","label":"school sports day"}, {"emoji":"🎄","label":"Christmas"} ],
+      "prompts": ["Do you think birthday parties are fun?", "Do you like staying up until midnight on New Year's Eve?", "Is Tết the best time of the year?", "Do you think sports day is exciting?", "Which of these special days do you like best?"],
+      "followup": ["Do you prefer spending special days with family or with friends? Why?", "Which month of the year do you like best? Why?", "Do you like it when a special day is on a weekday or at the weekend?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

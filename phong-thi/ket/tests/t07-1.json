@@ -1,0 +1,189 @@
+{
+  "id": "t07-1", "topic": "07", "testNo": 1,
+  "title": "Concerts, Shows and Festivals",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "CITY MUSEUM – NEW EXHIBITION", "text": "Photographs of the Ocean\nFree for under-16s.\nPlease do not take photos inside the exhibition.",
+        "options": ["Young people have to pay to see the exhibition.", "Visitors can take pictures in the exhibition.", "Children can see the exhibition without paying."], "answer": 2 },
+      { "kind": "message", "header": "From: Zoe  To: Mai", "text": "I've got two tickets for the rock concert on Saturday! Dad will drive us there, but can your mum bring us home? It finishes at half past ten.",
+        "options": ["Zoe needs help with the journey back.", "Zoe wants Mai to buy a ticket.", "Zoe's dad will collect them after the concert."], "answer": 0 },
+      { "kind": "notice", "header": "SCHOOL BAND", "text": "We need a new drummer!\nPractice: Tuesdays 4–5 p.m. in the music room.\nYou don't need your own drums. Speak to Mr Ellis.",
+        "options": ["You must bring your own drums to practice.", "The band is looking for someone to play an instrument.", "The band practises every day after school."], "answer": 1 },
+      { "kind": "label", "header": "DVD", "text": "The Lost Island – an exciting adventure film for all the family.\nNot suitable for children under 8.\n95 minutes",
+        "options": ["This film is only for adults.", "Very young children should not watch this film.", "The film is more than two hours long."], "answer": 1 },
+      { "kind": "email", "header": "From: Mr Ward  To: Drama Club", "text": "Tickets for our play, The Magic Box, are on sale now in the school office. Please tell your families soon – the theatre only has 120 seats!",
+        "options": ["The Drama Club is looking for more actors.", "The play will take place in the school office.", "Families should buy their tickets soon."], "answer": 2 },
+      { "kind": "note", "header": "From: Mum  To: Leo", "text": "Leo, your guitar teacher phoned – no lesson today because she's ill. Practise the new song at home instead. See you at 6!",
+        "options": ["Leo should practise at home today.", "Leo's mum will take him to his lesson.", "Leo's teacher will teach him a song on the phone."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about the best show they have seen.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Kofi", "text": "Last summer I went to a three-day music festival with my older brother. We slept in a tent, and it rained every day! But the music was amazing. My favourite was a reggae band from Jamaica – everyone was dancing in the rain. I spent all my money on a T-shirt from the band. Next year I want to play my guitar on the small stage for young musicians." },
+        { "label": "B", "title": "Anya", "text": "My aunt took me to the opera for my birthday. I thought it would be boring, because I usually listen to pop and hip hop. But the singers had such beautiful voices, and their clothes were fantastic. I didn't understand the words, because the opera was in Italian, but there was a screen above the stage with the words in English. I'd go again tomorrow!" },
+        { "label": "C", "title": "Huy", "text": "The best show I've seen was a circus. It came to our town in the winter, and our whole class went with our teachers. There were no animals, just amazing people. My favourite part was a woman who played the piano upside down! I laughed so much. Afterwards I bought a book about the circus, and now I'm learning to ride a bike with only one wheel!" }
+      ],
+      "items": [
+        { "q": "Who went to the show as a birthday present?", "answer": "B" },
+        { "q": "Who had problems with the weather?", "answer": "A" },
+        { "q": "Who expected not to enjoy the show?", "answer": "B" },
+        { "q": "Who went to the show with people from school?", "answer": "C" },
+        { "q": "Who has started trying something they saw at the show?", "answer": "C" },
+        { "q": "Who would like to perform at the same event?", "answer": "A" },
+        { "q": "Who got help to understand the show?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "Dancing her way to the top",
+      "text": "When Maya Okafor was six, her parents took her to a dance show at the city theatre. \"I couldn't sit still,\" she remembers. \"I was dancing in my seat for the whole show!\" The next week, her mum found her a hip hop class at the local sports centre.\n\nNow thirteen, Maya dances five days a week, and last month her group won the national young dancers' competition in Birmingham. \"We practised for six months for that competition,\" she says. \"Our dance was only four minutes long, but we did it hundreds of times.\"\n\nMaya's group has eight dancers, and they make all their dances together. \"Everyone has ideas. Sometimes we argue, but in the end we always choose the best idea, not the idea of the loudest person!\" Maya laughs.\n\nIt isn't always easy to find time for school work. \"I do my homework on the bus to practice, and my teachers are really helpful. But my mum has a rule: if my marks get worse, I have to stop dancing for a month. That's never happened!\"\n\nMaya also loves watching other kinds of dance. \"My grandma takes me to the ballet every Christmas. It's very different from hip hop, but I learn a lot from watching the dancers.\"\n\nWhat's next for Maya? \"My dream is to dance in a music video for my favourite singer,\" she says. \"But first I want to finish school.\"",
+      "items": [
+        { "q": "What happened when Maya saw her first dance show?", "options": ["She asked her parents for dance lessons.", "She wanted to move to the music.", "She met a famous dancer."], "answer": 1 },
+        { "q": "What does Maya say about the competition?", "options": ["Her group spent a long time getting ready for it.", "Their dance was longer than the other dances.", "She was very nervous on the day."], "answer": 0 },
+        { "q": "How does Maya's group make their dances?", "options": ["Maya decides everything.", "The loudest dancer chooses.", "They share ideas and choose the best one."], "answer": 2 },
+        { "q": "What is the rule that Maya's mum has made?", "options": ["Maya must do her homework before practice.", "Maya must keep getting good marks at school.", "Maya can only dance at weekends."], "answer": 1 },
+        { "q": "Why does Maya enjoy going to the ballet?", "options": ["It helps her learn about dancing.", "Her grandma was a ballet dancer.", "She wants to change from hip hop to ballet."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The Edinburgh Festival Fringe",
+      "text": "Every August, the city of Edinburgh in Scotland is {19} to the biggest arts festival in the world: the Edinburgh Festival Fringe. It began in 1947, when eight groups of actors arrived in the city. Nobody invited them to the main festival, but they decided to {20} on their plays anyway, in small rooms around the city.\n\nToday, there are thousands of shows every year, from comedy and dance to music and children's theatre. Some shows take {21} in big theatres, but others are in churches, cafés or even buses! Anyone can perform at the Fringe – famous {22} and students, people who do it as a job and complete beginners.\n\nIn the streets, you can watch singers, musicians and circus performers for free. Many visitors spend the whole day walking around and looking {23} them.\n\nLots of famous actors started their careers at the Fringe. So if you go, {24} your eyes open – the person on stage might be a star one day!",
+      "items": [
+        { "options": ["place", "house", "home"], "answer": 2 },
+        { "options": ["get", "put", "set"], "answer": 1 },
+        { "options": ["place", "part", "time"], "answer": 0 },
+        { "options": ["workers", "owners", "actors"], "answer": 2 },
+        { "options": ["to", "at", "after"], "answer": 1 },
+        { "options": ["keep", "stay", "hold"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Daniel  To: Rosa", "text": "Hi Rosa,\nMy favourite band is playing {25} the City Hall next month! Do you want to come with me? The tickets aren't cheap – they're £25 each – but I think it will be {26} best concert of the year. I can buy them online tonight {27} you say yes.\nDaniel" },
+        { "header": "From: Rosa  To: Daniel", "text": "Hi Daniel,\nYes, please! I've never been {28} a real concert before. I'll ask my parents tonight, but I'm sure they'll say yes. I can pay you back on Monday. Do you know {29} the concert starts? My dad can drive us there. I'm {30} excited!\nRosa" }
+      ],
+      "answers": [ ["at", "in"], ["the"], ["if", "when"], ["to"], ["when"], ["so", "really", "very", "extremely", "quite"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You went to a concert last weekend. Write an email to your English friend, Charlie.",
+      "points": ["say who you went to the concert with", "describe the music", "tell Charlie what you bought at the concert"],
+      "model": "Hi Charlie,\nLast Saturday I went to a rock concert with my cousin Minh. The music was really loud and exciting, and everyone was dancing. I bought a T-shirt with the band's name on it. I'm wearing it now!\nLan"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🎹🌙", "caption": "a girl practising the piano at home in the evening" },
+        { "emoji": "🎭👧😰", "caption": "the same girl on a stage in front of a big audience, looking nervous" },
+        { "emoji": "🏆👧👨‍👩‍👧", "caption": "the girl holding a prize while her parents smile and clap" }
+      ],
+      "model": "Hana wanted to win the town music competition, so she practised the piano every evening for two months. On the day of the competition, she felt very nervous when she saw all the people in the theatre. But she played her song perfectly. She won first prize, and her parents were really proud of her."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which instrument does the girl play?",
+        "options": [ {"emoji":"🎸","label":"guitar"}, {"emoji":"🎹","label":"piano"}, {"emoji":"🥁","label":"drums"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Are you still having guitar lessons, Ellie?"}, {"s":"F","t":"No, I stopped last year. My fingers always hurt!"}, {"s":"M","t":"So what do you play now? The drums? You always say you love them."}, {"s":"F","t":"I'd love to, but our flat's too small and too quiet for drums. I play the piano now. My grandma gave us her old one."} ] },
+      { "q": "What did the boy watch last night?",
+        "options": [ {"emoji":"🎤","label":"singing competition"}, {"emoji":"⚽","label":"football match"}, {"emoji":"🎬","label":"film"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Did you see the singing competition on TV last night?"}, {"s":"M","t":"No, I wanted to, but my dad was watching the football on the big TV."}, {"s":"F","t":"So you watched the football with him?"}, {"s":"M","t":"No, I went to my room and watched a film on my laptop instead – an old adventure one. It was great."} ] },
+      { "q": "How much will the boy pay for the tickets?",
+        "options": [ {"emoji":"🎟️","label":"£3"}, {"emoji":"🎟️","label":"£5"}, {"emoji":"🎟️","label":"£8"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Hello. How much are the tickets for the school play?"}, {"s":"F","t":"Adults pay five pounds, and students pay three pounds."}, {"s":"M","t":"Great. I need one for me, and one for my mum."}, {"s":"F","t":"So that's eight pounds altogether, please."}, {"s":"M","t":"Here you are."} ] },
+      { "q": "Where will the friends meet before the concert?",
+        "options": [ {"emoji":"🎫","label":"ticket office"}, {"emoji":"🚉","label":"station"}, {"emoji":"☕","label":"café"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Shall we meet at the station before the concert?"}, {"s":"M","t":"It'll be really busy there. Let's meet at the café opposite the concert hall."}, {"s":"F","t":"That café closes at six. What about outside the ticket office?"}, {"s":"M","t":"Fine. See you there at quarter to seven."} ] },
+      { "q": "What is the girl going to draw for the art competition?",
+        "options": [ {"emoji":"👵","label":"her grandmother"}, {"emoji":"🏠","label":"her house"}, {"emoji":"🐴","label":"a horse"} ], "answer": 0,
+        "script": [ {"s":"M","t":"What are you going to draw for the art competition, Lucy? A horse again?"}, {"s":"F","t":"I've drawn so many horses! I thought about drawing our house."}, {"s":"M","t":"That sounds nice."}, {"s":"F","t":"But the competition is called 'People I Love', so I'm going to draw my grandma in her garden."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a radio presenter talking about a summer festival.",
+      "title": "Greenfield Park Summer Festival",
+      "items": [
+        { "label": "First day of festival:", "answer": ["friday"] },
+        { "label": "Ticket for children under 16: £", "answer": ["4", "four"] },
+        { "label": "Saturday night concert: The ... Brothers", "answer": ["kelby"] },
+        { "label": "Sunday afternoon: competition for young", "answer": ["dancers"] },
+        { "label": "Bring a:", "answer": ["blanket", "a blanket"] }
+      ],
+      "script": [ {"s":"M","t":"Good morning! This is Radio Greenfield, and here's some news about this year's Greenfield Park Summer Festival. Last year the festival was only at the weekend, but this year it starts a day earlier, on Friday, and finishes on Sunday evening. Tickets are on sale now. Adults pay ten pounds a day, and children under sixteen pay just four pounds. Children under five go free. On Friday evening there's a film on a big screen in the park. On Saturday night, there's a concert by everyone's favourite pop group, The Kelby Brothers. That's K-E-L-B-Y. They've sold more than a million CDs! On Sunday afternoon there's a competition for young dancers. Last year it was for singers, but this time we want to see your best moves – hip hop, ballet, anything! You can't bring your own food or drinks into the park, but there are lots of places to eat. And don't forget to bring a blanket to sit on, because there aren't many chairs. See you there!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Mia talking to her friend Tom about making a film for a competition.",
+      "items": [
+        { "q": "What will their film be about?", "options": ["a normal school day", "a family of animals", "a mystery in the school library"], "answer": 2 },
+        { "q": "Who will act in the film?", "options": ["Tom's brother", "their classmates", "Tom's grandparents"], "answer": 1 },
+        { "q": "What will they use to make the film?", "options": ["Tom's phone", "a camera from school", "Mia's dad's camera"], "answer": 1 },
+        { "q": "What is the prize in the competition?", "options": ["a day at a film studio", "a new laptop", "cinema tickets"], "answer": 0 },
+        { "q": "When will they start filming?", "options": ["on Saturday", "this afternoon", "next week"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Tom, have you seen the poster about the film competition? We could make something together!"},
+        {"s":"M","t":"Great idea. What kind of film? Maybe something about a normal school day?"},
+        {"s":"F","t":"Everyone will do that. What about a mystery? Something strange happens in the school library at night."},
+        {"s":"M","t":"I love it! But who's going to be in it? My grandparents would be terrible actors."},
+        {"s":"F","t":"Ha! We could ask people from our class. Kim and Sam are both in the Drama Club."},
+        {"s":"M","t":"And my brother could play the librarian. He's nineteen, so he looks old enough."},
+        {"s":"F","t":"Hmm, he's always busy. Let's just use our classmates."},
+        {"s":"M","t":"OK. What about a camera? I could use my phone, but the picture isn't very good."},
+        {"s":"F","t":"My dad's got a good camera, but he takes it to work. The school has some video cameras for students, though. Mr Lee says we can borrow one."},
+        {"s":"M","t":"Perfect. Do you know what the prize is?"},
+        {"s":"F","t":"It's a day at a real film studio in London! Last year it was cinema tickets, so this is much better."},
+        {"s":"M","t":"Amazing. When shall we start? We could start this afternoon."},
+        {"s":"F","t":"I've got piano practice today. And we need to write the story first. Let's start filming on Saturday morning."},
+        {"s":"M","t":"Fine. I'll write down some ideas tonight."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his sister about a TV programme.", "q": "What does the boy think about the programme?", "options": ["It is too long.", "The actors are not very good.", "The story is exciting."], "answer": 2,
+        "script": [ {"s":"F","t":"Are you still watching that programme about space?"}, {"s":"M","t":"Yes, it's brilliant! Each programme is an hour long, but it feels like ten minutes. I never know what's going to happen next."}, {"s":"F","t":"The actors aren't very good, though."}, {"s":"M","t":"Who cares? I just love the story."} ] },
+      { "intro": "You will hear a girl talking about a visit to a museum.", "q": "Why did she enjoy her visit?", "options": ["She could touch the things in the exhibition.", "She went there with her best friend.", "It was free to go in."], "answer": 0,
+        "script": [ {"s":"F","t":"I went to the new art museum on Saturday. It wasn't free – it cost twelve pounds, which is quite a lot. And I went with my cousin, who's a bit boring. But I had a great time, because you can touch everything! You can paint on the walls and play strange musical instruments. I'll definitely go back."} ] },
+      { "intro": "You will hear a mother talking to her son about a concert.", "q": "Why can't the boy go to the concert?", "options": ["It finishes too late.", "He has an exam the next day.", "The tickets are too expensive."], "answer": 0,
+        "script": [ {"s":"M","t":"Mum, can I go to the hip hop concert on Friday? The tickets are only fifteen pounds."}, {"s":"F","t":"The price is fine, and I know you haven't got any exams this week. But it doesn't finish until midnight, and you're only thirteen. Sorry, Jack."}, {"s":"M","t":"Oh, Mum!"} ] },
+      { "intro": "You will hear a girl telling her friend about a new magazine.", "q": "What does she like most about the magazine?", "options": ["the articles about music", "the competitions", "the drawing lessons"], "answer": 2,
+        "script": [ {"s":"F","t":"Have you seen this new magazine for teenagers? There are articles about pop music, and a competition every month. But the best thing is the drawing page. In every magazine, a real artist teaches you how to draw something. This month it's horses!"}, {"s":"M","t":"Can I borrow it when you've finished?"} ] },
+      { "intro": "You will hear a man talking on the radio about a new film.", "q": "Who does he think the film is best for?", "options": ["young children", "teenagers", "adults"], "answer": 1,
+        "script": [ {"s":"M","t":"This week's new film, Moon Dogs, is a cartoon, so you might think it's for little children. But it's quite long, and there are some scary parts, so I wouldn't take anyone under ten. Adults might find it a bit silly. But if you're between twelve and sixteen, you'll love it. It's funny and exciting, and the music is great."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Kate talking to her friend Ben about the school talent show. What will each person do in the show?",
+      "people": ["Lucas", "Hoa", "Amy and Jess", "Mr Brown", "Ben"],
+      "options": ["act in a play", "dance", "do magic tricks", "play the drums", "play the piano", "sing", "tell jokes", "play the guitar"],
+      "answers": ["F", "E", "B", "G", "D"],
+      "script": [
+        {"s":"F","t":"Ben, have you seen the list for the talent show? Lucas is going to sing!"},
+        {"s":"M","t":"Lucas? He's got a terrible voice! I thought he was going to play the guitar."},
+        {"s":"F","t":"He broke his guitar last week, so he's going to sing instead. And Hoa's going to play the piano."},
+        {"s":"M","t":"Really? I thought she was in the dance group."},
+        {"s":"F","t":"She stopped going. But she's had piano lessons for years. She's really good."},
+        {"s":"M","t":"What about Amy and Jess? Are they doing magic tricks again?"},
+        {"s":"F","t":"No, everyone's seen their tricks. This year they're doing a hip hop dance. They practise every lunchtime."},
+        {"s":"M","t":"Is anyone doing a play?"},
+        {"s":"F","t":"No, not this year. The Drama Club is too busy with the school musical. But guess what? Mr Brown is in the show! He's going to tell jokes. He says he's the funniest teacher in the school."},
+        {"s":"M","t":"Hmm, we'll see. I wanted to tell jokes myself, but now I'll do something else."},
+        {"s":"F","t":"What will you do, then?"},
+        {"s":"M","t":"I'll play the drums. My neighbours will be happy when the show's finished – I practise every evening!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Music", "questions": ["What kind of music do you like?", "Can you play a musical instrument?"], "extended": "Please tell me something about your favourite singer or band." },
+        { "topic": "Going out", "questions": ["How often do you go to the cinema?", "Who do you usually go out with at the weekend?"], "extended": "Please tell me something about a concert or show you have seen." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different places to go out. Do you like these different places? Say why or why not.",
+      "pictures": [ {"emoji":"🎬","label":"cinema"}, {"emoji":"🎸","label":"rock concert"}, {"emoji":"🖼️","label":"art museum"}, {"emoji":"🎭","label":"theatre"}, {"emoji":"🎪","label":"circus"} ],
+      "prompts": ["Do you think going to the cinema is fun?", "Is a rock concert exciting?", "Do you think art museums are boring?", "Is it interesting to see a play at the theatre?", "Which of these places do you like best?"],
+      "followup": ["Do you prefer watching films at home or at the cinema? Why?", "Would you like to be in a play or a show? Why or why not?", "Do you think concert tickets are too expensive?"],
+      "usefulLanguage": ["I think ... is exciting because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

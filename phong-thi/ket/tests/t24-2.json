@@ -1,0 +1,190 @@
+{
+  "id": "t24-2", "topic": "24", "testNo": 2,
+  "title": "Whatever the Weather",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "HILLTOP PATH", "text": "Do not use this path in fog or strong wind.\nIn bad weather, please take the lower path by the river.",
+        "options": ["The river path is closed when the weather is bad.", "You must not walk by the river on windy days.", "There is another way to go when the weather is bad."], "answer": 2 },
+      { "kind": "message", "header": "From: Grandma  To: Jake", "text": "Jake, it's very cold and windy here at the seaside. Bring a warm jumper and a hat, not just T-shirts! See you at the station on Friday. Love, Grandma",
+        "options": ["Grandma is coming to Jake's town on Friday.", "Jake needs to pack clothes for cold weather.", "Jake forgot his hat at Grandma's house."], "answer": 1 },
+      { "kind": "notice", "header": "SUMMER CAMP – WEATHER NEWS", "text": "The hot weather will continue all week.\nEvery camper must bring a water bottle and a sun hat.\nSwimming in the lake every afternoon!",
+        "options": ["Campers need to bring things to protect them from the sun.", "Campers can swim in the lake every morning.", "The weather may change later in the week."], "answer": 0 },
+      { "kind": "email", "header": "From: Coach Martin  To: Under-14 team", "text": "After last night's storm, the football pitch is too wet to use. Tomorrow's training will be in the sports hall instead. Same time – 5 p.m. Bring indoor shoes.",
+        "options": ["Training will be in a different place tomorrow.", "Training will start later than usual tomorrow.", "Players should wear their football boots tomorrow."], "answer": 0 },
+      { "kind": "label", "header": "STORMPROOF JACKET", "text": "Keeps you dry in the heaviest rain.\nWash in cold water only.\nDo not leave to dry in hot sun.",
+        "options": ["You should dry this jacket in the sun.", "This jacket is only for warm weather.", "Hot water could damage this jacket."], "answer": 2 },
+      { "kind": "message", "header": "From: Chi  To: Ruby", "text": "The weather app says it'll be cloudy tomorrow, but no rain. So shall we still cycle to the lake? We can have lunch there if it isn't too cold.",
+        "options": ["Chi thinks it is going to rain tomorrow.", "Chi wants to keep their plan for tomorrow.", "Chi would prefer to have lunch at home."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about a holiday when the weather was important.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Tomás", "text": "Last summer my family went to Morocco. It was the hottest place I've ever been – forty-two degrees on some days! We got up at six every morning to visit places before it got too hot, and in the afternoons we rested in our hotel room. One night we slept in a tent in the desert. I've never seen so many stars. I'd love to go back, but in spring next time." },
+        { "label": "B", "title": "Isla", "text": "In February I went to Iceland with my mum and my older sister. It was really cold and there was snow everywhere. On the third day there was a terrible storm, and our flight home was cancelled, so we had to stay two more days. I didn't mind at all! On the last night we saw the Northern Lights. My sister took some amazing photos, and one of them won a competition." },
+        { "label": "C", "title": "Kenji", "text": "My cousins and I went walking in the mountains in Wales in October. On the first day it was sunny and warm, and we could see the sea from the top. But the next morning it was so foggy that we couldn't see the path. Our guide decided we should go back down. I was a bit disappointed, but he was right. Then it rained for the rest of the week, so we visited museums." }
+      ],
+      "items": [
+        { "q": "Who changed their daily routine because of the weather?", "answer": "A" },
+        { "q": "Who got home later than planned?", "answer": "B" },
+        { "q": "Who had better weather at the start of the holiday than later?", "answer": "C" },
+        { "q": "Whose family member won a prize?", "answer": "B" },
+        { "q": "Who would like to visit the same place at a different time of year?", "answer": "A" },
+        { "q": "Who agreed with a decision that someone else made?", "answer": "C" },
+        { "q": "Who spent a night in an unusual place?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "Life on a windy island",
+      "text": "Twelve-year-old Finn MacLeod lives on Skerra, a small island off the coast of Scotland. Only forty people live there, and Finn is one of just six children.\n\nThe weather is the most important thing in Finn's life. There's no secondary school on the island, so every Monday morning he takes a small boat to the mainland, where he stays with his aunt until Friday. \"If the sea is calm, the journey takes forty minutes,\" he says. \"But when it's windy, the waves are huge, and I feel really sick.\"\n\nIn winter, storms sometimes stop the boat for days. Last January, Finn couldn't get home for two weeks. \"I missed my family a lot,\" he says. \"But my aunt was great, and I did lots of homework, so my teachers were happy!\"\n\nWhen he's at home, Finn helps his grandfather, who has a small farm with sheep. Before they go out, they always check the sky. \"Grandpa doesn't use a weather app,\" Finn laughs. \"He looks at the clouds and the birds, and he's nearly always right.\"\n\nPeople often ask Finn if he'd prefer to live in a city. \"No way,\" he says. \"In summer, when it's sunny, the island is the most beautiful place in the world. You can swim with seals! And in winter, when the wind is shouting outside, our kitchen is so warm and cosy. I'd never change it.\"",
+      "items": [
+        { "q": "Why does Finn leave the island during the week?", "options": ["His parents work on the mainland.", "He has to go to school.", "He helps his aunt with her work."], "answer": 1 },
+        { "q": "What does Finn say about the boat journey?", "options": ["He enjoys it most when it is windy.", "It always takes the same time.", "It is unpleasant in bad weather."], "answer": 2 },
+        { "q": "What happened last January?", "options": ["Finn could not travel home for a long time.", "Finn's teachers were angry with him.", "Finn's aunt was ill for two weeks."], "answer": 0 },
+        { "q": "How does Finn's grandfather know what the weather will be?", "options": ["He checks on his phone.", "He listens to the radio.", "He watches nature."], "answer": 2 },
+        { "q": "How does Finn feel about living on the island?", "options": ["He would like to move to a city.", "He loves it in every season.", "He only enjoys it in summer."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "Thunder and lightning",
+      "text": "Every second, around the world, lightning hits the ground about one hundred {19}. Most of these flashes come from thunderstorms, which are most {20} in hot, wet countries.\n\nThunderstorms happen when warm air goes up quickly into the sky and meets cold air. Big, dark clouds form, and soon there is heavy rain, strong wind and lightning. We hear the thunder after we see the lightning because light {21} faster than sound.\n\nLightning can be very dangerous, so it is important to {22} safe during a storm. If you are outside, go into a building or a car as quickly as possible. Don't stand under a tree, and get out of the water if you are swimming.\n\nScientists say that a person has about a one-in-a-million {23} of being hit by lightning. But one American park ranger, Roy Sullivan, was hit seven times between 1942 and 1977 – and each time he {24} better again!",
+      "items": [
+        { "options": ["times", "moments", "minutes"], "answer": 0 },
+        { "options": ["popular", "common", "famous"], "answer": 1 },
+        { "options": ["travels", "drives", "rides"], "answer": 0 },
+        { "options": ["put", "stay", "make"], "answer": 1 },
+        { "options": ["luck", "hope", "chance"], "answer": 2 },
+        { "options": ["got", "made", "did"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Olivia  To: Grace", "text": "Hi Grace,\nGreetings from Italy! The weather here is great – it's been sunny {25} day and it's much hotter {26} at home. Yesterday we went to the beach and I swam in the sea. Tomorrow we're going {27} visit Rome. What's the weather like there?\nOlivia" },
+        { "header": "From: Grace  To: Olivia", "text": "Hi Olivia,\nLucky you! It's been raining here {28} three days. I wanted to go to the park, but I couldn't go because {29} the rain. Mum says it will be sunny on Sunday, so I hope she's right. Have a great time in Rome and send me {30} photos!\nGrace" }
+      ],
+      "answers": [ ["every", "all", "each"], ["than"], ["to"], ["for"], ["of"], ["some", "the", "your", "any", "more"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You are going on a school trip tomorrow, and the weather forecast says it will be bad. Write an email to your English friend, Max.",
+      "points": ["say where you are going on the trip", "tell Max what the weather will be like", "say what you will take with you"],
+      "model": "Hi Max,\nTomorrow my class is going on a trip to the zoo. Unfortunately, the forecast says it will be cold, wet and windy all day. I'm going to take my raincoat, my boots and a warm hat.\nSee you soon,\nVy"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦🚲☀️", "caption": "a boy in a T-shirt leaving home on his bike on a sunny morning" },
+        { "emoji": "☁️🌨️🥶", "caption": "grey clouds; it is snowing and the boy on his bike looks very cold" },
+        { "emoji": "👩🧣☕", "caption": "a friend's mother gives the boy a scarf and a hot drink in her kitchen" }
+      ],
+      "model": "On Saturday morning it was sunny, so Ben went to see his friend Sam by bike. He only wore a T-shirt. But on the way, the sky became cloudy and it started to snow. Ben was very cold when he arrived. Sam's mum gave him a warm scarf and a hot drink."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What was the weather like at the girl's party?",
+        "options": [ {"emoji":"☀️","label":"sunny"}, {"emoji":"🌧️","label":"rainy"}, {"emoji":"🌬️","label":"windy"} ], "answer": 2,
+        "script": [ {"s":"M","t":"How was your birthday party in the garden, Nadia?"}, {"s":"F","t":"Well, the forecast said it would be sunny, so we planned to eat outside."}, {"s":"M","t":"And did it rain?"}, {"s":"F","t":"No, luckily it stayed dry. And there wasn't any sun – it was cloudy and so windy! The paper plates flew all over the garden."} ] },
+      { "q": "Which activity is cancelled today?",
+        "options": [ {"emoji":"⛵","label":"sailing"}, {"emoji":"🧗","label":"climbing"}, {"emoji":"🐎","label":"horse riding"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Has everyone got their life jackets? Oh, wait. Sorry, everyone. There's a thunderstorm coming, so there's no sailing on the lake today."}, {"s":"M","t":"Oh no! Can we go horse riding instead?"}, {"s":"F","t":"Yes, riding is still happening at two o'clock. And climbing is on the indoor wall, so that's happening too."}, {"s":"M","t":"Great. I'll do climbing, then."} ] },
+      { "q": "What has the boy forgotten?",
+        "options": [ {"emoji":"🧢","label":"cap"}, {"emoji":"🕶️","label":"sunglasses"}, {"emoji":"🧴","label":"sun cream"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Have you got everything for the beach, Sam? It's going to be really sunny today."}, {"s":"M","t":"Yes, Mum. I've got my sunglasses on already, and my cap's in the car."}, {"s":"F","t":"Did you pack the sun cream?"}, {"s":"M","t":"Oh no, I didn't! I'll get it from the bathroom."} ] },
+      { "q": "What is the temperature now?",
+        "options": [ {"emoji":"🌡️","label":"5°C"}, {"emoji":"🌡️","label":"15°C"}, {"emoji":"🌡️","label":"25°C"} ], "answer": 1,
+        "script": [ {"s":"M","t":"It's cold this morning! The radio said it's only five degrees."}, {"s":"F","t":"That was at seven o'clock. It's warmer now – the thermometer in the garden says fifteen."}, {"s":"M","t":"Will it get warmer this afternoon?"}, {"s":"F","t":"Not much. The forecast says it'll be twenty-five tomorrow, but not today."} ] },
+      { "q": "How will the boy get to school today?",
+        "options": [ {"emoji":"🚌","label":"bus"}, {"emoji":"🚲","label":"bike"}, {"emoji":"🚗","label":"car"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Mum, can I cycle to school today? It's sunny."}, {"s":"F","t":"The roads are still icy after last night. It isn't safe on a bike."}, {"s":"M","t":"Can you drive me, then?"}, {"s":"F","t":"Sorry, I've got to be at work early. Take the bus – it stops right outside the school."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman talking on the radio about a kite festival.",
+      "title": "Kite Festival",
+      "items": [
+        { "label": "Place: ______ Beach", "answer": ["polwick"] },
+        { "label": "Opens on Saturday at:", "answer": ["10.30", "10:30", "half past ten"] },
+        { "label": "Adult ticket: £", "answer": ["4", "four"] },
+        { "label": "If there's a thunderstorm, the festival will move to:", "answer": ["sunday"] },
+        { "label": "Remember to bring a:", "answer": ["jacket"] }
+      ],
+      "script": [ {"s":"F","t":"And now, what's on this weekend. If you enjoy windy weather, don't miss the Kite Festival at Polwick Beach. That's P-O-L-W-I-C-K. It's just ten minutes from the town centre by bus. The festival opens on Saturday at half past ten. Last year it started at nine, but people said that was too early! There'll be kites of every colour and size – some are as big as a bus. Last year adult tickets were six pounds, but this year they only cost four pounds, and children under twelve can go for free. Now, the weather. The forecast for Saturday is good – sunny with strong winds, which is perfect for kites. But if there's a thunderstorm, it isn't safe to fly kites, so the festival will move to Sunday. Please don't bring an umbrella – the wind is too strong for umbrellas on the beach! It can get quite cold by the sea, even when it's sunny, so remember to bring a jacket. You can buy food and drink at the festival café. For more information, visit the festival website."} ]
+    },
+    "part3": {
+      "intro": "You will hear Mia talking to her friend Alex about a science project on the weather.",
+      "items": [
+        { "q": "Why did Alex choose fog for his project?", "options": ["His teacher gave him the topic.", "His father had a problem because of fog.", "He saw fog when he was on a plane."], "answer": 1 },
+        { "q": "How is Alex going to present his project?", "options": ["as a poster", "as a video", "as a talk to the class"], "answer": 0 },
+        { "q": "What is Mia using to measure the rain?", "options": ["a machine from school", "her brother's toy", "something she made herself"], "answer": 2 },
+        { "q": "When must the students finish their projects?", "options": ["Friday the fifteenth", "Monday the eighteenth", "Friday the twenty-second"], "answer": 1 },
+        { "q": "When will Mia and Alex go to the library?", "options": ["tomorrow", "after school today", "at the weekend"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Alex. Have you started the science project yet?"},
+        {"s":"M","t":"Yes, I have. Mr Grant said we could choose any topic about the weather, so I'm doing mine on fog."},
+        {"s":"F","t":"Fog? Why?"},
+        {"s":"M","t":"Well, I wanted to do snow first, but three other people chose it. Then my dad told me about a day when he was flying home and his plane couldn't land because of fog. He had to wait at another airport for six hours! So I got interested."},
+        {"s":"F","t":"Cool. What are you going to do for it?"},
+        {"s":"M","t":"I'm going to make a big poster. I thought about making a video, but my camera's broken. What's your topic?"},
+        {"s":"F","t":"Rain. I'm measuring how much rain falls in our garden every day for a month. I made the thing to measure it from an old plastic bottle."},
+        {"s":"M","t":"Has it rained much?"},
+        {"s":"F","t":"Not at all! It's been sunny for ten days. My little brother keeps asking when it's going to rain, because he wants to play in the puddles."},
+        {"s":"M","t":"Ha! When do we have to give the projects to Mr Grant?"},
+        {"s":"F","t":"On the fifteenth. That's Friday next week. Oh – no, sorry, he changed it. It's Monday the eighteenth now."},
+        {"s":"M","t":"Good, I need more time. Are you going to the library after school? I need some books about fog."},
+        {"s":"F","t":"I can't today – I've got swimming. But I can go tomorrow."},
+        {"s":"M","t":"OK, let's go tomorrow, then."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking about a day at the beach.", "q": "How did he feel at the end of the day?", "options": ["disappointed", "pleased", "bored"], "answer": 1,
+        "script": [ {"s":"M","t":"We went to the beach on Sunday. The morning was cloudy and a bit cold, so at first I was disappointed. But at lunchtime the sun came out and it got really warm. We swam, played volleyball and ate ice cream. By the evening I was so happy that I didn't want to go home!"} ] },
+      { "intro": "You will hear a girl talking to her father.", "q": "What does the girl want her father to do?", "options": ["drive her to her friend's house", "lend her his umbrella", "check the weather forecast"], "answer": 0,
+        "script": [ {"s":"F","t":"Dad, it's raining really hard and I'm meeting Lucy at her house at four."}, {"s":"M","t":"Take my big umbrella – it's by the door."}, {"s":"F","t":"It's too windy for an umbrella. It'll break! Could you take me there in the car? It's only five minutes."}, {"s":"M","t":"OK, go and get your coat."} ] },
+      { "intro": "You will hear a weather presenter on TV.", "q": "What is the presenter's main message?", "options": ["Schools will close because of snow.", "The afternoon will be cold and wet.", "People should drive carefully in the morning."], "answer": 2,
+        "script": [ {"s":"F","t":"Good evening. Tonight it'll be very cold, and by tomorrow morning there will be thick fog in many places, especially near rivers. If you're driving to work or school, please go slowly and turn your lights on. The fog should go by lunchtime, and the afternoon will be dry and sunny. There's no snow yet – but it might come next week."} ] },
+      { "intro": "You will hear two friends talking about a football match.", "q": "Why was the match stopped?", "options": ["There was lightning.", "The pitch was too icy.", "It got too dark."], "answer": 0,
+        "script": [ {"s":"M","t":"How was the match on Saturday?"}, {"s":"F","t":"Well, it was raining when we started, but that was OK – we often play in the rain. Then in the second half we heard thunder and saw lightning over the hills, so the referee stopped the game. We were winning two-nil!"}, {"s":"M","t":"That's bad luck."} ] },
+      { "intro": "You will hear a girl talking about her favourite season.", "q": "Why does she like autumn?", "options": ["The weather is cooler.", "She can wear her favourite clothes.", "She enjoys the colours of the trees."], "answer": 2,
+        "script": [ {"s":"F","t":"Most of my friends love summer, but autumn is my favourite season. It's still quite warm in September, and I don't mind the cold, foggy days in November either. But the best thing is walking through the park when all the leaves are red, orange and yellow. It's so beautiful. I always take lots of photos."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Leo talking to his grandmother about his week at an activity camp. What did he do on each day?",
+      "people": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "options": ["canoeing", "climbing", "cooking", "drawing", "fishing", "football", "swimming", "walking"],
+      "answers": ["G", "B", "A", "C", "H"],
+      "script": [
+        {"s":"F","t":"Hi Leo! How was the activity camp?"},
+        {"s":"M","t":"Great, Grandma! But the weather changed every day, so we didn't always do what we planned."},
+        {"s":"F","t":"What happened on Monday?"},
+        {"s":"M","t":"It was really sunny and hot, so we went swimming in the lake all afternoon. We were going to play football, but it was too hot to run around."},
+        {"s":"F","t":"Very sensible. And Tuesday?"},
+        {"s":"M","t":"On Tuesday it was so foggy that we couldn't see the other side of the lake. So no canoeing! We did climbing on the indoor wall instead."},
+        {"s":"F","t":"And Wednesday?"},
+        {"s":"M","t":"Wednesday was cloudy but dry, and there was no wind at all, so we finally went canoeing. I fell in the water twice!"},
+        {"s":"F","t":"Oh, Leo! What about Thursday?"},
+        {"s":"M","t":"There was a big thunderstorm in the morning and it rained all day. Some people did drawing, but I chose the cooking class. We made pizza!"},
+        {"s":"F","t":"Lovely. And on the last day?"},
+        {"s":"M","t":"The sun came back, but it was windy and quite cold. We went for a long walk in the hills. I wanted to go fishing, but there wasn't time."},
+        {"s":"F","t":"It sounds wonderful."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Seasons", "questions": ["What's your favourite season?", "What's the weather like in your country in winter?"], "extended": "Please tell me something about what you like doing in summer." },
+        { "topic": "Weather and clothes", "questions": ["What do you wear when it's very hot?", "What do you wear when it rains?"], "extended": "Please tell me something about the clothes you need in cold weather." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different places to go on holiday. Do you like these different places? Say why or why not.",
+      "pictures": [ {"emoji":"🏜️","label":"a very hot desert"}, {"emoji":"⛷️","label":"snowy mountains"}, {"emoji":"🏖️","label":"a sunny beach"}, {"emoji":"🌧️🏙️","label":"a big city in the rain"}, {"emoji":"🏕️","label":"camping in a windy forest"} ],
+      "prompts": ["Do you think a holiday in the desert is exciting?", "Is skiing in the snowy mountains fun?", "Do you think a beach holiday is boring?", "Is visiting a city in the rain a good idea?", "Which of these holidays do you like best?"],
+      "followup": ["Do you prefer holidays in hot places or cold places? Why?", "What do you do on holiday when the weather is bad?", "Would you like to see a big storm? Why or why not?"],
+      "usefulLanguage": ["I'd like to go to ... because ...", "I don't think ... is a good idea because ...", "What about you?", "I agree.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "t20-1", "topic": "20", "testNo": 1,
+  "title": "Clubs, Races and Matches",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SPORTS CENTRE – POOL", "text": "All swimmers must wear a swimming hat.\nChildren under 8 must have an adult with them in the pool at all times.",
+        "options": ["Anyone can swim here without an adult.", "You can buy swimming hats at the pool.", "Young children are not allowed to swim alone."], "answer": 2 },
+      { "kind": "message", "header": "From: Coach Harris  To: Under-14 team", "text": "Tomorrow's practice is at the stadium, not on the school field. Bring your trainers and a drink – it's going to be hot!",
+        "options": ["The team will practise in a different place.", "The players need to buy new trainers.", "The practice is cancelled because of the weather."], "answer": 0 },
+      { "kind": "notice", "header": "PARKSIDE TENNIS CLUB", "text": "New members welcome!\nYou can borrow a racket for free.\nTennis balls cost £3 a box.",
+        "options": ["You must bring your own racket.", "You don't have to pay to use a racket.", "Only members can buy tennis balls."], "answer": 1 },
+      { "kind": "email", "header": "From: Lily  To: Grandma", "text": "We won the volleyball competition! I was so tired after five games. Our prize was a cup and free tickets for the beach volleyball final next month.",
+        "options": ["Lily's team got something they can use later.", "Lily played in five different competitions.", "Lily is going to play on the beach next month."], "answer": 0 },
+      { "kind": "note", "header": "From: Dad  To: Ben", "text": "Ben – your bike's got a flat tyre, so I've taken it to the shop. You can ride my bike to football, but please lock it outside the club.",
+        "options": ["Ben's bike is ready at the shop.", "Ben should walk to football today.", "Ben can use his father's bike."], "answer": 2 },
+      { "kind": "sign", "header": "ICE RINK", "text": "Skates must be returned by 6 p.m.\nIf you need a rest, please sit in the café area, not on the ice.",
+        "options": ["You can sit on the ice when you are tired.", "Take your skates back before six o'clock.", "The café closes at 6 p.m."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about a sport they started recently.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Oliver", "text": "I started playing golf last summer when my uncle took me to his club. I thought golf was a sport for old people, but I was wrong – there are lots of young players. I practise twice a week after school. Lessons are quite expensive, so I save my pocket money to pay for them. Next month I'm entering my first competition. I'm a bit nervous, but my coach says I'm ready." },
+        { "label": "B", "title": "Linh", "text": "My brother taught me to play table-tennis in our garage at home. He's a member of a club in town, and now I go with him every Saturday. I love it because it's fast and you don't have to be tall or strong to be good at it. Last month I won a prize in a competition for girls under fourteen. My racket was a present from my brother – he bought it with his own money!" },
+        { "label": "C", "title": "Sofia", "text": "I joined the climbing club at the sports centre in January. At first I was scared because the climbing wall is fifteen metres high! But the coaches are really friendly and they always check that we're safe. Climbing makes my arms very tired, so I need a long rest afterwards. In the summer, the club goes climbing in the mountains, and I can't wait to try it outside." }
+      ],
+      "items": [
+        { "q": "Who got their sports equipment from a family member?", "answer": "B" },
+        { "q": "Who will soon take part in a competition for the first time?", "answer": "A" },
+        { "q": "Who was frightened when they started their sport?", "answer": "C" },
+        { "q": "Who first learned their sport at home?", "answer": "B" },
+        { "q": "Who had a different opinion about the sport before they tried it?", "answer": "A" },
+        { "q": "Who is looking forward to doing their sport in a different place?", "answer": "C" },
+        { "q": "Who says you don't need to be big to play their sport well?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "From last place to the finish line",
+      "text": "Fourteen-year-old Ellie Brooks never liked sport. \"At primary school I was always the last person in every race,\" she says. \"I hated PE lessons, and I often forgot my trainers on purpose!\"\n\nEverything changed last spring when her older cousin, Jess, ran a marathon to get money for a children's hospital. Ellie went to watch her with the family. \"There were thousands of runners of all ages, and lots of them weren't fast at all. But everybody was smiling. That's when I decided I wanted to try.\"\n\nEllie didn't want to run alone, so she asked her PE teacher, Mr Patel, if she could start a running club at school. He agreed, and now twenty students meet every Tuesday and Thursday before lessons. \"We don't run very far – about three kilometres – and we talk all the time,\" Ellie laughs. \"It isn't a competition. Nobody cares who the winner is.\"\n\nThe hardest part was getting up early. \"In winter it's dark and cold at seven o'clock, and my bed is so warm! But my friends wait for me at the school gate, so I can't stay at home.\"\n\nIn September the club entered a five-kilometre fun run in the city park. Ellie finished in thirty-two minutes. \"I wasn't first, but I didn't stop once. And my cousin was there with a big sign with my name on it!\"\n\nNext year Ellie wants to try a ten-kilometre race. \"Who knows? Maybe one day I'll run a marathon like Jess.\"",
+      "items": [
+        { "q": "What did Ellie think about sport at primary school?", "options": ["She enjoyed PE but she wasn't fast.", "She didn't like it at all.", "She only liked running races."], "answer": 1 },
+        { "q": "Why did Ellie decide to start running?", "options": ["She saw that the marathon runners were enjoying themselves.", "Her cousin asked her to run a marathon with her.", "She wanted to get money for a hospital."], "answer": 0 },
+        { "q": "What does Ellie say about the running club?", "options": ["The members run a long way.", "The students try to be the fastest.", "The runners chat while they run."], "answer": 2 },
+        { "q": "Why does Ellie go to the club on winter mornings?", "options": ["Her friends are waiting for her.", "Her teacher gives prizes to people who come.", "She enjoys running when it's dark."], "answer": 0 },
+        { "q": "What happened at the fun run?", "options": ["Ellie won the race.", "Ellie ran all the way without stopping.", "Ellie's cousin ran next to her."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "How basketball began",
+      "text": "Basketball is one of the most popular sports in the world, but it is not very old. In 1891, a teacher in the USA called James Naismith wanted to {19} a new game for his students. It was winter, and it was too cold to play football outside, so he needed a sport that people could play {20}.\n\nNaismith put two fruit baskets on the walls of the gym, and the students tried to {21} a ball into them. Every time a player scored, someone had to climb up and {22} the ball out of the basket! Later, people cut holes in the bottom of the baskets.\n\nThe first game had nine players in each team, but today there are only five. Basketball {23} part of the Olympic Games in 1936. Now millions of people play it in schools, parks and sports centres. You don't need much to {24} – just a ball, a basket and some friends!",
+      "items": [
+        { "options": ["invent", "discover", "explore"], "answer": 0 },
+        { "options": ["abroad", "indoors", "upstairs"], "answer": 1 },
+        { "options": ["pull", "catch", "throw"], "answer": 2 },
+        { "options": ["take", "put", "give"], "answer": 0 },
+        { "options": ["turned", "became", "got"], "answer": 1 },
+        { "options": ["do", "go", "play"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Daniel  To: Kim", "text": "Hi Kim,\nMy dad has got two tickets {25} the football match at the stadium on Saturday. Would you like to come {26} us? The match starts at three o'clock, so we'll pick you up at two. Don't forget to wear {27} team's colours – red and white!\nDaniel" },
+        { "header": "From: Kim  To: Daniel", "text": "Hi Daniel,\nThanks! I'd love to come. I've never been to {28} football match before, so I'm really excited. I've got a red scarf, but I haven't got {29} T-shirts in that colour. Can I borrow one of yours? I hope our team wins – they played much better {30} the other team last week!\nKim" }
+      ],
+      "answers": [ ["for"], ["with"], ["our", "the", "your", "my"], ["a"], ["any"], ["than"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You have just joined a new sports club. Write an email to your English friend, Sam.",
+      "points": ["say which club you have joined", "tell Sam when you go there", "explain why you like it"],
+      "model": "Hi Sam,\nGuess what? I've joined the basketball club at the sports centre near my house. We practise every Tuesday and Friday after school. I love it because the coach is really funny and I've made lots of new friends.\nBye,\nAn"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦⚽🏡", "caption": "a boy kicking a football at a goal in his garden in the evening" },
+        { "emoji": "🏟️⚽🥅", "caption": "the same boy in a team shirt kicking the ball into the goal during a school match" },
+        { "emoji": "🏆🎉👏", "caption": "the boy and his team holding a cup while people clap" }
+      ],
+      "model": "Every evening after school, Jack practised football in his garden. He really wanted to play well in the big school match. On Saturday, the match was very exciting. In the last minute, Jack kicked the ball and scored a goal! His team won the cup and everyone was very happy."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which sport will the girl play on Saturday?",
+        "options": [ {"emoji":"🎾","label":"tennis"}, {"emoji":"🏊","label":"swimming"}, {"emoji":"🏐","label":"volleyball"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, can you drive me to the sports centre on Saturday morning?"}, {"s":"M","t":"For your swimming lesson?"}, {"s":"F","t":"No, the pool's closed this weekend. I'm playing volleyball with Anna's team. They need one more player."}, {"s":"M","t":"Oh. I thought you were playing tennis with Grace this weekend."}, {"s":"F","t":"That's on Sunday afternoon."} ] },
+      { "q": "How much will the boy pay for his ticket?",
+        "options": [ {"emoji":"🎟️","label":"£8"}, {"emoji":"🎟️","label":"£12"}, {"emoji":"🎟️","label":"£15"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Hello. How much are tickets for Saturday's hockey match?"}, {"s":"F","t":"Adult tickets are fifteen pounds."}, {"s":"M","t":"I'm thirteen. Is it cheaper for me?"}, {"s":"F","t":"Yes. For under-sixteens it's eight pounds if you buy it now. If you buy it on the day of the match, it's twelve."}, {"s":"M","t":"OK, I'll buy one now, then."} ] },
+      { "q": "What has the boy forgotten?",
+        "options": [ {"emoji":"👟","label":"trainers"}, {"emoji":"🥤","label":"water bottle"}, {"emoji":"🎾","label":"racket"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Have you got everything for your tennis lesson, Sam?"}, {"s":"M","t":"I think so. My racket's in my bag, and I'm wearing my trainers."}, {"s":"F","t":"What about a drink? It's very hot today."}, {"s":"M","t":"Oh no! I left my water bottle on the kitchen table."}, {"s":"F","t":"Don't worry. You can buy one at the club."} ] },
+      { "q": "Where is Lucas now?",
+        "options": [ {"emoji":"🏖️","label":"at the beach"}, {"emoji":"🏊","label":"at the pool"}, {"emoji":"🏟️","label":"at the stadium"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Hi, is Lucas at home? We're going cycling this afternoon."}, {"s":"F","t":"No, sorry. He went to the beach early this morning to go surfing."}, {"s":"M","t":"Is he still there? Or is he at the pool? He sometimes has swimming practice on Saturdays."}, {"s":"F","t":"Swimming's tomorrow. He phoned an hour ago – he's at the stadium with his dad now, watching the football. He'll be back at six."} ] },
+      { "q": "Which sport does the boy want to try this winter?",
+        "options": [ {"emoji":"⛷️","label":"skiing"}, {"emoji":"🏂","label":"snowboarding"}, {"emoji":"⛸️","label":"ice skating"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Are you going skiing with your family again this winter, Minh?"}, {"s":"M","t":"Yes, we're going to the mountains in February. But I'm a bit bored of skiing. I've done it for years."}, {"s":"F","t":"So will you go ice skating instead?"}, {"s":"M","t":"No, I'm not very good at that. I want to have snowboarding lessons. My cousin says it's easier than it looks."}, {"s":"F","t":"Cool! Send me a video."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a man talking about a summer sports camp.",
+      "title": "Hillside Summer Sports Camp",
+      "items": [
+        { "label": "First day of camp:", "answer": ["monday"] },
+        { "label": "Arrive every morning at:", "answer": ["8.45", "8:45", "quarter to nine", "a quarter to nine"] },
+        { "label": "New sport this year:", "answer": ["baseball"] },
+        { "label": "Price for one week (non-members): £", "answer": ["95", "ninety-five", "ninety five"] },
+        { "label": "Camp leader: Mrs", "answer": ["dalby"] }
+      ],
+      "script": [ {"s":"M","t":"Hello, everyone. I'm going to tell you about this year's Summer Sports Camp at Hillside Sports Centre. The camp is for young people aged ten to fifteen. It starts on Monday the twenty-first of July – not on the Saturday, as it said on our website. Sorry about that! Please arrive at a quarter to nine every morning. Activities start at nine o'clock, and we finish at four. There are lots of sports to choose from: tennis, basketball, swimming in the indoor pool, and this year we're adding baseball for the first time. A week at the camp costs ninety-five pounds. That includes lunch every day, but you'll need to bring your own drinks. If you're a member of the sports centre, it's only eighty pounds. On the last day, Friday, there'll be a big race around the park, and the winner will get a prize, so practise your running! Parents are welcome to come and watch. Please bring your swimming costume and a towel every day. If you have any questions, please contact the camp leader, Mrs Dalby. That's D-A-L-B-Y. Her email address is on the website."} ]
+    },
+    "part3": {
+      "intro": "You will hear Oscar talking to his friend Mia about a bike race.",
+      "items": [
+        { "q": "How long is the race that Oscar is entering?", "options": ["10 kilometres", "20 kilometres", "30 kilometres"], "answer": 1 },
+        { "q": "Where does Oscar ride his bike on Sundays?", "options": ["by the river", "at the gym", "in the hills"], "answer": 2 },
+        { "q": "Whose bike will Oscar use in the race?", "options": ["his own new bike", "his cousin's bike", "his uncle's bike"], "answer": 1 },
+        { "q": "What does Oscar hope to do in the race?", "options": ["win a medal", "beat the riders from cycling clubs", "finish in less than an hour"], "answer": 2 },
+        { "q": "Where will Oscar's family watch the race?", "options": ["in the park", "at the bridge", "outside the school"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Oscar. Is it true you're entering the bike race next month?"},
+        {"s":"M","t":"Yes! It goes along the river from the town centre. My PE teacher told me about it. At first I wanted to do the ten-kilometre race, but my dad said I was ready for the twenty-kilometre one. There's a thirty-kilometre race too, but that's only for adults."},
+        {"s":"F","t":"Wow. How are you getting ready for it? Do you go to the gym?"},
+        {"s":"M","t":"I wanted to, but there isn't enough time. I cycle to school every day now, and on Sundays I ride with my uncle in the hills. That's the hardest part. I'm always really tired afterwards!"},
+        {"s":"F","t":"Have you got a good bike? Your old one's quite small, isn't it?"},
+        {"s":"M","t":"Yes, it's much too small now. So I'm borrowing my cousin's racing bike. It's really light and fast. Mum says if I do well, she'll buy me my own bike next year."},
+        {"s":"F","t":"Is there a prize for the winner?"},
+        {"s":"M","t":"Yes, a hundred pounds and a medal. But I don't think I'll win. Some of the riders are in cycling clubs and they're really fast. I just want to finish in under an hour. That's my plan."},
+        {"s":"F","t":"Can I come and watch?"},
+        {"s":"M","t":"Of course! It starts at the bridge at ten o'clock, but there are always lots of people there. My family's going to wait at the finish line in the park. You could come with them."},
+        {"s":"F","t":"Great. I'll make a sign with your name on it!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her friend about a basketball match.", "q": "How does the girl feel about the match?", "options": ["proud of the way she played", "sad that her team lost", "angry with her coach"], "answer": 0,
+        "script": [ {"s":"F","t":"We lost the match yesterday, sixty to forty-two."}, {"s":"M","t":"Oh no. Were you upset?"}, {"s":"F","t":"Not really. The other team are much older than us, so we didn't expect to win. And I scored twelve points – my best ever! The coach said I played really well. I'm so happy with that."} ] },
+      { "intro": "You will hear a boy leaving a message for his friend.", "q": "Why is the boy calling?", "options": ["to change the time of a game", "to ask to borrow something", "to invite his friend to a match"], "answer": 1,
+        "script": [ {"s":"M","t":"Hi Kai, it's Rob. About our tennis game tomorrow – it's still at the park at four o'clock, that's fine. But my racket's broken – I hit the wall with it yesterday! Have you got an old one I could use? Text me back. Thanks!"} ] },
+      { "intro": "You will hear a mother and her son talking about a swimming club.", "q": "Why doesn't the boy want to join the club?", "options": ["It is too expensive.", "The practice is too early.", "He doesn't like the coach."], "answer": 1,
+        "script": [ {"s":"F","t":"Did you look at the swimming club, Leo? It isn't expensive."}, {"s":"M","t":"Yes, I did. And the coach seemed really nice."}, {"s":"F","t":"So what's the problem?"}, {"s":"M","t":"Practice is at six o'clock in the morning, three days a week! I'd be too tired for school."} ] },
+      { "intro": "You will hear a girl talking about her school sports day.", "q": "What was the best thing about the day for her?", "options": ["the sunny weather", "her result in the race", "watching the teachers' race"], "answer": 2,
+        "script": [ {"s":"F","t":"Sports day was great this year. I came third in the hundred metres, and I was quite happy with that. The weather was perfect too – sunny, but not too hot. But for me, the best part was the teachers' race at the end. Our maths teacher fell over, and everyone laughed – including him!"} ] },
+      { "intro": "You will hear two friends talking about a golf lesson.", "q": "What does the girl say about golf?", "options": ["It is harder than she thought.", "It is boring to watch.", "It is too expensive for her."], "answer": 0,
+        "script": [ {"s":"M","t":"How was your first golf lesson, Zara?"}, {"s":"F","t":"Fun, but I was terrible! It looks so easy when you watch it on TV. I hit the ground more times than the ball!"}, {"s":"M","t":"Will you go again?"}, {"s":"F","t":"Yes. The lessons are free for students, so why not?"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Hannah talking to her grandfather about her friends. Which sport does each friend do at the sports centre?",
+      "people": ["Ruby", "Tariq", "Duc", "Megan", "Felix"],
+      "options": ["basketball", "golf", "hockey", "sailing", "skateboarding", "swimming", "table-tennis", "volleyball"],
+      "answers": ["H", "C", "F", "E", "A"],
+      "script": [
+        {"s":"M","t":"So, Hannah, all your friends go to the new sports centre, don't they?"},
+        {"s":"F","t":"Yes, Grandpa, but we all do different things. Ruby used to play table-tennis, but she stopped because her back hurt. Now she plays volleyball with a team on Mondays."},
+        {"s":"M","t":"And what about Tariq? Is he still mad about football?"},
+        {"s":"F","t":"He still watches it on TV, but the sports centre doesn't have a football team. So he plays hockey instead. He says it's faster."},
+        {"s":"M","t":"Duc is the boy who lives near the lake, isn't he? I've seen him out on the water in a little boat."},
+        {"s":"F","t":"Yes, his dad takes him sailing in the summer. But at the sports centre he goes swimming every day before school. He wants to swim in competitions."},
+        {"s":"M","t":"Good for him. And Megan?"},
+        {"s":"F","t":"Megan's really tall, so everyone thought she'd play basketball. But she says she's terrible at catching the ball! She loves the skateboard park outside the centre. She's there every afternoon."},
+        {"s":"M","t":"Skateboarding? Isn't that dangerous?"},
+        {"s":"F","t":"She always wears a helmet. And then there's Felix. His dad wanted him to play golf, like him, but Felix found it really boring. He joined the basketball club last month, and now he's in the team."},
+        {"s":"M","t":"And what about you, Hannah?"},
+        {"s":"F","t":"Me? I'm still trying everything!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Sport at school", "questions": ["What sports do you play at school?", "How many PE lessons do you have every week?"], "extended": "Please tell me something about your favourite PE lesson." },
+        { "topic": "Watching sport", "questions": ["Do you watch sport on TV?", "Have you ever been to a stadium to watch a match?"], "extended": "Please tell me something about your favourite team or player." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different sports. Do you like these different sports? Say why or why not.",
+      "pictures": [ {"emoji":"⚽","label":"football"}, {"emoji":"🏊","label":"swimming"}, {"emoji":"🎾","label":"tennis"}, {"emoji":"⛷️","label":"skiing"}, {"emoji":"🚴","label":"cycling"} ],
+      "prompts": ["Do you think playing football is fun?", "Is swimming a good sport for everyone?", "Do you think tennis is difficult?", "Is skiing exciting?", "Which of these sports do you like best?"],
+      "followup": ["Do you prefer playing in a team or on your own? Why?", "Do you prefer playing sport or watching it?", "Which sport would you like to try in the future?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

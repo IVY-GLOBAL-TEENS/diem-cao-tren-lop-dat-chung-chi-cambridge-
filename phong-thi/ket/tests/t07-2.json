@@ -1,0 +1,189 @@
+{
+  "id": "t07-2", "topic": "07", "testNo": 2,
+  "title": "Behind the News",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "SCHOOL NEWSPAPER", "text": "Want to be a journalist?\nWrite an article (about 200 words) about a school event and give it to Miss Grey by 30th March.\nThe best one will be on the front page!",
+        "options": ["Miss Grey is looking for photographs of school events.", "Students can send in a piece of writing.", "The school newspaper comes out every week."], "answer": 1 },
+      { "kind": "message", "header": "From: Nick  To: Lily", "text": "The photography exhibition at the gallery isn't open on Mondays! Shall we go on Tuesday after school instead? I'll check what time it closes.",
+        "options": ["Nick has already bought tickets for the exhibition.", "Nick wants to go to the exhibition on Monday.", "Nick suggests going on a different day."], "answer": 2 },
+      { "kind": "sign", "header": "CINEMA – SCREEN 3", "text": "Please switch off your mobile phone before the film starts.\nNo food or drink from outside the cinema.",
+        "options": ["You can't eat food that you bought somewhere else.", "You can't use your phone in the cinema café.", "The film will start later than usual."], "answer": 0 },
+      { "kind": "notice", "header": "FOR SALE", "text": "Keyboard – only used for six months.\nComes with a book of songs for beginners.\n£40. Call Ana on 07712 334 590.",
+        "options": ["The keyboard has never been used.", "Ana is offering music lessons.", "You will get a book with the keyboard."], "answer": 2 },
+      { "kind": "email", "header": "From: Channel 7 Kids  To: Club members", "text": "Our cartoon competition is open! Draw your own cartoon character and email it to us before 20th June. The winner will see their character on TV!",
+        "options": ["You have to draw your picture on TV.", "The winner's drawing will appear in a programme.", "The competition finishes on 20th May."], "answer": 1 },
+      { "kind": "note", "header": "From: Grandad  To: Tom", "text": "Tom – I've kept the newspaper article about your football team for you. It's on the kitchen table. There's a great photo of you in it!",
+        "options": ["Tom's grandad has saved something for Tom to look at.", "Tom needs to go out and buy a newspaper.", "Tom's grandad took a photo of the football team."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their creative hobbies.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Ivan", "text": "I've been interested in photography since I was ten, when my uncle gave me his old camera. I mostly take pictures of birds and wild animals, so I often have to wait for hours without moving. Last year one of my photographs was in a nature magazine, and they paid me fifty pounds for it! I'm saving the money for a better camera." },
+        { "label": "B", "title": "Chloe", "text": "I write short stories, usually adventures with dragons and pirates. I write in the evenings on my laptop, and my best friend reads everything first and tells me what's wrong. She's always honest! My favourite writer came to our school last month, and I asked her for some advice. She told me to read as much as I can, so now I go to the library every week." },
+        { "label": "C", "title": "Raj", "text": "I draw cartoons about my family – especially my little sister and our crazy dog. I started during the summer holidays when I was bored. I put a new cartoon online every Saturday, and now more than two thousand people look at them! My mum didn't like them at first because she's in some of them, but now she laughs more than anyone. One day I want to make cartoon films." }
+      ],
+      "items": [
+        { "q": "Who started their hobby because of a present from a relative?", "answer": "A" },
+        { "q": "Who has met a famous person?", "answer": "B" },
+        { "q": "Who has earned money from their hobby?", "answer": "A" },
+        { "q": "Who shares their work with lots of people on the internet?", "answer": "C" },
+        { "q": "Who gets help from a friend?", "answer": "B" },
+        { "q": "Who says a family member has changed their opinion?", "answer": "C" },
+        { "q": "Who needs to be very patient?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "The teenage newsreader",
+      "text": "Every Thursday at five o'clock, thousands of children in Bristol turn on their radios to hear fourteen-year-old Zara Ahmed read the news. Zara presents Kids' News, a fifteen-minute programme on a local radio station.\n\nIt all started when Zara's class visited the radio station on a school trip last year. \"The people who worked there asked if anyone wanted to try reading the news, and I put my hand up,\" she says. \"I was so nervous that my voice was shaking! But the boss of the station liked it, and a week later she phoned my school.\"\n\nZara doesn't just read the news – she helps to write it too. On Mondays she meets two journalists from the station, and they choose the stories together. \"We don't talk about the same things as the adult news,\" Zara explains. \"Children want to know about new parks, sports results and what's happening at schools in the city.\"\n\nHer favourite part of the job is interviewing people. \"Last month I talked to a famous footballer. He was much shorter than I expected!\" she laughs.\n\nZara says the job has helped her at school. \"I'm much more confident now when I speak in front of my class.\"\n\nIs she going to become a journalist? \"Maybe,\" she says. \"But I'd also love to be a doctor. I've got lots of time to decide.\"",
+      "items": [
+        { "q": "How did Zara get her job?", "options": ["She wrote a letter to the radio station.", "She tried reading the news during a school visit.", "Her teacher sent a recording of her to the station."], "answer": 1 },
+        { "q": "What does Zara do on Mondays?", "options": ["She records the programme.", "She chooses news stories with other people.", "She visits schools in the city."], "answer": 1 },
+        { "q": "What does Zara say about Kids' News?", "options": ["It has different stories from the news for adults.", "It is mostly about sport.", "Lots of adults listen to it too."], "answer": 0 },
+        { "q": "What surprised Zara about the footballer?", "options": ["He was very funny.", "He was nervous.", "He was not very tall."], "answer": 2 },
+        { "q": "How has the job helped Zara?", "options": ["She feels better about speaking to groups.", "She gets better marks in English.", "She has decided what job to do in the future."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The story of photography",
+      "text": "Today, most people {19} photos every day with their phones, but photography is less than two hundred years old. The oldest photograph that still exists was made in France in about 1826 by a man called Nicéphore Niépce. It shows the view from his window, and the camera had to stay in the same place for many hours to {20} the picture.\n\nFor many years, cameras were big and heavy, and photography was very expensive. Only rich people could {21} for a photograph of their family. Then, in 1888, an American company called Kodak {22} a small camera on sale that anyone could use. People took their photos, then sent the whole camera back to the company. A few weeks later, they {23} their photographs and their camera back in the post.\n\nNow we can look at our photos on a screen immediately and share them with friends {24} the world in seconds.",
+      "items": [
+        { "options": ["make", "take", "do"], "answer": 1 },
+        { "options": ["draw", "build", "make"], "answer": 2 },
+        { "options": ["pay", "spend", "cost"], "answer": 0 },
+        { "options": ["sent", "put", "set"], "answer": 1 },
+        { "options": ["got", "took", "brought"], "answer": 0 },
+        { "options": ["along", "between", "across"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Kim  To: Ellie", "text": "Hi Ellie,\nDid you watch the music programme {25} TV last night? Your cousin Matt was on it! He played the guitar {26} sang with his band. Everyone at school is talking about it. Why didn't you tell me?\nKim" },
+        { "header": "From: Ellie  To: Kim", "text": "Hi Kim,\nI didn't know about it! Matt never tells {27} anything. I missed it because we were at my grandmother's house, and she hasn't got {28} TV. Can I watch it online? I'm sure he was {29} best musician in the programme. Let's watch it together {30} school tomorrow.\nEllie" }
+      ],
+      "answers": [ ["on"], ["and"], ["me", "us", "anyone", "anybody", "you", "people"], ["a"], ["the"], ["after", "before", "at", "during"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You saw an advertisement for a photography competition. Write an email to your English friend, Max.",
+      "points": ["tell Max about the competition", "say what photo you want to take", "ask Max to enter the competition with you"],
+      "model": "Hi Max,\nThere's a photography competition in our town magazine, and the prize is a new camera! I want to take a photo of the old bridge at night. Would you like to enter too? We could take our photos together on Saturday.\nKhoa"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦📷🌳", "caption": "a boy walking in a park early in the morning with a camera" },
+        { "emoji": "🦊📸", "caption": "the boy hiding behind a tree and taking a photo of a fox" },
+        { "emoji": "📰👨‍👩‍👦😃", "caption": "the boy and his family looking at a newspaper with the fox photo on the front page" }
+      ],
+      "model": "One Sunday morning, David went to the park with his new camera. Suddenly he saw a fox near the lake. He hid behind a tree and took a photo of it. Later he sent the picture to the local newspaper. A week later, his photo was on the front page, and his family were very proud."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What does the girl want to be?",
+        "options": [ {"emoji":"📷","label":"photographer"}, {"emoji":"🎭","label":"actor"}, {"emoji":"📰","label":"journalist"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Do you still want to be an actor, Emma?"}, {"s":"F","t":"Not any more. I'm not very good at remembering my words."}, {"s":"M","t":"What about a photographer? You take great pictures."}, {"s":"F","t":"Thanks, but that's just a hobby. I want to be a journalist and write for a newspaper."} ] },
+      { "q": "What is on TV at eight o'clock tonight?",
+        "options": [ {"emoji":"📰","label":"the news"}, {"emoji":"🐭","label":"cartoons"}, {"emoji":"❓","label":"quiz show"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Can I watch the quiz show tonight, Dad? It's on at eight."}, {"s":"M","t":"No, it isn't. The news is on at eight."}, {"s":"F","t":"Oh. When's the quiz show, then?"}, {"s":"M","t":"At half past seven, after the cartoons. So you can watch it before dinner."} ] },
+      { "q": "What did the boy buy at the shop?",
+        "options": [ {"emoji":"🗞️","label":"newspaper"}, {"emoji":"📖","label":"magazine"}, {"emoji":"💿","label":"CD"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Did you get Grandad's newspaper?"}, {"s":"M","t":"Sorry, Mum, they'd sold them all. I went to two different shops."}, {"s":"F","t":"So what's in your bag?"}, {"s":"M","t":"A magazine about football. I wanted to get a new CD too, but they were too expensive."} ] },
+      { "q": "Which photo will the girl send to the competition?",
+        "options": [ {"emoji":"🌅","label":"beach at sunset"}, {"emoji":"🐱","label":"her cat"}, {"emoji":"👪","label":"her family"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Which photo are you sending to the competition? The one of your cat?"}, {"s":"F","t":"I can't. The rules say no animals."}, {"s":"M","t":"What about the one of the beach at sunset? It's beautiful."}, {"s":"F","t":"Yes, that's my favourite too. The one of my family is nice, but it's a bit dark. So I'll send the beach."} ] },
+      { "q": "Where did the boy see the advertisement?",
+        "options": [ {"emoji":"📺","label":"on TV"}, {"emoji":"📻","label":"on the radio"}, {"emoji":"🚌","label":"on a bus"} ], "answer": 2,
+        "script": [ {"s":"F","t":"How did you hear about the new games shop?"}, {"s":"M","t":"I saw an advertisement for it."}, {"s":"F","t":"On TV? I saw one there last night."}, {"s":"M","t":"No, I don't watch much TV. It was on the side of a bus! It was huge."}, {"s":"F","t":"Really? Mum heard about the shop on the radio."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling his class about a visit to a TV studio.",
+      "title": "Visit to Bright TV Studios",
+      "items": [
+        { "label": "Day of visit:", "answer": ["wednesday"] },
+        { "label": "Coach leaves school at:", "answer": ["8.15", "8:15", "quarter past eight", "eight fifteen"] },
+        { "label": "Students will watch the filming of a ... programme", "answer": ["cooking"] },
+        { "label": "Cost of trip: £", "answer": ["6", "six"] },
+        { "label": "Name of presenter: Lucy", "answer": ["dawson"] }
+      ],
+      "script": [ {"s":"M","t":"OK, everyone, listen carefully. I've got some information about our visit to Bright TV Studios. We were going to go on Tuesday, but the studio changed the date, so now it's on Wednesday. The coach will leave from the school car park at quarter past eight, so please arrive by eight o'clock. The journey takes about an hour. When we get there, we'll go on a tour of the studios, and then we'll watch them filming a programme. It isn't the news or a quiz show – it's a cooking programme for children, and some of you might get the chance to taste the food! The trip costs six pounds. The school is paying for the coach, so that's just for your lunch. You'll also meet the presenter of the programme, Lucy Dawson. That's D-A-W-S-O-N. She'll answer your questions about working in television, so think about what you'd like to ask her. And please don't bring cameras – you can't take photos inside the studio."} ]
+    },
+    "part3": {
+      "intro": "You will hear Lily talking to her grandfather about a school project.",
+      "items": [
+        { "q": "What is Lily's project about?", "options": ["the history of television", "how people got the news in the past", "her grandfather's job"], "answer": 1 },
+        { "q": "How did Grandad's family usually get the news when he was a boy?", "options": ["from the radio", "from a newspaper", "from the television"], "answer": 0 },
+        { "q": "What does Grandad say about the family's first TV?", "options": ["It was very big.", "Other people came to watch it.", "It was a present from his father."], "answer": 1 },
+        { "q": "What was Grandad's job?", "options": ["photographer", "sports coach", "journalist"], "answer": 2 },
+        { "q": "What will Lily do with Grandad's old articles?", "options": ["make a poster", "take photos of them", "read them to her class"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Grandad, can you help me with my school project?"},
+        {"s":"M","t":"Of course. What's it about?"},
+        {"s":"F","t":"It's about how people found out the news when you were young. Our teacher wants us to talk to someone old. Sorry!"},
+        {"s":"M","t":"Ha! That's OK, I am old. Well, when I was a boy, we didn't have a television. We listened to the radio every evening. My father always listened to the news at six o'clock, and we all had to be quiet."},
+        {"s":"F","t":"Didn't you read newspapers?"},
+        {"s":"M","t":"My father bought one on Sundays, but newspapers were expensive for us. The radio was the most important thing in the house."},
+        {"s":"F","t":"When did you get a TV?"},
+        {"s":"M","t":"In 1965, when I was twelve. It was black and white, and the screen was tiny. But all our neighbours came to our house to watch it!"},
+        {"s":"F","t":"That's funny. Did you always want to work in the news?"},
+        {"s":"M","t":"Not at first. I wanted to be a photographer. But I got a job at a newspaper, and I was a journalist for forty years. I wrote about sport."},
+        {"s":"F","t":"Wow. Have you got any of your old articles?"},
+        {"s":"M","t":"Yes, there's a box of them in the garage."},
+        {"s":"F","t":"Can I use some of them? I could stick them on a big poster for my class."},
+        {"s":"M","t":"Good idea. I'll find them this evening."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear two friends talking about a newspaper article.", "q": "What does the boy think about the article?", "options": ["It is too short.", "It is not true.", "It is very funny."], "answer": 1,
+        "script": [ {"s":"F","t":"Did you read the article about our school in the local newspaper?"}, {"s":"M","t":"Yes. It says we've got the best football team in the city!"}, {"s":"F","t":"It's a nice article, isn't it?"}, {"s":"M","t":"Nice, but wrong! We lost every match last year. The journalist didn't check anything."} ] },
+      { "intro": "You will hear a boy leaving a message for his friend.", "q": "Why is he calling?", "options": ["to change the time they meet", "to invite his friend to the cinema", "to ask to borrow a DVD"], "answer": 0,
+        "script": [ {"s":"M","t":"Hi Josh, it's Kyle. About the cinema tomorrow – I know we said we'd meet at two, but my mum needs me to help her at home. Can we meet at four instead? The film's on again at half past four. Oh, and bring back that DVD you borrowed, if you remember. Bye!"} ] },
+      { "intro": "You will hear a girl talking about a photography course.", "q": "What does she say about the course?", "options": ["It was more difficult than she expected.", "It was too short.", "It was sometimes boring."], "answer": 0,
+        "script": [ {"s":"F","t":"I've just finished a photography course at the art centre. I thought it would be easy – you just press a button, right? But there was so much to learn about light and colours, and my first photos were terrible! The course lasted six weeks, which was just right, and the teacher was really interesting. I'm glad I did it."} ] },
+      { "intro": "You will hear a father talking to his daughter about a TV programme.", "q": "What does the father want his daughter to do?", "options": ["turn the TV off", "watch a different programme", "make the TV quieter"], "answer": 2,
+        "script": [ {"s":"M","t":"Kim, that cartoon is so loud! I'm trying to work in the kitchen."}, {"s":"F","t":"Sorry, Dad. Shall I turn it off? Or I can find something else."}, {"s":"M","t":"No, you can watch it – it's Saturday. Just turn it down a bit, please."} ] },
+      { "intro": "You will hear a boy talking about a film he saw.", "q": "What did he like best about the film?", "options": ["the actors", "the music", "the way it looked"], "answer": 1,
+        "script": [ {"s":"M","t":"I saw the new space adventure film at the cinema last night. The actors were OK, but nothing special. And some of the pictures of space looked a bit cheap. But the music! It was played by a real orchestra, and it was amazing. I've listened to it about ten times since then."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Josh talking to his mum about a media project at school. What is each person making?",
+      "people": ["Ana", "Pete", "Hung", "Becky", "Josh"],
+      "options": ["advertisement", "cartoon", "film", "magazine", "newspaper", "photo exhibition", "radio programme", "song"],
+      "answers": ["E", "B", "G", "A", "D"],
+      "script": [
+        {"s":"F","t":"So, Josh, how's the media project going? What's everyone making?"},
+        {"s":"M","t":"It's great, Mum. Ana's group is making a newspaper about our school. She's writing an article about the new sports hall."},
+        {"s":"F","t":"Really? I thought Ana wanted to do a photo exhibition."},
+        {"s":"M","t":"She takes some photos for the newspaper too, but the exhibition idea was too difficult."},
+        {"s":"F","t":"And Pete? He's very good at drawing."},
+        {"s":"M","t":"Yes, so he's making a cartoon about a dog who goes to school. It's really funny."},
+        {"s":"F","t":"What about Hung?"},
+        {"s":"M","t":"Hung wanted to make a film, but he couldn't find a camera. So he's making a radio programme, with music and news. He's recording it on his laptop."},
+        {"s":"F","t":"Clever boy. And Becky? Is she writing a song? She's got such a nice voice."},
+        {"s":"M","t":"She sings a bit in it, but it isn't a song. It's an advertisement for the school concert. She wants everyone to buy tickets!"},
+        {"s":"F","t":"And you, Josh? You haven't told me."},
+        {"s":"M","t":"I'm making a magazine about video games. Ten pages! I've already written four, and Pete is drawing the pictures for me."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Television", "questions": ["How often do you watch TV?", "What's your favourite TV programme?"], "extended": "Please tell me something about a good film you have watched." },
+        { "topic": "Reading", "questions": ["Do you read magazines or newspapers?", "What do you like reading about?"], "extended": "Please tell me something about your favourite book or writer." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to find out the news and learn about the world. Do you like these different things? Say why or why not.",
+      "pictures": [ {"emoji":"🗞️","label":"newspaper"}, {"emoji":"📺","label":"TV news"}, {"emoji":"📖","label":"magazine"}, {"emoji":"📻","label":"radio"}, {"emoji":"📱","label":"online videos"} ],
+      "prompts": ["Do you think reading a newspaper is interesting?", "Is watching the news on TV boring?", "Do you think magazines are fun?", "Is listening to the radio a good way to find out the news?", "Which of these do you like best?"],
+      "followup": ["Would you like to be a journalist? Why or why not?", "Do you prefer reading or watching the news? Why?", "Do you think young people watch too many videos online?"],
+      "usefulLanguage": ["I think ... is interesting because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

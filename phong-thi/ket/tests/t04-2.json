@@ -1,0 +1,188 @@
+{
+  "id": "t04-2", "topic": "04", "testNo": 2,
+  "title": "Keeping in Touch",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "LIBRARY – STUDY ROOM", "text": "Quiet, please!\nNo phone calls in this room. You may send texts, but turn off the sound on your mobile.",
+        "options": ["You cannot use your phone at all in this room.", "You should go outside the room if you want to make a call.", "You must switch off your phone before you come in."], "answer": 1 },
+      { "kind": "message", "header": "From: Marco  To: Mum", "text": "Mum, I'm at Leo's house. His internet isn't working, so we can't finish our online project here. Can you pick us both up at 5 so we can use our computer?",
+        "options": ["Marco wants his mum to collect him and a friend.", "Marco has finished the project at Leo's house.", "Leo's family doesn't have a computer."], "answer": 0 },
+      { "kind": "notice", "header": "FOR SALE", "text": "CD player and 40 CDs – £25 for everything.\nMP3 player (no headphones) – £10.\nEmail jo.tan@kmail.com. Please don't phone.",
+        "options": ["You can buy the CDs without the CD player.", "You should contact the seller by email.", "The MP3 player comes with headphones."], "answer": 1 },
+      { "kind": "email", "header": "From: Ms Ward  To: Class 7C", "text": "Please don't text me about homework. Send your questions by email to my school address before 6 p.m., and I'll answer them the same evening.",
+        "options": ["Ms Ward will answer emails that arrive late at night.", "Students can text Ms Ward with questions.", "Ms Ward will reply on the same day if students write early enough."], "answer": 2 },
+      { "kind": "sign", "header": "PHONE DOCTOR", "text": "Broken screen? We repair it while you wait – only 1 hour!\nPhones bought in other shops: £10 extra.",
+        "options": ["You must leave your phone at the shop for a day.", "It costs more if you didn't buy your phone here.", "This shop only repairs phones that it sold."], "answer": 1 },
+      { "kind": "note", "header": "From: Grandma  To: Thanh", "text": "Thanh, I can't remember how to make a video call to your uncle in Canada. Can you show me again on Sunday? I've written his number on the envelope next to the telephone.",
+        "options": ["Grandma needs some help with technology.", "Thanh's uncle is coming to visit on Sunday.", "Grandma has lost the uncle's phone number."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about keeping in touch with someone who lives far away.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Kofi", "text": "When my family moved from Ghana to England last year, I was sad to leave my cousins. Now we have a video chat every Sunday afternoon on Dad's laptop. All my cousins sit in front of the screen together, so it's really noisy! Sometimes the internet in their village is slow and the picture stops, which is annoying. But usually we talk for an hour and I hear all their news." },
+        { "label": "B", "title": "Alice", "text": "My best friend Rosa moved to Spain in the summer. We send each other emails, but our favourite thing is writing real letters. It takes a week for a letter to arrive by post, but I think that makes it more exciting than an email. When I see an envelope with a Spanish stamp on it, I'm so happy! I keep all of Rosa's letters in a box under my bed." },
+        { "label": "C", "title": "Minh", "text": "My dad works on a big ship, so he's away for months. We text each other every morning before school, and he sends me photographs of the places he visits – last week it was Singapore. I put the photos on a map on my bedroom wall, so I know a lot about other countries now. We can't phone very often because calls from the ship are expensive." }
+      ],
+      "items": [
+        { "q": "Who talks to several people at the same time?", "answer": "A" },
+        { "q": "Who keeps the messages they receive?", "answer": "B" },
+        { "q": "Who learns about the world from the person they keep in touch with?", "answer": "C" },
+        { "q": "Who sometimes has problems with technology?", "answer": "A" },
+        { "q": "Who prefers a slower way of keeping in touch?", "answer": "B" },
+        { "q": "Who contacts the other person every day?", "answer": "C" },
+        { "q": "Who now lives in a different country?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "A museum in the garage",
+      "text": "Fourteen-year-old Ethan Clarke has an unusual hobby. While his friends play games on the newest phones, Ethan collects old technology. In his family's garage there are more than eighty things, from a 1950s telephone to some of the first MP3 players.\n\nIt started when Ethan was ten. \"My grandad was moving house, and he gave me his old camera,\" he says. \"It used film – it wasn't digital. I wanted to know how it worked, so I looked online and found out everything about it.\" After that, Ethan started looking for old things at markets and in second-hand shops. Most of them cost less than five pounds, and some were free.\n\nHis favourite is a computer from 1984. \"The screen is tiny and the keyboard is really heavy, but it still works,\" he says. \"There's no mouse and no internet, of course. You can only play very simple games on it.\"\n\nLast summer, Ethan opened his garage to visitors for one weekend. He made a small website and also put notices in the windows of local shops. More than a hundred people came. \"Older visitors loved it because they remembered things from when they were young,\" says Ethan. \"Children couldn't believe that people once listened to music on CD players!\"\n\nEthan's parents are happy about his hobby, but there is one problem – the family car has to stay outside now. \"Dad says I need a bigger garage,\" laughs Ethan. He hopes to work in a real technology museum one day.",
+      "items": [
+        { "q": "How did Ethan's hobby begin?", "options": ["He found an old camera at a market.", "A family member gave him something old.", "He read about old technology on a website."], "answer": 1 },
+        { "q": "What is true about most of the things in Ethan's collection?", "options": ["They were very cheap.", "They don't work any more.", "He bought them online."], "answer": 0 },
+        { "q": "What does Ethan say about his computer from 1984?", "options": ["It has a bigger screen than new computers.", "He uses it to go on the internet.", "He can still use it."], "answer": 2 },
+        { "q": "How did many people find out about Ethan's open weekend?", "options": ["from the local newspaper", "from notices in shops", "from his school"], "answer": 1 },
+        { "q": "What problem does Ethan's hobby cause?", "options": ["His parents don't like it.", "Visitors want to buy his things.", "The car can't go in the garage."], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "The first mobile phone",
+      "text": "The first call from a mobile phone was {19} in 1973 by an American engineer called Martin Cooper. He stood in a street in New York and called a man who worked for a different company. His phone was very large, and it {20} more than a kilo! Its battery only lasted for about twenty minutes, and then it needed ten hours to charge.\n\nThe first mobile phones in the shops were very expensive, so not many people {21} one. In the 1990s, phones became smaller and cheaper, and people started to send text messages. At first, one text could only {22} 160 letters.\n\nToday, mobile phones are like small computers. We use them to {23} photographs, listen to music and look for information on the internet. Some scientists say that teenagers {24} their phones more than a hundred times a day!",
+      "items": [
+        { "options": ["made", "done", "given"], "answer": 0 },
+        { "options": ["carried", "weighed", "held"], "answer": 1 },
+        { "options": ["paid", "sold", "bought"], "answer": 2 },
+        { "options": ["have", "make", "give"], "answer": 0 },
+        { "options": ["make", "take", "do"], "answer": 1 },
+        { "options": ["check", "watch", "see"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Lan  To: Mai", "text": "Hi Mai,\nGuess what? Dad has got a new job, so we're moving {25} Australia in July! I'm excited, but I'll miss you a lot. {26} we have a video chat every Sunday? I'll send you my new address {27} I know it.\nLove,\nLan" },
+        { "header": "From: Mai  To: Lan", "text": "Hi Lan,\nWow, that's amazing news! Of course we can chat every week. I'll send you postcards too, because I know you love getting letters. You must send me lots {28} photos of the beaches! Australia is {29} long way away, but we can talk online every day if we want. I'm going to miss you {30} much!\nMai" }
+      ],
+      "answers": [ ["to"], ["shall", "can", "could", "should"], ["when", "after", "once"], ["of"], ["a"], ["so", "very"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You have got a new mobile phone. Write an email to your English friend, Charlie.",
+      "points": ["say who gave you the phone", "describe the phone", "say what you are going to use it for"],
+      "model": "Hi Charlie,\nMy parents gave me a new mobile phone for my birthday! It's blue, and it has a really big screen and a great camera. I'm going to use it to take photos and to text you every day!\nNam"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "📷🌳👧", "caption": "a girl in a park finds a camera on a bench" },
+        { "emoji": "💻🖼️⚽", "caption": "the girl at home looks at the camera's photos on her laptop; one shows a boy in a football club shirt" },
+        { "emoji": "🤝📷😊", "caption": "the girl gives the camera to a happy boy at the football club" }
+      ],
+      "model": "On Saturday Zoe was walking in the park when she found a camera on a bench. At home, she looked at the photos on her laptop. In one photo, a boy was wearing a shirt from the town football club. The next day, Zoe took the camera to the club and gave it back to the boy. He was very happy!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Who was the girl talking to on the phone?",
+        "options": [ {"emoji":"👵","label":"her grandmother"}, {"emoji":"👨","label":"her uncle"}, {"emoji":"👧","label":"her cousin"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Who were you talking to on the phone for so long? Uncle Tuan?"}, {"s":"F","t":"No, I talked to him yesterday. It was Grandma. She wants to know what to buy for Linh's birthday."}, {"s":"M","t":"Your cousin Linh?"}, {"s":"F","t":"Yes. I told her Linh wants a camera, so she's going to get her one."} ] },
+      { "q": "What will the boy buy with his birthday money?",
+        "options": [ {"emoji":"🎧","label":"MP3 player"}, {"emoji":"📀","label":"DVD player"}, {"emoji":"⌨️","label":"keyboard"} ], "answer": 2,
+        "script": [ {"s":"F","t":"What are you going to do with your birthday money, Sam? Buy an MP3 player?"}, {"s":"M","t":"No, I can listen to music on my phone. I'd love a DVD player for my bedroom, but they cost too much."}, {"s":"F","t":"So what are you going to get?"}, {"s":"M","t":"A new keyboard for the computer. My old one's terrible for games."} ] },
+      { "q": "What is the girl's email address?",
+        "options": [ {"emoji":"📧","label":"katelim@pix.com"}, {"emoji":"📧","label":"kate.lim@pix.com"}, {"emoji":"📧","label":"katelim2@pix.com"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Can you give me your email address? I'll send you the photos from the party."}, {"s":"F","t":"Sure. It's kate dot lim at pix dot com."}, {"s":"M","t":"So there's a dot between kate and lim?"}, {"s":"F","t":"Yes. Katelim without the dot was my old address. I don't use it now."}, {"s":"M","t":"And is there a number after lim?"}, {"s":"F","t":"No, there aren't any numbers."} ] },
+      { "q": "How did the boy find out about the concert?",
+        "options": [ {"emoji":"📺","label":"on TV"}, {"emoji":"📱","label":"a text from a friend"}, {"emoji":"💻","label":"on a website"} ], "answer": 2,
+        "script": [ {"s":"F","t":"How did you find out about the concert? Did you see the advert on TV?"}, {"s":"M","t":"No, I missed that. Joe sent me a text about it yesterday, but I already knew."}, {"s":"F","t":"So how did you know?"}, {"s":"M","t":"I read about it on the band's website last week, and I bought the tickets at once."} ] },
+      { "q": "What time does the phone shop close today?",
+        "options": [ {"emoji":"🕠","label":"5:30"}, {"emoji":"🕕","label":"6:00"}, {"emoji":"🕖","label":"7:00"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Mum, can we go to the phone shop today? It closes at seven, doesn't it?"}, {"s":"F","t":"It closes at seven on weekdays, but today's Saturday. On Saturdays it closes at six."}, {"s":"M","t":"Oh no. It's already half past five!"}, {"s":"F","t":"Then get your coat quickly. We can still get there."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling her class about an email project.",
+      "title": "Class Email Project",
+      "items": [
+        { "label": "Partner school is in:", "answer": ["norway"] },
+        { "label": "English teacher's name: Mr", "answer": ["brekke"] },
+        { "label": "Number of students in the partner class:", "answer": ["28", "twenty-eight", "twenty eight"] },
+        { "label": "First email should be about:", "answer": ["hobbies", "your hobbies", "their hobbies"] },
+        { "label": "Send your email to the teacher by:", "answer": ["friday"] }
+      ],
+      "script": [ {"s":"F","t":"Good morning, everyone. This term our class is starting an email project with a school in another country. Last year we wrote to students in Denmark, but this year our new partner school is in Norway, in a small town near the sea. Their English teacher is called Mr Brekke. That's B-R-E-K-K-E. He's very friendly, and he's visited our town before. There are twenty-eight students in his class. We have thirty-two in our class, so a few of you will share a partner. In your first email, please don't write about your family. You can do that later. This time, I want you to write about your hobbies, because that's an easy way to start a conversation. Write about eighty words, and remember to check your spelling. You can type your email at home or in the computer room at lunchtime. Please send it to me first, and I'll check it before I send it to Norway. The last day to send it to me is Friday. Some of you asked for Wednesday, but that's too soon. If you have any questions, come and talk to me after the lesson."} ]
+    },
+    "part3": {
+      "intro": "You will hear Amy talking to her dad about a problem with their internet.",
+      "items": [
+        { "q": "What is causing the problem?", "options": ["something in their house", "the cables in their street", "their old computer"], "answer": 1 },
+        { "q": "When will someone come to repair it?", "options": ["on Wednesday", "on Thursday", "tonight"], "answer": 0 },
+        { "q": "What does Amy need the internet for tomorrow?", "options": ["to download some music", "to chat with her friends", "to send her homework"], "answer": 2 },
+        { "q": "Where will Amy probably go to use the internet?", "options": ["to the library", "to Grace's house", "to her dad's office"], "answer": 1 },
+        { "q": "What will Amy's dad do tomorrow?", "options": ["work in a café", "stay at home", "visit the internet company"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Dad, the internet isn't working again. I can't open any websites. Is it our computer? It's quite old."},
+        {"s":"M","t":"No, the computer's fine. I called the internet company this morning. They said there's a problem with the cables in our street, not in our house."},
+        {"s":"F","t":"So when will it work again? Tonight?"},
+        {"s":"M","t":"Probably not until Thursday, I'm afraid. Someone's coming to repair the cables on Wednesday afternoon, and then it takes a day to work again."},
+        {"s":"F","t":"But I have to send my English homework to my teacher by email tomorrow! I was going to download some new songs too, but that's not important."},
+        {"s":"M","t":"Can't you send it from your phone?"},
+        {"s":"F","t":"I haven't got any data left this month. And the screen's too small to type a long story."},
+        {"s":"M","t":"What about the library? It's open until eight."},
+        {"s":"F","t":"It's always full after school, and you have to wait for a computer. Could I go to Grace's house? She lives next door, and her internet's from a different company."},
+        {"s":"M","t":"Good idea. Call her first and ask her mum."},
+        {"s":"F","t":"OK. But what about you? Don't you need the internet for work? Will you go to your office?"},
+        {"s":"M","t":"It's too far. I'll take my laptop to the café near the station. They've got free internet, so I'll work there all day tomorrow."},
+        {"s":"F","t":"Lucky you! You'll drink coffee all day."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her friend about her new phone.", "q": "What does she think about it?", "options": ["The battery doesn't last long.", "The camera isn't very good.", "It's too big for her pocket."], "answer": 1,
+        "script": [ {"s":"M","t":"So, do you like your new phone? It looks really big."}, {"s":"F","t":"It's bigger than my old one, but it still fits in my pocket. And the battery lasts for two days, which is great."}, {"s":"M","t":"Brilliant."}, {"s":"F","t":"But I'm not happy with the photos. They're not very clear. My old phone took much better pictures!"} ] },
+      { "intro": "You will hear a man leaving a phone message for a girl.", "q": "Why is he calling?", "options": ["to ask her to send her address", "to explain a problem with a form", "to tell her she has won a prize"], "answer": 2,
+        "script": [ {"s":"M","t":"Hello, this is a message for Ava Jones. My name's Paul, and I'm calling from Teen Tech magazine. You sent us a photograph for our competition last month, and I'm happy to tell you that you're the winner! Congratulations! Your prize is a new digital camera. We've got your address from the form you filled in, so we'll post it to you next week."} ] },
+      { "intro": "You will hear two friends talking about a website for teenagers.", "q": "What does the boy say about the website?", "options": ["It has too many adverts.", "It's good for school projects.", "It's difficult to use."], "answer": 0,
+        "script": [ {"s":"F","t":"Do you use Teen Zone? I think it's great for school projects, and it's really easy to use."}, {"s":"M","t":"I used to, but now there are adverts everywhere. Every time you click on something, another advert opens! So I stopped using it."}, {"s":"F","t":"Really? They don't worry me."} ] },
+      { "intro": "You will hear a girl talking about a phone call with her cousin.", "q": "How did she feel after the call?", "options": ["bored", "upset", "excited"], "answer": 2,
+        "script": [ {"s":"F","t":"My cousin Hoa called me from Hanoi last night. We hadn't talked for months, so at first the conversation was a bit strange. But then she told me that her family is coming to stay with us in December! I couldn't sleep after that. I kept thinking about all the places I'm going to show her."} ] },
+      { "intro": "You will hear a teacher talking to students about a school trip.", "q": "What must the students do?", "options": ["bring a phone charger", "give their parents' phone number", "switch off their phones on the bus"], "answer": 1,
+        "script": [ {"s":"F","t":"Now, about tomorrow's trip to the museum. You can bring your mobile phones, but you don't need chargers, because we'll be back by three. You can use your phones on the bus, too. But before we leave, everyone must write their parents' phone number on this form, in case there's a problem."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Kate talking to her friend Tom about her family and friends. How does each person usually keep in touch with Kate?",
+      "people": ["her grandmother", "her brother", "her aunt", "her dad", "her best friend"],
+      "options": ["email", "letter", "phone call", "postcard", "text", "video chat", "voice message", "chat in an online game"],
+      "answers": ["F", "H", "A", "E", "C"],
+      "script": [
+        {"s":"M","t":"Kate, you're always on your phone! Who are you talking to?"},
+        {"s":"F","t":"Lots of people! My family lives all over the place. My grandma's in Scotland now."},
+        {"s":"M","t":"Does she write you letters? My grandma always sends letters."},
+        {"s":"F","t":"She used to, but now she loves video chats. She bought a laptop last year, and she calls me every Sunday so she can see my face."},
+        {"s":"M","t":"And your brother? He's at university, isn't he?"},
+        {"s":"F","t":"Yes, and he never answers texts or calls! The only way to talk to him is in an online game we both play. We chat while we play."},
+        {"s":"M","t":"Ha! What about your aunt in Canada?"},
+        {"s":"F","t":"She sometimes sends me postcards when she travels, but mostly we write long emails to each other. She tells me all her news."},
+        {"s":"M","t":"And your dad? He's away for work a lot."},
+        {"s":"F","t":"He sends voice messages to Mum, but I never listen to them, so he just sends me short texts – 'Good night', 'How was school?' – things like that."},
+        {"s":"M","t":"And your best friend, Nadia?"},
+        {"s":"F","t":"We see each other every day at school, but we still talk on the phone for hours in the evening! My mum can't believe we have so much to say."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Mobile phones", "questions": ["How often do you use a mobile phone?", "Who do you text most?"], "extended": "Please tell me something about what you do on your phone." },
+        { "topic": "Friends and family far away", "questions": ["Have you got any family or friends in another town or country?", "How do you talk to them?"], "extended": "Please tell me something about a person you keep in touch with." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things young people do with technology. Do you like doing these different things? Say why or why not.",
+      "pictures": [ {"emoji":"🎮","label":"playing online games"}, {"emoji":"📀","label":"watching a film on DVD"}, {"emoji":"🎧","label":"listening to an MP3 player"}, {"emoji":"📷","label":"taking photographs"}, {"emoji":"🎬","label":"making videos"} ],
+      "prompts": ["Do you think playing online games is fun?", "Is watching films on DVD old-fashioned?", "Do you think listening to music is relaxing?", "Is taking photographs interesting?", "Which of these things do you like best?"],
+      "followup": ["Do you prefer talking to friends online or face to face? Why?", "Do you think young people use the internet too much?", "Would you like to have a day without your phone? Why or why not?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't really like ... because ...", "What do you think?", "Me too!", "I don't agree. I think ..."]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "t06-1", "topic": "06", "testNo": 1,
+  "title": "Exams, Projects and New Teachers",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SCHOOL LIBRARY", "text": "Dictionaries must stay in the library.\nAll other books can be borrowed for two weeks.\nPlease be quiet – students are studying.",
+        "options": ["You can take a dictionary home for two weeks.", "You can borrow some books, but not dictionaries.", "The library is closed because of the exams."], "answer": 1 },
+      { "kind": "message", "header": "From: Ms Hall  To: Class 8B", "text": "Tomorrow's Geography lesson will be in Room 12, not in our classroom, because we're watching a film about rivers. Bring your notebooks.",
+        "options": ["The class will have their lesson in a different place.", "Students must bring a film to the lesson.", "There will be no Geography lesson tomorrow."], "answer": 0 },
+      { "kind": "note", "header": "From: Lan  To: Kim", "text": "I left my Maths homework at home! I'll do it again at lunchtime and give it to Mr Brown after school. Can you tell him for me?",
+        "options": ["Lan wants Kim to do her homework for her.", "Lan has lost her Maths book.", "Lan will give her homework to the teacher later."], "answer": 2 },
+      { "kind": "notice", "header": "SUMMER ENGLISH COURSES", "text": "For beginners and advanced students.\nTwo hours every morning, Monday to Friday.\nPlease do a short test first so we can find your level.",
+        "options": ["Only advanced students can join the courses.", "The lessons take place in the afternoon.", "You must do a test before you start a course."], "answer": 2 },
+      { "kind": "email", "header": "From: Coach Davis  To: School basketball team", "text": "This week, practice on Thursday starts at quarter past four, not half past three, because of the History exam. Don't be late – our big match is on Saturday!",
+        "options": ["Practice is later than usual this week.", "The match has moved to Thursday.", "The History exam is on Saturday."], "answer": 0 },
+      { "kind": "sign", "header": "SCIENCE LAB", "text": "No food or drink.\nWear safety glasses for all experiments.\nAsk your teacher before you touch anything.",
+        "options": ["Students may eat in the lab if they are careful.", "Students must ask before they use anything in the lab.", "Students should bring their own glasses from home."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three students talk about their favourite school subject.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Rosa", "text": "History is my favourite subject because our teacher, Mr Park, tells us amazing stories about people from the past. Last term we did a project about castles, and our class visited a real one near the city. I'm not very good at remembering dates, so I write them on small cards and read them on the bus. I'd love to study History at university one day." },
+        { "label": "B", "title": "Duc", "text": "I've always loved Mathematics. My dad is a Maths teacher, and he taught me lots of number games when I was little. Now I'm in the advanced group at school, and on Wednesday afternoons I help younger pupils with their homework. The only thing I don't like is exams – I always feel nervous before them, even when I know all the answers." },
+        { "label": "C", "title": "Ella", "text": "My favourite subject is Spanish. I started as a complete beginner two years ago, and now I can talk to my Spanish cousins on the phone! I learn new words with an app on my phone every evening, and I always keep a dictionary on my desk. Next summer I'm going on a language course in Madrid. My teacher says it's the best way to practise." }
+      ],
+      "items": [
+        { "q": "Who first learnt about their subject from a parent?", "answer": "B" },
+        { "q": "Who went on a school trip connected with their subject?", "answer": "A" },
+        { "q": "Who uses technology to study at home?", "answer": "C" },
+        { "q": "Who helps other students with their work?", "answer": "B" },
+        { "q": "Who finds it difficult to remember some things?", "answer": "A" },
+        { "q": "Who is going to travel to learn more?", "answer": "C" },
+        { "q": "Who feels worried at certain times?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "The girl who teaches on Sundays",
+      "text": "Fourteen-year-old Linh Tran from Manchester is a student, but every Sunday she is also a teacher. Two years ago, her little brother Minh was having problems with Science at school. \"He thought it was boring and difficult,\" says Linh. \"So I started explaining things to him with simple experiments in our kitchen.\"\n\nLinh's mum filmed one of the experiments – a small volcano made with water, colours and soap – and put it online for Linh's aunt in Vietnam to watch. Soon lots of other people were watching it too. \"I couldn't believe it,\" Linh says. \"Hundreds of children wrote messages asking for more.\"\n\nNow Linh makes a new video every weekend. She plans each lesson on Saturday and films it on Sunday morning. Her Science teacher, Mrs Gold, checks all the information before Linh puts it online. \"Mrs Gold is very kind,\" says Linh. \"She doesn't change much, but sometimes she finds small mistakes.\"\n\nLinh's videos are popular, but she says school always comes first. \"I don't film anything when I have exams. My parents are very clear about that, and I agree with them.\"\n\nAnd Minh? \"He's top of his class in Science now,\" laughs Linh. \"Last month he even helped me with one of my videos.\" In the future, Linh would like to go to university and become a Science teacher – \"a real one, in a classroom!\"",
+      "items": [
+        { "q": "Why did Linh start teaching Science?", "options": ["Her teacher asked her to help other pupils.", "Her brother found the subject difficult.", "She wanted to become famous online."], "answer": 1 },
+        { "q": "Why did Linh's mum film the experiment?", "options": ["She wanted a family member to see it.", "She wanted to send it to Linh's school.", "She wanted to use it in a competition."], "answer": 0 },
+        { "q": "What does Mrs Gold do?", "options": ["She helps Linh to film the videos.", "She makes sure the facts in the videos are right.", "She tells her students to watch Linh's videos."], "answer": 1 },
+        { "q": "What happens when Linh has exams?", "options": ["She makes shorter videos.", "Her brother makes the videos for her.", "She stops making videos for a while."], "answer": 2 },
+        { "q": "What does Linh say about her future?", "options": ["She wants to work in a school.", "She wants to make videos as her job.", "She wants to study in another country."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The oldest university in the world",
+      "text": "Many people think the oldest university in the world is in Europe, but it is {19} in Fez, a city in Morocco. It is called Al-Qarawiyyin, and it was started in 859 by a woman called Fatima al-Fihri. Fatima's father was a rich businessman, and after he died, she wanted to {20} her city something special with his money.\n\nAt first, Al-Qarawiyyin was a mosque, but soon it became a place where students came to {21} lessons in subjects like Mathematics, languages and medicine. Young people travelled from many different countries to listen to the best teachers.\n\nThe university also has a very old library. It is {22} of books, and some of them are more than a thousand years old. For hundreds of years only students and teachers could use it, but after it was repaired, part of it {23} to visitors in 2016.\n\nToday, Al-Qarawiyyin is still a university, and students can {24} a diploma there, just like Fatima's first students many centuries ago.",
+      "items": [
+        { "options": ["exactly", "actually", "nearly"], "answer": 1 },
+        { "options": ["take", "carry", "give"], "answer": 2 },
+        { "options": ["make", "have", "do"], "answer": 1 },
+        { "options": ["full", "filled", "complete"], "answer": 0 },
+        { "options": ["started", "began", "opened"], "answer": 2 },
+        { "options": ["pass", "get", "win"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Mia  To: Jon", "text": "Hi Jon,\nDid you write down the instructions {25} our Geography project? I wasn't at school today because I was ill. Do we have to work in groups, or can we do {26} on our own? And when do we need to give it to Mrs Cole?\nMia" },
+        { "header": "From: Jon  To: Mia", "text": "Hi Mia,\nSorry you're ill! We have to work in pairs. Do you want to work {27} me? We need to make a poster about a country. I'd like to choose Japan, because I know {28} lot about it. The teacher wants the projects {29} Friday, so we haven't got much time. I'll bring some books from the library to your house tomorrow {30} you feel better.\nJon" }
+      ],
+      "answers": [ ["for", "about"], ["it", "this", "that"], ["with"], ["a"], ["by", "on", "before", "for"], ["if", "when"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your teacher has given you a lot of homework this weekend. Write an email to your English friend, Sam.",
+      "points": ["say which subject the homework is for", "explain why the homework is difficult", "ask Sam to help you"],
+      "model": "Hi Sam,\nI've got so much homework this weekend! It's for History. We have to write about a famous person, but it's difficult because I can't find much information. Can you help me on Saturday afternoon? You're really good at History!\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦🚌🌋", "caption": "a boy on a school bus with a large model volcano on the seat next to him" },
+        { "emoji": "🏫😟🚌", "caption": "the boy at the school gate with empty hands, looking worried as the bus drives away" },
+        { "emoji": "🧑‍✈️🌋👏", "caption": "the bus driver in the classroom holding the volcano; the teacher and pupils are clapping" }
+      ],
+      "model": "Tom made a model volcano for his Science project. On Monday morning he took it to school on the bus, but he was talking to his friends and he forgot it on his seat. At school he was very worried. Then the bus driver came into the classroom with the volcano! The teacher and the class thanked him."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which lesson does the boy have first tomorrow?",
+        "options": [ {"emoji":"📜","label":"History"}, {"emoji":"🔬","label":"Science"}, {"emoji":"🌍","label":"Geography"} ], "answer": 2,
+        "script": [ {"s":"F","t":"What lessons have we got tomorrow morning, Leo? Is it History first?"}, {"s":"M","t":"No, History's on Tuesdays. Tomorrow's Wednesday, so it's Geography first."}, {"s":"F","t":"And then Science after the break?"}, {"s":"M","t":"That's right. Oh no – I haven't finished my Geography homework yet! I'll do it tonight."} ] },
+      { "q": "What has the girl forgotten?",
+        "options": [ {"emoji":"📕","label":"dictionary"}, {"emoji":"✏️","label":"pencil case"}, {"emoji":"🧮","label":"calculator"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Oh no, I've left it at home!"}, {"s":"M","t":"Your calculator? You can borrow mine for the Maths test."}, {"s":"F","t":"No, I've got my calculator, and my pencil case. It's my dictionary. We need it for French after lunch."}, {"s":"M","t":"Ask in the library. They've got lots of dictionaries on the shelves."}, {"s":"F","t":"Good idea. Thanks!"} ] },
+      { "q": "Where will the students study together on Friday?",
+        "options": [ {"emoji":"📚","label":"library"}, {"emoji":"🪑","label":"classroom"}, {"emoji":"🏛️","label":"school hall"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Shall we meet in the library on Friday to study for the exam?"}, {"s":"F","t":"It's closed on Friday afternoons. What about our classroom?"}, {"s":"M","t":"Mr Hill says students can't stay in the classrooms after four o'clock."}, {"s":"F","t":"Then let's go to the school hall. The teachers put tables in there for pupils who want to do homework."}, {"s":"M","t":"OK, see you there."} ] },
+      { "q": "What time will the students start writing in the Science exam?",
+        "options": [ {"emoji":"🕘","label":"9:00"}, {"emoji":"🕘","label":"9:15"}, {"emoji":"🕚","label":"10:45"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Does the Science exam start at nine tomorrow?"}, {"s":"M","t":"We have to be in the hall at nine. But the teacher reads the instructions first, so we start writing at quarter past nine."}, {"s":"F","t":"And it finishes at quarter to eleven?"}, {"s":"M","t":"Yes. It's an hour and a half long."} ] },
+      { "q": "What mark did the boy get in his English test?",
+        "options": [ {"emoji":"📝","label":"15/20"}, {"emoji":"📝","label":"18/20"}, {"emoji":"📝","label":"20/20"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Did you get your English test back, Sam?"}, {"s":"M","t":"Yes, this morning."}, {"s":"F","t":"Did you get twenty out of twenty again?"}, {"s":"M","t":"Not this time. I made two small mistakes, so I got eighteen. My friend Paul got fifteen, and he's really happy with that."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher talking to students about a summer Science course.",
+      "title": "Summer Science Course",
+      "items": [
+        { "label": "Day course begins:", "answer": ["tuesday"] },
+        { "label": "Cost: £", "answer": ["35", "thirty-five", "thirty five"] },
+        { "label": "Students must bring a:", "answer": ["calculator", "a calculator"] },
+        { "label": "Last day: trip to the Science", "answer": ["museum"] },
+        { "label": "Course leader: Dr", "answer": ["fenwick"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everyone. I've got some exciting news about the summer Science course at Brookfield University. It's for pupils in Year Eight and Year Nine, and it lasts for five days. Last year the course started on a Monday, but this year it begins on Tuesday, because Monday is a holiday. Every day you'll do experiments with university students, and you'll have lessons from real scientists. The course usually costs fifty pounds, but our school is paying part of it, so you only need to pay thirty-five pounds. That includes lunch every day. You don't need to bring any books – the university will give you all the information you need. But please bring a calculator, because there's a lot of Maths in the experiments. On the last day, we won't stay at the university. We'll all go by train to the Science Museum in London, and your families are welcome to come too. The course leader is Doctor Fenwick. That's F-E-N-W-I-C-K. She was a teacher at this school before she went to work at the university. If you'd like to go, please take a form from my desk today."} ]
+    },
+    "part3": {
+      "intro": "You will hear Sophie talking to her friend Nam about studying for his exams.",
+      "items": [
+        { "q": "Which exam is Nam worried about?", "options": ["History", "Science", "English"], "answer": 1 },
+        { "q": "Where does Nam usually study?", "options": ["in his bedroom", "at the town library", "at the school library"], "answer": 2 },
+        { "q": "What does Sophie do to help her remember things?", "options": ["She writes information on cards.", "She makes drawings in her notebook.", "She records her notes on her phone."], "answer": 0 },
+        { "q": "What does Nam's mum tell him?", "options": ["to study more in the evenings", "to get more sleep", "to ask his teacher for help"], "answer": 1 },
+        { "q": "What will Nam and Sophie do after the exams?", "options": ["go to the cinema", "have a pizza party", "go swimming"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Nam. You look tired. Are you OK?"},
+        {"s":"M","t":"Not really. The exams start next week and I'm a bit worried."},
+        {"s":"F","t":"Which one are you worried about? History? You always say there are too many dates to remember."},
+        {"s":"M","t":"History's OK, actually. I've made lots of notes. And English is fine too. It's Science. I don't understand the part about electricity at all."},
+        {"s":"F","t":"I can help you with that. Where do you usually study? In your bedroom?"},
+        {"s":"M","t":"I tried, but my little brothers are so noisy. The town library is quiet, but it's a long way from my house. So I go to the school library after lessons. It's open until six."},
+        {"s":"F","t":"That's where I study too. Do you know what helps me remember things? I write the important information on small cards and stick them on my bedroom wall. Then I read them every morning."},
+        {"s":"M","t":"Cards? Good idea. My teacher says we should make drawings, but I'm terrible at drawing."},
+        {"s":"F","t":"What does your mum think? Is she angry about the exams?"},
+        {"s":"M","t":"No, she's really nice about it. She says I shouldn't study late at night, and that I need to sleep more. She's probably right."},
+        {"s":"F","t":"Of course she is! And what about after the exams? Shall we go to the cinema to celebrate?"},
+        {"s":"M","t":"Everyone's going to the cinema. Why don't we go swimming at the new sports centre instead?"},
+        {"s":"F","t":"OK! And maybe a pizza afterwards?"},
+        {"s":"M","t":"Maybe – if I pass Science!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her friend about her new English teacher.", "q": "What does she like about the teacher?", "options": ["He gives the class interesting projects.", "He doesn't give much homework.", "He tells funny stories in lessons."], "answer": 0,
+        "script": [ {"s":"F","t":"Our new English teacher, Mr Ross, is great."}, {"s":"M","t":"Is he funny? Our old teacher always told jokes."}, {"s":"F","t":"Not really, he's quite serious. And he gives us more homework than our old teacher! But his projects are brilliant. This term we're making our own class magazine, and I'm writing an article for it."} ] },
+      { "intro": "You will hear a boy talking about a Maths test.", "q": "How does he feel?", "options": ["worried about his mark", "sorry he didn't study more", "surprised the test was easy"], "answer": 2,
+        "script": [ {"s":"M","t":"I didn't practise much for the Maths test because I thought it would be really difficult and I'd fail anyway. But when I opened the paper, I couldn't believe it – I knew how to do every question! I finished twenty minutes early. I haven't got my mark yet, but I'm not worried about it at all."} ] },
+      { "intro": "You will hear a teacher talking to her class.", "q": "Why is she talking to the class?", "options": ["to explain a change to the timetable", "to tell them about a school trip", "to give them back their tests"], "answer": 0,
+        "script": [ {"s":"F","t":"Good morning, everyone. I know you wanted your test papers back today, but I haven't finished marking them yet – sorry. You'll get them on Friday. Now, one important thing. From next week, our History lessons will be on Thursday afternoons, not Monday mornings. Please write that down in your diaries now."} ] },
+      { "intro": "You will hear a boy talking to his mother about a language course.", "q": "What does his mother think about the course?", "options": ["It's too expensive.", "It's at a bad time.", "It's too difficult for her son."], "answer": 1,
+        "script": [ {"s":"M","t":"Mum, can I do this Chinese course? It's for beginners, so it won't be too hard."}, {"s":"F","t":"It looks good, and the price is fine. But look – the lessons are on Saturday mornings at eight o'clock. You never get up before ten at the weekend!"}, {"s":"M","t":"I would for this, I promise!"} ] },
+      { "intro": "You will hear a girl talking to her friend about the school library.", "q": "What would the girl like to change?", "options": ["the opening times", "the number of computers", "the books on the shelves"], "answer": 2,
+        "script": [ {"s":"F","t":"Do you like the new school library?"}, {"s":"M","t":"It's great. There are new computers and lots of comfortable chairs."}, {"s":"F","t":"I like it too, and it's open until six now, which is really useful. But most of the books are so old. I'd love to see some new stories on the bookshelves."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Ella talking to her dad about the teachers at her new school. Which subject does each teacher teach?",
+      "people": ["Mr Grant", "Mrs Okafor", "Miss Lopez", "Mr Ward", "Mrs Hill"],
+      "options": ["Art", "French", "Geography", "History", "Mathematics", "Music", "Science", "Sport"],
+      "answers": ["C", "G", "E", "D", "A"],
+      "script": [
+        {"s":"M","t":"So, Ella, how was your first week at the new school? Do you like your teachers?"},
+        {"s":"F","t":"They're all really nice, Dad. Mr Grant is my favourite."},
+        {"s":"M","t":"Is he the young one who wears a tracksuit? Does he teach Sport?"},
+        {"s":"F","t":"No, that's Mr Ward. Mr Grant teaches us Geography. He's been to forty different countries, and he shows us his photos in every lesson."},
+        {"s":"M","t":"And Mrs Okafor? Is she the one who plays the piano?"},
+        {"s":"F","t":"She plays the piano at home, but at school she teaches Science. We do experiments with her every week."},
+        {"s":"M","t":"What about Miss Lopez? Is she from Spain? Does she teach French?"},
+        {"s":"F","t":"She's from Mexico, actually, and she doesn't teach languages. She teaches Mathematics. She's really clever – she can do difficult sums in her head!"},
+        {"s":"M","t":"So Mr Ward teaches Sport, then?"},
+        {"s":"F","t":"He wears a tracksuit because he was a football coach before. But he doesn't teach Sport now. He teaches History, and he tells us great stories about kings and queens."},
+        {"s":"M","t":"And the last one, Mrs Hill?"},
+        {"s":"F","t":"She teaches Art. Our class is painting a big picture for the school hall. We have Music with Mr Brown, but I haven't met him yet."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Your school", "questions": ["What's your favourite subject?", "How do you get to school?"], "extended": "Please tell me something about your classroom." },
+        { "topic": "Homework", "questions": ["How much homework do you get every day?", "Where do you usually do your homework?"], "extended": "Please tell me something about a project you did at school." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways of learning. Do you like these different ways of learning? Say why or why not.",
+      "pictures": [ {"emoji":"📚","label":"studying in the library"}, {"emoji":"👫","label":"studying with friends"}, {"emoji":"💻","label":"online lessons"}, {"emoji":"🏛️","label":"a school trip to a museum"}, {"emoji":"🧑‍🏫","label":"a lesson with a teacher in class"} ],
+      "prompts": ["Do you think studying in the library is boring?", "Is it fun to study with friends?", "Do you think online lessons are useful?", "Is a school trip to a museum a good way to learn?", "Which of these ways of learning do you like best?"],
+      "followup": ["Do you prefer studying alone or with friends? Why?", "Do you think pupils get too much homework?", "Which subject would you like to study at university? Why?"],
+      "usefulLanguage": ["I think ... is useful because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

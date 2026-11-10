@@ -1,0 +1,188 @@
+{
+  "id": "t05-2", "topic": "05", "testNo": 2,
+  "title": "Ready for the Trip",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "AIRPORT CHECK-IN", "text": "Please have your passport and ticket ready.\nChildren under 16 flying alone must show a form signed by a parent.",
+        "options": ["All children must fly with a parent.", "Young people flying alone need a document from a parent.", "You can buy plane tickets here."], "answer": 1 },
+      { "kind": "message", "header": "From: Dad  To: Mia", "text": "Mia, I've left the travel insurance papers on the printer. Can you put them in the blue bag with the passports, please? Thanks!",
+        "options": ["Mia needs to put some papers in a bag.", "Dad wants Mia to print some documents.", "Dad has lost the passports."], "answer": 0 },
+      { "kind": "notice", "header": "SUNNY CAR HIRE", "text": "To hire a car, you must be over 21 and show your driving licence.\nPayment by card only – sorry, no cash.",
+        "options": ["You can pay with cash or a card.", "Drivers under 21 can hire a car if they have a licence.", "You have to pay by card."], "answer": 2 },
+      { "kind": "note", "header": "POSTCARD – From: Hugo  To: Grandma", "text": "Hi Grandma! The hotel is lovely and the beach is right next to it. Yesterday we took a boat to an island, and I bought you something there – you'll see it on Saturday!\nLove, Hugo",
+        "options": ["Hugo is staying in a hotel on an island.", "Hugo has bought a present for his grandmother.", "Hugo's grandmother is going on holiday on Saturday."], "answer": 1 },
+      { "kind": "label", "header": "CITY MUSEUM – TICKET", "text": "This ticket is for one day only.\nStudents: show your student card for half price.\nKeep your ticket to visit the gift shop.",
+        "options": ["You must give this ticket back at the exit.", "You can use this ticket on two different days.", "Students pay less if they show a card."], "answer": 2 },
+      { "kind": "email", "header": "From: Sun Hotel  To: Mr Tran", "text": "Thank you for your booking. Please fill in the form with this email and send it back before you arrive. Breakfast is free. You'll find our dinner menu in your room.",
+        "options": ["Mr Tran must send the hotel some information before his stay.", "Mr Tran has to pay extra for breakfast.", "Mr Tran can look at the dinner menu online."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about the things they keep from their holidays.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Lucas", "text": "Wherever I go, I keep my tickets – bus tickets, train tickets, museum tickets, even cinema tickets. I stick them in a big book with the date and a few words about the day. My dad started doing the same thing when he was young, and he still has his books from the 1990s. My oldest ticket is from a zoo in Berlin. I was only three, so I don't remember the trip, but I love looking at it." },
+        { "label": "B", "title": "Thu", "text": "I always take a diary on holiday. Every evening I write about what we did and what we ate. Sometimes I even keep the menu from a restaurant and put it in my diary! Last summer in Japan I wrote forty pages. My English teacher read some of it and asked me to write an article for the school magazine. Writing is my favourite thing, and I want to be a travel writer when I'm older." },
+        { "label": "C", "title": "Grace", "text": "I buy a postcard in every town I visit, but I don't send it to my friends. I write a message to myself and post it home! When I get back from holiday, the postcards are waiting for me. It's like getting a letter from the past. Some of them never arrive – one from Greece got lost. My little brother thinks it's a crazy idea, but I've got sixty postcards now." }
+      ],
+      "items": [
+        { "q": "Who got the idea for their hobby from a parent?", "answer": "A" },
+        { "q": "Who keeps something from where they had a meal?", "answer": "B" },
+        { "q": "Who has sometimes lost one of the things they collect?", "answer": "C" },
+        { "q": "Who has something from a trip that they can't remember?", "answer": "A" },
+        { "q": "Whose holiday writing was read by a teacher?", "answer": "B" },
+        { "q": "Who says a family member doesn't understand their hobby?", "answer": "C" },
+        { "q": "Who has a plan for a future job?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "Summer at the hotel",
+      "text": "Fifteen-year-old Carlos Mendes doesn't spend his summer holidays on the beach. He works at his parents' small hotel in a seaside town in Portugal. \"It's hard work, but I love it,\" he says.\n\nCarlos starts at eight o'clock in the morning. First, he helps his mother in the office. When new guests arrive, he asks them to fill in a form and show their passports. \"I've seen passports from more than thirty countries,\" he says. \"My favourite was from New Zealand – it had pictures of birds on the pages.\"\n\nCarlos speaks English and French, so he also answers emails from people who want to book a room. \"My dad's English isn't very good, so he's happy that I can help,\" he says. Last year Carlos also wrote a new menu for the hotel restaurant in three languages. Before that, some guests ordered fish when they really wanted chicken!\n\nIn the afternoon, Carlos is free. He usually goes swimming with his friends or reads in his room. But at eight o'clock in the evening he's back at work, giving guests their bills and answering questions about buses and boat trips.\n\nCarlos doesn't get money for his work, but his parents pay for something special for him every year. This summer he's going to a football camp in Spain. \"I've already got my ticket, and I've filled in all the forms,\" he smiles. \"Now I just need to find my own passport!\"",
+      "items": [
+        { "q": "What does Carlos do when new guests arrive?", "options": ["He shows them to their rooms.", "He asks to see their documents.", "He carries their bags upstairs."], "answer": 1 },
+        { "q": "Why does Carlos answer the emails?", "options": ["His dad can't speak English well.", "His mum is too busy in the office.", "He wants to practise his French."], "answer": 0 },
+        { "q": "Why did Carlos write a new menu?", "options": ["The restaurant started cooking new food.", "The old menu was too expensive to print.", "Some guests didn't understand the old menu."], "answer": 2 },
+        { "q": "What does Carlos do in the evening?", "options": ["He goes swimming with his friends.", "He gives guests their bills.", "He takes guests on boat trips."], "answer": 1 },
+        { "q": "How do Carlos's parents thank him for his work?", "options": ["They give him money every week.", "They have bought him a new passport.", "They are paying for a trip for him."], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "The history of the passport",
+      "text": "People have used travel documents for hundreds of years. In the past, a passport was usually a letter from a king or queen. It asked people in other countries to {19} the traveller to pass safely through their land.\n\nFor a long time, passports didn't have photos. Instead, they {20} what the traveller looked like – for example, 'tall, with brown hair and a long nose'. Photos {21} to appear in passports about a hundred years ago.\n\nToday, passports in almost every country look quite similar. They are small books with the traveller's name, date of birth and photo inside. Many passports also have a very small computer inside which {22} information about the person.\n\nWhen you travel, you must {23} care of your passport, because it can take weeks to get a new one. Some people keep a photo of their passport on their phone, {24} case they lose it.",
+      "items": [
+        { "options": ["let", "allow", "make"], "answer": 1 },
+        { "options": ["spoke", "talked", "described"], "answer": 2 },
+        { "options": ["began", "opened", "went"], "answer": 0 },
+        { "options": ["does", "has", "makes"], "answer": 1 },
+        { "options": ["have", "make", "take"], "answer": 2 },
+        { "options": ["in", "for", "on"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Freya  To: Kim", "text": "Hi Kim,\nWe're going to Paris next week! I'm so excited. Mum has bought the train tickets and booked {25} hotel near the river. I've just got my first passport, but {26} photo in it is terrible! Would you like a postcard from Paris?\nFreya" },
+        { "header": "From: Kim  To: Freya", "text": "Hi Freya,\nLucky you! Yes, please. I collect postcards, and I haven't got {27} from France yet. Don't forget to take your passport! My cousin left {28} at home last year and couldn't go on her school trip. When {29} you coming back? Tell me everything {30} you get home.\nKim" }
+      ],
+      "answers": [ ["a", "the"], ["the", "my"], ["one", "any"], ["hers"], ["are"], ["when", "after", "once"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You are going on holiday with your family next week. Write an email to your English friend, Max.",
+      "points": ["say where you are going and how you will travel", "tell Max what you are going to do there", "ask Max to do something for you while you are away"],
+      "model": "Hi Max,\nNext week my family is flying to Da Nang. We're going to swim in the sea and visit the old town in Hoi An. Could you feed my cat while I'm away? I'll send you a postcard!\nBao"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👨‍👩‍👧‍👦🧳✈️", "caption": "a family with suitcases arriving at an airport" },
+        { "emoji": "🛂🎒😱", "caption": "at the check-in desk, a boy looking in his empty bag while a woman waits for his passport" },
+        { "emoji": "🏃‍♀️📘😅", "caption": "the boy's sister running towards them, holding a passport" }
+      ],
+      "model": "Last summer the Lee family went to the airport to fly to Spain. At the check-in desk, the woman asked for their passports, but Tim couldn't find his! He was very worried. Then his sister Amy came running. Tim's passport was on the seat of the car. Everyone laughed."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What has the girl forgotten to pack?",
+        "options": [ {"emoji":"📘","label":"passport"}, {"emoji":"🎫","label":"ticket"}, {"emoji":"📔","label":"diary"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Have you got everything for the trip, Zara? Your passport?"}, {"s":"F","t":"Yes, it's in my bag with my ticket."}, {"s":"M","t":"What about your diary? You always write in it on holiday."}, {"s":"F","t":"Oh no, it's still on my desk! Thanks, Dad. I'll go and get it."} ] },
+      { "q": "How much did the boy pay for his train ticket?",
+        "options": [ {"emoji":"💷","label":"£12"}, {"emoji":"💷","label":"£20"}, {"emoji":"💷","label":"£24"} ], "answer": 0,
+        "script": [ {"s":"F","t":"How much was your train ticket to London, Noah?"}, {"s":"M","t":"It's usually twenty-four pounds, but I showed my student card, so it was half price."}, {"s":"F","t":"So only twelve pounds? That's cheap!"}, {"s":"M","t":"Yes. My friend Jack forgot his card, so he paid twenty pounds for his."} ] },
+      { "q": "Where will the family eat tonight?",
+        "options": [ {"emoji":"🍕","label":"pizza restaurant"}, {"emoji":"🐟","label":"fish restaurant"}, {"emoji":"🏨","label":"hotel restaurant"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Shall we eat at the hotel tonight? I saw the menu – it looks good."}, {"s":"M","t":"It's very expensive. What about the pizza place near the beach?"}, {"s":"F","t":"We had pizza last night. Let's try the fish restaurant by the harbour. The man at reception says it's the best in town."}, {"s":"M","t":"OK, let's go there."} ] },
+      { "q": "What will the boy buy for his grandmother?",
+        "options": [ {"emoji":"🖼️","label":"postcard"}, {"emoji":"📕","label":"guidebook"}, {"emoji":"🗓️","label":"calendar"} ], "answer": 2,
+        "script": [ {"s":"M","t":"I want to get something for Grandma from Edinburgh. Maybe a postcard?"}, {"s":"F","t":"You can send her a postcard, but get her a present too. What about a guidebook? She's coming here next year."}, {"s":"M","t":"She's already got one. I'll get her this calendar with pictures of the castle. She can put it in her kitchen."} ] },
+      { "q": "Which document does the man need to show?",
+        "options": [ {"emoji":"📘","label":"passport"}, {"emoji":"🪪","label":"driving licence"}, {"emoji":"💳","label":"bank card"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Good morning. Can I see your passport, please?"}, {"s":"M","t":"Oh, I left it at the hotel. Is that a problem?"}, {"s":"F","t":"Not for hiring a car. What I really need to see is your driving licence."}, {"s":"M","t":"Here it is. And do I pay by card now?"}, {"s":"F","t":"No, you can pay when you bring the car back."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher talking to students about a school trip to France.",
+      "title": "School Trip to France",
+      "items": [
+        { "label": "The coach leaves on:", "answer": ["tuesday"] },
+        { "label": "Bring this to school next week:", "answer": ["passport", "your passport"] },
+        { "label": "Give the yellow form to: Mrs", "answer": ["quinn"] },
+        { "label": "Cost of travel insurance: £", "answer": ["15", "fifteen"] },
+        { "label": "Every evening, write in a:", "answer": ["diary"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everyone. I've got some important information about our school trip to France in May. We'll leave school by coach very early on Tuesday the fourteenth. Many of you thought we were going on Monday, but that's a holiday, so it's Tuesday. Everyone must have a passport, of course. Please bring your passport to school next week, so I can make a copy of it. Don't bring your ticket – I've got all the tickets here in my office. Your parents need to fill in the yellow form and sign it. Please give the forms to Mrs Quinn, not to me. That's Q-U-I-N-N. She works in the school office. Every student also needs travel insurance. It costs fifteen pounds. Last year it was twenty, so it's a bit cheaper this time. You can pay at the office. While we're in France, you'll have to write in a diary every evening, in French, about what you did that day. It'll be part of your French project when we come back. Don't bring a laptop – an ordinary notebook is fine. OK, any questions?"} ]
+    },
+    "part3": {
+      "intro": "You will hear Sara talking to her friend Tom about her holiday in Italy.",
+      "items": [
+        { "q": "How did Sara's family travel to Italy?", "options": ["by plane", "by train", "by car"], "answer": 1 },
+        { "q": "What did Sara's dad lose?", "options": ["his ticket", "his passport", "his wallet"], "answer": 2 },
+        { "q": "Where did the family stay in Italy?", "options": ["with a relative", "in a hotel", "at a campsite"], "answer": 0 },
+        { "q": "Why didn't Tom get a postcard?", "options": ["Sara forgot to post it.", "Sara didn't have his address.", "It got lost in the post."], "answer": 0 },
+        { "q": "What did Sara enjoy most?", "options": ["the food", "the museums", "the boat trip"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Sara! How was Italy?"},
+        {"s":"F","t":"Amazing! But the start was a bit difficult."},
+        {"s":"M","t":"Why? Was it the flight?"},
+        {"s":"F","t":"We didn't fly. The plane tickets were too expensive in August, and Dad didn't want to drive all that way. So we went by train. It took two days!"},
+        {"s":"M","t":"Wow. Was that the problem?"},
+        {"s":"F","t":"No, the train was fun. The problem was on the first night. Dad lost his wallet in the station in Paris. All his bank cards were in it."},
+        {"s":"M","t":"Oh no! What about his passport and his ticket?"},
+        {"s":"F","t":"Luckily they were in Mum's bag. And we had travel insurance, so we got the money back later."},
+        {"s":"M","t":"Where did you stay? In a hotel?"},
+        {"s":"F","t":"We looked at some hotels online, but my aunt lives in Florence, so we stayed in her flat. It was great."},
+        {"s":"M","t":"Did you send any postcards? I didn't get one!"},
+        {"s":"F","t":"I wrote you one, honestly! I had your address and everything. But I forgot to post it. It's still in my bag – here you are!"},
+        {"s":"M","t":"Ha, thanks! So what did you enjoy most?"},
+        {"s":"F","t":"The food was great, and the museums were interesting, but the best thing was the boat trip to a small island. We swam all afternoon."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a woman talking to a boy at a cinema.", "q": "Why can't the boy go in?", "options": ["He is too young.", "He hasn't paid.", "His ticket is for a different film."], "answer": 2,
+        "script": [ {"s":"F","t":"Sorry, you can't go into Screen 2 with this ticket."}, {"s":"M","t":"But I paid for it online this morning! And I'm fourteen."}, {"s":"F","t":"Yes, but it's a ticket for Screen 3 – the film about the space ship. This is Screen 2. It's a different film."}, {"s":"M","t":"Oh! I'm so sorry."} ] },
+      { "intro": "You will hear a girl talking to her brother about a form.", "q": "What is the form for?", "options": ["joining a sports club", "getting a library card", "going on a school trip"], "answer": 1,
+        "script": [ {"s":"F","t":"Can you help me with this form? It asks for my date of birth, my address and the name of my school."}, {"s":"M","t":"What's it for? The swimming club?"}, {"s":"F","t":"No, that's next month. It's for the library. When I've got a card, I can borrow ten books at a time."} ] },
+      { "intro": "You will hear a man talking about his job.", "q": "What is his job?", "options": ["He delivers post.", "He writes for a newspaper.", "He works in a travel agency."], "answer": 0,
+        "script": [ {"s":"M","t":"I start work very early, at six o'clock. First I collect the letters, cards and magazines at the office, and then I walk round the town with them. I read the newspaper on my break! Lots of people say hello to me. The worst thing is the dogs – some of them don't like me at all!"} ] },
+      { "intro": "You will hear a girl leaving a message for her friend.", "q": "Why is she calling?", "options": ["to ask about homework", "to invite her friend to a party", "to thank her friend for a present"], "answer": 2,
+        "script": [ {"s":"F","t":"Hi Jade, it's Sofia. I just got your card in the post. It's beautiful! And thank you so much for the book. I started reading it last night and I can't stop. You know me so well! I'll tell you all about my party at school tomorrow. Bye!"} ] },
+      { "intro": "You will hear a boy talking to his father about a newspaper.", "q": "How does the boy feel?", "options": ["bored", "proud", "angry"], "answer": 1,
+        "script": [ {"s":"M","t":"Dad, have you seen today's newspaper? Look at page six!"}, {"s":"M2","t":"Is that your football team?"}, {"s":"M","t":"Yes! There's a photo of us, and they wrote about my goal! I've never been in a newspaper before. I'm going to buy five copies – one for Grandma, one for Uncle Kai…"}, {"s":"M2","t":"That's wonderful!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Ethan talking to his mum before a family holiday. Where is each thing now?",
+      "people": ["Ethan's passport", "the train tickets", "the insurance papers", "Ethan's diary", "Dad's driving licence"],
+      "options": ["in the blue bag", "in Mum's handbag", "in the car", "in the kitchen drawer", "in Dad's jacket", "on the printer", "in the suitcase", "on Ethan's desk"],
+      "answers": ["B", "F", "A", "G", "E"],
+      "script": [
+        {"s":"M","t":"Mum, have you got my passport? I can't find it."},
+        {"s":"F","t":"Don't worry. I've got all the passports in my handbag. I don't want anyone to lose them."},
+        {"s":"M","t":"OK. What about the train tickets? Are they in the blue bag?"},
+        {"s":"F","t":"No. I printed them this morning, but I forgot to take them off the printer. They're still there. Can you get them later?"},
+        {"s":"M","t":"Sure. And the insurance papers? Dad said they were in the kitchen drawer."},
+        {"s":"F","t":"They were, but I've put them in the blue bag now, with the hotel information."},
+        {"s":"M","t":"Good. I'm going to take my diary. It's on my desk. Shall I put it in my backpack?"},
+        {"s":"F","t":"Your backpack's already very full. Put it in the suitcase. There's space at the top."},
+        {"s":"M","t":"OK, there – I've just put it in the suitcase. Oh, and Dad's looking for his driving licence. He needs it to hire a car in Spain. He thinks he left it in the car."},
+        {"s":"F","t":"Tell him to look in his jacket. He always keeps it there, in the inside pocket."},
+        {"s":"M","t":"Dad's just looked – you're right, it's in his jacket! I think we're nearly ready!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Holidays", "questions": ["Where did you go on your last holiday?", "How did you travel there?"], "extended": "Please tell me something about a place you would like to visit." },
+        { "topic": "Postcards and messages", "questions": ["Do you send postcards when you are on holiday?", "Who do you send messages to on holiday?"], "extended": "Please tell me something about how you keep in touch with friends on holiday." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to remember a holiday. Do you like these different ways? Say why or why not.",
+      "pictures": [ {"emoji":"📷","label":"taking photos"}, {"emoji":"📔","label":"writing a diary"}, {"emoji":"🖼️","label":"sending postcards"}, {"emoji":"🎫","label":"keeping tickets"}, {"emoji":"🛍️","label":"buying presents"} ],
+      "prompts": ["Do you think taking photos is the best way to remember a holiday?", "Is writing a diary on holiday boring?", "Do you think sending postcards is old-fashioned?", "Is it fun to keep tickets from places you visit?", "Which of these things do you like best?"],
+      "followup": ["Do you prefer to send a postcard or a text message from holiday? Why?", "Have you got a passport? Where would you like to go with it?", "Would you like to write an article about your holiday for a magazine? Why or why not?"],
+      "usefulLanguage": ["I think ... is a good idea because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

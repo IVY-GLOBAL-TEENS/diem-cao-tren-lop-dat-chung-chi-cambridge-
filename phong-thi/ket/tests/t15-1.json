@@ -1,0 +1,186 @@
+{
+  "id": "t15-1", "topic": "15", "testNo": 1,
+  "title": "Around Town",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "SPORTS CENTRE", "text": "Swimming pool closed for cleaning Monday–Wednesday.\nThe gym and tennis courts are open as usual.",
+        "options": ["You can't use the gym on Monday.", "You can play tennis on Tuesday.", "The sports centre is closed until Thursday."], "answer": 1 },
+      { "kind": "message", "header": "From: Mum  To: Ollie", "text": "Ollie, I'm at the bank in town. Can you meet me outside the post office at 4? Then we can go to the department store and buy your new school shoes.",
+        "options": ["Mum is going to buy shoes at the post office.", "Ollie should wait for his mum at the bank.", "Ollie and his mum are going shopping together."], "answer": 2 },
+      { "kind": "notice", "header": "CITY LIBRARY", "text": "From 1 June, the entrance on King Street will be closed.\nPlease use the entrance next to the car park.\nThe lift is now working again.",
+        "options": ["There will be a different way into the library.", "The library is going to close in June.", "The lift in the library is broken."], "answer": 0 },
+      { "kind": "email", "header": "From: Zara  To: Lily", "text": "We're going to the cinema in the new shopping centre tonight. The film starts at 7.30, but let's meet in the cafe on the ground floor at 7 first. Don't be late!",
+        "options": ["The girls will go to the cafe before the film.", "The film starts at seven o'clock.", "The cafe is next to the cinema."], "answer": 0 },
+      { "kind": "sign", "header": "PARK HOTEL", "text": "Breakfast is served in the restaurant on the first floor from 7 to 10 a.m.\nGuests can also have breakfast in their room for £5.",
+        "options": ["Breakfast in your room is free.", "You can't have breakfast in the restaurant after 10.", "The restaurant is on the ground floor."], "answer": 1 },
+      { "kind": "note", "header": "From: Dad  To: Mai", "text": "Mai, I've taken the car to the garage – it's making a strange noise again. Can you walk to the railway station to meet Grandma? Her train arrives at 5.15.",
+        "options": ["Dad will drive Grandma home from the station.", "Mai needs to go to the garage.", "Mai should go and meet her grandmother."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about their favourite building in their town.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Ryan", "text": "My favourite building is the old theatre in the city centre. It's over two hundred years old and it's beautiful inside, with red seats and gold paint on the walls. I often go there with my dad to see plays. Last year I was in a show there with my drama club! I was very nervous, but it was amazing. Tickets are expensive, but students only pay half price." },
+        { "label": "B", "title": "Chloe", "text": "I love the stadium near my house because I'm a big football fan. My team plays there every other Saturday, and my uncle takes me. It's a modern building with seats for forty thousand people, and when it's full it's really loud. There's a small museum inside with old shirts and photos of famous players. You can visit it on weekdays when there isn't a match." },
+        { "label": "C", "title": "Tariq", "text": "My favourite place is our library. It isn't very big, but it was a church in the past, so it has beautiful tall windows. I go there after school to do my homework because my house is quite noisy – I've got three little sisters! The people who work there are really helpful. On Saturday mornings there's a book club for teenagers, and I've made some good friends there." }
+      ],
+      "items": [
+        { "q": "Who has performed in their favourite building?", "answer": "A" },
+        { "q": "Who goes to their favourite place to study?", "answer": "C" },
+        { "q": "Who says you can only visit part of the building on some days?", "answer": "B" },
+        { "q": "Who says their favourite building was used for something different before?", "answer": "C" },
+        { "q": "Who says young people can get cheaper tickets?", "answer": "A" },
+        { "q": "Who says their favourite building can be very noisy?", "answer": "B" },
+        { "q": "Who has met new friends at their favourite place?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "My home is a hotel!",
+      "text": "Most people only stay in a hotel on holiday, but thirteen-year-old Emily Ross lives in one. Her parents own the Sea View Hotel, a small hotel with twenty rooms in a seaside town in the north of England. The family's flat is on the top floor of the building.\n\n'People think it's like being on holiday all the time,' says Emily, 'but it isn't. My parents are always busy, especially in summer. Sometimes I don't see them until late in the evening.'\n\nEmily helps in the hotel at weekends. She carries the guests' bags up to their rooms, because the building is very old and there isn't a lift. 'That's hard work!' she laughs. 'Some guests bring really heavy suitcases.' Her parents don't pay her, but guests sometimes give her a pound or two.\n\nThe best thing, Emily says, is meeting people from different countries. 'Last month we had a family from Japan. They taught me how to write my name in Japanese.' But there are bad things, too. 'I can never have a party for my friends,' she says, 'because it would be too noisy for the guests.'\n\nWhen she's older, Emily doesn't want to work in a hotel. 'I want to go to university and become a doctor,' she says. 'Maybe I'll work at the hospital here in town. But I'll always come back to help Mum and Dad in the summer.'",
+      "items": [
+        { "q": "Where does Emily's family live?", "options": ["in a house next to the sea", "at the top of the hotel", "in a flat in the town centre"], "answer": 1 },
+        { "q": "What does Emily say about her parents?", "options": ["They don't have much free time.", "They want her to work more.", "They don't like some of the guests."], "answer": 0 },
+        { "q": "Why does Emily have to carry the guests' bags?", "options": ["Her parents pay her to do it.", "There is no lift in the hotel.", "The guests' bags are too heavy for her parents."], "answer": 1 },
+        { "q": "What does Emily not like about living in the hotel?", "options": ["She can't invite her friends to a party.", "She has to share her bedroom.", "She can't sleep because of the noise."], "answer": 0 },
+        { "q": "What does Emily want to do in the future?", "options": ["run her own hotel", "teach at a university", "work in a hospital"], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "The tallest building in the world",
+      "text": "The Burj Khalifa in Dubai is the tallest building in the world. It is 828 metres high and it has more than 160 floors. Work on the building {19} in 2004, and it opened six years later. At one time, about 12,000 people were working on it.\n\nToday, thousands of people live and work there. There are apartments, offices and a hotel {20} the building, and there are also restaurants and shops.\n\nVisitors can buy a ticket to go up to the top floors. The lifts are very {21} – they can take you up more than 120 floors in about one minute! From the top you can see the desert and the sea. On a {22} day, you can see for many kilometres.\n\nCleaning the windows of the building is a big {23} – it takes a team of workers about three months to clean all of them!\n\nMany people think the Burj Khalifa is one of the most beautiful modern buildings in the world, and it has {24} a very popular place for tourists.",
+      "items": [
+        { "options": ["made", "became", "started"], "answer": 2 },
+        { "options": ["inside", "into", "onto"], "answer": 0 },
+        { "options": ["early", "fast", "soon"], "answer": 1 },
+        { "options": ["clear", "clean", "empty"], "answer": 0 },
+        { "options": ["work", "practice", "job"], "answer": 2 },
+        { "options": ["got", "become", "turned"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Ben  To: Carlos", "text": "Hi Carlos,\nWelcome to our town! I hope you like {25} new flat. Is it near the railway station? If you want, I can show you around on Saturday. There's a great sports centre {26} has a swimming pool and a climbing wall. We could go there {27} the morning.\nBen" },
+        { "header": "From: Carlos  To: Ben", "text": "Hi Ben,\nThanks! Our flat is on the tenth floor of a big apartment building next to the hospital. I can see the whole town {28} my bedroom window! I'd love to go to the sports centre. After that, can you show me where the library is? I need to get {29} books for school. Is it open {30} Saturdays?\nCarlos" }
+      ],
+      "answers": [ ["your", "the"], ["which", "that"], ["in"], ["from", "through"], ["some", "the", "my"], ["on"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "A new shopping centre has opened in your town. Write an email to your English friend, Robin.",
+      "points": ["say where the shopping centre is", "tell Robin what shops and places it has", "suggest when you can go there together"],
+      "model": "Hi Robin,\nThere's a new shopping centre in our town! It's opposite the railway station. It has a big supermarket, a bookshop, lots of clothes shops and a cinema on the top floor. Shall we go there together next Saturday afternoon?\nBye,\nNam"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👨‍👩‍👦🏛️", "caption": "a family arriving at the entrance of a big museum in the city" },
+        { "emoji": "👦🗿😟", "caption": "the boy alone in a room full of old statues, looking around for his family" },
+        { "emoji": "👮‍♀️📻👨‍👩‍👦", "caption": "a museum guard talking on a radio while the boy's parents hurry towards him" }
+      ],
+      "model": "Last Sunday Tom visited a big museum in the city with his parents. He was so interested in the old statues that he didn't see his parents leave the room. Suddenly he was alone and he felt worried. He asked a museum guard for help. She used her radio, and five minutes later his parents arrived."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Where is the boy going after school?",
+        "options": [ {"emoji":"🏊","label":"swimming pool"}, {"emoji":"📖","label":"bookshop"}, {"emoji":"📚","label":"library"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Are you coming straight home after school, Josh?"}, {"s":"M","t":"No, Mum. I need to go to the library to borrow a book for my project. The bookshop doesn't have it."}, {"s":"F","t":"I thought you had swimming today."}, {"s":"M","t":"Not today – the pool's closed. It's on Thursday this week."} ] },
+      { "q": "Where did the girl leave her bag?",
+        "options": [ {"emoji":"🚉","label":"railway station"}, {"emoji":"🎬","label":"cinema"}, {"emoji":"☕","label":"cafe"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Have you found your bag, Ruby?"}, {"s":"F","t":"Yes! I thought I left it in the cinema, but it wasn't there."}, {"s":"M","t":"Did you go to the cafe after the film?"}, {"s":"F","t":"No, we went straight to the railway station. I left it on a seat there, and a man took it to the ticket office."} ] },
+      { "q": "Where does the girl's mother work now?",
+        "options": [ {"emoji":"🏥","label":"hospital"}, {"emoji":"🏢","label":"office"}, {"emoji":"🏫","label":"school"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Does your mum still work at the hospital, Anna?"}, {"s":"F","t":"No, she left last year. She works in an office in the city centre now."}, {"s":"M","t":"Does she like it?"}, {"s":"F","t":"It's OK, but she misses the hospital. She'd like to work at the school near our house one day."} ] },
+      { "q": "Which building is the man looking for?",
+        "options": [ {"emoji":"📮","label":"post office"}, {"emoji":"🏛️","label":"museum"}, {"emoji":"🏨","label":"hotel"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Excuse me, I'm looking for the Grand Hotel. Is it near here?"}, {"s":"F","t":"Yes, it's not far. Go straight on and turn left at the post office."}, {"s":"M","t":"Turn left at the post office. OK."}, {"s":"F","t":"Then you'll see the museum. The hotel is opposite it, on the other side of the road."}, {"s":"M","t":"Thanks very much."} ] },
+      { "q": "Where will the family go on Saturday?",
+        "options": [ {"emoji":"🏰","label":"castle"}, {"emoji":"🎭","label":"theatre"}, {"emoji":"🏟️","label":"stadium"} ], "answer": 1,
+        "script": [ {"s":"F","t":"What shall we do on Saturday? We could visit the castle."}, {"s":"M","t":"We went there last month. What about the football match at the stadium?"}, {"s":"F","t":"All the tickets have gone. But your sister wants to see the new play at the theatre."}, {"s":"M","t":"OK, let's do that. I'll book the tickets online."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about a trip to a chocolate factory.",
+      "title": "Trip to Bramley Chocolate Factory",
+      "items": [
+        { "label": "Day of trip:", "answer": ["thursday"] },
+        { "label": "Meet at the school's main:", "answer": ["entrance"] },
+        { "label": "Bus leaves at:", "answer": ["8.15", "8:15", "quarter past eight", "8.15 am", "8:15 am"] },
+        { "label": "Bring money for the:", "answer": ["shop", "factory shop"] },
+        { "label": "Guide's name: Mrs", "answer": ["fenwick"] }
+      ],
+      "script": [ {"s":"F","t":"OK, everyone, listen carefully, please. Next week we're going on our trip to the Bramley Chocolate Factory. We planned to go on Tuesday, but the factory is closed that day, so we're going on Thursday instead. Please meet at the main entrance of the school, not in the car park like last time, because there are builders working there. The bus leaves at quarter past eight, so please arrive by eight o'clock. The journey takes about an hour. At the factory, you'll see how they make chocolate, and you can try some, too! You don't need to bring lunch – the factory cafe will give us sandwiches. But you might want to bring some money for the shop. They sell boxes of chocolates at very good prices. Our guide will be Mrs Fenwick. That's F-E-N-W-I-C-K. She's worked at the factory for thirty years, so she can answer all your questions. We'll be back at school at about half past three. Any questions?"} ]
+    },
+    "part3": {
+      "intro": "You will hear Leah talking to her friend Tom about a weekend in London.",
+      "items": [
+        { "q": "Where did Leah's family stay?", "options": ["in a hotel", "in a guest-house", "in a friend's flat"], "answer": 1 },
+        { "q": "What did they visit first?", "options": ["a cathedral", "a museum", "a theatre"], "answer": 1 },
+        { "q": "What does Leah think about London?", "options": ["There are too many people.", "It's too expensive.", "It's boring."], "answer": 0 },
+        { "q": "What did Leah buy?", "options": ["a pair of trainers", "a map", "a book"], "answer": 2 },
+        { "q": "What does Leah want to do next time?", "options": ["see a football match", "go to a musical", "visit the cathedral"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Leah. How was your weekend in London?"},
+        {"s":"F","t":"Brilliant, thanks, Tom. Dad wanted to stay in a big hotel, but they were all too expensive. So we stayed in a small guest-house near the railway station. It wasn't very modern, but the owner was really friendly."},
+        {"s":"M","t":"What did you visit first?"},
+        {"s":"F","t":"Well, Mum wanted to see the cathedral, but there was a long queue outside the entrance, so we went to the Science Museum instead. It was amazing – we spent four hours there!"},
+        {"s":"M","t":"Did you go to the theatre? I know you love musicals."},
+        {"s":"F","t":"We wanted to, but the tickets cost too much. We went to the cinema in the evening instead."},
+        {"s":"M","t":"What did you think of London?"},
+        {"s":"F","t":"It's very exciting, and some things are cheaper than I thought. But it's so busy! There were people everywhere, and the underground trains were really full. I prefer our town – it's quieter."},
+        {"s":"M","t":"Did you go shopping?"},
+        {"s":"F","t":"I went to a big department store on Oxford Street. I wanted some trainers, but they didn't have my size. So I bought a book about London in a little bookshop. I didn't need a map – the guest-house gave us a free one."},
+        {"s":"M","t":"Cool. Would you go back?"},
+        {"s":"F","t":"Yes! Next time I want to see a football match at Wembley Stadium. My dad says we can go for my birthday in May."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking about her new school.", "q": "What does she like most about the school building?", "options": ["the big library", "the swimming pool", "the modern classrooms"], "answer": 0,
+        "script": [ {"s":"F","t":"My new school is much bigger than my old one. The classrooms are modern, with a computer on every desk, which is nice. There's a swimming pool too, but we only use it in the summer. The best thing for me is the library. It's huge, with thousands of books and comfortable sofas. I spend every lunchtime there."} ] },
+      { "intro": "You will hear a boy talking to his mother.", "q": "Why does the boy want to go to the newsagent's?", "options": ["to buy some sweets", "to get a newspaper", "to buy a birthday card"], "answer": 2,
+        "script": [ {"s":"M","t":"Mum, can I go to the newsagent's?"}, {"s":"F","t":"What for? If it's sweets, the answer's no."}, {"s":"M","t":"No! It's Grandma's birthday tomorrow and I haven't got a card for her."}, {"s":"F","t":"Oh, good idea. And can you get me a newspaper while you're there?"}, {"s":"M","t":"OK."} ] },
+      { "intro": "You will hear a woman talking about a building in her town.", "q": "What is the building now?", "options": ["a cafe", "a museum", "a factory"], "answer": 1,
+        "script": [ {"s":"F","t":"The big red building on River Street was a shoe factory for over a hundred years. When it closed, nobody used it for a long time. Some people wanted to make it into flats, but the town decided to turn it into a museum about the history of the town. It opened last year, and there's a nice little cafe next door too."} ] },
+      { "intro": "You will hear two friends talking about a school disco.", "q": "What did the girl think of the disco?", "options": ["It was too short.", "The music was bad.", "The hall was too full."], "answer": 0,
+        "script": [ {"s":"M","t":"How was the school disco last night, Amy?"}, {"s":"F","t":"Well, the music was great, and the hall wasn't too crowded. But it started at seven and finished at half past eight!"}, {"s":"M","t":"Only an hour and a half?"}, {"s":"F","t":"Yes. We were just starting to have fun when they turned the lights on."} ] },
+      { "intro": "You will hear an announcement in a supermarket.", "q": "Why is the man speaking?", "options": ["to tell shoppers about cheap fruit", "to tell shoppers that the shop is closing soon", "to ask shoppers to look for a lost child"], "answer": 1,
+        "script": [ {"s":"M","t":"Good evening, shoppers. The supermarket will close in fifteen minutes, at ten o'clock. Please take your shopping to the checkouts now. Today's special prices on fruit have now finished, but there will be more great prices tomorrow. We'll open again at seven tomorrow morning. Thank you for shopping with us."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Kevin talking to his grandmother about his family. Where does each person work?",
+      "people": ["Kevin's mum", "Kevin's dad", "Aunt Julia", "Cousin Sam", "Kevin's sister Emma"],
+      "options": ["bank", "bookshop", "hospital", "hotel", "police station", "post office", "sports centre", "university"],
+      "answers": ["C", "F", "D", "G", "A"],
+      "script": [
+        {"s":"F","t":"Kevin, tell me about everyone's jobs. I can never remember! Your mum still works at the bank, doesn't she?"},
+        {"s":"M","t":"Not any more, Grandma. She left the bank last year. She works at the hospital now. She's a nurse again, like when she was younger."},
+        {"s":"F","t":"Oh, that's good. And your dad? Is he still a police officer?"},
+        {"s":"M","t":"No, he left the police station two years ago because he hurt his back. Now he works at the post office in town. He likes it because he meets lots of people."},
+        {"s":"F","t":"And Aunt Julia? She loves books."},
+        {"s":"M","t":"Yes, she wanted to open a bookshop, but it was too expensive. So she works in a big hotel near the sea. She's the manager there now!"},
+        {"s":"F","t":"Goodness! And your cousin Sam? He's so sporty."},
+        {"s":"M","t":"He teaches swimming at the new sports centre. He loves it, and the children love him."},
+        {"s":"F","t":"And your sister Emma? Is she still at university?"},
+        {"s":"M","t":"She finished university last summer. Now she works at a bank in London. Mum says she's the clever one in the family!"},
+        {"s":"F","t":"Well, I'm very proud of all of you."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Your town", "questions": ["What buildings are there near your house?", "Is there a cinema in your town?"], "extended": "Please tell me something about your favourite building in your town." },
+        { "topic": "Your home", "questions": ["Do you live in a house or a flat?", "Which room in your home do you like best?"], "extended": "Please tell me something about your home." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different places in a town. Do you like going to these places? Say why or why not.",
+      "pictures": [ {"emoji":"🎬","label":"cinema"}, {"emoji":"📚","label":"library"}, {"emoji":"🏊","label":"swimming pool"}, {"emoji":"🛒","label":"supermarket"}, {"emoji":"🎭","label":"theatre"} ],
+      "prompts": ["Do you think going to the cinema is fun?", "Is the library a good place to study?", "Do you like going to the swimming pool?", "Do you think going to the supermarket is boring?", "Which of these places do you like best?"],
+      "followup": ["Do you prefer going to the cinema or the theatre? Why?", "Do you go to the library with your friends?", "What new building would you like in your town?"],
+      "usefulLanguage": ["I like going to ... because ...", "I don't often go to ... because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

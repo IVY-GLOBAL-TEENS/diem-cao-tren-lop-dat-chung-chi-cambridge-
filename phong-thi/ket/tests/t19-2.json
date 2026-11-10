@@ -1,0 +1,188 @@
+{
+  "id": "t19-2", "topic": "19", "testNo": 2,
+  "title": "Markets, Money and Bargains",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "SCHOOL CHARITY MARKET", "text": "Friday 3.30–5.30 in the school hall.\nCakes 50p, books £1.\nPlease bring coins – we can't give change for £20 notes.",
+        "options": ["The market is open all day on Friday.", "You can pay for a cake with a £20 note.", "It's better to pay with coins."], "answer": 2 },
+      { "kind": "sign", "header": "BIKES FOR RENT", "text": "£5 an hour or £20 for the whole day.\nThe price includes a helmet.\nPay by card only.",
+        "options": ["It's cheaper to rent a bike for a day than for five hours.", "You have to pay extra for a helmet.", "You can pay for a bike with cash."], "answer": 0 },
+      { "kind": "message", "header": "From: Dad  To: Kai", "text": "Kai, I'm at the supermarket. They haven't got the cheese you asked for. Shall I buy a different one, or try the shop near the station on my way home?",
+        "options": ["Dad has forgotten what Kai wanted.", "Dad wants Kai to decide what he should do.", "Dad is going to the station to buy cheese."], "answer": 1 },
+      { "kind": "notice", "header": "FOR SALE", "text": "Girl's bike, blue, 2 years old.\nWas £150 new – now only £60!\nPerfect for ages 10–13. Phone Mrs Grey after 5 p.m.",
+        "options": ["The bike is right for small children.", "You can phone Mrs Grey at any time.", "The bike costs less than half the price it was when it was new."], "answer": 2 },
+      { "kind": "email", "header": "From: Lily  To: Ana", "text": "We're in Spain! Everything here costs euros, of course. Mum gave me 20 euros to spend at the market. I bought a hat, and I've still got 8 euros left!",
+        "options": ["Lily spent 12 euros at the market.", "Lily bought two things at the market.", "Lily's mum bought her a hat."], "answer": 0 },
+      { "kind": "notice", "header": "CORNER SHOP", "text": "Sorry! We are closed this week for repairs.\nWe will open again on Monday 9th – with new, lower prices!",
+        "options": ["The shop is closing for ever.", "Things will cost less when the shop opens again.", "The shop is open as usual on Monday."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about selling things.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Hugo", "text": "Last summer I cleaned out my bedroom and found lots of old toys and games that I never used. My mum helped me to sell them online. The best price was for an old train set – someone paid forty pounds for it! I spent the money on a new skateboard. Now I always think before I buy something, because I know I might want to sell it later." },
+        { "label": "B", "title": "Thu", "text": "I make birthday cards and sell them to students and teachers at my school. I started two years ago, when my art teacher said my drawings were really good. Each card costs two pounds. It isn't much, but I sell about ten cards a week. I keep the money in the bank because I want to study art at university one day. My friends help me when I'm busy." },
+        { "label": "C", "title": "Isla", "text": "My parents have a small shop that sells fruit and vegetables, and I help there every Saturday. I serve customers, put prices on things and give people their change. At first I was bad at maths and often made mistakes with the money! Now I'm much faster. My dad pays me ten pounds a day, and I'm saving it for a holiday in Italy with my friends." }
+      ],
+      "items": [
+        { "q": "Who got help from a parent to sell things?", "answer": "A" },
+        { "q": "Who started selling things after someone said their work was good?", "answer": "B" },
+        { "q": "Who had problems when they first started?", "answer": "C" },
+        { "q": "Who is saving money for their studies?", "answer": "B" },
+        { "q": "Who used the money to buy something new?", "answer": "A" },
+        { "q": "Who gets money for working for their family?", "answer": "C" },
+        { "q": "Who sometimes needs help from friends?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "Tariq's school shop",
+      "text": "At Hillside School, students don't go to the supermarket when they need a new pen or notebook. They go to the school shop – and the manager is fourteen-year-old Tariq Ahmed.\n\nThe shop opened two years ago. \"It was our head teacher's idea,\" explains Tariq. \"She wanted students to learn about money and business. She found a small room next to the library, and some parents gave us money to buy the first things to sell.\"\n\nEight students work in the shop. It's open every day at lunchtime, and each student works two days a week. \"We sell pens, pencils, rulers, notebooks and calculators,\" says Tariq. \"Our prices are lower than the shops in town, so we have lots of customers.\"\n\nBeing the manager isn't always easy. \"I have to count the money at the end of every day and check that it's right. Once, five pounds was missing and I was really worried. Then we found the money under the cupboard!\"\n\nThe shop makes about three hundred pounds a year, but the students don't keep it. \"Last year we bought new books for the library, and this year we're going to buy footballs for the sports club.\"\n\nTariq says he has learned a lot. \"I'm much better at maths now. And I'm not so shy – I talk to customers all day!\" One day, he hopes to have his own business.",
+      "items": [
+        { "q": "Whose idea was the school shop?", "options": ["Tariq's", "one of the parents'", "the head teacher's"], "answer": 2 },
+        { "q": "What do we learn about the shop?", "options": ["It is only open on some days of the week.", "It is cheaper than other shops.", "Only the oldest students work there."], "answer": 1 },
+        { "q": "What happened when some money was missing?", "options": ["They found it in the shop later.", "Tariq paid it himself.", "The head teacher was angry."], "answer": 0 },
+        { "q": "What does the shop do with the money it makes?", "options": ["It gives it to the students who work there.", "It buys more things to sell.", "It spends it on things for the school."], "answer": 2 },
+        { "q": "How has Tariq changed?", "options": ["He feels better about talking to people.", "He has decided to study business.", "He wants to work in a supermarket."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "Paying for things",
+      "text": "For thousands of years, people didn't use money. Instead, they {19} one thing for another – for example, a farmer gave some eggs to get a pair of shoes. Later, people started to use metal coins, because they were easy to {20} around.\n\nPaper money was first used in China more than a thousand years ago, but it didn't {21} in Europe until the 1600s.\n\nThe first credit card was made in the USA in 1950. It was made of card, not plastic, and you could only {22} it in a small number of restaurants in New York. Today most people have a plastic card, and very few people {23} cheques any more.\n\nNow lots of shoppers pay with their phones, and some shops don't {24} cash at all. Maybe one day we will only see coins and notes in museums!",
+      "items": [
+        { "options": ["swapped", "bought", "paid"], "answer": 0 },
+        { "options": ["bring", "carry", "hold"], "answer": 1 },
+        { "options": ["become", "reach", "appear"], "answer": 2 },
+        { "options": ["use", "spend", "pay"], "answer": 0 },
+        { "options": ["make", "do", "write"], "answer": 2 },
+        { "options": ["give", "take", "bring"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Oscar  To: Nam", "text": "Hi Nam,\nI'm going to the street market {25} Sunday with my sister. She wants to buy {26} old camera. Do you want to come? There are lots of cheap things there – last time I bought three books for {27} than five pounds!\nOscar" },
+        { "header": "From: Nam  To: Oscar", "text": "Hi Oscar,\nI'd love to! I need {28} new bag for school, because my old one has a hole in it. What time {29} you leaving? I can meet you at your house. Should I bring cash, or can I pay {30} card at the market?\nNam" }
+      ],
+      "answers": [ ["on", "this", "next"], ["an"], ["less"], ["a"], ["are"], ["by", "with"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You are going to sell some of your old things at your school's charity market. Write an email to your English friend, Max.",
+      "points": ["say what you are going to sell", "tell Max when the market is", "ask Max to help you"],
+      "model": "Hi Max,\nOur school is having a charity market next Friday afternoon. I'm going to sell my old books and some toys. Could you help me on the day? I need someone to give customers their change.\nThanks,\nLeo"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🛒👩‍👦", "caption": "a boy and his mother at a supermarket checkout with a full trolley" },
+        { "emoji": "👜❓😟", "caption": "the mother looks in her bag; her purse isn't there and she looks worried" },
+        { "emoji": "🚗👛🏃", "caption": "the boy finds the purse on the seat of their car and runs back with it" }
+      ],
+      "model": "On Saturday Nick went to the supermarket with his mum. They filled their trolley with food. At the checkout, Mum looked in her bag, but her purse wasn't there! Nick ran out to the car park and looked in their car. The purse was on the seat. He took it back to Mum and she paid."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What does the girl need to buy?",
+        "options": [ {"emoji":"🎒","label":"school bag"}, {"emoji":"🖊️","label":"pens"}, {"emoji":"✏️","label":"pencil case"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Right, Lisa, we're in the department store now. What do you need for school?"}, {"s":"F","t":"A new pencil case. My old one's broken."}, {"s":"M","t":"What about a school bag? Yours looks very old."}, {"s":"F","t":"It's fine, Dad, really. And I've got lots of pens at home, so I don't need any."} ] },
+      { "q": "How much does the boy pay for his T-shirt?",
+        "options": [ {"emoji":"👕","label":"€10"}, {"emoji":"👕","label":"€15"}, {"emoji":"👕","label":"€20"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Excuse me, how much is this T-shirt?"}, {"s":"F","t":"It's twenty euros. But if you buy two, they're fifteen euros each."}, {"s":"M","t":"I only want one. Have you got anything cheaper?"}, {"s":"F","t":"This one's only ten euros, but we haven't got it in your size."}, {"s":"M","t":"OK, I'll take the first one, then."} ] },
+      { "q": "Where are they going to buy bread?",
+        "options": [ {"emoji":"🧺","label":"market"}, {"emoji":"🛒","label":"supermarket"}, {"emoji":"🥖","label":"baker's"} ], "answer": 0,
+        "script": [ {"s":"F","t":"We need bread for the picnic. Shall we get it at the supermarket?"}, {"s":"M","t":"Their bread isn't very good. The baker's in Hill Street is better."}, {"s":"F","t":"It's closed on Mondays. What about the market? There's a man there who sells great bread."}, {"s":"M","t":"Good idea. It's on our way to the park."} ] },
+      { "q": "What did the girl's brother sell?",
+        "options": [ {"emoji":"🚲","label":"bike"}, {"emoji":"🎮","label":"games console"}, {"emoji":"📚","label":"books"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Your brother put an advertisement in the shop window, didn't he? Did he sell his bike?"}, {"s":"F","t":"No, nobody wanted it. But someone bought his old games console for fifty pounds."}, {"s":"M","t":"Great! What about all his old books?"}, {"s":"F","t":"He's giving those to the library."} ] },
+      { "q": "Where can the woman find football boots?",
+        "options": [ {"emoji":"0️⃣","label":"ground floor"}, {"emoji":"3️⃣","label":"third floor"}, {"emoji":"1️⃣","label":"first floor"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Excuse me, where can I find football boots? I thought the sports things were on the ground floor."}, {"s":"M","t":"They were, but we moved them last week. They're on the third floor now."}, {"s":"F","t":"Thanks. Can I take the stairs?"}, {"s":"M","t":"Yes, or the lift. The first floor is only women's clothes, so don't stop there!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman talking about her new shop.",
+      "title": "Borrow Box – a shop where you rent things",
+      "items": [
+        { "label": "Owner's name: Kate", "answer": ["moreno"] },
+        { "label": "The shop is next to the:", "answer": ["bookshop", "book shop"] },
+        { "label": "Price of a tent for one night: £", "answer": ["8", "eight"] },
+        { "label": "The shop is closed on:", "answer": ["wednesday", "wednesdays"] },
+        { "label": "Under-18s must come with a:", "answer": ["parent", "adult"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everybody. I'm Kate Moreno – that's M-O-R-E-N-O – and I'm the owner of a new kind of shop in town called Borrow Box. At Borrow Box, you don't buy things, you rent them. Why spend lots of money on a tent or a bike if you only need it for one weekend? We're in Market Street, next to the bookshop. We wanted to open in the shopping centre, but the rent there was too expensive! Our most popular thing is the tent. It costs eight pounds a night, and we have sleeping bags too, for four pounds a night. We also rent bikes, skis and even things for parties, like lights and music speakers. We're open six days a week. We're closed on Wednesdays, because that's when we clean and repair everything. If you're under eighteen, you must come with a parent, because we need an adult to sign a form. Oh, and when you rent something, you get a free bag to carry it in. Come and visit us soon!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Daisy talking to her dad about her shopping on holiday in New York.",
+      "items": [
+        { "q": "How much money did Daisy have in New York?", "options": ["$50", "$100", "$150"], "answer": 2 },
+        { "q": "Where did Daisy do most of her shopping?", "options": ["in a department store", "at a market", "in the hotel shop"], "answer": 1 },
+        { "q": "What did Daisy buy for her brother?", "options": ["a cap", "a T-shirt", "a football"], "answer": 0 },
+        { "q": "What surprised Daisy about shopping in New York?", "options": ["Things were cheaper than at home.", "The shop assistants were very friendly.", "She paid more than the price on the label."], "answer": 2 },
+        { "q": "What will Daisy do with the dollars she has left?", "options": ["keep them for her next visit", "change them at the bank", "give them to her brother"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"M","t":"Welcome home, Daisy! Did the hundred dollars I gave you last the whole week?"},
+        {"s":"F","t":"Yes, Dad. Grandma gave me fifty dollars too, so I had a hundred and fifty."},
+        {"s":"M","t":"Lucky you! Did Aunt Jo take you to that famous department store?"},
+        {"s":"F","t":"We went in, but it was so busy that we left after ten minutes. Then we found a street market in Brooklyn. I bought nearly everything there. The hotel shop was much too expensive."},
+        {"s":"M","t":"Did you get your brother a T-shirt? He asked for one."},
+        {"s":"F","t":"They didn't have his size, so I got him a baseball cap instead. He wanted a football as well, but it was too big for my bag."},
+        {"s":"M","t":"Was everything expensive?"},
+        {"s":"F","t":"About the same as here, really. And the shop assistants were friendly, like at home. But one thing was strange. The price on the label isn't the price you pay! They add a bit more when you pay. So I never had the right money ready."},
+        {"s":"M","t":"Oh yes, I remember that. Have you got any dollars left? You could change them into pounds at the bank."},
+        {"s":"F","t":"I've only got twelve dollars. The bank won't give me much for that. Aunt Jo says I can visit her again next summer, so I'll keep them for then."},
+        {"s":"M","t":"Good idea. Just don't let your brother find them!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to a shop assistant.", "q": "What does the boy want to do?", "options": ["try on some different trainers", "change his trainers for a bigger size", "get his money back"], "answer": 1,
+        "script": [ {"s":"M","t":"Hi. I bought these trainers here on Saturday, but they're too small."}, {"s":"F","t":"Would you like your money back?"}, {"s":"M","t":"No, thanks, I really like them. Have you got the same ones in a size forty-two?"}, {"s":"F","t":"Let me check. Yes, here you are."} ] },
+      { "intro": "You will hear a girl talking about a new shopping centre.", "q": "What does she think about it?", "options": ["It's too far away.", "It has the same shops as everywhere else.", "It's too expensive."], "answer": 1,
+        "script": [ {"s":"F","t":"Everyone was excited when the new shopping centre opened. It's easy to get there on the bus, and there are some cheap shops too. But I think it's quite boring. It's the same clothes shops you can find in every town. I prefer the little shops in the old part of town – they sell things you can't find anywhere else."} ] },
+      { "intro": "You will hear a mother and her son in a supermarket.", "q": "Why is the mother unhappy?", "options": ["Her son put things in the trolley without asking.", "The supermarket hasn't got what she wants.", "There are long queues at the checkout."], "answer": 0,
+        "script": [ {"s":"F","t":"Max, what's all this in the trolley? Chocolate, crisps, three bags of sweets!"}, {"s":"M","t":"They're on special offer, Mum. They're really cheap!"}, {"s":"F","t":"I don't care. We only came for milk and bread. Put them back, please, and let's go and pay."} ] },
+      { "intro": "You will hear a man talking about his job.", "q": "What is his job?", "options": ["waiter in a café", "manager of a shop", "assistant in a bookshop"], "answer": 2,
+        "script": [ {"s":"M","t":"I start work at eight. First I check that everything is ready before we open the doors at nine. During the day I talk to customers and help them find the right book. I often tell them about stories I've enjoyed. At lunchtime I sometimes help in the café upstairs, but that's not my real job. And I don't decide the prices – the manager does that."} ] },
+      { "intro": "You will hear a girl leaving a message for her friend.", "q": "Why is she phoning?", "options": ["to change the time they meet", "to say she can't go shopping", "to ask her friend to lend her some money"], "answer": 0,
+        "script": [ {"s":"F","t":"Hi Zoe, it's Amy. About shopping tomorrow – I can still come, but not at ten o'clock. I have to help my mum in the morning. Can we meet at two instead, outside the department store? Oh, and I've still got the money you lent me last week. I'll give it back tomorrow. See you!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Ryan talking to his mum about the things he bought at a second-hand market. How much did he pay for each thing?",
+      "people": ["camera", "football", "comic", "lamp", "jacket"],
+      "options": ["50p", "£1", "£2", "£3", "£5", "£8", "£10", "£12"],
+      "answers": ["H", "C", "A", "E", "F"],
+      "script": [
+        {"s":"F","t":"Hi Ryan. What's in all those bags? Did you spend all your money at the market?"},
+        {"s":"M","t":"Not all of it! Look, Mum, I got this camera. It's quite old, but it works."},
+        {"s":"F","t":"How much was it?"},
+        {"s":"M","t":"The man wanted fifteen pounds, but I asked for a lower price and he said twelve."},
+        {"s":"F","t":"Well done. And the football?"},
+        {"s":"M","t":"That was only two pounds. It needs some air, but it's fine."},
+        {"s":"F","t":"And what's this? A comic?"},
+        {"s":"M","t":"Yes, it was fifty pence. The woman had lots of comics, but I only wanted this one because it's about football."},
+        {"s":"F","t":"Is this lamp for your bedroom?"},
+        {"s":"M","t":"Yes! The label said ten pounds, but the woman said I could have it for five, because the switch is a bit broken."},
+        {"s":"F","t":"Hmm. Dad can repair it. And this jacket?"},
+        {"s":"M","t":"That was eight pounds. It's like new! The man next to her was selling one for three pounds, but it had a hole in it."},
+        {"s":"F","t":"So how much money have you got left?"},
+        {"s":"M","t":"Just one pound! But I think I bought some really good things for the price."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Pocket money", "questions": ["Do you get pocket money?", "What do you usually spend your money on?"], "extended": "Please tell me something about something you saved money for." },
+        { "topic": "Buying presents", "questions": ["Who do you buy presents for?", "Where do you usually buy presents?"], "extended": "Please tell me something about a present you bought for someone." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things young people spend their money on. Do you like spending money on these different things? Say why or why not.",
+      "pictures": [ {"emoji":"👕","label":"clothes"}, {"emoji":"🎮","label":"video games"}, {"emoji":"📚","label":"books"}, {"emoji":"🎫","label":"concert tickets"}, {"emoji":"🍬","label":"sweets and snacks"} ],
+      "prompts": ["Do you think buying new clothes is fun?", "Are video games too expensive?", "Do you think spending money on books is a good idea?", "Is going to a concert worth the money?", "Which of these things do you like spending money on best?"],
+      "followup": ["Do you prefer to spend your money or save it? Why?", "Do you like buying second-hand things?", "What would you buy if you had a hundred pounds?"],
+      "usefulLanguage": ["I like spending money on ... because ...", "I think ... is too expensive.", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

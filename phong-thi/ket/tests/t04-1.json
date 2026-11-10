@@ -1,0 +1,189 @@
+{
+  "id": "t04-1", "topic": "04", "testNo": 1,
+  "title": "Our Class Online",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "COMPUTER ROOM", "text": "No food or drinks near the keyboards, please.\nIf a mouse or screen is not working, tell Mr Hall. Do not try to repair it yourself.",
+        "options": ["You can have snacks here if you are careful.", "You should tell a teacher about problems with the computers.", "Mr Hall will show you how to repair a mouse."], "answer": 1 },
+      { "kind": "message", "header": "From: Lily  To: Kim", "text": "I can't chat online tonight – Mum says no internet until my homework's finished. Can you text me the address of the website for our project?",
+        "options": ["Lily wants Kim to send her some information.", "Lily has already finished her homework.", "Lily's internet is not working tonight."], "answer": 0 },
+      { "kind": "notice", "header": "PHOTOGRAPHY COMPETITION", "text": "Email us your best digital photograph of the school before 20th May.\nOnly one photo per student. Write your name and class in the email, not on the photo.",
+        "options": ["You must print your photograph before you send it.", "You can enter more than one photo.", "Your name must be in the email you send."], "answer": 2 },
+      { "kind": "email", "header": "From: Grandpa  To: Duc", "text": "Thanks for the holiday photos, Duc. I tried to download them, but nothing happened when I clicked. Could you send them by post next time? I'd like to put them on my wall.",
+        "options": ["Grandpa couldn't open the photos on his computer.", "Grandpa wants Duc to come and put photos on the wall.", "Grandpa has posted some photos to Duc."], "answer": 0 },
+      { "kind": "notice", "header": "SCHOOL OFFICE", "text": "FOUND: black mobile phone with a picture of a cat on the screen. It was on the school bus on Tuesday.\nCome to the office and tell us the phone number.",
+        "options": ["The phone was found in the school office.", "The owner must give some information to get the phone back.", "The phone has a broken screen."], "answer": 1 },
+      { "kind": "message", "header": "From: Dad  To: Anna", "text": "Your aunt called the home telephone because your mobile was off. She has a new email address: rosa.lee@fastmail.com. Please write to her about Saturday.",
+        "options": ["Anna's aunt will call again on Saturday.", "Anna's mobile phone is broken.", "Anna needs to send her aunt an email."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about the websites they have made.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Mateo", "text": "I started my website two years ago for my local football team. My older brother works with computers, so he helped me to build it. Every Saturday I write about our match and put the results online, with photographs of the players. About two hundred people visit the website every week – I never expected so many! The only thing I don't enjoy is answering all the emails from parents." },
+        { "label": "B", "title": "Ngoc", "text": "Photography is my favourite hobby, so my website is full of my pictures of birds and trees. I take them with an old digital camera that I bought online. I made the website myself after watching some videos on the internet – it took me a whole month! Last year a nature magazine saw my photos and put one of them on its cover. Now I'd like to study photography at university." },
+        { "label": "C", "title": "Freya", "text": "My website is about music from the 1970s. My grandma gave me all her old CDs, and I write about one of them every week. People can't download songs from my site, but they can read information about the singers and click on links to hear them. I usually work on my laptop in bed late at night. My dad says I spend too much time online, but I think it's better than playing games." }
+      ],
+      "items": [
+        { "q": "Who got help from a family member to make their website?", "answer": "A" },
+        { "q": "Who learned how to make their website on the internet?", "answer": "B" },
+        { "q": "Whose website is about things that belonged to an older relative?", "answer": "C" },
+        { "q": "Who is surprised by the number of people who visit their website?", "answer": "A" },
+        { "q": "Whose work has appeared in a magazine?", "answer": "B" },
+        { "q": "Who says a parent doesn't agree with how they spend their time?", "answer": "C" },
+        { "q": "Who says there is one part of looking after the website that they don't like?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "The boy who brings pets home",
+      "text": "When thirteen-year-old Oliver Grant's dog, Biscuit, ran away last winter, his family put paper notices on trees all over their town. \"We waited for someone to call us, but the phone didn't ring for three days,\" Oliver remembers. In the end, a farmer found Biscuit in his field and brought him home. But Oliver had an idea.\n\n\"Most people look at their phones more than they look at trees,\" he says. \"So I decided to make a website for lost pets.\" Oliver learned how to build websites in a computer class after school, and his website, FindMyPet, was ready six weeks later.\n\nIt's very simple. If you lose a pet, you click on 'Lost', add a photograph and write some information – the animal's name, its colour and where you last saw it. If you find an animal, you click on 'Found'. The website then sends an email to everyone who lives near that place.\n\nAt first, only Oliver's friends used it. Then the local newspaper wrote a story about him, and now more than two thousand people in the town are members. So far, the website has helped to bring home forty-three cats, dogs and even a parrot called Rocky.\n\nOliver works on his laptop in the evenings, after his homework. \"Sometimes I get twenty emails a day,\" he says. \"My mum helps me to answer them at weekends.\" Next year he wants to make an app for mobile phones, so people can use FindMyPet more easily.",
+      "items": [
+        { "q": "What happened when Biscuit got lost?", "options": ["Oliver's family got a phone call the next day.", "Someone who wasn't in the family found him.", "Oliver found him near some trees."], "answer": 1 },
+        { "q": "Why did Oliver decide to make a website?", "options": ["He thought people would see information on their phones more easily.", "His computer teacher asked him to make one for a project.", "He wanted to sell things for pets online."], "answer": 0 },
+        { "q": "What happens when someone clicks on 'Found'?", "options": ["They have to add a photograph of themselves.", "Oliver phones them to get more information.", "People who live in that area receive an email."], "answer": 2 },
+        { "q": "Why did more people start using the website?", "options": ["Oliver's friends told their families about it.", "There was an article about it in a newspaper.", "Oliver put notices about it on trees."], "answer": 1 },
+        { "q": "What does Oliver say about his work on the website?", "options": ["Someone in his family helps him with it.", "He works on it before he does his homework.", "He answers all the emails by himself."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The story of email",
+      "text": "Today, millions of people {19} emails every minute, but email is older than most people think. In 1971, an American engineer called Ray Tomlinson sent the first email between two computers. The computers were in the same room! He chose the @ sign because people never used it in their names, and we still use it in every email {20} today.\n\nAt first, only scientists and universities could use email. Most families didn't have computers at home, and the internet was very {21} from the one we know now. In the 1990s, computers became cheaper, and lots of families {22} connected to the internet. Email quickly became one of the most popular ways to {23} in touch with friends.\n\nSome people say email is old-fashioned now, because teenagers prefer to chat and text on their phones. But most companies and schools still {24} email every day to send important information.",
+      "items": [
+        { "options": ["post", "send", "give"], "answer": 1 },
+        { "options": ["number", "letter", "address"], "answer": 2 },
+        { "options": ["different", "strange", "other"], "answer": 0 },
+        { "options": ["made", "had", "got"], "answer": 2 },
+        { "options": ["keep", "make", "hold"], "answer": 0 },
+        { "options": ["work", "use", "spend"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Hana  To: Tom", "text": "Hi Tom,\nDo you want to do the History project with me? We could work {25} my house on Thursday after school. My dad has just bought a new printer, so we can print our photos there. If you can't come, {26} can chat online instead. Let me know!\nHana" },
+        { "header": "From: Tom  To: Hana", "text": "Hi Hana,\nGreat idea! Thursday is fine, but I have football practice {27} four o'clock. Can I come after that? I'll bring my laptop because it's faster {28} my old tablet. I've already found {29} interesting website about the castle. I'll send you the address now, so you can look at {30} tonight.\nTom" }
+      ],
+      "answers": [ ["at", "in"], ["we"], ["until", "till", "at", "from"], ["than"], ["an", "one"], ["it"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your class is making a website. Write an email to your English friend, Sam.",
+      "points": ["say what the website is about", "tell Sam what you are doing for the website", "ask Sam to send you something for it"],
+      "model": "Hi Sam,\nMy class is making a website about our town. I'm taking photographs of the old buildings and the park for it. Could you send me some information about your town too? We want to compare them.\nBye,\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦📱🎉", "caption": "a boy reading a party invitation with an address in a text message on his phone" },
+        { "emoji": "🎁🚪👴", "caption": "the boy with a present at a front door; an old man opens it and looks surprised" },
+        { "emoji": "📞😂", "caption": "the boy on the phone to his friend while he and the old man laugh" }
+      ],
+      "model": "Last Saturday Kai got a text from his friend Ben. It said, 'Come to my party at 15 Hill Road!' Kai bought a present and went there, but an old man opened the door. He didn't know Ben! Kai called Ben, and Ben laughed. The address was 50 Hill Road, not 15!"
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What did the girl buy at the shop?",
+        "options": [ {"emoji":"🖱️","label":"mouse"}, {"emoji":"⌨️","label":"keyboard"}, {"emoji":"📷","label":"camera"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Did you get a new keyboard for your computer, Jess? Your old one hasn't got all its letters."}, {"s":"F","t":"I wanted to, but the one I liked was too expensive. I'll ask for one for my birthday."}, {"s":"M","t":"So did you buy anything?"}, {"s":"F","t":"Yes, a new mouse, because my old one stopped working. I looked at the cameras too, but only for fun."} ] },
+      { "q": "How will the boy send the photographs to his grandmother?",
+        "options": [ {"emoji":"📧","label":"by email"}, {"emoji":"📱","label":"by text"}, {"emoji":"✉️","label":"by post"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Peter, Grandma wants to see the photos from your school trip."}, {"s":"M","t":"OK, I'll email them to her tonight."}, {"s":"F","t":"She hasn't got a computer any more, remember? It broke."}, {"s":"M","t":"Oh yes. Then I'll text them to her phone."}, {"s":"F","t":"Her phone's too old for photos. Why don't you print them and send them by post? She loves getting an envelope with pictures in it."}, {"s":"M","t":"Good idea. I'll do that."} ] },
+      { "q": "What time will the friends chat online?",
+        "options": [ {"emoji":"🕔","label":"5:00"}, {"emoji":"🕡","label":"6:30"}, {"emoji":"🕗","label":"8:00"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Shall we chat online tonight about our project? At five o'clock?"}, {"s":"F","t":"I've got a swimming lesson until six. What about eight?"}, {"s":"M","t":"I'm not allowed on the internet after half past seven. How about half past six?"}, {"s":"F","t":"OK, half past six. I'll be home by then."} ] },
+      { "q": "Where is the girl's laptop?",
+        "options": [ {"emoji":"🛏️","label":"on her bed"}, {"emoji":"🚗","label":"in the car"}, {"emoji":"🏫","label":"at school"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Dad, have you seen my laptop? I need to send my homework to my teacher."}, {"s":"M","t":"Did you leave it at school?"}, {"s":"F","t":"No, I used it on the bus on the way home. And it isn't on my bed – I've looked."}, {"s":"M","t":"Then it must be in the car. You had it on your knees when I drove you home from the bus stop."}, {"s":"F","t":"Of course! Can I have the keys?"} ] },
+      { "q": "Which photo will the girl put on the class website?",
+        "options": [ {"emoji":"🏃","label":"sports day"}, {"emoji":"🎭","label":"school play"}, {"emoji":"🌳","label":"forest trip"} ], "answer": 2,
+        "script": [ {"s":"F","t":"I need a photo for the class website. What about the one from sports day?"}, {"s":"M","t":"Everyone's seen that one already. What about the school play?"}, {"s":"F","t":"It's too dark. You can't see anyone's faces."}, {"s":"M","t":"Then use the picture from our trip to the forest. Everyone's smiling in it."}, {"s":"F","t":"You're right. That's the one."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman from the city library talking about a photography course.",
+      "title": "Photography Course for Teenagers",
+      "items": [
+        { "label": "Day:", "answer": ["saturday", "saturdays"] },
+        { "label": "Start time:", "answer": ["10.15", "10:15", "quarter past ten", "a quarter past ten"] },
+        { "label": "Price for six weeks: £", "answer": ["8", "eight"] },
+        { "label": "Teacher's name: Ms", "answer": ["delaney"] },
+        { "label": "The best photos will go on the library's:", "answer": ["website"] }
+      ],
+      "script": [ {"s":"F","t":"Hello everyone, and thanks for coming. I'm from the city library, and I'd like to tell you about our new photography course for teenagers. Lots of people think the course is on Sundays, because that's when our book club meets, but it's actually on Saturday mornings. It starts at quarter past ten and finishes at twelve, and it lasts for six weeks. Last year the course cost twelve pounds, but this year the library is paying for some of it, so it's only eight pounds for all six weeks. You don't need an expensive digital camera. The camera on your mobile phone is fine. Your teacher will be Ms Delaney. That's D-E-L-A-N-E-Y. She takes photographs for newspapers and magazines, so she's got lots of great ideas. Every week you'll go out and take pictures around the city – in the park, at the market and by the river. At the end of the course, we'll choose the best photos from each student. We won't print them, because that's very expensive. Instead, we'll put them on the library's website, so your family and friends can see them online. If you'd like to join, please fill in a form at the front desk."} ]
+    },
+    "part3": {
+      "intro": "You will hear Sophie talking to her friend Daniel about a video call with a school in another country.",
+      "items": [
+        { "q": "Where is the other school?", "options": ["in Japan", "in Australia", "in Canada"], "answer": 1 },
+        { "q": "When will the video call happen?", "options": ["before lessons start", "at lunchtime", "after school"], "answer": 0 },
+        { "q": "What will Sophie do during the call?", "options": ["ask the other students questions", "show pictures of their town", "talk about the school website"], "answer": 1 },
+        { "q": "What went wrong last time?", "options": ["The internet stopped working.", "They couldn't see the other students.", "They couldn't hear the other students."], "answer": 2 },
+        { "q": "What will Daniel do?", "options": ["lend Sophie his laptop", "take photographs during the call", "write an article for the school website"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Sophie. Mrs Bell says you're organising the video call with the other school. Is it the school in Japan again?"},
+        {"s":"F","t":"No, we talked to them last year. Mrs Bell wanted a school in Canada this time, but they couldn't do it. So it's a school in Australia, near Sydney."},
+        {"s":"M","t":"Cool! When is it? In the lunch break?"},
+        {"s":"F","t":"That's the problem. When it's lunchtime here, it's the middle of the night there. And after school, they're asleep too! So the call's at eight o'clock in the morning, before our lessons start. We have to come in early."},
+        {"s":"M","t":"Eight o'clock! OK. And what are you going to do in the call? Ask them questions?"},
+        {"s":"F","t":"Tom's going to ask the questions – he's written about twenty! I'm going to show them photographs of our town on the big screen. They want to see what it looks like here."},
+        {"s":"M","t":"Nice. I hope it works better than last time. Do you remember?"},
+        {"s":"F","t":"Oh yes! The internet was fine and we could see everyone on the screen, but the sound was terrible. Nobody could hear what the other students were saying. We just smiled and waved for half an hour!"},
+        {"s":"M","t":"That was funny. Is everything OK now?"},
+        {"s":"F","t":"Mr Lee says yes. But the school laptops are really slow. Daniel, could I borrow yours? It's much faster."},
+        {"s":"M","t":"Of course. I'll bring it to school on Tuesday. Do you want me to take some photos of the call, too?"},
+        {"s":"F","t":"Thanks, but Mr Lee's already doing that. He's going to put them on the school website with an article about the call."},
+        {"s":"M","t":"Great. I can't wait!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl telling her friend about a website.", "q": "What does she like most about it?", "options": ["It helps her with her homework.", "She can download free music from it.", "She can talk to people in other countries on it."], "answer": 0,
+        "script": [ {"s":"F","t":"Have you seen the website called Learn It? It's brilliant."}, {"s":"M","t":"Is that the one where you can download songs?"}, {"s":"F","t":"No, that's a different one. There's a chat page where you can talk to students from other countries, but I haven't tried it yet. What I really love are the maths videos. They explain everything so clearly, and my homework's much easier now."} ] },
+      { "intro": "You will hear a boy leaving a phone message for his friend.", "q": "Why is he calling?", "options": ["to ask for his friend's address", "to change the time they meet", "to say sorry for being late"], "answer": 1,
+        "script": [ {"s":"M","t":"Hi Ali, it's Kevin. I know we said we'd meet outside the cinema at four, but my mum needs me to help her at home this afternoon. Can we meet at six instead? The film starts again at quarter past six. I've got the cinema's address, so don't worry about that. Text me back, OK? Bye."} ] },
+      { "intro": "You will hear a mother talking to her son about his phone.", "q": "How does the mother feel?", "options": ["angry", "worried", "pleased"], "answer": 2,
+        "script": [ {"s":"F","t":"Ryan, the phone bill came this morning. It's only ten pounds this month."}, {"s":"M","t":"Is that bad?"}, {"s":"F","t":"No! Last month it was forty, because you were watching videos all the time when you weren't at home. You really listened to me. Well done – I'm very happy about this."}, {"s":"M","t":"So can I have more time online at weekends?"}, {"s":"F","t":"Let's talk about that later."} ] },
+      { "intro": "You will hear a teacher talking to her class in the computer room.", "q": "What does the teacher want the students to do?", "options": ["save their work in a special place", "send their stories to her by email", "print their stories at home"], "answer": 0,
+        "script": [ {"s":"F","t":"OK, everyone, before you start typing your stories, listen, please. Last week some of you lost your work because you didn't save it properly. Today, when you finish, click on the folder called 'Class 8B' and save your story there. Don't send it to me by email, and don't print it. I'll read everything on my computer tonight."} ] },
+      { "intro": "You will hear two friends talking about a film they watched on DVD.", "q": "What did they both think about the film?", "options": ["It was too long.", "The music was great.", "The story was difficult to understand."], "answer": 1,
+        "script": [ {"s":"M","t":"So what did you think of the film? I loved the music."}, {"s":"F","t":"Me too – the songs were amazing. But it went on for three hours!"}, {"s":"M","t":"Really? I didn't notice that. But I couldn't understand the story at all."}, {"s":"F","t":"Oh, I thought the story was easy. Can I borrow the DVD again next week?"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Jack talking to his teacher about the new class website. What will each student do for the website?",
+      "people": ["Lucy", "Omar", "Hanh", "Ben", "Ella"],
+      "options": ["answer emails", "choose the music", "draw pictures", "film a video", "take photographs", "type information", "write news stories", "make a quiz"],
+      "answers": ["E", "A", "G", "D", "H"],
+      "script": [
+        {"s":"F","t":"Jack, can you help me write down everyone's job for the class website?"},
+        {"s":"M","t":"Sure, Ms Brown. Lucy first. She wanted to draw pictures for the home page, didn't she?"},
+        {"s":"F","t":"She did, but her drawings are a bit small for a screen. She's got a great camera, so she's going to take photographs at all our school events."},
+        {"s":"M","t":"Good. What about Omar?"},
+        {"s":"F","t":"Omar's very organised and he checks his phone all the time. So he'll answer the emails that people send us."},
+        {"s":"M","t":"That's perfect for him. And Hanh? She types really fast."},
+        {"s":"F","t":"Yes, but she's also our best writer. She'll write the news stories – one every week."},
+        {"s":"M","t":"OK. Ben said he wanted to choose the music for the website."},
+        {"s":"F","t":"We aren't going to have music. It's annoying when you open a website and music starts! Ben's going to film a short video about our class instead. He's got a good camera on his mobile."},
+        {"s":"M","t":"And Ella?"},
+        {"s":"F","t":"Ella loves games, so she's making a quiz about the school. Visitors can click on the answers and see their score."},
+        {"s":"M","t":"Great. And what about me?"},
+        {"s":"F","t":"You can type all the information about our class trips."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "The internet", "questions": ["How often do you go online?", "What's your favourite website?"], "extended": "Please tell me something about what you do on the internet." },
+        { "topic": "Photographs", "questions": ["Do you take photographs with a phone or a camera?", "What do you like taking photographs of?"], "extended": "Please tell me something about a photograph that you like." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to keep in touch with people. Do you like these different ways? Say why or why not.",
+      "pictures": [ {"emoji":"📱","label":"sending a text"}, {"emoji":"📧","label":"writing an email"}, {"emoji":"☎️","label":"talking on the telephone"}, {"emoji":"💻","label":"having a video chat"}, {"emoji":"✉️","label":"sending a letter by post"} ],
+      "prompts": ["Do you think sending texts is easy?", "Is writing emails boring?", "Do you think talking on the telephone is fun?", "Is having a video chat exciting?", "Which of these ways do you like best?"],
+      "followup": ["Do you prefer a phone conversation or a text? Why?", "Do you think people spend too much time online?", "Would you like to send a letter by post to a friend? Why or why not?"],
+      "usefulLanguage": ["I think ... is easier because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

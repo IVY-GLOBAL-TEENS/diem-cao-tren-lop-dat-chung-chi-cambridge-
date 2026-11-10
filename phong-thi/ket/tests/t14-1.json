@@ -1,0 +1,191 @@
+{
+  "id": "t14-1", "topic": "14", "testNo": 1,
+  "title": "Brave, Happy and Kind",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "SCHOOL TALENT SHOW", "text": "Feeling brave? Sing, dance or tell funny stories!\nWrite your name on the list in the music room by Friday.\nAll students in Years 7–9 are welcome.",
+        "options": ["Only very good singers can be in the show.", "Students must give their names to the head teacher.", "Students who want to be in the show should sign up this week."], "answer": 2 },
+      { "kind": "message", "header": "From: Linh  To: Mum", "text": "Mum, I'm so happy – I got the top mark in the class for my English story! Mr Hall says it was the funniest one. Can we have pizza tonight to celebrate?",
+        "options": ["Linh would like to have a special dinner.", "Linh's teacher thought her story was sad.", "Linh wrote her story with some friends."], "answer": 0 },
+      { "kind": "sign", "header": "LIBRARY", "text": "Quiet, please! Other students are working.\nIf you need to talk about a group project, use the small room next to the entrance.",
+        "options": ["You can't talk anywhere in the library.", "There is a place where students may talk.", "The library is closed for group projects."], "answer": 1 },
+      { "kind": "email", "header": "From: Oscar  To: Ben", "text": "Sorry I was angry with you yesterday. I was tired after the match and I said the wrong thing. Are you free on Saturday? I'd like to buy you a milkshake!",
+        "options": ["Oscar wants to say sorry to Ben.", "Ben was angry after the match.", "Oscar is too busy to meet on Saturday."], "answer": 0 },
+      { "kind": "note", "header": "From: Dad  To: Kim", "text": "Kim, be careful – the plates in the big box are very old and heavy. Please don't try to carry it alone. Wait for me and we'll do it together after work.",
+        "options": ["Kim must wash the old plates before Dad gets home.", "Dad will help Kim move the box later.", "Dad wants Kim to buy some new plates."], "answer": 1 },
+      { "kind": "label", "header": "HOMEMADE CHOCOLATE CAKE", "text": "Very sweet and soft!\nKeep in the fridge and eat within three days.\nNot for people who can't eat nuts.",
+        "options": ["The cake will be good for a week.", "You should keep the cake in a warm place.", "There are nuts in this cake."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about the best day of their lives.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Tuan", "text": "The best day of my life was when I met a famous footballer. My uncle works at the stadium and he took me to watch the team's training. Afterwards, one of the players wrote his name on my shirt and talked to me for five minutes. He was really friendly and funny. I was so excited that I couldn't sleep that night! The shirt is on my bedroom wall now – I'll never wear it." },
+        { "label": "B", "title": "Grace", "text": "Last summer I went sailing with my older sister. At first I was afraid because the water was very deep and the wind was strong. But my sister is a clever teacher and she was very patient with me. By the end of the day I was able to sail the small boat alone! I was tired and hungry, but I felt brilliant. We're going again next month." },
+        { "label": "C", "title": "Paolo", "text": "My best day was my grandparents' party. They've been married for fifty years! The whole family came from different countries, and I met some of my cousins for the first time. I made a special cake with my mum – it wasn't very pretty, but everyone said it tasted great. My grandma cried because she was so happy. It was a lovely, noisy day." }
+      ],
+      "items": [
+        { "q": "Who learned to do something new?", "answer": "B" },
+        { "q": "Who met people from their family for the first time?", "answer": "C" },
+        { "q": "Who keeps something from their best day in a special place?", "answer": "A" },
+        { "q": "Who felt frightened at the beginning of the day?", "answer": "B" },
+        { "q": "Who says something they made didn't look very good?", "answer": "C" },
+        { "q": "Who had a problem sleeping after their best day?", "answer": "A" },
+        { "q": "Who is going to do the same thing again soon?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "The shy girl with the beautiful voice",
+      "text": "Thirteen-year-old Maya Carter has always been the quiet girl in her class. 'I'm not good at talking in front of people,' she says. 'My face goes red and I forget everything.' But at home, alone in her bedroom, Maya loves singing.\n\nLast spring, she stayed in the school music room one lunchtime because it was raining. She thought she was alone, so she started to sing. She didn't know that her music teacher, Mrs Lee, was in the small office next door. 'Her voice was beautiful,' says Mrs Lee. 'I asked her to sing at our summer concert.'\n\nAt first Maya said no. 'I was afraid that everyone would laugh at me,' she explains. Then her best friend, Zoe, said she could play the guitar while Maya sang. The two girls practised every lunchtime for six weeks.\n\nOn the night of the concert, Maya felt terrible. Zoe told her to drink some water, but her hands were still cold and her voice was very quiet at the start. 'Then I saw my grandad in the front row,' Maya says. 'He was smiling at me, and suddenly I felt strong.'\n\nWhen the song finished, everyone clapped for a long time. Afterwards, a young girl from Year 7 asked Maya to help her with her singing. Now they meet every Wednesday.\n\n'I'm still quite shy,' says Maya, 'but I've learned something important – it's OK to be afraid. You can still do difficult things.'",
+      "items": [
+        { "q": "How did Mrs Lee find out that Maya could sing?", "options": ["Maya's best friend told her about it.", "She heard Maya singing near her office.", "Maya sang in one of her music lessons."], "answer": 1 },
+        { "q": "Why did Maya say no to Mrs Lee at first?", "options": ["She thought people would laugh at her.", "She didn't know any good songs.", "She wanted to play the guitar, not sing."], "answer": 0 },
+        { "q": "What helped Maya at the start of the concert?", "options": ["listening to Zoe playing the guitar", "having a drink of water", "seeing a member of her family"], "answer": 2 },
+        { "q": "What happened after the concert?", "options": ["Maya won a prize for her song.", "Maya sang on the radio.", "A younger student asked Maya for help."], "answer": 2 },
+        { "q": "What does Maya say now?", "options": ["She isn't shy any more.", "It's normal to feel afraid.", "She wants to be a famous singer."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "Why do we laugh?",
+      "text": "Everybody laughs – young and old, rich and poor. Babies {19} to laugh when they are only about four months old, long before they are able to talk.\n\nScientists say that people laugh thirty times more often when they are with friends than when they are {20}. In fact, most of the time we don't laugh because something is really funny. We laugh to {21} other people that we like them and that we are happy to be with them.\n\nLaughing is also very good for us. When we laugh, our heart works harder, a bit like when we do {22}. It can also help us to feel less tired and worried.\n\nAnother strange thing about laughing is that it moves quickly from person to person. When one person in a room starts laughing, it is very {23} for the people around them to stay quiet.\n\nSo next time you are feeling sad, why don't you {24} a funny film with your friends? You'll probably feel much better!",
+      "items": [
+        { "options": ["know", "teach", "learn"], "answer": 2 },
+        { "options": ["alone", "single", "only"], "answer": 0 },
+        { "options": ["look", "show", "see"], "answer": 1 },
+        { "options": ["game", "exercise", "match"], "answer": 1 },
+        { "options": ["hard", "heavy", "strong"], "answer": 0 },
+        { "options": ["look", "listen", "watch"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Hana  To: Jess", "text": "Hi Jess,\nHow {25} your first day at your new school? Was everyone friendly? I hope you didn't feel too nervous. I remember {26} first day at secondary school – I was so afraid that I couldn't eat {27} at lunch!\nWrite soon,\nHana" },
+        { "header": "From: Jess  To: Hana", "text": "Hi Hana,\nIt was much better {28} I expected! My form teacher is really kind and funny. A girl called Rosa sat next to me and showed me where everything was. We're both interested {29} animals and we both love drawing. Tomorrow we're going to have lunch together. I'm {30} happy!\nJess" }
+      ],
+      "answers": [ ["was"], ["my"], ["anything", "much"], ["than"], ["in"], ["so", "very", "really", "feeling", "quite", "extremely"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Last weekend you went to a surprise birthday party for your cousin. Write an email to your English friend, Charlie.",
+      "points": ["say where the party was", "say how your cousin felt", "tell Charlie what you liked best about the party"],
+      "model": "Hi Charlie,\nOn Saturday we had a surprise party for my cousin Lan at my aunt's house. When she came in, she was so surprised that she couldn't speak, but then she was really happy. The best thing was the funny games we played!\nBye,\nMai"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🎒😟", "caption": "a girl on her first day at a new school, standing alone and sad in the playground" },
+        { "emoji": "👦⚽🙋", "caption": "a boy holding a football walks over and talks to the girl" },
+        { "emoji": "👫😄🏠", "caption": "the girl and the boy laughing together on their way home after school" }
+      ],
+      "model": "It was Lan's first day at her new school. At break time she stood alone in the playground and felt very sad because she didn't know anyone. Then a friendly boy with a football came over and asked her to play with his friends. After school they walked home together, laughing. Lan felt much happier."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "How does the girl feel today?",
+        "options": [ {"emoji":"😴","label":"tired"}, {"emoji":"😢","label":"sad"}, {"emoji":"😠","label":"angry"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Are you OK, Tina? You look sad."}, {"s":"F","t":"I'm not sad, Dad. I'm just really tired. I went to bed very late because I was finishing my history project."}, {"s":"M","t":"Are you still angry with your brother? He was very noisy last night."}, {"s":"F","t":"No, that's fine. He said sorry this morning."} ] },
+      { "q": "What did the boy like best at the zoo?",
+        "options": [ {"emoji":"🦁","label":"lions"}, {"emoji":"🐒","label":"monkeys"}, {"emoji":"🐧","label":"penguins"} ], "answer": 2,
+        "script": [ {"s":"F","t":"How was the school trip to the zoo, Leo?"}, {"s":"M","t":"Brilliant! I thought the lions would be my favourite, but they slept all day. That was a bit boring."}, {"s":"F","t":"What about the monkeys? They're always funny."}, {"s":"M","t":"They were OK, but the best thing was the penguins. They were so cool – they swam really fast under the water."} ] },
+      { "q": "Which present did the girl like most?",
+        "options": [ {"emoji":"📚","label":"book"}, {"emoji":"🧸","label":"soft toy"}, {"emoji":"⌚","label":"watch"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Did you get nice presents for your birthday, Ana?"}, {"s":"F","t":"Yes! My aunt gave me a book. It's interesting, but it's very long."}, {"s":"M","t":"And your grandparents?"}, {"s":"F","t":"A watch. It's pretty, but I've already got one. My favourite was this soft toy from my little brother. He bought it with his own pocket money. Wasn't that sweet?"} ] },
+      { "q": "What did the girl do for the first time?",
+        "options": [ {"emoji":"🏄","label":"surfing"}, {"emoji":"🐴","label":"horse riding"}, {"emoji":"🧗","label":"climbing"} ], "answer": 0,
+        "script": [ {"s":"M","t":"You look happy, Kate! Did you go horse riding again on Saturday?"}, {"s":"F","t":"No, I've done that lots of times. I went surfing in the sea for the first time!"}, {"s":"M","t":"Wow! Was it difficult?"}, {"s":"F","t":"Really hard, but I stood up on the board twice! Next time I want to try climbing."} ] },
+      { "q": "Which person is the girl's new English teacher?",
+        "options": [ {"emoji":"👩‍🦰","label":"woman with long red hair"}, {"emoji":"👨‍🏫","label":"young man with glasses"}, {"emoji":"👵","label":"older woman with grey hair"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Who's your new English teacher, Nga?"}, {"s":"F","t":"Mrs Brown. She's quite old, with short grey hair."}, {"s":"M","t":"Is she the tall one with long red hair?"}, {"s":"F","t":"No, that's Miss Lane, the music teacher. Mrs Brown's quite small, and she's really kind."}, {"s":"M","t":"And the young man with glasses?"}, {"s":"F","t":"That's Mr Park, the new art teacher."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about Kindness Week at their school.",
+      "title": "School Kindness Week",
+      "items": [
+        { "label": "First day of Kindness Week:", "answer": ["tuesday"] },
+        { "label": "The message box is next to the:", "answer": ["library", "library door", "the library"] },
+        { "label": "Each class will collect old:", "answer": ["books"] },
+        { "label": "Prize for the kindest class: a free trip to the:", "answer": ["cinema"] },
+        { "label": "Teacher to speak to: Mr", "answer": ["dawson"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, everyone. Next week is our school's first Kindness Week, and I'm really excited about it. We wanted to start on Monday, but there's a school trip that day, so we'll begin on Tuesday and finish on Saturday morning. The idea is simple: try to do one kind thing every day. It can be something small, like helping a friend with difficult homework, or saying something nice to someone who looks unhappy. When someone is kind to you, write a short thank-you message and put it in the message box. We were going to put the box in the canteen, but it's too noisy and busy there, so you'll find it next to the library door. Every class is also going to collect something for the children's hospital in town. They've got lots of toys already, but they need books, so please bring any old books you don't want. At the end of the week, the kindest class will win a special prize – a free trip to the cinema! Last year's prize was a pizza party, but we wanted something different this time. If you have any questions, please speak to Mr Dawson. That's D-A-W-S-O-N. Thank you!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Sophie talking to her friend Nam about a school camping trip.",
+      "items": [
+        { "q": "How did Sophie feel before the trip?", "options": ["excited", "bored", "worried"], "answer": 2 },
+        { "q": "What was the worst thing about the trip?", "options": ["the weather", "the food", "the tents"], "answer": 1 },
+        { "q": "What did Sophie enjoy most?", "options": ["singing round a fire", "walking up a hill", "swimming in a lake"], "answer": 0 },
+        { "q": "Who did Sophie share a tent with?", "options": ["Kim", "Daisy", "Emma"], "answer": 1 },
+        { "q": "What is Sophie going to do next summer?", "options": ["go camping with her family", "visit her cousins", "go on a school trip to the mountains"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"M","t":"Hi Sophie! How was the camping trip?"},
+        {"s":"F","t":"Hi Nam. It was great, actually! I didn't think it would be. Before we left I was really worried, because I've never slept away from my family before."},
+        {"s":"M","t":"Really? I thought you were excited about it."},
+        {"s":"F","t":"Everyone else was excited. I just felt nervous."},
+        {"s":"M","t":"So what was it like? Was the weather OK?"},
+        {"s":"F","t":"It was lovely and sunny all weekend. The tents were fine too – warm and dry. But the food was terrible! On the first night the pasta was cold, and on the second night they burned the sausages."},
+        {"s":"M","t":"Poor you! Were you hungry?"},
+        {"s":"F","t":"A bit. Luckily my mum put some biscuits in my bag."},
+        {"s":"M","t":"What did you do in the day?"},
+        {"s":"F","t":"On Saturday we walked up a hill. It was very high and I was tired at the top, but the view was beautiful. And on Sunday we swam in the lake. The water was so cold!"},
+        {"s":"M","t":"Which was your favourite?"},
+        {"s":"F","t":"Neither, really. The best thing was in the evening, when we all sat round the fire and sang songs. Mr Grant played the guitar, and it was so funny when he forgot the words."},
+        {"s":"M","t":"Who was in your tent? Your friend Kim?"},
+        {"s":"F","t":"I wanted to be with Kim, but the teachers chose the groups. Kim was with Emma, and I was with a girl called Daisy. I didn't know her before, but she's really kind and now she's my friend."},
+        {"s":"M","t":"That's lucky. Would you go again?"},
+        {"s":"F","t":"Definitely. Next summer the school is going on a trip to the mountains for a week. I was going to visit my cousins in August, but I'm going on the trip instead."},
+        {"s":"M","t":"Cool!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his friend about a film.", "q": "What did the boy think of the film?", "options": ["It was too long.", "It was funny.", "It was frightening."], "answer": 1,
+        "script": [ {"s":"F","t":"Did you see that new monster film at the weekend?"}, {"s":"M","t":"Yes! Everyone said it was really scary, but I wasn't afraid at all. It was nearly three hours, but it wasn't boring. Actually, I laughed all the way through – the monster was so silly!"}, {"s":"F","t":"Maybe I'll watch it, then."} ] },
+      { "intro": "You will hear a girl talking about her new neighbour.", "q": "How does she feel about her neighbour?", "options": ["pleased that he is so friendly", "angry that he is noisy", "sorry that he lives alone"], "answer": 0,
+        "script": [ {"s":"F","t":"When the old man moved in next door, I was worried because Dad said he was a bit strange. But he's lovely! He always says hello, and he's teaching me to grow vegetables. He lives alone, but he isn't lonely – his family visit every weekend. And he's very quiet, much quieter than our old neighbours!"} ] },
+      { "intro": "You will hear a mother talking to her son.", "q": "Why is she talking to him?", "options": ["to ask him to help with dinner", "to tell him to tidy his room", "to say well done for his exam"], "answer": 2,
+        "script": [ {"s":"F","t":"Dad says you got your maths results today, Tom."}, {"s":"M","t":"Yes. I got eighty-five per cent."}, {"s":"F","t":"That's excellent! You worked so hard, and I'm really proud of you. You were worried, but you were wrong! I'm going to cook your favourite dinner tonight."}, {"s":"M","t":"Thanks, Mum. Can I help?"}, {"s":"F","t":"No, you go and relax."} ] },
+      { "intro": "You will hear a girl talking to her friend about a holiday.", "q": "What was the problem on the holiday?", "options": ["Her bag got lost.", "The hotel was too noisy.", "It rained all week."], "answer": 0,
+        "script": [ {"s":"M","t":"How was Spain?"}, {"s":"F","t":"We had a great time, except for one thing. When we arrived at the airport, my bag wasn't there!"}, {"s":"M","t":"Oh no! Did you get it back?"}, {"s":"F","t":"Never. I had to buy new clothes. But the hotel was lovely and quiet, and it was sunny every day."} ] },
+      { "intro": "You will hear a boy talking about his piano lessons.", "q": "How does the boy feel now?", "options": ["bored with practising", "happy that he didn't stop", "sure that he will be famous"], "answer": 1,
+        "script": [ {"s":"M","t":"Last year I nearly stopped my piano lessons. Practising every day was so boring, and the music was really difficult. But my teacher said, 'Just wait – it'll get easier.' She was right. Now I can play some of my favourite songs, and I'm really glad I didn't stop. I don't think I'll ever be famous, but I love it."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Ana talking to her dad about the school sports day. How did each person feel at the end of the day?",
+      "people": ["Kevin", "Mrs Patel", "Lily", "Josh", "Ana"],
+      "options": ["angry", "bored", "happy", "hungry", "sad", "surprised", "tired", "worried"],
+      "answers": ["A", "G", "B", "F", "C"],
+      "script": [
+        {"s":"M","t":"So how was sports day, Ana? How did Kevin do in the running race?"},
+        {"s":"F","t":"He came second. We all thought he'd be sad, but he wasn't. He was really angry! He said another boy pushed him at the start."},
+        {"s":"M","t":"Oh dear. And your teacher, Mrs Patel? She organised everything, didn't she?"},
+        {"s":"F","t":"Yes, she was busy all day. Everyone thought she'd be worried about the weather, but it was sunny, so that was fine. At the end she just sat down and said she was so tired she couldn't move."},
+        {"s":"M","t":"Poor Mrs Patel. What about Lily? She's the fast one, isn't she?"},
+        {"s":"F","t":"She didn't run this year because she hurt her foot last week. She had to sit and watch all day. She said she was really bored."},
+        {"s":"M","t":"And Josh? Did he eat all the cakes again?"},
+        {"s":"F","t":"Ha! He wasn't hungry for once. He won the long jump! He didn't think he could win, so he was really surprised. His face was so funny when they said his name."},
+        {"s":"M","t":"And you? You must be sad that your team lost."},
+        {"s":"F","t":"Not really. We lost, but I had so much fun with my friends. I was happy all day!"},
+        {"s":"M","t":"That's the most important thing."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Feelings", "questions": ["What makes you happy?", "When do you feel bored?"], "extended": "Please tell me something about a special day that you remember." },
+        { "topic": "Friends", "questions": ["Who is your best friend?", "What do you like doing with your friends?"], "extended": "Please tell me something about a kind person you know." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different new experiences. Would you like to try these things? Say why or why not.",
+      "pictures": [ {"emoji":"🧗","label":"climbing a wall"}, {"emoji":"🎤","label":"singing on stage"}, {"emoji":"🏕️","label":"camping in a forest"}, {"emoji":"🏄","label":"surfing"}, {"emoji":"🍣","label":"eating new food"} ],
+      "prompts": ["Do you think climbing is exciting?", "Would you be afraid to sing on stage?", "Do you think camping is fun?", "Is surfing difficult?", "Which of these things would you like to try most?"],
+      "followup": ["Do you like trying new things? Why or why not?", "What is the most exciting thing you have done?", "Do you prefer doing new things alone or with friends?"],
+      "usefulLanguage": ["I think ... is exciting because ...", "I'd be afraid to ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

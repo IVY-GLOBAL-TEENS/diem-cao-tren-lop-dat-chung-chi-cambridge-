@@ -1,0 +1,187 @@
+{
+  "id": "t08-1", "topic": "08", "testNo": 1,
+  "title": "Family Days",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "message", "header": "From: Mum  To: Kim", "text": "Kim, Grandma and Grandpa are arriving at 4, not 6. Please tidy the guest room before you go to your cousin's house. Thanks! Mum",
+        "options": ["Kim's grandparents will come later than planned.", "Kim should do something before she goes out.", "Kim's cousin is going to sleep in the guest room."], "answer": 1 },
+      { "kind": "notice", "header": "PARENTS' EVENING", "text": "Thursday 6–8 p.m. in the school hall.\nStudents are welcome to come with their parents.\nPlease do not bring younger brothers or sisters.",
+        "options": ["Students are allowed to go with their parents.", "The event is only for mothers and fathers.", "Younger children can come if they are quiet."], "answer": 0 },
+      { "kind": "message", "header": "From: Lucas  To: Ben", "text": "My cousin from Canada is staying with us this week. Can I bring him to football practice on Saturday? He's really friendly and he plays well!",
+        "options": ["Lucas is going to visit his cousin in Canada.", "Ben's cousin wants to join the football team.", "Lucas wants a member of his family to come with him."], "answer": 2 },
+      { "kind": "sign", "header": "SUNNY HILL HOTEL", "text": "Friends and family of our guests are welcome in the café.\nOnly hotel guests may use the swimming pool.",
+        "options": ["Visitors are not allowed in the café.", "Everyone can swim in the hotel pool.", "Only people staying at the hotel can swim here."], "answer": 2 },
+      { "kind": "email", "header": "From: Mrs Patel  To: Year 8 parents", "text": "Our class 'Family Faces' photo exhibition opens next Monday. Please send one photo of your child with a grandparent by Friday. Thank you!",
+        "options": ["Parents need to send a photo before the end of the week.", "Grandparents are invited to the exhibition on Friday.", "Children should bring their family photo albums to school."], "answer": 0 },
+      { "kind": "note", "header": "Dad", "text": "Dad – Mrs Green next door called. She's going away and wants to know if we can feed her cat on Saturday and Sunday. Please call her back! Ella",
+        "options": ["Mrs Green is going to look after the family's cat.", "Their neighbour would like Dad to phone her.", "Ella will stay with Mrs Green at the weekend."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about their best friend.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Sofia", "text": "My best friend is my cousin Martina. We were born in the same month, but she lives in another city, so we only see each other in the summer holidays, when both our families stay at our grandparents' farm. We look so similar that people we don't know often think we're sisters! During the year we have a video call every Sunday and tell each other everything." },
+        { "label": "B", "title": "Kenji", "text": "I'll never forget the day I met Daniel. It was our first day at primary school and I forgot my lunch, so he gave me half of his sandwich. We've been friends ever since. Now we're both in the school basketball team. We sometimes argue about silly things, but we're never angry for long. Last summer his parents took me on holiday with them to the beach." },
+        { "label": "C", "title": "Linh", "text": "My best friend is my pen-friend, Anna, from Scotland. We've written to each other for three years, but we've never actually met. We write about our families, our schools and our weekends. Anna has taught me lots of new English words, and I've taught her some Vietnamese. Next year she's coming to Vietnam with her parents and her little brother. I'm so excited about it!" }
+      ],
+      "items": [
+        { "q": "Who has never seen their best friend face to face?", "answer": "C" },
+        { "q": "Who went on a trip with their friend's family?", "answer": "B" },
+        { "q": "Who says that strangers think their friend is a sister?", "answer": "A" },
+        { "q": "Who remembers how their friendship started?", "answer": "B" },
+        { "q": "Who has learnt something from their friend?", "answer": "C" },
+        { "q": "Who can only be with their friend at one time of the year?", "answer": "A" },
+        { "q": "Who says they don't always agree with their friend?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "Grandparents' Day at Hillside School",
+      "text": "When thirteen-year-old Ruby Hart's grandfather came to live with her family last year, she learned something surprising. \"Grandad told me stories about his school days every evening,\" says Ruby. \"He rode a horse to school! I realised my friends didn't know stories like that, because lots of them only see their grandparents once or twice a year.\"\n\nSo Ruby had an idea: a Grandparents' Day at her school. She wrote a letter to her head teacher, Mrs Lane. \"At first she said no, because the school hall was busy with exams,\" Ruby explains. \"I was disappointed, but I didn't stop. I asked again and offered to organise everything with my friends.\" In the end, Mrs Lane agreed, and the day happened on the last Friday in June.\n\nMore than sixty grandparents came. Some of them travelled a long way – one grandmother came by plane from Poland to see her grandson! In the morning, the grandparents joined the students' lessons. In the afternoon, everyone looked at old family photos, and the grandparents talked about life when they were teenagers. \"That was the best part,\" says Ruby. \"Everyone laughed at the old clothes and hairstyles!\"\n\nThe only problem was the weather. Ruby wanted to have a picnic in the school garden, but it rained all day, so they ate in the classrooms.\n\nNow Mrs Lane wants to have a Grandparents' Day every year. \"And Grandad wants to help organise the next one,\" Ruby smiles.",
+      "items": [
+        { "q": "Why did Ruby have the idea for Grandparents' Day?", "options": ["She enjoyed listening to her grandfather's stories.", "Her grandfather asked her to organise it.", "Her teacher wanted to do a project about families."], "answer": 0 },
+        { "q": "What happened when Ruby first asked Mrs Lane?", "options": ["Mrs Lane asked Ruby's friends to help.", "Mrs Lane wanted to have it on a different day.", "Mrs Lane did not agree to the idea."], "answer": 2 },
+        { "q": "What does the article say about the grandparents who came?", "options": ["They all lived near the school.", "Some of them had a long journey.", "They all stayed for the picnic in the garden."], "answer": 1 },
+        { "q": "What did Ruby enjoy most about the day?", "options": ["looking at old photos together", "having lessons with the grandparents", "eating lunch in the classrooms"], "answer": 0 },
+        { "q": "What will happen next year?", "options": ["Ruby will organise the day without her friends.", "Ruby's grandfather will help to plan the day.", "The day will happen in the school hall."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "Family names around the world",
+      "text": "In many countries, children get their surname from their father. But this is not the {19} everywhere. In Spain, for example, people usually have two surnames – one from their father and one from their mother. In Vietnam, the family name {20} first, before a person's other names, and more than a third of Vietnamese people have the surname Nguyen!\n\nIn Iceland, most families don't share a surname at all. A boy {21} Erik whose father is Jon becomes Erik Jonsson ('Jon's son'), and his sister becomes Anna Jonsdottir ('Jon's daughter'). So a brother and sister have {22} surnames.\n\nIn Britain, many surnames came from people's jobs. If your surname is Baker or Smith, perhaps one of your grandparents' grandparents {23} bread or worked with metal.\n\nToday, some couples who get married choose to {24} both their surnames together, so Mr Brown and Ms Green become Mr and Mrs Brown-Green!",
+      "items": [
+        { "options": ["similar", "same", "equal"], "answer": 1 },
+        { "options": ["arrives", "stays", "comes"], "answer": 2 },
+        { "options": ["named", "said", "told"], "answer": 0 },
+        { "options": ["wrong", "different", "strange"], "answer": 1 },
+        { "options": ["built", "did", "made"], "answer": 2 },
+        { "options": ["put", "take", "give"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Hana  To: Mia", "text": "Hi Mia,\nGuess what? My cousin Tom is getting married {25} Saturday! The wedding is in {26} big hotel by the sea. All my family will be there – my aunts, my uncles and all {27} cousins. I'm really excited, but I don't know what to wear. Can you come shopping with me tomorrow?\nHana" },
+        { "header": "From: Mia  To: Hana", "text": "Hi Hana,\nThat's great news! Of course I'll come with you. I saw a lovely dress in the shop near the station. It was {28} expensive than the others, but it was really beautiful. Shall we meet {29} the bus stop at ten? And please send me some photos {30} the wedding!\nMia" }
+      ],
+      "answers": [ ["on", "this", "next"], ["a"], ["my", "the", "our", "his"], ["more"], ["at", "by", "near"], ["of", "from"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your cousin is coming to stay with your family next weekend. Write an email to your English friend, Sam.",
+      "points": ["say which cousin is coming to stay", "tell Sam what you are going to do together", "invite Sam to meet your cousin"],
+      "model": "Hi Sam,\nMy cousin Lan is coming to stay with us next weekend. She's thirteen and really friendly. We're going to go to the cinema on Saturday afternoon. Would you like to come with us and meet her?\nSee you,\nMinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🎂😢", "caption": "a girl sitting alone at home on her birthday, looking at a photo of her best friend on holiday" },
+        { "emoji": "🔔🚪📦", "caption": "the doorbell rings and there is a very big box outside the front door" },
+        { "emoji": "👭🎉👨‍👩‍👧", "caption": "her best friend jumps out of the box while the girl's parents laugh and hold a cake" }
+      ],
+      "model": "It was Nora's birthday, but she was sad because her best friend, Jess, was on holiday with her family. In the afternoon, the doorbell rang. There was a huge box outside the door. Suddenly, Jess jumped out of it! Jess's parents and Nora's parents planned the surprise together. It was the best birthday ever."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which boy is the girl's brother?",
+        "options": [ {"emoji":"🧢","label":"boy in a cap"}, {"emoji":"👓","label":"boy with glasses"}, {"emoji":"🎸","label":"boy with a guitar"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Is that your brother in this photo, Amy? The boy with the glasses?"}, {"s":"F","t":"No, that's my cousin Leo. My brother's standing next to him."}, {"s":"M","t":"Oh, the one in the cap?"}, {"s":"F","t":"No, that's Leo's friend. My brother's the one holding the guitar. He plays it all the time – even at breakfast!"} ] },
+      { "q": "What will the family give Grandma for her birthday?",
+        "options": [ {"emoji":"🖼️","label":"family photo"}, {"emoji":"💐","label":"flowers"}, {"emoji":"🧣","label":"scarf"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Dad, what are we getting Grandma for her birthday? Flowers again?"}, {"s":"M","t":"She's got lots of flowers in her garden. I thought about a scarf, but your aunt has already bought her one."}, {"s":"F","t":"What about a photo of all the family in a nice frame?"}, {"s":"M","t":"That's perfect. She'll love that."} ] },
+      { "q": "Where is the boy's mother now?",
+        "options": [ {"emoji":"🛒","label":"supermarket"}, {"emoji":"🏡","label":"neighbour's house"}, {"emoji":"🏫","label":"school"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Hi Josh. Where's your mum? I thought she was picking you up from school today."}, {"s":"M","t":"She can't. She went to the supermarket this morning, and now she's next door at Mrs Hill's house."}, {"s":"F","t":"Is Mrs Hill all right?"}, {"s":"M","t":"She isn't very well, so Mum's helping her."}, {"s":"F","t":"That's kind. Well, you can come home with us."} ] },
+      { "q": "How many cousins has the girl got?",
+        "options": [ {"emoji":"👧","label":"4"}, {"emoji":"👨‍👩‍👧‍👦","label":"6"}, {"emoji":"👪","label":"8"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Have you got a big family, Nadia?"}, {"s":"F","t":"Quite big. My mum's sister has four children."}, {"s":"M","t":"Four cousins! That's a lot."}, {"s":"F","t":"And my dad's brother has two sons, so I've got six cousins altogether."}, {"s":"M","t":"I've only got one!"}, {"s":"F","t":"That's nothing. My best friend has eight!"} ] },
+      { "q": "What time will the guests arrive?",
+        "options": [ {"emoji":"🕑","label":"2:00"}, {"emoji":"🕒","label":"3:00"}, {"emoji":"🕓","label":"4:00"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, what time are Uncle Mark and Aunt Lily coming? Two o'clock?"}, {"s":"M","t":"That was the plan, but their train's late. They phoned to say they'll be here at four."}, {"s":"F","t":"Four? But we're having lunch at three!"}, {"s":"M","t":"I know. We'll have to wait for them. I'm hungry already!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman telling young people about a Family Sports Day.",
+      "title": "Family Sports Day",
+      "items": [
+        { "label": "Day:", "answer": ["sunday"] },
+        { "label": "Starts at:", "answer": ["10", "10.00", "10:00", "10am", "10 am", "ten", "ten o'clock"] },
+        { "label": "Price of family ticket: £", "answer": ["12", "twelve"] },
+        { "label": "Everyone should bring a:", "answer": ["hat", "a hat"] },
+        { "label": "Organiser's name: Mrs", "answer": ["barlow"] }
+      ],
+      "script": [ {"s":"F","t":"Hello everyone, and welcome to Riverside Youth Club. I want to tell you about our Family Sports Day. Every family in the town is welcome – parents, grandparents, brothers, sisters and even cousins! Last year it was on a Saturday, but this year it's on Sunday, the fourteenth of May, because the park is very busy on Saturdays. We'll start at ten o'clock in the morning and finish at about four. There are races for children, teenagers and adults, and grandparents can join the walking race! A ticket for one person costs five pounds, but if you come with your family, a family ticket is only twelve pounds. That's for up to six people. There's a café in the park, so you don't need to bring any food. But please bring a hat, because it can get very hot. You don't need special sports clothes – just comfortable shoes. If you want to join, please write to the organiser, Mrs Barlow. That's B-A-R-L-O-W. She'll send you more information. We hope to see you and your family there!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Tom talking to his friend Lucy about his new baby sister.",
+      "items": [
+        { "q": "When was Tom's sister born?", "options": ["on Saturday night", "early on Sunday morning", "on Monday afternoon"], "answer": 1 },
+        { "q": "What is the baby's name?", "options": ["Rose", "Lily", "Grace"], "answer": 0 },
+        { "q": "How does Tom feel about his sister?", "options": ["a bit jealous of her", "worried about her", "happy but tired"], "answer": 2 },
+        { "q": "How is Tom's grandmother helping the family?", "options": ["She is cooking meals for them.", "She is taking Tom to school.", "She is looking after the baby at night."], "answer": 0 },
+        { "q": "What is Lucy going to give the baby?", "options": ["a toy", "some clothes", "a book"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Tom! I heard your news. Congratulations – you're a big brother now!"},
+        {"s":"M","t":"Thanks, Lucy! She was born at about five o'clock on Sunday morning. Mum went to the hospital on Saturday night, but the baby didn't come until the next day."},
+        {"s":"F","t":"Wow. And what's her name?"},
+        {"s":"M","t":"Well, I wanted to call her Lily, and Dad liked Grace, because that was his grandmother's name. But in the end Mum chose Rose. I think it's perfect for her."},
+        {"s":"F","t":"That's a lovely name. So how do you feel about having a sister? Are you jealous? Everyone's going to look at her now, not you!"},
+        {"s":"M","t":"Ha! No, I'm not jealous at all. I'm really happy. But she cries a lot at night, so I'm quite tired. I fell asleep in Maths yesterday!"},
+        {"s":"F","t":"Oh no! Is anyone helping your parents?"},
+        {"s":"M","t":"Yes, my grandma's staying with us for two weeks. She doesn't take me to school – I still go by bike – but she makes dinner for us every evening. Dad's a terrible cook, so that's great!"},
+        {"s":"F","t":"Your grandma's soup is the best. Can I come and see the baby?"},
+        {"s":"M","t":"Of course. Come on Saturday."},
+        {"s":"F","t":"Great. I wanted to buy her a toy, but my mum says babies get too many toys. And clothes are difficult because I don't know her size. So I'm going to give her a book of children's songs. My parents sang them to me when I was little."},
+        {"s":"M","t":"She'll love it. Thanks, Lucy!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking about her older sister.", "q": "How does the girl feel about her sister?", "options": ["proud of her", "angry with her", "sorry for her"], "answer": 0,
+        "script": [ {"s":"F","t":"My sister Hannah is nineteen and she's just finished her first year at university. It wasn't easy for her, because she lives a long way from home and she missed us a lot. But she's done really well – she got the best marks in her class! I've told all my friends about it. I want to be like her one day."} ] },
+      { "intro": "You will hear a boy leaving a message for his friend.", "q": "Why is the boy calling?", "options": ["to ask his friend for help with homework", "to invite his friend to a family party", "to say he can't play football"], "answer": 1,
+        "script": [ {"s":"M","t":"Hi Sam, it's Ollie. It's my cousin Ben's birthday on Saturday, and my aunt's having a barbecue in her garden. She said I can bring a friend, so would you like to come? It starts at two. Don't worry about football – the match is in the morning, so we can do both. Call me back!"} ] },
+      { "intro": "You will hear two friends talking about a new neighbour.", "q": "What does the girl think about her new neighbour?", "options": ["He is too noisy.", "He is unfriendly.", "He is kind."], "answer": 2,
+        "script": [ {"s":"M","t":"Has someone moved into the house next to yours, Jess?"}, {"s":"F","t":"Yes, an old man called Mr Jones. My dad thought he'd be noisy because he's got two big dogs, but they're really quiet."}, {"s":"M","t":"Does he talk to you?"}, {"s":"F","t":"Yes! At first I thought he wasn't very friendly, but yesterday he helped me carry my bike home when it had a flat tyre. He's lovely."} ] },
+      { "intro": "You will hear a mother talking to her son.", "q": "What does she want him to do?", "options": ["get his room ready for a guest", "meet his uncle at the station", "buy a present for his uncle"], "answer": 0,
+        "script": [ {"s":"F","t":"Max, your Uncle Jack's arriving this evening and he's sleeping in your room, remember? So please put your clothes away and make the bed with clean sheets. You can sleep on the sofa. Dad's collecting Jack from the station, so you don't need to go. And don't worry about a present – we've already bought him one."}, {"s":"M","t":"OK, Mum. I'll do it now."} ] },
+      { "intro": "You will hear a teacher talking to her class about a project.", "q": "What must the students do for the project?", "options": ["draw a picture of their family", "ask an older family member some questions", "bring photos of their parents as children"], "answer": 1,
+        "script": [ {"s":"F","t":"For next week's project, I'd like you to interview someone in your family who is over sixty – a grandparent, or maybe an old aunt or uncle. Ask them about their life when they were your age, and write down their answers. You don't need to bring any photos this time, and please don't draw anything. Just bring your notes to the lesson."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Katie talking to her grandfather about a photo from a family wedding. What is each person doing in the photo?",
+      "people": ["Uncle Peter", "Aunt Sue", "cousin Jake", "Grandma", "Katie's dad"],
+      "options": ["dancing", "eating cake", "holding a baby", "playing the guitar", "singing", "taking photos", "talking on the phone", "sleeping"],
+      "answers": ["D", "F", "A", "C", "E"],
+      "script": [
+        {"s":"F","t":"Grandpa, look at this photo from cousin Mia's wedding. Can you see everyone?"},
+        {"s":"M","t":"Let me put my glasses on. Ah, there's your Uncle Peter. Is he eating cake again?"},
+        {"s":"F","t":"No, he'd already finished his cake! He's playing the guitar. He played all evening."},
+        {"s":"M","t":"He's very good. And who's that next to him with the camera? Is that Aunt Sue?"},
+        {"s":"F","t":"Yes. She took photos all day because the photographer was late. She didn't stop to eat anything!"},
+        {"s":"M","t":"And where's your cousin Jake? Is he asleep in the corner? He usually sleeps at parties!"},
+        {"s":"F","t":"Not this time. Look, he's in the middle, dancing with the bride. He's a really good dancer."},
+        {"s":"M","t":"Ha! And there's your grandma. She looks happy."},
+        {"s":"F","t":"She is. She's holding Aunt Sue's baby, little Ellie. Grandma loves babies."},
+        {"s":"M","t":"And what about your dad? Is he on the phone? He's always talking on his phone."},
+        {"s":"F","t":"No, he put his phone away for the wedding. He's singing! Everyone asked him to sing a love song for Mia and her husband."},
+        {"s":"M","t":"Your dad has a lovely voice. I wish I was there."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Your family", "questions": ["How many people are there in your family?", "What do you like doing with your family at the weekend?"], "extended": "Please tell me something about your grandparents." },
+        { "topic": "Your friends", "questions": ["Where do you usually meet your friends?", "What do you and your friends talk about?"], "extended": "Please tell me something about your best friend." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things people do with their family and friends. Do you like doing these different things? Say why or why not.",
+      "pictures": [ {"emoji":"🎬","label":"going to the cinema with friends"}, {"emoji":"🍽️","label":"having a big family dinner"}, {"emoji":"🎮","label":"playing video games with cousins"}, {"emoji":"🏕️","label":"going camping with the family"}, {"emoji":"🛍️","label":"going shopping with friends"} ],
+      "prompts": ["Do you think going to the cinema with friends is fun?", "Is having a big family dinner boring?", "Do you think playing video games with cousins is exciting?", "Is going camping with your family a good idea?", "Which of these things do you like doing best?"],
+      "followup": ["Do you prefer spending time with your family or with your friends? Why?", "Do you think it's important to see your grandparents often?", "What do you like doing with your friends at the weekend?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

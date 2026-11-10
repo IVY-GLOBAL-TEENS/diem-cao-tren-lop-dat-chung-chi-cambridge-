@@ -1,0 +1,187 @@
+{
+  "id": "t11-1", "topic": "11", "testNo": 1,
+  "title": "Clubs and Collections",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "PHOTOGRAPHY CLUB", "text": "New members welcome!\nWe meet every Thursday in Room 8.\nYou don't need your own camera – you can borrow one from the club.",
+        "options": ["You must bring a camera with you.", "Only old members can come to the club.", "You can use a camera that belongs to the club."], "answer": 2 },
+      { "kind": "message", "header": "From: Kate  To: Dad", "text": "Dad, my guitar lesson finishes late today because we're practising for the concert. Can you pick me up at 5.30, not 5? Thanks!",
+        "options": ["Kate wants her dad to collect her later than usual.", "Kate's guitar lesson is cancelled today.", "Kate's concert is this afternoon."], "answer": 0 },
+      { "kind": "sign", "header": "CITY MUSEUM", "text": "You may draw in all rooms – pencils only, please.\nPhotographs are not allowed in the Egypt Room.",
+        "options": ["You can't draw pictures in the museum.", "You can take photographs in some parts of the museum.", "You can paint in all the rooms."], "answer": 1 },
+      { "kind": "notice", "header": "FOR SALE", "text": "300 old football cards – some very rare!\nAlso 50 music magazines.\nI will sell them together or separately.\nAsk for Danny in Class 9B.",
+        "options": ["Danny wants to buy some football cards.", "You can buy the magazines without the cards.", "Danny only has music magazines."], "answer": 1 },
+      { "kind": "email", "header": "From: Mr Patel  To: Chess Club members", "text": "Next week's club meeting will be in the library, not the hall, because of the school play. Don't forget the quiz on 3 May – send me your team names by Friday.",
+        "options": ["The chess club will meet in a different place next week.", "The quiz will be on Friday.", "Members must give Mr Patel their team names on 3 May."], "answer": 0 },
+      { "kind": "message", "header": "From: Lan  To: Mia", "text": "I've got two tickets for the dance show on Saturday because my sister can't go. Do you want to come? It starts at 7. Tell me tonight!",
+        "options": ["Lan's sister is going to the show with Lan.", "Lan wants Mia to buy a ticket.", "Mia should reply to Lan today."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about their hobbies.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Phong", "text": "I collect old cameras. I've got thirty-two now! My grandpa gave me the first one for my ninth birthday – it was his camera when he was young. I find most of them at markets, and they're usually quite cheap. Some of them still work, and I take black and white photographs with them. My friends think it's a strange hobby, but my photos always look different from theirs." },
+        { "label": "B", "title": "Ruby", "text": "Every Saturday I go to a drawing club at the art museum in the city. There are about fifteen members, and most of them are adults. We draw the paintings and other things in the museum. I've learned a lot from the older members. Next month the museum is going to put some of our drawings on the wall for visitors – I'm so excited! I want to study art at university." },
+        { "label": "C", "title": "Kofi", "text": "I play the guitar in a band with my cousin and two friends from school. We practise in my cousin's garage every Sunday afternoon. Our neighbours sometimes get angry because we're too loud! Last summer we played at a music festival in our town – it was our first time on a stage. I was really nervous, but it went well. I'd love to be a musician one day." }
+      ],
+      "items": [
+        { "q": "Who started their hobby because of a birthday present?", "answer": "A" },
+        { "q": "Who does their hobby with people who are older than them?", "answer": "B" },
+        { "q": "Who has had problems with people who live near them?", "answer": "C" },
+        { "q": "Who buys things for their hobby?", "answer": "A" },
+        { "q": "Whose work will other people be able to see soon?", "answer": "B" },
+        { "q": "Who did their hobby in front of other people for the first time last year?", "answer": "C" },
+        { "q": "Who wants to study something connected to their hobby?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "The boy who gives away bikes",
+      "text": "When Sam Okoro was twelve, someone stole his bike from outside the library. \"I was really upset,\" he says. \"My parents didn't have enough money for a new one, so my uncle helped me to build one from old parts.\"\n\nSam enjoyed it so much that it became his hobby. Now fifteen, he spends most weekends in his uncle's garage, repairing old bikes that people don't want any more. \"People give them to us. Some of them are in a terrible state – last month someone brought one with no wheels!\"\n\nBut Sam doesn't keep the bikes. He gives them to children in his town whose families don't have much money. So far, he has given away forty-three bikes. \"The best part is seeing the children's faces when they ride for the first time,\" he says.\n\nSam's hobby takes a lot of time. \"I used to play football on Saturdays, but I stopped because I didn't have time for both. I don't miss it, though.\" His school friends sometimes help him, and last year he started a bike club at school. The club now has twenty members, and they meet every Wednesday after school.\n\nThis summer, Sam and the club members are going on a cycling holiday together. They are going to ride to the beach, a hundred kilometres away, and stay at a campsite for three nights. \"We'll take tents and cook our own food,\" says Sam. \"I can't wait!\"",
+      "items": [
+        { "q": "Why did Sam start building bikes?", "options": ["He lost his bike.", "Someone took his bike.", "His uncle gave him an old bike."], "answer": 1 },
+        { "q": "What does Sam say about the bikes that people give him?", "options": ["Some of them are in very bad condition.", "They are all quite new.", "Most of them have no wheels."], "answer": 0 },
+        { "q": "What does Sam enjoy most about his hobby?", "options": ["riding the bikes he repairs", "working with his uncle in the garage", "watching children ride their new bikes"], "answer": 2 },
+        { "q": "How does Sam feel about stopping football?", "options": ["He is sorry that he stopped.", "He is happy with his decision.", "He wants to start playing again."], "answer": 1 },
+        { "q": "What will the bike club do this summer?", "options": ["stay near the sea", "cycle round their town", "sell bikes at a festival"], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "The first cameras",
+      "text": "Today almost everyone can take photographs with their phone, but two hundred years ago it was very different. The oldest photograph in the world was {19} in France in 1826 or 1827. It shows the view from a window, and the camera needed eight hours to make the picture!\n\nLater, cameras became faster, but people still had to sit without {20} for several minutes. Cameras were also very expensive, so many people only had their photograph taken once or twice in their {21}.\n\nIn 1888, an American company sold the first camera that was easy to use. It was small and light, and anyone could {22} it. When you finished your film, you {23} the whole camera back to the company, and they printed your photographs.\n\nPhotography soon became a popular hobby. Today, millions of people around the world are {24} of photography clubs, and some of them still prefer to use old cameras with film.",
+      "items": [
+        { "options": ["done", "taken", "put"], "answer": 1 },
+        { "options": ["going", "walking", "moving"], "answer": 2 },
+        { "options": ["life", "year", "birthday"], "answer": 0 },
+        { "options": ["turn", "use", "play"], "answer": 1 },
+        { "options": ["went", "came", "sent"], "answer": 2 },
+        { "options": ["members", "players", "parts"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Huy  To: Oscar", "text": "Hi Oscar,\nI've just joined a new club at school. It's {25} drawing and painting club, and we meet every Tuesday. Last week we painted pictures of the park. The teacher said mine was the best {26} the class! Why don't you join too? You're really good {27} drawing.\nHuy" },
+        { "header": "From: Oscar  To: Huy", "text": "Hi Huy,\nThat's great news! I'd like to join, but I already go to guitar lessons on Tuesdays. {28} the club meet on any other days? If not, maybe I {29} come in the holidays. Can you send me a photo of your painting? I'd love to see {30}!\nOscar" }
+      ],
+      "answers": [ ["a", "the"], ["in"], ["at"], ["does", "will", "can"], ["can", "could", "will", "should", "might"], ["it"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You have joined a new club at your school. Write an email to your English friend, Jo.",
+      "points": ["say which club you have joined", "tell Jo what you do at the club", "explain why you like it"],
+      "model": "Hi Jo,\nI've joined the photography club at school! We meet every Friday after school. We learn how to use a camera and we take photographs in the park. I really like it because the teacher is funny and I've made new friends.\nBye,\nThao"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🎸🛍️👦", "caption": "a boy looking at a guitar in a music shop window" },
+        { "emoji": "🎸🏠🐱", "caption": "the boy practising the guitar in his bedroom; his cat is covering its ears" },
+        { "emoji": "🎤🎉💃", "caption": "the boy playing the guitar at a school party while other students dance" }
+      ],
+      "model": "Ryan always wanted to play the guitar. One day he saw a beautiful guitar in a music shop, and he bought it with his birthday money. He practised in his bedroom every evening, but his cat didn't like the noise! Six months later, he played at the school party, and everyone danced."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What is the girl's new hobby?",
+        "options": [ {"emoji":"💃","label":"dancing"}, {"emoji":"🎨","label":"painting"}, {"emoji":"📷","label":"photography"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Are you still going to dance classes, Rosie?"}, {"s":"F","t":"No, I stopped in the summer. I've started a new hobby now."}, {"s":"M","t":"Is it photography? I saw you with a camera yesterday."}, {"s":"F","t":"That was my brother's camera. No, I've started painting. I go to a class at the museum on Saturday mornings."} ] },
+      { "q": "What will the boys do on Saturday?",
+        "options": [ {"emoji":"🚲","label":"ride bikes"}, {"emoji":"🧺","label":"have a picnic"}, {"emoji":"🏛️","label":"go to the museum"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Do you want to go for a bike ride on Saturday, Josh?"}, {"s":"M2","t":"I can't. My bike's broken, and Dad can't repair it until next week."}, {"s":"M","t":"Oh. What about a picnic in the park, then?"}, {"s":"M2","t":"It's going to rain all weekend. Let's do something inside."}, {"s":"M","t":"OK, let's go to the new science museum. It's free on Saturdays."}, {"s":"M2","t":"Great idea!"} ] },
+      { "q": "How much did the girl pay for her concert ticket?",
+        "options": [ {"emoji":"💷","label":"£12"}, {"emoji":"💷","label":"£20"}, {"emoji":"💷","label":"£24"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Are you going to the concert on Friday? How much was your ticket?"}, {"s":"F","t":"Normal tickets are twenty-four pounds."}, {"s":"M","t":"Twenty-four! I only paid twelve pounds last year."}, {"s":"F","t":"Everything's more expensive now. But I'm a member of the band's fan club, so I only paid twenty."}, {"s":"M","t":"That's not bad. Are you going with Lucy?"}, {"s":"F","t":"Yes, her mum's going to drive us there."} ] },
+      { "q": "What does the boy collect?",
+        "options": [ {"emoji":"⚽","label":"football cards"}, {"emoji":"✉️","label":"stamps"}, {"emoji":"🪙","label":"coins"} ], "answer": 0,
+        "script": [ {"s":"F","t":"What's in all these boxes, Jamie? Are they your grandad's stamps?"}, {"s":"M","t":"Yes, he collected stamps for fifty years. But I don't – I think they're boring."}, {"s":"F","t":"What do you collect, then? Coins?"}, {"s":"M","t":"I tried collecting coins, but it was too expensive. I collect football cards. I've got nearly five hundred now!"} ] },
+      { "q": "Where is the girl's guitar?",
+        "options": [ {"emoji":"🛏️","label":"under the bed"}, {"emoji":"🏫","label":"at school"}, {"emoji":"🚗","label":"in the car"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, have you seen my guitar? I've got a lesson in half an hour."}, {"s":"M","t":"Isn't it under your bed? That's where you usually keep it."}, {"s":"F","t":"No, I've looked there."}, {"s":"M","t":"Did you leave it at school after the concert?"}, {"s":"F","t":"No, you drove me home after the concert, remember? I had it with me."}, {"s":"M","t":"Oh dear, it's still in the car! I forgot to bring it in. Sorry!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a man talking about a photography competition for young people.",
+      "title": "Young Photographers Competition",
+      "items": [
+        { "label": "Subject of photos this year:", "answer": ["animals"] },
+        { "label": "Number of photos you can send:", "answer": ["3", "three"] },
+        { "label": "Last day to send photos: June", "answer": ["14", "14th", "fourteenth", "the fourteenth", "the 14th"] },
+        { "label": "First prize: a new", "answer": ["camera"] },
+        { "label": "Name of judge: Mr", "answer": ["dawson"] }
+      ],
+      "script": [ {"s":"M","t":"Hello, I'm Paul from the Westbridge Photography Club, and I'm here to tell you about our competition for young photographers. Anyone aged eleven to sixteen can enter. Last year the subject was people, and we got some wonderful photos of families and friends. This year the subject is animals. Your photos can show pets, farm animals or wild animals – it's up to you. You can send us three photos, but please don't send more than that! The last day to send your photos is the fourteenth of June. The winner will get a fantastic prize. Last year it was a computer, but this year it's a new camera from the camera shop on King Street. There are also prizes for second and third place – books about photography. The best photos will be in the town museum during the summer holidays. Our judge this year is a famous photographer, Mr Dawson. That's D-A-W-S-O-N. He has taken photos of animals for lots of magazines. To find out more, come to one of our club meetings on Thursday evenings."} ]
+    },
+    "part3": {
+      "intro": "You will hear Ben talking to his friend Chloe about a quiz club.",
+      "items": [
+        { "q": "Why did Ben join the quiz club?", "options": ["His teacher asked him to.", "His cousin needed his help.", "He likes going to the library."], "answer": 1 },
+        { "q": "Which questions are the most difficult for Ben?", "options": ["sport", "history", "music"], "answer": 2 },
+        { "q": "Where will the big quiz be?", "options": ["at the city museum", "in London", "at Ben's school"], "answer": 0 },
+        { "q": "What happened in the competition last year?", "options": ["The team didn't take part.", "The team won a prize.", "The team came fourth."], "answer": 2 },
+        { "q": "What will Chloe do at the competition?", "options": ["answer some questions", "take photographs", "sell magazines"], "answer": 1 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Ben. Did I see you in the library at lunchtime? You never go there!"},
+        {"s":"M","t":"Ha! I've joined the quiz club. We meet there on Mondays and Wednesdays."},
+        {"s":"F","t":"The quiz club? Why? Did Mr Hill ask you to join?"},
+        {"s":"M","t":"He asked everyone in our class, but that's not the reason. My cousin Leo is the captain, and he said they needed someone who knows a lot about sport. So I said yes."},
+        {"s":"F","t":"Well, you do know everything about football! What do you do at the club?"},
+        {"s":"M","t":"We practise with old quiz questions. There are questions about history, science, music... History's OK, but music is the hardest for me. I only know the bands my sister listens to!"},
+        {"s":"F","t":"And is there a competition?"},
+        {"s":"M","t":"Yes, there's a big quiz for schools in March. It's at the city museum. The winners get books for their school library and a trip to London."},
+        {"s":"F","t":"Wow. Do you think you'll win?"},
+        {"s":"M","t":"Probably not! Last year our team came fourth. But the other members are really clever, so we might."},
+        {"s":"F","t":"Can people come and watch?"},
+        {"s":"M","t":"Yes, family and friends can come, and it's free. Why don't you come? You could bring your camera and take photos of our team for the school magazine."},
+        {"s":"F","t":"Great idea! I need some photos for my next article anyway."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking to her mum about her birthday.", "q": "What does the girl want to do for her birthday?", "options": ["have a picnic in the park", "go to the cinema", "have a dance party at home"], "answer": 0,
+        "script": [ {"s":"F","t":"Mum, for my birthday this year, I don't want a dance party at home like last year."}, {"s":"F2","t":"OK. What about the cinema?"}, {"s":"F","t":"It's too expensive for twelve people. I'd like to have a picnic in the park with all my friends. We can play games and take a ball."}, {"s":"F2","t":"That's a lovely idea, if it doesn't rain!"} ] },
+      { "intro": "You will hear a boy talking about his MP3 player.", "q": "Why does the boy like his MP3 player?", "options": ["It's very small.", "It has a lot of interesting music on it.", "It was cheap."], "answer": 1,
+        "script": [ {"s":"M","t":"My grandpa gave me his old MP3 player last month. It isn't small – it's quite big, actually – and it was expensive when he bought it. But it's got about two thousand songs on it from the sixties and seventies. I listen to it every day on the bus, and I've found lots of great bands that I didn't know before!"} ] },
+      { "intro": "You will hear two friends talking about a museum.", "q": "What did the girl think of the museum?", "options": ["It was boring.", "It was too busy.", "It was better than she expected."], "answer": 2,
+        "script": [ {"s":"M","t":"How was the toy museum, Ella?"}, {"s":"F","t":"I thought it would be boring – it's just old toys, right? But actually it was brilliant. You can play with lots of the toys, and there's a room where you can make your own."}, {"s":"M","t":"Was it crowded?"}, {"s":"F","t":"No, it wasn't busy at all. You should go!"} ] },
+      { "intro": "You will hear a man leaving a message about a guitar lesson.", "q": "Why is the man calling?", "options": ["to change the time of a lesson", "to say that the teacher is ill", "to ask about the price of lessons"], "answer": 0,
+        "script": [ {"s":"M","t":"Hello, this is Mark from the music school. This message is for Tim's mum. Tim's guitar teacher, Anna, is playing in a concert on Thursday evening, so she can't teach him at six o'clock this week. Could Tim come at four o'clock instead, on the same day? The price is the same, of course. Please call me back. Thanks."} ] },
+      { "intro": "You will hear a girl talking about her hobby.", "q": "How does the girl feel about her hobby now?", "options": ["bored", "proud", "worried"], "answer": 1,
+        "script": [ {"s":"F","t":"I started drawing comics two years ago. At first they weren't very good, and I was worried that people would laugh at them. But I practised every day, and last month the school magazine printed one of my stories. Everyone in my class read it! My mum put a copy on the fridge, and I smile every time I see it."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Nina talking to her uncle about her new friends. What is each friend's hobby?",
+      "people": ["Alex", "Hana", "Ryan", "Sophie", "Minh"],
+      "options": ["camping", "collecting coins", "dancing", "drawing", "making films", "playing the guitar", "reading", "taking photographs"],
+      "answers": ["F", "H", "B", "C", "D"],
+      "script": [
+        {"s":"M","t":"So, Nina, how's your new school? Have you made any friends?"},
+        {"s":"F","t":"Yes, lots! There's Alex. He sits next to me in maths. He's always drawing in his book, but his real hobby is the guitar. He practises every evening and he wants to start a band."},
+        {"s":"M","t":"Great! Who else?"},
+        {"s":"F","t":"Hana. She used to go to dance classes, but she stopped last year. Now she's crazy about photography. She takes her camera everywhere."},
+        {"s":"M","t":"And the boy you talked about yesterday? Ryan?"},
+        {"s":"F","t":"Ryan collects old coins. He's got coins from more than forty countries! His brother loves reading, but Ryan says books are boring."},
+        {"s":"M","t":"Ha! And Sophie? Does she like taking photos too?"},
+        {"s":"F","t":"No, Sophie's a dancer. She goes to classes four times a week, and she's in a show at the theatre next month. Her family goes camping every summer, but she doesn't really like it."},
+        {"s":"M","t":"And does anyone like art, like you?"},
+        {"s":"F","t":"Yes, Minh. He draws amazing pictures of animals. He wants to make films one day, but at the moment he just draws all the time."},
+        {"s":"M","t":"They all sound really nice."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Free time", "questions": ["What do you like doing after school?", "Are you a member of any clubs?"], "extended": "Please tell me something about your favourite hobby." },
+        { "topic": "Music", "questions": ["Can you play a musical instrument?", "Who is your favourite musician?"], "extended": "Please tell me something about the music you like." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different hobbies. Do you like these different hobbies? Say why or why not.",
+      "pictures": [ {"emoji":"🎸","label":"playing the guitar"}, {"emoji":"🎨","label":"painting"}, {"emoji":"✉️","label":"collecting stamps"}, {"emoji":"🎮","label":"playing computer games"}, {"emoji":"📷","label":"taking photographs"} ],
+      "prompts": ["Do you think playing the guitar is difficult?", "Is painting a good hobby?", "Do you think collecting stamps is boring?", "Is playing computer games fun?", "Which of these hobbies do you like best?"],
+      "followup": ["Do you prefer hobbies you can do alone or with friends? Why?", "Do you think it's good to have lots of hobbies?", "What new hobby would you like to try? Why?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "t14-2", "topic": "14", "testNo": 2,
+  "title": "New Places, New Feelings",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "notice", "header": "INTERNATIONAL STUDENTS' DAY", "text": "Students from twelve countries are coming to our school on 5 May.\nWe need friendly students to show them around.\nInterested? See Ms Ford in Room 8.",
+        "options": ["Students from other countries will visit the school.", "Ms Ford is from another country.", "Students can travel to twelve different countries."], "answer": 0 },
+      { "kind": "message", "header": "From: Grandma  To: Huy", "text": "Thank you for the lovely photos of your football team! I'm so proud of you. Your grandad has put them on the kitchen wall so we can see them every day.\nLove, Grandma",
+        "options": ["Grandma wants Huy to send more photos.", "Huy's grandfather has found a place for the photos.", "Grandma came to watch Huy's football match."], "answer": 1 },
+      { "kind": "sign", "header": "SWIMMING POOL", "text": "Be careful – the floor is wet!\nChildren under 8 must not swim alone.\nAn adult must be with them in the water.",
+        "options": ["Young children cannot use this pool.", "Adults must swim in a different place.", "Small children need someone older with them."], "answer": 2 },
+      { "kind": "email", "header": "From: Ella  To: Mr Grey", "text": "Dear Mr Grey,\nI'm sorry I wasn't at school today. I felt terrible this morning and had a bad headache. I'm better now, so I'll bring my history homework tomorrow.\nElla",
+        "options": ["Ella will give her homework to Mr Grey tomorrow.", "Ella still feels ill.", "Ella has lost her history homework."], "answer": 0 },
+      { "kind": "note", "header": "From: Jack  To: Sam", "text": "Sam – I'm sure I left my blue jacket at your house yesterday. Can you bring it to school tomorrow? It's not the old one, it's the new one my aunt gave me!",
+        "options": ["Jack wants Sam to keep his old jacket.", "Jack thinks his jacket is at Sam's house.", "Jack's aunt has taken his jacket."], "answer": 1 },
+      { "kind": "notice", "header": "LOST CAT", "text": "Small black and white cat, very friendly, called Pepper.\nLast seen near the park on Sunday evening.\nIf you find her, please call 07700 900 123. Reward!",
+        "options": ["Pepper is afraid of people.", "Pepper got lost on Monday.", "The owners will give money to the person who finds Pepper."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about moving to a different country.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Kenji", "text": "When I first arrived in London from Japan, I was really unhappy. I couldn't speak English well and I didn't understand my classmates' jokes. But my teacher was very kind and gave me extra lessons after school. Now, two years later, I'm one of the best students in my English class! I still miss Japanese food, so my mum and I cook it together at weekends." },
+        { "label": "B", "title": "Laura", "text": "My dad got a job in Hanoi, so we moved here from Spain last year. The city is very busy and noisy, which felt strange at first because I'm from a small, quiet village. I love the street food – it's cheap and delicious. I've made friends from lots of different countries at my international school. My best friend is from Korea, and she's teaching me her language." },
+        { "label": "C", "title": "Amir", "text": "Moving from Egypt to Canada was exciting, but the winters are terrible! In January it's sometimes minus twenty degrees. I'd never seen snow before, and the first time I saw it I ran outside in my T-shirt! Now I play ice hockey for the school team. I'm not very good yet, but the other players are friendly and help me. I'm lucky to have them." }
+      ],
+      "items": [
+        { "q": "Who found it hard to understand people at first?", "answer": "A" },
+        { "q": "Who is learning another language from a friend?", "answer": "B" },
+        { "q": "Who is in a sports team?", "answer": "C" },
+        { "q": "Who sometimes makes food from their home country?", "answer": "A" },
+        { "q": "Who comes from a place that is quieter than their new home?", "answer": "B" },
+        { "q": "Who was surprised by the weather in their new country?", "answer": "C" },
+        { "q": "Who is now very good at a school subject?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "The young chef who won on TV",
+      "text": "Fourteen-year-old Daniel Okoro started cooking when he was nine. 'My mum was very busy at work, and I was always hungry when I got home from school,' he says. 'So I started making simple things like eggs and pasta.' At first his food wasn't very good. 'Once I made a cake that was as hard as a rock!' he laughs.\n\nLast year his cousin saw an advertisement for a TV cooking competition for young people and told Daniel to enter. 'I wasn't sure,' says Daniel. 'I thought the other cooks would be much better than me.' But his mum helped him to fill in the form, and three weeks later he got a phone call – he was in the competition!\n\nThe competition was filmed in a big, modern kitchen in London. Each week, the young cooks had to make a different meal in one hour. 'The hardest week was when we had to cook fish,' Daniel remembers. 'I'd never cooked it before, and I was so nervous that I dropped it on the floor!' But the judges liked his sweet potato soup, so he could stay in the competition.\n\nIn the final, Daniel cooked a dish from Nigeria, where his grandparents come from. He won! Now he is writing a cookbook for teenagers. 'I want young people to know that cooking isn't difficult,' he says. 'And if you make mistakes, that's fine – I've made hundreds!'",
+      "items": [
+        { "q": "Why did Daniel start cooking?", "options": ["His mother asked him to cook for the family.", "He wanted something to eat after school.", "He wanted to learn to make cakes."], "answer": 1 },
+        { "q": "How did Daniel feel when he heard about the competition?", "options": ["He didn't think he was good enough.", "He was excited about being on TV.", "He was angry with his cousin."], "answer": 0 },
+        { "q": "What happened in the week when the cooks made fish?", "options": ["The judges didn't like Daniel's fish.", "Daniel had a small accident.", "Daniel cooked the best fish of all."], "answer": 1 },
+        { "q": "What did Daniel make in the final?", "options": ["sweet potato soup", "a fish dish", "food from his family's country"], "answer": 2 },
+        { "q": "What does Daniel want to tell young people?", "options": ["Cooking is easier than they think.", "They should all enter competitions.", "They should try not to make mistakes."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "Can pets make us happier?",
+      "text": "Millions of people around the world have a pet, and most of them say their animal makes them happy. Scientists now think they are {19}. When people play with a dog or a cat, they often feel calmer and less worried. This is good news for old people who live alone and sometimes feel sad.\n\nPets are good for children, too. Children who have a pet must {20} after it every day – give it food and water and keep it clean. This helps them to {21} kind and careful.\n\nDog owners are often healthier because they {22} their dogs for walks every day. And pets can help us make new friends: people often {23} to strangers when they are in the park with their dogs.\n\nBut remember – cats and dogs can live for a long {24}, so before you get one, make sure your family has enough time and money to look after it.",
+      "items": [
+        { "options": ["real", "sure", "right"], "answer": 2 },
+        { "options": ["look", "see", "take"], "answer": 0 },
+        { "options": ["make", "become", "take"], "answer": 1 },
+        { "options": ["bring", "carry", "take"], "answer": 2 },
+        { "options": ["talk", "say", "tell"], "answer": 0 },
+        { "options": ["age", "time", "life"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Rosie  To: Anh", "text": "Hi Anh,\nGuess what? I've won a competition! I sent a photo of the sunset to a magazine, and they chose it as {25} best photo of the month. They're going to put it in {26} next magazine! I've never won anything before, so I can't believe it!\nRosie" },
+        { "header": "From: Anh  To: Rosie", "text": "Hi Rosie,\nThat's amazing news! You're so clever. I remember that photo – it was {27} beautiful. What's the prize? I hope it's something useful, {28} a new camera! My brother won a magazine competition last year, but he only got {29} T-shirt. Let's go out {30} Saturday to celebrate!\nAnh" }
+      ],
+      "answers": [ ["the", "their"], ["their", "the"], ["really", "so", "very", "quite", "extremely"], ["like", "maybe", "perhaps"], ["a", "one"], ["on", "this", "next"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Last weekend you tried a new sport for the first time. Write an email to your English friend, Jo.",
+      "points": ["say which sport you tried", "say how you felt", "tell Jo if you want to do it again and why"],
+      "model": "Hi Jo,\nLast Saturday I tried rock climbing for the first time at the sports centre. I was a bit afraid at the start, but in the end I felt really proud. I want to go again because it was so exciting!\nLove,\nHa"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👦📖🎂", "caption": "a boy in a kitchen reading a recipe to make a birthday cake for his mum" },
+        { "emoji": "🔥🍰😱", "caption": "the boy takes a black, burnt cake out of the oven and looks upset" },
+        { "emoji": "👩😄🍓", "caption": "the mother laughing and hugging the boy; they eat strawberries and ice cream" }
+      ],
+      "model": "It was Mum's birthday, so Ben decided to make her a special cake. He found a recipe and started cooking. But he forgot about the cake while he was watching TV, and when he opened the oven, it was black! Ben felt terrible. But Mum just laughed and gave him a hug, and they ate strawberries and ice cream instead."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What was the best part of the boy's holiday?",
+        "options": [ {"emoji":"🏖️","label":"the beach"}, {"emoji":"🐬","label":"a boat trip"}, {"emoji":"🎢","label":"a theme park"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Did you enjoy your holiday in Italy, Marco?"}, {"s":"M","t":"It was great. The beaches were beautiful, but it was too hot to stay there for long."}, {"s":"F","t":"Did you go to the theme park?"}, {"s":"M","t":"Yes, but we waited in terrible queues all day. The best part was the boat trip. We saw dolphins!"} ] },
+      { "q": "How does the girl feel?",
+        "options": [ {"emoji":"😨","label":"afraid"}, {"emoji":"🤩","label":"excited"}, {"emoji":"🥱","label":"bored"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Are you ready for your exam tomorrow, Bella? You look afraid."}, {"s":"F","t":"Afraid? No, I'm fine – I've studied a lot. I'm just bored because I've read the same book all day."}, {"s":"M","t":"Aren't you excited about the holidays after the exams?"}, {"s":"F","t":"Not yet! I need a break first. Shall we go for a walk?"} ] },
+      { "q": "What does the boy's sister look like?",
+        "options": [ {"emoji":"👱‍♀️","label":"long fair hair"}, {"emoji":"👧","label":"short curly hair"}, {"emoji":"👓","label":"glasses"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Is your sister coming to the party, Ben? I've never met her."}, {"s":"M","t":"Yes, she'll be there. She's tall, with long fair hair."}, {"s":"F","t":"Does she wear glasses like you?"}, {"s":"M","t":"No, she doesn't. She had short curly hair last year, but it's long now."} ] },
+      { "q": "Which animal is the boy afraid of?",
+        "options": [ {"emoji":"🕷️","label":"spiders"}, {"emoji":"🐍","label":"snakes"}, {"emoji":"🐕","label":"dogs"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Do you want to come to the zoo with us, Sam? They've got a new snake house."}, {"s":"M","t":"Sure. I'm not afraid of snakes – I think they're cool."}, {"s":"F","t":"Really? What about spiders? There are some big ones there."}, {"s":"M","t":"They're fine too. Actually, it's dogs I don't like. A big dog bit me when I was small."} ] },
+      { "q": "What will the friends do this afternoon?",
+        "options": [ {"emoji":"🎮","label":"play video games"}, {"emoji":"🎳","label":"go bowling"}, {"emoji":"🏊","label":"go swimming"} ], "answer": 0,
+        "script": [ {"s":"M","t":"I'm bored. What shall we do this afternoon? Shall we go swimming?"}, {"s":"F","t":"The pool's closed on Mondays."}, {"s":"M","t":"Bowling, then?"}, {"s":"F","t":"It's too expensive. Let's play the new video game at my house. My brother says it's brilliant."}, {"s":"M","t":"OK, great."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman on the radio talking about a writing competition.",
+      "title": "'My Amazing Day' Writing Competition",
+      "items": [
+        { "label": "Age of students: 11 to", "answer": ["15", "fifteen"] },
+        { "label": "Longest story:", "answer": ["300", "three hundred", "300 words", "three hundred words"] },
+        { "label": "First prize: a", "answer": ["tablet"] },
+        { "label": "Winners read their stories on the radio on:", "answer": ["thursday"] },
+        { "label": "Send stories to: Mrs", "answer": ["penrose"] }
+      ],
+      "script": [ {"s":"F","t":"Hello and welcome to Young Voices. This month we're starting a new writing competition called My Amazing Day. We want you to write about a special day in your life – maybe a day when you were very happy, very lucky, or even very afraid! The competition is for students aged eleven to fifteen. Last year it was only for students over twelve, but this year younger students can enter too. Your story must not be more than three hundred words. Please don't write more, because the judges won't read long stories! Now, the prizes. Last year the winner got a camera, but this year the first prize is a tablet, and there are books for the next five stories. The three best writers will come to our studio and read their stories on the radio. That will be on Thursday next month – not Tuesday, which is the day of our normal programme. Please send your stories to Mrs Penrose. That's P-E-N-R-O-S-E. Good luck, everyone!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Max talking to his friend Lucy about meeting a famous singer.",
+      "items": [
+        { "q": "Where did Max meet Jamie Blue?", "options": ["at a concert", "in a cafe", "at the railway station"], "answer": 1 },
+        { "q": "Who started the conversation with Jamie Blue?", "options": ["Max", "Max's mum", "Jamie Blue"], "answer": 2 },
+        { "q": "What does Max say about Jamie Blue?", "options": ["He is taller than on TV.", "He is quieter than in his videos.", "He isn't very friendly."], "answer": 1 },
+        { "q": "Why didn't Max get a photo?", "options": ["His phone had no battery.", "Jamie Blue didn't want a photo.", "There were too many people."], "answer": 0 },
+        { "q": "What is Max going to do with his notebook?", "options": ["use it for homework", "take it to school", "keep it at home"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Max. Why are you smiling so much?"},
+        {"s":"M","t":"You won't believe it, Lucy. Yesterday I met Jamie Blue!"},
+        {"s":"F","t":"The famous singer? No way! Where? At his concert?"},
+        {"s":"M","t":"No, I couldn't get tickets for that – they were too expensive. I was in a cafe near the railway station with my mum, and he walked in and sat at the next table!"},
+        {"s":"F","t":"Lucky you! What did you do?"},
+        {"s":"M","t":"At first I was too nervous to say anything. My hands were shaking. Mum said, 'Go on, talk to him!' But I couldn't."},
+        {"s":"F","t":"So what happened?"},
+        {"s":"M","t":"He spoke to me first! He saw my T-shirt with his name on it and laughed. He said, 'Nice T-shirt!'"},
+        {"s":"F","t":"That's so funny! What was he like?"},
+        {"s":"M","t":"Really friendly. Much shorter than on TV, though. And he was quiet – not loud like in his videos."},
+        {"s":"F","t":"Did you get a photo with him?"},
+        {"s":"M","t":"He was happy to do one, and there was nobody else in the cafe, but my phone battery was dead! And Mum's phone was at home. So he wrote his name in my school notebook instead."},
+        {"s":"F","t":"That's still great. Are you going to take it to school and show everyone?"},
+        {"s":"M","t":"I'll show them a photo of it, but the notebook is staying in a safe place at home. I'm not going to use it for homework any more!"},
+        {"s":"F","t":"Ha! Good idea."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking about a school trip to a museum.", "q": "What did she think of the trip?", "options": ["It was more interesting than she expected.", "It was too long.", "It was boring."], "answer": 0,
+        "script": [ {"s":"F","t":"I thought the science museum would be boring – my brother said it was. But it was really interesting! There were lots of things you could touch and try. We were there for five hours, but it felt like one. I want to go back with my family soon."} ] },
+      { "intro": "You will hear two friends talking about a new student.", "q": "What does the boy think about the new student?", "options": ["She is unfriendly.", "She is clever.", "She is funny."], "answer": 1,
+        "script": [ {"s":"F","t":"What do you think of Nadia, the new girl?"}, {"s":"M","t":"Some people say she's unfriendly because she doesn't talk much. But I think she's just quiet."}, {"s":"F","t":"She's good at maths, isn't she?"}, {"s":"M","t":"She's brilliant! She answered every difficult question in class today. I'm sure she'll be top of the class."} ] },
+      { "intro": "You will hear a boy leaving a message for his friend.", "q": "Why is he calling?", "options": ["to say sorry", "to ask his friend to play tennis", "to change the time of a dinner"], "answer": 0,
+        "script": [ {"s":"M","t":"Hi Leo, it's Danny. I'm really sorry about yesterday. I forgot about our tennis game, and you waited for me in the rain for an hour. I feel terrible. It was a bad thing to do, and I won't do it again. Please call me back – I hope you're not still angry."} ] },
+      { "intro": "You will hear a girl talking to her father about the school orchestra.", "q": "How does she feel?", "options": ["worried about the concert", "bored and unhappy", "tired but happy"], "answer": 2,
+        "script": [ {"s":"F","t":"I'm so tired, Dad. We practised for three hours today!"}, {"s":"M","t":"Oh dear. Do you still want to be in the orchestra?"}, {"s":"F","t":"Of course! The music is so beautiful, and everyone's really friendly. I'm not even worried about the concert any more."}, {"s":"M","t":"That's great."} ] },
+      { "intro": "You will hear a boy talking about his grandfather.", "q": "What is special about his grandfather?", "options": ["He was a famous footballer.", "He has visited lots of countries.", "He can speak four languages."], "answer": 1,
+        "script": [ {"s":"M","t":"My grandad is seventy-eight, but he still goes on holiday to a new country every year. He's been to more than forty countries! People think he was rich or famous, but he was a bus driver. He just saved his money carefully. He only speaks English, but he says a smile works everywhere."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Hoa talking to her friend Ben about her family. What is each person afraid of?",
+      "people": ["Hoa's dad", "Hoa's mum", "Minh", "Grandma", "Hoa"],
+      "options": ["the dark", "dogs", "flying", "high places", "insects", "snakes", "storms", "deep water"],
+      "answers": ["C", "E", "H", "G", "F"],
+      "script": [
+        {"s":"M","t":"Hoa, our English homework is about being afraid. Can I ask you about your family?"},
+        {"s":"F","t":"Sure. Let's start with my dad. He's big and strong, but he's afraid of flying! When we go on holiday, we always go by train."},
+        {"s":"M","t":"Really? I thought he didn't like dogs."},
+        {"s":"F","t":"No, he loves dogs – we've got two. My mum loves them too. What she really hates is insects. Even a small one in the kitchen makes her scream!"},
+        {"s":"M","t":"Ha! And your brother Minh?"},
+        {"s":"F","t":"He says he isn't afraid of anything. But he never swims in the sea now. Last summer he went too far out and couldn't swim back easily. Now he's afraid of deep water."},
+        {"s":"M","t":"Poor Minh. What about your grandma?"},
+        {"s":"F","t":"Grandma's amazing. She climbs mountains, so she isn't afraid of high places at all. But she hates storms. When there's thunder, she hides under a blanket!"},
+        {"s":"M","t":"And you, Hoa?"},
+        {"s":"F","t":"Me? I was afraid of the dark when I was little, but not now. Now it's snakes. I saw one in our garden once – it was terrible!"},
+        {"s":"M","t":"Thanks, Hoa. That's really useful."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Trying new things", "questions": ["What new thing did you try last year?", "Is it difficult for you to make new friends?"], "extended": "Please tell me something about the most exciting thing you have done." },
+        { "topic": "Other countries", "questions": ["Which country would you like to visit?", "Have you ever met someone from another country?"], "extended": "Please tell me something about a famous person you would like to meet." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different experiences. Do you think these things would be fun? Say why or why not.",
+      "pictures": [ {"emoji":"🎤","label":"singing on TV"}, {"emoji":"🌏","label":"living in another country"}, {"emoji":"🚁","label":"a helicopter ride"}, {"emoji":"👨‍🍳","label":"cooking for your family"}, {"emoji":"🐶","label":"looking after a pet"} ],
+      "prompts": ["Would you be afraid to sing on TV?", "Do you think living in another country is exciting?", "Is a helicopter ride a good experience?", "Is cooking for your family difficult?", "Which of these things would you like to do most?"],
+      "followup": ["Do you prefer staying at home or going to new places? Why?", "What makes you feel happy?", "What is the best day you have ever had?"],
+      "usefulLanguage": ["I think ... would be amazing because ...", "I'd be a bit nervous because ...", "What do you think?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "t09-2", "topic": "09", "testNo": 2,
+  "title": "Markets, Picnics and Barbecues",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "FARMERS' MARKET", "text": "Every Saturday 8 a.m. – 1 p.m.\nFresh fruit, vegetables, cheese and bread from local farms.\nPlease bring your own bags!",
+        "options": ["The market is open all day on Saturday.", "Shoppers should bring something to carry their food in.", "You can buy meat and fish at this market."], "answer": 1 },
+      { "kind": "message", "header": "From: Phong  To: Lily", "text": "We're having a barbecue in the garden tonight and Mum says you can come! Don't bring any food, but could you bring your guitar?",
+        "options": ["Lily needs to bring something to eat.", "The barbecue will be at Lily's house.", "Phong wants Lily to bring an instrument."], "answer": 2 },
+      { "kind": "label", "header": "CHOCOLATE BISCUITS", "text": "Store in a cool, dry place.\nBest before: 30 June\nOnce the box is open, eat within 5 days.",
+        "options": ["Do not keep these biscuits somewhere hot.", "These biscuits must be kept in the fridge.", "These biscuits are only sold until 30 June."], "answer": 0 },
+      { "kind": "notice", "header": "SCHOOL TRIP – FRIDAY", "text": "Please bring a packed lunch and a bottle of water.\nCans and glass bottles are not allowed on the bus.",
+        "options": ["The school will give students their lunch.", "Students can bring a can of lemonade.", "Students need to take their own food."], "answer": 2 },
+      { "kind": "email", "header": "From: Aunt Mai  To: Kim", "text": "Kim, thanks for the lovely dinner last night! Your fried rice was delicious. Can you send me the recipe? I want to make it for Uncle Tuan's birthday.",
+        "options": ["Aunt Mai cooked dinner for Kim.", "Aunt Mai wants to know how Kim made a dish.", "Kim is going to cook for Uncle Tuan's birthday."], "answer": 1 },
+      { "kind": "notice", "header": "CAFÉ ROMA – JOBS", "text": "Weekend waiter or waitress wanted.\nAge 16+. Saturday and Sunday, 10 a.m. – 4 p.m.\nAsk for Marco inside.",
+        "options": ["The café needs someone to work at weekends.", "Students under 16 can do this job.", "You should phone Marco for more information."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about a meal they will never forget.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Oliver", "text": "Last spring I went camping in the mountains with my Scout group. On the first evening we cooked sausages and potatoes on a fire. Then it started to rain really hard, so we had to eat our dinner inside our small tents. The potatoes got cold and my plate was full of water, but it was still the best meal I've ever had. Everyone was laughing and singing all evening." },
+        { "label": "B", "title": "Mei", "text": "For my grandmother's eightieth birthday, thirty people from our family had dinner at a Chinese restaurant. We ate roast duck, fish, rice and lots of vegetables. While we were eating, a young waiter dropped a bowl of soup on my uncle's head! For a moment everyone was quiet, but then my uncle started laughing, and so did everyone else. Grandma says it was her favourite birthday ever." },
+        { "label": "C", "title": "Carlos", "text": "Last month it was my parents' wedding anniversary, so I decided to make them breakfast in bed as a present. It was the first time I cooked alone. I made omelettes with cheese and onion, orange juice and toast. Unfortunately, I forgot about the toast and it burned, so the kitchen smelled terrible. But my parents said it was the best breakfast they'd ever had." }
+      ],
+      "items": [
+        { "q": "Who cooked food on a fire?", "answer": "A" },
+        { "q": "Who made a meal as a present?", "answer": "C" },
+        { "q": "Who describes a funny accident?", "answer": "B" },
+        { "q": "Who had problems because of the weather?", "answer": "A" },
+        { "q": "Who ate with a very large group of relatives?", "answer": "B" },
+        { "q": "Who made a mistake while they were cooking?", "answer": "C" },
+        { "q": "Who ate with people who are not their family?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "The girl who grows her own lunch",
+      "text": "Twelve-year-old Ava Morris eats salad every day – and she grows most of it herself.\n\nIt all started two years ago, when Ava's class visited a farm. \"I couldn't believe how different a tomato tastes when you take it straight from the plant,\" she says. \"The tomatoes in the supermarket taste of nothing!\" When she got home, she asked her parents if she could grow some vegetables in the garden. \"Dad said yes, but only if I looked after them myself.\"\n\nNow Ava grows tomatoes, carrots, potatoes, onions and lettuce, and she has three apple trees too. She works in her garden for about an hour every day after school. \"At weekends I spend even longer there,\" she says. \"Some of my friends think it's boring, but I find it relaxing.\"\n\nLast year, Ava had so many vegetables that her family couldn't eat them all. So she gave some to her neighbours, and they gave her eggs and homemade jam back. Then the head teacher heard about her garden and asked if she could help to start one at school.\n\nThe school garden opened in March. Thirty students now help Ava, and the school cook uses their vegetables in the soup and salads at lunchtime. \"The best thing is that kids who never ate vegetables now try them,\" Ava says. \"If you grow something yourself, you want to eat it!\"\n\nAva's next plan? \"I'd like to keep chickens,\" she says. \"Mum isn't sure yet, but I'm working on it!\"",
+      "items": [
+        { "q": "What surprised Ava on the visit to the farm?", "options": ["how big the farm was", "how good the fresh food tasted", "how hard farmers work"], "answer": 1 },
+        { "q": "What did Ava's father say about the garden?", "options": ["He would help her with it.", "She could only grow a few vegetables.", "She had to take care of it herself."], "answer": 2 },
+        { "q": "What does Ava say about working in the garden?", "options": ["It helps her to relax.", "It takes too much time at weekends.", "Her friends enjoy helping her."], "answer": 0 },
+        { "q": "What happened to Ava's extra vegetables last year?", "options": ["She sold them to the school.", "She swapped them with people living near her.", "Her family made jam with them."], "answer": 1 },
+        { "q": "What does Ava think is the best thing about the school garden?", "options": ["More children are eating vegetables.", "The school cook makes better soup.", "She has lots of new friends."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "Chocolate",
+      "text": "Most people love chocolate, but did you know that it comes from a tree? Chocolate is made from the beans of the cacao tree, which {19} in hot countries in Central and South America and West Africa.\n\nMore than 3,000 years ago, people in Mexico made a drink from cacao beans. It wasn't sweet like the chocolate we eat today, and they often {20} pepper to it! In the 1500s, Spanish travellers {21} cacao beans back to Europe. People there put sugar and milk in the drink, and it became very popular.\n\nThe first chocolate bar was made in England in 1847. {22} then, chocolate has become one of the most popular sweets in the world. People in Switzerland eat the {23} chocolate – about nine kilos each every year!\n\nDoctors say a little dark chocolate can be good for you. But it has a lot of sugar and fat, so it's best to eat it only {24}.",
+      "items": [
+        { "options": ["stays", "makes", "grows"], "answer": 2 },
+        { "options": ["put", "added", "mixed"], "answer": 1 },
+        { "options": ["took", "went", "arrived"], "answer": 0 },
+        { "options": ["Before", "Since", "Until"], "answer": 1 },
+        { "options": ["most", "many", "much"], "answer": 0 },
+        { "options": ["often", "usually", "sometimes"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Jess  To: Tom", "text": "Hi Tom,\nA few {25} us are going to have a picnic in Green Park on Sunday. I'm going to make some sandwiches, and my sister is bringing {26} chocolate cake. Could you bring something to drink? We'll meet at the park gate {27} twelve o'clock.\nJess" },
+        { "header": "From: Tom  To: Jess", "text": "Hi Jess,\nI'd love to come! I'll bring some lemonade and {28} bottle of orange juice. My mum makes really good biscuits, so I'll ask her {29} make some for us. Is it OK if my cousin comes too? He's staying with us this week and he doesn't know anyone here. I hope the weather is sunny {30} warm!\nTom" }
+      ],
+      "answers": [ ["of"], ["a", "her", "the", "some"], ["at", "around"], ["a", "one"], ["to"], ["and"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "You are going to have a picnic with some friends. Write an email to your English friend, Pat.",
+      "points": ["say where and when the picnic will be", "tell Pat what food you will bring", "ask Pat to bring something"],
+      "model": "Hi Pat,\nWe're having a picnic by the lake on Saturday at twelve o'clock. Do you want to come? I'm going to bring some chicken sandwiches and a big bag of grapes. Could you bring some lemonade and cups, please?\nSee you,\nHoa"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👨👦🥕🛒", "caption": "a boy and his dad buying chicken and vegetables at a busy market" },
+        { "emoji": "🍲👦📱🐕", "caption": "the boy cooking in the kitchen and talking on the phone; a dog is looking at the roast chicken on the table" },
+        { "emoji": "🐕🍗😮", "caption": "the dog eating the chicken from the table; the boy and his dad look very surprised" }
+      ],
+      "model": "On Saturday morning Nam and his dad went to the market. They bought a chicken, carrots and potatoes for a family dinner. At home, Nam roasted the chicken and put it on the table. Then his friend phoned him. While he was talking, the dog jumped up and ate the chicken! Nam and his dad couldn't believe it."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "What does the girl want to drink?",
+        "options": [ {"emoji":"🥛","label":"milk"}, {"emoji":"🍵","label":"tea"}, {"emoji":"🍋","label":"lemonade"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Hello. What would you like to drink? We've got tea, coffee, milk…"}, {"s":"F","t":"Have you got any orange juice?"}, {"s":"M","t":"Sorry, there isn't any today. But we've got lemonade."}, {"s":"F","t":"Lovely, I'll have a glass of lemonade, please. And my mum would like a cup of tea."} ] },
+      { "q": "Where is the bread?",
+        "options": [ {"emoji":"🗄️","label":"in the cupboard"}, {"emoji":"🧊","label":"in the fridge"}, {"emoji":"🍽️","label":"on the table"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Mum, where's the bread? It isn't on the table."}, {"s":"F","t":"I put it in the fridge, so it stays fresh."}, {"s":"M","t":"I've looked in the fridge. There's only butter and cheese."}, {"s":"F","t":"Oh, sorry, I remember now. It's in the cupboard next to the cooker."} ] },
+      { "q": "What time does the café close?",
+        "options": [ {"emoji":"🕔","label":"5:00"}, {"emoji":"🕠","label":"5:30"}, {"emoji":"🕕","label":"6:00"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Let's go to the café after school. What time does it close?"}, {"s":"M","t":"In winter it closes at five, but in summer it stays open until six."}, {"s":"F","t":"It's June now, so that's OK."}, {"s":"M","t":"Yes, and school finishes at half past three, so we'll have lots of time."} ] },
+      { "q": "What is the boy's favourite vegetable?",
+        "options": [ {"emoji":"🥕","label":"carrots"}, {"emoji":"🧅","label":"onions"}, {"emoji":"🥔","label":"potatoes"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Do you like carrots, Dan?"}, {"s":"M","t":"They're OK, but I don't love them. And everyone thinks I like potatoes, because I eat so many chips!"}, {"s":"F","t":"So what's your favourite?"}, {"s":"M","t":"Onions. I know it's strange, but I love them – fried, in soup, in salad, anything."} ] },
+      { "q": "What did the girl buy at the market?",
+        "options": [ {"emoji":"🍇","label":"grapes"}, {"emoji":"🍌","label":"bananas"}, {"emoji":"🍎","label":"apples"} ], "answer": 0,
+        "script": [ {"s":"M","t":"What did you get at the market? Apples?"}, {"s":"F","t":"No, the apples looked a bit old. I wanted bananas, but there weren't any left."}, {"s":"M","t":"So you didn't buy any fruit?"}, {"s":"F","t":"Yes, I did. I got some grapes. They're really sweet."}, {"s":"M","t":"Great, I love grapes."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a teacher telling students about a school food fair.",
+      "title": "Year 8 Food Fair",
+      "items": [
+        { "label": "Date: June", "answer": ["21", "21st", "twenty-first", "twenty first", "twenty-one"] },
+        { "label": "Place: in the school", "answer": ["garden"] },
+        { "label": "Ticket for adults: £", "answer": ["3", "three"] },
+        { "label": "Prize: a visit to a chocolate", "answer": ["factory"] },
+        { "label": "Questions? Speak to: Miss", "answer": ["quinn"] }
+      ],
+      "script": [ {"s":"F","t":"Hello, Year 8! I'm here to tell you about this year's Food Fair. It's on Saturday the twenty-first of June – not the fourteenth, as we said in the school newsletter. Last year we had it in the school hall, but it was too hot and crowded, so this year it'll be outside in the school garden. If it rains, we'll move to the sports centre. Each class will have a stall and sell food from a different country. You can make pizza, pasta, curry, soup – anything you like! Students can come in free, but parents and other adults need a ticket. It costs three pounds, and children under five are free too. All the money will go to the children's hospital. There will also be a prize for the best stall. Last year the winners got cinema tickets, but this year the prize is a visit to a chocolate factory! I'm sure you'll all want to win that. If you have any questions, please talk to Miss Quinn. That's Q-U-I-N-N. She's the new cookery teacher, and you can find her in Room nine at lunchtime."} ]
+    },
+    "part3": {
+      "intro": "You will hear Ruby talking to her friend Ben about his weekend job at a café.",
+      "items": [
+        { "q": "When does Ben work at the café?", "options": ["on Saturday mornings", "on Sunday mornings", "every afternoon after school"], "answer": 1 },
+        { "q": "Who owns the café?", "options": ["Ben's uncle", "Ben's neighbour", "Ben's friend's mother"], "answer": 0 },
+        { "q": "What does Ben do at the café?", "options": ["He cooks breakfasts.", "He makes the drinks.", "He washes up."], "answer": 2 },
+        { "q": "What does Ben enjoy most about the job?", "options": ["the free food", "meeting people", "earning money"], "answer": 1 },
+        { "q": "What is Ben going to buy with his money?", "options": ["a new phone", "a bike", "a guitar"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Ben! I saw you in the Corner Café on Sunday. Are you working there?"},
+        {"s":"M","t":"Hi Ruby. Yes, I started last month. I work every Sunday morning, from eight until twelve. I wanted to work on Saturdays too, but I've got football practice then."},
+        {"s":"F","t":"Cool. How did you get the job?"},
+        {"s":"M","t":"My uncle owns the café. My neighbour worked there before, but she's gone to university, so my uncle asked me."},
+        {"s":"F","t":"Do you cook? You make great pancakes!"},
+        {"s":"M","t":"Ha! No, the cook doesn't let anyone into the kitchen except to wash up. That's my job – I wash all the plates, cups and glasses. Sometimes I make drinks when it's busy, but not usually."},
+        {"s":"F","t":"That sounds like hard work. Do you like it?"},
+        {"s":"M","t":"Yes. The money's OK, and I get a free breakfast, which is nice. But the best thing is the people. Lots of old people come in every week and they always talk to me. One man tells me about his travels around the world."},
+        {"s":"F","t":"That's nice. What are you going to do with your money? Buy a new phone?"},
+        {"s":"M","t":"My phone's fine. I thought about getting a new bike, but my dad says I can have his old one. So I'm saving for a guitar. I want to start lessons in the summer."},
+        {"s":"F","t":"Great idea!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking about a meal at his friend's house.", "q": "How did he feel about the meal?", "options": ["surprised that he liked it", "sorry that he didn't eat it all", "disappointed because it was cold"], "answer": 0,
+        "script": [ {"s":"M","t":"Last night I had dinner at Kenji's house. His mum made a Japanese fish soup. I usually hate fish, so I was a bit worried. But I tried it, and it was delicious! I had two bowls. I couldn't believe it. Now I want to try more Japanese food."} ] },
+      { "intro": "You will hear a girl talking to her mother in a supermarket.", "q": "Why does the girl want to buy the biscuits?", "options": ["They are cheap today.", "They are for a friend.", "They are her favourite."], "answer": 1,
+        "script": [ {"s":"F","t":"Mum, can we get these chocolate biscuits?"}, {"s":"F2","t":"You don't usually like chocolate biscuits, Maya."}, {"s":"F","t":"I know, but they're Amy's favourite, and she's coming to stay tomorrow."}, {"s":"F2","t":"They're quite expensive, and they aren't on sale this week. But OK, put them in the basket. Amy's a lovely guest."} ] },
+      { "intro": "You will hear a teacher talking to her class before a school trip.", "q": "What is she talking about?", "options": ["what time the bus will leave", "what students should eat and drink", "where the class will have lunch"], "answer": 1,
+        "script": [ {"s":"F","t":"Remember, it's going to be very hot tomorrow, so bring lots of water – at least two bottles. Don't bring sweets or chocolate. Bring healthy food like fruit, sandwiches and salad. And please don't buy burgers and chips at the café there. You need good food to walk all day. OK? See you at the bus stop in the morning."} ] },
+      { "intro": "You will hear two friends talking about a new restaurant.", "q": "What do they agree about?", "options": ["The pizza was great.", "The waiter was slow.", "The restaurant was expensive."], "answer": 0,
+        "script": [ {"s":"M","t":"What did you think of the new Italian restaurant?"}, {"s":"F","t":"The pizza was amazing – the best I've ever had."}, {"s":"M","t":"Me too. I loved it. But we waited a long time for the waiter, didn't we?"}, {"s":"F","t":"Did we? I didn't notice. And it was quite cheap, too."}, {"s":"M","t":"Cheap? I thought it was really expensive!"} ] },
+      { "intro": "You will hear a man giving cooking instructions on the radio.", "q": "What is he explaining?", "options": ["how to make a salad", "how to boil eggs", "how to make an omelette"], "answer": 2,
+        "script": [ {"s":"M","t":"Today we're making something quick and easy. First, break three eggs into a bowl and add a little salt and pepper. Mix them well. Then cut an onion and a tomato into small pieces. Put a little oil in a frying pan and, when it's hot, add the eggs and the vegetables. Cook for three minutes, then put it on a plate. It's lovely with a green salad!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Lucy talking to her dad about a class picnic. What will each person bring?",
+      "people": ["Lucy", "Sam", "Mrs Hall", "Hana", "Kevin"],
+      "options": ["apples", "biscuits", "cheese sandwiches", "chicken", "lemonade", "plates and cups", "pizza", "water"],
+      "answers": ["C", "E", "F", "B", "A"],
+      "script": [
+        {"s":"M","t":"So, Lucy, what's everyone bringing to the class picnic on Friday?"},
+        {"s":"F","t":"Well, I'm doing the sandwiches. I wanted to make chicken sandwiches, but some people don't eat meat, so I'm making cheese ones."},
+        {"s":"M","t":"OK, I'll buy some cheese tomorrow. What about your friend Sam?"},
+        {"s":"F","t":"Sam's mum makes amazing pizza, so we asked him to bring some. But it's difficult to carry on the bus. So he's bringing drinks instead – two big bottles of lemonade."},
+        {"s":"M","t":"Good. And your teacher? Is Mrs Hall bringing anything?"},
+        {"s":"F","t":"Yes. She's bringing all the plates and cups, because she doesn't want us to use glass."},
+        {"s":"M","t":"Very sensible. And Hana?"},
+        {"s":"F","t":"Hana loves baking. She's making chocolate biscuits for everyone."},
+        {"s":"M","t":"Lovely. What about Kevin?"},
+        {"s":"F","t":"Kevin said he'd bring water, but Mrs Hall said everyone should bring their own bottle of water. So he's bringing some apples from his grandparents' farm."},
+        {"s":"M","t":"Good. His grandparents grow the best apples I've ever eaten. So, sandwiches, lemonade, plates and cups, biscuits and apples. Is anyone bringing a cake?"},
+        {"s":"F","t":"No, but there's a café in the park, so we can buy ice cream there if we're still hungry."},
+        {"s":"M","t":"It sounds like a great picnic. Can I come too?"},
+        {"s":"F","t":"Sorry, Dad – no parents!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Shopping for food", "questions": ["Who buys the food in your family?", "Do you like going to markets or supermarkets?"], "extended": "Please tell me something about the food you like to buy." },
+        { "topic": "Eating outside", "questions": ["Do you like having picnics?", "What food do you take on a picnic?"], "extended": "Please tell me something about a picnic or barbecue you went to." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different things people do with food. Do you like these different activities? Say why or why not.",
+      "pictures": [ {"emoji":"🥕","label":"growing vegetables"}, {"emoji":"🧁","label":"baking cakes"}, {"emoji":"🛒","label":"shopping at a market"}, {"emoji":"🍖","label":"having a barbecue"}, {"emoji":"📺","label":"watching cooking programmes"} ],
+      "prompts": ["Do you think growing vegetables is interesting?", "Is baking cakes fun?", "Do you think shopping at a market is boring?", "Is having a barbecue with friends a good idea?", "Which of these activities do you like best?"],
+      "followup": ["Do you prefer cooking or eating? Why?", "Do you think teenagers should learn to cook?", "What food would you cook for your friends?"],
+      "usefulLanguage": ["I think ... is fun because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

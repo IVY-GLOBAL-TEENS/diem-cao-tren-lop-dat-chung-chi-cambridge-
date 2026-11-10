@@ -1,0 +1,189 @@
+{
+  "id": "t15-2", "topic": "15", "testNo": 2,
+  "title": "Old and New Buildings",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "HARTLEY CASTLE", "text": "Tower closed today because of strong winds.\nThe gardens and gift shop are open as usual.\nAll tickets half price.",
+        "options": ["You can't go up the tower today.", "The whole castle is closed because of the weather.", "The gift shop is closed today."], "answer": 0 },
+      { "kind": "message", "header": "From: Leo  To: Mum", "text": "Mum, the lift in our building isn't working again! I'm carrying the shopping up the stairs to the 8th floor. Can you call the office and tell them about it?",
+        "options": ["Leo wants Mum to help him carry the shopping.", "Leo is asking his mum to report a problem.", "Leo's flat is on the ground floor."], "answer": 1 },
+      { "kind": "notice", "header": "ST MARY'S CATHEDRAL", "text": "Visitors are welcome every day from 9 a.m. to 5 p.m.\nNo visits during Sunday morning services.\nPlease speak quietly inside.",
+        "options": ["You can visit the cathedral at any time on Sunday.", "The cathedral is open in the evening.", "Visitors should not be noisy."], "answer": 2 },
+      { "kind": "email", "header": "From: Ms Hart  To: Year 9", "text": "Our visit to the university on Friday will now start at 10 a.m., not 9 a.m. The bus will leave from the school car park, not the main entrance.",
+        "options": ["The visit has moved to a different day.", "The bus will leave from a different place.", "Students should arrive at the university at 9 a.m."], "answer": 1 },
+      { "kind": "sign", "header": "ROSE COTTAGE GUEST-HOUSE", "text": "Rooms available – breakfast included.\nPlease ring the bell.\nIf nobody answers, call 01904 555 210.",
+        "options": ["You have to pay extra for breakfast.", "There are no free rooms today.", "You can phone if nobody comes to the door."], "answer": 2 },
+      { "kind": "note", "header": "From: Grandad  To: Amy", "text": "Amy, I've gone to the post office, and then to the newsagent's for my newspaper. I'll be back by 11. There's some chocolate cake in the kitchen for you!",
+        "options": ["Grandad has left something for Amy to eat.", "Grandad wants Amy to buy a newspaper.", "Grandad will be at the post office all morning."], "answer": 0 }
+    ] },
+    "part2": {
+      "intro": "Three teenagers write about an interesting building they have visited.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Isabel", "text": "Last summer I visited a castle in Scotland with my family. It's on a high hill, so we had to walk up a long road to get to the entrance. Inside, there were old rooms with swords and paintings of kings and queens. My favourite part was the dark prison under the castle – it was a bit scary! The view from the top was brilliant. You can see the whole city from there." },
+        { "label": "B", "title": "Duc", "text": "Last month I visited a new art museum in Hanoi with my class. The building is very modern, with glass walls, so it's full of light. We saw paintings by young Vietnamese artists, and then we painted our own pictures in a special room. Mine was terrible, but the teacher put it on the wall anyway! I'd like to go back with my parents because they both love art." },
+        { "label": "C", "title": "Hannah", "text": "For my birthday, my brother took me on a tour of a famous football stadium. We saw the players' changing rooms and walked onto the pitch. It felt amazing! The guide told us lots of funny stories about the players. At the end, we had lunch in the stadium cafe. It was quite expensive, but my brother paid, so I didn't mind! It was the best present ever." }
+      ],
+      "items": [
+        { "q": "Who visited the building as a birthday present?", "answer": "C" },
+        { "q": "Who had to climb to get to the building?", "answer": "A" },
+        { "q": "Who made something during their visit?", "answer": "B" },
+        { "q": "Who saw a part of the building that was frightening?", "answer": "A" },
+        { "q": "Who wants to visit the building again with their family?", "answer": "B" },
+        { "q": "Who had a meal in the building?", "answer": "C" },
+        { "q": "Who could see a long way from the building?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "The boy who builds cathedrals",
+      "text": "When fifteen-year-old Arjun Mehta was eight, his grandfather gave him a book about famous buildings. 'I loved the pictures,' says Arjun. 'Every night I looked at the castles and churches and wanted to make them myself.'\n\nHis first model was a small house made of paper. 'It wasn't very good,' he laughs. 'It fell down the next day!' But Arjun didn't stop. Now he makes models from wood and card, and they are excellent.\n\nHis biggest model is of the old cathedral in his town. It took him eleven months to finish, and it is almost two metres tall. 'The most difficult part was the windows,' he says. 'There are more than two hundred of them, and I had to cut every one by hand.' He worked on the model every weekend and sometimes after school – but only when his homework was finished. That was his mum's rule.\n\nLast spring, the town museum asked if they could show the model. Thousands of people came to see it, and the local newspaper wrote a story about Arjun. 'I was really surprised,' he says. 'I didn't think people would be so interested.'\n\nArjun now wants to study at university to become an architect – a person who plans and designs buildings. 'I want to make real buildings, not just models,' he says. 'Maybe one day there'll be a model of one of my buildings in a museum!'",
+      "items": [
+        { "q": "Why did Arjun become interested in buildings?", "options": ["He visited a lot of castles when he was young.", "A family member gave him a book.", "His grandfather was a builder."], "answer": 1 },
+        { "q": "What happened to Arjun's first model?", "options": ["It broke very quickly.", "He gave it to his grandfather.", "It won a prize."], "answer": 0 },
+        { "q": "What was the hardest thing about the cathedral model?", "options": ["making it tall enough", "finding enough time to work on it", "making the windows"], "answer": 2 },
+        { "q": "What rule did Arjun's mother have?", "options": ["He could only work on models at weekends.", "He had to do his homework first.", "He couldn't keep models in his bedroom."], "answer": 1 },
+        { "q": "How did Arjun feel when so many people came to see his model?", "options": ["He didn't expect so much interest.", "He was worried that someone would break it.", "He wanted to sell it to the museum."], "answer": 0 }
+      ]
+    },
+    "part4": {
+      "title": "Libraries – then and now",
+      "text": "Libraries have been important for thousands of years. One of the most {19} libraries in history was in Alexandria, in Egypt. It was built more than 2,000 years ago, and it had thousands of books. They were not like our books – they were {20} on long rolls of paper.\n\nHundreds of years ago, books were very expensive, so only rich people could {21} them. Most people never had a book at home. Then, in the 1800s, many towns in Britain built free public libraries, so everyone could read.\n\nToday, libraries are very different. Most of them have computers, and you can {22} films and music as well as books. Many libraries also have special events for children and teenagers, {23} as book clubs and writing classes.\n\nSome people think that libraries are not important any more because we can find everything on the internet. But libraries are still a great {24} to study, meet friends and find new books to read.",
+      "items": [
+        { "options": ["clever", "famous", "certain"], "answer": 1 },
+        { "options": ["written", "read", "said"], "answer": 0 },
+        { "options": ["pay", "cost", "buy"], "answer": 2 },
+        { "options": ["lend", "spend", "borrow"], "answer": 2 },
+        { "options": ["so", "such", "like"], "answer": 1 },
+        { "options": ["place", "road", "street"], "answer": 0 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Kate  To: Ming", "text": "Hi Ming,\nI'm staying at my aunt's guest-house in the country this week. It's a lovely old building {25} a big garden. There are only six rooms, so it's very quiet. Yesterday we visited a castle {26} was built in 1250! Have you ever been {27} a castle?\nKate" },
+        { "header": "From: Ming  To: Kate", "text": "Hi Kate,\nYes, I have! Last year we visited one in Wales. It was {28} biggest castle I've ever seen. We couldn't see everything because it closed at four o'clock. Are you coming home {29} Sunday? Let's meet on Monday – I want to hear all {30} your holiday!\nMing" }
+      ],
+      "answers": [ ["with"], ["that", "which"], ["to", "in", "inside"], ["the"], ["on", "this", "next"], ["about"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Yesterday you visited a museum with your class. Write an email to your English friend, Morgan.",
+      "points": ["say which museum you visited", "describe something you saw there", "say what you liked best about the visit"],
+      "model": "Hi Morgan,\nYesterday my class visited the History Museum in the city centre. We saw some very old clothes and a big boat that is a thousand years old. The best part was the cafe on the top floor – the view was amazing!\nBye,\nLinh"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧📚🪑", "caption": "a girl sitting in a corner of a library, reading a book" },
+        { "emoji": "🌙🔒😮", "caption": "it is dark outside; the library lights are off and the doors are locked; the girl looks surprised" },
+        { "emoji": "📱👨🔑", "caption": "the girl phoning her dad; a man with keys opening the library door" }
+      ],
+      "model": "On Friday after school, Sara went to the library to do her homework. She found a great book and sat in a quiet corner. She read for hours. When she looked up, it was dark and the doors were locked! She phoned her dad. He called the library, and a man came and opened the door for her."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Where are the boy and his mum going to meet?",
+        "options": [ {"emoji":"🏦","label":"bank"}, {"emoji":"☕","label":"cafe"}, {"emoji":"📖","label":"bookshop"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Sam, I'll be at the bank until three. Shall we meet outside it?"}, {"s":"M","t":"It's going to rain, Mum. Can we meet inside somewhere? What about the bookshop?"}, {"s":"F","t":"It's closed this week. They're painting it. Let's meet in the cafe next to it."}, {"s":"M","t":"OK, see you there at three."} ] },
+      { "q": "Which floor does the girl live on?",
+        "options": [ {"emoji":"2️⃣","label":"2nd floor"}, {"emoji":"5️⃣","label":"5th floor"}, {"emoji":"9️⃣","label":"9th floor"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Which floor is your new flat on, Nina?"}, {"s":"F","t":"The ninth. Our old flat was on the second floor, so it's very different."}, {"s":"M","t":"Wow. Do you take the lift?"}, {"s":"F","t":"Usually. But my friend Lucy lives on the fifth floor of the same building, so sometimes I walk down to her flat."} ] },
+      { "q": "What is the new building in the town centre going to be?",
+        "options": [ {"emoji":"🎬","label":"cinema"}, {"emoji":"🏨","label":"hotel"}, {"emoji":"🏊","label":"swimming pool"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Have you seen that big new building in the town centre? Is it a hotel?"}, {"s":"M","t":"That's what everyone thought. But my dad says it's going to be a cinema, with eight screens."}, {"s":"F","t":"Great! I hoped it would be a swimming pool, but a cinema's good too."}, {"s":"M","t":"It opens in June."} ] },
+      { "q": "Where did the boy go yesterday?",
+        "options": [ {"emoji":"⛪","label":"church"}, {"emoji":"🏰","label":"castle"}, {"emoji":"🏛️","label":"museum"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Did you go to the castle with your grandparents yesterday, Tim?"}, {"s":"M","t":"We wanted to, but it was closed. So we went to the museum instead."}, {"s":"F","t":"Was it good?"}, {"s":"M","t":"Yes, really interesting. Then Grandma wanted to see the old church, but we were too tired, so we went home."} ] },
+      { "q": "What is the girl going to do at the sports centre?",
+        "options": [ {"emoji":"🏊","label":"swimming"}, {"emoji":"🏸","label":"badminton"}, {"emoji":"🧗","label":"climbing"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Are you going swimming at the sports centre on Saturday, Jess?"}, {"s":"F","t":"Not this week – I've got a cold. But I'm going to play badminton there with my dad."}, {"s":"M","t":"I thought you wanted to try the climbing wall."}, {"s":"F","t":"I do, but you have to be fourteen. Next year!"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a guide talking to a group of visitors at a castle.",
+      "title": "Bradley Castle Tour",
+      "items": [
+        { "label": "People started building the castle in:", "answer": ["1150", "eleven fifty"] },
+        { "label": "Number of steps in the tower:", "answer": ["95", "ninety-five", "ninety five"] },
+        { "label": "No photos in the:", "answer": ["library", "the library"] },
+        { "label": "The gift shop is next to the:", "answer": ["exit", "the exit"] },
+        { "label": "Today the cafe closes at:", "answer": ["4.30", "4:30", "half past four", "4.30 pm", "4:30 pm"] }
+      ],
+      "script": [ {"s":"M","t":"Good morning, everyone, and welcome to Bradley Castle. My name's Paul and I'm your guide today. This castle is very old. People started building it in eleven fifty, and it took about forty years to finish. Lots of visitors think it's much newer, because the outside is so clean! We'll begin our tour in the great hall, and then we'll visit the kitchens. After that, you can climb the tower. There are ninety-five steps – I know because I count them every day! Please be careful, because they're quite small. From the top you can see the cathedral and the university buildings in the city. You're welcome to take photos everywhere except the library. The old books there don't like the light from cameras. If you want to buy a present, the gift shop isn't near the entrance where you came in. It's next to the exit, at the end of the tour. And if you're hungry, the castle cafe is open until half past four today. It usually closes at five, but there's a special event this evening. OK, follow me, please!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Oliver talking to his friend Grace about his work experience in an office.",
+      "items": [
+        { "q": "Where was Oliver's office?", "options": ["on the second floor", "on the twenty-second floor", "on the thirtieth floor"], "answer": 1 },
+        { "q": "What did Oliver do during his work experience?", "options": ["He helped to make a website.", "He made tea and coffee.", "He helped to design a hotel."], "answer": 0 },
+        { "q": "What was the problem with the cafe in the building?", "options": ["It was always full.", "It closed early.", "It was expensive."], "answer": 2 },
+        { "q": "Where did Oliver eat his lunch?", "options": ["in a park", "in his office", "in the cathedral"], "answer": 0 },
+        { "q": "What didn't Oliver like about working in an office?", "options": ["his manager", "the work", "sitting down all day"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Oliver. How was your week of work experience?"},
+        {"s":"M","t":"Really good, thanks, Grace. I was at a big company in the city centre. Their offices are in a really tall building – it's got thirty floors!"},
+        {"s":"F","t":"Wow. Were you at the top?"},
+        {"s":"M","t":"No, the company is on the twenty-second floor. I went up in the lift every morning. On the first day it was so fast I felt a bit sick!"},
+        {"s":"F","t":"Ha! So what did you do? Did you just make coffee?"},
+        {"s":"M","t":"My brother said I'd only make tea and coffee all week, but I didn't make any! I helped to make a website for a new hotel. It was really interesting."},
+        {"s":"F","t":"That's cool. Were the people nice?"},
+        {"s":"M","t":"Very friendly. My manager, Lisa, was great. She explained everything clearly. The only problem was lunch. There's a cafe on the ground floor, and it's never too busy, but it was really expensive."},
+        {"s":"F","t":"So what did you do?"},
+        {"s":"M","t":"After the first day, I took sandwiches from home and ate them in the park next to the cathedral. It was lovely and quiet there."},
+        {"s":"F","t":"Would you like to work in an office one day?"},
+        {"s":"M","t":"I'm not sure. I loved the work, but I didn't like sitting down all day. I like moving around."},
+        {"s":"F","t":"So what are you going to do?"},
+        {"s":"M","t":"Well, I'd like to study computers at university or college. Then maybe I can work from home!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking about the old cinema in his town.", "q": "How does he feel about the cinema closing?", "options": ["He's sorry that it's closing.", "He's pleased about the change.", "He's angry about the new cinema."], "answer": 1,
+        "script": [ {"s":"M","t":"The old cinema in our town is closing next month. Lots of people say it's sad, but I don't really agree. It was always cold inside, and the seats were terrible. A new cinema is opening in the shopping centre, with bigger screens and better seats. I'm actually quite happy about it."} ] },
+      { "intro": "You will hear a girl telling her father about a building.", "q": "What was the building in the past?", "options": ["a school", "a factory", "a hospital"], "answer": 2,
+        "script": [ {"s":"F","t":"Dad, did you know our new library was a hospital before?"}, {"s":"M","t":"Really? I thought it was an old school."}, {"s":"F","t":"No, the school was on the other side of the road. My teacher told us the building was a hospital for a hundred years."}, {"s":"M","t":"How interesting! I didn't know that."} ] },
+      { "intro": "You will hear a woman leaving a message for a hotel.", "q": "Why is she calling?", "options": ["to change the dates of her stay", "to book a new room", "to ask about breakfast"], "answer": 0,
+        "script": [ {"s":"F","t":"Hello, this is Mrs Gold. I've got a room at your hotel for the twelfth and thirteenth of July. I'm afraid I can't come then. Could I come a week later instead – the nineteenth and twentieth? I'd like the same double room with breakfast, please. Please call me back on 07700 900 456. Thank you."} ] },
+      { "intro": "You will hear two friends talking about a new sports centre.", "q": "What does the girl think about it?", "options": ["It's better than the old one.", "The swimming pool is too small.", "It's too far from her house."], "answer": 0,
+        "script": [ {"s":"M","t":"Have you been to the new sports centre yet?"}, {"s":"F","t":"Yes, on Saturday. It's much better than the old one – the gym is brilliant."}, {"s":"M","t":"Isn't the swimming pool quite small?"}, {"s":"F","t":"No, it's the same size as before. And it's only five minutes from my house, so I'm going to go every week."} ] },
+      { "intro": "You will hear a teacher talking to students on a school trip.", "q": "What does the teacher want the students to do at two o'clock?", "options": ["wait by the exit", "meet at the entrance", "go to the shop"], "answer": 1,
+        "script": [ {"s":"F","t":"OK, everyone, you can now look around the museum on your own. Please don't go into the shop – we'll visit it together at the end. At two o'clock, meet me at the main entrance, next to the big dinosaur. Don't go to the exit, because it's on the other side of the building and our bus is waiting at the front."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Max telling his mum about his family's day in the city. Where did each person go?",
+      "people": ["Max's dad", "Grandpa", "Uncle Peter", "Max's sister Ruby", "Max's friend Josh"],
+      "options": ["cathedral", "college", "department store", "disco", "factory", "museum", "theatre", "university"],
+      "answers": ["H", "E", "G", "B", "F"],
+      "script": [
+        {"s":"F","t":"How was your day in the city, Max? I'm sorry I had to work."},
+        {"s":"M","t":"It was great, Mum. We all went to different places. Dad went to the university. He wanted to see the building where he studied."},
+        {"s":"F","t":"Oh, I thought he wanted to go to the cathedral."},
+        {"s":"M","t":"He did, but there was a wedding, so he couldn't go in. So he went to the university and met an old friend there."},
+        {"s":"F","t":"And Grandpa? He loves old cars."},
+        {"s":"M","t":"Yes! He went to the car factory just outside the city. They have tours on Saturdays. He said it was brilliant."},
+        {"s":"F","t":"What about Uncle Peter?"},
+        {"s":"M","t":"He went to the theatre in the afternoon to see a play. He wanted me to go with him, but I said no. Plays are boring!"},
+        {"s":"F","t":"And Ruby? Did she go shopping?"},
+        {"s":"M","t":"She wanted to go to the big department store, but everything there is too expensive. So she went to her friend's college to see an art show. Her friend's paintings were in it."},
+        {"s":"F","t":"That's nice. And Josh? Did he go with you?"},
+        {"s":"M","t":"Yes. We went to the museum together – there's a new dinosaur room. Josh wanted to go to the teen disco in the evening too, but we were too tired!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Buildings in your town", "questions": ["Is there a museum in your town?", "What is the oldest building in your town?"], "extended": "Please tell me something about a building you like." },
+        { "topic": "Visiting places", "questions": ["Have you ever stayed in a hotel?", "Where do you like going at the weekend?"], "extended": "Please tell me something about an interesting place you have visited." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different buildings people visit. Do you like visiting these places? Say why or why not.",
+      "pictures": [ {"emoji":"🏰","label":"castle"}, {"emoji":"⛪","label":"cathedral"}, {"emoji":"🏛️","label":"museum"}, {"emoji":"🏟️","label":"stadium"}, {"emoji":"🏬","label":"department store"} ],
+      "prompts": ["Do you think visiting a castle is interesting?", "Do you like old buildings like cathedrals?", "Is going to a museum boring?", "Do you think watching a match at a stadium is exciting?", "Which of these places do you like best?"],
+      "followup": ["Do you prefer old buildings or modern buildings? Why?", "Would you like to live in a flat or a house?", "Which building would you like to visit in another country?"],
+      "usefulLanguage": ["I think ... is interesting because ...", "I don't like ... very much because ...", "What do you think?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

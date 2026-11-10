@@ -1,0 +1,190 @@
+{
+  "id": "t10-2", "topic": "10", "testNo": 2,
+  "title": "Healthy Habits",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "DR AHMED – DENTIST", "text": "Please arrive 10 minutes before your appointment.\nIf you can't come, phone us at least 24 hours before.",
+        "options": ["You can see the dentist without an appointment.", "Tell the dentist a day early if you can't come.", "The dentist is closed for 24 hours."], "answer": 1 },
+      { "kind": "note", "header": "Khoa", "text": "Your little brother has got a temperature, so I've taken him to the doctor. There's some soup in the fridge for your lunch. Back about 2.\nMum",
+        "options": ["Khoa's brother isn't well.", "Khoa needs to buy something for lunch.", "Khoa's mum will be home in the morning."], "answer": 0 },
+      { "kind": "notice", "header": "SWIMMING POOL", "text": "Do not run near the pool – the floor is wet and dangerous.\nPlease have a shower before you swim.\nChildren under 10 must swim with an adult.",
+        "options": ["You must have a shower after swimming.", "Children can't swim in this pool.", "You should walk carefully around the pool."], "answer": 2 },
+      { "kind": "email", "header": "From: Coach Davis  To: Under-14 team", "text": "No training tomorrow because the field is too wet. Instead, please go for a 30-minute run on your own. We'll meet as usual next Thursday.",
+        "options": ["There will be no training next week.", "Players should do some exercise alone tomorrow.", "The team will train inside tomorrow."], "answer": 1 },
+      { "kind": "label", "header": "SUN CREAM", "text": "Put on 15 minutes before you go outside.\nUse again after swimming.\nKeep away from eyes.",
+        "options": ["Put more cream on after you have been in the water.", "Put the cream on when you are already in the sun.", "You can put the cream near your eyes."], "answer": 0 },
+      { "kind": "message", "header": "From: Jack  To: Hana", "text": "I can't come to dance class tonight – I've hurt my back carrying boxes. Can you tell Miss Reed? I hope I'll be OK by next week.",
+        "options": ["Jack hurt himself at dance class.", "Jack is going to miss classes for two weeks.", "Jack wants Hana to tell the teacher something."], "answer": 2 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about someone in their family who works in health.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Nam", "text": "My mum's a dentist. She works in the town centre, and she sees about twenty people every day. She's always telling me to brush my teeth after every meal! When I was little, I was afraid of dentists, but now I think they're great. I sometimes help her at the weekend – I answer the phone and make appointments. I don't want to be a dentist, though. I want to work with animals." },
+        { "label": "B", "title": "Grace", "text": "My dad's a nurse at the city hospital. He works at night three times a week, so he sleeps in the day and we have to be very quiet at home. He looks after babies who are very small or ill. It's a difficult job, but he loves it. Last year he won a prize for being the best nurse in the hospital. I'd like to work in a hospital too when I'm older." },
+        { "label": "C", "title": "Leo", "text": "My grandma has a pharmacy in our village. She's sixty-eight, but she doesn't want to stop working. People come to ask her about colds and other small problems, and she always knows which medicine is right. In the summer holidays I help her put things on the shelves, and she pays me a little money. Next year she's going to teach me more about medicines." }
+      ],
+      "items": [
+        { "q": "Whose family member looks after very young people?", "answer": "B" },
+        { "q": "Who gets money for helping their family member?", "answer": "C" },
+        { "q": "Who has changed how they feel about their family member's job?", "answer": "A" },
+        { "q": "Whose family member has to work when most people are asleep?", "answer": "B" },
+        { "q": "Whose family member is older than most people who still work?", "answer": "C" },
+        { "q": "Who doesn't want to do the same job as their family member?", "answer": "A" },
+        { "q": "Who would like a job similar to their family member's?", "answer": "B" }
+      ]
+    },
+    "part3": {
+      "title": "Ella's sleep experiment",
+      "text": "Fourteen-year-old Ella Morris was always tired. \"I felt terrible every morning,\" she says. \"I had headaches, and I couldn't think in my first lessons.\" Her mum was worried that Ella was ill, so she took her to the doctor. \"He asked me what time I went to sleep. I said eleven o'clock, but that wasn't true. I usually looked at my phone in bed until after midnight.\"\n\nElla decided to make this the subject of her school science project. For two weeks, she slept with her phone in her bedroom as usual. Every morning she wrote down how she felt. Then, for the next two weeks, she left her phone in the kitchen at nine o'clock every evening.\n\nThe results surprised her. \"In the second two weeks, I fell asleep much faster, and I didn't wake up in the night. My headaches stopped, too.\" Her science teacher was so interested that she asked Ella to talk about the project to the whole school.\n\nNot everything was easy. \"I used my phone as an alarm clock, so I had to buy a real one,\" Ella laughs. \"And my friends were a bit angry because I didn't answer their messages in the evening.\"\n\nNow twenty students in Ella's class are trying the same thing. \"I'm not saying phones are bad,\" Ella explains. \"I just think our bodies need rest, and bed is for sleeping!\"",
+      "items": [
+        { "q": "Why did Ella's mum take her to the doctor?", "options": ["Ella couldn't sleep at all.", "Ella often felt unwell in the mornings.", "Ella hurt her head at school."], "answer": 1 },
+        { "q": "What did Ella not tell the doctor?", "options": ["the real time she went to sleep", "that she had headaches", "that she used her phone at school"], "answer": 0 },
+        { "q": "What happened when Ella left her phone in the kitchen?", "options": ["She woke up more often in the night.", "She went to bed earlier.", "Her headaches went away."], "answer": 2 },
+        { "q": "What problem did Ella have during the project?", "options": ["She needed something else to wake her up.", "Her teacher didn't like the idea.", "Her friends stopped talking to her."], "answer": 0 },
+        { "q": "What does Ella think now?", "options": ["Teenagers shouldn't have phones.", "Everyone in her class should do a science project.", "Rest is very important for our health."], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "The story of the marathon",
+      "text": "A marathon is a running race of just over 42 kilometres. The race got its name from an old story about a Greek soldier. In 490 BC, he ran all the way from a place called Marathon to Athens to {19} the people there about a battle. The story says that he was so tired when he arrived that he fell down and died.\n\nThe first modern marathon {20} place at the Olympic Games in Athens in 1896. Only 17 runners started the race, and a Greek man called Spyridon Louis won it.\n\nToday, there are marathons in hundreds of cities around the world, and thousands of people {21} part in each one. Many of the runners are not famous sportspeople. They {22} for months before the race, and they often {23} a lot of weight.\n\nDoctors say that running is great for your heart, but you should always start slowly. And you should never run if you are ill or have a high {24}.",
+      "items": [
+        { "options": ["tell", "say", "explain"], "answer": 0 },
+        { "options": ["had", "made", "took"], "answer": 2 },
+        { "options": ["have", "take", "make"], "answer": 1 },
+        { "options": ["study", "train", "learn"], "answer": 1 },
+        { "options": ["miss", "fall", "lose"], "answer": 2 },
+        { "options": ["heat", "temperature", "degree"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Rosa  To: Kim", "text": "Hi Kim,\nThe new sports centre {25} opened near the park. I went there with my sister and it was great! There's a big pool and a gym. Children can use the gym if they {26} over twelve. Would you like to come with me next week? We could go swimming {27} school on Wednesday.\nRosa" },
+        { "header": "From: Kim  To: Rosa", "text": "Hi Rosa,\nI'd love to, but I can't swim at the moment because I cut my foot on the beach {28} Sunday. It's getting better, but the doctor says I mustn't go in the water yet. Can we play badminton {29} of swimming? I can do that. It's {30} fun than swimming anyway!\nKim" }
+      ],
+      "answers": [ ["has", "just", "recently", "finally"], ["are"], ["after", "before"], ["last", "on", "this"], ["instead"], ["more"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your English friend Chris has broken his arm. Write an email to Chris.",
+      "points": ["say you are sorry about his arm", "suggest something he can do while his arm gets better", "offer to help him with something"],
+      "model": "Hi Chris,\nI'm really sorry about your arm! Does it hurt a lot? While it gets better, you could watch some good films or listen to music. I can come to your house and help you with your homework if you want.\nTake care,\nVy"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🏃‍♂️😮‍💨🏫", "caption": "a boy is very tired after running a short way in a school PE lesson" },
+        { "emoji": "🌅👨‍👦🏃", "caption": "the boy and his dad running together in the park early in the morning" },
+        { "emoji": "🏅🎉👏", "caption": "the boy finishes first in a school race while his dad claps" }
+      ],
+      "model": "Tom wasn't very fit. In a PE lesson, he ran for only two minutes and then he was too tired to continue. So he decided to do more exercise. Every morning, he went running in the park with his dad. Two months later, Tom won the school race, and his dad was very proud of him."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which part of her body did the girl hurt?",
+        "options": [ {"emoji":"✋","label":"hand"}, {"emoji":"💪","label":"arm"}, {"emoji":"🦵","label":"leg"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Anna, why have you got that bandage? Did you hurt your hand at volleyball?"}, {"s":"F","t":"No, my hand's fine. I fell over at the ice rink on Sunday and landed on my arm."}, {"s":"M","t":"Is it broken?"}, {"s":"F","t":"No, the doctor checked it. But it hurts a lot."}, {"s":"M","t":"Can you still walk to school?"}, {"s":"F","t":"Yes, my legs are OK, luckily!"} ] },
+      { "q": "Where is the chemist's?",
+        "options": [ {"emoji":"🚉","label":"near the station"}, {"emoji":"🏦","label":"next to the bank"}, {"emoji":"🏫","label":"opposite the school"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Excuse me, is there a chemist's near here?"}, {"s":"F","t":"There used to be one next to the bank, but it closed last year. There's a new one opposite the school on Green Street."}, {"s":"M","t":"Is that near the station?"}, {"s":"F","t":"No, the station's the other way. Go straight on, and the chemist's is on your left, opposite the school."} ] },
+      { "q": "Which exercise class will the woman go to?",
+        "options": [ {"emoji":"💃","label":"dance"}, {"emoji":"🧘","label":"yoga"}, {"emoji":"🚴","label":"cycling"} ], "answer": 0,
+        "script": [ {"s":"F","t":"I want to do an exercise class at the sports centre. Which one do you go to?"}, {"s":"M","t":"The cycling class. It's on Tuesday evenings."}, {"s":"F","t":"I'd like that, but I work late on Tuesdays. What about yoga?"}, {"s":"M","t":"It's full this month. But there's a dance class on Thursdays. It's really good for your heart."}, {"s":"F","t":"Thursday's perfect. I'll try that."} ] },
+      { "q": "How many days must the boy stay at home?",
+        "options": [ {"emoji":"2️⃣","label":"2 days"}, {"emoji":"3️⃣","label":"3 days"}, {"emoji":"5️⃣","label":"5 days"} ], "answer": 1,
+        "script": [ {"s":"F","t":"What did the doctor say, Minh?"}, {"s":"M","t":"I've got flu. He said I have to stay at home for three days."}, {"s":"F","t":"Oh dear. You wanted to go back to school on Thursday."}, {"s":"M","t":"I know. That's only two days, but he said no. And I can't play football for five days."}, {"s":"F","t":"Well, you need to rest."} ] },
+      { "q": "What has the girl forgotten?",
+        "options": [ {"emoji":"🪥","label":"toothbrush"}, {"emoji":"🧼","label":"soap"}, {"emoji":"🪮","label":"comb"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Have you packed everything for the school trip, Lily? What about your toothbrush?"}, {"s":"F","t":"Yes, Dad. It's in my bag, with the soap."}, {"s":"M","t":"And your comb? Your hair gets terrible without it!"}, {"s":"F","t":"Oh no, I left it in the bathroom. Can you get it for me, please?"} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman telling students about a course for teenagers.",
+      "title": "Help in an Accident – a course for teenagers",
+      "items": [
+        { "label": "Day of the course:", "answer": ["saturday"] },
+        { "label": "Course starts at:", "answer": ["9.30", "9:30", "half past nine", "nine thirty"] },
+        { "label": "Place: the school", "answer": ["library"] },
+        { "label": "Cost: £", "answer": ["8", "eight"] },
+        { "label": "Teacher's name: Mrs", "answer": ["hartley"] }
+      ],
+      "script": [ {"s":"F","t":"Hi everyone. I'm here to tell you about a special course for teenagers called Help in an Accident. You'll learn what to do if someone falls and hurts their head, cuts their hand or burns themselves in the kitchen. The course is on a Saturday – not this Saturday, but next Saturday – and it's one day only. We usually start at nine o'clock, but this time we're starting at half past nine, so you don't have to get up too early! It finishes at three. We wanted to have the course in the sports hall, but there's a basketball match there that day, so we'll be in the school library. The course normally costs fifteen pounds, but the hospital is paying seven pounds for each student, so you only need to pay eight pounds. Please bring something to eat for lunch. Your teacher on the day is a nurse from the City Hospital. Her name is Mrs Hartley – that's H-A-R-T-L-E-Y. She's worked in hospitals for twenty years, so she knows a lot! If you'd like to come, please tell your class teacher before Wednesday."} ]
+    },
+    "part3": {
+      "intro": "You will hear Hoa talking to her friend Daniel about his broken leg.",
+      "items": [
+        { "q": "How did Daniel break his leg?", "options": ["He was skiing down a mountain.", "He was walking outside the hotel.", "He was playing football in the snow."], "answer": 1 },
+        { "q": "How long did Daniel stay in hospital?", "options": ["one night", "two nights", "six nights"], "answer": 0 },
+        { "q": "What was the worst thing about the hospital for Daniel?", "options": ["He felt bored.", "The food was bad.", "His leg hurt a lot."], "answer": 2 },
+        { "q": "How does Daniel get to school now?", "options": ["by bus", "in his dad's car", "by taxi"], "answer": 2 },
+        { "q": "What will Hoa do to help Daniel?", "options": ["carry his school bag", "bring him his homework", "take him to the cinema"], "answer": 0 }
+      ],
+      "script": [
+        {"s":"F","t":"Daniel! Your leg! What happened? Did you hurt it on the school ski trip?"},
+        {"s":"M","t":"Yes, but not while I was skiing. I was really careful on the mountain. On the last evening, I was walking from the hotel to a restaurant, and I fell on the ice. I heard a noise and I knew my leg was broken."},
+        {"s":"F","t":"Oh no! Did you have to stay in hospital?"},
+        {"s":"M","t":"Only for one night. The doctors wanted me to stay for two nights, but my leg was OK, so they let me go home with my mum the next day."},
+        {"s":"F","t":"Was it terrible in the hospital?"},
+        {"s":"M","t":"Well, the food was actually OK, and I had my phone, so I wasn't bored. But my leg hurt so much that I couldn't sleep at all."},
+        {"s":"F","t":"Poor you. How are you getting to school now? You can't take the bus with that leg."},
+        {"s":"M","t":"No, there are too many steps. And Dad starts work really early, so he can't drive me. So the school is paying for a taxi every morning for six weeks."},
+        {"s":"F","t":"Lucky you! I'd love to come to school in a taxi."},
+        {"s":"M","t":"It's not that great! Everything is difficult when you can only use one leg. I can't even carry my school bag. My brother's bringing me the homework I missed, but I need help at school."},
+        {"s":"F","t":"Well, I can help with that. I'll carry your bag for you between lessons."},
+        {"s":"M","t":"Really? Thanks, Hoa. That's really kind."},
+        {"s":"F","t":"And shall we go to the cinema on Saturday?"},
+        {"s":"M","t":"Not with this leg! Maybe next month."}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a boy talking to his mother about football training.", "q": "Why doesn't the boy want to go to training?", "options": ["He feels tired.", "He has hurt his knee.", "He doesn't like the coach."], "answer": 0,
+        "script": [ {"s":"F","t":"Hurry up, Ben, or you'll be late for football training."}, {"s":"M","t":"I don't want to go today, Mum."}, {"s":"F","t":"Why not? Is your knee still hurting?"}, {"s":"M","t":"No, it's fine now. And I like the new coach – he's great. But I've had exams all week and I went to bed late every night. I really need a rest."}, {"s":"F","t":"OK, you can stay at home this time."} ] },
+      { "intro": "You will hear a woman leaving a message for her friend.", "q": "Why is the woman calling?", "options": ["to arrange a different day to go running", "to ask her friend to go to the dentist with her", "to say that she has hurt her tooth"], "answer": 0,
+        "script": [ {"s":"F","t":"Hi Jo, it's Pam. I'm sorry, but I can't go running with you tomorrow morning. I've got a dentist appointment at nine o'clock and I can't change it. Don't worry, nothing hurts – it's just a check. Can we go on Friday morning instead? Same time, at the park gate? Call me back and tell me if that's OK."} ] },
+      { "intro": "You will hear a girl talking about a new rule at her school.", "q": "What does the girl think about the rule?", "options": ["It isn't fair.", "It's a good idea.", "It won't change anything."], "answer": 1,
+        "script": [ {"s":"F","t":"From this month, we can only drink water or milk at lunchtime in our school. No cola or other sweet drinks. Some of my friends are angry about it and say it isn't fair, but I don't agree. Sugar is really bad for your teeth, and most of us drink too much of it. I feel much better since I started drinking water, so I think the school is right."} ] },
+      { "intro": "You will hear two friends talking about a bike helmet.", "q": "Why did the boy get a new helmet?", "options": ["His old one was too small.", "He had an accident on his bike.", "His mum thought his old one was dangerous."], "answer": 2,
+        "script": [ {"s":"F","t":"Nice helmet, Max! Is it new?"}, {"s":"M","t":"Yes. My old one wasn't broken, and it wasn't too small either. And I haven't had an accident, don't worry!"}, {"s":"F","t":"So why did you change it?"}, {"s":"M","t":"Mum read something about bike accidents in a magazine. She said my old helmet wasn't safe any more because it was too old, so she bought me this one."} ] },
+      { "intro": "You will hear a doctor talking on the radio.", "q": "What is the doctor's main advice?", "options": ["Join a gym.", "Walk more every day.", "Play a team sport."], "answer": 1,
+        "script": [ {"s":"M","t":"Lots of people think they need to join an expensive gym to get fit. Other people think they have to play a team sport, like football or basketball. But that's not true. The easiest thing you can do for your health is to walk more. Walk to the shops – don't drive. Take the stairs, not the lift. If you walk for thirty minutes every day, your heart will thank you!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Megan talking to her grandmother about her family. What exercise does each person do now?",
+      "people": ["Dad", "Mum", "Sam (Megan's brother)", "Uncle Paul", "Megan"],
+      "options": ["cycling", "dancing", "football", "running", "swimming", "tennis", "walking", "yoga"],
+      "answers": ["D", "E", "H", "A", "B"],
+      "script": [
+        {"s":"F2","t":"So, Megan, your mum says the whole family is doing more exercise now."},
+        {"s":"F","t":"Yes, Grandma! It started in January. Dad goes running every morning before work."},
+        {"s":"F2","t":"Running? I thought he played tennis."},
+        {"s":"F","t":"He used to, but his tennis friend moved away. So now he runs round the park."},
+        {"s":"F2","t":"And your mum? She loves dancing."},
+        {"s":"F","t":"She does, but the dance class is on Monday evenings and she works late then. So she goes swimming at the new sports centre on Saturdays."},
+        {"s":"F2","t":"Good for her. What about your brother? Is Sam still in the football team?"},
+        {"s":"F","t":"No, he left. He says football's boring now. He's started doing yoga with his friend. He says it's good for his back."},
+        {"s":"F2","t":"Sam doing yoga! I don't believe it. And Uncle Paul? He's always so busy."},
+        {"s":"F","t":"He bought a new bike, and now he cycles to work every day. It's twenty kilometres!"},
+        {"s":"F2","t":"Goodness! And you, Megan? Do you still walk to school every day?"},
+        {"s":"F","t":"Yes, but that's not really exercise, is it? I've joined the dance club at school. We practise three times a week, and it's great fun."},
+        {"s":"F2","t":"Well done, all of you!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Going to the dentist", "questions": ["How often do you go to the dentist?", "How many times a day do you clean your teeth?"], "extended": "Please tell me something about your last visit to the doctor or the dentist." },
+        { "topic": "Sleep", "questions": ["What time do you usually go to bed?", "How many hours do you sleep every night?"], "extended": "Please tell me something about what you do when you feel tired." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways to stay healthy. Do you like doing these things? Say why or why not.",
+      "pictures": [ {"emoji":"🍎","label":"eating fruit"}, {"emoji":"💧","label":"drinking water"}, {"emoji":"😴","label":"sleeping nine hours"}, {"emoji":"🪥","label":"brushing your teeth"}, {"emoji":"🏀","label":"playing basketball"} ],
+      "prompts": ["Do you think eating fruit every day is easy?", "Is drinking water better than drinking cola?", "Do you think sleeping nine hours is important?", "Is brushing your teeth boring?", "Which of these things is the best for your health?"],
+      "followup": ["Do you prefer sweet food or healthy food? Why?", "Do you think teenagers sleep enough?", "What should students do when they feel ill at school?"],
+      "usefulLanguage": ["I think ... is healthy because ...", "I don't like ... very much because ...", "What about you?", "I agree with you.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "id": "t16-2", "topic": "16", "testNo": 2,
+  "title": "Island, Hill and Village",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "RIVERSIDE PATH", "text": "Cyclists: please get off your bikes and walk across the bridge.\nThe path is narrow – be careful of walkers.",
+        "options": ["Bikes are not allowed on the riverside path.", "Walkers must not use the bridge.", "Cyclists should push their bikes over the bridge."], "answer": 2 },
+      { "kind": "message", "header": "From: Dad  To: Kate", "text": "Kate, the train to the coast is cancelled because some trees have fallen on the railway. We'll drive there instead, so be ready at nine, not ten.",
+        "options": ["Kate's family won't go to the coast today.", "Kate has to be ready earlier than planned.", "The trains will start again at ten o'clock."], "answer": 1 },
+      { "kind": "label", "header": "ISLAND FERRY – RETURN TICKET", "text": "For travel today only.\nKeep this ticket – you will need to show it on the boat back to the harbour.",
+        "options": ["You need this ticket to come back from the island.", "You can use this ticket on any day.", "You buy a ticket for the journey back on the island."], "answer": 0 },
+      { "kind": "notice", "header": "MILLBROOK VILLAGE SUMMER FAIR", "text": "Saturday 2–6 p.m. in Long Field (next to the church).\nIf it rains, the fair will move into the village hall.",
+        "options": ["The fair will happen even if the weather is bad.", "The village hall is next to the field.", "The fair is open all day on Saturday."], "answer": 0 },
+      { "kind": "message", "header": "From: Rosa  To: Chen", "text": "I'm at the beach with my cousins. The sea's too rough for swimming, so we're building a sandcastle. Why don't you come too? We're near the lifeguard hut.",
+        "options": ["Rosa has been swimming in the sea with her cousins.", "Rosa wants Chen to bring something to the beach.", "Rosa would like Chen to join her at the beach."], "answer": 2 },
+      { "kind": "sign", "header": "MOUNTAIN ROAD", "text": "In winter this road may be closed because of snow.\nCheck at the Tourist Information Centre before you drive up.",
+        "options": ["The road is always closed in winter.", "Drivers should get information before they use the road.", "The Tourist Information Centre is at the top of the mountain."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people talk about a school trip they went on.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Carlos", "text": "Last year my class went to Costa Rica for ten days. We stayed in a small hotel in the rainforest, and every morning we walked with a guide to look for animals. I saw monkeys and a beautiful green frog. It rained every afternoon, so my clothes were never dry! The best part was a walk at night with torches. I'd like to study animals at university one day." },
+        { "label": "B", "title": "Emily", "text": "My school trip was to an activity centre on the coast. We went sailing on the sea and climbed the rocks above the beach. I was scared on the first day because I'm not a strong swimmer, but the teachers were great and helped me a lot. We slept in big tents at the centre's campsite. I made two new friends from another class, and we still meet every weekend." },
+        { "label": "C", "title": "Duc", "text": "We went by train to the hills in the north of Vietnam. The railway goes past rivers and through lots of small villages. We stayed with a family in their house on a tea farm and helped them to pick tea leaves in the fields. It was harder than I thought! In the evenings the family cooked for us. I took some of their tea home for my parents and they loved it." }
+      ],
+      "items": [
+        { "q": "Who felt afraid at the beginning of the trip?", "answer": "B" },
+        { "q": "Who says the weather was a problem?", "answer": "A" },
+        { "q": "Who did some work during the trip?", "answer": "C" },
+        { "q": "Who brought back a present for their family?", "answer": "C" },
+        { "q": "Who has a plan for their future studies?", "answer": "A" },
+        { "q": "Who still sees people they met on the trip?", "answer": "B" },
+        { "q": "Who stayed in someone's home?", "answer": "C" }
+      ]
+    },
+    "part3": {
+      "title": "Growing up on a tiny island",
+      "text": "Fourteen-year-old Callum Ross lives on Inchmore, a small island off the west coast of Scotland. Only forty people live there, and there are no shops, no cafés and no cars – just a few farms, one narrow road and a lot of sheep!\n\nUntil he was twelve, Callum went to the island's primary school. \"There were only five students, so the teacher knew everything about us,\" he remembers. \"When the weather was good, we sometimes had lessons on the beach.\" Now he goes to a secondary school on the mainland. The boat takes an hour, so he can't travel every day. From Monday to Friday he stays with other students in a school house in the town, and he comes home at weekends.\n\n\"I missed my family a lot at first,\" Callum says. \"Now I've got lots of friends, and I enjoy football and drama club – you can't do things like that on the island. But I always look forward to Friday.\"\n\nAt the weekends, Callum helps his dad on their farm. He also loves walking up the hill in the middle of the island. \"From the top you can see dolphins in the sea,\" he says. \"It's the best place in the world.\"\n\nSometimes the weather is so bad that the boat can't sail. \"Last winter I couldn't get home for two weeks because of storms,\" he says. \"That was hard, but it doesn't happen often.\"\n\nCallum wants to be a vet. \"I'd like to come back and work here,\" he explains. \"The farmers on the islands need someone to look after their animals.\"",
+      "items": [
+        { "q": "What does Callum say about his primary school?", "options": ["Lessons were always outside.", "There were students from other islands.", "The teacher knew the students very well."], "answer": 2 },
+        { "q": "Why does Callum stay in the town during the week?", "options": ["The journey is too long to do every day.", "His parents work in the town.", "The boat doesn't sail on weekdays."], "answer": 0 },
+        { "q": "How does Callum feel about his life at school now?", "options": ["He still wants to go home every evening.", "He likes the activities he can do there.", "He finds the lessons very difficult."], "answer": 1 },
+        { "q": "What happened last winter?", "options": ["Callum's dad had problems on the farm.", "The boat to the island stopped running for ever.", "Callum was away from home longer than usual."], "answer": 2 },
+        { "q": "Why does Callum want to become a vet?", "options": ["He wants to work with dolphins.", "The islands need someone to do that job.", "His father works as a vet."], "answer": 1 }
+      ]
+    },
+    "part4": {
+      "title": "The Amazon rainforest",
+      "text": "The Amazon is the largest rainforest in the world. It {19} parts of nine countries in South America, but most of it is in Brazil. The Amazon River, which runs through the middle of the forest, is about 6,400 kilometres long.\n\nThe rainforest is home to millions of different kinds of insects, plants and animals, and scientists {20} new ones every year. Many animals, like monkeys and some birds, live high up in the trees and almost never {21} them.\n\nMore than thirty million people live in the Amazon area. Some of them live in small villages along the river. There are very few roads, so they travel almost everywhere {22} boat.\n\nSadly, the rainforest is getting smaller, because people cut down the trees to make space for farms and fields. Many countries are now working together to {23} the forest, because it is very important for the whole planet.\n\nIf you want to see the Amazon for yourself, you can {24} a trip with a local guide and even sleep in a hotel in the trees!",
+      "items": [
+        { "options": ["fills", "covers", "holds"], "answer": 1 },
+        { "options": ["know", "learn", "discover"], "answer": 2 },
+        { "options": ["leave", "miss", "lose"], "answer": 0 },
+        { "options": ["in", "by", "on"], "answer": 1 },
+        { "options": ["protect", "stop", "cover"], "answer": 0 },
+        { "options": ["spend", "pass", "book"], "answer": 2 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Lucas  To: Jamie", "text": "Hi Jamie,\nDo you want to go for a walk {25} Sunday? My brother and I are planning to climb Hawk Hill. It isn't {26} high as the mountains near your village, but the view from the top is amazing. We can take the train to Fenby and start walking {27} there.\nLucas" },
+        { "header": "From: Jamie  To: Lucas", "text": "Hi Lucas,\nGreat idea! I went up Hawk Hill last year, but it was foggy and I couldn't see {28}. What time does the train leave? I'll make some sandwiches for {29} of us. Can I bring my dog too? He loves running around in {30} countryside!\nJamie" }
+      ],
+      "answers": [ ["on", "this", "next"], ["as"], ["from"], ["anything", "much", "far"], ["all", "each"], ["the"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "Your English friend Charlie is staying with you next month and wants to see the countryside near your home. Write an email to Charlie.",
+      "points": ["suggest a place in the countryside to visit", "say how you can get there", "tell Charlie what to bring"],
+      "model": "Hi Charlie,\nLet's visit Ba Vi mountain when you're here. There's a beautiful forest and a lake. We can go there by bus from the city centre – it takes about two hours. Bring some good walking shoes and a raincoat!\nSee you soon,\nLan"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "👧🚆🌾", "caption": "a girl on a train looking out of the window at fields and hills" },
+        { "emoji": "😴🚉❗", "caption": "the girl asleep on the train as it leaves a small village station" },
+        { "emoji": "👴🚗😊", "caption": "an old man waiting by his car outside a different station, smiling at the girl" }
+      ],
+      "model": "Last summer Anna took the train to visit her grandfather in his village. She looked out at the fields and hills for a long time, and then she fell asleep. When she woke up, the train was already past her station! She phoned her grandfather and he drove to the next station to get her. They both laughed about it."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Which photo does the girl like best?",
+        "options": [ {"emoji":"🌊","label":"the sea"}, {"emoji":"🌲","label":"the forest"}, {"emoji":"🌼","label":"a field of flowers"} ], "answer": 1,
+        "script": [ {"s":"M","t":"These holiday photos are great, Anna. Is this one of the sea your favourite?"}, {"s":"F","t":"It's OK, but the colours aren't very good. I prefer this one of the forest in the snow. It's my best photo, I think."}, {"s":"M","t":"And what about the field of flowers?"}, {"s":"F","t":"That's pretty, but my dad took that one, and I still like the forest more."} ] },
+      { "q": "What has the boy left at home?",
+        "options": [ {"emoji":"🗺️","label":"map"}, {"emoji":"⛺","label":"tent"}, {"emoji":"🧥","label":"jacket"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Have you got everything for the walk, Sam? Have you got the map?"}, {"s":"M","t":"Yes, it's in my bag. And the tent's in the car."}, {"s":"F","t":"But where's your jacket? It's going to be cold at the top of the hill."}, {"s":"M","t":"Oh no! It's still hanging behind the door at home."} ] },
+      { "q": "How far will they walk to the village?",
+        "options": [ {"emoji":"🥾","label":"3 km"}, {"emoji":"🥾","label":"5 km"}, {"emoji":"🥾","label":"8 km"} ], "answer": 0,
+        "script": [ {"s":"M","t":"Excuse me, how far is it to Ashby village?"}, {"s":"F","t":"Along the road, it's about eight kilometres. But if you take the path across the fields, it's only three."}, {"s":"M","t":"What about the path by the river?"}, {"s":"F","t":"That one's five kilometres, and it's very wet at the moment."}, {"s":"M","t":"Then we'll go across the fields. Thanks!"} ] },
+      { "q": "What will they do on Saturday afternoon?",
+        "options": [ {"emoji":"🚣","label":"go on a boat"}, {"emoji":"🐴","label":"go horse riding"}, {"emoji":"🎣","label":"go fishing"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Shall we take a boat out on the lake on Saturday afternoon?"}, {"s":"M","t":"Dad says it's going to be too windy for boats this weekend."}, {"s":"F","t":"Oh. What about horse riding? The farm near the village has horses."}, {"s":"M","t":"It's closed on Saturdays. Let's go fishing in the river with Grandad. He's got lots of rods."}, {"s":"F","t":"OK, good idea!"} ] },
+      { "q": "Where is the campsite?",
+        "options": [ {"emoji":"🌲","label":"in a forest"}, {"emoji":"🏖️","label":"next to a beach"}, {"emoji":"🏔️","label":"near a mountain"} ], "answer": 1,
+        "script": [ {"s":"M","t":"Is the campsite in the forest again, like last year?"}, {"s":"F","t":"No, this one's by the sea. You can walk straight from the tents onto the beach."}, {"s":"M","t":"Oh. I wanted to go to that one at the bottom of the mountain."}, {"s":"F","t":"Maybe next year. You'll love this one, I promise."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman talking to visitors about a trip on a steam railway.",
+      "title": "Valley Steam Railway",
+      "items": [
+        { "label": "Journey to Cardale takes:", "answer": ["45", "forty-five", "45 minutes", "forty-five minutes"] },
+        { "label": "For the best views, sit on the:", "answer": ["left", "left side"] },
+        { "label": "Name of the village with the café:", "answer": ["cardale"] },
+        { "label": "Last train back:", "answer": ["5.15", "5:15", "quarter past five", "a quarter past five"] },
+        { "label": "Price of a children's ticket: £", "answer": ["6", "six"] }
+      ],
+      "script": [ {"s":"F","t":"Good morning and welcome to the Valley Steam Railway! This railway is more than a hundred years old, and today you're going to travel on one of our old steam trains. The train goes up the valley next to the river and an old canal, and stops at a little village at the end of the line. The journey takes forty-five minutes. Some people think it takes an hour, but it's much quicker than that! The best views are on the left side of the train. From there you can see the river, the forest and, on a clear day, the mountains. On the right side there's just a hill, so it isn't very interesting. When you arrive, you'll be in the village of Cardale. That's C-A-R-D-A-L-E. There's a lovely café there, next to the old church, and you can go for a walk by the lake. Please don't miss the last train back. It leaves at quarter past five. There's another train at half past three if you're tired. If you haven't bought your tickets yet, they're twelve pounds for adults and six pounds for children. Children under three travel free. Enjoy your day!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Olivia talking to her grandfather about the village where he grew up.",
+      "items": [
+        { "q": "How did Grandad get to school when he was a boy?", "options": ["by bus", "on foot", "by bike"], "answer": 1 },
+        { "q": "What did Grandad usually do after school?", "options": ["He helped on the farm.", "He went fishing in the sea.", "He played football with friends."], "answer": 0 },
+        { "q": "What is the village like now?", "options": ["It is much bigger.", "Most young people have left.", "Lots of tourists go there."], "answer": 2 },
+        { "q": "What does Grandad miss most about the village?", "options": ["how quiet it was", "the friends he had there", "being close to the sea"], "answer": 0 },
+        { "q": "What will Olivia and Grandad do next summer?", "options": ["go to live in the village", "go fishing together", "visit the village together"], "answer": 2 }
+      ],
+      "script": [
+        {"s":"F","t":"Grandad, for my homework I have to ask someone about their childhood. Where did you grow up?"},
+        {"s":"M","t":"In a small village by the sea, Olivia. My parents had a farm on the hill above the beach."},
+        {"s":"F","t":"Did you go to school by bus?"},
+        {"s":"M","t":"There wasn't a bus! And I didn't have a bike until I was fifteen. I walked across the fields every day – it took forty minutes."},
+        {"s":"F","t":"Wow. What did you do after school? Did you play football?"},
+        {"s":"M","t":"Sometimes at the weekend. But after school I had to help my father with the cows and sheep. My friends went fishing, but I never had time."},
+        {"s":"F","t":"Is the village still the same?"},
+        {"s":"M","t":"It's about the same size, but it's very different. Now it's full of visitors in the summer. They come for the beach and the walks along the cliffs. There are lots of cafés and gift shops."},
+        {"s":"F","t":"Do you miss living there?"},
+        {"s":"M","t":"Sometimes. I see my old friends on the phone, and I can visit the sea any time. But I miss the quiet. At night you could only hear the sea and the wind. In the city there's always noise."},
+        {"s":"F","t":"I'd love to see it."},
+        {"s":"M","t":"Then let's go together next summer. I'll show you the farm and the path I walked to school."},
+        {"s":"F","t":"Great!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear two friends talking about a walk in the hills.", "q": "What did the boy think about the walk?", "options": ["It was too long.", "It was too easy.", "There were too many people."], "answer": 2,
+        "script": [ {"s":"F","t":"How was your walk in the hills on Sunday, Jack?"}, {"s":"M","t":"The views were lovely, and twelve kilometres was just right for me – not too hard. But the path was so busy! There were hundreds of people. It was like walking through the city centre on a Saturday."}, {"s":"F","t":"Oh, that's a shame. Go on a weekday next time!"} ] },
+      { "intro": "You will hear a father talking to his daughter about their holiday.", "q": "Why have they changed their holiday plans?", "options": ["There was no space at the campsite.", "The weather is going to be bad.", "There is a problem with the car."], "answer": 0,
+        "script": [ {"s":"M","t":"Lily, I'm afraid we can't go to the campsite by the lake next week."}, {"s":"F","t":"Why not? Is it going to rain?"}, {"s":"M","t":"No, the weather looks fine, and the car's ready. But I called them this morning and they're completely full. So I've booked a little cottage in a village by the river instead."}, {"s":"F","t":"That sounds nice too!"} ] },
+      { "intro": "You will hear a girl talking about a forest school day.", "q": "What did she enjoy most?", "options": ["making a fire", "building a shelter", "climbing trees"], "answer": 1,
+        "script": [ {"s":"F","t":"Yesterday our class had a forest school day in the wood behind our school. We learned how to make a small fire safely, but it was really smoky. Some people climbed trees, but I'm afraid of heights, so I didn't. My favourite thing was building a little house out of branches and leaves with my friends. We all sat inside it and ate our lunch!"} ] },
+      { "intro": "You will hear an announcement on a train.", "q": "What should passengers going to Bridgetown do?", "options": ["change trains at the next station", "stay on the train until the end", "move to the front of the train"], "answer": 0,
+        "script": [ {"s":"M","t":"Good afternoon. This train is going to Seaton. The next station is Hilltop. Passengers for Bridgetown, please get off at Hilltop and change to the small train on platform two, because there is work on the railway line today. Passengers for Seaton, please stay on this train. The café is now open at the front of the train. Thank you."} ] },
+      { "intro": "You will hear a boy talking about his uncle's job.", "q": "How does the boy feel about his uncle's job?", "options": ["He thinks it would be too lonely.", "He thinks it is dangerous.", "He would like to do the same job."], "answer": 2,
+        "script": [ {"s":"M","t":"My uncle works as a ranger in the mountains. He looks after the paths and helps walkers who get lost. People think it must be lonely, but he meets lots of visitors every day. Sometimes he has to go out in snow or storms, but he's always very careful. I'd love to have a job like that when I'm older – working outside every day sounds perfect."} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Jess talking to her mum about their family's day out in the countryside. Which place did each person like best?",
+      "people": ["Dad", "Grandma", "Jess's brother, Sam", "Aunt Lily", "Jess"],
+      "options": ["beach", "castle", "forest", "hill", "lake", "railway", "river", "village"],
+      "answers": ["G", "H", "F", "C", "D"],
+      "script": [
+        {"s":"F","t":"Mum, my teacher wants us to write about our day out last Sunday. Can you help me remember what everyone liked best?"},
+        {"s":"F2","t":"Of course, Jess. Let's start with your dad. He liked the lake, didn't he?"},
+        {"s":"F","t":"He said it was pretty, but he didn't stop talking about the river. He saw people fishing there and now he wants to buy a fishing rod!"},
+        {"s":"F2","t":"That's true! And Grandma loved the castle."},
+        {"s":"F","t":"She said it was too cold inside. Her favourite place was the village – she loved the old houses and the tea shop."},
+        {"s":"F2","t":"Yes, she had three cakes there! What about Sam?"},
+        {"s":"F","t":"Sam's favourite was the old steam train. He talked about the railway all the way home."},
+        {"s":"F2","t":"Of course. And Aunt Lily? She's always going on about the beach."},
+        {"s":"F","t":"We didn't go to the beach this time. She liked the forest best, because she saw a woodpecker and lots of other birds."},
+        {"s":"F2","t":"And you, Jess?"},
+        {"s":"F","t":"I loved walking up the hill. From the top you could see the whole valley and the sea far away. It was the best part of the day."}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Rivers, lakes and the sea", "questions": ["Is there a river or a lake near your home?", "How often do you go to the sea?"], "extended": "Please tell me something about a day you spent by the water." },
+        { "topic": "Villages", "questions": ["Do you know anyone who lives in a village?", "What can you do in a village?"], "extended": "Please tell me something about a village you know." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different days out in the countryside. Do you like these different days out? Say why or why not.",
+      "pictures": [ {"emoji":"🏊","label":"swimming in the sea"}, {"emoji":"🧺","label":"a picnic in a field"}, {"emoji":"🛶","label":"a boat trip on a river"}, {"emoji":"🚂","label":"a train journey through the hills"}, {"emoji":"🏡","label":"visiting a village"} ],
+      "prompts": ["Do you think swimming in the sea is exciting?", "Is having a picnic in a field fun?", "Do you think a boat trip on a river is relaxing?", "Is a long train journey boring?", "Which of these days out do you like best?"],
+      "followup": ["Do you prefer the sea or the mountains? Why?", "Would you like to live in a village? Why or why not?", "Is it better to visit the countryside in summer or in winter?"],
+      "usefulLanguage": ["I think ... is relaxing because ...", "I don't really like ... because ...", "What do you think?", "Me too!", "I'm not sure about that."]
+    }
+  }
+}

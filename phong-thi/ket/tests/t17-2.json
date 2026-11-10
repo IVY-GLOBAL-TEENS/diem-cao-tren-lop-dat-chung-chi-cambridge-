@@ -1,0 +1,187 @@
+{
+  "id": "t17-2", "topic": "17", "testNo": 2,
+  "title": "A Day in the Big City",
+  "reading": {
+    "part1": { "items": [
+      { "kind": "sign", "header": "NORTH STREET UNDERGROUND STATION", "text": "This entrance is closed on Sundays.\nPlease use the entrance in Market Square.",
+        "options": ["The station is closed all day on Sundays.", "On Sundays you have to go into the station a different way.", "The entrance in Market Square doesn't open on Sundays."], "answer": 1 },
+      { "kind": "message", "header": "From: Leila  To: Mum", "text": "Mum, I missed the 5.15 bus because my piano lesson finished late. The next one's at 5.45, so I'll be home about 6.15. Don't wait for me for dinner!",
+        "options": ["Leila's piano lesson didn't happen today.", "Leila wants her mum to come and get her.", "Leila will get home later than she planned."], "answer": 2 },
+      { "kind": "notice", "header": "OLD BRIDGE", "text": "Closed to cars and lorries from 1st to 14th June for repairs.\nPeople on foot and on bikes can still cross.",
+        "options": ["You can still walk across the bridge in early June.", "The bridge will be closed for the whole of June.", "Cyclists will have to use a different bridge."], "answer": 0 },
+      { "kind": "sign", "header": "CITY AIRPORT – CAR PARK A", "text": "Short stay: up to 2 hours – £5\nLong stay: please use Car Park B (free bus to the airport every 10 minutes).",
+        "options": ["All the car parks at the airport cost £5.", "Car Park B is right next to the airport.", "People who want to park for a long time should go to another car park."], "answer": 2 },
+      { "kind": "email", "header": "From: Ollie  To: Dan", "text": "The skate park's closed today, so let's meet at the playground in Victoria Park instead. Same time – 3 o'clock. Bring your ball and we can play football!",
+        "options": ["Ollie has changed the place where they will meet.", "Ollie wants to meet Dan earlier than they planned.", "Dan should bring his skateboard with him."], "answer": 0 },
+      { "kind": "sign", "header": "SCHOOL CROSSING", "text": "A crossing helper is here from 8 to 9 a.m. and 3 to 4 p.m.\nChildren: please always cross the road at this place.",
+        "options": ["The crossing is only open in the morning.", "At some times of day, someone helps children to cross the road here.", "Children must wait here for the helper until 4 p.m."], "answer": 1 }
+    ] },
+    "part2": {
+      "intro": "Three young people write about a city they visited.",
+      "question": "For each question, choose the correct answer.",
+      "texts": [
+        { "label": "A", "title": "Kenji", "text": "Last summer I visited Bangkok with my parents. The streets were very busy and hot, so we usually travelled on the Skytrain, which goes above the roads. My favourite place was a market where people sell fruit and vegetables from boats on the river. I bought a big hat there because the sun was so strong. I'd love to go back, but next time I want to stay for more than four days." },
+        { "label": "B", "title": "Elena", "text": "In April I went on a school trip to Amsterdam. There are more bikes than people there! We hired bikes and rode across lots of little bridges over the canals. I fell off once at a busy crossroads, but I wasn't hurt. In the evening we went to a great pizza restaurant in the main square. I didn't buy any souvenirs, because everything was really expensive." },
+        { "label": "C", "title": "Minh", "text": "My uncle lives in London, and I stayed with him for two weeks. He doesn't have a car, so we used the underground every day. At first I always got lost in the big stations, but my uncle showed me how to read the map. We went to the zoo and walked across Tower Bridge. Then he took me to a football match, which was the best day of my holiday." }
+      ],
+      "items": [
+        { "q": "Who had a small accident?", "answer": "B" },
+        { "q": "Who stayed with a family member?", "answer": "C" },
+        { "q": "Who wanted to spend more time in the city?", "answer": "A" },
+        { "q": "Who didn't spend money on things to take home?", "answer": "B" },
+        { "q": "Who found it hard to find the way at first?", "answer": "C" },
+        { "q": "Who bought something because of the weather?", "answer": "A" },
+        { "q": "Who travelled on a train that goes over the streets?", "answer": "A" }
+      ]
+    },
+    "part3": {
+      "title": "The boy who mapped his city's playgrounds",
+      "text": "Thirteen-year-old Jacob Moore loves playgrounds – but not for himself. \"My little brother Sammy is four, and on Saturdays I often look after him,\" he explains. \"We were bored of the playground at the end of our street, so I started looking for new ones.\"\n\nEvery weekend Jacob and Sammy took a different bus to a different part of the city. Jacob took photos of each playground and wrote notes about it. Was it clean? Were there toilets? Was there a bus stop or a car park near it? \"Some playgrounds were brilliant, but others were dirty, or right next to a busy road,\" he says.\n\nAfter a year, Jacob had visited more than sixty playgrounds. His dad, who works with computers, helped him to put all the information on a website with a map. \"I thought only my mum's friends would look at it,\" Jacob laughs. Now, thousands of parents use it every month.\n\nThe city council was interested too. They used Jacob's notes to decide which playgrounds needed to be repaired first. Last month, the mayor invited Jacob to open a new playground in the city's main square.\n\n\"That was the best day ever, but Sammy was more excited about the slide than about meeting the mayor!\" Jacob says. His next plan is to add parks and swimming pools to his map. \"But I need some help now,\" he says. \"I have lots of homework this year, and I don't have much time.\"",
+      "items": [
+        { "q": "Why did Jacob start visiting different playgrounds?", "options": ["He wanted to find new places to take his brother.", "His mum asked him to write about them.", "The playground near his home had closed."], "answer": 0 },
+        { "q": "What did Jacob write notes about?", "options": ["the prices in cafés near each playground", "how many children used each playground", "how easy it was to get to each playground"], "answer": 2 },
+        { "q": "What surprised Jacob about the website?", "options": ["His dad knew how to build it.", "So many people use it.", "His mum's friends didn't like it."], "answer": 1 },
+        { "q": "How did the city council use Jacob's work?", "options": ["to plan a new car park", "to choose which playgrounds to repair", "to make a new bus map"], "answer": 1 },
+        { "q": "What does Jacob say about his next plan?", "options": ["He wants to finish it quickly.", "Sammy is going to help him.", "He doesn't have much free time for it."], "answer": 2 }
+      ]
+    },
+    "part4": {
+      "title": "Tower Bridge",
+      "text": "Tower Bridge is one of the most famous bridges in the world. It crosses the River Thames in London, close to the Tower of London. It took eight years to {19}, and it opened in 1894.\n\nThe bridge is special because the middle part can {20} up. This lets tall ships go along the river. In the past this happened many times every day, but today there are fewer big ships, so it happens less often. Before the bridge opens, a bell rings, and cars, buses and people must {21} for it to close again.\n\nAt the top of the bridge, two high walkways {22} the two towers. Visitors can walk across them and enjoy wonderful {23} of the city. Parts of the walkways have a glass floor, so you can look down at the traffic and the boats 42 metres below you!\n\nIf you would like to see the bridge open, you can {24} the times on its website before you go.",
+      "items": [
+        { "options": ["rise", "stand", "build"], "answer": 2 },
+        { "options": ["open", "turn", "put"], "answer": 0 },
+        { "options": ["hope", "wait", "look"], "answer": 1 },
+        { "options": ["join", "meet", "add"], "answer": 0 },
+        { "options": ["shows", "scenes", "views"], "answer": 2 },
+        { "options": ["look", "find", "search"], "answer": 1 }
+      ]
+    },
+    "part5": {
+      "texts": [
+        { "header": "From: Rachel  To: Emma", "text": "Hi Emma,\nI'm so happy you're coming to visit next week! When you arrive {25} the bus station, I'll be there waiting for you. There's {26} lot to see in our city. On Saturday we can go to the market – it's the biggest one {27} the country! I've also got tickets for the zoo on Sunday.\nRachel" },
+        { "header": "From: Emma  To: Rachel", "text": "Hi Rachel,\nThanks! My bus gets in at 11.30. I've never been to a big city before, so I'm really excited. I hope it won't be {28} busy! Can we go to the park {29} well? I'd like to see the famous fountain. And please show me {30} to use the underground!\nEmma" }
+      ],
+      "answers": [ ["at"], ["a"], ["in"], ["too", "very", "so"], ["as"], ["how"] ]
+    }
+  },
+  "writing": {
+    "part6": {
+      "situation": "A new market has opened in the main square of your town. Write an email to your English friend, Jo.",
+      "points": ["say when the market is open", "say what you can buy there", "invite Jo to go there with you"],
+      "model": "Hi Jo,\nThere's a new market in the main square! It's open every Saturday and Sunday from nine until four. You can buy fruit, clothes, old books and delicious street food. Would you like to go there with me this weekend?\nLove,\nThao"
+    },
+    "part7": {
+      "instruction": "Look at the three pictures. Write the story shown in the pictures. Write 35 words or more.",
+      "pictures": [
+        { "emoji": "🚗🛣️✈️", "caption": "a family in a car on a motorway; a sign shows the way to the airport" },
+        { "emoji": "🚗⛽😟", "caption": "the car stopped at the side of the road; the father is looking worried and pointing at a petrol station not far away" },
+        { "emoji": "🏃✈️😅", "caption": "the family running into the airport with their bags, just in time" }
+      ],
+      "model": "Last summer Jack's family drove to the airport to catch a plane to Spain. Half way along the motorway, the car stopped because there was no petrol! Luckily, there was a petrol station near them. Dad walked there and came back with some petrol. They arrived at the airport very late, but they caught their plane just in time."
+    }
+  },
+  "listening": {
+    "part1": { "items": [
+      { "q": "Where did the boy leave his bag?",
+        "options": [ {"emoji":"🚌","label":"on the bus"}, {"emoji":"🚏","label":"at the bus stop"}, {"emoji":"🏪","label":"in the shop"} ], "answer": 0,
+        "script": [ {"s":"F","t":"Ali, where's your school bag?"}, {"s":"M","t":"Oh no! I had it when I was waiting at the bus stop."}, {"s":"F","t":"Did you leave it in the shop when you bought your drink?"}, {"s":"M","t":"No, I remember carrying it out of the shop. I put it on the seat next to me on the bus... and I forgot it there!"}, {"s":"F","t":"Let's phone the bus station."} ] },
+      { "q": "How does the boy get to the zoo?",
+        "options": [ {"emoji":"↩️","label":"left at the roundabout"}, {"emoji":"↪️","label":"right at the crossroads"}, {"emoji":"🌉","label":"over the bridge"} ], "answer": 2,
+        "script": [ {"s":"M","t":"Excuse me, how do I get to the zoo, please?"}, {"s":"F","t":"Go straight over the roundabout – don't turn left there, that's the road to the motorway. Then you come to the crossroads."}, {"s":"M","t":"Do I turn right there?"}, {"s":"F","t":"No, that goes to the station. Go straight on and cross the bridge. The zoo is just on the other side of the river."} ] },
+      { "q": "What will the girl buy at the market?",
+        "options": [ {"emoji":"🍓","label":"strawberries"}, {"emoji":"🧀","label":"cheese"}, {"emoji":"💐","label":"flowers"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Dad, I'm going to the market. Do we need any strawberries?"}, {"s":"M","t":"No, Grandma brought some yesterday. Can you get some cheese? There's only a little bit left."}, {"s":"F","t":"Sure. And what about flowers for Mum's birthday?"}, {"s":"M","t":"I've already bought them. They're hidden in the garage!"} ] },
+      { "q": "What time will the woman's train leave?",
+        "options": [ {"emoji":"🕓","label":"4:10"}, {"emoji":"🕟","label":"4:40"}, {"emoji":"🕔","label":"5:10"} ], "answer": 1,
+        "script": [ {"s":"F","t":"Excuse me, has the ten past four train to Bristol left yet?"}, {"s":"M","t":"No, it's running late today, I'm afraid. It'll leave at about twenty to five."}, {"s":"F","t":"Oh dear. Is the ten past five train late too?"}, {"s":"M","t":"No, that one's on time. But the twenty to five will get you there first."}, {"s":"F","t":"OK, I'll wait for that one, then."} ] },
+      { "q": "Where does the boy's aunt live now?",
+        "options": [ {"emoji":"🏙️","label":"in the city centre"}, {"emoji":"🌳","label":"near the park"}, {"emoji":"🛫","label":"near the airport"} ], "answer": 2,
+        "script": [ {"s":"F","t":"Does your aunt still live in the city centre?"}, {"s":"M","t":"No, she moved last month. She wanted a house near the park, but they were all too expensive."}, {"s":"F","t":"So where is she now?"}, {"s":"M","t":"She's got a flat on the corner of a street near the airport. She works there, so it's perfect for her."} ] }
+    ] },
+    "part2": {
+      "intro": "You will hear a woman on the radio talking about a special day in the city.",
+      "title": "Car-Free Sunday",
+      "items": [
+        { "label": "Date: Sunday ______ June", "answer": ["14", "14th", "fourteenth"] },
+        { "label": "Free bikes in: ______ Square", "answer": ["kingsley"] },
+        { "label": "Live music on the:", "answer": ["bridge"] },
+        { "label": "Drivers can park behind the:", "answer": ["hospital"] },
+        { "label": "Underground ticket: £", "answer": ["1", "one"] }
+      ],
+      "script": [ {"s":"F","t":"Good morning! Here's some news about Car-Free Sunday. On Sunday the fourteenth of June, there will be no cars in the city centre from ten in the morning until six in the evening. Last year it was on the seventh, but this year it's a week later. So how can you get around? Well, you can borrow a bike for free! The bikes will be in Kingsley Square. That's K-I-N-G-S-L-E-Y. There'll be lots of things to do. Children can play games in the streets, and there's a big market in the main square. My favourite part is the live music. Bands will play on the bridge over the river all afternoon, so you can listen while you look at the boats. If you're coming into the city by car, you can't drive into the centre. Please don't leave your car at the station, because the car park there will be full. Use the big car park behind the hospital instead, and then take a free bus into town. And if you prefer the underground, tickets will only cost one pound all day. Usually they're three pounds, so that's a great price!"} ]
+    },
+    "part3": {
+      "intro": "You will hear Tom talking to his friend Lucy about moving to a new flat.",
+      "items": [
+        { "q": "Why is Tom's family moving?", "options": ["Dad has got a new job in the city.", "Their old flat is too small.", "They want to live near Grandma."], "answer": 1 },
+        { "q": "What does Tom like most about the new flat?", "options": ["the view from his window", "the size of his bedroom", "the big kitchen"], "answer": 0 },
+        { "q": "What is near the new flat?", "options": ["a playground", "an underground station", "a market"], "answer": 2 },
+        { "q": "How will Tom get to school?", "options": ["on foot", "by bus", "by bike"], "answer": 0 },
+        { "q": "When will Lucy visit Tom's new flat?", "options": ["on Saturday", "on Sunday", "next weekend"], "answer": 1 }
+      ],
+      "script": [
+        {"s":"F","t":"Hi Tom. I heard you're moving. Is it because of your dad's new job?"},
+        {"s":"M","t":"No, Dad still works in the same office. It's because our flat's too small now that my baby sister's here. We need another bedroom."},
+        {"s":"F","t":"So where's the new flat?"},
+        {"s":"M","t":"It's on the tenth floor of a building near the river. From my bedroom window I can see the bridge and the boats. It's amazing, especially at night."},
+        {"s":"F","t":"Is your bedroom bigger?"},
+        {"s":"M","t":"Actually, it's a bit smaller than my old one. But I don't mind. The kitchen's huge – Mum loves it."},
+        {"s":"F","t":"What's the area like?"},
+        {"s":"M","t":"There's a big market just across the street. You can buy everything there. There was a playground too, but they closed it last year. And the underground station is quite far – about fifteen minutes."},
+        {"s":"F","t":"How will you get to school? Will you take the bus?"},
+        {"s":"M","t":"I thought I'd have to. But it's only a ten-minute walk, along the river and across the square. My bike's too old, so I'll walk."},
+        {"s":"F","t":"Can I come and see it?"},
+        {"s":"M","t":"Of course! We're moving on Saturday, so everything will be in boxes. Come on Sunday afternoon."},
+        {"s":"F","t":"Great. See you then!"}
+      ]
+    },
+    "part4": { "items": [
+      { "intro": "You will hear a girl talking about a class trip to the city.", "q": "What did she enjoy most?", "options": ["seeing the city from high up", "shopping at the market", "the boat trip on the river"], "answer": 0,
+        "script": [ {"s":"F","t":"Our class trip to the city was great. In the morning we went on a boat on the river, but it was raining, so we couldn't see much. Then we went to the market, but I didn't have much money. The best part was the tower in the main square. We went up to the top in a lift, and you could see every street and park in the city. Brilliant!"} ] },
+      { "intro": "You will hear a man calling a taxi company.", "q": "Why is the man calling?", "options": ["to book a taxi to the airport", "to ask about the price of a journey", "to say he left something in a taxi"], "answer": 2,
+        "script": [ {"s":"M","t":"Hello, I took one of your taxis from the airport to the city centre this morning. The journey was fine and the price was OK. But when I got to my hotel, I realised my phone wasn't in my pocket. I think it's on the back seat of the taxi. It's a black phone in a red case. Can you check, please?"} ] },
+      { "intro": "You will hear two friends talking about a new roundabout in their town.", "q": "What does the boy think about the new roundabout?", "options": ["It has made the traffic better.", "It is dangerous for cyclists.", "It doesn't look very nice."], "answer": 0,
+        "script": [ {"s":"F","t":"Have you seen the new roundabout at the end of Station Road? I think it's really ugly."}, {"s":"M","t":"It isn't beautiful, I know. But before, there were traffic lights there and the cars waited for ages. Now the traffic moves much faster. My bus gets to school ten minutes earlier."}, {"s":"F","t":"Maybe. But I'm scared to cycle round it."} ] },
+      { "intro": "You will hear a teacher talking to her students at the zoo.", "q": "What does the teacher want the students to do?", "options": ["have their lunch now", "meet at the entrance at two o'clock", "buy their tickets at the shop"], "answer": 1,
+        "script": [ {"s":"F","t":"OK, everyone, I've got your tickets, so you can go in now. You can walk around in your groups and have lunch whenever you're hungry. But please be back here at the main entrance at two o'clock, because the bus is leaving at quarter past. Don't be late! And if you want to go to the zoo shop, do it before two."} ] },
+      { "intro": "You will hear a boy talking about his journey to school.", "q": "How does the boy feel about his journey to school?", "options": ["He finds it relaxing.", "He thinks it takes too long.", "He is worried about the traffic."], "answer": 0,
+        "script": [ {"s":"M","t":"Every morning I take the underground to school. It takes forty minutes, which sounds like a long time, but I don't mind at all. I always get a seat, so I listen to music or read a book. My mum drives to work and she gets angry in the traffic, but I'm always calm when I arrive at school. It's my favourite part of the day!"} ] }
+    ] },
+    "part5": {
+      "intro": "You will hear Hannah talking to her friend Josh about a photo competition called 'My City'. Which place did each person take a photo of?",
+      "people": ["Hannah", "Josh", "Mia", "Mr Brown", "Hannah's brother"],
+      "options": ["airport", "bridge", "bus station", "market", "playground", "roundabout", "square", "underground"],
+      "answers": ["B", "D", "H", "G", "A"],
+      "script": [
+        {"s":"F","t":"Josh, have you finished your photo for the 'My City' competition?"},
+        {"s":"M","t":"Yes! What did you choose, Hannah? The playground in the park? You were taking pictures there last week."},
+        {"s":"F","t":"Those weren't very good. In the end I took one of the bridge at night, with all the lights in the river."},
+        {"s":"M","t":"Nice. Mine's of the market. I took it early in the morning when the people were putting out the fruit and vegetables."},
+        {"s":"F","t":"I love that! What about Mia? I think she wanted to photograph the bus station."},
+        {"s":"M","t":"She went there, but it was too busy. So she went down into the underground and took a photo of a train coming into the station. It's really good."},
+        {"s":"F","t":"And our teacher, Mr Brown, is entering too, isn't he?"},
+        {"s":"M","t":"Yes. He took a photo of the old square with the clock tower. It's in black and white."},
+        {"s":"F","t":"My brother's entering too. He wanted to take a photo of the big roundabout with the flowers, but Mum said it was too dangerous."},
+        {"s":"M","t":"So what did he do?"},
+        {"s":"F","t":"He went to the airport with Dad and took a photo of the planes taking off. He's sure he'll win!"}
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "phase1": ["What's your name?", "How old are you?", "Where do you live?", "Who do you live with?"],
+      "phase2": [
+        { "topic": "Visiting cities", "questions": ["Which cities have you visited?", "Do you like big cities? Why?"], "extended": "Please tell me something about a city you would like to visit." },
+        { "topic": "Places for young people", "questions": ["Where do young people meet in your town?", "Is there a park or playground near your home?"], "extended": "Please tell me something about what you do in your town at the weekend." }
+      ]
+    },
+    "part2": {
+      "task": "Here are some pictures that show different ways of travelling around a city. Do you like these different ways of travelling? Say why or why not.",
+      "pictures": [ {"emoji":"🚌","label":"bus"}, {"emoji":"🚇","label":"underground"}, {"emoji":"🚲","label":"bike"}, {"emoji":"🚶","label":"walking"}, {"emoji":"🚕","label":"taxi"} ],
+      "prompts": ["Do you think travelling by bus is boring?", "Is the underground a good way to travel?", "Do you think cycling in a city is dangerous?", "Is walking around a city fun?", "Which of these ways of travelling do you like best?"],
+      "followup": ["How do you usually travel around your town?", "Do you think there are too many cars in cities? Why?", "Would you like to live in a big city? Why or why not?"],
+      "usefulLanguage": ["I think ... is quick because ...", "I don't like ... because ...", "What about you?", "I agree.", "I'm not sure. Maybe ..."]
+    }
+  }
+}

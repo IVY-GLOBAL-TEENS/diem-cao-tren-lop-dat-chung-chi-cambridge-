@@ -1,0 +1,232 @@
+{
+ "id": "t05-2",
+ "reading": {
+  "1": "Đáp án B. Biển ghi: “Children under 16 flying alone must show a form signed by a parent” – trẻ đi máy bay một mình cần giấy tờ có chữ ký của bố mẹ. A sai vì trẻ vẫn được bay một mình nếu có giấy này.",
+  "2": "Đáp án A. Bố viết: “Can you put them in the blue bag with the passports” – nhờ Mia cho giấy tờ vào túi. B sai vì giấy đã in xong và đang để trên máy in; C sai vì hộ chiếu đang ở trong túi xanh.",
+  "3": "Đáp án C. Biển ghi: “Payment by card only – sorry, no cash” – chỉ trả bằng thẻ. B sai vì người thuê xe “must be over 21”.",
+  "4": "Đáp án B. Hugo viết: “I bought you something there – you'll see it on Saturday!” – cậu đã mua quà cho bà. A sai vì khách sạn ở cạnh bãi biển, còn hòn đảo chỉ là nơi đi thuyền đến chơi.",
+  "5": "Đáp án C. Vé ghi: “Students: show your student card for half price” – học sinh xuất trình thẻ được giảm nửa giá. A sai vì phải giữ vé (“Keep your ticket”); B sai vì vé “for one day only”.",
+  "6": "Đáp án A. Khách sạn viết: “Please fill in the form … and send it back before you arrive” – ông Trần phải gửi thông tin trước khi đến. B sai vì “Breakfast is free”; C sai vì thực đơn bữa tối ở trong phòng.",
+  "7": "Đáp án A (Lucas). Lucas kể: “My dad started doing the same thing when he was young” – cậu học theo bố.",
+  "8": "Đáp án B (Thu). Thu nói: “Sometimes I even keep the menu from a restaurant” – giữ lại thực đơn của nhà hàng nơi đã ăn.",
+  "9": "Đáp án C (Grace). Grace nói: “Some of them never arrive – one from Greece got lost” – có tấm bưu thiếp bị thất lạc.",
+  "10": "Đáp án A (Lucas). Lucas nói về vé sở thú ở Berlin: “I was only three, so I don't remember the trip” – có kỷ vật từ chuyến đi mà cậu không nhớ.",
+  "11": "Đáp án B (Thu). Thu kể: “My English teacher read some of it” – cô giáo tiếng Anh đã đọc nhật ký du lịch của bạn ấy.",
+  "12": "Đáp án C (Grace). Grace nói: “My little brother thinks it's a crazy idea” – em trai không hiểu sở thích của bạn ấy.",
+  "13": "Đáp án B (Thu). Thu nói: “I want to be a travel writer when I'm older” – muốn trở thành nhà văn viết về du lịch.",
+  "14": "Đáp án B. Trong bài: “he asks them to fill in a form and show their passports” – cậu xem giấy tờ (hộ chiếu) của khách. Bài không nói cậu dẫn khách lên phòng hay mang hành lý.",
+  "15": "Đáp án A. Carlos nói: “My dad's English isn't very good, so he's happy that I can help” – bố không giỏi tiếng Anh.",
+  "16": "Đáp án C. Trong bài: “Before that, some guests ordered fish when they really wanted chicken!” – khách không hiểu thực đơn cũ nên gọi nhầm món.",
+  "17": "Đáp án B. Trong bài: “at eight o'clock in the evening he's back at work, giving guests their bills” – buổi tối cậu đưa hóa đơn cho khách. Bơi là việc buổi chiều (A sai); cậu chỉ trả lời câu hỏi về các chuyến đi thuyền (C sai).",
+  "18": "Đáp án C. Trong bài: “his parents pay for something special for him every year. This summer he's going to a football camp in Spain” – bố mẹ trả tiền cho chuyến đi. A sai vì “Carlos doesn't get money for his work”.",
+  "19": "Đáp án B (allow). Cấu trúc “allow somebody to do something” = cho phép ai làm gì. “let” và “make” không đi với “to” (let somebody do, make somebody do), nên sai ngữ pháp.",
+  "20": "Đáp án C (described). “describe what … looked like” = miêu tả trông như thế nào, và “describe” đi trực tiếp với tân ngữ. “spoke” và “talked” cần thêm giới từ (talk about).",
+  "21": "Đáp án A (began). “begin to + động từ” = bắt đầu làm gì: began to appear. “opened” (mở) và “went” (đi) không hợp nghĩa.",
+  "22": "Đáp án B (has). “has information” = có/chứa thông tin. “does information” và “makes information” không đúng nghĩa.",
+  "23": "Đáp án C (take). “take care of” = giữ gìn, chăm sóc, là cụm từ cố định. Không nói “have care of” hay “make care of”.",
+  "24": "Đáp án A (in). Cụm cố định “in case” = phòng khi, đề phòng trường hợp. Không nói “for case” hay “on case”.",
+  "25": "Đáp án: a (chấp nhận cả “the”). “booked a hotel” = đặt một khách sạn; dùng mạo từ “a” trước danh từ số ít đếm được được nhắc đến lần đầu.",
+  "26": "Đáp án: the (chấp nhận cả “my”). “the photo in it” = tấm ảnh trong hộ chiếu – dùng “the” vì chỉ một vật cụ thể, đã xác định.",
+  "27": "Đáp án: one (chấp nhận cả “any”). “I haven't got one from France” – “one” thay cho “a postcard” để không lặp lại; trong câu phủ định cũng có thể dùng “any”.",
+  "28": "Đáp án: hers. Đại từ sở hữu “hers” = cái của cô ấy (her passport), dùng để không lặp lại danh từ.",
+  "29": "Đáp án: are. Thì hiện tại tiếp diễn nói về kế hoạch tương lai: “When are you coming back?” – chủ ngữ “you” đi với “are”.",
+  "30": "Đáp án: when (chấp nhận cả “after”, “once”). “when you get home” = khi bạn về đến nhà; sau “when” dùng thì hiện tại để nói về tương lai."
+ },
+ "listening": {
+  "1": "Đáp án C (nhật ký). Zara nói: “Oh no, it's still on my desk!” khi bố hỏi về cuốn nhật ký. Hộ chiếu và vé thì đã ở trong túi rồi.",
+  "2": "Đáp án A (£12). Noah được giảm nửa giá: “So only twelve pounds?” – “Yes.” £24 là giá vé thường, £20 là số tiền bạn Jack phải trả.",
+  "3": "Đáp án B (nhà hàng hải sản). Mẹ nói “Let's try the fish restaurant by the harbour” và bố nói “OK, let's go there.” Nhà hàng khách sạn quá đắt, pizza thì tối qua đã ăn rồi.",
+  "4": "Đáp án C (lịch). Bạn nam nói: “I'll get her this calendar with pictures of the castle.” Bưu thiếp thì chỉ gửi thêm, còn sách hướng dẫn thì bà đã có rồi.",
+  "5": "Đáp án B (giấy phép lái xe). Người phụ nữ nói: “What I really need to see is your driving licence.” Hộ chiếu để ở khách sạn cũng không sao, và chưa cần trả bằng thẻ ngay.",
+  "6": "Đáp án: Tuesday. “We'll leave school by coach very early on Tuesday the fourteenth.” Monday là ngày lễ nên không đi.",
+  "7": "Đáp án: passport. “Please bring your passport to school next week.” Không mang vé: “Don't bring your ticket”.",
+  "8": "Đáp án: Quinn. “give the forms to Mrs Quinn … That's Q-U-I-N-N.”",
+  "9": "Đáp án: 15. “It costs fifteen pounds.” Số 20 là giá năm ngoái (“Last year it was twenty”).",
+  "10": "Đáp án: diary. “you'll have to write in a diary every evening.” Không cần mang laptop.",
+  "11": "Đáp án B (tàu hỏa). Sara nói: “So we went by train.” Vé máy bay quá đắt, còn bố không muốn lái xe đường xa.",
+  "12": "Đáp án C (ví). Sara nói: “Dad lost his wallet in the station in Paris.” Hộ chiếu và vé vẫn còn trong túi của mẹ.",
+  "13": "Đáp án A (ở nhà người thân). Sara nói: “my aunt lives in Florence, so we stayed in her flat.” Khách sạn chỉ được xem trên mạng thôi.",
+  "14": "Đáp án A. Sara nói: “I had your address and everything. But I forgot to post it.” Vì vậy B và C sai.",
+  "15": "Đáp án C. Sara nói: “the best thing was the boat trip to a small island.” Đồ ăn và bảo tàng cũng hay nhưng không phải điều Sara thích nhất.",
+  "16": "Đáp án C. Người phụ nữ nói: “it's a ticket for Screen 3 … It's a different film.” Cậu bé đã trả tiền và đủ 14 tuổi, nên A và B sai.",
+  "17": "Đáp án B. Bạn nữ nói: “It's for the library.” Câu lạc bộ bơi là tháng sau (“that's next month”).",
+  "18": "Đáp án A (người đưa thư). Ông nói: “I collect the letters, cards and magazines … and then I walk round the town with them.” Ông chỉ đọc báo trong giờ nghỉ, không viết báo.",
+  "19": "Đáp án C. Sofia nói: “thank you so much for the book” – gọi để cảm ơn món quà. Bữa tiệc chỉ được nhắc đến, không phải lời mời.",
+  "20": "Đáp án B (tự hào). Cậu bé nói: “they wrote about my goal! I've never been in a newspaper before. I'm going to buy five copies.”",
+  "21": "Hộ chiếu của Ethan – B (in Mum's handbag). Mẹ nói: “I've got all the passports in my handbag.”",
+  "22": "Vé tàu – F (on the printer). Mẹ nói: “I forgot to take them off the printer. They're still there.” Túi xanh (A) là chỗ dễ nhầm vì Ethan hỏi đến.",
+  "23": "Giấy bảo hiểm – A (in the blue bag). “I've put them in the blue bag now.” Ngăn kéo bếp (D) là chỗ để trước đây.",
+  "24": "Nhật ký của Ethan – G (in the suitcase). Mẹ bảo “Put it in the suitcase” và Ethan nói “I've just put it in the suitcase.” Cuốn nhật ký lúc đầu ở trên bàn học (H), và không cho vào ba lô vì ba lô đã đầy.",
+  "25": "Giấy phép lái xe của bố – E (in Dad's jacket). “Dad's just looked – you're right, it's in his jacket!” Bố tưởng để trong xe (C) nhưng không phải."
+ },
+ "vocab": [
+  {
+   "w": "passport",
+   "pos": "n",
+   "ipa": "/ˈpɑːspɔːt/",
+   "vi": "hộ chiếu",
+   "ex": "Please have your passport and ticket ready."
+  },
+  {
+   "w": "ticket",
+   "pos": "n",
+   "ipa": "/ˈtɪkɪt/",
+   "vi": "vé",
+   "ex": "Mum has bought the train tickets."
+  },
+  {
+   "w": "insurance",
+   "pos": "n",
+   "ipa": "/ɪnˈʃʊərəns/",
+   "vi": "bảo hiểm",
+   "ex": "Every student also needs travel insurance."
+  },
+  {
+   "w": "driving licence",
+   "pos": "n",
+   "ipa": "/ˈdraɪvɪŋ ˌlaɪsns/",
+   "vi": "giấy phép lái xe",
+   "ex": "You must show your driving licence to hire a car."
+  },
+  {
+   "w": "form",
+   "pos": "n",
+   "ipa": "/fɔːm/",
+   "vi": "mẫu đơn, phiếu",
+   "ex": "Your parents need to fill in the yellow form and sign it."
+  },
+  {
+   "w": "document",
+   "pos": "n",
+   "ipa": "/ˈdɒkjumənt/",
+   "vi": "giấy tờ, tài liệu",
+   "ex": "Young people flying alone need a document from a parent."
+  },
+  {
+   "w": "postcard",
+   "pos": "n",
+   "ipa": "/ˈpəʊstkɑːd/",
+   "vi": "bưu thiếp",
+   "ex": "I buy a postcard in every town I visit."
+  },
+  {
+   "w": "diary",
+   "pos": "n",
+   "ipa": "/ˈdaɪəri/",
+   "vi": "nhật ký",
+   "ex": "I always take a diary on holiday."
+  },
+  {
+   "w": "menu",
+   "pos": "n",
+   "ipa": "/ˈmenjuː/",
+   "vi": "thực đơn",
+   "ex": "Carlos wrote a new menu for the hotel restaurant."
+  },
+  {
+   "w": "bill",
+   "pos": "n",
+   "ipa": "/bɪl/",
+   "vi": "hóa đơn",
+   "ex": "In the evening he gives guests their bills."
+  },
+  {
+   "w": "card",
+   "pos": "n",
+   "ipa": "/kɑːd/",
+   "vi": "thẻ; thiệp",
+   "ex": "Show your student card for half price."
+  },
+  {
+   "w": "booking",
+   "pos": "n",
+   "ipa": "/ˈbʊkɪŋ/",
+   "vi": "sự đặt chỗ (phòng, vé)",
+   "ex": "Thank you for your booking."
+  },
+  {
+   "w": "book",
+   "pos": "v",
+   "ipa": "/bʊk/",
+   "vi": "đặt (phòng, vé)",
+   "ex": "Mum has booked a hotel near the river."
+  },
+  {
+   "w": "hire",
+   "pos": "v",
+   "ipa": "/ˈhaɪə(r)/",
+   "vi": "thuê",
+   "ex": "He needs his licence to hire a car in Spain."
+  },
+  {
+   "w": "guest",
+   "pos": "n",
+   "ipa": "/ɡest/",
+   "vi": "khách (ở khách sạn)",
+   "ex": "When new guests arrive, he asks them to fill in a form."
+  },
+  {
+   "w": "wallet",
+   "pos": "n",
+   "ipa": "/ˈwɒlɪt/",
+   "vi": "ví (tiền)",
+   "ex": "Dad lost his wallet in the station in Paris."
+  },
+  {
+   "w": "suitcase",
+   "pos": "n",
+   "ipa": "/ˈsuːtkeɪs/",
+   "vi": "va li",
+   "ex": "Put your diary in the suitcase."
+  },
+  {
+   "w": "half price",
+   "pos": "phrase",
+   "ipa": "/hɑːf ˈpraɪs/",
+   "vi": "nửa giá",
+   "ex": "I showed my student card, so it was half price."
+  },
+  {
+   "w": "fill in",
+   "pos": "phr v",
+   "ipa": "/fɪl ˈɪn/",
+   "vi": "điền vào (phiếu, đơn)",
+   "ex": "Please fill in the form and send it back."
+  },
+  {
+   "w": "sign",
+   "pos": "v",
+   "ipa": "/saɪn/",
+   "vi": "ký tên",
+   "ex": "You must show a form signed by a parent."
+  },
+  {
+   "w": "post",
+   "pos": "v",
+   "ipa": "/pəʊst/",
+   "vi": "gửi qua bưu điện",
+   "ex": "I wrote you a postcard, but I forgot to post it."
+  },
+  {
+   "w": "take care of",
+   "pos": "phrase",
+   "ipa": "/teɪk ˈkeər əv/",
+   "vi": "giữ gìn, chăm sóc",
+   "ex": "You must take care of your passport."
+  },
+  {
+   "w": "in case",
+   "pos": "phrase",
+   "ipa": "/ɪn ˈkeɪs/",
+   "vi": "phòng khi",
+   "ex": "Keep a photo of your passport on your phone in case you lose it."
+  },
+  {
+   "w": "describe",
+   "pos": "v",
+   "ipa": "/dɪˈskraɪb/",
+   "vi": "miêu tả",
+   "ex": "Old passports described what the traveller looked like."
+  }
+ ]
+}
