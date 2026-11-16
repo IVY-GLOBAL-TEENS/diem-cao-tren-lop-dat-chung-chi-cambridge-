@@ -44,6 +44,7 @@
     }
     return [...out];
   }
+  const EX = (c) => c.exam_label || "KET", EXP = (c) => c.exam_parts || KET_INFO;
   const sessKet = (s) => (s.ket_codes && s.ket_codes.length ? s.ket_codes : ketParts([s.ket_part, ...s.in_class.map((a) => a.activity)].join(" · ")));
 
   function timelineBar(items, pct) {
@@ -220,11 +221,11 @@
       </div>`;
   }
 
-  const TABS = [["", "Tổng quan"], ["lo-trinh", "Lộ trình"], ["ngu-phap", "Ngữ pháp"], ["ket", "Bản đồ KET"]];
+  const TABS = (c) => [["", "Tổng quan"], ["lo-trinh", "Lộ trình"], ["ngu-phap", "Ngữ pháp"], ["ket", "Bản đồ " + EX(c)]];
   function courseHead(c, tab) {
     return `<div class="crumbs"><a href="#/giao-vien">Góc giáo viên</a> › ${esc(c.name)}</div>
       <div class="page-head"><div><span class="eyebrow">${esc(c.cefr)}</span><h1>${esc(c.name)}</h1><p class="lead">${esc(c.note)} · ${esc(c.book)}</p></div></div>
-      ${ready(c) ? `<div class="tabs">${TABS.map(([k, l]) => `<a class="tab ${k === tab ? "on" : ""}" href="#/giao-vien/${c.id}${k ? "/" + k : ""}">${l}</a>`).join("")}</div>` : ""}`;
+      ${ready(c) ? `<div class="tabs">${TABS(c).map(([k, l]) => `<a class="tab ${k === tab ? "on" : ""}" href="#/giao-vien/${c.id}${k ? "/" + k : ""}">${l}</a>`).join("")}</div>` : ""}`;
   }
 
   function pageCourse(c) {
@@ -233,7 +234,7 @@
     const total = Object.values(m).reduce((a, b) => a + b, 0);
     const units = c.units.map((u) => `<div class="card unit-card"><div class="top"><span class="unit-no">${esc(u.unit)}</span><span class="chip">Buổi ${esc(u.sessions)}${u.hp ? " · HP " + esc(u.hp) : ""}</span></div><h3>${esc(u.title)}</h3><div class="muted" style="font-size:14px">${esc(u.theme)}</div>
       <dl class="kv"><dt>Ngữ pháp</dt><dd>${esc(u.grammar)}</dd>${has(u.cando_speaking) ? `<dt>Nói</dt><dd>${esc(u.cando_speaking)}</dd>` : ""}${has(u.cando_writing) ? `<dt>Viết</dt><dd>${esc(u.cando_writing)}</dd>` : ""}${has(u.project) ? `<dt>Dự án</dt><dd>${esc(u.project)}</dd>` : ""}</dl></div>`).join("");
-    const mods = c.modules ? `<h2>5 học phần</h2><div class="table-wrap"><table><thead><tr><th>Học phần</th><th>Buổi (tuần)</th><th>Unit</th><th>Ngữ pháp trọng tâm</th><th>Part KET giới thiệu</th><th>Sự kiện</th></tr></thead><tbody>
+    const mods = c.modules ? `<h2>5 học phần</h2><div class="table-wrap"><table><thead><tr><th>Học phần</th><th>Buổi (tuần)</th><th>Unit</th><th>Ngữ pháp trọng tâm</th><th>Part ${EX(c)} ${c.exam_label ? "luyện" : "giới thiệu"}</th><th>Sự kiện</th></tr></thead><tbody>
       ${c.modules.map((x) => `<tr><td style="font-weight:700">${esc(x.name)}</td><td>${esc(x.sessions)}</td><td>${esc(x.units)}</td><td style="font-size:14px">${esc(x.grammar)}</td><td style="font-size:14px">${esc(x.ket)}</td><td style="font-size:14px">${esc(x.events)}</td></tr>`).join("")}</tbody></table></div>` : "";
     return courseHead(c, "") + `
       <div class="grid g4"><div class="card stat"><b>${c.total_sessions}</b><span>buổi học</span></div><div class="card stat"><b>${c.session_minutes}'</b><span>mỗi buổi · ${c.sessions_per_week} buổi/tuần</span></div>
@@ -286,10 +287,10 @@
     const used = new Set(s.in_class.map((a) => a.category));
     return `<div class="crumbs"><a href="#/giao-vien">Góc giáo viên</a> › <a href="#/giao-vien/${c.id}/lo-trinh">${esc(c.name)} · Lộ trình</a> › Buổi ${s.session_no}</div>
       <span class="eyebrow">Buổi ${s.session_no} · Tuần ${s.week}</span><h1>${esc(s.focus)}</h1>
-      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:10px">${chipType(s.type)}<span class="chip">${esc(s.unit)} · ${esc(s.unit_title)}</span>${has(s.sb_pages) ? `<span class="chip">SB ${esc(s.sb_pages)}</span>` : ""}${sessKet(s).map((p) => `<span class="chip brand">KET ${p}</span>`).join("")}</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:10px">${chipType(s.type)}<span class="chip">${esc(s.unit)} · ${esc(s.unit_title)}</span>${has(s.sb_pages) ? `<span class="chip">SB ${esc(s.sb_pages)}</span>` : ""}${sessKet(s).map((p) => `<span class="chip brand">${EX(c)} ${p}</span>`).join("")}</div>
       <div class="grid g2" style="margin-top:18px">
-        <div class="card"><dl class="kv">${f("Nhiệm vụ", s.task)}${f("Từ vựng", s.vocabulary)}${f("Ngữ pháp", s.grammar)}${f("KET", s.ket_part)}</dl></div>
-        <div class="card"><dl class="kv">${f("Mục tiêu", s.can_do)}${f("Photocopiable", s.photocopiable)}${f("Tài liệu", s.materials)}${f("Công dân TC", s.global_skills)}${f("Đánh giá", s.assessment)}</dl></div>
+        <div class="card"><dl class="kv">${f("Nhiệm vụ", s.task)}${f("Từ vựng", s.vocabulary)}${f("Nội dung", s.content)}${f("Ngữ pháp", s.grammar)}${f(EX(c), s.ket_part)}${f("Subskill", (s.subskills || []).join(" · "))}</dl></div>
+        <div class="card"><dl class="kv">${f("Mục tiêu", s.can_do)}${f("Photocopiable", s.photocopiable)}${f("Workbook", s.wb_pages)}${f("Tài liệu", s.materials)}${f("Công dân TC", s.global_skills)}${f("Đánh giá", s.assessment)}</dl></div>
       </div>
       ${s.in_class.length ? `<h2>Tiến trình ${s.in_class.reduce((a, b) => a + b.minutes, 0)} phút trên lớp</h2><div class="card">${timelineBar(s.in_class)}${legend(c.cat, used)}
         <ol class="steps" style="margin-top:10px">${s.in_class.map((a) => { const from = t; t += a.minutes; return `<li><div class="min">${a.minutes}'<small>${from}–${t}</small></div><div><span class="dot cat-${a.category}"></span>${esc(a.activity)} <span class="chip">${esc(c.cat[a.category] || "")}</span></div></li>`; }).join("")}</ol></div>`
@@ -316,10 +317,10 @@
     const map = {}; c.sessions.forEach((s) => sessKet(s).forEach((p) => (map[p] = map[p] || []).push(s)));
     const max = Math.max(1, ...Object.values(map).map((a) => a.length));
     const list = sel ? map[sel] || [] : [];
-    const subs = c.subskills ? `<h2>Sub-skill KET và mức cần đạt</h2><div class="table-wrap"><table><thead><tr><th>Mã</th><th>Học sinh luyện gì</th><th>Part KET</th><th>Giới thiệu ở HP</th><th>Mức cần đạt ở thi thử 2</th></tr></thead><tbody>${c.subskills.map((x) => `<tr><td class="num">${esc(x.code)}</td><td>${esc(x.what)}</td><td style="font-size:14px">${esc(x.part)}</td><td>${esc(x.hp)}</td><td style="font-size:14px">${esc(x.target)}</td></tr>`).join("")}</tbody></table></div>` : "";
-    return courseHead(c, "ket") + `<p class="lead" style="margin:0 0 14px">Mỗi part của A2 Key for Schools được luyện ở những buổi nào. Bấm vào một part để xem danh sách buổi.</p>
-      <div class="ket-grid">${Object.entries(KET_INFO).map(([paper, parts]) => `<div class="card"><h3>${paper}</h3>${parts.map(([p, d]) => `<div class="ket-part ${p === sel ? "sel" : ""}" data-part="${p}"><b>Part ${p.slice(1)}</b><div class="bar"><i style="width:${((map[p] || []).length / max) * 100}%"></i></div><em>${(map[p] || []).length} buổi</em></div><div class="muted" style="font-size:12.5px;margin-bottom:6px">${esc(d)}</div>`).join("")}</div>`).join("")}</div>
-      ${sel ? `<h2>${{ R: "Reading", W: "Writing", L: "Listening", S: "Speaking" }[sel[0]]} Part ${sel.slice(1)} – ${list.length} buổi</h2><div class="table-wrap"><table><thead><tr><th>#</th><th>Unit</th><th>Trọng tâm</th><th>Nội dung KET</th></tr></thead><tbody>${list.map((s) => `<tr class="row-link" data-href="${sessLink(c, s)}"><td class="num">${s.session_no}</td><td>${esc(s.unit)} ${chipType(s.type)}</td><td>${esc(s.focus)}</td><td style="font-size:14px">${esc(s.ket_part)}</td></tr>`).join("")}</tbody></table></div>` : ""}
+    const subs = c.subskills ? `<h2>Sub-skill ${EX(c)} ${c.exam_label ? "và các buổi luyện" : "và mức cần đạt"}</h2><div class="table-wrap"><table><thead><tr><th>Mã</th><th>Học sinh luyện gì</th><th>Part ${EX(c)}</th><th>Giới thiệu ở HP</th><th>${c.exam_label ? "Luyện ở các buổi" : "Mức cần đạt ở thi thử 2"}</th></tr></thead><tbody>${c.subskills.map((x) => `<tr><td class="num">${esc(x.code)}</td><td>${esc(x.what)}</td><td style="font-size:14px">${esc(x.part)}</td><td>${esc(x.hp)}</td><td style="font-size:14px">${esc(x.target)}</td></tr>`).join("")}</tbody></table></div>` : "";
+    return courseHead(c, "ket") + `<p class="lead" style="margin:0 0 14px">Mỗi part của ${esc(c.exam_name || "A2 Key for Schools")} được luyện ở những buổi nào. Bấm vào một part để xem danh sách buổi.</p>
+      <div class="ket-grid">${Object.entries(EXP(c)).map(([paper, parts]) => `<div class="card"><h3>${paper}</h3>${parts.map(([p, d]) => `<div class="ket-part ${p === sel ? "sel" : ""}" data-part="${p}"><b>Part ${p.slice(1)}</b><div class="bar"><i style="width:${((map[p] || []).length / max) * 100}%"></i></div><em>${(map[p] || []).length} buổi</em></div><div class="muted" style="font-size:12.5px;margin-bottom:6px">${esc(d)}</div>`).join("")}</div>`).join("")}</div>
+      ${sel ? `<h2>${{ R: "Reading", W: "Writing", L: "Listening", S: "Speaking" }[sel[0]]} Part ${sel.slice(1)} – ${list.length} buổi</h2><div class="table-wrap"><table><thead><tr><th>#</th><th>Unit</th><th>Trọng tâm</th><th>Nội dung ${EX(c)}</th></tr></thead><tbody>${list.map((s) => `<tr class="row-link" data-href="${sessLink(c, s)}"><td class="num">${s.session_no}</td><td>${esc(s.unit)} ${chipType(s.type)}</td><td>${esc(s.focus)}</td><td style="font-size:14px">${esc(s.ket_part)}</td></tr>`).join("")}</tbody></table></div>` : ""}
       ${subs}`;
   }
 

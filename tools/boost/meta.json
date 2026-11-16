@@ -1,0 +1,178 @@
+{
+ "units": {
+  "1": {
+   "title": "Identity",
+   "g1": "Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái (think, feel, see, have)",
+   "g2": "Trạng từ tần suất và vị trí, cụm thời gian",
+   "gc": "Bản sắc cá nhân, bình đẳng giới và định kiến (SDG 5)",
+   "project": "Thuyết trình ý tưởng giúp trường học bình đẳng giới hơn, đánh giá chéo",
+   "spk": "Giới thiệu bản thân, cho thông tin cá nhân; đưa lý do và ví dụ",
+   "wri": "Email giới thiệu bản thân cho chương trình truyền hình Channel 1: mở thư, phản hồi, kết thư; quite/very + tính từ; and, but, so, because, or",
+   "g1_codes": [
+    "B01"
+   ],
+   "g2_codes": [
+    "B02"
+   ]
+  },
+  "2": {
+   "title": "Get the message",
+   "g1": "Quá khứ đơn và quá khứ tiếp diễn với when/while; động từ trạng thái không dùng tiếp diễn",
+   "g2": "Danh động từ (-ing) làm chủ ngữ và sau giới từ",
+   "gc": "Ngôn ngữ và bản sắc văn hóa, hòa nhập và hỗ trợ bạn mới (SDG 10)",
+   "project": "Poster thông tin cho học sinh mới đến trường",
+   "spk": "Tả ảnh về giao tiếp, sắp xếp ý khi tả (tổng quan → chi tiết → suy đoán)",
+   "wri": "Truyện về một lần mắc lỗi đáng nhớ: tạo không khí bằng tính từ mạnh (wonderful, brilliant) và trạng từ (really, finally)",
+   "g1_codes": [
+    "B04"
+   ],
+   "g2_codes": [
+    "B05"
+   ]
+  },
+  "3": {
+   "title": "The future is now",
+   "g1": "Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn (lịch hẹn), hiện tại đơn (thời gian biểu)",
+   "g2": "Động từ khuyết thiếu cho lời khuyên và gợi ý: should, could, ought to, Why don't you…?, How about…?, Shall…?",
+   "gc": "Sức khỏe số, cân bằng thời gian màn hình, tinh thần khởi nghiệp (SDG 9)",
+   "project": "Thiết kế một ứng dụng (tên, chức năng, người dùng), trình bày nhóm",
+   "spk": "Thảo luận tương lai của công nghệ (robot): hỏi và đưa ý kiến, đồng ý, không đồng ý",
+   "wri": "Email trả lời bạn về 'National Unplugged Day': đưa lời khuyên và gợi ý",
+   "g1_codes": [
+    "B06"
+   ],
+   "g2_codes": [
+    "B07"
+   ]
+  },
+  "4": {
+   "title": "Taking part",
+   "g1": "Hiện tại hoàn thành với ever, never, already, yet, just, for, since; quá khứ phân từ",
+   "g2": "Quá khứ đơn và hiện tại hoàn thành",
+   "gc": "Lối sống năng động, sức khỏe thể chất, sự kiên trì (SDG 3)",
+   "project": "Lên kế hoạch chiến dịch vận động thanh thiếu niên năng động, chia vai nhóm, bình chọn",
+   "spk": "Tả ảnh xem và chơi thể thao; nói khi không chắc (I can't remember what this is…)",
+   "wri": "Bài báo về một môn thể thao mới đã thử: nối ý với either…or, as soon as, except, so that, although",
+   "g1_codes": [
+    "B08"
+   ],
+   "g2_codes": [
+    "B09"
+   ]
+  },
+  "5": {
+   "title": "In the spotlight",
+   "g1": "Câu điều kiện loại 0, 1, 2",
+   "g2": "unless, in case, if I were you",
+   "gc": "Quyền riêng tư, hiểu biết về truyền thông, áp lực của sự nổi tiếng",
+   "project": "Viết hồ sơ (fact file) về một ngôi sao nhí, làm theo cặp",
+   "spk": "Tả ảnh nhạc sống (lễ hội, nhảy đường phố); xử lý từ không biết (It looks like…, a thing that…)",
+   "wri": "Bài báo về một buổi tối giải trí: khen điểm tốt, nêu vấn đề nhẹ nhàng (a bit, at times); venue, atmosphere, crowded, unforgettable",
+   "g1_codes": [
+    "B10"
+   ],
+   "g2_codes": [
+    "B11"
+   ]
+  },
+  "6": {
+   "title": "Down to Earth",
+   "g1": "Câu bị động hiện tại đơn và quá khứ đơn (+ by)",
+   "g2": "have/get something done",
+   "gc": "Bảo vệ môi trường và đại dương, người trẻ tạo thay đổi (SDG 13, 14)",
+   "project": "Thiết kế cộng đồng: kế hoạch hành động kết nối con người với thiên nhiên",
+   "spk": "Thảo luận cách sống thân thiện với môi trường; luân phiên lượt nói (What do you think? Go on…)",
+   "wri": "Email trao đổi học sinh về một nơi nên đến: cảm ơn, mời, nhận lời, từ chối",
+   "g1_codes": [
+    "B12"
+   ],
+   "g2_codes": [
+    "B13"
+   ]
+  },
+  "7": {
+   "title": "Travellers' tales",
+   "g1": "Mệnh đề quan hệ xác định: who, which, that, where, whose; khi nào được lược đại từ quan hệ",
+   "g2": "Động từ khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, mustn't, have to, don't have to, had to, need to",
+   "gc": "Hiểu biết liên văn hóa, học qua trải nghiệm (SDG 4)",
+   "project": "Tìm hiểu và trình bày một nền văn hóa khác (đồ ăn, trang phục, nghề, giải trí) hoặc blog du lịch",
+   "spk": "Thảo luận sự cố khi đi du lịch; nhắc lại ý người khác (As X said…, Unlike X, I…)",
+   "wri": "Bài báo mẹo du lịch ~100 từ: tạo hứng thú bằng câu hỏi cho người đọc",
+   "g1_codes": [
+    "B14"
+   ],
+   "g2_codes": [
+    "B15"
+   ]
+  },
+  "8": {
+   "title": "Time out",
+   "g1": "Câu tường thuật: lùi thì, đổi đại từ, say/tell; câu hỏi tường thuật với if/whether và từ để hỏi",
+   "g2": "Câu hỏi gián tiếp: Can you tell me…? Do you know…? + if/từ để hỏi + trật tự câu khẳng định",
+   "gc": "Kiên nhẫn, tự chủ; làm nội dung số có trách nhiệm",
+   "project": "Viết kịch bản video giới thiệu kênh YouTube về một sở thích hoặc kỹ năng",
+   "spk": "Lên kế hoạch cho cuộc thi tài năng: đưa và đáp lại gợi ý (How about…? Why don't we…? I like the idea, but…)",
+   "wri": "Bài báo về sở thích của người nổi tiếng: câu mở đoạn, tính từ và trạng từ",
+   "g1_codes": [
+    "B16"
+   ],
+   "g2_codes": [
+    "B17"
+   ]
+  },
+  "9": {
+   "title": "Life experiences",
+   "g1": "Quá khứ hoàn thành và quá khứ đơn; before, once, when, just, never",
+   "g2": "used to / didn't use to / Did you use to…?",
+   "gc": "Tự tin, nói trước công chúng, tôn trọng quan điểm khác (SDG 16)",
+   "project": "Tranh biện một chủ đề: đưa ý kiến, đồng ý, phản bác",
+   "spk": "Sống trên hoang đảo: nói điều thích và không thích (I absolutely love, I can't stand, I'm keen on, I don't mind)",
+   "wri": "Truyện về một ngày đi chơi (kẹt trên cáp treo) ~100 từ: sắp xếp sự việc (First, After that, Suddenly, Eventually)",
+   "g1_codes": [
+    "B18"
+   ],
+   "g2_codes": [
+    "B19"
+   ]
+  }
+ },
+ "target": {
+  "R1": "≥ 4/5 câu Part 1",
+  "R2": "≥ 4/5 câu nối Part 2",
+  "R3": "≥ 4/5 câu Part 3",
+  "R4": "≥ 3/5 câu Part 4",
+  "R5": "≥ 4/6 câu Part 5",
+  "R6": "≥ 4/6 chỗ trống Part 6",
+  "L1": "≥ 5/7 câu Part 1",
+  "L2": "≥ 4/6 câu Part 2",
+  "L3": "≥ 4/6 chỗ trống Part 3, đúng chính tả",
+  "L4": "≥ 4/6 câu Part 4",
+  "S1": "trả lời ≥ 6 câu hỏi cá nhân, mỗi câu mở rộng 2 ý (lý do, ví dụ)",
+  "S2": "tả ảnh liên tục 1 phút, ≥ 8 câu, dùng ≥ 3 cụm chỉ vị trí hoặc suy đoán",
+  "S3": "thảo luận cặp 2–3 phút, xét ≥ 4/5 lựa chọn và đi đến quyết định",
+  "S4": "trả lời mỗi câu hỏi mở rộng ≥ 3 câu, có lý do, hỏi lại ý bạn",
+  "W1": "email ~100 từ, đủ 4 ý trong ghi chú, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+  "W2": "bài ~100 từ có mở – thân – kết, ≥ 3 từ nối, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí"
+ },
+ "hp": {
+  "1": "HP1 · Bản thân, giao tiếp và công nghệ",
+  "2": "HP2 · Tương lai, thể thao và giải trí",
+  "3": "HP3 · Trái Đất và những chuyến đi",
+  "4": "HP4 · Sở thích, trải nghiệm và kỹ năng sống",
+  "5": "HP5 · Luyện thi B1 Preliminary for Schools"
+ },
+ "events": [
+  "E1 · My Best Moment Gallery",
+  "E2 · Beyond Stereotypes Talk Show",
+  "E3 · Welcome Buddy Day",
+  "E4 · IVY App Pitch",
+  "E5 · Active Teens Campaign",
+  "E6 · IVY Talent & Media Night",
+  "E7 · Blue Planet Action Day",
+  "E8 · Around the World Culture Fair",
+  "E9 · Hobby Expo & Creator Lab",
+  "E10 · IVY Debate Cup",
+  "E11 · Life Skills & Summer Jobs Fair",
+  "E12 · Global Citizen Showcase và lễ tổng kết"
+ ]
+}

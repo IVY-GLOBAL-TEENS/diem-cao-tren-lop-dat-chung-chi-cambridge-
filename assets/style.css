@@ -335,3 +335,7 @@ ul.miss{margin:6px 0 0;padding-left:18px;font-size:14px}
 }
 
 @media (max-width:420px){.brand-text strong{font-size:15px}.logo-box{padding:7px 9px}.logo-box img{height:18px}}
+
+/* gói bài tập nhiều dòng (Boost PRE/POST-LESSON) */
+.phase p,.hw-item .txt,.todo span,td[data-l="Trước buổi"],td[data-l="Sau buổi"]{white-space:pre-line}
+.t-PET-Lab{background:#fff1e0;color:#9a4a00}

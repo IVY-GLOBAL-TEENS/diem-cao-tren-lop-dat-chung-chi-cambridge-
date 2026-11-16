@@ -1,0 +1,181 @@
+{
+ "GRAMMAR": {
+  "B01": [
+   "Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái",
+   1
+  ],
+  "B02": [
+   "Trạng từ tần suất, vị trí; cụm thời gian",
+   1
+  ],
+  "B03": [
+   "Mạo từ a/an/the/không mạo từ",
+   0
+  ],
+  "B04": [
+   "Quá khứ đơn và quá khứ tiếp diễn (when/while)",
+   2
+  ],
+  "B05": [
+   "Danh động từ (-ing) làm chủ ngữ, sau giới từ",
+   2
+  ],
+  "B06": [
+   "Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn",
+   3
+  ],
+  "B07": [
+   "Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?",
+   3
+  ],
+  "B08": [
+   "Hiện tại hoàn thành với ever/never/already/yet/just/for/since",
+   4
+  ],
+  "B09": [
+   "Quá khứ đơn và hiện tại hoàn thành",
+   4
+  ],
+  "B10": [
+   "Câu điều kiện loại 0, 1, 2",
+   5
+  ],
+  "B11": [
+   "unless, in case, if I were you",
+   5
+  ],
+  "B12": [
+   "Bị động hiện tại đơn và quá khứ đơn",
+   6
+  ],
+  "B13": [
+   "have/get something done",
+   6
+  ],
+  "B14": [
+   "Mệnh đề quan hệ xác định (who, which, that, where, whose)",
+   7
+  ],
+  "B15": [
+   "Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to",
+   7
+  ],
+  "B16": [
+   "Câu tường thuật: câu kể và câu hỏi",
+   8
+  ],
+  "B17": [
+   "Câu hỏi gián tiếp",
+   8
+  ],
+  "B18": [
+   "Quá khứ hoàn thành",
+   9
+  ],
+  "B19": [
+   "used to / didn't use to",
+   9
+  ],
+  "B20": [
+   "Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…)",
+   1
+  ],
+  "B21": [
+   "Trật tự tính từ; tính từ -ed/-ing",
+   6
+  ],
+  "B22": [
+   "Từ nối: although, so that, either…or, as soon as, because, so",
+   1
+  ],
+  "B23": [
+   "Hiện tại hoàn thành tiếp diễn (cầu nối B1+)",
+   null
+  ],
+  "B24": [
+   "Bị động các thì khác và bị động với động từ khuyết thiếu (cầu nối B1+)",
+   null
+  ],
+  "B25": [
+   "Mệnh đề quan hệ không xác định (cầu nối B1+)",
+   null
+  ],
+  "B26": [
+   "may / might / could chỉ khả năng xảy ra",
+   3
+  ],
+  "B27": [
+   "So sánh hơn, so sánh nhất, (not) as…as; too/enough (to); so/such",
+   4
+  ],
+  "B28": [
+   "can / could / be able to chỉ khả năng làm được",
+   4
+  ],
+  "B29": [
+   "Động từ + V-ing / to V (enjoy, decide, want, stop, try…)",
+   2
+  ],
+  "B30": [
+   "Lượng từ: a few / a little, few / little, too much / too many, plenty of",
+   6
+  ],
+  "B31": [
+   "Câu hỏi đuôi (question tags)",
+   1
+  ]
+ },
+ "SKILL": {
+  "R1": "Reading Part 1 – 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng",
+  "R2": "Reading Part 2 – nối 5 người với 8 văn bản",
+  "R3": "Reading Part 3 – bài dài, 5 câu trắc nghiệm",
+  "R4": "Reading Part 4 – điền 5 câu vào bài (3 câu thừa)",
+  "R5": "Reading Part 5 – điền từ trắc nghiệm (từ vựng, collocation)",
+  "R6": "Reading Part 6 – điền từ tự do (từ chức năng)",
+  "W1": "Writing Part 1 – email ~100 từ theo 4 ghi chú",
+  "W2": "Writing Part 2 – bài báo hoặc truyện ~100 từ",
+  "L1": "Listening Part 1 – 7 đoạn ngắn, chọn tranh",
+  "L2": "Listening Part 2 – 6 hội thoại ngắn, ý kiến/thái độ",
+  "L3": "Listening Part 3 – điền 6 thông tin",
+  "L4": "Listening Part 4 – phỏng vấn dài, 6 câu trắc nghiệm",
+  "S1": "Speaking Part 1 – câu hỏi cá nhân",
+  "S2": "Speaking Part 2 – tả ảnh 1 phút",
+  "S3": "Speaking Part 3 – thảo luận cặp theo tranh gợi ý",
+  "S4": "Speaking Part 4 – thảo luận mở rộng",
+  "E": "Kỹ thuật làm bài: quản lý thời gian, phiếu trả lời"
+ },
+ "SUB": {
+  "RS1": "Đọc: hiểu mục đích, thông điệp văn bản ngắn (biển báo, tin nhắn)",
+  "RS2": "Đọc: đọc lướt lấy ý chính",
+  "RS3": "Đọc: đọc quét tìm chi tiết, nhận ra cách diễn đạt khác (paraphrase)",
+  "RS4": "Đọc: nhận ra thái độ, ý kiến của người viết",
+  "RS5": "Đọc: liên kết văn bản (từ quy chiếu, từ nối)",
+  "RS6": "Đọc: đoán nghĩa từ mới qua ngữ cảnh",
+  "RS7": "Đọc: từ vựng và collocation trong ngữ cảnh",
+  "RS8": "Đọc: ngữ pháp trong văn bản (từ chức năng)",
+  "RS9": "Đọc mở rộng: sách đọc phân cấp (graded reader)",
+  "LS1": "Nghe: thông tin cụ thể để chọn tranh",
+  "LS2": "Nghe: ý chính (gist), ý kiến trong hội thoại ngắn",
+  "LS3": "Nghe: ghi lại thông tin cụ thể, chính tả số, tên",
+  "LS4": "Nghe: thái độ, ý kiến; tránh đáp án gây nhiễu",
+  "LS5": "Nghe: dự đoán nội dung trước khi nghe",
+  "LS6": "Nghe: thông báo, hướng dẫn",
+  "LS7": "Nghe: âm nối, âm yếu, dạng rút gọn",
+  "SS1": "Nói: trả lời câu hỏi cá nhân, mở rộng bằng lý do, ví dụ",
+  "SS2": "Nói: tả ảnh (sắp xếp ý, vị trí, suy đoán, khi thiếu từ)",
+  "SS3": "Nói: gợi ý, đáp lại gợi ý, thương lượng, đi đến quyết định",
+  "SS4": "Nói: nêu ý kiến, lý do, đồng ý, không đồng ý",
+  "SS5": "Nói: kể lại trải nghiệm, câu chuyện 1–2 phút",
+  "SS6": "Nói: hỏi lại, làm rõ khi chưa hiểu",
+  "SS7": "Nói: phát âm (trọng âm, ngữ điệu, âm cuối, âm yếu)",
+  "WS1": "Viết: email theo chức năng (cảm ơn, mời, khuyên, giải thích, từ chối)",
+  "WS2": "Viết: bài báo (thu hút người đọc, nêu quan điểm)",
+  "WS3": "Viết: truyện (mở đầu, trình tự, không khí, kết)",
+  "WS4": "Viết: lập dàn ý, chia đoạn, từ nối",
+  "WS5": "Viết: đa dạng ngữ pháp, câu phức",
+  "WS6": "Viết: tự soát lỗi, chính tả, dấu câu",
+  "VS1": "Từ vựng: chủ đề theo danh sách từ vựng PET",
+  "VS2": "Từ vựng: cấu tạo từ (tiền tố, hậu tố)",
+  "VS3": "Từ vựng: cụm động từ, collocation, giới từ đi kèm"
+ }
+}

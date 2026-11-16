@@ -18,7 +18,7 @@ Website tĩnh (HTML/CSS/JS thuần) chạy trên GitHub Pages, màu chủ đạo
 | Quản lý giáo viên | `#/quan-ly` | Quản lý: tạo mã giáo viên |
 
 Mã lớp/khoá: `fd` Foundation · `bu` Bridge-up · `ko` Kick-off · `bo` Boost · `pi` IELTS Skills up.
-Foundation, Boost, IELTS Skills up hiện "đang cập nhật" lộ trình (bài luyện theo Unit đã có trong Phòng thi ảo).
+Boost (B1) đã có lộ trình 94 buổi, bản đồ PET và gói bài tập PRE/POST-LESSON từng buổi. Foundation, IELTS Skills up hiện "đang cập nhật" lộ trình (bài luyện theo Unit đã có trong Phòng thi ảo).
 
 ## Cấu trúc thư mục
 ```
@@ -30,7 +30,7 @@ server/                   Code.gs (Google Apps Script) + HUONG-DAN.md cách cài
 data/data.js              Dữ liệu các khoá (sinh từ tools/build_all.py)
 phong-thi/                Phòng thi ảo · phong-thi/ket/ Kho đề KET
 tai-lieu/                 Tài liệu chương trình
-tools/                    Script sinh data.js
+tools/                    Script sinh data.js (build_boost.py: thêm khoá Boost từ tools/boost/)
 ```
 ## Tài khoản
 Lưu trong Google Sheet riêng của trung tâm qua Google Apps Script – xem [server/HUONG-DAN.md](server/HUONG-DAN.md).

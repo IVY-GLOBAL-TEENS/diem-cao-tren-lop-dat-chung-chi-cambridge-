@@ -10822,10 +10822,6542 @@ window.IVY_DATA = {
    "id": "bo",
    "name": "Boost",
    "cefr": "B1",
-   "book": "Gold Experience B1",
+   "book": "Gold Experience B1 (2nd ed.)",
    "exam": "b1",
-   "status": "updating",
-   "note": "Định hướng B1 Preliminary for Schools (PET)"
+   "status": "ready",
+   "note": "94 buổi (82 buổi học + 12 sự kiện kỹ năng), định hướng B1 Preliminary for Schools (PET)",
+   "session_minutes": 105,
+   "sessions_per_week": 2,
+   "total_sessions": 94,
+   "cat": {
+    "lang": "Học ngôn ngữ",
+    "input": "Đầu vào",
+    "output": "Đầu ra",
+    "fluency": "Trôi chảy",
+    "test": "Kiểm tra",
+    "routine": "Khác"
+   },
+   "rhythm": "Mỗi unit 5 buổi: Reading + Grammar 1 → Vocabulary + Listening + Grammar 2 → Speaking → Writing → Ôn tập & Dự án, sau đó 1 sự kiện kỹ năng. Hết mỗi học phần có 4 buổi: củng cố Nghe–Đọc, củng cố Nói–Viết + kiểm tra Nói, kiểm tra học phần, linh hoạt. HP5 luyện thi PET và 2 lần thi thử.",
+   "units": [
+    {
+     "unit": "Starter",
+     "title": "Happy days",
+     "theme": "Làm quen, kỳ nghỉ, sở thích",
+     "sessions": "1–2",
+     "grammar": "Ôn thì cơ bản, mạo từ",
+     "hp": "1"
+    },
+    {
+     "unit": "U1",
+     "title": "Identity",
+     "theme": "Bản sắc cá nhân, bình đẳng giới và định kiến (SDG 5)",
+     "sessions": "5–9",
+     "grammar": "Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái (think, feel, see, have); Trạng từ tần suất và vị trí, cụm thời gian",
+     "cando_speaking": "Giới thiệu bản thân, cho thông tin cá nhân; đưa lý do và ví dụ",
+     "cando_writing": "Email giới thiệu bản thân cho chương trình truyền hình Channel 1: mở thư, phản hồi, kết thư; quite/very + tính từ; and, but, so, because, or",
+     "project": "Thuyết trình ý tưởng giúp trường học bình đẳng giới hơn, đánh giá chéo",
+     "hp": "1"
+    },
+    {
+     "unit": "U2",
+     "title": "Get the message",
+     "theme": "Ngôn ngữ và bản sắc văn hóa, hòa nhập và hỗ trợ bạn mới (SDG 10)",
+     "sessions": "11–15",
+     "grammar": "Quá khứ đơn và quá khứ tiếp diễn với when/while; động từ trạng thái không dùng tiếp diễn; Danh động từ (-ing) làm chủ ngữ và sau giới từ",
+     "cando_speaking": "Tả ảnh về giao tiếp, sắp xếp ý khi tả (tổng quan → chi tiết → suy đoán)",
+     "cando_writing": "Truyện về một lần mắc lỗi đáng nhớ: tạo không khí bằng tính từ mạnh (wonderful, brilliant) và trạng từ (really, finally)",
+     "project": "Poster thông tin cho học sinh mới đến trường",
+     "hp": "1"
+    },
+    {
+     "unit": "U3",
+     "title": "The future is now",
+     "theme": "Sức khỏe số, cân bằng thời gian màn hình, tinh thần khởi nghiệp (SDG 9)",
+     "sessions": "21–25",
+     "grammar": "Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn (lịch hẹn), hiện tại đơn (thời gian biểu); Động từ khuyết thiếu cho lời khuyên và gợi ý: should, could, ought to, Why don't you…?, How about…?, Shall…?",
+     "cando_speaking": "Thảo luận tương lai của công nghệ (robot): hỏi và đưa ý kiến, đồng ý, không đồng ý",
+     "cando_writing": "Email trả lời bạn về 'National Unplugged Day': đưa lời khuyên và gợi ý",
+     "project": "Thiết kế một ứng dụng (tên, chức năng, người dùng), trình bày nhóm",
+     "hp": "2"
+    },
+    {
+     "unit": "U4",
+     "title": "Taking part",
+     "theme": "Lối sống năng động, sức khỏe thể chất, sự kiên trì (SDG 3)",
+     "sessions": "27–31",
+     "grammar": "Hiện tại hoàn thành với ever, never, already, yet, just, for, since; quá khứ phân từ; Quá khứ đơn và hiện tại hoàn thành",
+     "cando_speaking": "Tả ảnh xem và chơi thể thao; nói khi không chắc (I can't remember what this is…)",
+     "cando_writing": "Bài báo về một môn thể thao mới đã thử: nối ý với either…or, as soon as, except, so that, although",
+     "project": "Lên kế hoạch chiến dịch vận động thanh thiếu niên năng động, chia vai nhóm, bình chọn",
+     "hp": "2"
+    },
+    {
+     "unit": "U5",
+     "title": "In the spotlight",
+     "theme": "Quyền riêng tư, hiểu biết về truyền thông, áp lực của sự nổi tiếng",
+     "sessions": "33–37",
+     "grammar": "Câu điều kiện loại 0, 1, 2; unless, in case, if I were you",
+     "cando_speaking": "Tả ảnh nhạc sống (lễ hội, nhảy đường phố); xử lý từ không biết (It looks like…, a thing that…)",
+     "cando_writing": "Bài báo về một buổi tối giải trí: khen điểm tốt, nêu vấn đề nhẹ nhàng (a bit, at times); venue, atmosphere, crowded, unforgettable",
+     "project": "Viết hồ sơ (fact file) về một ngôi sao nhí, làm theo cặp",
+     "hp": "2"
+    },
+    {
+     "unit": "U6",
+     "title": "Down to Earth",
+     "theme": "Bảo vệ môi trường và đại dương, người trẻ tạo thay đổi (SDG 13, 14)",
+     "sessions": "43–47",
+     "grammar": "Câu bị động hiện tại đơn và quá khứ đơn (+ by); have/get something done",
+     "cando_speaking": "Thảo luận cách sống thân thiện với môi trường; luân phiên lượt nói (What do you think? Go on…)",
+     "cando_writing": "Email trao đổi học sinh về một nơi nên đến: cảm ơn, mời, nhận lời, từ chối",
+     "project": "Thiết kế cộng đồng: kế hoạch hành động kết nối con người với thiên nhiên",
+     "hp": "3"
+    },
+    {
+     "unit": "U7",
+     "title": "Travellers' tales",
+     "theme": "Hiểu biết liên văn hóa, học qua trải nghiệm (SDG 4)",
+     "sessions": "49–53",
+     "grammar": "Mệnh đề quan hệ xác định: who, which, that, where, whose; khi nào được lược đại từ quan hệ; Động từ khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, mustn't, have to, don't have to, had to, need to",
+     "cando_speaking": "Thảo luận sự cố khi đi du lịch; nhắc lại ý người khác (As X said…, Unlike X, I…)",
+     "cando_writing": "Bài báo mẹo du lịch ~100 từ: tạo hứng thú bằng câu hỏi cho người đọc",
+     "project": "Tìm hiểu và trình bày một nền văn hóa khác (đồ ăn, trang phục, nghề, giải trí) hoặc blog du lịch",
+     "hp": "3"
+    },
+    {
+     "unit": "U8",
+     "title": "Time out",
+     "theme": "Kiên nhẫn, tự chủ; làm nội dung số có trách nhiệm",
+     "sessions": "59–63",
+     "grammar": "Câu tường thuật: lùi thì, đổi đại từ, say/tell; câu hỏi tường thuật với if/whether và từ để hỏi; Câu hỏi gián tiếp: Can you tell me…? Do you know…? + if/từ để hỏi + trật tự câu khẳng định",
+     "cando_speaking": "Lên kế hoạch cho cuộc thi tài năng: đưa và đáp lại gợi ý (How about…? Why don't we…? I like the idea, but…)",
+     "cando_writing": "Bài báo về sở thích của người nổi tiếng: câu mở đoạn, tính từ và trạng từ",
+     "project": "Viết kịch bản video giới thiệu kênh YouTube về một sở thích hoặc kỹ năng",
+     "hp": "4"
+    },
+    {
+     "unit": "U9",
+     "title": "Life experiences",
+     "theme": "Tự tin, nói trước công chúng, tôn trọng quan điểm khác (SDG 16)",
+     "sessions": "65–69",
+     "grammar": "Quá khứ hoàn thành và quá khứ đơn; before, once, when, just, never; used to / didn't use to / Did you use to…?",
+     "cando_speaking": "Sống trên hoang đảo: nói điều thích và không thích (I absolutely love, I can't stand, I'm keen on, I don't mind)",
+     "cando_writing": "Truyện về một ngày đi chơi (kẹt trên cáp treo) ~100 từ: sắp xếp sự việc (First, After that, Suddenly, Eventually)",
+     "project": "Tranh biện một chủ đề: đưa ý kiến, đồng ý, phản bác",
+     "hp": "4"
+    },
+    {
+     "unit": "U10",
+     "title": "Summertime!",
+     "theme": "Kỹ năng sống, việc làm hè – ôn theo đề PET",
+     "sessions": "71–72",
+     "grammar": "Ôn tổng hợp",
+     "hp": "4"
+    }
+   ],
+   "modules": [
+    {
+     "name": "HP1 · Bản thân, giao tiếp và công nghệ",
+     "sessions": "1–20 (T1–10)",
+     "units": "Starter, U1, U2",
+     "grammar": "B01, B02, B03, B04, B05, B08, B20, B22, B29, B31",
+     "ket": "L2 L3 R1 R2 R3 R5 R6 S1 S2 S3 S4 W1 W2",
+     "events": "E1 · My Best Moment Gallery; E2 · Beyond Stereotypes Talk Show; E3 · Welcome Buddy Day"
+    },
+    {
+     "name": "HP2 · Tương lai, thể thao và giải trí",
+     "sessions": "21–42 (T11–21)",
+     "units": "U3, U4, U5",
+     "grammar": "B06, B07, B08, B09, B10, B11, B22, B26, B27, B28",
+     "ket": "L1 L2 L4 R1 R2 R3 R4 R5 R6 S1 S2 S3 S4 W1 W2",
+     "events": "E4 · IVY App Pitch; E5 · Active Teens Campaign; E6 · IVY Talent & Media Night"
+    },
+    {
+     "name": "HP3 · Trái Đất và những chuyến đi",
+     "sessions": "43–58 (T22–29)",
+     "units": "U6, U7",
+     "grammar": "B12, B13, B14, B15, B21, B30",
+     "ket": "L3 L4 R2 R4 R5 R6 S1 S2 S3 S4 W1 W2",
+     "events": "E7 · Blue Planet Action Day; E8 · Around the World Culture Fair"
+    },
+    {
+     "name": "HP4 · Sở thích, trải nghiệm và kỹ năng sống",
+     "sessions": "59–76 (T30–38)",
+     "units": "U8, U9, U10",
+     "grammar": "B10, B12, B14, B16, B17, B18, B19, B20, B21, B22",
+     "ket": "L1 L2 L3 L4 R1 R2 R3 R4 R5 R6 S1 S2 S3 S4 W1 W2",
+     "events": "E9 · Hobby Expo & Creator Lab; E10 · IVY Debate Cup"
+    },
+    {
+     "name": "HP5 · Luyện thi B1 Preliminary for Schools",
+     "sessions": "77–94 (T39–47)",
+     "units": "—",
+     "grammar": "B01, B02, B03, B04, B05, B06, B07, B08, B09, B10, B11, B12, B13, B14, B15, B16, B17, B18, B19, B20, B21, B22, B23, B24, B25, B26, B27, B28, B29, B30, B31",
+     "ket": "L1 L2 L3 L4 R1 R2 R3 R4 R5 R6 S1 S2 S3 S4 W1 W2",
+     "events": "E11 · Life Skills & Summer Jobs Fair; E12 · Global Citizen Showcase và lễ tổng kết"
+    }
+   ],
+   "grammar": {
+    "cols": [
+     "Mã",
+     "Điểm ngữ pháp",
+     "Dạy lần đầu",
+     "Dùng lại ở buổi",
+     "Kiểm tra ở buổi"
+    ],
+    "rows": [
+     [
+      "B01",
+      "Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái",
+      "Buổi 3",
+      "5, 7, 9, 10, 17, 18, 19…",
+      "19, 84"
+     ],
+     [
+      "B02",
+      "Trạng từ tần suất, vị trí; cụm thời gian",
+      "Buổi 6",
+      "7, 9, 17, 18, 19, 20, 84",
+      "19, 84"
+     ],
+     [
+      "B03",
+      "Mạo từ a/an/the/không mạo từ",
+      "Buổi 1",
+      "2, 3, 4, 17, 18, 19, 20…",
+      "19, 84"
+     ],
+     [
+      "B04",
+      "Quá khứ đơn và quá khứ tiếp diễn (when/while)",
+      "Buổi 2",
+      "3, 4, 11, 13, 15, 16, 17…",
+      "19, 84"
+     ],
+     [
+      "B05",
+      "Danh động từ (-ing) làm chủ ngữ, sau giới từ",
+      "Buổi 12",
+      "13, 15, 16, 17, 18, 19, 20…",
+      "19, 84"
+     ],
+     [
+      "B06",
+      "Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn",
+      "Buổi 21",
+      "23, 25, 26, 39, 40, 41, 42…",
+      "41, 84"
+     ],
+     [
+      "B07",
+      "Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?",
+      "Buổi 22",
+      "23, 25, 26, 39, 40, 41, 42…",
+      "41, 84"
+     ],
+     [
+      "B08",
+      "Hiện tại hoàn thành với ever/never/already/yet/just/for/since",
+      "Buổi 3",
+      "27, 29, 31, 32, 39, 40, 41…",
+      "41, 84"
+     ],
+     [
+      "B09",
+      "Quá khứ đơn và hiện tại hoàn thành",
+      "Buổi 28",
+      "29, 31, 32, 39, 40, 41, 42…",
+      "41, 84"
+     ],
+     [
+      "B10",
+      "Câu điều kiện loại 0, 1, 2",
+      "Buổi 33",
+      "35, 37, 38, 39, 40, 41, 42…",
+      "41, 84"
+     ],
+     [
+      "B11",
+      "unless, in case, if I were you",
+      "Buổi 34",
+      "35, 37, 38, 39, 40, 41, 42…",
+      "41, 84"
+     ],
+     [
+      "B12",
+      "Bị động hiện tại đơn và quá khứ đơn",
+      "Buổi 43",
+      "45, 47, 48, 55, 56, 57, 58…",
+      "57, 84"
+     ],
+     [
+      "B13",
+      "have/get something done",
+      "Buổi 44",
+      "45, 47, 48, 55, 56, 57, 58…",
+      "57, 84"
+     ],
+     [
+      "B14",
+      "Mệnh đề quan hệ xác định (who, which, that, where, whose)",
+      "Buổi 49",
+      "51, 53, 54, 55, 56, 57, 58…",
+      "57, 84"
+     ],
+     [
+      "B15",
+      "Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to",
+      "Buổi 50",
+      "51, 53, 54, 55, 56, 57, 58…",
+      "57, 84"
+     ],
+     [
+      "B16",
+      "Câu tường thuật: câu kể và câu hỏi",
+      "Buổi 59",
+      "61, 63, 64, 71, 73, 74, 75…",
+      "75, 84"
+     ],
+     [
+      "B17",
+      "Câu hỏi gián tiếp",
+      "Buổi 60",
+      "61, 63, 64, 73, 74, 75, 83…",
+      "75, 84"
+     ],
+     [
+      "B18",
+      "Quá khứ hoàn thành",
+      "Buổi 65",
+      "67, 69, 70, 71, 73, 74, 75…",
+      "75, 84"
+     ],
+     [
+      "B19",
+      "used to / didn't use to",
+      "Buổi 66",
+      "67, 69, 70, 73, 74, 75, 76…",
+      "75, 84"
+     ],
+     [
+      "B20",
+      "Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…)",
+      "Buổi 6",
+      "10, 12, 17, 18, 19, 20, 66…",
+      "19, 84"
+     ],
+     [
+      "B21",
+      "Trật tự tính từ; tính từ -ed/-ing",
+      "Buổi 44",
+      "55, 56, 57, 58, 66, 84",
+      "57, 84"
+     ],
+     [
+      "B22",
+      "Từ nối: although, so that, either…or, as soon as, because, so",
+      "Buổi 8",
+      "30, 39, 40, 41, 42, 72, 74…",
+      "41, 84"
+     ],
+     [
+      "B23",
+      "Hiện tại hoàn thành tiếp diễn (cầu nối B1+)",
+      "Buổi 91",
+      "—",
+      "91"
+     ],
+     [
+      "B24",
+      "Bị động các thì khác và bị động với động từ khuyết thiếu (cầu nối B1+)",
+      "Buổi 91",
+      "—",
+      "91"
+     ],
+     [
+      "B25",
+      "Mệnh đề quan hệ không xác định (cầu nối B1+)",
+      "Buổi 91",
+      "—",
+      "91"
+     ],
+     [
+      "B26",
+      "may / might / could chỉ khả năng xảy ra",
+      "Buổi 21",
+      "39, 40, 41, 42, 84",
+      "41, 84"
+     ],
+     [
+      "B27",
+      "So sánh hơn, so sánh nhất, (not) as…as; too/enough (to); so/such",
+      "Buổi 30",
+      "39, 40, 41, 42, 84",
+      "41, 84"
+     ],
+     [
+      "B28",
+      "can / could / be able to chỉ khả năng làm được",
+      "Buổi 27",
+      "39, 40, 41, 42, 84",
+      "41, 84"
+     ],
+     [
+      "B29",
+      "Động từ + V-ing / to V (enjoy, decide, want, stop, try…)",
+      "Buổi 12",
+      "17, 18, 19, 20, 84",
+      "19, 84"
+     ],
+     [
+      "B30",
+      "Lượng từ: a few / a little, few / little, too much / too many, plenty of",
+      "Buổi 44",
+      "55, 56, 57, 58, 84",
+      "57, 84"
+     ],
+     [
+      "B31",
+      "Câu hỏi đuôi (question tags)",
+      "Buổi 7",
+      "17, 18, 19, 20, 84",
+      "19, 84"
+     ]
+    ],
+    "first_col": 2,
+    "note": "Ngữ pháp nền B1: B01–B22 và B26–B31 dạy và kiểm tra trong khoá; B23–B25 là cầu nối B1+ (chỉ nhận biết)."
+   },
+   "subskills": [
+    {
+     "code": "RS1",
+     "what": "Đọc: hiểu mục đích, thông điệp văn bản ngắn (biển báo, tin nhắn)",
+     "part": "R1 R2 R3 R4 R5 R6",
+     "hp": "HP1",
+     "target": "13 buổi: 11, 16, 17, 19, 33, 39, 41, 73, 75, 77, 85, 88…"
+    },
+    {
+     "code": "RS2",
+     "what": "Đọc: đọc lướt lấy ý chính",
+     "part": "R1 R2 R3 R4 R5 R6",
+     "hp": "HP1",
+     "target": "15 buổi: 11, 17, 21, 33, 39, 59, 71, 73, 75, 78, 83, 85…"
+    },
+    {
+     "code": "RS3",
+     "what": "Đọc: đọc quét tìm chi tiết, nhận ra cách diễn đạt khác (paraphrase)",
+     "part": "R1 R2 R3 R4 R5 R6",
+     "hp": "HP1",
+     "target": "16 buổi: 5, 17, 19, 27, 32, 39, 41, 49, 55, 57, 73, 75…"
+    },
+    {
+     "code": "RS4",
+     "what": "Đọc: nhận ra thái độ, ý kiến của người viết",
+     "part": "R1 R2 R3 R4 R5 R6",
+     "hp": "HP1",
+     "target": "5 buổi: 11, 33, 59, 78, 88"
+    },
+    {
+     "code": "RS5",
+     "what": "Đọc: liên kết văn bản (từ quy chiếu, từ nối)",
+     "part": "R1 R2 R3 R4 R5 R6",
+     "hp": "HP2",
+     "target": "13 buổi: 21, 39, 43, 48, 55, 57, 65, 73, 75, 78, 85, 88…"
+    },
+    {
+     "code": "RS6",
+     "what": "Đọc: đoán nghĩa từ mới qua ngữ cảnh",
+     "part": "R2 R4",
+     "hp": "HP1",
+     "target": "4 buổi: 5, 27, 43, 65"
+    },
+    {
+     "code": "RS7",
+     "what": "Đọc: từ vựng và collocation trong ngữ cảnh",
+     "part": "R1 R2 R3 R4 R5 R6",
+     "hp": "HP1",
+     "target": "17 buổi: 6, 12, 17, 22, 28, 34, 39, 50, 55, 60, 66, 71…"
+    },
+    {
+     "code": "RS8",
+     "what": "Đọc: ngữ pháp trong văn bản (từ chức năng)",
+     "part": "R1 R2 R3 R4 R5 R6",
+     "hp": "HP1",
+     "target": "20 buổi: 1, 9, 15, 25, 28, 31, 37, 39, 47, 53, 63, 69…"
+    },
+    {
+     "code": "RS9",
+     "what": "Đọc mở rộng: sách đọc phân cấp (graded reader)",
+     "part": "R1 R2 R3 R4 R5 R6",
+     "hp": "HP1",
+     "target": "8 buổi: 5, 17, 21, 39, 43, 55, 59, 73"
+    },
+    {
+     "code": "LS1",
+     "what": "Nghe: thông tin cụ thể để chọn tranh",
+     "part": "L1 L2 L3 L4",
+     "hp": "HP2",
+     "target": "10 buổi: 22, 39, 41, 60, 73, 75, 80, 85, 87, 92"
+    },
+    {
+     "code": "LS2",
+     "what": "Nghe: ý chính (gist), ý kiến trong hội thoại ngắn",
+     "part": "L1 L2 L3 L4",
+     "hp": "HP1",
+     "target": "14 buổi: 6, 17, 19, 34, 38, 39, 41, 66, 73, 75, 80, 85…"
+    },
+    {
+     "code": "LS3",
+     "what": "Nghe: ghi lại thông tin cụ thể, chính tả số, tên",
+     "part": "L1 L2 L3 L4",
+     "hp": "HP1",
+     "target": "13 buổi: 12, 17, 19, 50, 54, 55, 57, 71, 75, 81, 85, 87…"
+    },
+    {
+     "code": "LS4",
+     "what": "Nghe: thái độ, ý kiến; tránh đáp án gây nhiễu",
+     "part": "L1 L2 L3 L4",
+     "hp": "HP2",
+     "target": "13 buổi: 28, 39, 44, 55, 57, 70, 71, 75, 81, 85, 87, 91…"
+    },
+    {
+     "code": "LS5",
+     "what": "Nghe: dự đoán nội dung trước khi nghe",
+     "part": "L1 L2 L3 L4",
+     "hp": "HP1",
+     "target": "17 buổi: 6, 12, 17, 22, 28, 34, 39, 44, 50, 55, 60, 66…"
+    },
+    {
+     "code": "LS6",
+     "what": "Nghe: thông báo, hướng dẫn",
+     "part": "L1 L2",
+     "hp": "HP2",
+     "target": "3 buổi: 22, 60, 80"
+    },
+    {
+     "code": "LS7",
+     "what": "Nghe: âm nối, âm yếu, dạng rút gọn",
+     "part": "L1 L2 L3 L4",
+     "hp": "HP1",
+     "target": "5 buổi: 6, 28, 50, 66, 87"
+    },
+    {
+     "code": "SS1",
+     "what": "Nói: trả lời câu hỏi cá nhân, mở rộng bằng lý do, ví dụ",
+     "part": "S1 S2 S3 S4",
+     "hp": "HP1",
+     "target": "15 buổi: 1, 7, 10, 18, 40, 56, 64, 72, 74, 82, 83, 86…"
+    },
+    {
+     "code": "SS2",
+     "what": "Nói: tả ảnh (sắp xếp ý, vị trí, suy đoán, khi thiếu từ)",
+     "part": "S1 S2 S3 S4",
+     "hp": "HP1",
+     "target": "20 buổi: 4, 13, 16, 18, 26, 29, 35, 38, 40, 53, 54, 64…"
+    },
+    {
+     "code": "SS3",
+     "what": "Nói: gợi ý, đáp lại gợi ý, thương lượng, đi đến quyết định",
+     "part": "S1 S2 S3 S4",
+     "hp": "HP1",
+     "target": "17 buổi: 2, 23, 26, 32, 40, 45, 48, 56, 61, 67, 72, 74…"
+    },
+    {
+     "code": "SS4",
+     "what": "Nói: nêu ý kiến, lý do, đồng ý, không đồng ý",
+     "part": "S1 S2 S3 S4",
+     "hp": "HP1",
+     "target": "27 buổi: 4, 9, 10, 15, 23, 25, 26, 31, 37, 40, 45, 47…"
+    },
+    {
+     "code": "SS5",
+     "what": "Nói: kể lại trải nghiệm, câu chuyện 1–2 phút",
+     "part": "S1 S2 S3 S4",
+     "hp": "HP1",
+     "target": "9 buổi: 4, 17, 39, 51, 55, 64, 67, 73, 93"
+    },
+    {
+     "code": "SS6",
+     "what": "Nói: hỏi lại, làm rõ khi chưa hiểu",
+     "part": "S1 S2 S3 S4",
+     "hp": "HP1",
+     "target": "8 buổi: 7, 13, 23, 45, 61, 67, 82, 90"
+    },
+    {
+     "code": "SS7",
+     "what": "Nói: phát âm (trọng âm, ngữ điệu, âm cuối, âm yếu)",
+     "part": "S1 S2 S3 S4",
+     "hp": "HP1",
+     "target": "9 buổi: 7, 13, 23, 29, 35, 45, 51, 61, 67"
+    },
+    {
+     "code": "WS1",
+     "what": "Viết: email theo chức năng (cảm ơn, mời, khuyên, giải thích, từ chối)",
+     "part": "W1 W2",
+     "hp": "HP1",
+     "target": "15 buổi: 8, 10, 18, 24, 40, 46, 48, 56, 72, 74, 79, 83…"
+    },
+    {
+     "code": "WS2",
+     "what": "Viết: bài báo (thu hút người đọc, nêu quan điểm)",
+     "part": "W1 W2",
+     "hp": "HP1",
+     "target": "21 buổi: 4, 16, 18, 30, 32, 36, 38, 40, 52, 54, 56, 62…"
+    },
+    {
+     "code": "WS3",
+     "what": "Viết: truyện (mở đầu, trình tự, không khí, kết)",
+     "part": "W1 W2",
+     "hp": "HP1",
+     "target": "12 buổi: 2, 14, 18, 40, 56, 68, 72, 74, 79, 84, 89, 92"
+    },
+    {
+     "code": "WS4",
+     "what": "Viết: lập dàn ý, chia đoạn, từ nối",
+     "part": "W1 W2",
+     "hp": "HP1",
+     "target": "30 buổi: 2, 4, 8, 10, 14, 16, 18, 24, 30, 32, 36, 38…"
+    },
+    {
+     "code": "WS5",
+     "what": "Viết: đa dạng ngữ pháp, câu phức",
+     "part": "W1 W2",
+     "hp": "HP2",
+     "target": "5 buổi: 36, 52, 62, 68, 89"
+    },
+    {
+     "code": "WS6",
+     "what": "Viết: tự soát lỗi, chính tả, dấu câu",
+     "part": "W1 W2",
+     "hp": "HP1",
+     "target": "12 buổi: 8, 14, 24, 30, 36, 46, 52, 62, 68, 72, 79, 89"
+    },
+    {
+     "code": "VS1",
+     "what": "Từ vựng: chủ đề theo danh sách từ vựng PET",
+     "part": "R5 R6",
+     "hp": "HP1",
+     "target": "18 buổi: 6, 9, 12, 15, 22, 25, 28, 31, 34, 37, 44, 47…"
+    },
+    {
+     "code": "VS2",
+     "what": "Từ vựng: cấu tạo từ (tiền tố, hậu tố)",
+     "part": "R5 R6",
+     "hp": "HP2",
+     "target": "3 buổi: 28, 50, 66"
+    },
+    {
+     "code": "VS3",
+     "what": "Từ vựng: cụm động từ, collocation, giới từ đi kèm",
+     "part": "R5 R6",
+     "hp": "HP1",
+     "target": "9 buổi: 6, 12, 22, 28, 34, 44, 50, 60, 66"
+    }
+   ],
+   "sessions": [
+    {
+     "session_id": "BO-01",
+     "session_no": 1,
+     "week": 1,
+     "hp": "HP1",
+     "unit": "Starter",
+     "unit_title": "Happy days",
+     "type": "Starter",
+     "kind": "Starter",
+     "sb_pages": "6–7, 124, 167",
+     "wb_pages": "4",
+     "focus": "Starter Happy days · Power up + Read on",
+     "task": "bài đăng mạng xã hội 5 ảnh; blog sưu tầm thẻ bóng đá",
+     "content": "Từ vựng theo nhóm chủ đề: science, entertainment, home life, travel, free time · Mạo từ a/an/the/không mạo từ",
+     "ket_part": "[R6] điền mạo từ vào blog (open cloze) · [S1] giới thiệu bản thân, kỳ nghỉ hè vừa qua",
+     "ket_codes": [
+      "R6",
+      "S1"
+     ],
+     "subskills": [
+      "RS8",
+      "SS1"
+     ],
+     "grammar": "B03 Mạo từ a/an/the/không mạo từ",
+     "vocabulary": "performance, science project, kitten, stage, hang out, hot chocolate, gorgeous, attractive, nervous, prize, hero, trip, birthday money, social media posts, science, entertainment, home life, travel, free time, blog, blogger, visitor, a lot of, good communication, being organised, collecting football stickers",
+     "can_do": "Điền đúng mạo từ ≥ 7/10 chỗ; mỗi học sinh nói ≥ 5 câu về bản thân",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ Starter: performance, science project, kitten, stage, hang out, hot chocolate, gorgeous, attractive, nervous, prize, hero, trip (10')\n2. [Nghe] Nghe – đọc bài đăng mạng xã hội SB tr. 7, đoán 5 ảnh thuộc chủ đề nào (5')\n3. [Ngữ pháp] Video mạo từ a/an/the/không mạo từ (Grammar file SB tr. 124) + 5 câu (7')\n4. [Nói] Ghi âm 1 phút giới thiệu bản thân và kỳ nghỉ hè (4')\n5. [Lồng tiếng] Làm quen trình lồng tiếng: clip mẫu 2 câu 'Happy days' (6')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ Starter + mạo từ (5')\n2. [Ngữ pháp] Workbook tr. 4 (số hóa) (10')\n3. [Ngữ pháp] Grammar file SB tr. 125: bài luyện mạo từ (6')\n4. [Nghe] Chép chính tả 4 câu blog sưu tầm thẻ bóng đá (5')\n5. [Nói] Shadowing 5 câu của blog (5')\n6. [Nói] Ghi âm 1 phút 'My summer' dùng 3 từ mới (3')\n7. [Lồng tiếng] 2 clip chủ đề kỳ nghỉ (12')\n8. [Từ vựng] Ôn thẻ Starter (3')\n9. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 32,
+     "after_min": 55,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 124 (Starter); audioscript SB tr. 167",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-02",
+     "session_no": 2,
+     "week": 1,
+     "hp": "HP1",
+     "unit": "Starter",
+     "unit_title": "Happy days",
+     "type": "Starter",
+     "kind": "Starter",
+     "sb_pages": "7–8, 125",
+     "wb_pages": "5",
+     "focus": "Starter · Speak up + Listen up + Write on",
+     "task": "tìm người đã từng…; nghe về ảnh kỳ nghỉ; viết 'My best moment'",
+     "content": "Câu hỏi quá khứ đơn (Did you…?) · Hoạt động hè: barbecue, new skill, swimming outdoors",
+     "ket_part": "[S3] chọn hoạt động cho ngày đi chơi của gia đình (giống Speaking Part 3) · nghe S.1 nối ảnh A–H · [W2] bài 'My best moment' (giống Writing Part 2)",
+     "ket_codes": [
+      "S3",
+      "W2"
+     ],
+     "subskills": [
+      "SS3",
+      "WS3",
+      "WS4"
+     ],
+     "grammar": "B03 Mạo từ a/an/the/không mạo từ; B04 Quá khứ đơn và quá khứ tiếp diễn (when/while)",
+     "vocabulary": "barbecue, go walking in the countryside, learn a new skill, travel to a new place, play a new game, have a barbecue with friends, try a new food or drink, take lots of photos, swim outdoors, perfect weekend, active, the city, the countryside, that's a good point, how about …?, I agree, holiday photos, lake, get to the other side, too sweet, buildings, views over the river, uncles, aunts, cousins, burgers, updates, skiing lessons, fall down, selfies, birds, farm animals, hike, best moment, achieve, win a prize, dress up, favourite book character, do research",
+     "can_do": "Hỏi – đáp ≥ 6 câu quá khứ đơn; bài viết ~80–100 từ, ≤ 4 lỗi",
+     "before": "1. [Từ vựng] Chuỗi 5 bước: barbecue, learn a new skill, play a new game, take lots of photos, swim outdoors, perfect weekend, active, the city, holiday photos, lake, too sweet, buildings, views over the river, uncles (10')\n2. [Nói] Ghi âm trả lời 3 câu 'Did you … last summer?' (5')\n3. [Nghe] Nghe mồi S.1 (ảnh kỳ nghỉ) SB tr. 8, đoán ảnh (4')\n4. [Viết] Đọc đề 'My best moment' và lập dàn ý (6')\n5. [Lồng tiếng] clip 2 câu chủ đề hoạt động hè (6')\n6. [Từ vựng] Ôn thẻ Starter (3')",
+     "after": "1. [Viết] Hoàn thiện bài 'My best moment' ~100 từ để trưng bày ở E1 (15')\n2. [Từ vựng] Workbook tr. 5 (số hóa) (8')\n3. [Nghe] Nghe lại S.1 có lời thoại + chép chính tả 3 câu (7')\n4. [Nói] Ghi âm kể 'My best moment' 1 phút (chuẩn bị cho E1) (4')\n5. [Lồng tiếng] 2 clip (12')\n6. [Ôn] Quiz 8 câu quá khứ đơn (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 56,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 125 (bài luyện Starter); audioscript SB tr. 167",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-03",
+     "session_no": 3,
+     "week": 2,
+     "hp": "HP1",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Chẩn đoán",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Bài chẩn đoán đầu khóa + làm quen đề B1 Preliminary for Schools",
+     "task": "—",
+     "content": "Cấu trúc đề PET: Reading 45' (6 part), Writing 45' (2 part), Listening ~30' (4 part), Speaking 12–14' (4 part); thang Cambridge 140–159 = B1",
+     "ket_part": "[E] làm bài chẩn đoán đúng thời gian · xem 1 câu mẫu mỗi part của đề mẫu chính thức",
+     "ket_codes": [],
+     "subskills": [],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B03 Mạo từ a/an/the/không mạo từ; B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since",
+     "vocabulary": "—",
+     "can_do": "Ghi nhận điểm nền từng học sinh; học sinh < 60% vào nhóm hỗ trợ ngữ pháp",
+     "before": "1. [Thi] Xem video giới thiệu 4 bài thi B1 Preliminary for Schools + làm thử 1 câu mỗi part (15')\n2. [Tự học] Phiếu tự đánh giá 4 kỹ năng (can-do B1) (5')\n3. [Từ vựng] Ôn thẻ Starter (5')\n4. [Lồng tiếng] clip 2 câu (6')",
+     "after": "1. [Tự học] Xem kết quả chẩn đoán từng kỹ năng, đặt 1 mục tiêu cho HP1 (5')\n2. [Ngữ pháp] Bài bổ trợ theo điểm ngữ pháp yếu nhất trong bài chẩn đoán (15')\n3. [Nghe] Nghe 1 part PET mẫu (đề mẫu Cambridge) có lời thoại (8')\n4. [Nói] Ghi âm 1 phút 'Why I want to reach B1' (4')\n5. [Lồng tiếng] 2 clip (12')\n6. [Từ vựng] Ôn thẻ (5')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 31,
+     "after_min": 55,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Diagnostic Test A (Assessment package, TRB tr. 7); Cambridge B1 Preliminary for Schools sample test 2020 (Reading, Writing, Listening, Speaking)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-04",
+     "session_no": 4,
+     "week": 2,
+     "hp": "HP1",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E1 · My Best Moment Gallery",
+     "task": "—",
+     "content": "Quá khứ đơn, mạo từ; từ vựng Starter (science, entertainment, travel, free time)",
+     "ket_part": "[S2] kể khoảnh khắc đáng nhớ 1 phút bên ảnh của mình · [S4] hỏi bạn 2 câu · [W2] bài viết 'My best moment' ~100 từ",
+     "ket_codes": [
+      "S2",
+      "S4",
+      "W2"
+     ],
+     "subskills": [
+      "SS2",
+      "SS4",
+      "SS5",
+      "WS2",
+      "WS4"
+     ],
+     "grammar": "B03 Mạo từ a/an/the/không mạo từ; B04 Quá khứ đơn và quá khứ tiếp diễn (when/while)",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi học sinh trưng bày ảnh + bài viết, nói 1 phút, đặt ≥ 2 câu hỏi cho bạn",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'My Best Moment Gallery' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Quá khứ đơn, mạo từ; từ vựng Starter (science, entertainment, travel, free time) (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W2) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Lắng nghe và tôn trọng trải nghiệm khác nhau",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-05",
+     "session_no": 5,
+     "week": 3,
+     "hp": "HP1",
+     "unit": "U1",
+     "unit_title": "Identity",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "9–12, 126",
+     "wb_pages": "6–8",
+     "focus": "U1 Identity · Lead-in + Reading + Grammar 1",
+     "task": "Đọc identity boxes và hồ sơ của Marla, nối thông tin",
+     "content": "Ngữ pháp: Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái (think, feel, see, have) · Kỹ năng đọc: matching information",
+     "ket_part": "[R2] nối 5 người với 8 văn bản — kỹ năng matching information; gạch từ khóa, tìm cách diễn đạt khác trong bài · [RS6] đoán nghĩa từ mới qua ngữ cảnh (loại từ, từ xung quanh, ví dụ trong câu) trước khi tra từ",
+     "ket_codes": [
+      "R2"
+     ],
+     "subskills": [
+      "RS3",
+      "RS6",
+      "RS9"
+     ],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái",
+     "vocabulary": "identity, identity box, profile, valley, hang out with, stickers, background, member, skyscrapers, huge buildings, music teacher, walking boots, author, village, mountains, outdoors, musical, shows, take part in, TV programme, theatre programme, entertainment guide, surfboard, square, saucepan, diary, timetables, clubs, jewellery, postcard",
+     "can_do": "≥ 4/5 câu nối Part 2; viết 6 câu dùng điểm ngữ pháp B01, ≥ 5 câu đúng",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): identity, identity box, profile, valley, hang out with, stickers, background, member, skyscrapers, huge buildings, music teacher, walking boots (10')\n2. [Nói] Lead-in SB tr. 9: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 10 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái (think, feel, see, have) (theo Grammar file SB tr. 126, Grammar ppt U1) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 6–7 Reading (số hóa, chấm tự động; dạng R2) (10')\n3. [Ngữ pháp] Workbook tr. 8 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 127: 1–2 bài luyện phần Hiện tại đơn và hiện tại tiếp diễn (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 10–11 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U1 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 126 (lý thuyết); Grammar ppt B1 U1; Photocopiable 1A (ngữ pháp)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-06",
+     "session_no": 6,
+     "week": 3,
+     "hp": "HP1",
+     "unit": "U1",
+     "unit_title": "Identity",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "13–14, 144, 167–168",
+     "wb_pages": "9–10",
+     "focus": "U1 Identity · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe về cuộc sống thành phố và nông thôn, nhận ra người nói đồng ý hay không đồng ý",
+     "content": "Từ vựng: Tính từ tính cách: bossy, lazy, lively, noisy, rude, confident, shy, calm, ambitious, generous, easy-going · tính từ + giới từ: interested in, keen on, good at, fed up with, excited about, afraid of, similar to · Ngữ pháp 2: Trạng từ tần suất và vị trí, cụm thời gian",
+     "ket_part": "[R5] điền từ trắc nghiệm (từ vựng, collocation) · [L2] 6 hội thoại ngắn, ý kiến/thái độ — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra · [LS7] chép chính tả 3–4 câu từ lời thoại, chú ý âm nối, âm yếu, dạng rút gọn",
+     "ket_codes": [
+      "R5",
+      "L2"
+     ],
+     "subskills": [
+      "LS2",
+      "LS5",
+      "LS7",
+      "RS7",
+      "VS1",
+      "VS3"
+     ],
+     "grammar": "B02 Trạng từ tần suất, vị trí; cụm thời gian; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…)",
+     "vocabulary": "bossy, lazy, lively, noisy, rude, funny, clever, confident, sporty, serious, shy, calm, ambitious, generous, easy-going, positive, negative, neutral, good at, brilliant at, bad at, terrible at, bored with, fed up with, excited about, interested in, afraid of, frightened of, keen on, similar to, behaviour towards, follow rules, excited, interested, pleased, relaxed, dirty, stressed, tired, cross, annoying, amazed, surprised, great history, romantic, variety (of things to do), new buildings, friendly, wonderful, always, usually, often, never, hardly ever, rarely, (every) now and then, once a week, once or twice a week, twice a year, every weekend, most days, on Mondays, at the moment, this week",
+     "can_do": "≥ 4/6 câu Part 5; ≥ 4/6 câu Part 2; dùng đúng B02 trong ≥ 5/6 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 13: bossy, lazy, lively, noisy, rude, funny, clever, confident, sporty, serious, shy, calm, ambitious, generous (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 14 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: Trạng từ tần suất và vị trí, cụm thời gian + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 144 (phần U1): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 9 Vocabulary (6')\n3. [Nghe] Workbook tr. 10 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 14 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L2 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 14, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U1 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 144; Photocopiable 1B (từ vựng); audioscript SB tr. 167–168 (chữa bài nghe); Dictation trong Skills Test của unit (Assessment package)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-07",
+     "session_no": 7,
+     "week": 4,
+     "hp": "HP1",
+     "unit": "U1",
+     "unit_title": "Identity",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "15, 146",
+     "wb_pages": "11",
+     "focus": "U1 Identity · Speaking",
+     "task": "Giới thiệu bản thân, cho thông tin cá nhân; đưa lý do và ví dụ",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B01, B02 và từ vựng U1 khi nói · Bổ sung B31: câu hỏi đuôi để xác nhận thông tin (You're from Thái Bình, aren't you?)",
+     "ket_part": "[S1] câu hỏi cá nhân — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: trọng âm từ tính từ tính cách (CONfident, amBItious, EAsy-going); ngữ điệu câu hỏi đuôi · [SS6] hỏi lại, làm rõ: Sorry, could you say that again? What do you mean by…? Do you mean…?",
+     "ket_codes": [
+      "S1"
+     ],
+     "subskills": [
+      "SS1",
+      "SS6",
+      "SS7"
+     ],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B02 Trạng từ tần suất, vị trí; cụm thời gian; B31 Câu hỏi đuôi (question tags)",
+     "vocabulary": "full name, first name, middle name, surname, family name, nickname, address, postcode, zip code, email address, How do you spell that?, one reason is that …, another reason is that …, on top of that …, for example, because",
+     "can_do": "trả lời ≥ 6 câu hỏi cá nhân, mỗi câu mở rộng 2 ý (lý do, ví dụ); dùng đúng B31 trong ≥ 4/5 câu; đọc đúng ≥ 8/10 câu mẫu phát âm",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 146: full name, first name, middle name, surname, family name, nickname, address, postcode (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 15, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U1 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 11 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S1 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: trọng âm từ tính từ tính cách (CONfident, amBItious, EAsy-going); ngữ điệu câu hỏi đuôi (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U1 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 146; Bài bổ sung ngữ pháp do IVY soạn (không có trong GE B1 2nd ed)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-08",
+     "session_no": 8,
+     "week": 4,
+     "hp": "HP1",
+     "unit": "U1",
+     "unit_title": "Identity",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "16–17, 150–151",
+     "wb_pages": "12",
+     "focus": "U1 Identity · Writing",
+     "task": "Email giới thiệu bản thân cho chương trình truyền hình Channel 1: mở thư, phản hồi, kết thư; quite/very + tính từ; and, but, so, because, or",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it",
+     "ket_part": "[W1] email ~100 từ theo 4 ghi chú — phân tích đề, gạch ý bắt buộc, viết 20–25 phút",
+     "ket_codes": [
+      "W1"
+     ],
+     "subskills": [
+      "WS1",
+      "WS4",
+      "WS6"
+     ],
+     "grammar": "B22 Từ nối: although, so that, either…or, as soon as, because, so",
+     "vocabulary": "personal profile, advertisement, documentary, reality TV show, quite unusual, very important, quite shy, very keen on, and, because, but, or, so, Choose me because …",
+     "can_do": "email ~100 từ, đủ 4 ý trong ghi chú, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 16–17 và Writing file SB tr. 150–151: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): personal profile, advertisement, documentary, reality TV show, quite unusual, very important, quite shy, very keen on (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 12 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U1 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 150–151 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5); Photocopiable 1C (viết)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-09",
+     "session_no": 9,
+     "week": 5,
+     "hp": "HP1",
+     "unit": "U1",
+     "unit_title": "Identity",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "18–20, 127",
+     "wb_pages": "13",
+     "focus": "U1 Identity · Ôn tập và Dự án",
+     "task": "Video 'No more boys and girls'; dự án: Thuyết trình ý tưởng giúp trường học bình đẳng giới hơn, đánh giá chéo; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U1 · Independent learning: Think about your learning: tự đánh giá, lập portfolio",
+     "ket_part": "[S4] thảo luận sau video · trình bày dự án nhóm 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S4",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS4",
+      "VS1"
+     ],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B02 Trạng từ tần suất, vị trí; cụm thời gian",
+     "vocabulary": "gender, gender stereotypes, gender neutral, equal, experiment, psychologist, brains, build robots, sew teddy bears, behaviour, improve, toys, jobs, primary school, come round",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Thuyết trình ý tưởng giúp trường học bình đẳng giới hơn, đánh giá chéo (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'No more boys and girls' (SB tr. 18) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U1 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'No more boys and girls' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 13 Unit check (8')\n2. [Ôn] Language Test A U1 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 18: phiếu tự đánh giá + ghi âm 1 phút 'Unit 1: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Food and drink' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Identity' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'No more boys and girls') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U1 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Bản sắc cá nhân, bình đẳng giới và định kiến (SDG 5) · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U1 (videoscript TB tr. 147); Grammar file SB tr. 127 (bài luyện); Unit test B1 U1: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-10",
+     "session_no": 10,
+     "week": 5,
+     "hp": "HP1",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E2 · Beyond Stereotypes Talk Show",
+     "task": "—",
+     "content": "Tính cách, bản sắc; hiện tại đơn/tiếp diễn",
+     "ket_part": "[S1] dẫn talk show phỏng vấn khách mời · [S4] đưa quan điểm có lý do · [W1] email mời khách ~100 từ",
+     "ket_codes": [
+      "S1",
+      "S4",
+      "W1"
+     ],
+     "subskills": [
+      "SS1",
+      "SS4",
+      "WS1",
+      "WS4"
+     ],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…)",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi nhóm dựng 1 talk show 5 phút; mỗi học sinh hỏi hoặc trả lời ≥ 3 lượt",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'Beyond Stereotypes Talk Show' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Tính cách, bản sắc; hiện tại đơn/tiếp diễn (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W1) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Bình đẳng giới, phá bỏ định kiến (SDG 5)",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-11",
+     "session_no": 11,
+     "week": 6,
+     "hp": "HP1",
+     "unit": "U2",
+     "unit_title": "Get the message",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "21–24, 128",
+     "wb_pages": "14–16",
+     "focus": "U2 Get the message · Lead-in + Reading + Grammar 1",
+     "task": "Đọc biển báo, thông báo và bài báo về các ngôn ngữ thiểu số (Welsh, Gaelic, Manx, Cornish); hiểu ý chính",
+     "content": "Ngữ pháp: Quá khứ đơn và quá khứ tiếp diễn với when/while; động từ trạng thái không dùng tiếp diễn · Kỹ năng đọc: understanding overall meaning",
+     "ket_part": "[R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R3] bài dài, 5 câu trắc nghiệm — kỹ năng understanding overall meaning; gạch từ khóa, tìm cách diễn đạt khác trong bài · [RS4] nhận ra thái độ, ý kiến người viết: tìm tính từ, trạng từ đánh giá (surprisingly, unfortunately), phân biệt sự thật và ý kiến",
+     "ket_codes": [
+      "R1",
+      "R3"
+     ],
+     "subskills": [
+      "RS1",
+      "RS2",
+      "RS4"
+     ],
+     "grammar": "B04 Quá khứ đơn và quá khứ tiếp diễn (when/while)",
+     "vocabulary": "international, increasing, pay attention, fashionable, local, realise, disappear, allowed, minority languages, bilingual, survive, die out, relatives, field of education, keep secrets, identity, culture, high grades, contact details, few people, Zulu, Inuit, Gaelic, Maori, Welsh, Manx, Cornish",
+     "can_do": "≥ 4/5 câu Part 1; ≥ 4/5 câu Part 3; viết 6 câu dùng điểm ngữ pháp B04, ≥ 5 câu đúng; trả lời đúng ≥ 2/2 câu hỏi về thái độ người viết",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): international, increasing, pay attention, fashionable, local, realise, disappear, allowed, minority languages, bilingual, survive, die out (10')\n2. [Nói] Lead-in SB tr. 21: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 22 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Quá khứ đơn và quá khứ tiếp diễn với when/while; động từ trạng thái không dùng tiếp diễn (theo Grammar file SB tr. 128, Grammar ppt U2) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 14–15 Reading (số hóa, chấm tự động; dạng R1, R3) (10')\n3. [Ngữ pháp] Workbook tr. 16 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 129: 1–2 bài luyện phần Quá khứ đơn và quá khứ tiếp diễn với when/while (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 22–23 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U2 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 128 (lý thuyết); Grammar ppt B1 U2; Photocopiable 2A (ngữ pháp)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-12",
+     "session_no": 12,
+     "week": 6,
+     "hp": "HP1",
+     "unit": "U2",
+     "unit_title": "Get the message",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "25–26, 144, 168",
+     "wb_pages": "17–18",
+     "focus": "U2 Get the message · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe về trại hè học kỹ năng (coding), dự đoán thông tin cần điền",
+     "content": "Từ vựng: Ngôn ngữ và giao tiếp: repeat, pronounce, translate, explain, mean · phân biệt tell/talk/speak/say · động từ + giới từ: listen to, talk to/about, explain sth to sb · Ngữ pháp 2: Danh động từ (-ing) làm chủ ngữ và sau giới từ · Bổ sung B29: động từ + V-ing / to V (enjoy learning, decide to try, stop -ing / stop to)",
+     "ket_part": "[R5] điền từ trắc nghiệm (từ vựng, collocation) · [L3] điền 6 thông tin — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra",
+     "ket_codes": [
+      "R5",
+      "L3"
+     ],
+     "subskills": [
+      "LS3",
+      "LS5",
+      "RS7",
+      "VS1",
+      "VS3"
+     ],
+     "grammar": "B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…); B29 Động từ + V-ing / to V (enjoy, decide, want, stop, try…)",
+     "vocabulary": "explain, mean, pronounce, repeat, say, speak, translate, understand, listen to sb/sth, talk to sb, talk about sth, speak to sb, speak about sth, explain sth to sb, translate sth into, tell/talk, say/speak, listen/hear, tell a story, tell a joke, tell sb the answer, say the alphabet, speak a language, summer camp, app camp, apps, application, beginners, lowest level, basketball match, museum, computing, code, coding, developer's kit, calorie, barcode, celebrate, recommend, waste, choose",
+     "can_do": "≥ 4/6 câu Part 5; ≥ 4/6 chỗ trống Part 3, đúng chính tả; dùng đúng B05 trong ≥ 5/6 câu; dùng đúng B29 trong ≥ 4/5 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 25: explain, mean, pronounce, repeat, say, speak, translate, understand, listen to sb/sth, talk to sb, talk about sth, speak to sb, speak about sth, explain sth to sb (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 26 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: Danh động từ (-ing) làm chủ ngữ và sau giới từ + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 144 (phần U2): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 17 Vocabulary (6')\n3. [Nghe] Workbook tr. 18 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 26 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L3 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 26, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U2 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 144; Photocopiable 2B (từ vựng); audioscript SB tr. 168 (chữa bài nghe); Bài bổ sung ngữ pháp do IVY soạn (không có trong GE B1 2nd ed)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-13",
+     "session_no": 13,
+     "week": 7,
+     "hp": "HP1",
+     "unit": "U2",
+     "unit_title": "Get the message",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "27, 147",
+     "wb_pages": "19",
+     "focus": "U2 Get the message · Speaking",
+     "task": "Tả ảnh về giao tiếp, sắp xếp ý khi tả (tổng quan → chi tiết → suy đoán)",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B04, B05 và từ vựng U2 khi nói",
+     "ket_part": "[S2] tả ảnh 1 phút — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: đuôi -ed /t/ /d/ /ɪd/ khi kể chuyện quá khứ; nhấn từ quan trọng khi tả ảnh · [SS6] dùng câu hỏi lại, làm rõ khi chưa hiểu bạn hoặc giám khảo",
+     "ket_codes": [
+      "S2"
+     ],
+     "subskills": [
+      "SS2",
+      "SS6",
+      "SS7"
+     ],
+     "grammar": "B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ",
+     "vocabulary": "queue, bus driver, shop assistant, public transport, fluent, fluency, speak at length, supermarket, shelves, till, paper bag, customer, uniform, basket, counter, This photo shows …, On the left / To the right of the photo, In the middle / At the front / In the background, Behind …, In front of …, It looks like …, I'm pretty sure …, It's probably …",
+     "can_do": "tả ảnh liên tục 1 phút, ≥ 8 câu, dùng ≥ 3 cụm chỉ vị trí hoặc suy đoán; đọc đúng ≥ 8/10 câu mẫu phát âm",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 147: queue, bus driver, shop assistant, public transport, fluent, fluency, speak at length, supermarket (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 27, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U2 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 19 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S2 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: đuôi -ed /t/ /d/ /ɪd/ khi kể chuyện quá khứ; nhấn từ quan trọng khi tả ảnh (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U2 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 147",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-14",
+     "session_no": 14,
+     "week": 7,
+     "hp": "HP1",
+     "unit": "U2",
+     "unit_title": "Get the message",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "28–29, 154–155",
+     "wb_pages": "20",
+     "focus": "U2 Get the message · Writing",
+     "task": "Truyện về một lần mắc lỗi đáng nhớ: tạo không khí bằng tính từ mạnh (wonderful, brilliant) và trạng từ (really, finally)",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it",
+     "ket_part": "[W2] bài báo hoặc truyện ~100 từ — phân tích đề, gạch ý bắt buộc, viết 20–25 phút",
+     "ket_codes": [
+      "W2"
+     ],
+     "subskills": [
+      "WS3",
+      "WS4",
+      "WS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "happy, embarrassed, exhausted, excited, nervous, scared, go red, panic, glance, freeze, my mind went blank, grow on sb, Sunday roast, gravy, smile/smell, vegetables/vegetarians, supper/suffer, flour/flower, library/bookshop, dish/plate, wonderful, brilliant, delicious, hilarious, disgusting, furious, fantastic, huge, awful, terrible, really, finally",
+     "can_do": "bài ~100 từ có mở – thân – kết, ≥ 3 từ nối, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 28–29 và Writing file SB tr. 154–155: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): happy, embarrassed, exhausted, excited, nervous, scared, go red, panic (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 20 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U2 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 154–155 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5); Photocopiable 2C (viết)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-15",
+     "session_no": 15,
+     "week": 8,
+     "hp": "HP1",
+     "unit": "U2",
+     "unit_title": "Get the message",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "30–32, 129",
+     "wb_pages": "21",
+     "focus": "U2 Get the message · Ôn tập và Dự án",
+     "task": "Video 'School interpreters'; dự án: Poster thông tin cho học sinh mới đến trường; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U2 · Independent learning: Setting goals: đặt mục tiêu cụ thể, đo được; flashcard Quizlet",
+     "ket_part": "[S4] thảo luận sau video · trình bày dự án nhóm 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S4",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS4",
+      "VS1"
+     ],
+     "grammar": "B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ",
+     "vocabulary": "interpreter, student interpreter, binge watch, definition, grow in confidence, communication skills, job opportunities, bullied, professional, information poster, app, online, disappear, celebrate, recommend, choose, pay",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Poster thông tin cho học sinh mới đến trường (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'School interpreters' (SB tr. 30) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U2 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'School interpreters' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 21 Unit check (8')\n2. [Ôn] Language Test A U2 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 30: phiếu tự đánh giá + ghi âm 1 phút 'Unit 2: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Health, medicine and exercise' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Get the message' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'School interpreters') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U2 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Ngôn ngữ và bản sắc văn hóa, hòa nhập và hỗ trợ bạn mới (SDG 10) · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U2 (videoscript TB tr. 147); Grammar file SB tr. 129 (bài luyện); Unit test B1 U2: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-16",
+     "session_no": 16,
+     "week": 8,
+     "hp": "HP1",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E3 · Welcome Buddy Day",
+     "task": "—",
+     "content": "Giao tiếp, ngôn ngữ; quá khứ đơn/tiếp diễn, danh động từ",
+     "ket_part": "[S2] giới thiệu poster cho học sinh mới · [R1] đọc biển báo trong trường · [W2] câu chuyện 'ngày đầu tiên' ~100 từ",
+     "ket_codes": [
+      "S2",
+      "R1",
+      "W2"
+     ],
+     "subskills": [
+      "RS1",
+      "SS2",
+      "WS2",
+      "WS4"
+     ],
+     "grammar": "B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi nhóm làm poster chào đón và dẫn 'bạn mới' tham quan bằng tiếng Anh 5 phút",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'Welcome Buddy Day' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Giao tiếp, ngôn ngữ; quá khứ đơn/tiếp diễn, danh động từ (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W2) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Hòa nhập, hỗ trợ bạn mới, tôn trọng ngôn ngữ thiểu số (SDG 10)",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-17",
+     "session_no": 17,
+     "week": 9,
+     "hp": "HP1",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Review",
+     "kind": "Củng cố",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Củng cố · Nghe – Đọc (U1, U2)",
+     "task": "—",
+     "content": "Chủ đề U1, U2 · Nhận ra các điểm ngữ pháp B01, B02, B03, B04, B05, B20 trong bài đọc và lời thoại",
+     "ket_part": "[R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R2] nối 5 người với 8 văn bản · [R3] bài dài, 5 câu trắc nghiệm · [R5] điền từ trắc nghiệm (từ vựng, collocation) · [L2] 6 hội thoại ngắn, ý kiến/thái độ · [L3] điền 6 thông tin — làm theo thời gian thật của đề, chữa bằng cách gạch câu chứa đáp án · [RS9] kiểm tra nhật ký đọc: kể tóm tắt sách đọc phân cấp 1 phút",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R5",
+      "L2",
+      "L3"
+     ],
+     "subskills": [
+      "LS2",
+      "LS3",
+      "LS5",
+      "RS1",
+      "RS2",
+      "RS3",
+      "RS7",
+      "RS9",
+      "SS5"
+     ],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B02 Trạng từ tần suất, vị trí; cụm thời gian; B03 Mạo từ a/an/the/không mạo từ; B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…); B29 Động từ + V-ing / to V (enjoy, decide, want, stop, try…); B31 Câu hỏi đuôi (question tags)",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "≥ 4/5 câu Part 1; ≥ 4/5 câu nối Part 2; ≥ 4/5 câu Part 3; ≥ 4/6 câu Part 5; ≥ 4/6 câu Part 2; ≥ 4/6 chỗ trống Part 3, đúng chính tả",
+     "before": "1. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp các unit trong học phần (8')\n2. [Nghe] Nghe lại 2 bài nghe điểm thấp nhất trong học phần, có lời thoại (8')\n3. [Đọc] Đọc lại 1 bài đọc của sách, tìm 5 cụm diễn đạt khác (paraphrase) (8')\n4. [Từ vựng] Ôn thẻ đến hạn (5')\n5. [Lồng tiếng] clip ôn tập (6')",
+     "after": "1. [Thi] Làm lại các câu sai của đề luyện trên lớp, ghi lý do sai (10')\n2. [Nghe] 1 part nghe tiếp theo của đề PTP (dạng L2, L3) + chép chính tả 4 câu (12')\n3. [Đọc] 1 part đọc của đề PTP (dạng R1, R2, R3, R5) (10')\n4. [Nói] Shadowing 5 câu của bài nghe (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Ôn từ vựng học phần",
+       "category": "lang"
+      },
+      {
+       "minutes": 35,
+       "activity": "Reading PET: làm có bấm giờ → chữa → rút chiến lược",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Listening PET: làm → chữa → nghe lại có lời",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Đọc hoặc nghe mở rộng mức dễ",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Practice Tests Plus B1 Preliminary for Schools (PTP) Test 1: Reading Part 1, Part 2, Part 3, Part 5; Listening Part 2, Part 3; Skills Test A U1, U2",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-18",
+     "session_no": 18,
+     "week": 9,
+     "hp": "HP1",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Củng cố + kiểm tra Nói",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Củng cố · Nói – Viết + kiểm tra Nói HP1",
+     "task": "—",
+     "content": "Câu hỏi cá nhân, tả ảnh, thảo luận theo chủ đề đã học · từ nối và câu mở rộng",
+     "ket_part": "[S1] câu hỏi cá nhân · [S2] tả ảnh 1 phút — thi Nói theo cặp với giáo viên · [W1] email ~100 từ theo 4 ghi chú · [W2] bài báo hoặc truyện ~100 từ — viết có bấm giờ 22 phút",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "W1",
+      "W2"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4"
+     ],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B02 Trạng từ tần suất, vị trí; cụm thời gian; B03 Mạo từ a/an/the/không mạo từ; B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…); B29 Động từ + V-ing / to V (enjoy, decide, want, stop, try…); B31 Câu hỏi đuôi (question tags)",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Thi Nói đạt ≥ 3/5 mỗi tiêu chí (thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5)); bài viết đạt ≥ 3/5 mỗi tiêu chí PET",
+     "before": "1. [Nói] Luyện 4 part Nói theo bộ câu hỏi mẫu, ghi âm từng part (12')\n2. [Nghe] Xem video thí sinh mẫu Cambridge, ghi 3 cụm câu học được (8')\n3. [Viết] Lập dàn ý 1 email và 1 article/story (8')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Nói] Ghi âm lại part Nói chưa đạt theo nhận xét (8')\n2. [Viết] Viết lại bài viết có bấm giờ theo nhận xét (15')\n3. [Phát âm] Luyện 10 câu theo lỗi phát âm được ghi trong buổi thi Nói (6')\n4. [Nghe] 1 part nghe PET (7')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 90,
+       "activity": "GV thi Nói từng cặp 10–12'; các cặp khác viết PET Part 1/2 bấm giờ",
+       "category": "test"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự chấm bài viết theo thang PET",
+       "category": "lang"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 1: Speaking, Writing; Speaking file SB tr. 146–149; Writing file SB tr. 150–155",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-19",
+     "session_no": 19,
+     "week": 10,
+     "hp": "HP1",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Kiểm tra học phần",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Ngữ pháp nền + kiểm tra HP1",
+     "task": "—",
+     "content": "Ôn ngữ pháp B01, B02, B03, B04, B05, B20, B29, B31 — ghi lỗi vào bảng lỗi cá nhân",
+     "ket_part": "[E] làm bài đúng thời gian, chuyển đáp án sang phiếu trả lời · [R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R2] nối 5 người với 8 văn bản · [L2] 6 hội thoại ngắn, ý kiến/thái độ · [L3] điền 6 thông tin",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "L2",
+      "L3"
+     ],
+     "subskills": [
+      "LS2",
+      "LS3",
+      "RS1",
+      "RS3"
+     ],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B02 Trạng từ tần suất, vị trí; cụm thời gian; B03 Mạo từ a/an/the/không mạo từ; B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…); B29 Động từ + V-ing / to V (enjoy, decide, want, stop, try…); B31 Câu hỏi đuôi (question tags)",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Kiểm tra ≥ 60% mỗi phần; ≥ 80% câu ngữ pháp mức có kiểm soát (B01, B02, B03, B04, B05, B20, B29, B31)",
+     "before": "1. [Ngữ pháp] Quiz ôn ngữ pháp của học phần 30 câu (có giải thích) (12')\n2. [Từ vựng] Ôn thẻ: toàn bộ từ của học phần còn đến hạn (8')\n3. [Thi] Xem lại chiến lược các part sẽ kiểm tra (video 5') (5')\n4. [Nghe] Nghe 1 bài nghe của sách có lời thoại (5')\n5. [Lồng tiếng] clip (6')",
+     "after": "1. [Tự học] Xem bài kiểm tra, ghi 5 lỗi chính vào bảng lỗi cá nhân (8')\n2. [Ngữ pháp] Làm lại câu sai dưới dạng mới (website tự tạo) (12')\n3. [Nghe] Nghe lại phần nghe của bài kiểm tra có lời thoại, chép chính tả 4 câu (10')\n4. [Nói] Ghi âm 1 phút: điều em làm tốt và điều em cần cải thiện (3')\n5. [Lồng tiếng] 2 clip (12')\n6. [Từ vựng] Ôn thẻ (5')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 36,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 40,
+       "activity": "Ôn các điểm ngữ pháp nền của học phần",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Kiểm tra: các part PET đã học + câu ngữ pháp nền",
+       "category": "test"
+      },
+      {
+       "minutes": 5,
+       "activity": "Ghi lỗi vào bảng lỗi cá nhân",
+       "category": "lang"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Language Test B U1, U2 (Assessment package); PTP Test 1 Reading Part 3, 6; Grammar file SB tr. 124–129; Câu hỏi bổ sung cho B29, B31 (IVY soạn)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-20",
+     "session_no": 20,
+     "week": 10,
+     "hp": "HP1",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Review",
+     "kind": "Linh hoạt",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Linh hoạt 1: bù hoặc tăng cường",
+     "task": "—",
+     "content": "Nhóm bù: điểm ngữ pháp chưa đạt ở buổi kiểm tra · Nhóm tăng cường: dùng B05, B20 trong bài viết và bài nói dài hơn",
+     "ket_part": "Nhóm bù: luyện lại part điểm thấp nhất, nghe lần 2 có lời thoại · Nhóm tăng cường: bài viết ~120 từ, nói 2 phút",
+     "ket_codes": [],
+     "subskills": [],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B02 Trạng từ tần suất, vị trí; cụm thời gian; B03 Mạo từ a/an/the/không mạo từ; B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…); B29 Động từ + V-ing / to V (enjoy, decide, want, stop, try…); B31 Câu hỏi đuôi (question tags)",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Nhóm bù đúng ≥ 80% điểm chưa đạt; nhóm tăng cường đạt ≥ 4/5 ở ≥ 2 tiêu chí PET",
+     "before": "1. [Ôn] Bài theo nhóm: nhóm bù – điểm ngữ pháp chưa đạt; nhóm tăng cường – bài viết/nói dài hơn (15')\n2. [Nghe] Nghe 1 bài nghe theo part yếu nhất (8')\n3. [Từ vựng] Ôn thẻ (5')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Ôn] Làm lại bài kiểm tra phần chưa đạt (Language Test C) (15')\n2. [Nói] Ghi âm 2 phút về chủ đề của học phần (5')\n3. [Nghe] Chép chính tả + shadowing 1 đoạn nghe (10')\n4. [Từ vựng] Ôn thẻ (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 53,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Language Test C và Photocopiables 1A, 2A; Grammar ppt B1 U1, U2",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-21",
+     "session_no": 21,
+     "week": 11,
+     "hp": "HP2",
+     "unit": "U3",
+     "unit_title": "The future is now",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "33–36, 130",
+     "wb_pages": "22–24",
+     "focus": "U3 The future is now · Lead-in + Reading + Grammar 1",
+     "task": "Đọc bài về tương lai của âm nhạc (concert VR, máy thông minh), đọc lướt rồi điền câu vào chỗ trống",
+     "content": "Ngữ pháp: Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn (lịch hẹn), hiện tại đơn (thời gian biểu) · Kỹ năng đọc: skim-reading · Bổ sung B26: may / might / could chỉ khả năng (It might rain. Robots could replace…) – so sánh với will chắc chắn",
+     "ket_part": "[R4] điền 5 câu vào bài (3 câu thừa) — kỹ năng skim-reading; gạch từ khóa, tìm cách diễn đạt khác trong bài",
+     "ket_codes": [
+      "R4"
+     ],
+     "subskills": [
+      "RS2",
+      "RS5",
+      "RS9"
+     ],
+     "grammar": "B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B26 may / might / could chỉ khả năng xảy ra",
+     "vocabulary": "live, common, successful, directly, produce, predict, bands, incredible, download (music) from, stream (music) from, silent disco, headphones, virtual reality, VR headset, file-sharing, intelligent machines, smartphone, block chain, fans, musicians, store music, record, come true, Walkman, cassette player, portable music player, laptop, fitness tracker, games console, digital camera, sat nav, calculator",
+     "can_do": "≥ 3/5 câu Part 4; viết 6 câu dùng điểm ngữ pháp B06, ≥ 5 câu đúng; dùng đúng B26 trong ≥ 4/5 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): live, common, successful, directly, produce, predict, bands, incredible, download (music) from, stream (music) from, silent disco, headphones (10')\n2. [Nói] Lead-in SB tr. 33: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 34 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn (lịch hẹn), hiện tại đơn (thời gian biểu) (theo Grammar file SB tr. 130, Grammar ppt U3) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 22–23 Reading (số hóa, chấm tự động; dạng R4) (10')\n3. [Ngữ pháp] Workbook tr. 24 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 131: 1–2 bài luyện phần Các cách diễn đạt tương lai (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 34–35 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U3 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 130 (lý thuyết); Grammar ppt B1 U3; Photocopiable 3A (ngữ pháp); Bài bổ sung B26: Grammar ppt + bài tập do IVY soạn (không có trong GE B1 2nd ed)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-22",
+     "session_no": 22,
+     "week": 11,
+     "hp": "HP2",
+     "unit": "U3",
+     "unit_title": "The future is now",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "37–38, 144, 169–170",
+     "wb_pages": "25–26",
+     "focus": "U3 The future is now · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe về việc mua đồ mới, nhận ra điểm khác nhau giữa các tranh",
+     "content": "Từ vựng: Đồ công nghệ trong nhà: washing machine, kettle, microwave, dishwasher, smart TV, remote control · cụm động từ: switch on/off, plug in, turn up/down, set up, pick up · Ngữ pháp 2: Động từ khuyết thiếu cho lời khuyên và gợi ý: should, could, ought to, Why don't you…?, How about…?, Shall…?",
+     "ket_part": "[R5] điền từ trắc nghiệm (từ vựng, collocation) · [L1] 7 đoạn ngắn, chọn tranh — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra · [LS6] nghe thông báo, hướng dẫn (nhà ga, trường học, cửa hàng): ghi giờ, địa điểm, việc phải làm",
+     "ket_codes": [
+      "R5",
+      "L1"
+     ],
+     "subskills": [
+      "LS1",
+      "LS5",
+      "LS6",
+      "RS7",
+      "VS1",
+      "VS3"
+     ],
+     "grammar": "B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?",
+     "vocabulary": "kettle, microwave, smart TV, fridge(-freezer), washing machine, dishwasher, coffee maker, remote control, central heating, air conditioning, efficient, white goods, appliances, turn up, turn down, switch on, switch off, plug in, set up, shut down, go off, take off, get on, try on, keep on, put off, get off, fill up, end up, pick up, smart watch, tablet, sweatshirt, sunglasses, cap, dictionary, paper book, e-book, microphone, magazines, guitar, camera, printer, records, CDs, DVDs, print out, should, shouldn't, ought to, could, Why don't you …?, How about …?, Shall I …?",
+     "can_do": "≥ 4/6 câu Part 5; ≥ 5/7 câu Part 1; dùng đúng B07 trong ≥ 5/6 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 37: kettle, microwave, smart TV, fridge(-freezer), washing machine, dishwasher, coffee maker, remote control, central heating, air conditioning, efficient, white goods, appliances, turn up (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 38 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: Động từ khuyết thiếu cho lời khuyên và gợi ý: should, could, ought to, Why don't you…?, How about…?, Shall…? + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 144 (phần U3): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 25 Vocabulary (6')\n3. [Nghe] Workbook tr. 26 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 38 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L1 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 38, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U3 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 144; Photocopiable 3B (từ vựng); audioscript SB tr. 169–170 (chữa bài nghe)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-23",
+     "session_no": 23,
+     "week": 12,
+     "hp": "HP2",
+     "unit": "U3",
+     "unit_title": "The future is now",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "39, 148–149",
+     "wb_pages": "27",
+     "focus": "U3 The future is now · Speaking",
+     "task": "Thảo luận tương lai của công nghệ (robot): hỏi và đưa ý kiến, đồng ý, không đồng ý",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B06, B07 và từ vựng U3 khi nói",
+     "ket_part": "[S3] thảo luận cặp theo tranh gợi ý · [S4] thảo luận mở rộng — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: dạng rút gọn và âm yếu: I'll, it'll, going to; ngữ điệu khi đưa và hỏi ý kiến · [SS6] dùng câu hỏi lại, làm rõ khi chưa hiểu bạn hoặc giám khảo",
+     "ket_codes": [
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS3",
+      "SS4",
+      "SS6",
+      "SS7"
+     ],
+     "grammar": "B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?",
+     "vocabulary": "calm, convenient, creative, human, intelligent, trust, useful, robot pet/doctor/teacher/cook/cleaner, in my opinion, in my view, for me, I'd say, What's your view on …?, that's a good point, you're right, I disagree, That's true but …, I'm not sure",
+     "can_do": "thảo luận cặp 2–3 phút, xét ≥ 4/5 lựa chọn và đi đến quyết định; trả lời mỗi câu hỏi mở rộng ≥ 3 câu, có lý do, hỏi lại ý bạn; đọc đúng ≥ 8/10 câu mẫu phát âm",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 148–149: calm, convenient, creative, human, intelligent, trust, useful, robot pet/doctor/teacher/cook/cleaner (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 39, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U3 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 27 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S3, S4 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: dạng rút gọn và âm yếu: I'll, it'll, going to; ngữ điệu khi đưa và hỏi ý kiến (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U3 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 148–149; Photocopiable 3C (nói)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-24",
+     "session_no": 24,
+     "week": 12,
+     "hp": "HP2",
+     "unit": "U3",
+     "unit_title": "The future is now",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "40–41, 150–151",
+     "wb_pages": "28",
+     "focus": "U3 The future is now · Writing",
+     "task": "Email trả lời bạn về 'National Unplugged Day': đưa lời khuyên và gợi ý",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it",
+     "ket_part": "[W1] email ~100 từ theo 4 ghi chú — phân tích đề, gạch ý bắt buộc, viết 20–25 phút",
+     "ket_codes": [
+      "W1"
+     ],
+     "subskills": [
+      "WS1",
+      "WS4",
+      "WS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "National Unplugged Day, gadget, give up, device, challenge, games console, music player, You should / ought to / could …, Why don't you …?, How about …?, Sorry to hear …, I'm glad you're feeling OK now, Good luck",
+     "can_do": "email ~100 từ, đủ 4 ý trong ghi chú, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 40–41 và Writing file SB tr. 150–151: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): National Unplugged Day, gadget, give up, device, challenge, games console, music player, Good luck (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 28 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U3 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 150–151 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-25",
+     "session_no": 25,
+     "week": 13,
+     "hp": "HP2",
+     "unit": "U3",
+     "unit_title": "The future is now",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "42–44, 131",
+     "wb_pages": "29–31",
+     "focus": "U3 The future is now · Ôn tập và Dự án",
+     "task": "Video 'App entrepreneurs'; dự án: Thiết kế một ứng dụng (tên, chức năng, người dùng), trình bày nhóm; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U3 · Independent learning: Measure your progress: đo tiến bộ của bản thân",
+     "ket_part": "[S4] thảo luận sau video · trình bày dự án nhóm 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S4",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS4",
+      "VS1"
+     ],
+     "grammar": "B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?",
+     "vocabulary": "entrepreneur, invent, pitch, technology, coding, mentor, healthy eating, digital badges, futuristic, multiplayer games, logo, design an app, tap, battery, machine, electricity, ringtone, mobile shop, link",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Thiết kế một ứng dụng (tên, chức năng, người dùng), trình bày nhóm (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'App entrepreneurs' (SB tr. 42) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U3 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'App entrepreneurs' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 29 Unit check (8')\n2. [Ôn] Language Test A U3 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 42: phiếu tự đánh giá + ghi âm 1 phút 'Unit 3: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Clothes' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'The future is now' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'App entrepreneurs') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U3 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Sức khỏe số, cân bằng thời gian màn hình, tinh thần khởi nghiệp (SDG 9) · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U3 (videoscript TB tr. 147–148); Grammar file SB tr. 131 (bài luyện); Unit test B1 U3: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-26",
+     "session_no": 26,
+     "week": 13,
+     "hp": "HP2",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E4 · IVY App Pitch",
+     "task": "—",
+     "content": "Công nghệ, tương lai; will/going to, lời khuyên",
+     "ket_part": "[S3] nhóm thống nhất ý tưởng ứng dụng · [S2] pitch 2 phút · [S4] trả lời câu hỏi ban giám khảo",
+     "ket_codes": [
+      "S2",
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS2",
+      "SS3",
+      "SS4"
+     ],
+     "grammar": "B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi nhóm pitch 1 ứng dụng giảm thời gian màn hình; mỗi thành viên nói ≥ 4 câu, trả lời ≥ 1 câu hỏi",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'IVY App Pitch' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Công nghệ, tương lai; will/going to, lời khuyên (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Viết phản tư ~80 từ về sự kiện (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Sức khỏe số và tinh thần khởi nghiệp (SDG 9)",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-27",
+     "session_no": 27,
+     "week": 14,
+     "hp": "HP2",
+     "unit": "U4",
+     "unit_title": "Taking part",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "45–48, 132",
+     "wb_pages": "32–34",
+     "focus": "U4 Taking part · Lead-in + Reading + Grammar 1",
+     "task": "Đọc về các môn thể thao lạ (bossaball, đua giường), tìm cụm từ đồng nghĩa để nối 5 người với 8 hoạt động",
+     "content": "Ngữ pháp: Hiện tại hoàn thành với ever, never, already, yet, just, for, since; quá khứ phân từ · Kỹ năng đọc: identifying phrases with similar meanings · Bổ sung B28: can / could / be able to (I've been able to… since…; I couldn't swim when I was five)",
+     "ket_part": "[R2] nối 5 người với 8 văn bản — kỹ năng identifying phrases with similar meanings; gạch từ khóa, tìm cách diễn đạt khác trong bài · [RS6] đoán nghĩa từ mới qua ngữ cảnh (loại từ, từ xung quanh, ví dụ trong câu) trước khi tra từ",
+     "ket_codes": [
+      "R2"
+     ],
+     "subskills": [
+      "RS3",
+      "RS6"
+     ],
+     "grammar": "B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B28 can / could / be able to chỉ khả năng làm được",
+     "vocabulary": "equipment, goggles, helmet, net, racket, trainers, wetsuit, sack, spoon, tough, take place, keep going, take part, take something seriously, float, inflatable, court, have a go, attempt, opponents, forehand, backhand, teammates, egg-and-spoon race, sack race",
+     "can_do": "≥ 4/5 câu nối Part 2; viết 6 câu dùng điểm ngữ pháp B08, ≥ 5 câu đúng; dùng đúng B28 trong ≥ 4/5 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): equipment, goggles, helmet, net, racket, trainers, wetsuit, sack, spoon, tough, take place, keep going (10')\n2. [Nói] Lead-in SB tr. 45: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 46 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Hiện tại hoàn thành với ever, never, already, yet, just, for, since; quá khứ phân từ (theo Grammar file SB tr. 132, Grammar ppt U4) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 32–33 Reading (số hóa, chấm tự động; dạng R2) (10')\n3. [Ngữ pháp] Workbook tr. 34 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 133: 1–2 bài luyện phần Hiện tại hoàn thành với ever, never, already, yet, just, for, since (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 46–47 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U4 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 132 (lý thuyết); Grammar ppt B1 U4; Photocopiable 4A (ngữ pháp); Bài bổ sung ngữ pháp do IVY soạn (không có trong GE B1 2nd ed)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-28",
+     "session_no": 28,
+     "week": 14,
+     "hp": "HP2",
+     "unit": "U4",
+     "unit_title": "Taking part",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "49–50, 144, 170–171",
+     "wb_pages": "35–36",
+     "focus": "U4 Taking part · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe phỏng vấn một bạn gái không giỏi thể thao; nghe đúng câu hỏi để chọn đáp án",
+     "content": "Từ vựng: Thể thao: race, locker, prize, track, court, changing rooms, coach · hit, score, compete, train, beat · từ vừa là danh từ vừa là động từ (score, kick, race) · Ngữ pháp 2: Quá khứ đơn và hiện tại hoàn thành · Cấu tạo từ: danh từ – động từ cùng dạng (score, race); hậu tố -er/-or, -ment, -tion",
+     "ket_part": "[R5] điền từ trắc nghiệm (từ vựng, collocation) · [R6] điền từ tự do (từ chức năng) · [L4] phỏng vấn dài, 6 câu trắc nghiệm — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra · [LS7] chép chính tả 3–4 câu từ lời thoại, chú ý âm nối, âm yếu, dạng rút gọn",
+     "ket_codes": [
+      "R5",
+      "R6",
+      "L4"
+     ],
+     "subskills": [
+      "LS4",
+      "LS5",
+      "LS7",
+      "RS7",
+      "RS8",
+      "VS1",
+      "VS2",
+      "VS3"
+     ],
+     "grammar": "B09 Quá khứ đơn và hiện tại hoàn thành",
+     "vocabulary": "race, locker, prize, track, match, court, changing rooms, coach, hit, win, score, lose, kick, compete, train, beat, fans, disappointed, result, competition, distance, open air, freerunning, marathon",
+     "can_do": "≥ 4/6 câu Part 5; ≥ 4/6 chỗ trống Part 6; ≥ 4/6 câu Part 4; dùng đúng B09 trong ≥ 5/6 câu; chuyển đúng dạng từ ≥ 8/10 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 49: race, locker, prize, track, match, court, changing rooms, coach, hit, win, score, lose, kick, compete (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 50 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: Quá khứ đơn và hiện tại hoàn thành + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 144 (phần U4): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 35 Vocabulary (6')\n3. [Nghe] Workbook tr. 36 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 50 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L4 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 50, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U4 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 144; Photocopiable 4B (từ vựng), 4C; audioscript SB tr. 170–171 (chữa bài nghe); Dictation trong Skills Test của unit (Assessment package)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-29",
+     "session_no": 29,
+     "week": 15,
+     "hp": "HP2",
+     "unit": "U4",
+     "unit_title": "Taking part",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "51, 147, 157, 159",
+     "wb_pages": "37",
+     "focus": "U4 Taking part · Speaking",
+     "task": "Tả ảnh xem và chơi thể thao; nói khi không chắc (I can't remember what this is…)",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B08, B09 và từ vựng U4 khi nói",
+     "ket_part": "[S2] tả ảnh 1 phút — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: âm yếu have/has /həv/ /həz/ trong hiện tại hoàn thành; âm cuối -s/-es",
+     "ket_codes": [
+      "S2"
+     ],
+     "subskills": [
+      "SS2",
+      "SS7"
+     ],
+     "grammar": "B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B09 Quá khứ đơn và hiện tại hoàn thành",
+     "vocabulary": "point, watch, sit, cheer, laugh, happy, excited, upset, sad, interested, angry, surprised, sofa, popcorn, sitting room, It's a photo of …, The photo shows …, On the left, there's …, at the front, It looks …, I can't remember what this is",
+     "can_do": "tả ảnh liên tục 1 phút, ≥ 8 câu, dùng ≥ 3 cụm chỉ vị trí hoặc suy đoán; đọc đúng ≥ 8/10 câu mẫu phát âm",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 147: point, watch, sit, cheer, laugh, happy, excited, upset (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 51, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U4 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 37 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S2 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: âm yếu have/has /həv/ /həz/ trong hiện tại hoàn thành; âm cuối -s/-es (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U4 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 147; SB tr. 157, 159 (task tả ảnh)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-30",
+     "session_no": 30,
+     "week": 15,
+     "hp": "HP2",
+     "unit": "U4",
+     "unit_title": "Taking part",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "52–53, 152–153",
+     "wb_pages": "38",
+     "focus": "U4 Taking part · Writing",
+     "task": "Bài báo về một môn thể thao mới đã thử: nối ý với either…or, as soon as, except, so that, although",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it · Bổ sung B27: so sánh hơn/nhất, (not) as…as, too/enough (to), so/such khi so sánh môn thể thao mới với môn quen thuộc",
+     "ket_part": "[W2] bài báo hoặc truyện ~100 từ — phân tích đề, gạch ý bắt buộc, viết 20–25 phút",
+     "ket_codes": [
+      "W2"
+     ],
+     "subskills": [
+      "WS2",
+      "WS4",
+      "WS6"
+     ],
+     "grammar": "B22 Từ nối: although, so that, either…or, as soon as, because, so; B27 So sánh hơn, so sánh nhất, (not) as…as; too/enough (to); so/such",
+     "vocabulary": "sports equipment, article, either … or, as soon as, except, so that, although, because",
+     "can_do": "bài ~100 từ có mở – thân – kết, ≥ 3 từ nối, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí; dùng đúng B27 trong ≥ 4/5 câu",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 52–53 và Writing file SB tr. 152–153: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): sports equipment, article, as soon as, except, so that, although, because (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 38 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U4 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 152–153 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5); Bài bổ sung ngữ pháp do IVY soạn (không có trong GE B1 2nd ed)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-31",
+     "session_no": 31,
+     "week": 16,
+     "hp": "HP2",
+     "unit": "U4",
+     "unit_title": "Taking part",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "54–56, 133",
+     "wb_pages": "39",
+     "focus": "U4 Taking part · Ôn tập và Dự án",
+     "task": "Video 'Top spin'; dự án: Lên kế hoạch chiến dịch vận động thanh thiếu niên năng động, chia vai nhóm, bình chọn; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U4 · Independent learning: Grammar and vocabulary: ôn và ghi chép ngôn ngữ của unit",
+     "ket_part": "[S4] thảo luận sau video · trình bày dự án nhóm 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S4",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS4",
+      "VS1"
+     ],
+     "grammar": "B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B09 Quá khứ đơn và hiện tại hoàn thành",
+     "vocabulary": "individual, lonely, unusual, unique, sacrifice, quit, dedication, mental toughness, talent, supportive, record, practise, mud running",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Lên kế hoạch chiến dịch vận động thanh thiếu niên năng động, chia vai nhóm, bình chọn (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'Top spin' (SB tr. 54) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U4 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'Top spin' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 39 Unit check (8')\n2. [Ôn] Language Test A U4 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 54: phiếu tự đánh giá + ghi âm 1 phút 'Unit 4: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Shopping' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Taking part' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Top spin') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U4 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Lối sống năng động, sức khỏe thể chất, sự kiên trì (SDG 3) · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U4 (videoscript TB tr. 148); Grammar file SB tr. 133 (bài luyện); Unit test B1 U4: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-32",
+     "session_no": 32,
+     "week": 16,
+     "hp": "HP2",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E5 · Active Teens Campaign",
+     "task": "—",
+     "content": "Thể thao; hiện tại hoàn thành",
+     "ket_part": "[R2] đọc 8 câu lạc bộ thể thao và chọn cho 5 bạn · [S3] thống nhất chiến dịch · [W2] bài báo kêu gọi ~100 từ",
+     "ket_codes": [
+      "R2",
+      "S3",
+      "W2"
+     ],
+     "subskills": [
+      "RS3",
+      "SS3",
+      "WS2",
+      "WS4"
+     ],
+     "grammar": "B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B09 Quá khứ đơn và hiện tại hoàn thành",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi nhóm thiết kế chiến dịch 1 tuần vận động và báo cáo kết quả bằng tiếng Anh",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'Active Teens Campaign' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Thể thao; hiện tại hoàn thành (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W2) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Lối sống năng động (SDG 3)",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-33",
+     "session_no": 33,
+     "week": 17,
+     "hp": "HP2",
+     "unit": "U5",
+     "unit_title": "In the spotlight",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "57–60, 134",
+     "wb_pages": "40–42",
+     "focus": "U5 In the spotlight · Lead-in + Reading + Grammar 1",
+     "task": "Đọc biển báo, thông báo và bài 'lớn lên dưới ánh đèn sân khấu' (gia đình Beckham, Willow Smith); hiểu điều câu hỏi đang kiểm tra",
+     "content": "Ngữ pháp: Câu điều kiện loại 0, 1, 2 · Kỹ năng đọc: understanding what is being tested",
+     "ket_part": "[R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R3] bài dài, 5 câu trắc nghiệm — kỹ năng understanding what is being tested; gạch từ khóa, tìm cách diễn đạt khác trong bài · [RS4] nhận ra thái độ, ý kiến người viết: tìm tính từ, trạng từ đánh giá (surprisingly, unfortunately), phân biệt sự thật và ý kiến",
+     "ket_codes": [
+      "R1",
+      "R3"
+     ],
+     "subskills": [
+      "RS1",
+      "RS2",
+      "RS4"
+     ],
+     "grammar": "B10 Câu điều kiện loại 0, 1, 2",
+     "vocabulary": "in the spotlight, leave someone alone, explore who you are, face, hurtful comments, end up with, have the right to, under a lot of stress, negative attention, the last thing I need, turn its back on, due to, location, follower, spare tickets, fancy coming along, contacts, connections, journalists",
+     "can_do": "≥ 4/5 câu Part 1; ≥ 4/5 câu Part 3; viết 6 câu dùng điểm ngữ pháp B10, ≥ 5 câu đúng; trả lời đúng ≥ 2/2 câu hỏi về thái độ người viết",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): in the spotlight, leave someone alone, explore who you are, face, hurtful comments, end up with, have the right to, negative attention, turn its back on, due to, location, follower (10')\n2. [Nói] Lead-in SB tr. 57: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 58 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Câu điều kiện loại 0, 1, 2 (theo Grammar file SB tr. 134, Grammar ppt U5) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 40–41 Reading (số hóa, chấm tự động; dạng R1, R3) (10')\n3. [Ngữ pháp] Workbook tr. 42 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 135: 1–2 bài luyện phần Câu điều kiện loại 0, 1, 2 (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 58–59 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U5 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 134 (lý thuyết); Grammar ppt B1 U5; Photocopiable 5A (ngữ pháp)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-34",
+     "session_no": 34,
+     "week": 17,
+     "hp": "HP2",
+     "unit": "U5",
+     "unit_title": "In the spotlight",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "61–62, 144, 171–172",
+     "wb_pages": "43–44",
+     "focus": "U5 In the spotlight · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe các đoạn ngắn về âm nhạc, nhận ra hai người đồng ý ở điểm nào",
+     "content": "Từ vựng: Giải trí: review, entertain, perform, clap, record, book · nhà hát: choir, stage, costume, orchestra, audience, row · Ngữ pháp 2: unless, in case, if I were you",
+     "ket_part": "[R5] điền từ trắc nghiệm (từ vựng, collocation) · [L2] 6 hội thoại ngắn, ý kiến/thái độ — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra",
+     "ket_codes": [
+      "R5",
+      "L2"
+     ],
+     "subskills": [
+      "LS2",
+      "LS5",
+      "RS7",
+      "VS1",
+      "VS3"
+     ],
+     "grammar": "B11 unless, in case, if I were you",
+     "vocabulary": "review, entertain, perform, clap, film, interview, record, book, choir, exit, stage, costume, orchestra, audience, row, album, show, concert hall, headphones, talent show, instrument, unless, in case, if I were you",
+     "can_do": "≥ 4/6 câu Part 5; ≥ 4/6 câu Part 2; dùng đúng B11 trong ≥ 5/6 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 61: review, entertain, perform, clap, film, interview, record, book, choir, exit, stage, costume, orchestra, audience (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 62 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: unless, in case, if I were you + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 144 (phần U5): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 43 Vocabulary (6')\n3. [Nghe] Workbook tr. 44 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 62 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L2 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 62, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U5 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 144; Photocopiable 5B (từ vựng); audioscript SB tr. 171–172 (chữa bài nghe)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-35",
+     "session_no": 35,
+     "week": 18,
+     "hp": "HP2",
+     "unit": "U5",
+     "unit_title": "In the spotlight",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "63, 147",
+     "wb_pages": "45",
+     "focus": "U5 In the spotlight · Speaking",
+     "task": "Tả ảnh nhạc sống (lễ hội, nhảy đường phố); xử lý từ không biết (It looks like…, a thing that…)",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B10, B11 và từ vựng U5 khi nói",
+     "ket_part": "[S2] tả ảnh 1 phút — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: trọng âm câu trong câu điều kiện; nối âm phụ âm – nguyên âm (if I, turn it on)",
+     "ket_codes": [
+      "S2"
+     ],
+     "subskills": [
+      "SS2",
+      "SS7"
+     ],
+     "grammar": "B10 Câu điều kiện loại 0, 1, 2; B11 unless, in case, if I were you",
+     "vocabulary": "festival, street dancing, live music, talented, balance, do tricks, mess, is made of metal, what kind of …, a thing that …, empty space, It looks like …",
+     "can_do": "tả ảnh liên tục 1 phút, ≥ 8 câu, dùng ≥ 3 cụm chỉ vị trí hoặc suy đoán; đọc đúng ≥ 8/10 câu mẫu phát âm",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 147: festival, street dancing, live music, talented, balance, do tricks, mess, is made of metal (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 63, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U5 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 45 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S2 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: trọng âm câu trong câu điều kiện; nối âm phụ âm – nguyên âm (if I, turn it on) (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U5 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 147",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-36",
+     "session_no": 36,
+     "week": 18,
+     "hp": "HP2",
+     "unit": "U5",
+     "unit_title": "In the spotlight",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "64–65, 152–153",
+     "wb_pages": "46",
+     "focus": "U5 In the spotlight · Writing",
+     "task": "Bài báo về một buổi tối giải trí: khen điểm tốt, nêu vấn đề nhẹ nhàng (a bit, at times); venue, atmosphere, crowded, unforgettable",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it",
+     "ket_part": "[W2] bài báo hoặc truyện ~100 từ — phân tích đề, gạch ý bắt buộc, viết 20–25 phút · [WS5] nâng câu: viết lại 3 câu đơn trong bài thành câu phức (mệnh đề quan hệ, điều kiện, bị động, although)",
+     "ket_codes": [
+      "W2"
+     ],
+     "subskills": [
+      "WS2",
+      "WS4",
+      "WS5",
+      "WS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "venue, tracks, can afford to, atmosphere, crowded, disappointed, unforgettable, mean, dull, slow, boring, weak, disappointing, predictable, relaxed, expensive, seems, can be, a bit, at times, talent show, game show, quiz show, reality TV show, soap opera, sci-fi film, superhero film, thriller, comedy, rap artist, rock band",
+     "can_do": "bài ~100 từ có mở – thân – kết, ≥ 3 từ nối, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 64–65 và Writing file SB tr. 152–153: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): venue, tracks, can afford to, atmosphere, crowded, disappointed, unforgettable, mean (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 46 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U5 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 152–153 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5); Photocopiable 5C (viết)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-37",
+     "session_no": 37,
+     "week": 19,
+     "hp": "HP2",
+     "unit": "U5",
+     "unit_title": "In the spotlight",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "66–68, 135",
+     "wb_pages": "47",
+     "focus": "U5 In the spotlight · Ôn tập và Dự án",
+     "task": "Video 'In search of fame'; dự án: Viết hồ sơ (fact file) về một ngôi sao nhí, làm theo cặp; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U5 · Independent learning: Writing skills: đặt mục tiêu viết cụ thể",
+     "ket_part": "[S4] thảo luận sau video · trình bày dự án nhóm 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S4",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS4",
+      "VS1"
+     ],
+     "grammar": "B10 Câu điều kiện loại 0, 1, 2; B11 unless, in case, if I were you",
+     "vocabulary": "fame, audition, opportunities, competitive, nerve-wracking, impress, make it big, backing vocalist, up and coming, brush it off, dedication, actors, rock star",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Viết hồ sơ (fact file) về một ngôi sao nhí, làm theo cặp (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'In search of fame' (SB tr. 66) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U5 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'In search of fame' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 47 Unit check (8')\n2. [Ôn] Language Test A U5 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 66: phiếu tự đánh giá + ghi âm 1 phút 'Unit 5: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Places and buildings' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'In the spotlight' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'In search of fame') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U5 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Quyền riêng tư, hiểu biết về truyền thông, áp lực của sự nổi tiếng · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U5 (videoscript TB tr. 148); Grammar file SB tr. 135 (bài luyện); Unit test B1 U5: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-38",
+     "session_no": 38,
+     "week": 19,
+     "hp": "HP2",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E6 · IVY Talent & Media Night",
+     "task": "—",
+     "content": "Giải trí, câu điều kiện",
+     "ket_part": "[S2] dẫn chương trình, giới thiệu tiết mục · [L2] nghe khán giả nhận xét · [W2] review buổi diễn ~100 từ",
+     "ket_codes": [
+      "S2",
+      "L2",
+      "W2"
+     ],
+     "subskills": [
+      "LS2",
+      "SS2",
+      "WS2",
+      "WS4"
+     ],
+     "grammar": "B10 Câu điều kiện loại 0, 1, 2; B11 unless, in case, if I were you",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi học sinh góp 1 tiết mục hoặc làm MC/ban giám khảo; viết review ≥ 100 từ",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'IVY Talent & Media Night' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Giải trí, câu điều kiện (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W2) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Quyền riêng tư, ứng xử trên mạng, áp lực nổi tiếng",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-39",
+     "session_no": 39,
+     "week": 20,
+     "hp": "HP2",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Review",
+     "kind": "Củng cố",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Củng cố · Nghe – Đọc (U3, U4, U5)",
+     "task": "—",
+     "content": "Chủ đề U3, U4, U5 · Nhận ra các điểm ngữ pháp B06, B07, B08, B09, B10, B11, B22 trong bài đọc và lời thoại",
+     "ket_part": "[R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R2] nối 5 người với 8 văn bản · [R3] bài dài, 5 câu trắc nghiệm · [R4] điền 5 câu vào bài (3 câu thừa) · [R5] điền từ trắc nghiệm (từ vựng, collocation) · [R6] điền từ tự do (từ chức năng) · [L1] 7 đoạn ngắn, chọn tranh · [L2] 6 hội thoại ngắn, ý kiến/thái độ · [L4] phỏng vấn dài, 6 câu trắc nghiệm — làm theo thời gian thật của đề, chữa bằng cách gạch câu chứa đáp án · [RS9] kiểm tra nhật ký đọc: kể tóm tắt sách đọc phân cấp 1 phút",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "L1",
+      "L2",
+      "L4"
+     ],
+     "subskills": [
+      "LS1",
+      "LS2",
+      "LS4",
+      "LS5",
+      "RS1",
+      "RS2",
+      "RS3",
+      "RS5",
+      "RS7",
+      "RS8",
+      "RS9",
+      "SS5"
+     ],
+     "grammar": "B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?; B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B09 Quá khứ đơn và hiện tại hoàn thành; B10 Câu điều kiện loại 0, 1, 2; B11 unless, in case, if I were you; B22 Từ nối: although, so that, either…or, as soon as, because, so; B26 may / might / could chỉ khả năng xảy ra; B27 So sánh hơn, so sánh nhất, (not) as…as; too/enough (to); so/such; B28 can / could / be able to chỉ khả năng làm được",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "≥ 4/5 câu Part 1; ≥ 4/5 câu nối Part 2; ≥ 4/5 câu Part 3; ≥ 3/5 câu Part 4; ≥ 4/6 câu Part 5; ≥ 4/6 chỗ trống Part 6; ≥ 5/7 câu Part 1; ≥ 4/6 câu Part 2; ≥ 4/6 câu Part 4",
+     "before": "1. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp các unit trong học phần (8')\n2. [Nghe] Nghe lại 2 bài nghe điểm thấp nhất trong học phần, có lời thoại (8')\n3. [Đọc] Đọc lại 1 bài đọc của sách, tìm 5 cụm diễn đạt khác (paraphrase) (8')\n4. [Từ vựng] Ôn thẻ đến hạn (5')\n5. [Lồng tiếng] clip ôn tập (6')",
+     "after": "1. [Thi] Làm lại các câu sai của đề luyện trên lớp, ghi lý do sai (10')\n2. [Nghe] 1 part nghe tiếp theo của đề PTP (dạng L1, L2, L4) + chép chính tả 4 câu (12')\n3. [Đọc] 1 part đọc của đề PTP (dạng R1, R2, R3, R4, R5, R6) (10')\n4. [Nói] Shadowing 5 câu của bài nghe (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Ôn từ vựng học phần",
+       "category": "lang"
+      },
+      {
+       "minutes": 35,
+       "activity": "Reading PET: làm có bấm giờ → chữa → rút chiến lược",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Listening PET: làm → chữa → nghe lại có lời",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Đọc hoặc nghe mở rộng mức dễ",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Practice Tests Plus B1 Preliminary for Schools (PTP) Test 2: Reading Part 1, Part 2, Part 3, Part 4, Part 5, Part 6; Listening Part 1, Part 2, Part 4; Skills Test A U3, U4, U5",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-40",
+     "session_no": 40,
+     "week": 20,
+     "hp": "HP2",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Củng cố + kiểm tra Nói",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Củng cố · Nói – Viết + kiểm tra Nói HP2",
+     "task": "—",
+     "content": "Câu hỏi cá nhân, tả ảnh, thảo luận theo chủ đề đã học · từ nối và câu mở rộng",
+     "ket_part": "[S1] câu hỏi cá nhân · [S2] tả ảnh 1 phút · [S3] thảo luận cặp theo tranh gợi ý · [S4] thảo luận mở rộng — thi Nói theo cặp với giáo viên · [W1] email ~100 từ theo 4 ghi chú · [W2] bài báo hoặc truyện ~100 từ — viết có bấm giờ 22 phút",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "W1",
+      "W2"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "SS3",
+      "SS4",
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4"
+     ],
+     "grammar": "B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?; B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B09 Quá khứ đơn và hiện tại hoàn thành; B10 Câu điều kiện loại 0, 1, 2; B11 unless, in case, if I were you; B22 Từ nối: although, so that, either…or, as soon as, because, so; B26 may / might / could chỉ khả năng xảy ra; B27 So sánh hơn, so sánh nhất, (not) as…as; too/enough (to); so/such; B28 can / could / be able to chỉ khả năng làm được",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Thi Nói đạt ≥ 3/5 mỗi tiêu chí (thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5)); bài viết đạt ≥ 3/5 mỗi tiêu chí PET",
+     "before": "1. [Nói] Luyện 4 part Nói theo bộ câu hỏi mẫu, ghi âm từng part (12')\n2. [Nghe] Xem video thí sinh mẫu Cambridge, ghi 3 cụm câu học được (8')\n3. [Viết] Lập dàn ý 1 email và 1 article/story (8')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Nói] Ghi âm lại part Nói chưa đạt theo nhận xét (8')\n2. [Viết] Viết lại bài viết có bấm giờ theo nhận xét (15')\n3. [Phát âm] Luyện 10 câu theo lỗi phát âm được ghi trong buổi thi Nói (6')\n4. [Nghe] 1 part nghe PET (7')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 90,
+       "activity": "GV thi Nói từng cặp 10–12'; các cặp khác viết PET Part 1/2 bấm giờ",
+       "category": "test"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự chấm bài viết theo thang PET",
+       "category": "lang"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 2: Speaking, Writing; Speaking file SB tr. 146–149; Writing file SB tr. 150–155; Review Test 1 (Units 1–3): Writing, Speaking",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-41",
+     "session_no": 41,
+     "week": 21,
+     "hp": "HP2",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Kiểm tra học phần",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Ngữ pháp nền + kiểm tra HP2",
+     "task": "—",
+     "content": "Ôn ngữ pháp B06, B07, B08, B09, B10, B11, B22, B26, B27, B28 — ghi lỗi vào bảng lỗi cá nhân",
+     "ket_part": "[E] làm bài đúng thời gian, chuyển đáp án sang phiếu trả lời · [R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R2] nối 5 người với 8 văn bản · [L1] 7 đoạn ngắn, chọn tranh · [L2] 6 hội thoại ngắn, ý kiến/thái độ",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "L1",
+      "L2"
+     ],
+     "subskills": [
+      "LS1",
+      "LS2",
+      "RS1",
+      "RS3"
+     ],
+     "grammar": "B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?; B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B09 Quá khứ đơn và hiện tại hoàn thành; B10 Câu điều kiện loại 0, 1, 2; B11 unless, in case, if I were you; B22 Từ nối: although, so that, either…or, as soon as, because, so; B26 may / might / could chỉ khả năng xảy ra; B27 So sánh hơn, so sánh nhất, (not) as…as; too/enough (to); so/such; B28 can / could / be able to chỉ khả năng làm được",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Kiểm tra ≥ 60% mỗi phần; ≥ 80% câu ngữ pháp mức có kiểm soát (B06, B07, B08, B09, B10, B11, B22, B26, B27, B28)",
+     "before": "1. [Ngữ pháp] Quiz ôn ngữ pháp của học phần 30 câu (có giải thích) (12')\n2. [Từ vựng] Ôn thẻ: toàn bộ từ của học phần còn đến hạn (8')\n3. [Thi] Xem lại chiến lược các part sẽ kiểm tra (video 5') (5')\n4. [Nghe] Nghe 1 bài nghe của sách có lời thoại (5')\n5. [Lồng tiếng] clip (6')",
+     "after": "1. [Tự học] Xem bài kiểm tra, ghi 5 lỗi chính vào bảng lỗi cá nhân (8')\n2. [Ngữ pháp] Làm lại câu sai dưới dạng mới (website tự tạo) (12')\n3. [Nghe] Nghe lại phần nghe của bài kiểm tra có lời thoại, chép chính tả 4 câu (10')\n4. [Nói] Ghi âm 1 phút: điều em làm tốt và điều em cần cải thiện (3')\n5. [Lồng tiếng] 2 clip (12')\n6. [Từ vựng] Ôn thẻ (5')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 36,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 40,
+       "activity": "Ôn các điểm ngữ pháp nền của học phần",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Kiểm tra: các part PET đã học + câu ngữ pháp nền",
+       "category": "test"
+      },
+      {
+       "minutes": 5,
+       "activity": "Ghi lỗi vào bảng lỗi cá nhân",
+       "category": "lang"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Review Test 1 (Units 1–3) Grammar & Vocabulary; Language Test B U4, U5; Grammar file SB tr. 130–135; Câu hỏi bổ sung cho B26, B27, B28 (IVY soạn)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-42",
+     "session_no": 42,
+     "week": 21,
+     "hp": "HP2",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Review",
+     "kind": "Linh hoạt",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Linh hoạt 2: bù hoặc tăng cường",
+     "task": "—",
+     "content": "Nhóm bù: điểm ngữ pháp chưa đạt ở buổi kiểm tra · Nhóm tăng cường: dùng B11, B22 trong bài viết và bài nói dài hơn",
+     "ket_part": "Nhóm bù: luyện lại part điểm thấp nhất, nghe lần 2 có lời thoại · Nhóm tăng cường: bài viết ~120 từ, nói 2 phút",
+     "ket_codes": [],
+     "subskills": [],
+     "grammar": "B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?; B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B09 Quá khứ đơn và hiện tại hoàn thành; B10 Câu điều kiện loại 0, 1, 2; B11 unless, in case, if I were you; B22 Từ nối: although, so that, either…or, as soon as, because, so; B26 may / might / could chỉ khả năng xảy ra; B27 So sánh hơn, so sánh nhất, (not) as…as; too/enough (to); so/such; B28 can / could / be able to chỉ khả năng làm được",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Nhóm bù đúng ≥ 80% điểm chưa đạt; nhóm tăng cường đạt ≥ 4/5 ở ≥ 2 tiêu chí PET",
+     "before": "1. [Ôn] Bài theo nhóm: nhóm bù – điểm ngữ pháp chưa đạt; nhóm tăng cường – bài viết/nói dài hơn (15')\n2. [Nghe] Nghe 1 bài nghe theo part yếu nhất (8')\n3. [Từ vựng] Ôn thẻ (5')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Ôn] Làm lại bài kiểm tra phần chưa đạt (Language Test C) (15')\n2. [Nói] Ghi âm 2 phút về chủ đề của học phần (5')\n3. [Nghe] Chép chính tả + shadowing 1 đoạn nghe (10')\n4. [Từ vựng] Ôn thẻ (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 53,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Language Test C và Photocopiables 3A, 4A, 5A; Grammar ppt B1 U3, U4, U5",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-43",
+     "session_no": 43,
+     "week": 22,
+     "hp": "HP3",
+     "unit": "U6",
+     "unit_title": "Down to Earth",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "69–72, 136, 160, 162",
+     "wb_pages": "48–50",
+     "focus": "U6 Down to Earth · Lead-in + Reading + Grammar 1",
+     "task": "Đọc blog 'Our blue planet' về Blue Planet II, dùng đại từ quy chiếu để điền câu vào đoạn",
+     "content": "Ngữ pháp: Câu bị động hiện tại đơn và quá khứ đơn (+ by) · Kỹ năng đọc: referencing (pronouns)",
+     "ket_part": "[R4] điền 5 câu vào bài (3 câu thừa) — kỹ năng referencing (pronouns); gạch từ khóa, tìm cách diễn đạt khác trong bài · [RS6] đoán nghĩa từ mới qua ngữ cảnh (loại từ, từ xung quanh, ví dụ trong câu) trước khi tra từ",
+     "ket_codes": [
+      "R4"
+     ],
+     "subskills": [
+      "RS5",
+      "RS6",
+      "RS9"
+     ],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn",
+     "vocabulary": "incredible, survive, planet, sight, explore, tiny creature, whale, shark, seal, dolphin, turtle, shellfish, shell, hatch, documentary series, divide, inhabit, tonnes, discover, purify",
+     "can_do": "≥ 3/5 câu Part 4; viết 6 câu dùng điểm ngữ pháp B12, ≥ 5 câu đúng",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): incredible, survive, planet, sight, explore, tiny creature, whale, shark, seal, dolphin, turtle, shellfish (10')\n2. [Nói] Lead-in SB tr. 69: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 70 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Câu bị động hiện tại đơn và quá khứ đơn (+ by) (theo Grammar file SB tr. 136, Grammar ppt U6) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 48–49 Reading (số hóa, chấm tự động; dạng R4) (10')\n3. [Ngữ pháp] Workbook tr. 50 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 137: 1–2 bài luyện phần Câu bị động hiện tại đơn và quá khứ đơn (+ by) (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 70–71 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U6 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 136 (lý thuyết); Grammar ppt B1 U6; Photocopiable 6A (ngữ pháp); SB tr. 160, 162 (info gap bị động)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-44",
+     "session_no": 44,
+     "week": 22,
+     "hp": "HP3",
+     "unit": "U6",
+     "unit_title": "Down to Earth",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "73–74, 145, 172–173",
+     "wb_pages": "51–52",
+     "focus": "U6 Down to Earth · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe về các bạn trẻ thay đổi thế giới (ứng dụng eco-points của Holly), tránh đáp án gây nhiễu",
+     "content": "Từ vựng: Thế giới tự nhiên: cloud, storm, fog, waves, waterfall, rocks, cliff, field · trật tự tính từ (ý kiến trước, sự thật sau): amazing, ancient, huge, narrow · Ngữ pháp 2: have/get something done · Bổ sung B30: lượng từ khi nói về rác thải, tài nguyên (too much plastic, a few bins, very little water)",
+     "ket_part": "[L4] phỏng vấn dài, 6 câu trắc nghiệm — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra",
+     "ket_codes": [
+      "L4"
+     ],
+     "subskills": [
+      "LS4",
+      "LS5",
+      "VS1",
+      "VS3"
+     ],
+     "grammar": "B13 have/get something done; B21 Trật tự tính từ; tính từ -ed/-ing; B30 Lượng từ: a few / a little, few / little, too much / too many, plenty of",
+     "vocabulary": "cloud, sunshine, snow, star, moon, storm, fog, waves, waterfall, rocks, sand, cliff, path, field, earth, layer, desert, hydroelectricity, reflected sunlight, ancient, flat, high, huge, low, narrow, amazing, dangerous, horrible, incredible, pretty, scary, headband, generator, advertise, environmental company, recycle, developing countries, have/get something done, shaved, mended, delivered",
+     "can_do": "≥ 4/6 câu Part 4; dùng đúng B13 trong ≥ 5/6 câu; dùng đúng B30 trong ≥ 4/5 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 73: cloud, sunshine, snow, star, moon, storm, fog, waves, waterfall, rocks, sand, cliff, path, field (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 74 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: have/get something done + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 145 (phần U6): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 51 Vocabulary (6')\n3. [Nghe] Workbook tr. 52 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 74 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L4 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 74, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U6 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 145; Photocopiable 6B (từ vựng); audioscript SB tr. 172–173 (chữa bài nghe); Bài bổ sung ngữ pháp do IVY soạn (không có trong GE B1 2nd ed)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-45",
+     "session_no": 45,
+     "week": 23,
+     "hp": "HP3",
+     "unit": "U6",
+     "unit_title": "Down to Earth",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "75, 148–149",
+     "wb_pages": "53",
+     "focus": "U6 Down to Earth · Speaking",
+     "task": "Thảo luận cách sống thân thiện với môi trường; luân phiên lượt nói (What do you think? Go on…)",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B12, B13 và từ vựng U6 khi nói",
+     "ket_part": "[S3] thảo luận cặp theo tranh gợi ý · [S4] thảo luận mở rộng — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: âm yếu was/were trong câu bị động; nối âm · [SS6] dùng câu hỏi lại, làm rõ khi chưa hiểu bạn hoặc giám khảo",
+     "ket_codes": [
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS3",
+      "SS4",
+      "SS6",
+      "SS7"
+     ],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn; B13 have/get something done",
+     "vocabulary": "carbon footprint, climate change, energy, loss of animal species, pollution, rubbish, transport, protect the environment, recycling bin, environmentally friendly, What do you think?, Go on, Why?, Do you …?",
+     "can_do": "thảo luận cặp 2–3 phút, xét ≥ 4/5 lựa chọn và đi đến quyết định; trả lời mỗi câu hỏi mở rộng ≥ 3 câu, có lý do, hỏi lại ý bạn; đọc đúng ≥ 8/10 câu mẫu phát âm",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 148–149: carbon footprint, climate change, energy, loss of animal species, pollution, rubbish, transport, protect the environment (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 75, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U6 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 53 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S3, S4 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: âm yếu was/were trong câu bị động; nối âm (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U6 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 148–149; Photocopiable 6C (nói)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-46",
+     "session_no": 46,
+     "week": 23,
+     "hp": "HP3",
+     "unit": "U6",
+     "unit_title": "Down to Earth",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "76–77, 150–151",
+     "wb_pages": "54",
+     "focus": "U6 Down to Earth · Writing",
+     "task": "Email trao đổi học sinh về một nơi nên đến: cảm ơn, mời, nhận lời, từ chối",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it",
+     "ket_part": "[W1] email ~100 từ theo 4 ghi chú — phân tích đề, gạch ý bắt buộc, viết 20–25 phút",
+     "ket_codes": [
+      "W1"
+     ],
+     "subskills": [
+      "WS1",
+      "WS4",
+      "WS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "school exchange, coach, day trip, mountain biking, Thank you for …, Thanks so much for …, Would you like to …?, How about …?, I'm afraid that I can't …, I'd love to …, … sounds fantastic",
+     "can_do": "email ~100 từ, đủ 4 ý trong ghi chú, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 76–77 và Writing file SB tr. 150–151: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): school exchange, coach, day trip, mountain biking (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 54 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U6 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 150–151 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-47",
+     "session_no": 47,
+     "week": 24,
+     "hp": "HP3",
+     "unit": "U6",
+     "unit_title": "Down to Earth",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "78–80, 137",
+     "wb_pages": "55–57",
+     "focus": "U6 Down to Earth · Ôn tập và Dự án",
+     "task": "Video 'Ocean culture'; dự án: Thiết kế cộng đồng: kế hoạch hành động kết nối con người với thiên nhiên; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U6 · Independent learning: Reading skills: phiếu tự đánh giá, vấn đề và cách khắc phục, đặt mục tiêu",
+     "ket_part": "[S4] thảo luận sau video · trình bày dự án nhóm 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S4",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS4",
+      "VS1"
+     ],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn; B13 have/get something done",
+     "vocabulary": "remote, hold your breath, stilts, generation, ocean culture, plastic, sky, ground, recycling",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Thiết kế cộng đồng: kế hoạch hành động kết nối con người với thiên nhiên (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'Ocean culture' (SB tr. 78) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U6 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'Ocean culture' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 55 Unit check (8')\n2. [Ôn] Language Test A U6 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 78: phiếu tự đánh giá + ghi âm 1 phút 'Unit 6: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Services' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Down to Earth' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Ocean culture') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U6 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Bảo vệ môi trường và đại dương, người trẻ tạo thay đổi (SDG 13, 14) · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U6 (videoscript TB tr. 149); Grammar file SB tr. 137 (bài luyện); Unit test B1 U6: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-48",
+     "session_no": 48,
+     "week": 24,
+     "hp": "HP3",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E7 · Blue Planet Action Day",
+     "task": "—",
+     "content": "Thiên nhiên, môi trường; câu bị động, have sth done",
+     "ket_part": "[R4] đọc tài liệu về một loài sinh vật biển · [S3] chọn hành động ưu tiên · [W1] email cam kết gửi trường ~100 từ",
+     "ket_codes": [
+      "R4",
+      "S3",
+      "W1"
+     ],
+     "subskills": [
+      "RS5",
+      "SS3",
+      "WS1",
+      "WS4"
+     ],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn; B13 have/get something done",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi nhóm trình bày 1 kế hoạch giảm rác nhựa 3 phút, dùng ≥ 3 câu bị động",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'Blue Planet Action Day' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Thiên nhiên, môi trường; câu bị động, have sth done (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W1) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Bảo vệ đại dương và khí hậu (SDG 13, 14)",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-49",
+     "session_no": 49,
+     "week": 25,
+     "hp": "HP3",
+     "unit": "U7",
+     "unit_title": "Travellers' tales",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "81–84, 138",
+     "wb_pages": "58–60",
+     "focus": "U7 Travellers' tales · Lead-in + Reading + Grammar 1",
+     "task": "Đọc về các cách tham quan London (cáp treo, Segway, xe đạp, thuyền), nối chi tiết; cụm động từ jump on, stop off, sign up, get about",
+     "content": "Ngữ pháp: Mệnh đề quan hệ xác định: who, which, that, where, whose; khi nào được lược đại từ quan hệ · Kỹ năng đọc: matching details",
+     "ket_part": "[R2] nối 5 người với 8 văn bản — kỹ năng matching details; gạch từ khóa, tìm cách diễn đạt khác trong bài",
+     "ket_codes": [
+      "R2"
+     ],
+     "subskills": [
+      "RS3"
+     ],
+     "grammar": "B14 Mệnh đề quan hệ xác định (who, which, that, where, whose)",
+     "vocabulary": "tales, transport, convenient, cable car, Segway, backpacker, rail travel, jump on, jump off, stop off, sign up, get about, experienced guide, ancient, heart of the city, gently, resident",
+     "can_do": "≥ 4/5 câu nối Part 2; viết 6 câu dùng điểm ngữ pháp B14, ≥ 5 câu đúng",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): tales, transport, convenient, cable car, Segway, backpacker, rail travel, jump on, jump off, stop off, sign up, get about (10')\n2. [Nói] Lead-in SB tr. 81: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 82 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Mệnh đề quan hệ xác định: who, which, that, where, whose; khi nào được lược đại từ quan hệ (theo Grammar file SB tr. 138, Grammar ppt U7) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 58–59 Reading (số hóa, chấm tự động; dạng R2) (10')\n3. [Ngữ pháp] Workbook tr. 60 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 139: 1–2 bài luyện phần Mệnh đề quan hệ xác định (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 82–83 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U7 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 138 (lý thuyết); Grammar ppt B1 U7; Photocopiable 7A (ngữ pháp)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-50",
+     "session_no": 50,
+     "week": 25,
+     "hp": "HP3",
+     "unit": "U7",
+     "unit_title": "Travellers' tales",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "85–86, 145, 173",
+     "wb_pages": "61–62",
+     "focus": "U7 Travellers' tales · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe Sarah, bạn teen học qua du lịch thay vì đến trường; xác định loại thông tin còn thiếu",
+     "content": "Từ vựng: Du lịch: flight, check in, take off, destination, abroad, border, delay, sightseeing, traffic jam · travel/journey/trip · dạng danh từ check-in, take-off · Ngữ pháp 2: Động từ khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, mustn't, have to, don't have to, had to, need to · Cấu tạo từ: danh từ ghép từ cụm động từ (check-in, take-off); hậu tố -ion, -al",
+     "ket_part": "[R5] điền từ trắc nghiệm (từ vựng, collocation) · [L3] điền 6 thông tin — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra · [LS7] chép chính tả 3–4 câu từ lời thoại, chú ý âm nối, âm yếu, dạng rút gọn",
+     "ket_codes": [
+      "R5",
+      "L3"
+     ],
+     "subskills": [
+      "LS3",
+      "LS5",
+      "LS7",
+      "RS7",
+      "VS1",
+      "VS2",
+      "VS3"
+     ],
+     "grammar": "B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to",
+     "vocabulary": "flight, land, check in, take off, destination, abroad, border, delay, passport, sightseeing, motorway, traffic jam, travel / journey / trip / voyage, check in / check-in, take off / take-off, delay / delayed, travelling, external, obligation, prohibition, necessity, must, mustn't, have to, don't have to, had to, will have to, won't have to, need to, travel guides, continents",
+     "can_do": "≥ 4/6 câu Part 5; ≥ 4/6 chỗ trống Part 3, đúng chính tả; dùng đúng B15 trong ≥ 5/6 câu; chuyển đúng dạng từ ≥ 8/10 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 85: flight, land, check in, take off, destination, abroad, border, delay, passport, sightseeing, motorway, traffic jam, check in / check-in, take off / take-off (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 86 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: Động từ khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, mustn't, have to, don't have to, had to, need to + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 145 (phần U7): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 61 Vocabulary (6')\n3. [Nghe] Workbook tr. 62 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 86 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L3 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 86, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U7 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 145; Photocopiable 7B (từ vựng), 7C; audioscript SB tr. 173 (chữa bài nghe); Dictation trong Skills Test của unit (Assessment package)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-51",
+     "session_no": 51,
+     "week": 26,
+     "hp": "HP3",
+     "unit": "U7",
+     "unit_title": "Travellers' tales",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "87, 149",
+     "wb_pages": "63",
+     "focus": "U7 Travellers' tales · Speaking",
+     "task": "Thảo luận sự cố khi đi du lịch; nhắc lại ý người khác (As X said…, Unlike X, I…)",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B14, B15 và từ vựng U7 khi nói",
+     "ket_part": "[S4] thảo luận mở rộng — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: must /mʌs/ (âm t câm trước phụ âm), have to /hæftə/ (theo TB U7) · [SS5] Speaking extra: kể sự cố khi đi du lịch 1–2 phút (mở – diễn biến – kết, thì quá khứ)",
+     "ket_codes": [
+      "S4"
+     ],
+     "subskills": [
+      "SS4",
+      "SS5",
+      "SS7"
+     ],
+     "grammar": "B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to",
+     "vocabulary": "souvenir, travel problems, valuable things, safe, information desk, As (Jack) said …, Like (Molly), I …, Unlike (Molly), I'm not sure I agree with …, I'd (wouldn't) do the same as …, That's never happened to me",
+     "can_do": "trả lời mỗi câu hỏi mở rộng ≥ 3 câu, có lý do, hỏi lại ý bạn; đọc đúng ≥ 8/10 câu mẫu phát âm; kể liền mạch 1–2 phút, ≥ 3 từ nối thời gian",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 149: souvenir, travel problems, valuable things, safe, information desk, Like (Molly), Unlike (Molly) (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 87, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U7 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 63 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S4 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: must /mʌs/ (âm t câm trước phụ âm), have to /hæftə/ (theo TB U7) (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U7 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 149",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-52",
+     "session_no": 52,
+     "week": 26,
+     "hp": "HP3",
+     "unit": "U7",
+     "unit_title": "Travellers' tales",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "88–89, 152–153",
+     "wb_pages": "64",
+     "focus": "U7 Travellers' tales · Writing",
+     "task": "Bài báo mẹo du lịch ~100 từ: tạo hứng thú bằng câu hỏi cho người đọc",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it",
+     "ket_part": "[W2] bài báo hoặc truyện ~100 từ — phân tích đề, gạch ý bắt buộc, viết 20–25 phút · [WS5] nâng câu: viết lại 3 câu đơn trong bài thành câu phức (mệnh đề quan hệ, điều kiện, bị động, although)",
+     "ket_codes": [
+      "W2"
+     ],
+     "subskills": [
+      "WS2",
+      "WS4",
+      "WS5",
+      "WS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "travel sick, travel sickness, tip, top tip, take-off, landing, eye mask, ear plugs, What do you think of my suggestion?, How important is it for you to …?, Have you got any good suggestions for …?, Let me know what you think",
+     "can_do": "bài ~100 từ có mở – thân – kết, ≥ 3 từ nối, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 88–89 và Writing file SB tr. 152–153: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): travel sick, travel sickness, tip, top tip, take-off, landing, eye mask, ear plugs (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 64 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U7 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 152–153 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-53",
+     "session_no": 53,
+     "week": 27,
+     "hp": "HP3",
+     "unit": "U7",
+     "unit_title": "Travellers' tales",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "90–92, 139",
+     "wb_pages": "65",
+     "focus": "U7 Travellers' tales · Ôn tập và Dự án",
+     "task": "Video 'Surf around the world'; dự án: Tìm hiểu và trình bày một nền văn hóa khác (đồ ăn, trang phục, nghề, giải trí) hoặc blog du lịch; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U7 · Independent learning: Speaking skills: top 5 mẹo nói, mục tiêu phát âm",
+     "ket_part": "[S2] trình bày dự án văn hóa 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S2",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS2",
+      "VS1"
+     ],
+     "grammar": "B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to",
+     "vocabulary": "surfer, surfing, culture, traditions, dancer, desert, nomadic, whose, unpack",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Tìm hiểu và trình bày một nền văn hóa khác (đồ ăn, trang phục, nghề, giải trí) hoặc blog du lịch (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'Surf around the world' (SB tr. 90) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U7 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'Surf around the world' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 65 Unit check (8')\n2. [Ôn] Language Test A U7 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 90: phiếu tự đánh giá + ghi âm 1 phút 'Unit 7: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Work and jobs' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Travellers' tales' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Surf around the world') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U7 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Hiểu biết liên văn hóa, học qua trải nghiệm (SDG 4) · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U7 (videoscript TB tr. 149); Grammar file SB tr. 139 (bài luyện); Unit test B1 U7: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-54",
+     "session_no": 54,
+     "week": 27,
+     "hp": "HP3",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E8 · Around the World Culture Fair",
+     "task": "—",
+     "content": "Du lịch, văn hóa; mệnh đề quan hệ, must/have to",
+     "ket_part": "[S2] thuyết minh gian hàng 1 nước · [L3] nghe khách hỏi và ghi thông tin · [W2] bài báo mẹo du lịch ~100 từ",
+     "ket_codes": [
+      "S2",
+      "L3",
+      "W2"
+     ],
+     "subskills": [
+      "LS3",
+      "SS2",
+      "WS2",
+      "WS4"
+     ],
+     "grammar": "B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi nhóm dựng 1 gian văn hóa, giới thiệu luật lệ/phong tục bằng must/have to; mỗi học sinh tiếp ≥ 3 khách",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'Around the World Culture Fair' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Du lịch, văn hóa; mệnh đề quan hệ, must/have to (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W2) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Hiểu biết liên văn hóa (SDG 4)",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-55",
+     "session_no": 55,
+     "week": 28,
+     "hp": "HP3",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Review",
+     "kind": "Củng cố",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Củng cố · Nghe – Đọc (U6, U7)",
+     "task": "—",
+     "content": "Chủ đề U6, U7 · Nhận ra các điểm ngữ pháp B12, B13, B14, B15, B21 trong bài đọc và lời thoại",
+     "ket_part": "[R2] nối 5 người với 8 văn bản · [R4] điền 5 câu vào bài (3 câu thừa) · [R5] điền từ trắc nghiệm (từ vựng, collocation) · [L3] điền 6 thông tin · [L4] phỏng vấn dài, 6 câu trắc nghiệm — làm theo thời gian thật của đề, chữa bằng cách gạch câu chứa đáp án · [RS9] kiểm tra nhật ký đọc: kể tóm tắt sách đọc phân cấp 1 phút",
+     "ket_codes": [
+      "R2",
+      "R4",
+      "R5",
+      "L3",
+      "L4"
+     ],
+     "subskills": [
+      "LS3",
+      "LS4",
+      "LS5",
+      "RS3",
+      "RS5",
+      "RS7",
+      "RS9",
+      "SS5"
+     ],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn; B13 have/get something done; B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to; B21 Trật tự tính từ; tính từ -ed/-ing; B30 Lượng từ: a few / a little, few / little, too much / too many, plenty of",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "≥ 4/5 câu nối Part 2; ≥ 3/5 câu Part 4; ≥ 4/6 câu Part 5; ≥ 4/6 chỗ trống Part 3, đúng chính tả; ≥ 4/6 câu Part 4",
+     "before": "1. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp các unit trong học phần (8')\n2. [Nghe] Nghe lại 2 bài nghe điểm thấp nhất trong học phần, có lời thoại (8')\n3. [Đọc] Đọc lại 1 bài đọc của sách, tìm 5 cụm diễn đạt khác (paraphrase) (8')\n4. [Từ vựng] Ôn thẻ đến hạn (5')\n5. [Lồng tiếng] clip ôn tập (6')",
+     "after": "1. [Thi] Làm lại các câu sai của đề luyện trên lớp, ghi lý do sai (10')\n2. [Nghe] 1 part nghe tiếp theo của đề PTP (dạng L3, L4) + chép chính tả 4 câu (12')\n3. [Đọc] 1 part đọc của đề PTP (dạng R2, R4, R5) (10')\n4. [Nói] Shadowing 5 câu của bài nghe (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Ôn từ vựng học phần",
+       "category": "lang"
+      },
+      {
+       "minutes": 35,
+       "activity": "Reading PET: làm có bấm giờ → chữa → rút chiến lược",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Listening PET: làm → chữa → nghe lại có lời",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Đọc hoặc nghe mở rộng mức dễ",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Practice Tests Plus B1 Preliminary for Schools (PTP) Test 3: Reading Part 2, Part 4, Part 5; Listening Part 3, Part 4; Skills Test A U6, U7",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-56",
+     "session_no": 56,
+     "week": 28,
+     "hp": "HP3",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Củng cố + kiểm tra Nói",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Củng cố · Nói – Viết + kiểm tra Nói HP3",
+     "task": "—",
+     "content": "Câu hỏi cá nhân, tả ảnh, thảo luận theo chủ đề đã học · từ nối và câu mở rộng",
+     "ket_part": "[S1] câu hỏi cá nhân · [S3] thảo luận cặp theo tranh gợi ý · [S4] thảo luận mở rộng — thi Nói theo cặp với giáo viên · [W1] email ~100 từ theo 4 ghi chú · [W2] bài báo hoặc truyện ~100 từ — viết có bấm giờ 22 phút",
+     "ket_codes": [
+      "S1",
+      "S3",
+      "S4",
+      "W1",
+      "W2"
+     ],
+     "subskills": [
+      "SS1",
+      "SS3",
+      "SS4",
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4"
+     ],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn; B13 have/get something done; B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to; B21 Trật tự tính từ; tính từ -ed/-ing; B30 Lượng từ: a few / a little, few / little, too much / too many, plenty of",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Thi Nói đạt ≥ 3/5 mỗi tiêu chí (thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5)); bài viết đạt ≥ 3/5 mỗi tiêu chí PET",
+     "before": "1. [Nói] Luyện 4 part Nói theo bộ câu hỏi mẫu, ghi âm từng part (12')\n2. [Nghe] Xem video thí sinh mẫu Cambridge, ghi 3 cụm câu học được (8')\n3. [Viết] Lập dàn ý 1 email và 1 article/story (8')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Nói] Ghi âm lại part Nói chưa đạt theo nhận xét (8')\n2. [Viết] Viết lại bài viết có bấm giờ theo nhận xét (15')\n3. [Phát âm] Luyện 10 câu theo lỗi phát âm được ghi trong buổi thi Nói (6')\n4. [Nghe] 1 part nghe PET (7')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 90,
+       "activity": "GV thi Nói từng cặp 10–12'; các cặp khác viết PET Part 1/2 bấm giờ",
+       "category": "test"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự chấm bài viết theo thang PET",
+       "category": "lang"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 3: Speaking, Writing; Speaking file SB tr. 146–149; Writing file SB tr. 150–155; Review Test 2 (Units 4–6): Writing, Speaking",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-57",
+     "session_no": 57,
+     "week": 29,
+     "hp": "HP3",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Kiểm tra học phần",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Ngữ pháp nền + kiểm tra HP3",
+     "task": "—",
+     "content": "Ôn ngữ pháp B12, B13, B14, B15, B21, B30 — ghi lỗi vào bảng lỗi cá nhân",
+     "ket_part": "[E] làm bài đúng thời gian, chuyển đáp án sang phiếu trả lời · [R2] nối 5 người với 8 văn bản · [R4] điền 5 câu vào bài (3 câu thừa) · [L3] điền 6 thông tin · [L4] phỏng vấn dài, 6 câu trắc nghiệm",
+     "ket_codes": [
+      "R2",
+      "R4",
+      "L3",
+      "L4"
+     ],
+     "subskills": [
+      "LS3",
+      "LS4",
+      "RS3",
+      "RS5"
+     ],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn; B13 have/get something done; B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to; B21 Trật tự tính từ; tính từ -ed/-ing; B30 Lượng từ: a few / a little, few / little, too much / too many, plenty of",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Kiểm tra ≥ 60% mỗi phần; ≥ 80% câu ngữ pháp mức có kiểm soát (B12, B13, B14, B15, B21, B30)",
+     "before": "1. [Ngữ pháp] Quiz ôn ngữ pháp của học phần 30 câu (có giải thích) (12')\n2. [Từ vựng] Ôn thẻ: toàn bộ từ của học phần còn đến hạn (8')\n3. [Thi] Xem lại chiến lược các part sẽ kiểm tra (video 5') (5')\n4. [Nghe] Nghe 1 bài nghe của sách có lời thoại (5')\n5. [Lồng tiếng] clip (6')",
+     "after": "1. [Tự học] Xem bài kiểm tra, ghi 5 lỗi chính vào bảng lỗi cá nhân (8')\n2. [Ngữ pháp] Làm lại câu sai dưới dạng mới (website tự tạo) (12')\n3. [Nghe] Nghe lại phần nghe của bài kiểm tra có lời thoại, chép chính tả 4 câu (10')\n4. [Nói] Ghi âm 1 phút: điều em làm tốt và điều em cần cải thiện (3')\n5. [Lồng tiếng] 2 clip (12')\n6. [Từ vựng] Ôn thẻ (5')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 36,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 40,
+       "activity": "Ôn các điểm ngữ pháp nền của học phần",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Kiểm tra: các part PET đã học + câu ngữ pháp nền",
+       "category": "test"
+      },
+      {
+       "minutes": 5,
+       "activity": "Ghi lỗi vào bảng lỗi cá nhân",
+       "category": "lang"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Review Test 2 (Units 4–6) Grammar & Vocabulary; Language Test B U7; Grammar file SB tr. 136–139; Câu hỏi bổ sung cho B30 (IVY soạn)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-58",
+     "session_no": 58,
+     "week": 29,
+     "hp": "HP3",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Review",
+     "kind": "Linh hoạt",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Linh hoạt 3: bù hoặc tăng cường",
+     "task": "—",
+     "content": "Nhóm bù: điểm ngữ pháp chưa đạt ở buổi kiểm tra · Nhóm tăng cường: dùng B15, B21 trong bài viết và bài nói dài hơn",
+     "ket_part": "Nhóm bù: luyện lại part điểm thấp nhất, nghe lần 2 có lời thoại · Nhóm tăng cường: bài viết ~120 từ, nói 2 phút",
+     "ket_codes": [],
+     "subskills": [],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn; B13 have/get something done; B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to; B21 Trật tự tính từ; tính từ -ed/-ing; B30 Lượng từ: a few / a little, few / little, too much / too many, plenty of",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Nhóm bù đúng ≥ 80% điểm chưa đạt; nhóm tăng cường đạt ≥ 4/5 ở ≥ 2 tiêu chí PET",
+     "before": "1. [Ôn] Bài theo nhóm: nhóm bù – điểm ngữ pháp chưa đạt; nhóm tăng cường – bài viết/nói dài hơn (15')\n2. [Nghe] Nghe 1 bài nghe theo part yếu nhất (8')\n3. [Từ vựng] Ôn thẻ (5')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Ôn] Làm lại bài kiểm tra phần chưa đạt (Language Test C) (15')\n2. [Nói] Ghi âm 2 phút về chủ đề của học phần (5')\n3. [Nghe] Chép chính tả + shadowing 1 đoạn nghe (10')\n4. [Từ vựng] Ôn thẻ (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 53,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Language Test C và Photocopiables 6A, 7A; Grammar ppt B1 U6, U7",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-59",
+     "session_no": 59,
+     "week": 30,
+     "hp": "HP4",
+     "unit": "U8",
+     "unit_title": "Time out",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "93–96, 140",
+     "wb_pages": "66–68",
+     "focus": "U8 Time out · Lead-in + Reading + Grammar 1",
+     "task": "Đọc bài về sự kiên nhẫn (thí nghiệm kẹo marshmallow), tìm từ đồng nghĩa để trả lời trắc nghiệm",
+     "content": "Ngữ pháp: Câu tường thuật: lùi thì, đổi đại từ, say/tell; câu hỏi tường thuật với if/whether và từ để hỏi · Kỹ năng đọc: finding synonyms",
+     "ket_part": "[R3] bài dài, 5 câu trắc nghiệm — kỹ năng finding synonyms; gạch từ khóa, tìm cách diễn đạt khác trong bài · [RS4] nhận ra thái độ, ý kiến người viết: tìm tính từ, trạng từ đánh giá (surprisingly, unfortunately), phân biệt sự thật và ý kiến",
+     "ket_codes": [
+      "R3"
+     ],
+     "subskills": [
+      "RS2",
+      "RS4",
+      "RS9"
+     ],
+     "grammar": "B16 Câu tường thuật: câu kể và câu hỏi",
+     "vocabulary": "patient, impatient, self-controlled, self-control, marshmallow, rewards, decrease, increase, progress, improve, development, continuously, constantly, expert, convinced, question (v), available, frequently, creative, intelligent, passionate, sociable, optimistic, self-confident",
+     "can_do": "≥ 4/5 câu Part 3; viết 6 câu dùng điểm ngữ pháp B16, ≥ 5 câu đúng; trả lời đúng ≥ 2/2 câu hỏi về thái độ người viết",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): patient, impatient, self-controlled, self-control, marshmallow, rewards, decrease, increase, progress, improve, development, continuously (10')\n2. [Nói] Lead-in SB tr. 93: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 94 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Câu tường thuật: lùi thì, đổi đại từ, say/tell; câu hỏi tường thuật với if/whether và từ để hỏi (theo Grammar file SB tr. 140, Grammar ppt U8) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 66–67 Reading (số hóa, chấm tự động; dạng R3) (10')\n3. [Ngữ pháp] Workbook tr. 68 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 141: 1–2 bài luyện phần Câu tường thuật (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 94–95 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U8 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 140 (lý thuyết); Grammar ppt B1 U8; Photocopiable 8A (ngữ pháp)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-60",
+     "session_no": 60,
+     "week": 30,
+     "hp": "HP4",
+     "unit": "U8",
+     "unit_title": "Time out",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "97–98, 145, 174",
+     "wb_pages": "69–70",
+     "focus": "U8 Time out · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe về sở thích lạ (bong bóng khổng lồ, e-sports), chọn tranh, tránh bị phân tán; đọc số",
+     "content": "Từ vựng: Sở thích: taking photographs, keeping fit, online gaming, doing drama, making jewellery · dụng cụ: paintbrush, ingredients, zoom lens, glue · hang out with, be into, be mad about, join in · Ngữ pháp 2: Câu hỏi gián tiếp: Can you tell me…? Do you know…? + if/từ để hỏi + trật tự câu khẳng định",
+     "ket_part": "[R5] điền từ trắc nghiệm (từ vựng, collocation) · [L1] 7 đoạn ngắn, chọn tranh — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra · [LS6] nghe thông báo, hướng dẫn (nhà ga, trường học, cửa hàng): ghi giờ, địa điểm, việc phải làm",
+     "ket_codes": [
+      "R5",
+      "L1"
+     ],
+     "subskills": [
+      "LS1",
+      "LS5",
+      "LS6",
+      "RS7",
+      "VS1",
+      "VS3"
+     ],
+     "grammar": "B17 Câu hỏi gián tiếp",
+     "vocabulary": "taking photographs, practising a musical instrument, keeping fit, online gaming, doing drama, making jewellery, collecting, making models, ingredients, recipe, zoom lens, battery, glue, paintbrush, paints, cardboard, hang out with, be into, be mad about, join in, hobbyist, batteries, giant bubbles, e-sports team, international league, figures, Can I ask …?, Do you know if …?, Could you tell me …?, Can you tell me whether …?",
+     "can_do": "≥ 4/6 câu Part 5; ≥ 5/7 câu Part 1; dùng đúng B17 trong ≥ 5/6 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 97: taking photographs, practising a musical instrument, keeping fit, online gaming, doing drama, making jewellery, collecting, making models, ingredients, recipe, zoom lens, battery, glue, paintbrush (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 98 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: Câu hỏi gián tiếp: Can you tell me…? Do you know…? + if/từ để hỏi + trật tự câu khẳng định + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 145 (phần U8): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 69 Vocabulary (6')\n3. [Nghe] Workbook tr. 70 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 98 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L1 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 98, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U8 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 145; Photocopiable 8B (từ vựng); audioscript SB tr. 174 (chữa bài nghe)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-61",
+     "session_no": 61,
+     "week": 31,
+     "hp": "HP4",
+     "unit": "U8",
+     "unit_title": "Time out",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "99, 148–149",
+     "wb_pages": "71",
+     "focus": "U8 Time out · Speaking",
+     "task": "Lên kế hoạch cho cuộc thi tài năng: đưa và đáp lại gợi ý (How about…? Why don't we…? I like the idea, but…)",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B16, B17 và từ vựng U8 khi nói",
+     "ket_part": "[S3] thảo luận cặp theo tranh gợi ý · [S4] thảo luận mở rộng — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: ngữ điệu câu hỏi gián tiếp và trực tiếp; lên giọng khi đưa gợi ý · [SS6] dùng câu hỏi lại, làm rõ khi chưa hiểu bạn hoặc giám khảo",
+     "ket_codes": [
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS3",
+      "SS4",
+      "SS6",
+      "SS7"
+     ],
+     "grammar": "B16 Câu tường thuật: câu kể và câu hỏi; B17 Câu hỏi gián tiếp",
+     "vocabulary": "talent show, act, comedian, ventriloquist, gymnast, origami, acrobat, karate, shadow dancing, Why don't we …?, Shall we …?, How about …?, Let's …, I like the idea, That's a great idea!, That sounds like a good place to start, I like the idea … but …, I'm really not sure about that, I'd prefer to …, Agreed",
+     "can_do": "thảo luận cặp 2–3 phút, xét ≥ 4/5 lựa chọn và đi đến quyết định; trả lời mỗi câu hỏi mở rộng ≥ 3 câu, có lý do, hỏi lại ý bạn; đọc đúng ≥ 8/10 câu mẫu phát âm",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 148–149: talent show, act, comedian, ventriloquist, gymnast, origami, acrobat, karate (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 99, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U8 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 71 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S3, S4 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: ngữ điệu câu hỏi gián tiếp và trực tiếp; lên giọng khi đưa gợi ý (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U8 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 148–149; Photocopiable 8C (nói)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-62",
+     "session_no": 62,
+     "week": 31,
+     "hp": "HP4",
+     "unit": "U8",
+     "unit_title": "Time out",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "100–101, 152–153",
+     "wb_pages": "72",
+     "focus": "U8 Time out · Writing",
+     "task": "Bài báo về sở thích của người nổi tiếng: câu mở đoạn, tính từ và trạng từ",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it",
+     "ket_part": "[W2] bài báo hoặc truyện ~100 từ — phân tích đề, gạch ý bắt buộc, viết 20–25 phút · [WS5] nâng câu: viết lại 3 câu đơn trong bài thành câu phức (mệnh đề quan hệ, điều kiện, bị động, although)",
+     "ket_codes": [
+      "W2"
+     ],
+     "subskills": [
+      "WS2",
+      "WS4",
+      "WS5",
+      "WS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "wrestle, flag pole, seaweed, snow globes, creative crafts, creative, surprised, keen, fantastic, huge, successful, busy, close, different, important, completely, extremely",
+     "can_do": "bài ~100 từ có mở – thân – kết, ≥ 3 từ nối, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 100–101 và Writing file SB tr. 152–153: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): wrestle, flag pole, seaweed, snow globes, creative crafts, creative, surprised, keen (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 72 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U8 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 152–153 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-63",
+     "session_no": 63,
+     "week": 32,
+     "hp": "HP4",
+     "unit": "U8",
+     "unit_title": "Time out",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "102–104, 141",
+     "wb_pages": "73",
+     "focus": "U8 Time out · Ôn tập và Dự án",
+     "task": "Video 'Domino art'; dự án: Viết kịch bản video giới thiệu kênh YouTube về một sở thích hoặc kỹ năng; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U8 · Independent learning: Listening skills: chẩn đoán vấn đề khi nghe, tự đánh giá",
+     "ket_part": "[S4] thảo luận sau video · trình bày dự án nhóm 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S4",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS4",
+      "VS1"
+     ],
+     "grammar": "B16 Câu tường thuật: câu kể và câu hỏi; B17 Câu hỏi gián tiếp",
+     "vocabulary": "YouTube, YouTuber, dominoes, tricks, chain reactions, fans, works of art, helpful, amazed, weird, amused, publicly",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Viết kịch bản video giới thiệu kênh YouTube về một sở thích hoặc kỹ năng (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'Domino art' (SB tr. 102) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U8 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'Domino art' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 73 Unit check (8')\n2. [Ôn] Language Test A U8 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 102: phiếu tự đánh giá + ghi âm 1 phút 'Unit 8: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Daily life' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Time out' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Domino art') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U8 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Kiên nhẫn, tự chủ; làm nội dung số có trách nhiệm · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U8 (videoscript TB tr. 149); Grammar file SB tr. 141 (bài luyện); Unit test B1 U8: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-64",
+     "session_no": 64,
+     "week": 32,
+     "hp": "HP4",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E9 · Hobby Expo & Creator Lab",
+     "task": "—",
+     "content": "Sở thích; câu tường thuật, câu hỏi gián tiếp",
+     "ket_part": "[S1] phỏng vấn bạn về sở thích bằng câu hỏi gián tiếp · [S2] giới thiệu sở thích 1 phút · [W2] tường thuật cuộc phỏng vấn ~100 từ",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "W2"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "SS5",
+      "WS2",
+      "WS4"
+     ],
+     "grammar": "B16 Câu tường thuật: câu kể và câu hỏi; B17 Câu hỏi gián tiếp",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi học sinh quay video 1 phút giới thiệu sở thích; viết bài tường thuật dùng ≥ 4 câu reported speech",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'Hobby Expo & Creator Lab' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Sở thích; câu tường thuật, câu hỏi gián tiếp (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W2) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Kiên nhẫn, tự chủ, sáng tạo nội dung có trách nhiệm",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-65",
+     "session_no": 65,
+     "week": 33,
+     "hp": "HP4",
+     "unit": "U9",
+     "unit_title": "Life experiences",
+     "type": "Reading",
+     "kind": "Unit – Reading + Grammar",
+     "sb_pages": "105–108, 142",
+     "wb_pages": "74–76",
+     "focus": "U9 Life experiences · Lead-in + Reading + Grammar 1",
+     "task": "Đọc blog 'summer bucket list' của Sophie, nhận ra từ nối, từ quy chiếu và thì để điền câu",
+     "content": "Ngữ pháp: Quá khứ hoàn thành và quá khứ đơn; before, once, when, just, never · Kỹ năng đọc: identifying linking",
+     "ket_part": "[R4] điền 5 câu vào bài (3 câu thừa) — kỹ năng identifying linking; gạch từ khóa, tìm cách diễn đạt khác trong bài · [RS6] đoán nghĩa từ mới qua ngữ cảnh (loại từ, từ xung quanh, ví dụ trong câu) trước khi tra từ",
+     "ket_codes": [
+      "R4"
+     ],
+     "subskills": [
+      "RS5",
+      "RS6"
+     ],
+     "grammar": "B18 Quá khứ hoàn thành",
+     "vocabulary": "bucket list, put together, loads of, remind (sb) of, classic, original, proud of, sandcastle, board games, movie marathon, water fight",
+     "can_do": "≥ 3/5 câu Part 4; viết 6 câu dùng điểm ngữ pháp B18, ≥ 5 câu đúng",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài đọc (nghe–nhắc lại → ghép hình → nghe chọn → nghe gõ → điền câu từ bài đọc): bucket list, put together, loads of, remind (sb) of, classic, original, proud of, sandcastle, board games, movie marathon, water fight (10')\n2. [Nói] Lead-in SB tr. 105: xem ảnh mở bài, ghi âm 30–45 giây trả lời câu hỏi mở bài (4')\n3. [Nghe] Nghe – đọc đoạn đầu bài đọc SB tr. 106 (audio gốc), trả lời 2 câu dự đoán ý chính (5')\n4. [Ngữ pháp] Video ngắn: Quá khứ hoàn thành và quá khứ đơn; before, once, when, just, never (theo Grammar file SB tr. 142, Grammar ppt U9) + 5 câu kiểm tra hiểu (7')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (unit trước) (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ bài đọc + điểm ngữ pháp vừa học, không mở sách (5')\n2. [Đọc] Workbook tr. 74–75 Reading (số hóa, chấm tự động; dạng R4) (10')\n3. [Ngữ pháp] Workbook tr. 76 Grammar (6')\n4. [Ngữ pháp] Grammar file SB tr. 143: 1–2 bài luyện phần Quá khứ hoàn thành và quá khứ đơn (5')\n5. [Nghe] Chép chính tả 4 câu từ audio bài đọc SB tr. 106–107 (5')\n6. [Nói] Shadowing 5 câu của bài đọc (audio gốc, ghi âm, nhận dạng giọng nói đánh dấu từ chưa rõ) (5')\n7. [Nói] Ghi âm 1 phút nói lại nội dung bài đọc, dùng ít nhất 3 từ mới và điểm ngữ pháp vừa học (3')\n8. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (12')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U9 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 35,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động: kiểm tra nhanh từ vựng đã học trước ở nhà (gói PRE)",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lead-in: thảo luận ảnh và câu hỏi mở bài",
+       "category": "fluency"
+      },
+      {
+       "minutes": 30,
+       "activity": "Reading: đọc lướt lấy ý chính → làm dạng bài PET → chữa bằng câu chứa đáp án",
+       "category": "input"
+      },
+      {
+       "minutes": 25,
+       "activity": "Grammar 1: tìm quy tắc trong bài đọc → luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Dùng ngữ pháp mới để nói và viết về bản thân",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giới thiệu gói POST-LESSON",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Grammar file SB tr. 142 (lý thuyết); Grammar ppt B1 U9; Photocopiable 9A (ngữ pháp)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-66",
+     "session_no": 66,
+     "week": 33,
+     "hp": "HP4",
+     "unit": "U9",
+     "unit_title": "Life experiences",
+     "type": "Listening",
+     "kind": "Unit – Vocabulary + Listening",
+     "sb_pages": "109–110, 145, 165, 174–175",
+     "wb_pages": "77–78",
+     "focus": "U9 Life experiences · Vocabulary + Listening + Grammar 2",
+     "task": "Nghe các đoạn hội thoại về kinh nghiệm làm việc, nghe lời khuyên (You ought to…, Why don't you…)",
+     "content": "Từ vựng: Cảm xúc: confident, annoyed, embarrassed, guilty, jealous, nervous, amazed · tính từ -ed/-ing · tính từ + giới từ · Ngữ pháp 2: used to / didn't use to / Did you use to…? · Cấu tạo từ: tính từ -ed/-ing; tiền tố un-, dis-, im-/in- (unhappy, dishonest, impatient); hậu tố -ful/-less",
+     "ket_part": "[R5] điền từ trắc nghiệm (từ vựng, collocation) · [L2] 6 hội thoại ngắn, ý kiến/thái độ — đọc câu hỏi trước khi nghe, dự đoán đáp án, nghe lần 2 để kiểm tra · [LS7] chép chính tả 3–4 câu từ lời thoại, chú ý âm nối, âm yếu, dạng rút gọn",
+     "ket_codes": [
+      "R5",
+      "L2"
+     ],
+     "subskills": [
+      "LS2",
+      "LS5",
+      "LS7",
+      "RS7",
+      "VS1",
+      "VS2",
+      "VS3"
+     ],
+     "grammar": "B19 used to / didn't use to; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…); B21 Trật tự tính từ; tính từ -ed/-ing",
+     "vocabulary": "annoyed, calm, confident, disappointed, embarrassed, frightened, guilty, jealous, nervous, relaxed, worried, amazed, satisfied, disappointed/disappointing, bored/boring, excited/exciting, amazed/amazing, embarrassed/embarrassing, frightened/frightening, depressing, work experience, hang out with, deal with, go for (a job), look forward to, take part in, orienteering, compass, You could …, You ought to …, Why don't you …?, You should …, used to, didn't use to, Did you use to …?",
+     "can_do": "≥ 4/6 câu Part 5; ≥ 4/6 câu Part 2; dùng đúng B19 trong ≥ 5/6 câu; chuyển đúng dạng từ ≥ 8/10 câu",
+     "before": "1. [Từ vựng] Chuỗi 5 bước nhớ từ của bài Vocabulary SB tr. 109: annoyed, calm, confident, disappointed, embarrassed, frightened, guilty, jealous, nervous, relaxed, worried, amazed, satisfied, disappointed/disappointing (10')\n2. [Nghe] Nghe mồi 30–60 giây đầu bài nghe SB tr. 110 (audio gốc), dự đoán 2 câu (4')\n3. [Ngữ pháp] Video ngắn: used to / didn't use to / Did you use to…? + 5 câu kiểm tra hiểu (6')\n4. [Từ vựng] Extend vocabulary SB tr. 145 (phần U9): ghép 8 từ mở rộng với hình/nghĩa (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Ôn] Quiz nhớ lại 10 câu: từ vựng + ngữ pháp 2, không mở sách (5')\n2. [Từ vựng] Workbook tr. 77 Vocabulary (6')\n3. [Nghe] Workbook tr. 78 Listening (audio Workbook) (8')\n4. [Nghe] Nghe lại bài nghe SB tr. 110 có lời thoại theo câu + 1 part nghe PET rút gọn dạng L2 (8')\n5. [Nghe] Chép chính tả 4 câu từ bài nghe SB tr. 110, ưu tiên âm yếu, âm nối (5')\n6. [Nói] Shadowing 5 câu của bài nghe (5')\n7. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (12')\n8. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U9 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Quiz từ vựng nhanh",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Vocabulary SB + Extend vocabulary",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening PET: dự đoán → nghe lần 1 → nghe lần 2 kiểm tra → đọc audioscript",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Grammar 2: giới thiệu và luyện có kiểm soát",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói theo cặp dùng từ và ngữ pháp mới",
+       "category": "output"
+      },
+      {
+       "minutes": 10,
+       "activity": "Chép chính tả 3 câu từ bài nghe, giao bài",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Extend vocabulary SB tr. 145; Photocopiable 9B (từ vựng); audioscript SB tr. 174–175 (chữa bài nghe); SB tr. 165 (quiz cảm xúc); Dictation trong Skills Test của unit (Assessment package)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-67",
+     "session_no": 67,
+     "week": 34,
+     "hp": "HP4",
+     "unit": "U9",
+     "unit_title": "Life experiences",
+     "type": "Speaking",
+     "kind": "Unit – Speaking",
+     "sb_pages": "111, 148–149",
+     "wb_pages": "79",
+     "focus": "U9 Life experiences · Speaking",
+     "task": "Sống trên hoang đảo: nói điều thích và không thích (I absolutely love, I can't stand, I'm keen on, I don't mind)",
+     "content": "Cụm câu chức năng của bài nói; dùng lại ngữ pháp B18, B19 và từ vựng U9 khi nói",
+     "ket_part": "[S3] thảo luận cặp theo tranh gợi ý · [S4] thảo luận mở rộng — luyện theo cặp, đổi vai; giáo viên chấm mẫu theo thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5) · [SS7] phát âm 15 phút: 'd yếu, hadn't nhấn (theo TB U9); used to /juːstə/ · [SS6] dùng câu hỏi lại, làm rõ khi chưa hiểu bạn hoặc giám khảo · [SS5] Speaking extra: nói 1 phút về một trải nghiệm đáng nhớ (dùng quá khứ hoàn thành, used to)",
+     "ket_codes": [
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS3",
+      "SS4",
+      "SS5",
+      "SS6",
+      "SS7"
+     ],
+     "grammar": "B18 Quá khứ hoàn thành; B19 used to / didn't use to",
+     "vocabulary": "desert island, Swiss army knife, I absolutely love …, I can't stand …, I'm (not) keen on …, I don't mind …",
+     "can_do": "thảo luận cặp 2–3 phút, xét ≥ 4/5 lựa chọn và đi đến quyết định; trả lời mỗi câu hỏi mở rộng ≥ 3 câu, có lý do, hỏi lại ý bạn; đọc đúng ≥ 8/10 câu mẫu phát âm; kể liền mạch 1–2 phút, ≥ 3 từ nối thời gian",
+     "before": "1. [Nói] Học cụm câu chức năng (nghe – nhắc lại – ghi âm) theo Speaking file SB tr. 148–149: desert island, Swiss army knife (8')\n2. [Nói] Đọc câu hỏi bài nói SB tr. 111, ghi âm câu trả lời nháp 1 phút (5')\n3. [Nghe] Nghe câu trả lời mẫu (giọng Gemini) rồi đánh dấu 3 cụm câu muốn dùng (5')\n4. [Từ vựng] Ôn nhanh từ vựng U9 cần cho bài nói (quiz 10 câu) (5')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Nói] Workbook tr. 79 Speaking (số hóa; ghi âm các đoạn hội thoại trong trang) (7')\n2. [Nói] Ghi âm lại bài nói hoàn chỉnh 1–2 phút theo dạng S3, S4 sau góp ý trên lớp (6')\n3. [Phát âm] Luyện 10 câu: 'd yếu, hadn't nhấn (theo TB U9); used to /juːstə/ (6')\n4. [Nói] Shadowing câu trả lời mẫu (5')\n5. [Ôn] Quiz cụm câu chức năng (nghe chọn cụm phù hợp tình huống) (4')\n6. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (12')\n7. [Từ vựng] Ôn thẻ từ đến hạn (3')\n8. [Nghe] Nghe bài nói của 2 bạn trong lớp (giáo viên chọn), chấm theo 2 tiêu chí (4')\n9. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U9 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 32,
+     "after_min": 53,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Khởi động nói nhanh 4-3-2",
+       "category": "fluency"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nghe bài nói mẫu, ghi cụm câu chức năng (Speaking file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phát âm trọng tâm của buổi",
+       "category": "lang"
+      },
+      {
+       "minutes": 40,
+       "activity": "Luyện part Nói PET theo cặp, đổi vai, đổi bạn",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Nói trước lớp, giáo viên chấm theo thang Nói PET",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá, giao bài ghi âm",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 148–149",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-68",
+     "session_no": 68,
+     "week": 34,
+     "hp": "HP4",
+     "unit": "U9",
+     "unit_title": "Life experiences",
+     "type": "Writing",
+     "kind": "Unit – Writing",
+     "sb_pages": "112–113, 154–155",
+     "wb_pages": "80",
+     "focus": "U9 Life experiences · Writing",
+     "task": "Truyện về một ngày đi chơi (kẹt trên cáp treo) ~100 từ: sắp xếp sự việc (First, After that, Suddenly, Eventually)",
+     "content": "Lập dàn ý → viết nháp trên lớp → tự soát theo mục Improve it",
+     "ket_part": "[W2] bài báo hoặc truyện ~100 từ — phân tích đề, gạch ý bắt buộc, viết 20–25 phút · [WS5] nâng câu: viết lại 3 câu đơn trong bài thành câu phức (mệnh đề quan hệ, điều kiện, bị động, although)",
+     "ket_codes": [
+      "W2"
+     ],
+     "subskills": [
+      "WS3",
+      "WS4",
+      "WS5",
+      "WS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "chairlift, selfies, signal, First, Then, After that, Eventually, Suddenly, (a few hours) later",
+     "can_do": "bài ~100 từ có mở – thân – kết, ≥ 3 từ nối, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Viết] Đọc bài mẫu SB tr. 112–113 và Writing file SB tr. 154–155: bấm chọn câu mở bài, 3 từ nối, câu kết (6')\n2. [Từ vựng] Cụm câu cho bài viết (nghe – nhắc lại – điền câu): chairlift, selfies, signal, First, Then, After that, Eventually, Suddenly (6')\n3. [Viết] Lập dàn ý cho đề bài trên sơ đồ (ý chính mỗi đoạn) (6')\n4. [Nghe] Nghe – đọc bài mẫu (giọng Gemini) 2 lần (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (6')\n6. [Từ vựng] Ôn thẻ từ đến hạn (3')",
+     "after": "1. [Viết] Viết lại bài theo nhận xét trên lớp, tự soát 4 mục (đủ ý, chia đoạn, từ nối, chính tả) (15')\n2. [Viết] Workbook tr. 80 Writing (8')\n3. [Viết] Nâng câu: viết lại 3 câu đơn trong bài thành câu phức (5')\n4. [Nói] Đọc to bài viết của mình và ghi âm (4')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' – 2 clip (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (12')\n6. [Ôn] Quiz nhớ lại 8 câu: từ nối và cụm câu bài viết (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U9 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 31,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Sửa lỗi chung từ bài nói và bài tập về nhà",
+       "category": "lang"
+      },
+      {
+       "minutes": 20,
+       "activity": "Phân tích đề và bài mẫu (Writing file)",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Cụm câu, từ nối, câu phức cho dạng bài",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Lập dàn ý theo cặp",
+       "category": "output"
+      },
+      {
+       "minutes": 25,
+       "activity": "Viết nháp có bấm giờ",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự soát theo Improve it, chấm chéo theo thang PET",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tổng kết, giao bài viết lại",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Writing file SB tr. 154–155 (bài mẫu, cụm câu); thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5); Photocopiable 9C (viết)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-69",
+     "session_no": 69,
+     "week": 35,
+     "hp": "HP4",
+     "unit": "U9",
+     "unit_title": "Life experiences",
+     "type": "Project & Check",
+     "kind": "Unit – Ôn tập + Dự án",
+     "sb_pages": "114–116, 143",
+     "wb_pages": "81–83",
+     "focus": "U9 Life experiences · Ôn tập và Dự án",
+     "task": "Video 'Finding your voice'; dự án: Tranh biện một chủ đề: đưa ý kiến, đồng ý, phản bác; Independent learning; Unit check",
+     "content": "Ôn từ vựng và ngữ pháp U9 · Independent learning: Study skills: nhìn lại tiến bộ từ Unit 1, đặt mục tiêu dùng tiếng Anh",
+     "ket_part": "[S4] thảo luận sau video · trình bày dự án nhóm 2–3 phút, mỗi thành viên nói ≥ 4 câu · [R6] 10 phút điền từ tự do (Part 6) theo ngữ pháp của unit",
+     "ket_codes": [
+      "S4",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "SS4",
+      "VS1"
+     ],
+     "grammar": "B18 Quá khứ hoàn thành; B19 used to / didn't use to",
+     "vocabulary": "debate, argue, self-esteem, shy, confident, nervousness, semi-finals",
+     "can_do": "Unit check ≥ 70%; Language test ≥ 70%; mỗi học sinh nói ≥ 4 câu khi trình bày dự án",
+     "before": "1. [Dự án] Chuẩn bị phần dự án của mình: Tranh biện một chủ đề: đưa ý kiến, đồng ý, phản bác (tìm thông tin, viết 4–5 câu sẽ nói) (12')\n2. [Nghe] Xem video Switch on 'Finding your voice' (SB tr. 114) có phụ đề, trả lời 3 câu hỏi (6')\n3. [Nói] Ghi âm phần trình bày dự án của mình 1 phút để tập (4')\n4. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp U9 (6')\n5. [Lồng tiếng] 1 đoạn video Switch on 'Finding your voice' (20–40 giây) (6')",
+     "after": "1. [Ôn] Workbook tr. 81 Unit check (8')\n2. [Ôn] Language Test A U9 trên website (Assessment package) (25')\n3. [Tự học] Independent learning SB tr. 114: phiếu tự đánh giá + ghi âm 1 phút 'Unit 9: em làm tốt… em cần…' (4')\n4. [Từ vựng] Từ vựng chủ đề PET tự học: 'Social interaction' – Wordwall 15 từ (6')\n5. [Lồng tiếng] clip 20–40 giây chủ đề 'Life experiences' (hội thoại IVY dựng bằng giọng Gemini hoặc đoạn video Switch on 'Finding your voice') (6')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U9 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Ôn từ vựng và ngữ pháp của unit qua trò chơi",
+       "category": "lang"
+      },
+      {
+       "minutes": 15,
+       "activity": "Video Switch on + thảo luận",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Dự án nhóm: hoàn thiện và trình bày, đánh giá chéo",
+       "category": "output"
+      },
+      {
+       "minutes": 30,
+       "activity": "Unit check",
+       "category": "test"
+      },
+      {
+       "minutes": 10,
+       "activity": "Independent learning, giao bài",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Tự tin, nói trước công chúng, tôn trọng quan điểm khác (SDG 16) · Phân bổ 105': video + thảo luận 20', trình bày dự án 30', Part 6 mini 10', Unit check 25', Skills Test A 20'",
+     "materials": "Video U9 (videoscript TB tr. 150); Grammar file SB tr. 143 (bài luyện); Unit test B1 U9: Skills Test A tại lớp 20' (Assessment package); Language Test A làm trên website",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-70",
+     "session_no": 70,
+     "week": 35,
+     "hp": "HP4",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E10 · IVY Debate Cup",
+     "task": "—",
+     "content": "Trải nghiệm, cảm xúc; quá khứ hoàn thành, used to",
+     "ket_part": "[S4] tranh biện theo đội, phản bác có lý do · [L4] nghe ghi chú lập luận đội bạn · [W2] bài báo nêu quan điểm ~100 từ",
+     "ket_codes": [
+      "S4",
+      "L4",
+      "W2"
+     ],
+     "subskills": [
+      "LS4",
+      "SS4",
+      "WS2",
+      "WS4"
+     ],
+     "grammar": "B18 Quá khứ hoàn thành; B19 used to / didn't use to",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi đội tranh biện 15 phút; mỗi học sinh nói ≥ 1 lượt 1 phút và phản bác ≥ 1 lần",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'IVY Debate Cup' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Trải nghiệm, cảm xúc; quá khứ hoàn thành, used to (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W2) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Tranh biện, tôn trọng quan điểm khác (SDG 16)",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-71",
+     "session_no": 71,
+     "week": 36,
+     "hp": "HP4",
+     "unit": "U10",
+     "unit_title": "Summertime!",
+     "type": "Review",
+     "kind": "Unit 10 – ôn theo đề",
+     "sb_pages": "117–120, 176",
+     "wb_pages": "—",
+     "focus": "U10 Summertime! · Lead-in + Reading + Listening",
+     "task": "kỹ năng sống ở trường; làm thêm hè hay nghỉ ngơi; làm tình nguyện cứu hộ; phỏng vấn chuyên viên trang điểm",
+     "content": "Ôn tổng hợp trong ngữ cảnh đề thi · Chủ đề kỹ năng sống, việc làm thêm",
+     "ket_part": "[R3] bài dài, 5 câu trắc nghiệm · [R5] điền từ trắc nghiệm (từ vựng, collocation) · [R6] điền từ tự do (từ chức năng) · [L3] điền 6 thông tin · [L4] phỏng vấn dài, 6 câu trắc nghiệm — làm như đề thật, có bấm giờ",
+     "ket_codes": [
+      "R3",
+      "R5",
+      "R6",
+      "L3",
+      "L4"
+     ],
+     "subskills": [
+      "LS3",
+      "LS4",
+      "LS5",
+      "RS2",
+      "RS7",
+      "RS8"
+     ],
+     "grammar": "B10 Câu điều kiện loại 0, 1, 2; B16 Câu tường thuật: câu kể và câu hỏi; B18 Quá khứ hoàn thành",
+     "vocabulary": "life skills, real-life skills, problem solving, set aims, achieve, higher education, holiday job, part-time job, compete, work experience, lifeguard, certificates, water safety exams, leader, qualification, observant, make-up artist, cosmetics, face paints, imaginative",
+     "can_do": "≥ 4/5 câu Part 3; ≥ 4/6 câu Part 5; ≥ 4/6 chỗ trống Part 6; ≥ 4/6 chỗ trống Part 3, đúng chính tả; ≥ 4/6 câu Part 4",
+     "before": "1. [Từ vựng] Chuỗi 5 bước: life skills, real-life skills, problem solving, set aims, achieve, higher education, holiday job, part-time job, compete, work experience, lifeguard, certificates, water safety exams, leader (10')\n2. [Đọc] Đọc lướt 3 bài đọc SB tr. 118–119, nói ý chính mỗi bài 1 câu (ghi âm) (8')\n3. [Nghe] Nghe mồi bài nghe SB tr. 120 (4')\n4. [Ôn] Quiz trộn U1–U9 20 câu (6')\n5. [Lồng tiếng] clip chủ đề việc làm hè (6')",
+     "after": "1. [Đọc] Workbook tr. 84–87 (Reading Part 1–3 của đề luyện) (15')\n2. [Nghe] Chép chính tả 4 câu bài nghe SB tr. 120 (5')\n3. [Nói] Shadowing 5 câu bài phỏng vấn (5')\n4. [Từ vựng] Ôn thẻ cả khóa (thẻ đến hạn) (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nói] Ghi âm 1 phút 'A summer job I'd like' (4')\n7. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U10 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 34,
+     "after_min": 52,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "trường học có chuẩn bị cho cuộc sống thật không?",
+     "materials": "Audioscript SB tr. 176",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-72",
+     "session_no": 72,
+     "week": 36,
+     "hp": "HP4",
+     "unit": "U10",
+     "unit_title": "Summertime!",
+     "type": "Review",
+     "kind": "Unit 10 – ôn theo đề",
+     "sb_pages": "121–123, 146–155, 166",
+     "wb_pages": "—",
+     "focus": "U10 · Speaking + Writing",
+     "task": "đủ 4 part Nói (Part 3 trên SB tr. 166); email Part 1 và bài báo/truyện Part 2",
+     "content": "Ôn toàn bộ Speaking file và Writing file · tự đánh giá và đánh giá chéo",
+     "ket_part": "[S1]–[S4] thi nói thử theo cặp, đánh giá chéo · [W1] email · [W2] chọn bài báo hoặc truyện",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "W1",
+      "W2"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "SS3",
+      "SS4",
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4",
+      "WS6"
+     ],
+     "grammar": "B22 Từ nối: although, so that, either…or, as soon as, because, so",
+     "vocabulary": "magician's show, dance class, theatre visit, dog show, orchestra, singing show, ballet",
+     "can_do": "Nói đủ 4 part, ≥ 3/5 mỗi tiêu chí; 2 bài viết xong trong 45 phút",
+     "before": "1. [Nói] Ôn cụm câu 4 part Nói (Speaking file SB tr. 146–149): nghe – nhắc lại – ghi âm (10')\n2. [Nói] Tả ảnh 1 phút với 2 ảnh mới (ghi âm) (5')\n3. [Viết] Đọc bài mẫu email và article/story (Writing file SB tr. 150–155), đánh dấu cấu trúc (8')\n4. [Lồng tiếng] clip (6')\n5. [Từ vựng] Ôn thẻ (4')",
+     "after": "1. [Viết] Workbook tr. 88–91 (Reading Part 4–6 của đề luyện) (15')\n2. [Viết] Viết lại 1 bài (email hoặc article) theo nhận xét (12')\n3. [Nói] Ghi âm Part 3 với bạn (hoặc với giọng Gemini đóng vai bạn) (6')\n4. [Lồng tiếng] 2 clip (12')\n5. [Từ vựng] Ôn thẻ (4')\n6. [Nghe] Nghe ngấm: audio bài đọc/bài nghe của U10 (SB, Workbook) phát liên tục, lần 2 có lời thoại (6')",
+     "before_min": 33,
+     "after_min": 55,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Speaking file SB tr. 146–149; Writing file SB tr. 150–155; thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-73",
+     "session_no": 73,
+     "week": 37,
+     "hp": "HP4",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Review",
+     "kind": "Củng cố",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Củng cố · Nghe – Đọc (U8, U9, U10)",
+     "task": "—",
+     "content": "Nhận ra câu tường thuật, quá khứ hoàn thành, used to trong bài đọc và lời thoại",
+     "ket_part": "[R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R2] nối 5 người với 8 văn bản · [R3] bài dài, 5 câu trắc nghiệm · [R4] điền 5 câu vào bài (3 câu thừa) · [L1] 7 đoạn ngắn, chọn tranh · [L2] 6 hội thoại ngắn, ý kiến/thái độ — luyện theo đúng thời gian của đề · [RS9] kiểm tra nhật ký đọc: kể tóm tắt sách đọc phân cấp 1 phút",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "L1",
+      "L2"
+     ],
+     "subskills": [
+      "LS1",
+      "LS2",
+      "LS5",
+      "RS1",
+      "RS2",
+      "RS3",
+      "RS5",
+      "RS9",
+      "SS5"
+     ],
+     "grammar": "B16 Câu tường thuật: câu kể và câu hỏi; B17 Câu hỏi gián tiếp; B18 Quá khứ hoàn thành; B19 used to / didn't use to",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "≥ 4/5 câu Part 1; ≥ 4/5 câu nối Part 2; ≥ 4/5 câu Part 3; ≥ 3/5 câu Part 4; ≥ 5/7 câu Part 1; ≥ 4/6 câu Part 2",
+     "before": "1. [Ôn] Quiz trộn 20 câu từ vựng + ngữ pháp các unit trong học phần (8')\n2. [Nghe] Nghe lại 2 bài nghe điểm thấp nhất trong học phần, có lời thoại (8')\n3. [Đọc] Đọc lại 1 bài đọc của sách, tìm 5 cụm diễn đạt khác (paraphrase) (8')\n4. [Từ vựng] Ôn thẻ đến hạn (5')\n5. [Lồng tiếng] clip ôn tập (6')",
+     "after": "1. [Thi] Làm lại các câu sai của đề luyện trên lớp, ghi lý do sai (10')\n2. [Nghe] 1 part nghe tiếp theo của đề PTP (dạng L1, L2) + chép chính tả 4 câu (12')\n3. [Đọc] 1 part đọc của đề PTP (dạng R1, R2, R3, R4) (10')\n4. [Nói] Shadowing 5 câu của bài nghe (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 55,
+     "in_class": [
+      {
+       "minutes": 10,
+       "activity": "Ôn từ vựng học phần",
+       "category": "lang"
+      },
+      {
+       "minutes": 35,
+       "activity": "Reading PET: làm có bấm giờ → chữa → rút chiến lược",
+       "category": "input"
+      },
+      {
+       "minutes": 35,
+       "activity": "Listening PET: làm → chữa → nghe lại có lời",
+       "category": "input"
+      },
+      {
+       "minutes": 15,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Đọc hoặc nghe mở rộng mức dễ",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 4: Reading Part 1–4, Listening Part 1–2; Skills Test A U8, U9",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-74",
+     "session_no": 74,
+     "week": 37,
+     "hp": "HP4",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Củng cố + kiểm tra Nói",
+     "sb_pages": "—",
+     "wb_pages": "92–93, 98–99",
+     "focus": "Củng cố · Nói – Viết + kiểm tra Nói HP4 (đề WB Unit 10)",
+     "task": "—",
+     "content": "Thi Nói đủ 4 part như đề thật · Writing Part 1 + Part 2 trong 45 phút",
+     "ket_part": "[S1]–[S4] thi Nói theo cặp · [W1] [W2] viết có bấm giờ",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "W1",
+      "W2"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "SS3",
+      "SS4",
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4"
+     ],
+     "grammar": "B16 Câu tường thuật: câu kể và câu hỏi; B17 Câu hỏi gián tiếp; B18 Quá khứ hoàn thành; B19 used to / didn't use to; B22 Từ nối: although, so that, either…or, as soon as, because, so",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Thi Nói ≥ 3/5 mỗi tiêu chí; 2 bài viết xong trong 45 phút, mỗi bài ≥ 3/5 tiêu chí PET",
+     "before": "1. [Nói] Luyện 4 part Nói theo bộ câu hỏi mẫu, ghi âm từng part (12')\n2. [Nghe] Xem video thí sinh mẫu Cambridge, ghi 3 cụm câu học được (8')\n3. [Viết] Lập dàn ý 1 email và 1 article/story (8')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Nói] Ghi âm lại part Nói chưa đạt theo nhận xét (8')\n2. [Viết] Viết lại bài viết có bấm giờ theo nhận xét (15')\n3. [Phát âm] Luyện 10 câu theo lỗi phát âm được ghi trong buổi thi Nói (6')\n4. [Nghe] 1 part nghe PET (7')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 90,
+       "activity": "GV thi Nói từng cặp 10–12'; các cặp khác viết PET Part 1/2 bấm giờ",
+       "category": "test"
+      },
+      {
+       "minutes": 15,
+       "activity": "Tự chấm bài viết theo thang PET",
+       "category": "lang"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "WB Unit 10: Speaking tr. 98–99, Writing tr. 92–93; Review Test 3 (Units 7–9): Writing, Speaking",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-75",
+     "session_no": 75,
+     "week": 38,
+     "hp": "HP4",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Test",
+     "kind": "Kiểm tra học phần",
+     "sb_pages": "—",
+     "wb_pages": "84–91, 94–97",
+     "focus": "Kiểm tra HP4 – đề luyện thi đầy đủ WB Unit 10 (Reading + Listening)",
+     "task": "—",
+     "content": "—",
+     "ket_part": "[E] Reading 45 phút + Listening ~30 phút như đề thật",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+     ],
+     "subskills": [
+      "LS1",
+      "LS2",
+      "LS3",
+      "LS4",
+      "RS1",
+      "RS2",
+      "RS3",
+      "RS5",
+      "RS7",
+      "RS8"
+     ],
+     "grammar": "B16 Câu tường thuật: câu kể và câu hỏi; B17 Câu hỏi gián tiếp; B18 Quá khứ hoàn thành; B19 used to / didn't use to",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "100% làm đủ đề; ≥ 60% điểm mỗi bài",
+     "before": "1. [Ngữ pháp] Quiz ôn ngữ pháp của học phần 30 câu (có giải thích) (12')\n2. [Từ vựng] Ôn thẻ: toàn bộ từ của học phần còn đến hạn (8')\n3. [Thi] Xem lại chiến lược các part sẽ kiểm tra (video 5') (5')\n4. [Nghe] Nghe 1 bài nghe của sách có lời thoại (5')\n5. [Lồng tiếng] clip (6')",
+     "after": "1. [Tự học] Xem bài kiểm tra, ghi 5 lỗi chính vào bảng lỗi cá nhân (8')\n2. [Ngữ pháp] Làm lại câu sai dưới dạng mới (website tự tạo) (12')\n3. [Nghe] Nghe lại phần nghe của bài kiểm tra có lời thoại, chép chính tả 4 câu (10')\n4. [Nói] Ghi âm 1 phút: điều em làm tốt và điều em cần cải thiện (3')\n5. [Lồng tiếng] 2 clip (12')\n6. [Từ vựng] Ôn thẻ (5')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 36,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 40,
+       "activity": "Ôn các điểm ngữ pháp nền của học phần",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Kiểm tra: các part PET đã học + câu ngữ pháp nền",
+       "category": "test"
+      },
+      {
+       "minutes": 5,
+       "activity": "Ghi lỗi vào bảng lỗi cá nhân",
+       "category": "lang"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "WB Unit 10: Reading tr. 84–91, Listening tr. 94–97; đáp án WB (Gold_Exp_B1_WB_Answer_Key)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-76",
+     "session_no": 76,
+     "week": 38,
+     "hp": "HP4",
+     "unit": "Củng cố",
+     "unit_title": "Củng cố học phần",
+     "type": "Review",
+     "kind": "Linh hoạt",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Linh hoạt 4: chữa đề + ngữ pháp nền",
+     "task": "—",
+     "content": "Review Test 3 (Units 7–9) Grammar & Vocabulary 30 phút, rồi chữa theo nhóm lỗi",
+     "ket_part": "[E] phân tích lỗi theo mã part · làm lại câu sai và giải thích vì sao sai",
+     "ket_codes": [],
+     "subskills": [],
+     "grammar": "B12 Bị động hiện tại đơn và quá khứ đơn; B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B16 Câu tường thuật: câu kể và câu hỏi; B18 Quá khứ hoàn thành; B19 used to / didn't use to",
+     "vocabulary": "Ôn từ vựng các unit trong học phần; làm lại từ sai trên Wordwall",
+     "can_do": "Mỗi học sinh sửa đúng ≥ 80% câu sai; chọn 2 part yếu nhất cho HP5",
+     "before": "1. [Ôn] Bài theo nhóm: nhóm bù – điểm ngữ pháp chưa đạt; nhóm tăng cường – bài viết/nói dài hơn (15')\n2. [Nghe] Nghe 1 bài nghe theo part yếu nhất (8')\n3. [Từ vựng] Ôn thẻ (5')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Ôn] Làm lại bài kiểm tra phần chưa đạt (Language Test C) (15')\n2. [Nói] Ghi âm 2 phút về chủ đề của học phần (5')\n3. [Nghe] Chép chính tả + shadowing 1 đoạn nghe (10')\n4. [Từ vựng] Ôn thẻ (5')\n5. [Lồng tiếng] 2 clip (12')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 53,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Review Test 3 (Units 7–9) Grammar & Vocabulary; Grammar file SB tr. 140–143; Language Test C U8, U9",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-77",
+     "session_no": 77,
+     "week": 39,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Luyện thi · Reading Part 1, 2, 5",
+     "task": "—",
+     "content": "Biển báo, tin nhắn, mô tả; collocation hay gặp",
+     "ket_part": "[R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R2] nối 5 người với 8 văn bản · [R5] điền từ trắc nghiệm (từ vựng, collocation) — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "R5"
+     ],
+     "subskills": [
+      "RS1",
+      "RS3",
+      "RS7"
+     ],
+     "grammar": "B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…)",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "≥ 4/5 câu Part 1; ≥ 4/5 câu nối Part 2; ≥ 4/6 câu Part 5",
+     "before": "1. [Thi] Video chiến lược part R1, R2, R5 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (R1, R2, R5) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 5 Reading Part 1, 2, 5; Cambridge B1 Preliminary 1 (2020) Test 1 Reading Part 1, 2, 5",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-78",
+     "session_no": 78,
+     "week": 39,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Luyện thi · Reading Part 3, 4, 6",
+     "task": "—",
+     "content": "Từ quy chiếu, từ nối, từ chức năng (giới từ, trợ động từ, đại từ quan hệ)",
+     "ket_part": "[R3] bài dài, 5 câu trắc nghiệm · [R4] điền 5 câu vào bài (3 câu thừa) · [R6] điền từ tự do (từ chức năng) — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án · [RS4] nhận ra thái độ, ý kiến người viết: tìm tính từ, trạng từ đánh giá (surprisingly, unfortunately), phân biệt sự thật và ý kiến",
+     "ket_codes": [
+      "R3",
+      "R4",
+      "R6"
+     ],
+     "subskills": [
+      "RS2",
+      "RS4",
+      "RS5",
+      "RS8"
+     ],
+     "grammar": "B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B22 Từ nối: although, so that, either…or, as soon as, because, so",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "≥ 4/5 câu Part 3; ≥ 3/5 câu Part 4; ≥ 4/6 chỗ trống Part 6; trả lời đúng ≥ 2/2 câu hỏi về thái độ người viết",
+     "before": "1. [Thi] Video chiến lược part R3, R4, R6 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (R3, R4, R6) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 5 Reading Part 3, 4, 6; Cambridge B1 Preliminary 1 Test 1 Reading Part 3, 4, 6",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-79",
+     "session_no": 79,
+     "week": 40,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Luyện thi · Writing Part 1 và 2",
+     "task": "—",
+     "content": "Email đủ 4 ý; bài báo và truyện có cấu trúc, đa dạng ngữ pháp B1",
+     "ket_part": "[W1] email ~100 từ theo 4 ghi chú · [W2] bài báo hoặc truyện ~100 từ — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án",
+     "ket_codes": [
+      "W1",
+      "W2"
+     ],
+     "subskills": [
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4",
+      "WS6"
+     ],
+     "grammar": "B18 Quá khứ hoàn thành; B22 Từ nối: although, so that, either…or, as soon as, because, so",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "email ~100 từ, đủ 4 ý trong ghi chú, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí; bài ~100 từ có mở – thân – kết, ≥ 3 từ nối, ≤ 3 lỗi, thang PET ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Thi] Video chiến lược part W1, W2 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (W1, W2) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 5 Writing; Writing file SB tr. 150–155; thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-80",
+     "session_no": 80,
+     "week": 40,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Luyện thi · Listening Part 1, 2",
+     "task": "—",
+     "content": "Nhận ra thay đổi ý, phủ định, ý kiến và thái độ",
+     "ket_part": "[L1] 7 đoạn ngắn, chọn tranh · [L2] 6 hội thoại ngắn, ý kiến/thái độ — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án · [LS6] nghe thông báo, hướng dẫn (nhà ga, trường học, cửa hàng): ghi giờ, địa điểm, việc phải làm",
+     "ket_codes": [
+      "L1",
+      "L2"
+     ],
+     "subskills": [
+      "LS1",
+      "LS2",
+      "LS5",
+      "LS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "≥ 5/7 câu Part 1; ≥ 4/6 câu Part 2",
+     "before": "1. [Thi] Video chiến lược part L1, L2 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (L1, L2) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 6 Listening Part 1, 2; Cambridge B1 Preliminary 1 Test 1 Listening Part 1, 2",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-81",
+     "session_no": 81,
+     "week": 41,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Luyện thi · Listening Part 3, 4",
+     "task": "—",
+     "content": "Đánh vần, số, ngày tháng; theo dõi bài phỏng vấn dài",
+     "ket_part": "[L3] điền 6 thông tin · [L4] phỏng vấn dài, 6 câu trắc nghiệm — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án",
+     "ket_codes": [
+      "L3",
+      "L4"
+     ],
+     "subskills": [
+      "LS3",
+      "LS4",
+      "LS5"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "≥ 4/6 chỗ trống Part 3, đúng chính tả; ≥ 4/6 câu Part 4",
+     "before": "1. [Thi] Video chiến lược part L3, L4 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (L3, L4) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 6 Listening Part 3, 4; Cambridge B1 Preliminary 1 Test 1 Listening Part 3, 4",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-82",
+     "session_no": 82,
+     "week": 41,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Luyện thi · Speaking Part 1–4",
+     "task": "—",
+     "content": "Mở rộng câu trả lời, tả ảnh khi thiếu từ, thảo luận đi đến quyết định",
+     "ket_part": "[S1] câu hỏi cá nhân · [S2] tả ảnh 1 phút · [S3] thảo luận cặp theo tranh gợi ý · [S4] thảo luận mở rộng — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án · [SS6] dùng câu hỏi lại, làm rõ khi chưa hiểu bạn hoặc giám khảo",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "SS3",
+      "SS4",
+      "SS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "Mỗi cặp thi đủ 4 part trong 12–14 phút, ≥ 3/5 mỗi tiêu chí",
+     "before": "1. [Thi] Video chiến lược part S1, S2, S3, S4 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (S1, S2, S3, S4) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 5–6 Speaking; video thí sinh mẫu Cambridge (Roberto và Simone); thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-83",
+     "session_no": 83,
+     "week": 42,
+     "hp": "HP5",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E11 · Life Skills & Summer Jobs Fair",
+     "task": "—",
+     "content": "Việc làm thêm, kỹ năng sống (U10)",
+     "ket_part": "[R3] đọc mô tả công việc · [S1] phỏng vấn xin việc thử · [W1] email ứng tuyển ~100 từ",
+     "ket_codes": [
+      "R3",
+      "S1",
+      "W1"
+     ],
+     "subskills": [
+      "RS2",
+      "SS1",
+      "WS1",
+      "WS4"
+     ],
+     "grammar": "B17 Câu hỏi gián tiếp; B10 Câu điều kiện loại 0, 1, 2",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "Mỗi học sinh tham gia 1 buổi phỏng vấn thử 5 phút và nộp 1 email ứng tuyển",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'Life Skills & Summer Jobs Fair' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Việc làm thêm, kỹ năng sống (U10) (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W1) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Định hướng nghề nghiệp, kỹ năng sống (SDG 8)",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-84",
+     "session_no": 84,
+     "week": 42,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "Test",
+     "kind": "Đánh giá ngữ pháp nền",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Đánh giá nền tảng ngữ pháp cuối khóa + Writing có bấm giờ",
+     "task": "—",
+     "content": "Đánh giá 28 điểm ngữ pháp nền B1 (B01–B22, B26–B31) theo 3 mức: nhận biết, có kiểm soát, tự động",
+     "ket_part": "[W1] [W2] viết Part 1 + Part 2 trong 45 phút · [R6] điền từ chức năng",
+     "ket_codes": [
+      "W1",
+      "W2",
+      "R6"
+     ],
+     "subskills": [
+      "RS8",
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4"
+     ],
+     "grammar": "B01 Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái; B02 Trạng từ tần suất, vị trí; cụm thời gian; B03 Mạo từ a/an/the/không mạo từ; B04 Quá khứ đơn và quá khứ tiếp diễn (when/while); B05 Danh động từ (-ing) làm chủ ngữ, sau giới từ; B06 Các cách diễn đạt tương lai: will, going to, hiện tại tiếp diễn, hiện tại đơn; B07 Khuyết thiếu cho lời khuyên, gợi ý: should, could, ought to, Why don't you…?; B08 Hiện tại hoàn thành với ever/never/already/yet/just/for/since; B09 Quá khứ đơn và hiện tại hoàn thành; B10 Câu điều kiện loại 0, 1, 2; B11 unless, in case, if I were you; B12 Bị động hiện tại đơn và quá khứ đơn; B13 have/get something done; B14 Mệnh đề quan hệ xác định (who, which, that, where, whose); B15 Khuyết thiếu chỉ bắt buộc, cấm, cần thiết: must, have to, don't have to, need to; B16 Câu tường thuật: câu kể và câu hỏi; B17 Câu hỏi gián tiếp; B18 Quá khứ hoàn thành; B19 used to / didn't use to; B20 Giới từ đi kèm tính từ và động từ (interested in, listen to, proud of…); B21 Trật tự tính từ; tính từ -ed/-ing; B22 Từ nối: although, so that, either…or, as soon as, because, so; B26 may / might / could chỉ khả năng xảy ra; B27 So sánh hơn, so sánh nhất, (not) as…as; too/enough (to); so/such; B28 can / could / be able to chỉ khả năng làm được; B29 Động từ + V-ing / to V (enjoy, decide, want, stop, try…); B30 Lượng từ: a few / a little, few / little, too much / too many, plenty of; B31 Câu hỏi đuôi (question tags)",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "Đúng mức ở ≥ 24/28 điểm ngữ pháp; 2 bài viết xong trong 45 phút",
+     "before": "1. [Thi] Video chiến lược part W1, W2, R6 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (W1, W2, R6) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Bài đánh giá ngữ pháp nền B1 (IVY soạn từ Grammar file SB tr. 124–143); PTP Test 6 Writing",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-85",
+     "session_no": 85,
+     "week": 43,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "Test",
+     "kind": "Thi thử",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Thi thử lần 1",
+     "task": "—",
+     "content": "—",
+     "ket_part": "[E] Reading 45' + Listening 30' tại lớp; Writing 45' làm tại nhà có bấm giờ trên website",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+     ],
+     "subskills": [
+      "LS1",
+      "LS2",
+      "LS3",
+      "LS4",
+      "RS1",
+      "RS2",
+      "RS3",
+      "RS5",
+      "RS7",
+      "RS8"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "100% làm đủ đề; ≥ 65% mỗi bài",
+     "before": "1. [Thi] Ôn chiến lược 4 bài thi (checklist), làm 1 đề nghe ngắn (15')\n2. [Từ vựng] Ôn thẻ cả khóa (8')\n3. [Nói] Luyện Speaking Part 2 với 2 ảnh (5')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Thi] Writing 45 phút tại nhà có bấm giờ trên website (45')\n2. [Lồng tiếng] clip (6')\n3. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 45,
+       "activity": "Reading (45 phút)",
+       "category": "test"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening (30 phút)",
+       "category": "test"
+      },
+      {
+       "minutes": 30,
+       "activity": "Chuyển đáp án sang phiếu, ghi lỗi theo part; Writing làm tại nhà có bấm giờ",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 7: Reading, Listening, Writing",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-86",
+     "session_no": 86,
+     "week": 43,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "Review",
+     "kind": "Chữa đề",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Chữa đề thi thử 1 + thi Nói thử",
+     "task": "—",
+     "content": "Phân tích lỗi theo mã part; ghi lỗi ngữ pháp vào bảng lỗi cá nhân",
+     "ket_part": "[E] chữa đề theo nhóm part yếu · [S1]–[S4] thi Nói PTP Test 7 theo cặp (12 phút/cặp) trong lúc cả lớp chữa đề",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "SS3",
+      "SS4"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "Mỗi học sinh xác định 2 part yếu nhất và lập kế hoạch 2 tuần",
+     "before": "1. [Thi] Xem kết quả thi thử theo từng part, chọn 2 part yếu (8')\n2. [Nói] Luyện 4 part Nói chuẩn bị thi Nói thử (12')\n3. [Từ vựng] Ôn thẻ (6')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Thi] Làm lại câu sai thi thử 1, ghi lý do (15')\n2. [Nghe] Nghe lại đề nghe có lời thoại, chép chính tả 5 câu (12')\n3. [Tự học] Lập kế hoạch ôn 2 tuần cho 2 part yếu (5')\n4. [Lồng tiếng] 2 clip (12')\n5. [Từ vựng] Ôn thẻ (5')\n6. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 32,
+     "after_min": 55,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Đáp án, lời thoại PTP Test 7; PTP Test 7 Speaking",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-87",
+     "session_no": 87,
+     "week": 44,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Chuyên sâu Listening",
+     "task": "—",
+     "content": "Luyện lại part yếu theo nhóm, nghe lần 2 có lời thoại để thấy chỗ bỏ sót; chép chính tả số, tên, giờ",
+     "ket_part": "[L1] 7 đoạn ngắn, chọn tranh · [L2] 6 hội thoại ngắn, ý kiến/thái độ · [L3] điền 6 thông tin · [L4] phỏng vấn dài, 6 câu trắc nghiệm — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án · [LS7] chép chính tả 3–4 câu từ lời thoại, chú ý âm nối, âm yếu, dạng rút gọn",
+     "ket_codes": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+     ],
+     "subskills": [
+      "LS1",
+      "LS2",
+      "LS3",
+      "LS4",
+      "LS5",
+      "LS7"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "Tăng ≥ 2 câu ở part yếu nhất so với thi thử 1",
+     "before": "1. [Thi] Video chiến lược part L1, L2, L3, L4 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (L1, L2, L3, L4) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 8 Listening; lời thoại PTP Test 7; Lời thoại PTP Test 7–8",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-88",
+     "session_no": 88,
+     "week": 44,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Chuyên sâu Reading",
+     "task": "—",
+     "content": "Từ đồng nghĩa và cách diễn đạt khác; giải thích vì sao đáp án sai bị loại",
+     "ket_part": "[R1] 5 văn bản ngắn (biển báo, tin nhắn), chọn ý đúng · [R2] nối 5 người với 8 văn bản · [R3] bài dài, 5 câu trắc nghiệm · [R4] điền 5 câu vào bài (3 câu thừa) · [R5] điền từ trắc nghiệm (từ vựng, collocation) · [R6] điền từ tự do (từ chức năng) — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án · [RS4] nhận ra thái độ, ý kiến người viết: tìm tính từ, trạng từ đánh giá (surprisingly, unfortunately), phân biệt sự thật và ý kiến",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+     ],
+     "subskills": [
+      "RS1",
+      "RS2",
+      "RS3",
+      "RS4",
+      "RS5",
+      "RS7",
+      "RS8"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "Tăng ≥ 2 câu ở part yếu nhất so với thi thử 1; trả lời đúng ≥ 2/2 câu hỏi về thái độ người viết",
+     "before": "1. [Thi] Video chiến lược part R1, R2, R3, R4, R5, R6 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (R1, R2, R3, R4, R5, R6) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 8 Reading",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-89",
+     "session_no": 89,
+     "week": 45,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Chuyên sâu Writing",
+     "task": "—",
+     "content": "Lỗi hay gặp trong bảng lỗi cá nhân; câu phức (mệnh đề quan hệ, điều kiện, bị động) trong bài viết",
+     "ket_part": "[W1] email ~100 từ theo 4 ghi chú · [W2] bài báo hoặc truyện ~100 từ — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án · [WS5] nâng câu: viết lại 3 câu đơn trong bài thành câu phức (mệnh đề quan hệ, điều kiện, bị động, although)",
+     "ket_codes": [
+      "W1",
+      "W2"
+     ],
+     "subskills": [
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4",
+      "WS5",
+      "WS6"
+     ],
+     "grammar": "B10 Câu điều kiện loại 0, 1, 2; B12 Bị động hiện tại đơn và quá khứ đơn; B14 Mệnh đề quan hệ xác định (who, which, that, where, whose)",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "Mỗi bài viết đạt ≥ 4/5 ở ≥ 2 tiêu chí PET",
+     "before": "1. [Thi] Video chiến lược part W1, W2 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (W1, W2) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 8 Writing; bài mẫu Writing file SB tr. 150–155; thang chấm PET: Content, Communicative achievement, Organisation, Language (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-90",
+     "session_no": 90,
+     "week": 45,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "PET Lab",
+     "kind": "Luyện thi",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Chuyên sâu Speaking",
+     "task": "—",
+     "content": "Thi Nói thử từng cặp với giáo viên, nhận xét theo thang PET",
+     "ket_part": "[S1] câu hỏi cá nhân · [S2] tả ảnh 1 phút · [S3] thảo luận cặp theo tranh gợi ý · [S4] thảo luận mở rộng — dạy chiến lược → làm có bấm giờ → chữa bằng cách chỉ câu chứa đáp án · [SS6] dùng câu hỏi lại, làm rõ khi chưa hiểu bạn hoặc giám khảo",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "SS3",
+      "SS4",
+      "SS6"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "Mỗi học sinh đạt ≥ 4/5 ở ít nhất 2 tiêu chí",
+     "before": "1. [Thi] Video chiến lược part S1, S2, S3, S4 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (S1, S2, S3, S4) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [
+      {
+       "minutes": 15,
+       "activity": "Giới thiệu dạng bài và chiến lược",
+       "category": "lang"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 1: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 30,
+       "activity": "Lượt 2: làm có bấm giờ → chữa",
+       "category": "input"
+      },
+      {
+       "minutes": 20,
+       "activity": "Làm lại câu sai với đề khác",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "PTP Test 8 Speaking; thang Nói PET: Grammar & Vocabulary, Discourse management, Pronunciation, Interactive communication (0–5)",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-91",
+     "session_no": 91,
+     "week": 46,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "Grammar",
+     "kind": "Cầu nối B1+",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Cầu nối Advanced (B1+): nhận biết ngữ pháp nâng cao trong đề PET",
+     "task": "—",
+     "content": "Hiện tại hoàn thành tiếp diễn; bị động các thì và với động từ khuyết thiếu; mệnh đề quan hệ không xác định",
+     "ket_part": "[R3] [R6] [L4] tìm và hiểu nghĩa các cấu trúc trên trong bài đọc và lời thoại của đề",
+     "ket_codes": [
+      "R3",
+      "R6",
+      "L4"
+     ],
+     "subskills": [
+      "LS4",
+      "RS2",
+      "RS8"
+     ],
+     "grammar": "B23 Hiện tại hoàn thành tiếp diễn (cầu nối B1+); B24 Bị động các thì khác và bị động với động từ khuyết thiếu (cầu nối B1+); B25 Mệnh đề quan hệ không xác định (cầu nối B1+)",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "Nhận ra đúng nghĩa ≥ 8/10 câu; dùng đúng ≥ 2/3 cấu trúc trong bài nói 1 phút",
+     "before": "1. [Thi] Video chiến lược part R3, R6, L4 + làm 1 câu mẫu có giải thích (10')\n2. [Từ vựng] Từ vựng chủ đề PET theo danh sách B1 Preliminary (Wordwall 15 từ) (8')\n3. [Nghe] Nghe 1 bài nghe PET có lời thoại, đánh dấu từ khóa (6')\n4. [Từ vựng] Ôn thẻ (4')\n5. [Lồng tiếng] clip dạng Speaking Part 2 (6')",
+     "after": "1. [Thi] Làm part tương ứng trong PTP Test 6 (R3, R6, L4) có bấm giờ (15')\n2. [Thi] Chữa: xem câu chứa đáp án, ghi lỗi vào bảng lỗi (6')\n3. [Nghe] Chép chính tả 4 câu đề nghe (5')\n4. [Nói] Ghi âm 1 câu trả lời Speaking Part 1–4 (theo lượt) (6')\n5. [Lồng tiếng] 2 clip (lồng tiếng + nói tiếp 2–3 câu của mình) (12')\n6. [Từ vựng] Ôn thẻ (4')\n7. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 54,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Gold Experience B1+ Grammar file (xem trước cho Advanced); lời thoại PTP Test 8",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-92",
+     "session_no": 92,
+     "week": 46,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "Test",
+     "kind": "Thi thử",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Thi thử lần 2 – đề mẫu chính thức Cambridge",
+     "task": "—",
+     "content": "—",
+     "ket_part": "[E] Reading 45' + Listening 30' tại lớp; Writing 45' tại nhà; Speaking theo cặp ở buổi 93",
+     "ket_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "W1",
+      "W2",
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "LS1",
+      "LS2",
+      "LS3",
+      "LS4",
+      "RS1",
+      "RS2",
+      "RS3",
+      "RS5",
+      "RS7",
+      "RS8",
+      "SS1",
+      "SS2",
+      "SS3",
+      "SS4",
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "100% làm đủ đề; ≥ 70% mỗi bài (≈ 140, mức B1); ≥ 30% học sinh đạt ≥ 85% (≈ 160)",
+     "before": "1. [Thi] Ôn chiến lược 4 bài thi (checklist), làm 1 đề nghe ngắn (15')\n2. [Từ vựng] Ôn thẻ cả khóa (8')\n3. [Nói] Luyện Speaking Part 2 với 2 ảnh (5')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Thi] Writing 45 phút tại nhà có bấm giờ trên website (45')\n2. [Lồng tiếng] clip (6')\n3. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 34,
+     "after_min": 57,
+     "in_class": [
+      {
+       "minutes": 45,
+       "activity": "Reading (45 phút)",
+       "category": "test"
+      },
+      {
+       "minutes": 30,
+       "activity": "Listening (30 phút)",
+       "category": "test"
+      },
+      {
+       "minutes": 30,
+       "activity": "Chuyển đáp án sang phiếu, ghi lỗi theo part; Writing làm tại nhà có bấm giờ",
+       "category": "routine"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "Cambridge B1 Preliminary for Schools sample test 2020: Reading, Writing, Listening (kèm audio, lời thoại, đáp án), Speaking",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-93",
+     "session_no": 93,
+     "week": 47,
+     "hp": "HP5",
+     "unit": "Luyện thi",
+     "unit_title": "B1 Preliminary for Schools",
+     "type": "Test",
+     "kind": "Tổng kết",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Tổng kết khóa + End of Year Test",
+     "task": "—",
+     "content": "Hồ sơ năng lực: bảng lỗi cá nhân, bài viết, bản ghi âm Nói qua 4 học phần",
+     "ket_part": "[E] End of Year Test (Listening & Reading 45') · [S1]–[S4] thi Nói đề mẫu theo cặp · so sánh kết quả từ chẩn đoán → thi thử 2 theo từng part",
+     "ket_codes": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+     ],
+     "subskills": [
+      "SS1",
+      "SS2",
+      "SS3",
+      "SS4",
+      "SS5"
+     ],
+     "grammar": "—",
+     "vocabulary": "Ôn từ vựng cả khóa + danh sách từ vựng B1 Preliminary theo chủ đề",
+     "can_do": "100% học sinh có hồ sơ năng lực và mục tiêu cho Advanced (B1+)",
+     "before": "1. [Tự học] Chuẩn bị hồ sơ năng lực: chọn 2 bài viết, 2 bản ghi âm, 3 video lồng tiếng tốt nhất (15')\n2. [Nói] Ghi âm 2 phút 'My English journey this year' (6')\n3. [Từ vựng] Ôn thẻ (6')\n4. [Lồng tiếng] clip (6')",
+     "after": "1. [Tự học] Viết mục tiêu cho level Advanced (10')\n2. [Nghe] Nghe – đọc sách đọc phân cấp (15')\n3. [Nói] Ghi âm lời cảm ơn và mục tiêu 1 phút (5')\n4. [Lồng tiếng] video tổng kết khóa (12')\n5. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 33,
+     "after_min": 48,
+     "in_class": [],
+     "photocopiable": "—",
+     "global_skills": "—",
+     "materials": "End of Year Test (Assessment package): Listening & Reading, Writing, Speaking; báo cáo tiến bộ gửi phụ huynh",
+     "assessment": "—"
+    },
+    {
+     "session_id": "BO-94",
+     "session_no": 94,
+     "week": 47,
+     "hp": "HP5",
+     "unit": "Sự kiện",
+     "unit_title": "Công dân toàn cầu",
+     "type": "Sự kiện",
+     "kind": "Sự kiện kỹ năng",
+     "sb_pages": "—",
+     "wb_pages": "—",
+     "focus": "Sự kiện E12 · Global Citizen Showcase và lễ tổng kết",
+     "task": "—",
+     "content": "Tổng hợp ngôn ngữ cả khóa",
+     "ket_part": "[S2] trình bày hồ sơ năng lực 2 phút · [S4] trả lời câu hỏi phụ huynh/khách · [W2] bài phản tư ~100 từ",
+     "ket_codes": [
+      "S2",
+      "S4",
+      "W2"
+     ],
+     "subskills": [
+      "SS2",
+      "SS4",
+      "WS2",
+      "WS4"
+     ],
+     "grammar": "—",
+     "vocabulary": "Dùng lại từ vựng của unit vừa học (xem cột này ở các buổi trước)",
+     "can_do": "100% học sinh trình bày hồ sơ năng lực; mỗi học sinh nêu 1 cam kết hành động vì cộng đồng",
+     "before": "1. [Dự án] Chuẩn bị phần việc của mình cho sự kiện 'Global Citizen Showcase và lễ tổng kết' (nội dung, đồ dùng, vai) (15')\n2. [Nói] Viết và ghi âm phần nói của mình 1–2 phút, nghe lại và sửa (8')\n3. [Từ vựng] Ôn từ vựng và cấu trúc cần dùng: Tổng hợp ngôn ngữ cả khóa (6')\n4. [Lồng tiếng] clip chủ đề sự kiện (6')",
+     "after": "1. [Tự học] Tự đánh giá theo rubric 4 tiêu chí (3')\n2. [Viết] Bài viết sau sự kiện (dạng W2) ~100 từ (15')\n3. [Nói] Xem video sự kiện của nhóm, ghi âm nhận xét 1 phút (1 điểm tốt, 1 điểm cần cải thiện) (5')\n4. [Nghe] Nghe phần trình bày của 1 nhóm khác, trả lời 3 câu hỏi (6')\n5. [Từ vựng] Ôn thẻ đến hạn (4')\n6. [Lồng tiếng] 2 clip (12')\n7. [Ôn] Quiz trộn 10 câu unit vừa học (5')\n8. [Nghe] Nghe ngấm: sách đọc phân cấp có audio hoặc audio các unit đã học (6')",
+     "before_min": 35,
+     "after_min": 56,
+     "in_class": [
+      {
+       "minutes": 20,
+       "activity": "Chuẩn bị ngôn ngữ cho sản phẩm",
+       "category": "lang"
+      },
+      {
+       "minutes": 60,
+       "activity": "Thực hiện sản phẩm trước khán giả",
+       "category": "output"
+      },
+      {
+       "minutes": 15,
+       "activity": "Phản hồi theo rubric",
+       "category": "lang"
+      },
+      {
+       "minutes": 10,
+       "activity": "Tự đánh giá năng lực",
+       "category": "fluency"
+      }
+     ],
+     "photocopiable": "—",
+     "global_skills": "Hồ sơ năng lực, phản tư và cam kết hành động",
+     "materials": "Rubric 4 tiêu chí: ngôn ngữ, nội dung, hợp tác, trình bày",
+     "assessment": "—"
+    }
+   ],
+   "exam_label": "PET",
+   "exam_name": "B1 Preliminary for Schools",
+   "exam_parts": {
+    "Reading": [
+     [
+      "R1",
+      "5 văn bản ngắn (biển báo, tin nhắn) – chọn ý đúng"
+     ],
+     [
+      "R2",
+      "Nối 5 người với 8 văn bản"
+     ],
+     [
+      "R3",
+      "Bài dài – 5 câu trắc nghiệm"
+     ],
+     [
+      "R4",
+      "Điền 5 câu vào bài (3 câu thừa)"
+     ],
+     [
+      "R5",
+      "Điền từ trắc nghiệm – 6 câu"
+     ],
+     [
+      "R6",
+      "Điền từ tự do – 6 chỗ"
+     ]
+    ],
+    "Writing": [
+     [
+      "W1",
+      "Email ~100 từ theo 4 ghi chú"
+     ],
+     [
+      "W2",
+      "Bài báo hoặc truyện ~100 từ"
+     ]
+    ],
+    "Listening": [
+     [
+      "L1",
+      "7 đoạn ngắn – chọn tranh"
+     ],
+     [
+      "L2",
+      "6 hội thoại – ý kiến, thái độ"
+     ],
+     [
+      "L3",
+      "Điền 6 thông tin"
+     ],
+     [
+      "L4",
+      "Phỏng vấn dài – 6 câu trắc nghiệm"
+     ]
+    ],
+    "Speaking": [
+     [
+      "S1",
+      "Câu hỏi cá nhân"
+     ],
+     [
+      "S2",
+      "Tả ảnh 1 phút"
+     ],
+     [
+      "S3",
+      "Thảo luận cặp theo tranh gợi ý"
+     ],
+     [
+      "S4",
+      "Thảo luận mở rộng"
+     ]
+    ]
+   },
+   "homework_note": "Mỗi buổi có gói PRE-LESSON (~34 phút, giao trước buổi) và POST-LESSON (~55 phút, giao sau buổi); website chia gói ra các ngày, khoảng 25–30 phút/ngày, có lồng tiếng video mỗi ngày. Làm lại và làm bù không giới hạn."
   },
   {
    "id": "pi",
