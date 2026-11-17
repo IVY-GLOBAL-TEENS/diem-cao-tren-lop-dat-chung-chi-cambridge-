@@ -22,6 +22,10 @@
     const t = btn.textContent; btn.disabled = true; btn.textContent = "Đang xử lý…";
     try { return await fn(); } finally { btn.disabled = false; btn.textContent = t; }
   }
+  /* Lỗi khi Code.gs trên Google Sheet chưa được cập nhật bản mới. */
+  const srvMsg = (e) => (/Không rõ thao tác/.test(e.message) ? "Máy chủ chưa có chức năng thưởng sao. Quản lý cần dán bản Code.gs mới vào Apps Script rồi triển khai phiên bản mới (xem server/HUONG-DAN.md)." : e.message);
+  const bonusSum = (list) => (list || []).reduce((t, b) => t + (+b.n || 0), 0);
+  const REASONS = ["Phát biểu xây dựng bài", "Làm bài về nhà đầy đủ", "Tiến bộ rõ rệt", "Giúp đỡ bạn", "Đi học đúng giờ", "Điểm kiểm tra cao", "Thắng trò chơi trên lớp"];
   function loadCatalog() {
     if (catalog) return Promise.resolve(catalog);
     return fetch("phong-thi/ket/catalog.json").then((r) => r.json()).then((c) => (catalog = Object.fromEntries(c.map((x) => [x[0], x])))).catch(() => (catalog = {}));
@@ -63,7 +67,8 @@
     else if (idle == null || idle >= 7) why.push(idle == null ? "Chưa học buổi nào trên web" : `${idle} ngày chưa học`);
     if (st.activated && hw && hw.due >= 2 && hw.pct < 60) why.push(`Thiếu BTVN (${hw.doneDue}/${hw.due})`);
     if (ket.avg != null && ket.list.length >= 2 && ket.avg < 50) why.push(`KET thấp (${ket.avg}%)`);
-    return { hw, ket, stars: (snap.exam && snap.exam.stars) || 0, xp: (snap.exam && snap.exam.xp) || 0, streak: K.streak(days), last, idle, why, days };
+    const examStars = (snap.exam && snap.exam.stars) || 0, bonus = bonusSum(st.bonus);
+    return { hw, ket, examStars, bonus, bonusList: st.bonus || [], stars: examStars + bonus, xp: (snap.exam && snap.exam.xp) || 0, streak: K.streak(days), last, idle, why, days };
   }
   const bar = (pct, cls) => `<div class="progress ${cls || ""}"><i style="width:${Math.max(0, Math.min(100, pct || 0))}%"></i></div>`;
   function ketLabel(id) { const c = catalog && catalog[id]; return c ? `Đề ${+c[1]}.${c[2]} · ${c[3]}` : id; }
@@ -164,13 +169,26 @@
   }
   function bindLogout() { const b = $("aOut"); if (b) b.addEventListener("click", () => busy(b, async () => { await K.logout(); location.hash = "#/dang-nhap"; })); }
 
+  /* ---------- sao thưởng ---------- */
+  const starTxt = (r) => (r.bonus ? `sao (${r.examStars} luyện tập + ${r.bonus} thầy cô thưởng)` : "sao Phòng thi ảo");
+  function meBonus(list) {
+    if (!list || !list.length) return "";
+    const seen = K.ls.get("ivy-bonus-seen", []) || [];
+    const fresh = list.filter((b) => !seen.includes(b.id));
+    K.ls.set("ivy-bonus-seen", list.map((b) => b.id).slice(0, 200));
+    const n = bonusSum(fresh);
+    return `${fresh.length ? `<div class="card bonus-pop"><span class="big">🌟</span><div><b>Chúc mừng! Em vừa được thầy cô thưởng ${n} sao!</b><div>${fresh.slice(0, 3).map((b) => esc(b.why || "Cố gắng lên nhé!")).join(" · ")}</div></div></div>` : ""}
+      <h2>🌟 Sao thầy cô thưởng <span class="chip brand">${bonusSum(list)} sao</span></h2>
+      <div class="card"><ul class="bonus-list">${list.slice(0, 8).map((b) => `<li><b>+${b.n} ⭐</b><span>${esc(b.why || "Thưởng sao")}</span><small>${esc(b.by ? b.by + " · " : "")}${esc(dmy(b.at))}</small></li>`).join("")}</ul></div>`;
+  }
+
   /* ---------- Góc của em (học sinh) ---------- */
   function pageMe() {
     const stop = needLogin(["hs"]); if (stop != null) return { html: stop };
     const s = K.session(), app = A(), cls = s.cls;
     const c = cls && app.C[cls.course], L = c ? app.LOOK[c.id] : app.LOOK.bu;
     const snap = Object.assign(K.snapshot(), { days: K.days() });
-    const r = analyze({ activated: true, snap }, cls);
+    const r = analyze({ activated: true, snap, bonus: s.bonus }, cls);
     const st = c && c.status === "ready" && cls.start ? app.nowState(c) : null;
     const hwCard = !c ? `<div class="card empty">Em chưa được xếp lớp. Nhờ thầy cô kiểm tra mã nhé.</div>`
       : !r.hw ? `<div class="card"><h3>🎯 Luyện theo Unit</h3><p class="muted" style="margin:6px 0 0">Lộ trình bài về nhà lớp ${esc(c.name)} đang cập nhật. Em vào Phòng thi ảo luyện mỗi ngày để gom sao nhé!</p><div class="btn-row"><a class="btn primary" href="phong-thi/?lv=${esc(c.exam)}">Vào luyện</a></div></div>`
@@ -188,11 +206,12 @@
           <div class="btn-row">${c ? `<a class="btn light" href="#/hoc-sinh/${c.id}">🎒 Bài tập của lớp</a>` : ""}<a class="btn light" href="phong-thi/${c ? "?lv=" + esc(c.exam) : ""}">🎯 Phòng thi ảo</a><a class="btn light" href="phong-thi/?view=ketbank">📝 Đề KET</a></div>
           <img src="assets/img/${L.panda}" alt=""></div>
         <div class="grid g4 me-stats">
-          <div class="card stat"><b>⭐ ${r.stars}</b><span>sao Phòng thi ảo</span></div>
+          <div class="card stat"><b id="meStars">⭐ ${r.stars}</b><span id="meStarsTxt">${starTxt(r)}</span></div>
           <div class="card stat"><b>🔥 ${r.streak}</b><span>ngày học liên tiếp</span></div>
           <div class="card stat"><b>📝 ${r.hw ? (r.hw.due ? r.hw.doneDue + "/" + r.hw.due : r.hw.done) : "—"}</b><span>${r.hw && r.hw.due ? "bài về nhà đã làm (đến hôm nay)" : "bài về nhà đã làm"}</span></div>
           <div class="card stat"><b>🏆 ${r.ket.tests}</b><span>đề KET${r.ket.avg != null ? " · đúng " + r.ket.avg + "%" : ""}</span></div>
         </div>
+        <div id="meBonus">${meBonus(r.bonusList)}</div>
         <h2>Hôm nay</h2>${hwCard}
         <h2>14 ngày gần đây</h2>
         <div class="card"><div class="daystrip">${last14.map((d) => `<div class="${dset.has(K.isoDay(d)) ? "on" : ""}" title="${app.fmt(d)}"><i>${dset.has(K.isoDay(d)) ? "🔥" : ""}</i><small>${["CN", "T2", "T3", "T4", "T5", "T6", "T7"][d.getDay()]}<br>${d.getDate()}</small></div>`).join("")}</div>
@@ -203,6 +222,12 @@
         ${pwForm()}`,
       after() {
         bindPw(); bindLogout();
+        K.refreshMe(true).then((n) => {
+          if (!n || !$("meBonus")) return;
+          const r2 = analyze({ activated: true, snap, bonus: n.bonus }, cls);
+          $("meStars").textContent = "⭐ " + r2.stars; $("meStarsTxt").textContent = starTxt(r2);
+          $("meBonus").innerHTML = meBonus(r2.bonusList);
+        });
         $("syncGo").addEventListener("click", () => busy($("syncGo"), async () => { try { await K.push(true); $("syncTxt").textContent = "Đã lưu về tài khoản ✓"; } catch (e) { $("syncTxt").textContent = e.message; } }));
         if (r.ket.list.length) loadCatalog().then(() => {
           const box = $("meKet"); if (!box) return;
@@ -296,7 +321,7 @@
     const warn = sts.filter((x) => x.a.why.length);
     const head = `<div class="class-hero" style="background:linear-gradient(120deg,var(--blue-dd),${L.color} 75%)"><span class="eyebrow">${esc(c ? c.name + " · " + c.cefr : cl.course)}${s.role === "ql" && cl.teacher_name ? " · GV " + esc(cl.teacher_name) : ""}</span><h1>Lớp ${esc(cl.name)}</h1>
         <p>${sts.length} học sinh · Khai giảng ${esc(dmy(cl.start))} · Lịch học ${esc(dowName(cl.days) || "chưa đặt")}</p><img src="assets/img/${L.panda}" alt=""></div>
-      <div class="tabs">${[["tong-quan", "Tổng quan"], ["hoc-sinh", "Học sinh & mã"], ["cai-dat", "Lịch & cài đặt"]].map(([k, l]) => `<a class="tab ${k === tab ? "on" : ""}" href="#/lop-cua-toi/${esc(cl.id)}?tab=${k}">${l}</a>`).join("")}<span class="sp"></span><button class="btn" id="cReload">↻ Làm mới</button></div>`;
+      <div class="tabs">${[["tong-quan", "Tổng quan"], ["thuong-sao", "⭐ Thưởng sao"], ["hoc-sinh", "Học sinh & mã"], ["cai-dat", "Lịch & cài đặt"]].map(([k, l]) => `<a class="tab ${k === tab ? "on" : ""}" href="#/lop-cua-toi/${esc(cl.id)}?tab=${k}">${l}</a>`).join("")}<span class="sp"></span><button class="btn" id="cReload">↻ Làm mới</button></div>`;
     let body = "";
     if (tab === "hoc-sinh") {
       body = `<div class="grid g2">
@@ -310,6 +335,21 @@
           <td data-l="Trạng thái">${x.activated ? `<span class="chip ok">Đã kích hoạt</span>${x.last_login ? `<div class="muted" style="font-size:12.5px">Đăng nhập ${esc(dmy(x.last_login))}</div>` : ""}` : `<span class="chip">Chưa kích hoạt</span>`}</td>
           <td class="acts"><button class="btn sm" data-ren="${esc(x.code)}" data-name="${esc(x.name)}">Sửa tên</button>${x.activated ? `<button class="btn sm" data-reset="${esc(x.code)}" title="Xoá mật khẩu để em kích hoạt lại">Cấp lại</button>` : ""}<button class="btn sm danger" data-del="${esc(x.code)}" data-name="${esc(x.name)}">Xoá</button></td></tr>`).join("")}</tbody></table></div>` : `<div class="card empty">Lớp chưa có học sinh. Thêm danh sách ở trên nhé.</div>`}
         <div class="print-only slips">${sts.map((x) => `<div class="slip"><img src="assets/img/logo-ivy.png" alt=""><div><small>IVY Teen · Lớp ${esc(cl.name)}</small><b>${esc(x.name)}</b><span>Mã: <code>${esc(x.code)}</code></span><small>Vào website IVY Teen → Đăng nhập → nhập mã → đặt mật khẩu</small></div></div>`).join("")}</div>`;
+    } else if (tab === "thuong-sao") {
+      const hist = sts.flatMap((x) => x.a.bonusList.map((b) => Object.assign({ name: x.name }, b))).sort((p, q) => (q.at > p.at ? 1 : q.at < p.at ? -1 : q.id > p.id ? 1 : -1));
+      const rank = sts.slice().sort((p, q) => q.a.stars - p.a.stars || q.a.bonus - p.a.bonus);
+      body = sts.length ? `<form class="card" id="fStar"><h3>Thưởng sao cho học sinh</h3>
+          <p class="muted" style="font-size:13.5px;margin:4px 0 12px">Bấm chọn một hoặc nhiều em, chọn số sao và lý do. Sao thưởng cộng vào tổng sao của em và hiện ở <b>Góc của em</b> kèm lời khen.</p>
+          <div class="star-pick-head"><b id="spCount">Chưa chọn em nào</b><span class="sp"></span><button type="button" class="btn sm" id="spAll">Chọn cả lớp</button><button type="button" class="btn sm" id="spNone">Bỏ chọn</button></div>
+          <div class="star-pick">${sts.map((x) => `<label class="sp-tile"><input type="checkbox" name="spStu" value="${esc(x.code)}"><span><b>${esc(x.name)}</b><small>⭐ ${x.a.stars}${x.a.bonus ? ` · thưởng ${x.a.bonus}` : ""}</small></span></label>`).join("")}</div>
+          <div class="grid g2" style="margin-top:14px"><div class="field">Số sao<div class="star-amt">${[1, 2, 3, 5].map((n) => `<label><input type="radio" name="spN" value="${n}" ${n === 1 ? "checked" : ""}><span>+${n} ⭐</span></label>`).join("")}</div></div>
+            <label class="field">Lý do (học sinh sẽ thấy)<input id="spWhy" maxlength="80" placeholder="VD: Phát biểu xây dựng bài" list="spReasons"><datalist id="spReasons">${REASONS.map((r) => `<option value="${esc(r)}">`).join("")}</datalist></label></div>
+          <div class="reason-chips">${REASONS.map((r) => `<button type="button" class="chip brand" data-why="${esc(r)}">${esc(r)}</button>`).join("")}</div>
+          <div class="btn-row"><button class="btn primary" id="spGo">⭐ Thưởng sao</button></div><div id="spMsg" class="auth-msg"></div></form>
+        <div class="grid g2" style="margin-top:4px;align-items:start">
+          <div><h2>🏆 Bảng sao của lớp</h2><div class="table-wrap"><table><thead><tr><th>#</th><th>Học sinh</th><th>Luyện tập</th><th>Thưởng</th><th>Tổng</th></tr></thead><tbody>${rank.map((x, i) => `<tr><td class="num">${i < 3 && x.a.stars ? ["🥇", "🥈", "🥉"][i] : i + 1}</td><td><b>${esc(x.name)}</b></td><td>${x.a.examStars}</td><td>${x.a.bonus ? "+" + x.a.bonus : "—"}</td><td><b>⭐ ${x.a.stars}</b></td></tr>`).join("")}</tbody></table></div></div>
+          <div><h2>🕘 Lịch sử thưởng</h2>${hist.length ? `<div class="table-wrap"><table><thead><tr><th>Ngày</th><th>Học sinh</th><th>Sao</th><th>Lý do</th><th></th></tr></thead><tbody>${hist.slice(0, 40).map((b) => `<tr><td style="font-size:13px;white-space:nowrap">${esc(dmy(b.at))}</td><td><b>${esc(b.name)}</b></td><td>+${b.n}</td><td style="font-size:13.5px">${esc(b.why || "—")}</td><td class="acts"><button class="btn sm danger" data-unbonus="${esc(b.id)}" data-name="${esc(b.name)}" data-n="${b.n}">Huỷ</button></td></tr>`).join("")}</tbody></table></div>${hist.length > 40 ? `<p class="muted" style="font-size:13px">Hiện 40 lần gần nhất · toàn bộ lưu trong trang tính ThuongSao.</p>` : ""}` : `<div class="card empty">Chưa thưởng sao lần nào.</div>`}</div></div>`
+        : `<div class="card empty">Lớp chưa có học sinh. Vào tab <a href="#/lop-cua-toi/${esc(cl.id)}?tab=hoc-sinh">Học sinh & mã</a> để thêm.</div>`;
     } else if (tab === "cai-dat") {
       body = `<form class="card" id="fEdit"><h3>Lịch lớp</h3><p class="muted" style="font-size:13.5px;margin:4px 0 10px">Lịch này tự áp dụng cho trang bài tập của mọi học sinh trong lớp, và dùng để tính bài về nhà đến hạn.</p>
           <div class="grid g3"><label class="field">Tên lớp<input id="eName" value="${esc(cl.name)}" maxlength="40"></label><label class="field">Ngày khai giảng<input id="eStart" type="date" value="${esc(cl.start)}"></label><div class="field">Lịch học${daysBoxes("eDay", cl.days)}</div></div>
@@ -327,10 +367,10 @@
         ${warn.length ? `<div class="warn-list">${warn.map((x) => `<div class="card warn-item"><b>${esc(x.name)}</b><div>${x.a.why.map((w) => `<span class="chip warn">${esc(w)}</span>`).join(" ")}</div></div>`).join("")}</div>`
           : sts.length ? `<div class="card empty">✅ Cả lớp đang theo kịp – không có em nào cần chú ý.</div>` : `<div class="card empty">Lớp chưa có học sinh. Vào tab <a href="#/lop-cua-toi/${esc(cl.id)}?tab=hoc-sinh">Học sinh & mã</a> để thêm.</div>`}
         ${sts.length ? `<h2>Tiến độ từng em</h2>
-        <div class="table-wrap"><table class="stack prog-table"><thead><tr><th>Học sinh</th><th>Bài về nhà</th><th>Phòng thi ảo</th><th>Đề KET</th><th>Chuỗi ngày</th><th>Hoạt động cuối</th></tr></thead><tbody>
+        <div class="table-wrap"><table class="stack prog-table"><thead><tr><th>Học sinh</th><th>Bài về nhà</th><th>Sao</th><th>Đề KET</th><th>Chuỗi ngày</th><th>Hoạt động cuối</th></tr></thead><tbody>
         ${order.map((x) => { const a = x.a; return `<tr class="row-link ${a.why.length ? "warn-row" : ""}" data-code="${esc(x.code)}"><td><b>${esc(x.name)}</b>${x.activated ? "" : ` <span class="chip">chưa kích hoạt</span>`}</td>
           <td data-l="Bài về nhà">${a.hw ? (a.hw.due ? `${a.hw.doneDue}/${a.hw.due} <small class="muted">(${a.hw.pct}%)</small>${bar(a.hw.pct, "sm" + (a.hw.pct < 60 ? " low" : ""))}` : `${a.hw.done} bài <small class="muted">(chưa đến hạn)</small>`) : `<span class="muted">—</span>`}</td>
-          <td data-l="Phòng thi ảo">⭐ ${a.stars} <small class="muted">· ${a.xp} XP</small></td>
+          <td data-l="Sao">⭐ ${a.stars} <small class="muted">· ${a.xp} XP${a.bonus ? ` · thưởng ${a.bonus}` : ""}</small></td>
           <td data-l="Đề KET">${a.ket.tests ? `${a.ket.tests} đề · <b class="${a.ket.avg < 50 ? "low-t" : ""}">${a.ket.avg}%</b>` : `<span class="muted">chưa làm</span>`}</td>
           <td data-l="Chuỗi ngày">🔥 ${a.streak}</td><td data-l="Hoạt động cuối">${esc(agoTxt(a.idle))}</td></tr>`; }).join("")}</tbody></table></div>
         <p class="muted" style="font-size:13px">Bấm vào một em để xem chi tiết. Số liệu tự cập nhật khi học sinh làm bài lúc đã đăng nhập. “Cần chú ý” khi: chưa kích hoạt, 7+ ngày chưa học, làm dưới 60% bài về nhà đến hạn, hoặc KET trung bình dưới 50%.</p>
@@ -363,6 +403,27 @@
         const n = prompt("Tên mới cho học sinh:", b.dataset.name); if (!n || n.trim() === b.dataset.name) return;
         try { await busy(b, () => K.api("renameStudent", { code: b.dataset.ren, name: n })); await refresh(); } catch (e) { alertBox(e.message); }
       }));
+    } else if (tab === "thuong-sao" && sts.length) {
+      const picks = () => [...box.querySelectorAll('input[name="spStu"]:checked')].map((x) => x.value);
+      const upd = () => { const n = picks().length; $("spCount").textContent = n ? `Đã chọn ${n}/${sts.length} em` : "Chưa chọn em nào"; $("spGo").textContent = n > 1 ? `⭐ Thưởng sao cho ${n} em` : "⭐ Thưởng sao"; };
+      box.querySelectorAll('input[name="spStu"]').forEach((x) => x.addEventListener("change", upd));
+      $("spAll").addEventListener("click", () => { box.querySelectorAll('input[name="spStu"]').forEach((x) => (x.checked = true)); upd(); });
+      $("spNone").addEventListener("click", () => { box.querySelectorAll('input[name="spStu"]').forEach((x) => (x.checked = false)); upd(); });
+      box.querySelectorAll("[data-why]").forEach((b) => b.addEventListener("click", () => { $("spWhy").value = b.dataset.why; }));
+      $("fStar").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const codes = picks(), n = +(box.querySelector('input[name="spN"]:checked') || {}).value || 1;
+        if (!codes.length) return msg($("spMsg"), "Bấm chọn ít nhất 1 em.", "err");
+        const why = $("spWhy").value.trim();
+        try {
+          await busy($("spGo"), () => K.api("giveStars", { codes, stars: n, reason: why }));
+          await refresh(); msg($("spMsg"), `Đã thưởng +${n} ⭐ cho ${codes.length} em ✓`, "ok");
+        } catch (err) { msg($("spMsg"), srvMsg(err), "err"); }
+      });
+      box.querySelectorAll("[data-unbonus]").forEach((b) => b.addEventListener("click", async () => {
+        if (!confirm(`Huỷ lần thưởng +${b.dataset.n} sao của ${b.dataset.name}?`)) return;
+        try { await busy(b, () => K.api("removeBonus", { id: b.dataset.unbonus })); await refresh(); } catch (e) { alertBox(srvMsg(e)); }
+      }));
     } else if (tab === "cai-dat") {
       $("fEdit").addEventListener("submit", async (e) => {
         e.preventDefault();
@@ -388,6 +449,7 @@
       <div class="grid g2"><div class="card"><h3>📝 Bài về nhà</h3>${a.hw ? `<p style="margin:6px 0">Đã làm ${a.hw.done}/${a.hw.total} bài cả khoá${a.hw.due ? ` · đến hạn ${a.hw.doneDue}/${a.hw.due}` : ""}.</p>${miss ? `<div class="muted" style="font-size:13.5px">Bài đến hạn chưa tick (gần nhất):</div><ul class="miss">${miss}</ul>` : `<p class="muted">Không thiếu bài đến hạn 👍</p>`}` : `<p class="muted">Khoá này chưa có lộ trình bài về nhà.</p>`}</div>
         <div class="card"><h3>🔥 14 ngày gần đây · chuỗi ${a.streak}</h3><div class="daystrip">${last14.map((d) => `<div class="${dset.has(K.isoDay(d)) ? "on" : ""}"><i>${dset.has(K.isoDay(d)) ? "🔥" : ""}</i><small>${d.getDate()}/${d.getMonth() + 1}</small></div>`).join("")}</div>
           <p class="muted" style="font-size:13.5px;margin:10px 0 0">Phòng thi ảo: ⭐ ${a.stars} sao · ${ex.acts || 0} trạm đã qua · ${a.xp} XP${(ex.mocks || []).length ? ` · thi thật gần nhất: ${esc(ex.mocks[ex.mocks.length - 1].short || "")} ${ex.mocks[ex.mocks.length - 1].pct}%` : ""}</p></div></div>
+      ${a.bonusList.length ? `<div class="card" style="margin-top:14px"><h3>🌟 Sao thầy cô thưởng · ${a.bonus} sao</h3><ul class="bonus-list">${a.bonusList.slice(0, 8).map((b) => `<li><b>+${b.n} ⭐</b><span>${esc(b.why || "Thưởng sao")}</span><small>${esc(dmy(b.at))}</small></li>`).join("")}</ul></div>` : ""}
       <div class="card" style="margin-top:14px"><h3>🏆 Đề KET</h3>${a.ket.list.length ? `<div class="table-wrap flat"><table><thead><tr><th>Đề</th><th>Phần</th><th>Điểm</th><th>Ngày</th></tr></thead><tbody>${a.ket.list.slice(0, 12).map((k) => `<tr><td>${esc(ketLabel(k.id))}</td><td style="font-size:13.5px">${esc(keyLabel(k.key))}</td><td><b>${k.s}/${k.mx}</b> ${bar((k.s / k.mx) * 100, "sm")}</td><td style="font-size:13.5px">${k.at ? new Date(k.at).toLocaleDateString("vi-VN") : "—"}</td></tr>`).join("")}</tbody></table></div>` : `<p class="muted">Chưa làm đề KET nào.</p>`}</div>`;
     box.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -439,7 +501,7 @@
     if (!s) return `<div class="panel acc-panel"><div class="panel-h"><span class="pi">👤</span><div><b>Tài khoản của em</b><small>Lưu tiến độ, thầy cô theo dõi</small></div></div><a class="btn primary block" href="#/dang-nhap">Đăng nhập bằng mã</a></div>`;
     if (s.role !== "hs") return `<div class="panel acc-panel"><div class="panel-h"><span class="pi">👩‍🏫</span><div><b>${esc(s.name)}</b><small>${esc(s.role_name || "")}</small></div></div><a class="btn primary block" href="#/lop-cua-toi">Mở lớp của tôi →</a></div>`;
     const snap = Object.assign(K.snapshot(), { days: K.days() });
-    const r = analyze({ activated: true, snap }, s.cls);
+    const r = analyze({ activated: true, snap, bonus: s.bonus }, s.cls);
     return `<a class="panel acc-panel me" href="#/"><div class="panel-h"><span class="pi">🎒</span><div><b>${esc(s.name)}</b><small>${s.cls ? "Lớp " + esc(s.cls.name) : "Học sinh"}</small></div></div>
       <div class="mini-stats"><span>⭐ <b>${r.stars}</b><small>sao</small></span><span>🔥 <b>${r.streak}</b><small>ngày</small></span><span>🏆 <b>${r.ket.tests}</b><small>đề KET</small></span></div></a>`;
   }

@@ -339,3 +339,35 @@ ul.miss{margin:6px 0 0;padding-left:18px;font-size:14px}
 /* gói bài tập nhiều dòng (Boost PRE/POST-LESSON) */
 .phase p,.hw-item .txt,.todo span,td[data-l="Trước buổi"],td[data-l="Sau buổi"]{white-space:pre-line}
 .t-PET-Lab{background:#fff1e0;color:#9a4a00}
+
+/* thưởng sao */
+.star-pick-head{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.star-pick-head .sp{flex:1}
+.star-pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px}
+.sp-tile{display:flex;cursor:pointer}
+.sp-tile input{position:absolute;opacity:0;pointer-events:none}
+.sp-tile span{flex:1;display:block;border:2px solid var(--line);border-radius:12px;padding:8px 12px;background:var(--surface);transition:.15s}
+.sp-tile b{display:block;font-size:14.5px}
+.sp-tile small{color:var(--muted);font-size:12.5px}
+.sp-tile:hover span{border-color:var(--blue)}
+.sp-tile input:checked+span{border-color:var(--blue);background:var(--blue-soft);box-shadow:0 0 0 2px var(--blue) inset}
+.sp-tile input:checked+span b::before{content:"✓ ";color:var(--blue)}
+.sp-tile input:focus-visible+span{outline:3px solid var(--blue);outline-offset:2px}
+.star-amt{display:flex;gap:6px;flex-wrap:wrap}
+.star-amt input{position:absolute;opacity:0}
+.star-amt span{display:inline-block;padding:8px 14px;border-radius:12px;border:2px solid var(--line);font-size:15px;color:var(--text);cursor:pointer}
+.star-amt input:checked+span{border-color:#e0a800;background:#fff4c2;color:#7a5a00}
+.star-amt input:focus-visible+span{outline:3px solid var(--blue)}
+.reason-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.reason-chips .chip{border:0;cursor:pointer;font:inherit;font-size:12.5px;font-weight:700}
+.reason-chips .chip:hover{background:var(--blue);color:#fff}
+.bonus-list{list-style:none;margin:0;padding:0}
+.bonus-list li{display:flex;gap:10px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--line)}
+.bonus-list li:last-child{border-bottom:0}
+.bonus-list b{color:#b07d00;white-space:nowrap}
+.bonus-list span{flex:1}
+.bonus-list small{color:var(--muted);font-size:12.5px;white-space:nowrap}
+.bonus-pop{display:flex;gap:14px;align-items:center;background:linear-gradient(120deg,#fff4c2,#ffe9a8);border:2px solid #f2c94c;margin-top:16px;animation:bonusIn .6s ease}
+.bonus-pop .big{font-size:40px}
+.bonus-pop b{font-size:17px;color:#7a5a00}
+@keyframes bonusIn{from{transform:scale(.92);opacity:0}to{transform:none;opacity:1}}

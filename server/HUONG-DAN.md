@@ -71,6 +71,8 @@ Mã, họ tên và tiến độ chỉ nằm trong Google Sheet của bạn, **kh
 
 **Tiến độ gồm những gì?** Bài về nhà đã tick, sao và XP trong Phòng thi ảo, điểm từng phần đề KET, và những ngày em có học trên web (để tính chuỗi ngày). Dữ liệu tự gửi lên vài giây sau mỗi lần em làm bài.
 
+**Thưởng sao cho học sinh?** Giáo viên vào lớp → tab **⭐ Thưởng sao** → bấm chọn một hoặc nhiều em (hoặc **Chọn cả lớp**) → chọn +1/+2/+3/+5 sao → chọn hoặc gõ lý do → **Thưởng sao**. Sao thưởng cộng vào tổng sao của em; em thấy lời khen ở trang chủ khi đăng nhập. Bấm nhầm thì bấm **Huỷ** trong *Lịch sử thưởng*. Mọi lần thưởng lưu ở trang tính **ThuongSao**.
+
 **"Cần chú ý" tính thế nào?** Em được đánh dấu khi: chưa kích hoạt mã; 7 ngày trở lên chưa học trên web; làm dưới 60% bài về nhà đến hạn; hoặc điểm KET trung bình dưới 50% (từ 2 lần làm trở lên).
 
 **Sửa `Code.gs` sau này?** Dán bản mới → Lưu → **Triển khai → Quản lý triển khai** → ✏️ → *Phiên bản: Phiên bản mới* → **Triển khai**. URL giữ nguyên.

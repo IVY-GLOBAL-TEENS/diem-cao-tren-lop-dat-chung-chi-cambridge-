@@ -119,7 +119,7 @@
       if (owner && owner !== p.code) wipeProgress();
       ls.set("ivy-owner", p.code);
     }
-    setSession({ token: j.token, code: p.code, role: p.role, role_name: p.role_name, name: p.name, cls: p.cls || null, at: Date.now() });
+    setSession({ token: j.token, code: p.code, role: p.role, role_name: p.role_name, name: p.name, cls: p.cls || null, bonus: p.bonus || [], at: Date.now() });
     applyClass(p.cls);
     if (p.role === "hs") {
       try { const r = await api("pull"); merge(r.snap); } catch (e) {}
@@ -137,14 +137,17 @@
     ls.set(k, cfg);
   }
 
-  async function refreshMe() {
-    const s = session(); if (!API || !s) return;
-    if (s.checked && Date.now() - s.checked < 10 * 60e3) return;
+  async function refreshMe(force) {
+    const s = session(); if (!API || !s) return null;
+    if (!force && s.checked && Date.now() - s.checked < 10 * 60e3) return null;
     try {
       const j = await api("me");
       const n = Object.assign(session() || {}, { name: j.profile.name, cls: j.profile.cls || null, checked: Date.now() });
+      if (j.profile.bonus) n.bonus = j.profile.bonus;
       setSession(n); applyClass(j.profile.cls);
-    } catch (e) {}
+      window.dispatchEvent(new Event("ivy-me"));
+      return n;
+    } catch (e) { return null; }
   }
 
   async function logout() {

@@ -14,7 +14,7 @@ Website tĩnh (HTML/CSS/JS thuần) chạy trên GitHub Pages, màu chủ đạo
 | Tài liệu | `tai-lieu/` | Quản lý |
 | Đăng nhập / kích hoạt mã | `#/dang-nhap` | Mọi người |
 | Góc của em | `#/cua-em` | Học sinh: sao, chuỗi ngày học, bài về nhà, điểm KET |
-| Lớp của tôi | `#/lop-cua-toi/<mã lớp>` | Giáo viên: tạo lớp, cấp mã học sinh, theo dõi tiến độ, học sinh cần chú ý |
+| Lớp của tôi | `#/lop-cua-toi/<mã lớp>` | Giáo viên: tạo lớp, cấp mã học sinh, thưởng sao, theo dõi tiến độ, học sinh cần chú ý |
 | Quản lý giáo viên | `#/quan-ly` | Quản lý: tạo mã giáo viên |
 
 Mã lớp/khoá: `fd` Foundation · `bu` Bridge-up · `ko` Kick-off · `bo` Boost · `pi` IELTS Skills up.

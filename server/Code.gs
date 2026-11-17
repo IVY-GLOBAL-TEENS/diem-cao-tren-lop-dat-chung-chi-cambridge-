@@ -15,7 +15,9 @@ const SHEETS = {
   acc: ['TaiKhoan', ['ma', 'vai_tro', 'ho_ten', 'lop', 'nguoi_tao', 'salt', 'hash', 'kich_hoat', 'tao_luc', 'lan_cuoi']],
   cls: ['Lop', ['ma_lop', 'ten_lop', 'khoa', 'gv', 'khai_giang', 'ngay_hoc', 'tao_luc']],
   prog: ['TienDo', ['ma', 'cap_nhat', 'bai_tap_xong', 'sao', 'xp', 'de_ket', 'ket_tb', 'chuoi_ngay', 'hoat_dong_cuoi', 'du_lieu']],
+  bonus: ['ThuongSao', ['id', 'ma', 'ho_ten', 'lop', 'so_sao', 'ly_do', 'nguoi_thuong', 'luc']],
 };
+const BONUS_MAX = 10; // tối đa sao cho 1 lần thưởng / 1 em
 const COURSES = { fd: 'FD', bu: 'BU', ko: 'KO', bo: 'BO', pi: 'PI' };
 const ROLE_NAME = { ql: 'Quản lý', gv: 'Giáo viên', hs: 'Học sinh' };
 const ALPHA = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // bỏ I, O, 0, 1 cho dễ đọc
@@ -36,7 +38,7 @@ function setup() {
   let g = ss_().getSheetByName('HuongDan');
   if (!g) g = ss_().insertSheet('HuongDan', 0);
   g.clear();
-  g.getRange(1, 1, 8, 2).setValues([
+  g.getRange(1, 1, 9, 2).setValues([
     ['IVY Teen – máy chủ tài khoản', ''],
     ['Mã quản lý (dùng để kích hoạt lần đầu trên web)', ql.ma],
     ['Bước tiếp theo', 'Triển khai → Tùy chọn triển khai mới → Ứng dụng web → Thực thi: Tôi · Ai có quyền truy cập: Bất kỳ ai'],
@@ -44,6 +46,7 @@ function setup() {
     ['Trang tính TaiKhoan', 'Mỗi dòng là một tài khoản: ql = quản lý, gv = giáo viên, hs = học sinh'],
     ['Trang tính Lop', 'Các lớp giáo viên đã tạo trên web'],
     ['Trang tính TienDo', 'Tiến độ học sinh, tự đồng bộ từ web (cột du_lieu là dữ liệu chi tiết)'],
+    ['Trang tính ThuongSao', 'Sao giáo viên thưởng thêm cho học sinh (mỗi dòng 1 lần thưởng)'],
     ['Lưu ý', 'Không sửa cột salt/hash. Muốn cấp lại mật khẩu, dùng nút "Cấp lại" trên web.'],
   ]);
   g.getRange('A1').setFontWeight('bold').setFontSize(14);
@@ -159,11 +162,12 @@ const ACTIONS = {
     const classes = rows_('cls').filter((c) => a.vai_tro === 'ql' || c.gv === a.ma);
     const ids = {}; classes.forEach((c) => (ids[c.ma_lop] = 1));
     const prog = {}; rows_('prog').forEach((p) => (prog[p.ma] = p));
+    const bonus = bonusByStudent_();
     const teachers = {}; accs.filter((x) => x.vai_tro !== 'hs').forEach((t) => (teachers[t.ma] = t.ho_ten));
     const students = accs.filter((s) => s.vai_tro === 'hs' && ids[s.lop]).map((s) => {
       const p = prog[s.ma];
       let snap = null; try { snap = p && p.du_lieu ? JSON.parse(p.du_lieu) : null; } catch (e) {}
-      return { code: s.ma, name: s.ho_ten, cls: s.lop, activated: !!s.kich_hoat, last_login: str_(s.lan_cuoi), synced: p ? str_(p.cap_nhat) : '', snap: snap };
+      return { code: s.ma, name: s.ho_ten, cls: s.lop, activated: !!s.kich_hoat, last_login: str_(s.lan_cuoi), synced: p ? str_(p.cap_nhat) : '', snap: snap, bonus: bonus[s.ma] || [] };
     });
     const out = { classes: classes.map((c) => Object.assign(cls_(c), { teacher_name: teachers[c.gv] || '' })), students: students };
     if (a.vai_tro === 'ql') {
@@ -259,7 +263,44 @@ const ACTIONS = {
     const s = ownStudent_(a, req.code);
     const p = rows_('prog').find((r) => r.ma === s.ma);
     if (p) sheet_('prog').deleteRow(p._row);
+    const bs = sheet_('bonus');
+    rows_('bonus').filter((x) => x.ma === s.ma).reverse().forEach((x) => bs.deleteRow(x._row));
     sheet_('acc').deleteRow(s._row);
+    return {};
+  },
+
+  /** Giáo viên thưởng sao cho một hoặc nhiều học sinh. */
+  giveStars(req) {
+    const a = auth_(req, ['gv', 'ql']);
+    const n = Math.round(+req.stars);
+    if (!(n >= 1 && n <= BONUS_MAX)) fail_('Số sao mỗi lần thưởng từ 1 đến ' + BONUS_MAX + '.');
+    const why = clean_(req.reason, 80);
+    const codes = (Array.isArray(req.codes) ? req.codes : []).map(norm_).filter(Boolean);
+    if (!codes.length) fail_('Chọn ít nhất 1 học sinh.');
+    if (codes.length > 60) fail_('Mỗi lần thưởng tối đa 60 học sinh.');
+    const accs = {}; rows_('acc').forEach((x) => (accs[String(x.ma).toUpperCase()] = x));
+    const mine = {}; rows_('cls').forEach((c) => { if (a.vai_tro === 'ql' || c.gv === a.ma) mine[c.ma_lop] = 1; });
+    const sh = sheet_('bonus'), head = SHEETS.bonus[1], at = now_(), rows = [], given = [];
+    const seen = {};
+    codes.forEach((code, i) => {
+      if (seen[code]) return; seen[code] = 1;
+      const s = accs[code];
+      if (!s || s.vai_tro !== 'hs' || !mine[s.lop]) fail_('Không tìm thấy học sinh ' + code + ' trong lớp của bạn.');
+      const o = { id: 'T' + Date.now().toString(36).toUpperCase() + i.toString(36).toUpperCase() + rand_(3), ma: s.ma, ho_ten: s.ho_ten, lop: s.lop, so_sao: String(n), ly_do: why, nguoi_thuong: a.ma, luc: at };
+      rows.push(head.map((h) => o[h]));
+      given.push(bonusOut_(o, a.ho_ten));
+    });
+    sh.getRange(sh.getLastRow() + 1, 1, rows.length, head.length).setNumberFormat('@').setValues(rows);
+    return { given: given };
+  },
+
+  /** Huỷ một lần thưởng sao (bấm nhầm). */
+  removeBonus(req) {
+    const a = auth_(req, ['gv', 'ql']);
+    const b = rows_('bonus').find((x) => x.id === String(req.id || ''));
+    if (!b) fail_('Không tìm thấy lần thưởng này.');
+    if (a.vai_tro !== 'ql') ownClass_(a, b.lop);
+    sheet_('bonus').deleteRow(b._row);
     return {};
   },
 
@@ -325,8 +366,21 @@ function profile_(a) {
   if (a.vai_tro === 'hs') {
     const c = rows_('cls').find((x) => x.ma_lop === a.lop);
     if (c) out.cls = cls_(c);
+    out.bonus = bonusByStudent_()[a.ma] || [];
   }
   return out;
+}
+
+/** Sao thưởng theo mã học sinh, mới nhất trước. */
+function bonusByStudent_() {
+  const names = {}; rows_('acc').forEach((x) => { if (x.vai_tro !== 'hs') names[x.ma] = x.ho_ten; });
+  const out = {};
+  rows_('bonus').forEach((b) => { (out[b.ma] = out[b.ma] || []).push(bonusOut_(b, names[b.nguoi_thuong])); });
+  Object.keys(out).forEach((k) => out[k].reverse());
+  return out;
+}
+function bonusOut_(b, by) {
+  return { id: b.id, code: b.ma, n: +b.so_sao || 0, why: b.ly_do || '', by: by || '', at: str_(b.luc) };
 }
 
 function cls_(c) {
