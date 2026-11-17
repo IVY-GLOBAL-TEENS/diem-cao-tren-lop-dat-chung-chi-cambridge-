@@ -351,9 +351,9 @@
 
   /* ---------- giao diện theo vai trò ---------- */
   const NAV = {
-    hs: (a) => [["#/", "home", "🏠", "Trang chủ"], [a.cls ? `#/hoc-sinh/${a.cls.course}` : "#/", "hoc-sinh", "🎒", "Bài tập"], [a.cls && C[a.cls.course] ? examLink(C[a.cls.course]) : "phong-thi/", "", "🎯", "Phòng thi"], ["phong-thi/?view=ketbank", "", "📝", "Đề KET"], ["#/huong-dan", "huong-dan", "❓", "Hướng dẫn"]],
-    gv: () => [["#/", "home", "🏠", "Lớp của tôi"], ["#/giao-vien", "giao-vien", "📚", "Giáo án"], ["#/giao-vien/game", "game", "🎲", "Game"], ["phong-thi/", "", "🎯", "Phòng thi"], ["phong-thi/?view=ketbank", "", "📝", "Đề KET"], ["tai-lieu/", "", "📁", "Tài liệu"]],
-    ql: () => [["#/", "home", "🏠", "Các lớp"], ["#/quan-ly", "quan-ly", "🗝️", "Giáo viên"], ["#/giao-vien", "giao-vien", "📚", "Giáo án"], ["#/hoc-sinh", "hoc-sinh", "🎒", "Xem như HS"], ["phong-thi/", "", "🎯", "Phòng thi"], ["phong-thi/?view=ketbank", "", "📝", "Đề KET"], ["tai-lieu/", "", "📁", "Tài liệu"]],
+    hs: (a) => [["#/", "home", "🏠", "Trang chủ"], [a.cls ? `#/hoc-sinh/${a.cls.course}` : "#/", "hoc-sinh", "🎒", "Bài tập"], [a.cls && C[a.cls.course] ? examLink(C[a.cls.course]) : "phong-thi/", "", "🎯", "Phòng thi & đề KET"], ["#/huong-dan", "huong-dan", "❓", "Hướng dẫn"]],
+    gv: () => [["#/", "home", "🏠", "Lớp của tôi"], ["#/giao-vien", "giao-vien", "📚", "Giáo án"], ["#/giao-vien/game", "game", "🎲", "Game"], ["phong-thi/", "", "🎯", "Phòng thi & đề KET"], ["tai-lieu/", "", "📁", "Tài liệu"]],
+    ql: () => [["#/", "home", "🏠", "Các lớp"], ["#/quan-ly", "quan-ly", "🗝️", "Giáo viên"], ["#/giao-vien", "giao-vien", "📚", "Giáo án"], ["#/hoc-sinh", "hoc-sinh", "🎒", "Xem như HS"], ["phong-thi/", "", "🎯", "Phòng thi & đề KET"], ["tai-lieu/", "", "📁", "Tài liệu"]],
   };
   const ALLOW = {
     hs: ["", "hoc-sinh", "cua-em", "tai-khoan", "huong-dan", "dang-nhap"],
