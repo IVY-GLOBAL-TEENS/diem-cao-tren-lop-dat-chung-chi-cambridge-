@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../../assets/config.js"></script><script src="../../assets/gate.js" data-roles="hs,gv,ql"></script>
+<title>IVY Boost B1 · Unit 3 · Bài tập hằng ngày (bản thử)</title>
+<style>
+:root{--blue:#0b16b0;--blue-d:#070e7a;--blue-l:#3b48e0;--soft:#e8eaff;--red:#d7192a;--gold:#ffc83d;--green:#14946a;--green-s:#dcf6ec;--orange:#f28a1d;--orange-s:#fff0dd;--bg:#f4f5fa;--card:#fff;--text:#141a3c;--muted:#5d6385;--line:#dfe2ef;--r:18px;--sh:0 2px 6px rgba(10,20,90,.06),0 10px 30px rgba(10,20,90,.07)}
+*{box-sizing:border-box}html,body{margin:0}body{font-family:"Be Vietnam Pro","Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:15.5px;line-height:1.5}
+button,input,select,textarea{font:inherit;color:inherit}
+header.top{background:linear-gradient(120deg,var(--blue-d),var(--blue) 60%,var(--blue-l));color:#fff;padding:14px 22px;display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center}
+.brand{display:flex;gap:12px;align-items:center}.brand .logo{background:#fff;color:var(--red);font-weight:900;border-radius:10px;padding:4px 10px;letter-spacing:1px}
+.brand b{font-size:19px}.brand small{display:block;opacity:.85;font-size:13px}
+.top .ctl{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:13px}
+.top .ctl label{display:flex;flex-direction:column;gap:2px;opacity:.95}.top .ctl input,.top .ctl select{border:0;border-radius:10px;padding:6px 9px;color:var(--text);min-width:0}
+main{max-width:1280px;margin:0 auto;padding:18px;display:grid;grid-template-columns:330px 1fr;gap:18px}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);padding:16px 18px}
+h2{font-size:19px;margin:0 0 10px}h3{margin:0 0 8px;font-size:16.5px}
+.muted{color:var(--muted)}.small{font-size:13px}
+.side{display:flex;flex-direction:column;gap:16px;align-self:start;position:sticky;top:12px}
+@media(max-width:900px){.side{position:static}}
+.todo-i{display:flex;gap:8px;align-items:flex-start;padding:8px 0;border-top:1px dashed var(--line);cursor:pointer}.todo-i:first-of-type{border-top:0}
+.todo-i:hover .tt{text-decoration:underline}.todo-i .tt{flex:1}
+.pill{display:inline-block;border-radius:99px;padding:1px 9px;font-size:12px;font-weight:700;white-space:nowrap}
+.p-red{background:#ffe4e6;color:var(--red)}.p-or{background:var(--orange-s);color:#a24f00}.p-gr{background:var(--green-s);color:var(--green)}.p-bl{background:var(--soft);color:var(--blue)}.p-gy{background:#eef0f8;color:var(--muted)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.tabs button{border:0;background:#fff;box-shadow:var(--sh);border-radius:99px;padding:8px 16px;font-weight:700;cursor:pointer}.tabs button.on{background:var(--blue);color:#fff}
+.sess{margin-bottom:18px}.sess-h{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;margin-bottom:10px}
+.sess-h .no{background:var(--red);color:#fff;border-radius:8px;padding:2px 9px;font-weight:800;font-size:13px}
+.packs{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:1100px){.packs{grid-template-columns:1fr}}
+.pack{border:1.5px solid var(--line);border-radius:14px;padding:10px 12px}.pack.pre{border-top:5px solid var(--orange)}.pack.post{border-top:5px solid var(--red)}
+.pack h4{margin:2px 0 6px;display:flex;justify-content:space-between;font-size:15px}
+.act{display:grid;grid-template-columns:auto 1fr auto;gap:4px 10px;align-items:center;padding:8px 4px;border-top:1px solid var(--line)}
+.act .cat{font-size:11.5px;font-weight:800;color:var(--blue);background:var(--soft);border-radius:7px;padding:2px 7px;text-align:center;min-width:72px}
+.act .nm{font-weight:600;font-size:14.5px}.act .meta{grid-column:2;font-size:12.5px;color:var(--muted)}
+.act .go{grid-row:1/3;grid-column:3;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.btn{border:0;border-radius:12px;padding:8px 14px;font-weight:700;cursor:pointer;background:var(--blue);color:#fff;display:inline-flex;align-items:center;gap:6px}
+.btn:disabled{opacity:.45;cursor:not-allowed}.btn.l{background:#fff;color:var(--blue);box-shadow:inset 0 0 0 1.5px var(--line)}.btn.red{background:var(--red)}.btn.gr{background:var(--green)}.btn.sm{padding:5px 10px;font-size:13px;border-radius:10px}
+.btn.big{padding:12px 20px;font-size:16px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.day{border-left:4px solid var(--line);padding:6px 0 6px 12px;margin-bottom:12px}.day.cls{border-color:var(--red)}.day.today{background:#fffbe9;border-radius:0 12px 12px 0}
+.day-h{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.bar{height:8px;background:#eef0f8;border-radius:9px;overflow:hidden}.bar i{display:block;height:100%;background:var(--blue)}
+/* runner */
+#ov{position:fixed;inset:0;background:rgba(8,12,60,.55);display:none;z-index:50;padding:18px;overflow:auto}
+#ov.on{display:block}.run{max-width:920px;margin:0 auto;background:#fff;border-radius:22px;box-shadow:var(--sh);overflow:hidden}
+.run-h{background:var(--blue);color:#fff;padding:12px 18px;display:flex;gap:10px;align-items:center}.run-h b{flex:1;font-size:17px}
+.run-h .x{background:rgba(255,255,255,.18);border:0;color:#fff;border-radius:10px;padding:6px 12px;cursor:pointer;font-weight:700}
+.run-b{padding:18px 22px 24px}
+.q{padding:10px 0;border-top:1px solid var(--line)}.q:first-child{border-top:0}
+.opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.opt{border:1.5px solid var(--line);background:#fff;border-radius:12px;padding:7px 13px;cursor:pointer}
+.opt.sel{border-color:var(--blue);background:var(--soft)}.opt.ok{border-color:var(--green);background:var(--green-s)}.opt.no{border-color:var(--red);background:#ffe4e6}
+.big-e{font-size:64px;line-height:1.1}.word{font-size:30px;font-weight:800;color:var(--blue)}
+.center{text-align:center}.steps{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}.steps span{flex:1;min-width:90px;text-align:center;font-size:12px;font-weight:700;padding:6px;border-radius:10px;background:#eef0f8;color:var(--muted)}
+.steps span.on{background:var(--blue);color:#fff}.steps span.done{background:var(--green-s);color:var(--green)}
+input.t{border:1.5px solid var(--line);border-radius:10px;padding:8px 10px;min-width:120px}input.t.ok{border-color:var(--green);background:var(--green-s)}input.t.no{border-color:var(--red);background:#ffe4e6}
+textarea{width:100%;border:1.5px solid var(--line);border-radius:12px;padding:10px;min-height:90px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}@media(max-width:640px){.grid2{grid-template-columns:1fr}}
+.tile{border:1.5px solid var(--line);border-radius:14px;padding:12px;text-align:center;cursor:pointer;background:#fff;font-weight:700}
+.tile.sel{border-color:var(--blue);background:var(--soft)}.tile.ok{border-color:var(--green);background:var(--green-s);cursor:default;opacity:.7}.tile.no{animation:sh .3s}
+@keyframes sh{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.note{background:#fffbe9;border:1px solid #ffe7a3;border-radius:12px;padding:9px 12px;font-size:13.5px}
+.w-ok{color:var(--green);font-weight:700}.w-no{color:var(--red);text-decoration:underline wavy}.w-miss{color:var(--red);opacity:.6;text-decoration:line-through}
+.para{margin:0 0 12px}.para select{border:1.5px solid var(--blue);border-radius:8px;padding:2px 4px;max-width:100%}
+.tr{background:#f7f8fd;border-radius:12px;padding:10px 12px;margin-top:10px}.tr p{margin:4px 0}.tr .on,.sent.on{background:#fff3b0;border-radius:6px}
+.sent{cursor:pointer;border-radius:6px;padding:1px 2px}.sent:hover{background:#eef0f8}.sent.t0{background:#ffe8c7}.sent.t1{background:#d9e9ff}.sent.t2{background:#dff6e9}
+canvas.dub{width:100%;max-width:720px;border-radius:16px;display:block;margin:0 auto;background:#000}
+video.out{width:100%;max-width:720px;border-radius:16px;display:block;margin:10px auto}
+.rec-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--red);animation:bl 1s infinite}@keyframes bl{50%{opacity:.2}}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}.gal video{width:100%;border-radius:12px}
+.star{cursor:pointer;font-size:22px;color:#c9cde0}.star.on{color:var(--gold)}
+.chip{display:inline-block;border:1.5px solid var(--line);border-radius:99px;padding:4px 11px;margin:3px;cursor:pointer;background:#fff;font-size:14px}.chip.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+.kbd{font-family:ui-monospace,monospace;background:#eef0f8;border-radius:6px;padding:0 5px}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">IVY</span><div><b>Boost B1 · Unit 3 · The future is now</b><small>Bài tập hằng ngày – bản thử buổi 21–26</small></div></div>
+  <div class="ctl">
+    <label>Tên học sinh<input id="cName" placeholder="Nguyễn An"></label>
+    <label>Buổi 21 học ngày<input id="cStart" type="date"></label>
+    <label>Lịch học<select id="cDays"><option value="2,5">Thứ 3 + Thứ 6</option><option value="1,4">Thứ 2 + Thứ 5</option><option value="3,6">Thứ 4 + Thứ 7</option><option value="6,0">Thứ 7 + CN</option></select></label>
+    <label>Hôm nay (giả lập)<input id="cToday" type="date"></label>
+  </div>
+</header>
+<main>
+  <aside class="side">
+    <div class="card"><h2>🔔 Cần làm</h2><div id="todo"></div></div>
+    <div class="card"><h2>📅 Hôm nay</h2><div id="today"></div></div>
+    <div class="card small muted">Làm lại bao nhiêu lần cũng được – điểm cao nhất được giữ. Bài chấm điểm cần đạt từ <b>80%</b>. Bài quá ngày hoặc chưa đạt tự hiện ở <b>Cần làm</b>, làm bù không giới hạn.</div>
+  </aside>
+  <section>
+    <div class="note" id="frameNote" style="display:none;margin-bottom:12px">Bản xem trong khung Claude không cho dùng micro, tải file và chia sẻ, nên các bài <b>ghi âm, shadowing, lồng tiếng</b> chưa chạy được ở đây. Mở file HTML gửi kèm bằng Chrome (hoặc trang trên website IVY) để thử đầy đủ.</div><div class="tabs" id="tabs"></div>
+    <div id="view"></div>
+  </section>
+</main>
+<div id="ov"><div class="run"><div class="run-h"><b id="rT"></b><span id="rM" class="pill p-gy" style="background:rgba(255,255,255,.2);color:#fff"></span><button class="x" id="rX">Đóng ✕</button></div><div class="run-b" id="rB"></div></div></div>
+
+<script src="u3-data.js"></script>
+<script>
+(function(){
+"use strict";
+const D = window.U3;
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const norm = (s) => String(s).toLowerCase().replace(/[’‘`]/g, "'").replace(/[“”".,!?;:()–—-]/g, " ").replace(/\s+/g, " ").trim();
+const words = (s) => norm(s).split(" ").filter(Boolean);
+const PASS = 80;
+
+/* ---------------- lưu trạng thái ---------------- */
+const KEY = "ivy-boost-u3-demo";
+let S = { name: "", start: "", days: "2,5", today: "", res: {}, saved: {} };
+try { const j = JSON.parse(localStorage.getItem(KEY) || "null"); if (j) S = Object.assign(S, j); } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
+const ACTS = {}; D.sessions.forEach((s) => ["pre", "post"].forEach((ph) => s[ph].forEach((a) => { a.sess = s.no; a.phase = ph; ACTS[a.id] = a; })));
+const scored = (a) => !["rec", "dub", "flash", "write", "form", "playlist", "phrases", "listenmark", "rate", "upgrade", "selfcheck", "shadow"].includes(a.k);
+function status(a) {
+  const r = S.res[a.id];
+  if (!r) return { st: "new" };
+  if (scored(a) && r.best != null && r.best < PASS) return { st: "fail", r };
+  return r.done ? { st: "done", r } : { st: "new", r };
+}
+function record(a, score, extra) {
+  const r = S.res[a.id] || { tries: 0, best: null };
+  r.tries++; r.at = Date.now();
+  if (score != null) { r.last = score; r.best = Math.max(r.best == null ? 0 : r.best, score); }
+  r.done = scored(a) ? r.best != null && r.best >= PASS : true;
+  Object.assign(r, extra || {}); S.res[a.id] = r; save(); render();
+}
+
+/* ---------------- lịch theo ngày ---------------- */
+const DAYN = ["CN", "Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7"];
+const iso = (d) => d.toISOString().slice(0, 10);
+const addD = (s, n) => { const d = new Date(s + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return iso(d); };
+const dow = (s) => new Date(s + "T00:00:00Z").getUTCDay();
+const fmt = (s) => { const d = new Date(s + "T00:00:00Z"); return `${DAYN[d.getUTCDay()]} ${d.getUTCDate()}/${d.getUTCMonth() + 1}`; };
+function plan() {
+  const cd = S.days.split(",").map(Number);
+  let d = S.start; while (!cd.includes(dow(d))) d = addD(d, 1);
+  const dates = {}; let prev = addD(d, -1); while (!cd.includes(dow(prev))) prev = addD(prev, -1);
+  const nos = D.sessions.map((s) => s.no); dates[20] = prev;
+  let cur = d; nos.forEach((n) => { dates[n] = cur; cur = addD(cur, 1); while (!cd.includes(dow(cur))) cur = addD(cur, 1); });
+  for (let n = 27; n <= 28; n++) { dates[n] = cur; cur = addD(cur, 1); while (!cd.includes(dow(cur))) cur = addD(cur, 1); }
+  // PRE buổi n mở sau buổi n-1, hạn trước buổi n; POST buổi n mở sau buổi n, hạn trước buổi n+2.
+  // Mỗi ngày lấy bài có hạn sớm nhất cho tới ~30' (ngày có buổi học ~15'); bài đến hạn luôn được xếp.
+  const items = []; let ord = 0;
+  D.sessions.forEach((s) => { s.pre.forEach((a) => items.push({ a, rel: dates[s.no - 1], ddl: addD(dates[s.no], -1), o: ord++ })); s.post.forEach((a) => items.push({ a, rel: dates[s.no], ddl: addD(dates[s.no + 2], -1), o: ord++ })); });
+  const days = {}, due = {}; let left = items.slice();
+  for (let x = dates[20]; left.length && x < dates[28]; x = addD(x, 1)) {
+    const cap = cd.includes(dow(x)) ? 15 : 30; let used = 0;
+    const pool = left.filter((it) => it.rel <= x).sort((p, q) => (p.ddl < q.ddl ? -1 : p.ddl > q.ddl ? 1 : p.o - q.o));
+    for (const it of pool) { if (it.ddl <= x || used + it.a.min <= cap + 4) { (days[x] = days[x] || []).push(it.a); due[it.a.id] = x; used += it.a.min; left = left.filter((y) => y !== it); } else if (used >= cap - 3) break; }
+  }
+  left.forEach((it) => { (days[it.ddl] = days[it.ddl] || []).push(it.a); due[it.a.id] = it.ddl; });
+  return { dates, days, due, cd };
+}
+
+/* ---------------- âm thanh: Gemini file → giọng trình duyệt ---------------- */
+const hash = (s) => { let h = 5381; for (let i = 0; i < s.length; i++) h = (Math.imul(h, 33) + s.charCodeAt(i)) >>> 0; return h.toString(36); };
+const aid = (v, t) => v + "_" + hash(t);
+let AUD = {};
+if (location.protocol.startsWith("http")) fetch("audio/u3/manifest.json", { method: "GET" }).then((r) => (r.ok ? r.json() : {})).then((j) => { AUD = j || {}; }).catch(() => {});
+let vlist = [];
+const loadV = () => { vlist = (window.speechSynthesis ? speechSynthesis.getVoices() : []).filter((v) => /^en/i.test(v.lang)); };
+if (window.speechSynthesis) { loadV(); speechSynthesis.onvoiceschanged = loadV; }
+const FEM = /female|samantha|libby|sonia|aria|jenny|karen|moira|tessa|serena|susan|hazel|zira|emma|ava|allison|kate/i, MAL = /male|daniel|ryan|guy|alex|fred|arthur|george|david|mark|oliver|tom/i;
+function pickVoice(role) {
+  if (!vlist.length) loadV();
+  const gb = vlist.filter((v) => /GB/i.test(v.lang)), pool = gb.length ? gb : vlist;
+  const want = role === "nam" || role === "adl" || role === "nar" ? MAL : FEM;
+  return pool.find((v) => want.test(v.name) && !(want === MAL && FEM.test(v.name))) || vlist.find((v) => want.test(v.name)) || pool[0] || null;
+}
+let curAudio = null, speakTok = 0;
+function stopSpeak() { speakTok++; try { speechSynthesis.cancel(); } catch (e) {} if (curAudio) { curAudio.pause(); curAudio = null; } }
+function speak(text, role, rate) {
+  role = role || "nar"; const tok = ++speakTok;
+  return new Promise((res) => {
+    const f = AUD[aid(role, text)];
+    if (f) { const a = new Audio("audio/u3/" + f); a.playbackRate = rate || 1; curAudio = a; a.onended = a.onerror = () => res(); a.play().catch(() => res()); return; }
+    if (!window.speechSynthesis) { setTimeout(res, 300 + text.length * 55); return; }
+    const u = new SpeechSynthesisUtterance(text); const v = pickVoice(role); if (v) u.voice = v; u.lang = v ? v.lang : "en-GB";
+    u.rate = (rate || 1) * (role === "tch" ? 0.88 : 0.95); u.pitch = { mai: 1.2, nam: 1.05, adl: 0.9, tch: 1, nar: 1 }[role] || 1;
+    let done = false; const fin = () => { if (!done) { done = true; res(); } };
+    u.onend = fin; u.onerror = fin; setTimeout(fin, 2500 + text.length * 120);
+    speechSynthesis.speak(u); if (tok !== speakTok) fin();
+  });
+}
+async function speakLines(lines, onLine, isStop) { for (let i = 0; i < lines.length; i++) { if (isStop && isStop()) return false; onLine && onLine(i); await speak(lines[i][1], lines[i][0]); await new Promise((r) => setTimeout(r, 250)); } onLine && onLine(-1); return true; }
+const linesOf = (k) => { const t = D.T[k]; if (t.lines) return t.lines.map((l) => (Array.isArray(l) ? l : [t.voice || "nar", l])); if (t.paras) return [[t.voice, t.full]]; if (t.text) return t.text.map((x) => [t.voice, x]); return []; };
+
+/* ---------------- micro + nhận dạng giọng nói ---------------- */
+let micStream = null;
+async function mic() { if (micStream && micStream.active) return micStream; micStream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } }); return micStream; }
+const SRC = window.SpeechRecognition || window.webkitSpeechRecognition;
+function recorder() {
+  let mr, chunks = [], sr = null, text = "", t0 = 0;
+  return {
+    async start() {
+      const st = await mic(); chunks = []; text = ""; t0 = Date.now();
+      mr = new MediaRecorder(st); mr.ondataavailable = (e) => e.data.size && chunks.push(e.data); mr.start();
+      if (SRC) { try { sr = new SRC(); sr.lang = "en-GB"; sr.continuous = true; sr.interimResults = false; sr.onresult = (e) => { text = Array.from(e.results).map((r) => r[0].transcript).join(" "); }; sr.onerror = () => {}; sr.start(); } catch (e) { sr = null; } }
+    },
+    stop() { return new Promise((res) => { const sec = (Date.now() - t0) / 1000; if (sr) try { sr.stop(); } catch (e) {} mr.onstop = () => setTimeout(() => res({ url: URL.createObjectURL(new Blob(chunks, { type: mr.mimeType })), sec, text: text, sr: !!SRC }), sr ? 700 : 0); mr.stop(); }); },
+    get text() { return text; },
+  };
+}
+function compare(target, said) {
+  const t = words(target), s = words(said); const n = t.length, m = s.length;
+  const L = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) L[i][j] = t[i] === s[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  const ok = new Array(n).fill(false); let i = 0, j = 0; while (i < n && j < m) { if (t[i] === s[j]) { ok[i] = true; i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) i++; else j++; }
+  return { ok, pct: n ? Math.round((ok.filter(Boolean).length / n) * 100) : 0, html: target.split(/\s+/).map((w, k) => `<span class="${ok[k] ? "w-ok" : "w-no"}">${esc(w)}</span>`).join(" ") };
+}
+const micErr = (el) => { el.innerHTML = `<div class="note">Chưa mở được micro. Em cho phép trình duyệt dùng micro (biểu tượng 🔒 trên thanh địa chỉ) rồi thử lại.</div>`; };
+
+/* ---------------- khung chạy bài ---------------- */
+let cur = null, cleanup = [];
+function open(a) {
+  closeRun(); cur = a; $("rT").textContent = a.t; $("rM").textContent = `${a.cat} · ${a.min}'${a.src ? " · " + a.src : ""}`;
+  $("ov").classList.add("on"); document.body.style.overflow = "hidden"; const b = $("rB"); b.innerHTML = ""; b.scrollTop = 0;
+  (R[a.k] || R.todo)(a, b, (score, extra) => { record(a, score, extra); });
+}
+function closeRun() { stopSpeak(); cleanup.forEach((f) => { try { f(); } catch (e) {} }); cleanup = []; $("ov").classList.remove("on"); document.body.style.overflow = ""; cur = null; }
+$("rX").onclick = closeRun;
+const resultBox = (score, again) => `<div class="note" style="margin-top:14px;font-size:15px">${score >= PASS ? "🎉 <b>Đạt " + score + "%</b> – giỏi lắm!" : "💪 <b>" + score + "%</b> – chưa đạt " + PASS + "%. Em xem lại các câu sai rồi làm lại nhé."} ${again ? '<button class="btn sm l" data-again>Làm lại</button>' : ""}</div>`;
+const doneBox = (msg) => `<div class="note" style="margin-top:14px">✅ ${msg || "Đã lưu – bài này hoàn thành."} <button class="btn sm l" data-close>Đóng</button></div>`;
+document.addEventListener("click", (e) => { if (e.target.matches("[data-again]") && cur) open(cur); if (e.target.matches("[data-close]")) closeRun(); });
+const play = (txt, role, label) => { const b = document.createElement("button"); b.className = "btn sm l"; b.innerHTML = label || "🔊"; b.onclick = (e) => { e.stopPropagation(); stopSpeak(); speak(txt, role); }; return b; };
+
+const R = {};
+/* ---- MCQ ---- */
+function mcqBlock(el, qs, onDone, opt) {
+  opt = opt || {};
+  const Q = qs.map((q) => { const idx = shuffle(q.o.map((_, i) => i)); return Object.assign({}, q, { order: idx, pick: null }); });
+  el.innerHTML = (opt.timer ? `<div class="row" style="justify-content:flex-end"><span class="pill p-or" id="tmr"></span></div>` : "") +
+    Q.map((q, i) => `<div class="q" data-i="${i}"><div class="row"><b>${i + 1}.</b> ${q.audio ? '<span data-au></span>' : ""}<span>${esc(q.q)}</span></div><div class="opts">${q.order.map((k) => `<button class="opt" data-k="${k}">${esc(q.o[k])}</button>`).join("")}</div><div class="ex small muted"></div></div>`).join("") +
+    `<div class="row" style="margin-top:12px"><button class="btn big" id="mSub">Nộp bài</button><span class="muted small" id="mCnt"></span></div><div id="mRes"></div>`;
+  el.querySelectorAll("[data-au]").forEach((sp) => { const q = Q[sp.closest(".q").dataset.i]; sp.appendChild(play(q.audio[1], q.audio[0], "🔊 Nghe")); });
+  let sub = false;
+  const cnt = () => { el.querySelector("#mCnt").textContent = `Đã chọn ${Q.filter((q) => q.pick != null).length}/${Q.length}`; };
+  el.querySelectorAll(".opt").forEach((b) => (b.onclick = () => { if (sub) return; const q = Q[b.closest(".q").dataset.i]; q.pick = +b.dataset.k; b.parentNode.querySelectorAll(".opt").forEach((x) => x.classList.toggle("sel", x === b)); cnt(); }));
+  cnt();
+  const submit = () => {
+    if (sub) return; sub = true; let ok = 0;
+    Q.forEach((q, i) => { const d = el.querySelector(`.q[data-i="${i}"]`); d.querySelectorAll(".opt").forEach((b) => { const k = +b.dataset.k; if (k === q.a) b.classList.add("ok"); else if (k === q.pick) b.classList.add("no"); }); if (q.pick === q.a) ok++; if (q.ex) d.querySelector(".ex").textContent = "💡 " + q.ex; });
+    const sc = Math.round((ok / Q.length) * 100); el.querySelector("#mSub").disabled = true; el.querySelector("#mRes").innerHTML = resultBox(sc, opt.again !== false); onDone(sc);
+  };
+  el.querySelector("#mSub").onclick = submit;
+  if (opt.timer) { let left = opt.timer * 60; const tick = () => { const t = el.querySelector("#tmr"); if (!t) return; t.textContent = `⏱ ${Math.floor(left / 60)}:${String(left % 60).padStart(2, "0")}`; if (left-- <= 0) { clearInterval(iv); submit(); } }; const iv = setInterval(tick, 1000); tick(); cleanup.push(() => clearInterval(iv)); }
+}
+R.mcq = (a, el, fin) => mcqBlock(el, a.qs, (s) => fin(s), { timer: a.timer });
+
+/* ---- chuỗi 5 bước nhớ từ ---- */
+R.vocab = (a, el, fin) => {
+  const W = a.words, steps = ["1 Nghe – nhắc lại", "2 Ghép hình", "3 Nghe chọn nghĩa", "4 Nghe gõ từ", "5 Điền câu"];
+  let st = 0, total = 0, first = 0;
+  const head = () => `<div class="steps">${steps.map((s, i) => `<span class="${i < st ? "done" : i === st ? "on" : ""}">${s}</span>`).join("")}</div>`;
+  const next = () => { st++; go(); };
+  function go() {
+    stopSpeak();
+    if (st === 0) { // nghe – nhắc lại
+      let i = 0; const card = () => { const w = W[i]; el.innerHTML = head() + `<div class="center"><div class="big-e">${w.e}</div><div class="word">${esc(w.w)}</div><div class="muted">${esc(w.vi)}</div><div class="row" style="justify-content:center;margin:14px 0" id="b"></div><div id="sr" class="small"></div><div class="row" style="justify-content:center;margin-top:10px"><span class="muted small">${i + 1}/${W.length}</span><button class="btn" id="nx">${i < W.length - 1 ? "Từ tiếp →" : "Sang bước 2 →"}</button></div></div>`;
+        el.querySelector("#b").appendChild(play(w.w, "tch", "🔊 Nghe lại"));
+        const rb = document.createElement("button"); rb.className = "btn red"; rb.textContent = "🎙 Nhắc lại"; el.querySelector("#b").appendChild(rb);
+        rb.onclick = async () => { const r = recorder(); try { await r.start(); } catch (e) { return micErr(el.querySelector("#sr")); } rb.innerHTML = '<span class="rec-dot"></span> Đang nghe…'; setTimeout(async () => { const o = await r.stop(); rb.textContent = "🎙 Nhắc lại"; const c = o.sr ? compare(w.w, o.text) : null; el.querySelector("#sr").innerHTML = (c ? (c.pct >= 50 ? '<span class="w-ok">✓ Rõ rồi!</span>' : `Máy nghe được: “${esc(o.text || "…")}” – thử lại nhé.`) : "") + ` <audio controls src="${o.url}" style="height:32px;vertical-align:middle"></audio>`; }, 2200); };
+        el.querySelector("#nx").onclick = () => { if (++i < W.length) card(); else next(); }; speak(w.w, "tch"); };
+      card();
+    } else if (st === 1) { // ghép hình
+      const L = shuffle(W.map((w, i) => i)), Rr = shuffle(W.map((w, i) => i)); let pick = null, left = W.length, err = 0;
+      el.innerHTML = head() + `<p class="muted">Bấm một từ, rồi bấm hình đúng.</p><div class="grid2"><div id="l" style="display:grid;gap:8px"></div><div id="r" style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px"></div></div>`;
+      L.forEach((i) => { const t = document.createElement("div"); t.className = "tile"; t.textContent = W[i].w; t.onclick = () => { if (t.classList.contains("ok")) return; el.querySelectorAll("#l .tile").forEach((x) => x.classList.remove("sel")); t.classList.add("sel"); pick = { i, t }; speak(W[i].w, "tch"); }; el.querySelector("#l").appendChild(t); });
+      Rr.forEach((i) => { const t = document.createElement("div"); t.className = "tile"; t.style.fontSize = "34px"; t.textContent = W[i].e; t.title = W[i].vi; t.onclick = () => { if (!pick || t.classList.contains("ok")) return; if (pick.i === i) { t.classList.add("ok"); pick.t.classList.add("ok"); pick.t.classList.remove("sel"); pick = null; if (--left === 0) { total += W.length; first += Math.max(0, W.length - err); setTimeout(next, 500); } } else { err++; t.classList.remove("no"); void t.offsetWidth; t.classList.add("no"); } }; el.querySelector("#r").appendChild(t); });
+    } else { // 3,4,5: hàng đợi, sai thì quay lại cuối
+      let q = shuffle(W.map((_, i) => i)); const wrong = new Set(); const n0 = q.length;
+      const ask = () => {
+        if (!q.length) { total += n0; first += n0 - wrong.size; if (st < 4) return next(); const sc = Math.round((first / total) * 100); el.innerHTML = head() + `<div class="center"><div class="big-e">🏁</div><h3>Hoàn thành 5 bước!</h3><p>Đúng ngay lần đầu: <b>${sc}%</b></p></div>` + resultBox(sc, true); return fin(sc); }
+        const i = q[0], w = W[i];
+        const fb = (ok, msg) => { const f = el.querySelector("#fb"); f.innerHTML = ok ? '<span class="w-ok">✓ Đúng!</span>' : `<span class="w-no">✗</span> Đáp án: <b>${esc(msg)}</b>`; if (!ok) { wrong.add(i); q.push(i); } q.shift(); setTimeout(ask, ok ? 700 : 1700); };
+        if (st === 2) {
+          const opts = shuffle([i].concat(shuffle(W.map((_, k) => k).filter((k) => k !== i)).slice(0, 3)));
+          el.innerHTML = head() + `<div class="center"><p class="muted">Nghe và chọn nghĩa đúng (còn ${q.length})</p><div id="pl"></div><div class="opts" style="justify-content:center;margin-top:12px">${opts.map((k) => `<button class="opt" data-k="${k}">${esc(W[k].vi)}</button>`).join("")}</div><div id="fb" style="margin-top:10px"></div></div>`;
+          el.querySelector("#pl").appendChild(play(w.w, "tch", "🔊 Nghe")); speak(w.w, "tch");
+          el.querySelectorAll(".opt").forEach((b) => (b.onclick = () => { el.querySelectorAll(".opt").forEach((x) => (x.disabled = true)); const ok = +b.dataset.k === i; b.classList.add(ok ? "ok" : "no"); fb(ok, w.vi + " – " + w.w); }));
+        } else {
+          const isS = st === 4 && w.s; const sent = isS ? w.s.replace("___", `<input class="t" id="in" autocomplete="off" placeholder="${esc(w.a[0])}…">`) : "";
+          el.innerHTML = head() + `<div class="center"><p class="muted">${st === 3 ? "Nghe rồi gõ từ em nghe được" : "Điền từ vào câu"} (còn ${q.length})</p>${st === 3 ? '<div id="pl"></div><input class="t" id="in" autocomplete="off" style="margin-top:12px;font-size:20px;text-align:center">' : `<div class="big-e" style="font-size:40px">${w.e}</div><p style="font-size:19px">${isS ? sent : `<input class="t" id="in"> <span class="muted">(${esc(w.vi)})</span>`}</p><p class="small muted">${esc(w.vi)}</p>`}<div class="row" style="justify-content:center;margin-top:12px"><button class="btn" id="ck">Kiểm tra</button></div><div id="fb" style="margin-top:10px"></div></div>`;
+          if (st === 3) { el.querySelector("#pl").appendChild(play(w.w, "tch", "🔊 Nghe")); el.querySelector("#pl").appendChild(play(w.w, "tch", "🐢")); el.querySelector("#pl").lastChild.onclick = () => speak(w.w, "tch", 0.6); speak(w.w, "tch"); }
+          const inp = el.querySelector("#in"); inp.focus();
+          const ck = () => { const ok = norm(inp.value).replace(/-/g, " ") === norm(w.a).replace(/-/g, " "); inp.classList.add(ok ? "ok" : "no"); inp.disabled = true; el.querySelector("#ck").disabled = true; if (ok && st === 4 && w.s) speak(w.s.replace("___", w.a), "tch"); fb(ok, w.a); };
+          el.querySelector("#ck").onclick = ck; inp.onkeydown = (e) => { if (e.key === "Enter") ck(); };
+        }
+      };
+      ask();
+    }
+  }
+  go();
+};
+
+/* ---- điền từ ---- */
+R.gap = (a, el, fin) => {
+  el.innerHTML = (a.bank ? `<div class="note" style="margin-bottom:8px">Từ gợi ý: ${a.bank.map((b) => `<b>${esc(b)}</b>`).join(" · ")}</div>` : "") +
+    a.items.map((it, i) => { let k = 0; const parts = it.s.split("___"); return `<div class="q" data-i="${i}"><b>${i + 1}.</b> ${parts.map((p, j) => esc(p) + (j < parts.length - 1 ? `<input class="t" data-j="${k++}" autocomplete="off" style="min-width:110px;width:${Math.max(110, it.a[0].length * 11)}px">` : "")).join("")} <span data-au></span><div class="ex small"></div></div>`; }).join("") +
+    `<div class="row" style="margin-top:12px"><button class="btn big" id="gS">Kiểm tra</button></div><div id="gR"></div>`;
+  const full = (it) => { const ans = it.a[0]; if (it.split) { const p = ans.split(" "); return it.s.replace("___", p[0]).replace("___", p.slice(1).join(" ")); } return it.s.replace("___", ans); };
+  if (a.audio) el.querySelectorAll("[data-au]").forEach((sp) => sp.appendChild(play(full(a.items[sp.closest(".q").dataset.i]), a.voice || "tch", "🔊")));
+  el.querySelector("#gS").onclick = () => {
+    let ok = 0;
+    a.items.forEach((it, i) => {
+      const ins = Array.from(el.querySelectorAll(`.q[data-i="${i}"] input`)); const got = norm(ins.map((x) => x.value).join(" "));
+      const good = it.a.some((x) => norm(x) === got); if (good) ok++;
+      ins.forEach((x) => { x.classList.remove("ok", "no"); x.classList.add(good ? "ok" : "no"); });
+      el.querySelector(`.q[data-i="${i}"] .ex`).innerHTML = good ? "" : `Đáp án: <b>${esc(it.a.join(" / "))}</b>`;
+    });
+    const sc = Math.round((ok / a.items.length) * 100); el.querySelector("#gR").innerHTML = resultBox(sc, true); fin(sc);
+  };
+};
+
+/* ---- ghép đôi ---- */
+R.match = (a, el, fin) => {
+  const P = a.pairs; let pick = null, left = P.length, err = 0;
+  el.innerHTML = `<p class="muted">Bấm một từ bên trái rồi bấm ${a.emoji ? "hình" : "nghĩa"} đúng bên phải.</p><div class="grid2"><div id="l" style="display:grid;gap:8px"></div><div id="r" style="display:grid;gap:8px;${a.emoji ? "grid-template-columns:repeat(3,1fr)" : ""}"></div></div><div id="mR"></div>`;
+  shuffle(P.map((_, i) => i)).forEach((i) => { const t = document.createElement("div"); t.className = "tile"; t.textContent = P[i][0]; t.onclick = () => { if (t.classList.contains("ok")) return; el.querySelectorAll("#l .tile").forEach((x) => x.classList.remove("sel")); t.classList.add("sel"); pick = { i, t }; speak(P[i][0], "tch"); }; el.querySelector("#l").appendChild(t); });
+  shuffle(P.map((_, i) => i)).forEach((i) => { const t = document.createElement("div"); t.className = "tile"; t.textContent = P[i][1]; if (a.emoji) t.style.fontSize = "30px"; t.onclick = () => { if (!pick || t.classList.contains("ok")) return; if (pick.i === i) { t.classList.add("ok"); pick.t.classList.add("ok"); pick = null; if (--left === 0) { const sc = Math.max(0, Math.round(((P.length - err) / P.length) * 100)); el.querySelector("#mR").innerHTML = resultBox(sc, true); fin(sc); } } else { err++; t.classList.remove("no"); void t.offsetWidth; t.classList.add("no"); } }; el.querySelector("#r").appendChild(t); });
+};
+
+/* ---- bài đọc PET Part 4 ---- */
+R.read = (a, el, fin) => {
+  const T = a.text, opts = shuffle(T.gaps.map((g, i) => ({ g, i })).concat(T.extra.map((g) => ({ g, i: -1 })))), L = "ABCDEFGH";
+  el.innerHTML = `<div class="row" style="margin-bottom:8px" id="au"></div><h3>${esc(T.title)}</h3>` +
+    T.paras.map((p) => `<p class="para">${esc(p).replace(/\[(\d)\]/g, (_, n) => `<b>(${n})</b> <select data-g="${n - 1}"><option value="">– chọn –</option>${opts.map((o, k) => `<option value="${k}">${L[k]}</option>`).join("")}</select>`)}</p>`).join("") +
+    `<div class="tr">${opts.map((o, k) => `<p><b>${L[k]}</b>&nbsp; ${esc(o.g)}</p>`).join("")}</div><div class="row" style="margin-top:12px"><button class="btn big" id="rS">Nộp bài</button></div><div id="rR"></div>`;
+  el.querySelector("#au").appendChild(play(T.full, T.voice, "🔊 Nghe cả bài (sau khi làm xong)"));
+  el.querySelector("#rS").onclick = () => { let ok = 0; el.querySelectorAll("select").forEach((s) => { const g = +s.dataset.g; const good = s.value !== "" && opts[+s.value].i === g; if (good) ok++; s.style.background = good ? "var(--green-s)" : "#ffe4e6"; if (!good) s.insertAdjacentHTML("afterend", ` <span class="small w-no">→ ${L[opts.findIndex((o) => o.i === g)]}</span>`); }); const sc = Math.round((ok / T.gaps.length) * 100); el.querySelector("#rS").disabled = true; el.querySelector("#rR").innerHTML = resultBox(sc, true); fin(sc); };
+};
+
+/* ---- chép chính tả ---- */
+R.dict = (a, el, fin) => {
+  el.innerHTML = `<p class="muted">Nghe câu (bấm 🐢 để nghe chậm), gõ lại chính xác. Nghe bao nhiêu lần cũng được.</p>` + a.items.map((s, i) => `<div class="q" data-i="${i}"><div class="row"><b>${i + 1}.</b><span data-p></span><input class="t" style="flex:1;min-width:220px" autocomplete="off"></div><div class="ex" style="margin-top:6px"></div></div>`).join("") + `<div class="row" style="margin-top:12px"><button class="btn big" id="dS">Kiểm tra</button></div><div id="dR"></div>`;
+  el.querySelectorAll("[data-p]").forEach((sp) => { const s = a.items[sp.closest(".q").dataset.i]; sp.appendChild(play(s, a.voice)); const b = play(s, a.voice, "🐢"); b.onclick = () => { stopSpeak(); speak(s, a.voice, 0.65); }; sp.appendChild(b); });
+  el.querySelector("#dS").onclick = () => { let tot = 0; a.items.forEach((s, i) => { const q = el.querySelector(`.q[data-i="${i}"]`); const c = compare(s, q.querySelector("input").value); tot += c.pct; q.querySelector(".ex").innerHTML = (c.pct === 100 ? '<span class="w-ok">✓ Chính xác</span>' : `${c.html} <span class="small muted">(${c.pct}% – chữ gạch đỏ là chữ em viết thiếu hoặc sai)</span>`); }); const sc = Math.round(tot / a.items.length); el.querySelector("#dR").innerHTML = resultBox(sc, true); fin(sc); };
+};
+
+/* ---- shadowing ---- */
+R.shadow = (a, el, fin) => {
+  const res = {};
+  el.innerHTML = `<p class="muted">Nghe câu mẫu → bấm 🎙 và nói theo ngay, cùng tốc độ và ngữ điệu. ${SRC ? "Máy sẽ đánh dấu chữ nghe chưa rõ (màu đỏ)." : "Trình duyệt này chưa nhận dạng giọng nói – em tự nghe lại và tự chấm."}</p>` +
+    a.items.map((s, i) => `<div class="q" data-i="${i}"><div class="row"><b>${i + 1}.</b><span style="flex:1;font-size:17px">${esc(s)}</span><span data-p></span><button class="btn sm red" data-r>🎙 Nói theo</button></div><div class="ex" style="margin-top:6px"></div></div>`).join("") + `<div id="sR"></div>`;
+  el.querySelectorAll("[data-p]").forEach((sp) => { const s = a.items[sp.closest(".q").dataset.i]; sp.appendChild(play(s, a.voice)); });
+  el.querySelectorAll("[data-r]").forEach((b) => { let r = null, auto = null;
+    b.onclick = async () => {
+      const q = b.closest(".q"), i = +q.dataset.i, s = a.items[i], ex = q.querySelector(".ex");
+      if (!r) { r = recorder(); try { await r.start(); } catch (e) { r = null; return micErr(ex); } b.innerHTML = '<span class="rec-dot"></span> Dừng'; auto = setTimeout(() => b.click(), Math.max(3000, words(s).length * 700)); return; }
+      clearTimeout(auto); const rr = r; r = null; const o = await rr.stop(); b.innerHTML = "🎙 Nói lại";
+      if (o.sr && o.text) { const c = compare(s, o.text); res[i] = c.pct; ex.innerHTML = `${c.html} <b class="${c.pct >= 80 ? "w-ok" : ""}">${c.pct}%</b> <audio controls src="${o.url}" style="height:32px;vertical-align:middle"></audio>`; chk(); }
+      else { ex.innerHTML = `<audio controls src="${o.url}" style="height:32px;vertical-align:middle"></audio> Tự chấm: <button class="btn sm gr" data-y>Giống mẫu</button> <button class="btn sm l" data-n>Chưa giống</button>`; ex.querySelector("[data-y]").onclick = () => { res[i] = 100; chk(); }; ex.querySelector("[data-n]").onclick = () => { res[i] = 50; chk(); }; }
+    }; });
+  const chk = () => { if (Object.keys(res).length === a.items.length) { const sc = Math.round(Object.values(res).reduce((x, y) => x + y, 0) / a.items.length); el.querySelector("#sR").innerHTML = doneBox(`Hoàn thành – độ rõ trung bình ${sc}%. Muốn tốt hơn, em bấm 🎙 nói lại câu đỏ.`); fin(null, { pron: sc }); } };
+};
+
+/* ---- ghi âm nói tự do ---- */
+function recBlock(el, a, onSave) {
+  const pre = a.fromWrite ? (S.saved[a.fromWrite] || "") : a.fromForm ? Object.values(S.saved[a.fromForm] || {}).join("\n") : "";
+  el.innerHTML = `<div class="card" style="background:#f7f8fd;box-shadow:none"><div style="font-size:30px">${a.scene || "🎙"}</div><p style="font-size:17px;margin:6px 0"><b>${esc(a.prompt || "")}</b></p>${a.hint ? `<div class="small muted">Gợi ý: ${a.hint.map((h) => `<span class="chip" style="cursor:default">${esc(h)}</span>`).join("")}</div>` : ""}${pre ? `<div class="tr" style="white-space:pre-line">${esc(pre)}</div>` : (a.fromWrite || a.fromForm) ? `<div class="note" style="margin-top:8px">Em chưa làm bài ${esc(a.fromWrite || a.fromForm)} – có thể làm trước để có nội dung đọc.</div>` : ""}</div>
+  <div class="row" style="margin:14px 0"><button class="btn big red" id="rb">🎙 Bắt đầu ghi âm</button><span id="tm" class="pill p-gy">${a.sec ? `${a.sec[0]}–${a.sec[1]} giây` : ""}</span></div><div id="out"></div>`;
+  let r = null, iv = null;
+  el.querySelector("#rb").onclick = async () => {
+    const b = el.querySelector("#rb");
+    if (!r) { r = recorder(); try { await r.start(); } catch (e) { r = null; return micErr(el.querySelector("#out")); } const t0 = Date.now(); b.innerHTML = '<span class="rec-dot"></span> Dừng ghi âm'; iv = setInterval(() => { const s = Math.round((Date.now() - t0) / 1000); el.querySelector("#tm").textContent = `${s} giây`; if (a.sec && s >= a.sec[1] + 15) b.click(); }, 300); cleanup.push(() => clearInterval(iv)); return; }
+    clearInterval(iv); const o = await r.stop(); r = null; b.innerHTML = "🎙 Ghi âm lại";
+    const short = a.sec && o.sec < a.sec[0] * 0.7; let used = [];
+    if (a.target && o.text) used = a.target.filter((w) => norm(o.text).includes(norm(w)));
+    el.querySelector("#out").innerHTML = `<audio controls src="${o.url}"></audio>${o.text ? `<div class="tr small"><b>Máy nghe được:</b> ${esc(o.text)}</div>` : ""}${a.target ? `<p class="small">Từ mới đã dùng: ${used.length ? used.map((w) => `<span class="pill p-gr">${esc(w)}</span>`).join(" ") : "<span class='muted'>(chưa nhận ra – nói rõ hơn nhé)</span>"}</p>` : ""}${short ? `<div class="note">Bài nói hơi ngắn (${Math.round(o.sec)} giây). Em thử nói ít nhất ${a.sec[0]} giây nhé.</div>` : `<button class="btn gr" id="sv">Nộp bài ghi âm</button>`}`;
+    const sv = el.querySelector("#sv"); if (sv) sv.onclick = () => { sv.disabled = true; onSave({ sec: Math.round(o.sec), used: used.length }); };
+  };
+}
+R.rec = (a, el, fin) => recBlock(el, a, (x) => { el.insertAdjacentHTML("beforeend", doneBox("Đã nộp bài ghi âm. Giáo viên sẽ nghe và nhận xét.")); fin(null, x); });
+
+/* ---- nghe + câu hỏi ---- */
+function listenPlayer(el, lines, opts) {
+  opts = opts || {}; let stopped = false, played = 0;
+  el.innerHTML = `<div class="row"><button class="btn" data-pl>▶ Nghe</button><button class="btn l sm" data-st>■ Dừng</button><label class="small"><input type="checkbox" data-tx ${opts.show ? "checked" : ""}> Hiện lời</label><span class="small muted" data-c></span></div><div class="tr" data-tr style="${opts.show ? "" : "display:none"}">${lines.map((l, i) => `<p data-l="${i}"><b>${esc((D.VOICES[l[0]] || {}).name || "")}:</b> ${esc(l[1])}</p>`).join("")}</div>`;
+  const hi = (i) => el.querySelectorAll("[data-l]").forEach((p) => p.classList.toggle("on", +p.dataset.l === i));
+  el.querySelector("[data-tx]").onchange = (e) => (el.querySelector("[data-tr]").style.display = e.target.checked ? "" : "none");
+  el.querySelector("[data-st]").onclick = () => { stopped = true; stopSpeak(); hi(-1); };
+  el.querySelector("[data-pl]").onclick = async () => { stopSpeak(); stopped = false; const ok = await speakLines(lines, hi, () => stopped); if (ok) { played++; el.querySelector("[data-c]").textContent = `Đã nghe ${played} lần`; opts.onEnd && opts.onEnd(played); } };
+  el.querySelectorAll("[data-l]").forEach((p) => (p.onclick = () => { stopSpeak(); const l = lines[+p.dataset.l]; hi(+p.dataset.l); speak(l[1], l[0]).then(() => hi(-1)); }));
+}
+const lns = (t) => (t.lines ? t.lines.map((l) => (Array.isArray(l) ? l : [t.voice || "nar", l])) : []);
+R.listen = (a, el, fin) => { el.innerHTML = `<div id="lp"></div><h3 style="margin-top:14px">Câu hỏi</h3><div id="lq"></div>`; listenPlayer(el.querySelector("#lp"), lns(a.text), { show: a.showText }); mcqBlock(el.querySelector("#lq"), a.qs, (s) => fin(s)); };
+R.pet1 = (a, el, fin) => {
+  el.innerHTML = `<h3>A. Nghe lại bài nghe có lời (bấm từng câu để nghe lại)</h3><div id="lp"></div><h3 style="margin-top:16px">B. PET Listening Part 1 rút gọn – mỗi đoạn nghe tối đa 2 lần, chọn hình đúng</h3><div id="pq"></div>`;
+  listenPlayer(el.querySelector("#lp"), lns(a.text), { show: true });
+  const pq = el.querySelector("#pq"); const pick = {};
+  pq.innerHTML = a.items.map((it, i) => `<div class="q" data-i="${i}"><div class="row"><b>${i + 1}.</b> ${esc(it.q)} <button class="btn sm l" data-p>🔊 Nghe (2)</button></div><div class="opts">${it.o.map((o, k) => `<button class="opt" style="font-size:26px;min-width:90px" data-k="${k}">${esc(o)}<br><small style="font-size:12px">${"ABC"[k]}</small></button>`).join("")}</div></div>`).join("") + `<button class="btn big" id="pS" style="margin-top:10px">Nộp bài</button><div id="pR"></div>`;
+  pq.querySelectorAll("[data-p]").forEach((b) => { let n = 2; b.onclick = () => { if (!n) return; n--; b.textContent = `🔊 Nghe (${n})`; if (!n) b.disabled = true; const it = a.items[b.closest(".q").dataset.i]; stopSpeak(); speakLines(it.lines); }; });
+  pq.querySelectorAll(".opt").forEach((b) => (b.onclick = () => { const i = b.closest(".q").dataset.i; pick[i] = +b.dataset.k; b.parentNode.querySelectorAll(".opt").forEach((x) => x.classList.toggle("sel", x === b)); }));
+  pq.querySelector("#pS").onclick = () => { let ok = 0; a.items.forEach((it, i) => { const q = pq.querySelector(`.q[data-i="${i}"]`); q.querySelectorAll(".opt").forEach((b) => { const k = +b.dataset.k; if (k === it.a) b.classList.add("ok"); else if (k === pick[i]) b.classList.add("no"); }); if (pick[i] === it.a) ok++; }); const sc = Math.round((ok / a.items.length) * 100); pq.querySelector("#pS").disabled = true; pq.querySelector("#pR").innerHTML = resultBox(sc, true); fin(sc); };
+};
+R.listenmark = (a, el, fin) => {
+  const PH = ["What's your view?", "In my opinion", "That's a good point", "I'd say", "That's true, but", "I'm not sure", "I disagree", "You're right", "Let's choose"]; const on = new Set(); let heard = false;
+  el.innerHTML = `<div id="lp"></div><h3 style="margin-top:14px">Chọn 3 cụm câu em muốn dùng trong bài nói của mình</h3><div id="ch">${PH.map((p) => `<span class="chip" data-p="${esc(p)}">${esc(p)}</span>`).join("")}</div><div class="row" style="margin-top:12px"><button class="btn" id="ok" disabled>Lưu lựa chọn</button><span class="small muted" id="why">Nghe hết bài mẫu ít nhất 1 lần trước nhé.</span></div><div id="o"></div>`;
+  const upd = () => { el.querySelector("#ok").disabled = !(heard && on.size === 3); el.querySelector("#why").textContent = !heard ? "Nghe hết bài mẫu ít nhất 1 lần trước nhé." : on.size !== 3 ? `Đã chọn ${on.size}/3` : ""; };
+  listenPlayer(el.querySelector("#lp"), lns(a.text), { onEnd: () => { heard = true; upd(); } });
+  el.querySelectorAll(".chip").forEach((c) => (c.onclick = () => { const p = c.dataset.p; if (on.has(p)) on.delete(p); else if (on.size < 3) on.add(p); c.classList.toggle("on", on.has(p)); upd(); }));
+  el.querySelector("#ok").onclick = () => { S.saved[a.id] = [...on]; el.querySelector("#o").innerHTML = doneBox("Đã lưu 3 cụm câu. Em sẽ thấy lại chúng khi ghi âm bài nói."); fin(null); };
+};
+
+/* ---- cụm câu chức năng ---- */
+R.phrases = (a, el, fin) => {
+  const all = []; a.groups.forEach((g) => g[1].forEach((p) => all.push(p))); const done = new Set();
+  el.innerHTML = a.groups.map((g) => `<h3 style="margin-top:12px">${esc(g[0])}</h3>` + g[1].map((p) => `<div class="q" data-p="${esc(p)}"><div class="row"><span style="flex:1;font-size:17px">${esc(p)}</span><span data-pl></span><button class="btn sm red" data-r>🎙</button><span data-ok></span></div><div class="ex small"></div></div>`).join("")).join("") + `<div id="pR"></div>`;
+  el.querySelectorAll(".q").forEach((q) => { const p = q.dataset.p; q.querySelector("[data-pl]").appendChild(play(p, "tch")); q.querySelector("[data-r]").onclick = async (e) => { const b = e.currentTarget, r = recorder(); try { await r.start(); } catch (er) { return micErr(q.querySelector(".ex")); } b.innerHTML = '<span class="rec-dot"></span>'; setTimeout(async () => { const o = await r.stop(); b.textContent = "🎙"; const c = o.sr && o.text ? compare(p, o.text) : null; q.querySelector(".ex").innerHTML = (c ? c.html + ` <b>${c.pct}%</b> ` : "") + `<audio controls src="${o.url}" style="height:30px;vertical-align:middle"></audio>`; done.add(p); q.querySelector("[data-ok]").textContent = "✓"; if (done.size === all.length) { el.querySelector("#pR").innerHTML = doneBox("Đã luyện hết các cụm câu."); fin(null); } }, Math.max(2500, words(p).length * 650)); }; });
+};
+
+/* ---- hội thoại điền + ghi âm vai ---- */
+R.dialog = (a, el, fin) => {
+  const recs = {}; let checked = false;
+  el.innerHTML = `<p class="muted">Bước 1: chọn cụm câu cho lượt của em. Bước 2: ghi âm từng lượt của em. Bước 3: nghe cả hội thoại.</p>` + a.lines.map((l, i) => l[0] === "you" ? `<div class="q" data-i="${i}"><b>Em:</b> ${esc(l[1]).replace("___", `<select data-s><option value="">– chọn –</option>${l[2].map((o, k) => `<option value="${k}">${esc(o)}</option>`).join("")}</select>`)} <button class="btn sm red" data-r disabled>🎙 Ghi âm</button> <span data-a></span></div>` : `<div class="q" data-i="${i}"><b>${esc(D.VOICES[l[0]].name)}:</b> ${esc(l[1])} <span data-p></span></div>`).join("") +
+    `<div class="row" style="margin-top:12px"><button class="btn" id="ck">Kiểm tra bước 1</button><button class="btn l" id="all" disabled>▶ Nghe cả hội thoại</button></div><div id="dR"></div>`;
+  el.querySelectorAll("[data-p]").forEach((sp) => { const l = a.lines[sp.closest(".q").dataset.i]; sp.appendChild(play(l[1], l[0])); });
+  let sc = 0;
+  el.querySelector("#ck").onclick = () => { let ok = 0, n = 0; a.lines.forEach((l, i) => { if (l[0] !== "you") return; n++; const s = el.querySelector(`.q[data-i="${i}"] select`); const good = +s.value === l[3] && s.value !== ""; if (good) ok++; s.style.background = good ? "var(--green-s)" : "#ffe4e6"; if (!good) s.value = String(l[3]); }); sc = Math.round((ok / n) * 100); checked = true; el.querySelectorAll("[data-r]").forEach((b) => (b.disabled = false)); el.querySelector("#dR").innerHTML = `<div class="note">Bước 1: ${sc}% (đáp án đúng đã được điền sẵn). Giờ em ghi âm từng lượt của mình.</div>`; };
+  const txt = (i) => { const l = a.lines[i]; return l[1].replace("___", l[2][l[3]]); };
+  el.querySelectorAll("[data-r]").forEach((b) => (b.onclick = async () => { const i = b.closest(".q").dataset.i, r = recorder(); try { await r.start(); } catch (e) { return micErr(el.querySelector("#dR")); } b.innerHTML = '<span class="rec-dot"></span>'; setTimeout(async () => { const o = await r.stop(); recs[i] = o.url; b.textContent = "🎙 Lại"; b.parentNode.querySelector("[data-a]").innerHTML = `<audio controls src="${o.url}" style="height:30px;vertical-align:middle"></audio>`; const need = a.lines.filter((l) => l[0] === "you").length; if (Object.keys(recs).length === need) { el.querySelector("#all").disabled = false; el.querySelector("#dR").innerHTML = doneBox("Em đã ghi âm đủ các lượt. Bấm ▶ để nghe cả hội thoại."); fin(sc); } }, Math.max(3000, words(txt(i)).length * 650)); }));
+  el.querySelector("#all").onclick = async () => { stopSpeak(); for (let i = 0; i < a.lines.length; i++) { const l = a.lines[i]; if (l[0] === "you") { await new Promise((res) => { const au = new Audio(recs[i]); au.onended = au.onerror = res; au.play().catch(res); }); } else await speak(l[1], l[0]); } };
+};
+
+/* ---- bài giảng ngắn ---- */
+R.slides = (a, el, fin) => {
+  let i = 0; const C = a.g.cards;
+  const show = () => { if (i >= C.length) { el.innerHTML = `<h3>5 câu kiểm tra hiểu</h3><div id="ck"></div>`; mcqBlock(el.querySelector("#ck"), a.g.check, (s) => fin(s)); return; }
+    const c = C[i]; el.innerHTML = `<div class="steps">${C.map((_, k) => `<span class="${k < i ? "done" : k === i ? "on" : ""}">${k + 1}</span>`).join("")}<span>✓ Kiểm tra</span></div><div class="card" style="background:#f7f8fd;box-shadow:none"><h3 style="color:var(--blue);font-size:20px">${esc(c.h)}</h3>${c.ex.map((e) => `<p style="font-size:18px" class="row"><span data-e="${esc(e)}"></span> ${esc(e)}</p>`).join("")}<div class="note">💡 ${esc(c.tip)}</div></div><div class="row" style="margin-top:12px;justify-content:space-between"><button class="btn l" id="pv" ${i ? "" : "disabled"}>← Trước</button><button class="btn" id="nx">${i < C.length - 1 ? "Tiếp →" : "Làm 5 câu kiểm tra →"}</button></div>`;
+    el.querySelectorAll("[data-e]").forEach((sp) => sp.appendChild(play(sp.dataset.e, "tch"))); el.querySelector("#pv").onclick = () => { i--; show(); }; el.querySelector("#nx").onclick = () => { i++; show(); };
+    (async () => { for (const e of c.ex) { if (!$("ov").classList.contains("on")) break; await speak(e, "tch"); } })(); };
+  show();
+};
+
+/* ---- thẻ ôn ---- */
+R.flash = (a, el, fin) => {
+  let q = shuffle(a.words.map((_, i) => i)), again = 0;
+  const show = () => { if (!q.length) { el.innerHTML = `<div class="center"><div class="big-e">🌟</div><h3>Ôn xong ${a.words.length} thẻ!</h3><p class="muted">Có ${again} lần “chưa nhớ” – các thẻ này sẽ quay lại sớm hơn.</p></div>` + doneBox(); return fin(null, { again }); }
+    const w = a.words[q[0]]; el.innerHTML = `<div class="center"><p class="muted">Còn ${q.length} thẻ · nhìn hình, nhớ từ rồi lật thẻ</p><div class="card" id="fc" style="cursor:pointer;min-height:200px;display:flex;flex-direction:column;justify-content:center;align-items:center"><div class="big-e">${w.e}</div><div class="muted">${esc(w.vi)}</div><div id="bk" style="display:none"><div class="word">${esc(w.w)}</div></div><p class="small muted" id="hint">Bấm để lật thẻ</p></div><div class="row" style="justify-content:center;margin-top:12px;display:none" id="bt"><button class="btn l" id="no">😕 Chưa nhớ</button><button class="btn gr" id="ok">😎 Nhớ rồi</button></div></div>`;
+    el.querySelector("#fc").onclick = () => { el.querySelector("#bk").style.display = ""; el.querySelector("#hint").style.display = "none"; el.querySelector("#bt").style.display = "flex"; speak(w.w, "tch"); };
+    el.querySelector("#ok").onclick = () => { q.shift(); show(); }; el.querySelector("#no").onclick = () => { again++; q.push(q.shift()); show(); }; };
+  show();
+};
+
+/* ---- viết ---- */
+R.write = (a, el, fin) => {
+  const ol = a.outline && S.saved[a.outline]; const prev = S.saved[a.id] || "";
+  el.innerHTML = `<div class="card" style="background:#f7f8fd;box-shadow:none"><b>${esc(a.prompt)}</b>${ol ? `<div class="tr small" style="white-space:pre-line"><b>Dàn ý em đã lập:</b>\n${esc(Object.values(ol).join("\n"))}</div>` : ""}</div>
+  <textarea id="tx" style="min-height:220px;margin-top:12px" placeholder="Viết bài của em ở đây…">${esc(prev)}</textarea>
+  <div class="row small"><span class="pill p-bl" id="wc"></span><span id="mu"></span></div>
+  <h3 style="margin-top:12px">Tự soát trước khi nộp</h3>${a.checks.map((c, i) => `<label class="row" style="margin:4px 0"><input type="checkbox" data-c="${i}"> ${esc(c)}</label>`).join("")}
+  <div class="row" style="margin-top:12px"><button class="btn big" id="sb" disabled>Nộp bài viết</button><span class="small muted" id="why"></span></div><div id="wR"></div>`;
+  const tx = el.querySelector("#tx");
+  const upd = () => { const n = words(tx.value).length; const wc = el.querySelector("#wc"); wc.textContent = `${n} từ (cần ${a.minW}–${a.maxW})`; wc.className = "pill " + (n >= a.minW && n <= a.maxW ? "p-gr" : "p-or");
+    let mOk = true; if (a.must) { const got = a.must[0].filter((p) => norm(tx.value).includes(norm(p))); mOk = got.length >= a.must[1]; el.querySelector("#mu").innerHTML = `Cấu trúc yêu cầu: ${got.length}/${a.must[1]} ${got.map((g) => `<span class="pill p-gr">${esc(g)}</span>`).join(" ")}`; }
+    const allC = [...el.querySelectorAll("[data-c]")].every((c) => c.checked); const ok = n >= a.minW && mOk && allC;
+    el.querySelector("#sb").disabled = !ok; el.querySelector("#why").textContent = ok ? "" : n < a.minW ? "Bài còn ngắn." : !mOk ? "Dùng thêm cấu trúc yêu cầu." : "Đánh dấu đủ các mục tự soát."; S.saved[a.id] = tx.value; save(); };
+  tx.oninput = upd; el.querySelectorAll("[data-c]").forEach((c) => (c.onchange = upd)); upd();
+  el.querySelector("#sb").onclick = () => { el.querySelector("#wR").innerHTML = doneBox("Đã nộp bài viết cho giáo viên. Em có thể sửa và nộp lại."); fin(null, { words: words(tx.value).length }); };
+};
+R.upgrade = (a, el, fin) => {
+  el.innerHTML = `<p class="muted">Nối 2 câu thành 1 câu dài hơn bằng từ nối gợi ý.</p>` + a.items.map((it, i) => `<div class="q" data-i="${i}"><div>${esc(it[0])} + ${esc(it[1])} <span class="pill p-bl">${esc(it[2])}</span></div><input class="t" style="width:100%;margin-top:6px" autocomplete="off"><div class="ex small"></div></div>`).join("") + `<button class="btn big" id="uS" style="margin-top:10px">Kiểm tra</button><div id="uR"></div>`;
+  el.querySelector("#uS").onclick = () => { let ok = 0; a.items.forEach((it, i) => { const q = el.querySelector(`.q[data-i="${i}"]`), v = q.querySelector("input").value; const link = it[2].split("/").map((x) => x.trim()).some((x) => (" " + norm(v) + " ").includes(" " + x + " ")); const long = words(v).length >= Math.round((words(it[0]).length + words(it[1]).length) * 0.7); const good = link && long; if (good) ok++; q.querySelector("input").className = "t " + (good ? "ok" : "no"); q.querySelector(".ex").innerHTML = good ? "✓ Tốt!" : !link ? "Em cần dùng một từ nối gợi ý." : "Câu còn thiếu ý của một trong hai câu."; }); if (ok === a.items.length) { el.querySelector("#uR").innerHTML = doneBox("Câu của em đã thành câu phức."); fin(null); } else el.querySelector("#uR").innerHTML = `<div class="note">Đúng ${ok}/${a.items.length}. Sửa câu chưa đạt rồi bấm Kiểm tra lại.</div>`; };
+};
+R.form = (a, el, fin) => {
+  const prev = S.saved[a.id] || {};
+  el.innerHTML = `<div class="card" style="background:#f7f8fd;box-shadow:none"><b>${esc(a.prompt)}</b></div>` + a.fields.map((f, i) => `<div style="margin-top:10px"><b>${esc(f[0])}</b>${(a.big || []).includes(i) || i > 0 ? `<textarea data-f="${i}" placeholder="${esc(f[1])}" style="min-height:${(a.big || []).includes(i) ? 120 : 60}px">${esc(prev[i] || "")}</textarea>` : `<input class="t" style="width:100%" data-f="${i}" placeholder="${esc(f[1])}" value="${esc(prev[i] || "")}">`}</div>`).join("") + `<div class="row" style="margin-top:12px"><button class="btn big" id="fS">Lưu</button><span class="small muted" id="fw"></span></div><div id="fR"></div>`;
+  el.querySelector("#fS").onclick = () => { const v = {}; let ok = true; el.querySelectorAll("[data-f]").forEach((x) => { v[x.dataset.f] = x.value.trim(); if (x.value.trim().length < 3) ok = false; }); S.saved[a.id] = v; save(); if (!ok) { el.querySelector("#fw").textContent = "Em điền đủ tất cả các ô nhé (đã lưu tạm)."; return; } el.querySelector("#fR").innerHTML = doneBox("Đã lưu – nội dung này sẽ hiện ra khi em ghi âm hoặc viết bài."); fin(null); };
+};
+R.select = (a, el, fin) => {
+  const sents = []; a.text.text.forEach((p, pi) => (p.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [p]).forEach((s) => sents.push({ s: s.trim(), pi })));
+  let mode = 0; const tag = {};
+  el.innerHTML = `<div class="row">${a.tasks.map((t, i) => `<button class="btn sm ${i ? "l" : ""}" data-m="${i}"><span class="sent t${i}">■</span> ${esc(t.label)}</button>`).join("")}</div><p class="small muted">Chọn loại ở trên, rồi bấm vào câu trong email. Bấm lại để bỏ chọn.</p><div class="row" id="au"></div><div class="tr" style="font-size:16.5px">${a.text.text.map((_, pi) => `<p>${sents.map((x, k) => (x.pi === pi ? `<span class="sent" data-k="${k}">${esc(x.s)}</span> ` : "")).join("")}</p>`).join("")}</div><button class="btn big" id="sS" style="margin-top:10px">Kiểm tra</button><div id="sR"></div>`;
+  el.querySelector("#au").appendChild(play(a.text.text.join(" "), a.text.voice, "🔊 Nghe email"));
+  el.querySelectorAll("[data-m]").forEach((b) => (b.onclick = () => { mode = +b.dataset.m; el.querySelectorAll("[data-m]").forEach((x) => x.classList.toggle("l", x !== b)); }));
+  el.querySelectorAll(".sent[data-k]").forEach((s) => (s.onclick = () => { const k = s.dataset.k; if (tag[k] === mode) delete tag[k]; else tag[k] = mode; s.className = "sent" + (tag[k] != null ? " t" + tag[k] : ""); }));
+  el.querySelector("#sS").onclick = () => { let ok = 0, need = 0, wrong = 0; a.tasks.forEach((t, ti) => { const n = t.need || t.ans.length; need += n; let got = 0; Object.entries(tag).forEach(([k, m]) => { if (m !== ti) return; if (t.ans.some((x) => norm(x) === norm(sents[k].s))) got++; else wrong++; }); ok += Math.min(got, n); }); const sc = Math.max(0, Math.round(((ok - wrong * 0.5) / need) * 100)); el.querySelector("#sR").innerHTML = resultBox(sc, true) + (sc < 100 ? `<div class="small muted" style="margin-top:6px">Gợi ý: câu mở đầu thường cảm ơn thư của bạn; lời khuyên dùng should / could / Why don't you / How about.</div>` : ""); fin(sc); };
+};
+
+/* ---- nghe ngấm ---- */
+R.playlist = (a, el, fin) => {
+  const L = [].concat(...a.items.map((k) => linesOf(k))); const rounds = a.rounds || 2; let n = 0, stop = false;
+  el.innerHTML = `<p class="muted">Lần 1: chỉ nghe, không nhìn chữ. Lần 2: nghe và nhìn lời. Em có thể vừa nghe vừa làm việc nhẹ.</p><div class="row"><button class="btn big" id="go">▶ Nghe lần 1</button><button class="btn l" id="st">■ Dừng</button><span class="pill p-gy" id="c">${L.length} đoạn · ${a.items.map((k) => D.T[k].title).join(" · ")}</span></div><div class="tr" id="tr" style="display:none">${L.map((l, i) => `<p data-l="${i}"><b>${esc((D.VOICES[l[0]] || {}).name || "")}:</b> ${esc(l[1])}</p>`).join("")}</div><div id="pR"></div>`;
+  const hi = (i) => el.querySelectorAll("[data-l]").forEach((p) => { p.classList.toggle("on", +p.dataset.l === i); if (+p.dataset.l === i) p.scrollIntoView({ block: "nearest" }); });
+  el.querySelector("#st").onclick = () => { stop = true; stopSpeak(); };
+  el.querySelector("#go").onclick = async () => { stop = false; stopSpeak(); const b = el.querySelector("#go"); b.disabled = true; el.querySelector("#tr").style.display = n >= 1 ? "" : "none"; const ok = await speakLines(L, hi, () => stop); b.disabled = false; if (!ok) return; n++; if (n < rounds) { b.textContent = `▶ Nghe lần ${n + 1} (có lời)`; } else { b.textContent = "▶ Nghe tiếp"; el.querySelector("#pR").innerHTML = doneBox(`Em đã nghe ${n} lần.`); fin(null); } };
+};
+R.rate = (a, el, fin) => {
+  const sc = {};
+  el.innerHTML = `<div class="note">${esc(a.note)}</div>` + a.samples.map((s, i) => `<div class="q" data-i="${i}"><div class="row"><b>${esc(s.who)}</b><span data-p></span></div>${a.crit.map((c, j) => `<div class="row small" style="margin-top:4px"><span style="min-width:280px">${esc(c)}</span>${[1, 2, 3, 4, 5].map((v) => `<span class="star" data-c="${j}" data-v="${v}">★</span>`).join("")}</div>`).join("")}<input class="t" style="width:100%;margin-top:6px" placeholder="1 câu nhận xét cho bạn (tiếng Anh hoặc tiếng Việt)"></div>`).join("") + `<button class="btn big" id="rS" style="margin-top:10px">Gửi nhận xét</button><div id="rR"></div>`;
+  el.querySelectorAll("[data-p]").forEach((sp) => { const s = a.samples[sp.closest(".q").dataset.i]; sp.appendChild(play(s.text, s.voice, "▶ Nghe bài nói")); });
+  el.querySelectorAll(".star").forEach((st) => (st.onclick = () => { const i = st.closest(".q").dataset.i, c = st.dataset.c, v = +st.dataset.v; sc[i + "-" + c] = v; st.parentNode.querySelectorAll(".star").forEach((x) => x.classList.toggle("on", +x.dataset.v <= v)); }));
+  el.querySelector("#rS").onclick = () => { if (Object.keys(sc).length < a.samples.length * a.crit.length) { el.querySelector("#rR").innerHTML = `<div class="note">Em chấm đủ sao cho cả 2 bạn nhé.</div>`; return; } el.querySelector("#rR").innerHTML = doneBox("Đã gửi nhận xét."); fin(null); };
+};
+R.selfcheck = (a, el, fin) => {
+  const v = {}; let rec = !a.prompt;
+  el.innerHTML = a.items.map((t, i) => `<div class="q row" data-i="${i}"><span style="flex:1">${esc(t)}</span>${["😟 Chưa", "🙂 Tạm", "😎 Tốt"].map((x, k) => `<button class="opt" data-k="${k}">${x}</button>`).join("")}</div>`).join("") + (a.prompt ? `<h3 style="margin-top:14px">Ghi âm 1 phút</h3><div id="rc"></div>` : "") + `<button class="btn big" id="cS" style="margin-top:10px">Lưu</button><div id="cR"></div>`;
+  el.querySelectorAll(".opt").forEach((b) => (b.onclick = () => { v[b.closest(".q").dataset.i] = +b.dataset.k; b.parentNode.querySelectorAll(".opt").forEach((x) => x.classList.toggle("sel", x === b)); }));
+  if (a.prompt) recBlock(el.querySelector("#rc"), { prompt: a.prompt, sec: [30, 70], scene: "🪞" }, () => { rec = true; el.querySelector("#rc").insertAdjacentHTML("beforeend", '<p class="w-ok">✓ Đã lưu bài ghi âm</p>'); });
+  el.querySelector("#cS").onclick = () => { if (Object.keys(v).length < a.items.length || !rec) { el.querySelector("#cR").innerHTML = `<div class="note">Em chọn mức cho tất cả các mục${a.prompt ? " và nộp bài ghi âm" : ""} nhé.</div>`; return; } S.saved[a.id] = v; el.querySelector("#cR").innerHTML = doneBox(); fin(null); };
+};
+R.story = (a, el, fin) => {
+  const T = D.T[a.story]; let stop = false;
+  el.innerHTML = `<div class="row"><button class="btn" id="pl">▶ Nghe và đọc theo</button><button class="btn l sm" id="st">■ Dừng</button><span class="small muted">Chữ được tô vàng theo giọng đọc. Em có thể đọc thầm trước rồi nghe.</span></div><h3 style="margin-top:12px">📖 ${esc(T.title)}</h3><div class="tr" style="font-size:18px;line-height:1.7">${T.text.map((x, i) => `<span class="sent" data-l="${i}">${esc(x)}</span> `).join("")}</div><h3 style="margin-top:14px">Câu hỏi</h3><div id="sq"></div>`;
+  const hi = (i) => el.querySelectorAll("[data-l]").forEach((p) => p.classList.toggle("on", +p.dataset.l === i));
+  el.querySelectorAll("[data-l]").forEach((p) => (p.onclick = () => { stopSpeak(); hi(+p.dataset.l); speak(T.text[+p.dataset.l], "nar").then(() => hi(-1)); }));
+  el.querySelector("#st").onclick = () => { stop = true; stopSpeak(); hi(-1); };
+  el.querySelector("#pl").onclick = () => { stopSpeak(); stop = false; speakLines(T.text.map((x) => ["nar", x]), hi, () => stop); };
+  mcqBlock(el.querySelector("#sq"), a.qs, (s) => fin(s));
+};
+R.todo = (a, el) => { el.innerHTML = `<p>Dạng bài ${esc(a.k)} chưa có trong bản thử.</p>`; };
+
+/* ---------------- LỒNG TIẾNG / VIDEO ---------------- */
+function scene(clip, cv) {
+  const ctx = cv.getContext("2d"), W = cv.width, H = cv.height;
+  const st = { line: -1, prog: 0, amp: 0, title: true, end: false, cue: "", name: S.name || "Học sinh IVY" };
+  function face(x, y, s, amp, t) {
+    ctx.save(); ctx.translate(x, y + Math.sin(t / 500) * 3);
+    ctx.fillStyle = "#0b16b0"; ctx.beginPath(); ctx.roundRect(-s * 0.75, s * 0.85, s * 1.5, s * 1.1, s * 0.4); ctx.fill(); // áo
+    ctx.fillStyle = "#fff"; ctx.font = `bold ${s * 0.22}px sans-serif`; ctx.textAlign = "center"; ctx.fillText("IVY", 0, s * 1.35);
+    ctx.fillStyle = clip.skin; ctx.beginPath(); ctx.arc(0, 0, s, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = clip.hair; ctx.beginPath(); ctx.arc(0, -s * 0.12, s * 1.02, Math.PI * 1.05, Math.PI * 1.95); ctx.fill();
+    if (clip.who === "mai") { ctx.beginPath(); ctx.ellipse(-s * 0.95, s * 0.2, s * 0.22, s * 0.6, 0.2, 0, Math.PI * 2); ctx.ellipse(s * 0.95, s * 0.2, s * 0.22, s * 0.6, -0.2, 0, Math.PI * 2); ctx.fill(); }
+    const blink = (t % 3800) < 140; ctx.fillStyle = "#1b1b2f";
+    [-1, 1].forEach((d) => { ctx.beginPath(); if (blink) ctx.fillRect(d * s * 0.35 - s * 0.1, -s * 0.05, s * 0.2, s * 0.03); else ctx.arc(d * s * 0.35, -s * 0.05, s * 0.09, 0, Math.PI * 2); ctx.fill(); });
+    ctx.fillStyle = "rgba(255,120,120,.35)"; [-1, 1].forEach((d) => { ctx.beginPath(); ctx.arc(d * s * 0.55, s * 0.22, s * 0.12, 0, Math.PI * 2); ctx.fill(); });
+    ctx.fillStyle = "#8a2533"; ctx.beginPath(); ctx.ellipse(0, s * 0.4, s * 0.2, Math.max(s * 0.03, s * 0.28 * amp), 0, 0, Math.PI * 2); ctx.fill();
+    ctx.restore();
+  }
+  function wrap(text, maxW) { const ws = text.split(" "), out = []; let l = ""; ws.forEach((w) => { const t = l ? l + " " + w : w; if (ctx.measureText(t).width > maxW && l) { out.push(l); l = w; } else l = t; }); if (l) out.push(l); return out; }
+  function draw(t) {
+    const g = ctx.createLinearGradient(0, 0, W, H); g.addColorStop(0, clip.bg[0]); g.addColorStop(1, clip.bg[1]); ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    ctx.font = "54px serif"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    clip.props.forEach((p, i) => ctx.fillText(p, W * (0.62 + 0.13 * i), H * 0.3 + Math.sin(t / 700 + i * 2) * 10 + (i % 2) * 70));
+    ctx.textBaseline = "alphabetic";
+    if (clip.narrator) { ctx.font = "120px serif"; ctx.fillText(clip.props[Math.max(0, st.line) % clip.props.length], W * 0.3, H * 0.5); } else face(W * 0.3, H * 0.42, H * 0.2, st.amp, t);
+    ctx.fillStyle = "rgba(11,22,176,.9)"; ctx.font = "bold 18px sans-serif"; ctx.textAlign = "left"; ctx.fillText("IVY Dub · " + clip.title, 18, 30);
+    if (st.line >= 0) {
+      const txt = clip.lines[st.line]; ctx.font = "bold 26px sans-serif"; const ls = wrap(txt, W - 80); const bh = ls.length * 34 + 22;
+      ctx.fillStyle = "rgba(0,0,0,.62)"; ctx.beginPath(); ctx.roundRect(30, H - bh - 16, W - 60, bh, 14); ctx.fill();
+      let done = Math.floor(st.prog * txt.length); ctx.textAlign = "center";
+      ls.forEach((l, k) => { const y = H - bh - 16 + 36 + k * 34; const wTot = ctx.measureText(l).width; let x = W / 2 - wTot / 2; ctx.textAlign = "left"; for (const ch of l + " ") { ctx.fillStyle = done-- > 0 ? "#ffd84d" : "#fff"; ctx.fillText(ch, x, y); x += ctx.measureText(ch).width; } });
+    }
+    if (st.cue) { ctx.fillStyle = "#d7192a"; ctx.beginPath(); ctx.roundRect(W - 210, 14, 192, 34, 17); ctx.fill(); ctx.fillStyle = "#fff"; ctx.font = "bold 17px sans-serif"; ctx.textAlign = "center"; ctx.fillText(st.cue, W - 114, 37); }
+    if (st.title || st.end) { ctx.fillStyle = "rgba(7,14,122,.88)"; ctx.fillRect(0, 0, W, H); ctx.fillStyle = "#fff"; ctx.textAlign = "center"; ctx.font = "bold 40px sans-serif"; ctx.fillText(st.end ? "Well done! 🎉" : clip.title, W / 2, H / 2 - 18); ctx.font = "22px sans-serif"; ctx.fillText(st.end ? `${st.name} · IVY English · ${new Date().toLocaleDateString("vi-VN")}` : `Lồng tiếng: ${st.name}`, W / 2, H / 2 + 24); }
+  }
+  let raf = 0; const loop = (t) => { draw(t); raf = requestAnimationFrame(loop); }; raf = requestAnimationFrame(loop);
+  cleanup.push(() => cancelAnimationFrame(raf));
+  return st;
+}
+const lineDur = (s) => Math.max(2.4, words(s).length * 0.5 + 1.1);
+function pickMime() { const c = ["video/mp4;codecs=avc1,mp4a", "video/mp4", "video/webm;codecs=vp9,opus", "video/webm;codecs=vp8,opus", "video/webm"]; return c.find((m) => window.MediaRecorder && MediaRecorder.isTypeSupported(m)) || ""; }
+const GALLERY = [];
+async function modelPlay(clip, st, isStop) {
+  const voice = clip.who === "nar" ? "nar" : clip.who; st.title = false;
+  for (let i = 0; i < clip.lines.length; i++) { if (isStop()) break; st.line = i; st.prog = 0; const t0 = performance.now(), est = lineDur(clip.lines[i]) * 1000 * 0.8;
+    const iv = setInterval(() => { st.prog = Math.min(1, (performance.now() - t0) / est); st.amp = 0.3 + 0.6 * Math.abs(Math.sin(performance.now() / 90)); }, 50);
+    await speak(clip.lines[i], voice); clearInterval(iv); st.prog = 1; st.amp = 0; await new Promise((r) => setTimeout(r, 300)); }
+  st.line = -1;
+}
+R.video = (a, el, fin) => {
+  const clip = D.CLIPS[a.clip]; el.innerHTML = `<canvas class="dub" width="720" height="405"></canvas><div class="row" style="justify-content:center;margin:10px 0"><button class="btn" id="pl">▶ Xem video</button><label class="small"><input type="checkbox" id="sub" checked> Phụ đề</label></div><h3>Câu hỏi</h3><div id="vq"></div>`;
+  const st = scene(clip, el.querySelector("canvas")); st.title = true; let stop = false; cleanup.push(() => (stop = true));
+  el.querySelector("#pl").onclick = async () => { stopSpeak(); stop = false; await modelPlay(clip, st, () => stop || !el.querySelector("#sub")); };
+  el.querySelector("#sub").onchange = (e) => { el.querySelector("canvas").style.filter = ""; st.hideSub = !e.target.checked; };
+  mcqBlock(el.querySelector("#vq"), a.qs, (s) => fin(s));
+};
+R.dub = (a, el, fin) => {
+  const clip = D.CLIPS[a.clip], voice = clip.who;
+  el.innerHTML = `<div class="steps" id="stp"><span class="on">1 Xem mẫu</span><span>2 Luyện từng câu</span><span>3 Lồng tiếng</span><span>4 Gửi phụ huynh</span></div>
+  <canvas class="dub" width="720" height="405"></canvas><div id="ctl" style="margin-top:12px"></div>`;
+  const cv = el.querySelector("canvas"); const st = scene(clip, cv); let stop = false; cleanup.push(() => (stop = true));
+  const steps = (k) => el.querySelectorAll("#stp span").forEach((s, i) => (s.className = i < k ? "done" : i === k ? "on" : ""));
+  const ctl = el.querySelector("#ctl");
+  const s1 = () => { steps(0); st.title = true; st.end = false; st.line = -1; st.cue = "";
+    ctl.innerHTML = `<div class="row" style="justify-content:center"><button class="btn big" id="m">▶ Xem mẫu</button><button class="btn l" id="n">Sang bước 2 →</button></div><p class="center small muted">Nghe giọng mẫu và để ý chỗ nhấn, chỗ ngắt. Clip ${clip.lines.length} câu, khoảng ${Math.round(clip.lines.reduce((t, l) => t + lineDur(l), 0))} giây.</p>`;
+    ctl.querySelector("#m").onclick = async (e) => { e.target.disabled = true; stop = false; await modelPlay(clip, st, () => stop); e.target.disabled = false; e.target.textContent = "▶ Xem lại"; };
+    ctl.querySelector("#n").onclick = () => { stop = true; stopSpeak(); s2(); }; };
+  const s2 = () => { steps(1); st.title = false; st.line = 0; st.prog = 0;
+    ctl.innerHTML = clip.lines.map((l, i) => `<div class="q" data-i="${i}"><div class="row"><span style="flex:1;font-size:17px">${esc(l)}</span><span data-p></span><button class="btn sm red" data-r>🎙</button></div><div class="ex small"></div></div>`).join("") + `<div class="row" style="margin-top:10px;justify-content:space-between"><button class="btn l" id="b">← Bước 1</button><button class="btn" id="n">Sẵn sàng lồng tiếng →</button></div>`;
+    ctl.querySelectorAll("[data-p]").forEach((sp) => { const i = +sp.closest(".q").dataset.i; const b = play(clip.lines[i], voice); b.addEventListener("click", () => { st.line = i; st.prog = 1; }); sp.appendChild(b); });
+    ctl.querySelectorAll("[data-r]").forEach((b) => (b.onclick = async () => { const q = b.closest(".q"), i = +q.dataset.i, r = recorder(); st.line = i; st.prog = 0; try { await r.start(); } catch (e) { return micErr(q.querySelector(".ex")); } b.innerHTML = '<span class="rec-dot"></span>'; setTimeout(async () => { const o = await r.stop(); b.textContent = "🎙"; const c = o.sr && o.text ? compare(clip.lines[i], o.text) : null; q.querySelector(".ex").innerHTML = (c ? c.html + ` <b>${c.pct}%</b> ` : "") + `<audio controls src="${o.url}" style="height:30px;vertical-align:middle"></audio>`; }, lineDur(clip.lines[i]) * 1000 + 400); }));
+    ctl.querySelector("#b").onclick = s1; ctl.querySelector("#n").onclick = s3; };
+  const s3 = () => { steps(2); cv.style.display = ""; st.title = true; st.line = -1;
+    ctl.innerHTML = `<div class="note">Đeo tai nghe nếu có. Khi chữ đổi màu vàng là đến lượt em nói – đọc theo tốc độ chữ chạy. Hình nhân vật sẽ mở miệng theo giọng em.</div><div class="row" style="justify-content:center;margin-top:10px"><button class="btn big red" id="go">🎬 Bắt đầu lồng tiếng</button><button class="btn l" id="b">← Luyện thêm</button></div><div id="cd" class="center" style="font-size:40px;font-weight:800;color:var(--red)"></div>`;
+    ctl.querySelector("#b").onclick = s2;
+    ctl.querySelector("#go").onclick = async (e) => {
+      e.target.disabled = true; let ms; try { ms = await mic(); } catch (er) { return micErr(ctl); }
+      for (const n of [3, 2, 1]) { ctl.querySelector("#cd").textContent = n; await new Promise((r) => setTimeout(r, 700)); } ctl.querySelector("#cd").textContent = "";
+      const ac = new (window.AudioContext || window.webkitAudioContext)(); const src = ac.createMediaStreamSource(ms); const an = ac.createAnalyser(); an.fftSize = 512; src.connect(an); const dst = ac.createMediaStreamDestination(); src.connect(dst);
+      const buf = new Uint8Array(an.fftSize); const ampIv = setInterval(() => { an.getByteTimeDomainData(buf); let s = 0; for (const v of buf) s += (v - 128) * (v - 128); st.amp = Math.min(1, Math.sqrt(s / buf.length) / 22); }, 40);
+      const stream = new MediaStream([cv.captureStream(30).getVideoTracks()[0], dst.stream.getAudioTracks()[0]]); const mime = pickMime(); const mr = new MediaRecorder(stream, mime ? { mimeType: mime, videoBitsPerSecond: 1500000 } : {}); const ch = []; mr.ondataavailable = (x) => x.data.size && ch.push(x.data);
+      mr.start(250); stop = false; st.title = true; st.end = false; await new Promise((r) => setTimeout(r, 1600)); st.title = false;
+      for (let i = 0; i < clip.lines.length && !stop; i++) { st.line = i; st.prog = 0; st.cue = "🎙 Đến lượt em"; const d = lineDur(clip.lines[i]) * 1000, t0 = performance.now(); await new Promise((r) => { const iv = setInterval(() => { st.prog = Math.min(1, (performance.now() - t0) / (d - 500)); if (performance.now() - t0 >= d || stop) { clearInterval(iv); r(); } }, 40); }); }
+      st.cue = ""; st.line = -1; st.end = true; await new Promise((r) => setTimeout(r, 1800));
+      clearInterval(ampIv); await new Promise((r) => { mr.onstop = r; mr.stop(); }); ac.close(); st.end = false; st.title = true;
+      if (stop) return; const blob = new Blob(ch, { type: (mime || "video/webm").split(";")[0] }); s4(blob);
+    }; };
+  const s4 = (blob) => { steps(3); cv.style.display = "none"; const url = URL.createObjectURL(blob); const ext = blob.type.includes("mp4") ? "mp4" : "webm"; const fn = `IVY_long-tieng_${(S.name || "hoc-sinh").replace(/\s+/g, "-")}_${a.clip}.${ext}`;
+    GALLERY.unshift({ url, t: clip.title, fn, at: new Date().toLocaleString("vi-VN") });
+    ctl.innerHTML = `<h3 class="center">🎉 Video của em đã xong!</h3><video class="out" controls src="${url}"></video><div class="row" style="justify-content:center"><button class="btn gr big" id="sh">📤 Gửi phụ huynh</button><a class="btn l" href="${url}" download="${fn}">⬇ Tải video</a><button class="btn l" id="ag">🎬 Lồng tiếng lại</button></div><p class="center small muted">Bản thật: video tự lưu vào tài khoản và gửi vào mục “Sản phẩm của con” cho phụ huynh. Bản thử: em tải về hoặc chia sẻ trực tiếp.</p>`;
+    ctl.querySelector("#ag").onclick = s3;
+    ctl.querySelector("#sh").onclick = async () => { const file = new File([blob], fn, { type: blob.type }); const msg = `Con đã lồng tiếng clip “${clip.title}” (IVY Boost B1 – Unit 3).`; if (navigator.canShare && navigator.canShare({ files: [file] })) { try { await navigator.share({ files: [file], title: "IVY – sản phẩm lồng tiếng", text: msg }); } catch (e) {} } else { const l = document.createElement("a"); l.href = url; l.download = fn; l.click(); try { await navigator.clipboard.writeText(msg); } catch (e) {} ctl.querySelector("p").textContent = "Máy này chưa hỗ trợ chia sẻ trực tiếp – video đã được tải về, lời nhắn đã chép sẵn để em gửi kèm qua Zalo."; } };
+    fin(null, { video: true }); };
+  s1();
+};
+
+/* ---------------- giao diện chính ---------------- */
+let TAB = "sess";
+const TABS = [["sess", "Theo buổi"], ["day", "Lịch theo ngày"], ["gal", "Sản phẩm lồng tiếng"], ["gv", "Ghi chú cho giáo viên"]];
+function chip(a, due, today) {
+  const s = status(a);
+  if (s.st === "done") return `<span class="pill p-gr">✓ ${s.r.best != null ? s.r.best + "%" : "Xong"}</span>`;
+  if (s.st === "fail") return `<span class="pill p-red">${s.r.best}% · chưa đạt</span>`;
+  if (due && due < today) return `<span class="pill p-red">Quá hạn</span>`;
+  if (due === today) return `<span class="pill p-or">Hôm nay</span>`;
+  return `<span class="pill p-gy">${due ? fmt(due) : "Chưa làm"}</span>`;
+}
+function actRow(a, P, today) {
+  const s = status(a); return `<div class="act"><span class="cat">${esc(a.cat)}</span><span class="nm">${esc(a.t)}</span><span class="go">${chip(a, P.due[a.id], today)}<button class="btn sm ${s.st === "done" ? "l" : ""}" data-open="${a.id}">${s.st === "new" ? "Làm" : "Làm lại"}</button></span><span class="meta">${a.min}'${a.src ? " · " + esc(a.src) : ""}${s.r && s.r.tries ? ` · ${s.r.tries} lần` : ""}</span></div>`;
+}
+function render() {
+  if (!S.start) S.start = "2026-11-17"; if (!S.today) S.today = addD(S.start, -2);
+  $("cName").value = S.name; $("cStart").value = S.start; $("cDays").value = S.days; $("cToday").value = S.today;
+  const P = plan(), today = S.today, all = Object.values(ACTS);
+  // cần làm
+  const need = all.filter((a) => { const s = status(a).st; return (P.due[a.id] < today && s !== "done") || s === "fail"; });
+  $("todo").innerHTML = need.length ? need.map((a) => `<div class="todo-i" data-open="${a.id}"><span class="cat pill p-bl">${esc(a.cat)}</span><span class="tt small"><b>B${a.sess} ${a.phase === "pre" ? "PRE" : "POST"}</b> · ${esc(a.t)}</span>${chip(a, P.due[a.id], today)}</div>`).join("") : `<p class="muted small">Không còn bài nợ. 🎉</p>`;
+  const td = P.days[today] || []; const tmin = td.reduce((t, a) => t + a.min, 0), dmin = td.filter((a) => status(a).st === "done").reduce((t, a) => t + a.min, 0);
+  const cls = Object.entries(P.dates).find(([n, d]) => d === today && n >= 21 && n <= 26);
+  $("today").innerHTML = `<div class="small muted">${fmt(today)}${cls ? ` · <b style="color:var(--red)">có buổi ${cls[0]} trên lớp</b>` : ""} · ${dmin}/${tmin} phút</div><div class="bar" style="margin:6px 0 4px"><i style="width:${tmin ? (dmin / tmin) * 100 : 0}%"></i></div>` + (td.length ? td.map((a) => `<div class="todo-i" data-open="${a.id}"><span class="cat pill p-bl">${esc(a.cat)}</span><span class="tt small">${esc(a.t)} <span class="muted">${a.min}'</span></span>${status(a).st === "done" ? "✓" : ""}</div>`).join("") : `<p class="muted small">Hôm nay không có bài mới.</p>`);
+  $("tabs").innerHTML = TABS.map(([k, n]) => `<button class="${TAB === k ? "on" : ""}" data-tab="${k}">${n}</button>`).join("");
+  const v = $("view");
+  if (TAB === "sess") v.innerHTML = D.sessions.map((s) => { const tp = s.pre.reduce((t, a) => t + a.min, 0), to = s.post.reduce((t, a) => t + a.min, 0);
+    return `<div class="card sess"><div class="sess-h"><span class="no">Buổi ${s.no}</span><h2 style="margin:0">${esc(s.title)}</h2><span class="muted small">${fmt(P.dates[s.no])} · ${esc(s.sb)} · ${esc(s.wb)}</span></div><p class="small muted" style="margin:0 0 10px">${esc(s.topic)}</p><div class="packs"><div class="pack pre"><h4><span>PRE-LESSON · trước buổi</span><span class="pill p-or">${tp} phút</span></h4>${s.pre.map((a) => actRow(a, P, today)).join("")}</div><div class="pack post"><h4><span>POST-LESSON · sau buổi</span><span class="pill p-red">${to} phút</span></h4>${s.post.map((a) => actRow(a, P, today)).join("")}</div></div></div>`; }).join("");
+  if (TAB === "day") { const ks = Object.keys(P.days).sort(); const k2 = ks.filter((k) => k >= P.dates[21]); const span = Math.round((new Date(k2[k2.length - 1]) - new Date(P.dates[21])) / 864e5) + 1; const avg = Math.round(k2.reduce((t, k) => t + P.days[k].reduce((x, a) => x + a.min, 0), 0) / span);
+    v.innerHTML = `<div class="card"><h2>Website tự chia gói bài vào các ngày</h2><p class="small muted">Ngày có buổi học khoảng 15 phút, ngày không học khoảng 30 phút. Gói PRE phải xong trước buổi học; gói POST mở sau buổi học, hạn trước buổi kế tiếp nữa. Mấy ngày đầu nhẹ hơn vì bản thử không có gói POST của buổi 20. Từ buổi 21: trung bình ${avg} phút/ngày.</p>` + ks.map((k) => { const it = P.days[k], m = it.reduce((t, a) => t + a.min, 0), c = Object.entries(P.dates).find(([n, d]) => d === k && n >= 21 && n <= 26);
+      return `<div class="day ${c ? "cls" : ""} ${k === today ? "today" : ""}"><div class="day-h"><b>${fmt(k)}</b>${c ? `<span class="pill p-red">Buổi ${c[0]} trên lớp</span>` : ""}<span class="pill ${m > 36 ? "p-or" : "p-bl"}">${m} phút</span>${k === today ? '<span class="pill p-or">Hôm nay</span>' : ""}</div>${it.map((a) => actRow(a, P, today)).join("")}</div>`; }).join("") + `</div>`; }
+  if (TAB === "gal") v.innerHTML = `<div class="card"><h2>Sản phẩm lồng tiếng</h2>${GALLERY.length ? `<div class="gal">${GALLERY.map((g) => `<div><video controls src="${g.url}"></video><div class="small"><b>${esc(g.t)}</b><br><span class="muted">${esc(g.at)}</span> · <a href="${g.url}" download="${esc(g.fn)}">Tải</a></div></div>`).join("")}</div>` : `<p class="muted">Chưa có video. Mỗi gói đều có bài lồng tiếng – làm xong video sẽ hiện ở đây.</p>`}<p class="small muted">Bản thử chỉ giữ video trong phiên đang mở. Trên web thật, video được lưu vào tài khoản học sinh và gửi phụ huynh.</p></div>`;
+  if (TAB === "gv") v.innerHTML = gvNotes(P);
+}
+function gvNotes(P) {
+  const sum = (ph) => D.sessions.map((s) => s[ph].reduce((t, a) => t + a.min, 0));
+  const cats = {}; Object.values(ACTS).forEach((a) => (cats[a.cat] = (cats[a.cat] || 0) + a.min)); const tot = Object.values(cats).reduce((x, y) => x + y, 0);
+  const ls = ["Nghe", "Nói", "Phát âm", "Lồng tiếng"].reduce((t, c) => t + (cats[c] || 0), 0);
+  const dubs = Object.values(ACTS).filter((a) => a.k === "dub").length;
+  return `<div class="card"><h2>Bản thử này đáp ứng các tiêu chí thế nào</h2>
+  <table style="width:100%;border-collapse:collapse" class="small">${[
+    ["Giao theo buổi, chia PRE / POST", `6 buổi (21–26), mỗi buổi 2 gói. PRE: ${sum("pre").join(", ")} phút · POST: ${sum("post").join(", ")} phút.`],
+    ["Khoảng 30 phút/ngày, ngày học nhẹ hơn", "Tab “Lịch theo ngày”: website tự chia gói vào các ngày (ngày có buổi học ~15', ngày không học ~30'). Đổi lịch học hoặc ngày khai giảng ở thanh trên để xem."],
+    ["Pre-lesson nhiều bài tương tác để nhớ từ trước buổi", "Chuỗi 5 bước: nghe – nhắc lại (có nhận dạng giọng nói) → ghép hình → nghe chọn nghĩa → nghe gõ → điền câu. Từ sai quay lại cuối hàng đến khi đúng."],
+    ["Tận dụng SB / Workbook", "Mỗi bài ghi trang SB/WB tương ứng; bài Workbook được số hóa theo đúng dạng (Reading Part 4, chọn thì, cụm động từ, nghe hội thoại, hoàn thành hội thoại, viết email, Unit check). Nội dung soạn mới, không chép nguyên văn sách."],
+    ["Tăng Nghe – Nói", `Nghe + Nói + Phát âm + Lồng tiếng chiếm ${Math.round((ls / tot) * 100)}% thời lượng: chép chính tả, shadowing có chấm độ rõ, ghi âm nói tự do, hội thoại đóng vai, PET Listening Part 1, nghe ngấm 2 vòng.`],
+    ["Lồng tiếng video mỗi ngày, gửi phụ huynh", `${dubs} bài lồng tiếng, gói nào cũng có. Học sinh xem mẫu → luyện từng câu → lồng tiếng (nhân vật mở miệng theo giọng em) → ra file video có tên học sinh để gửi phụ huynh.`],
+    ["Làm lại không giới hạn, làm bù, mục Cần làm", "Giữ điểm cao nhất; bài chấm điểm cần ≥ 80%. Bài quá ngày hoặc chưa đạt tự hiện ở “Cần làm”. Đổi “Hôm nay (giả lập)” để xem."],
+    ["Giọng Gemini Flash TTS", "Mỗi câu có mã audio riêng. Khi có file trong audio/u3/ (sinh bằng tools/gen_tts_u3.py), trang phát giọng Gemini; bản thử đang dùng giọng đọc của trình duyệt. Vai: Narrator – Charon, Mai – Leda, Nam – Puck, Teacher – Kore, Adult – Algieba."],
+  ].map((r) => `<tr><td style="padding:8px;border-top:1px solid var(--line);font-weight:700;width:34%;vertical-align:top">${r[0]}</td><td style="padding:8px;border-top:1px solid var(--line)">${r[1]}</td></tr>`).join("")}</table>
+  <h3 style="margin-top:16px">Thời lượng theo loại bài (cả Unit 3)</h3>${Object.entries(cats).sort((x, y) => y[1] - x[1]).map(([c, m]) => `<div class="row small" style="margin:3px 0"><span style="width:110px">${esc(c)}</span><div class="bar" style="flex:1"><i style="width:${(m / tot) * 100}%"></i></div><span style="width:70px;text-align:right">${m}'</span></div>`).join("")}
+  <div class="note" style="margin-top:14px">Nhận dạng giọng nói và quay video chạy tốt nhất trên Chrome / Edge (máy tính, Android). Trên iPhone, ghi âm và lồng tiếng chạy được, phần chấm độ rõ có thể không có.</div>
+  <div class="row" style="margin-top:12px"><button class="btn l sm" id="reset">Xoá kết quả bản thử</button></div></div>`;
+}
+document.addEventListener("click", (e) => { const o = e.target.closest("[data-open]"); if (o) open(ACTS[o.dataset.open]); const t = e.target.closest("[data-tab]"); if (t) { TAB = t.dataset.tab; render(); } if (e.target.id === "reset") { S.res = {}; S.saved = {}; save(); render(); } });
+$("cName").onchange = (e) => { S.name = e.target.value.trim(); save(); render(); };
+$("cStart").onchange = (e) => { S.start = e.target.value; save(); render(); };
+$("cDays").onchange = (e) => { S.days = e.target.value; save(); render(); };
+$("cToday").onchange = (e) => { S.today = e.target.value; save(); render(); };
+render();
+try { if (window.top !== window.self) $("frameNote").style.display = ""; } catch (e) { $("frameNote").style.display = ""; }
+})();
+</script>
+</body>
+</html>
