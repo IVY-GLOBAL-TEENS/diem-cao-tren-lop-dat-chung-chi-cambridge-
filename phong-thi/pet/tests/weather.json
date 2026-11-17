@@ -1,0 +1,721 @@
+{
+ "id": "weather",
+ "title": "Weather",
+ "vi": "Thời tiết",
+ "icon": "⛅",
+ "docs": {
+  "reading": "1OkLG3PuJP6Vtf4ANwCVc14Nfgrc78ipeOFJHeL4s_8Q",
+  "listening": "1FLT5xpnZsetq1ZKEm2EGJthYXQJEXC6pzXbaZ13bWXs",
+  "writing": "1qv_NxaoAUHDlQziSJtNWyXbkVXlKHmv23kWMCKGH9PA",
+  "activity": "1iPRBwto5gdFWs1Gq0xlvi36cJUI5zPesrc4aTGKa_D0"
+ },
+ "audio": [
+  {
+   "label": "Part 1",
+   "id": "1_K-nFbp95Vc2We4qorU_9Krwyko3CWWC"
+  },
+  {
+   "label": "Part 2",
+   "id": "1ySJdK4nYGnF595JaoWg1sDGCBpHBC05O"
+  },
+  {
+   "label": "Part 3",
+   "id": "1xi-QSEAUJjsRa6FeKH7CPtq1_LxfG1ZO"
+  },
+  {
+   "label": "Part 4",
+   "id": "18qP9AhHVga-xJAHpgtMwrVwuO7_dd_0j"
+  },
+  {
+   "label": "Weather (0:24)",
+   "id": "1IO_EPPib_ngNCzVrHtP7r3HIwE9sHpir"
+  }
+ ],
+ "sections": [
+  {
+   "id": "r-goc",
+   "skill": "reading",
+   "kind": "sheet",
+   "doc": "reading",
+   "title": "Đề gốc – Reading Part 1 và 5",
+   "note": "Part 3 và Part 6 của đề làm trực tiếp ở bên dưới; tài liệu chưa có đáp án Part 2 và Part 4.",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "C",
+      "A",
+      "B",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 5",
+     "from": 21,
+     "opts": "ABCD",
+     "answers": [
+      "D",
+      "B",
+      "C",
+      "A",
+      "C",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-p3a",
+   "skill": "reading",
+   "kind": "mcq",
+   "part": 3,
+   "from": 11,
+   "title": "Part 3 – Mark Charles: Extreme Weather Photographer",
+   "instr": "For each question, choose the correct answer.",
+   "passage": {
+    "title": "Mark Charles: Extreme Weather Photographer",
+    "text": "Mark Charles is a storm chaser and a weather photographer. During his career, he's taken photos of all kinds of amazing weather, including tornadoes, thunderstorms and hurricanes. His photos have appeared in many scientific magazines.\n\nMark has also successfully appeared in documentaries on American TV to discuss severe weather, storm chasing and global warming. He's an energetic and keen speaker. He's written fascinating articles about our changing weather and is the author of a very popular blog about extreme weather and several books. So how did Mark begin his career?\n\nMark grew up in Wisconsin in the USA, where ice storms, blizzards, floods and tornadoes are common. When he was six years old, he saw his first hurricane at close hand and he never forgot the experience. A few years later, his mother bought him a camera. Mark was more interested in recording the sound effects of weather than taking photographs. He used to spend hours recording sound outdoors. He did it as a hobby when he was a little boy, but he soon became very interested in extreme weather. He has journals with notes and some pictures that he collected. He discovered how some weather factors interacted and when you could expect to have a thunderstorm or ice storms. He was just an observer but that was enough to teach him quite a lot about the world around him. When he was a teenager, he used to read about all sorts of extreme weather events in the newspaper and he sometimes went to the library to look for scientific magazines on specific topics. He even joined an after school club that organized trips to observe weather patterns.\n\nMark studied journalism, not photography, at university and began his career as a writer working on local newspapers. He was good at his job and he never regretted that he'd become a journalist, but he kept his childhood interest in storms and when, in his late twenties, he saw an advert for a storm-chasing holiday in Tornado Alley, he joined the group and took his camera with him. Eventually, Mark's photography took over from journalism and he became the artist he is today."
+   },
+   "qs": [
+    {
+     "q": "What does the writer say about Mark's photos?",
+     "o": [
+      "They show a lot of incredible weather conditions.",
+      "They have been published in many important books.",
+      "They have been the subject of several popular documentaries.",
+      "They have changed a surprising amount over time."
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does the writer say about Mark?",
+     "o": [
+      "He can't share his knowledge about extreme weather on the Internet.",
+      "He's good at talking about weather.",
+      "He dislikes writing about extreme weather events.",
+      "He isn't keen on appearing in the media."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What do we learn about Mark's childhood?",
+     "o": [
+      "He enjoyed taking photographs of hurricanes.",
+      "He became interested in extreme weather.",
+      "He was afraid of severe storms.",
+      "He got hurt during a hurricane."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What does the writer say about Mark's early career?",
+     "o": [
+      "He wished he had studied photography at university.",
+      "He was good at writing about the news.",
+      "He took excellent photographs of local events.",
+      "He was better at art than at journalism."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What is the writer's main aim in writing the text?",
+     "o": [
+      "to give advice on becoming a photographer",
+      "to encourage people to take up photography",
+      "to describe the career of one photographer",
+      "to explain how to take photos of extreme weather"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "r-p6",
+   "skill": "reading",
+   "kind": "open",
+   "part": 6,
+   "title": "Part 6 – Beautiful Scotland",
+   "instr": "For each question, write the correct answer. Write ONE word for each gap.",
+   "passage": {
+    "title": "Beautiful Scotland",
+    "text": "We're in Scotland! We're staying in a hotel in the centre of Edinburgh. We don't usually come to Scotland on holiday, but we're having a wonderful time here. The sun's shining {27} the moment, so Mum and Dad are eating ice cream in a cafe. My brother's writing postcards and I'm sitting in an internet cafe just round the corner {28} our hotel.\n\nScotland is a beautiful country, but the weather is awful. It often rains in Scotland, but it isn't raining today. {29} we are on holiday, we always go to a different place every day. We also visit famous buildings, old castles {30} historic sites.\n\nLast week, we went to Loch Ness, but we didn't see the monster, unfortunately. My brother often {31} photos of everything and Mum always writes a diary. I'm sending you some photographs with this email, and I hope you like {32}."
+   },
+   "answers": [
+    [
+     "at"
+    ],
+    [
+     "from"
+    ],
+    [
+     "when",
+     "while",
+     "because",
+     "as",
+     "since"
+    ],
+    [
+     "and",
+     "or"
+    ],
+    [
+     "takes"
+    ],
+    [
+     "them"
+    ]
+   ],
+   "exp": [
+    "Cụm cố định \"at the moment\" (ngay lúc này).",
+    "\"round the corner from + nơi chốn\".",
+    "Liên từ nối hai mệnh đề: When/While (khi) hoặc Because/As/Since (bởi vì) đều được chấp nhận.",
+    "Liệt kê danh từ: buildings, castles and historic sites.",
+    "\"take photos\"; chủ ngữ \"My brother\" + often → hiện tại đơn \"takes\".",
+    "Đại từ tân ngữ thay cho \"some photographs\" → them."
+   ]
+  },
+  {
+   "id": "r-s1",
+   "skill": "reading",
+   "kind": "mcq",
+   "part": 1,
+   "title": "Bài tập tương tự – Part 1: Weather notices",
+   "instr": "Look at the text in each question. What does it say?",
+   "qs": [
+    {
+     "text": "NOTICE\nDUE TO EXPECTED HEAVY RAIN AND FLOODING, THE RECREATION PARK WILL BE CLOSED THIS AFTERNOON. ALL OUTDOOR ACTIVITIES ARE CANCELLED.",
+     "q": "What does the notice say?",
+     "o": [
+      "The park will remain open despite the bad weather.",
+      "People cannot visit the park this afternoon because of the rain.",
+      "Outdoor activities will take place indoors instead."
+     ],
+     "a": 1,
+     "exp": "\"the recreation park will be closed this afternoon\" do mưa lớn. A sai vì công viên đóng cửa; C sai vì hoạt động ngoài trời bị hủy, không chuyển vào trong nhà."
+    },
+    {
+     "text": "Hi Mark,\nThe weather forecast says there's a severe thunderstorm coming at 4 PM. Should we move our tennis match to tomorrow morning or play at the indoor court? Let me know soon!\n– Sarah",
+     "q": "Why is Sarah writing to Mark?",
+     "o": [
+      "To suggest changing the time or location of their match due to the storm.",
+      "To cancel the tennis match because she doesn't want to play in the rain.",
+      "To tell him that the indoor tennis court is closed because of the weather."
+     ],
+     "a": 0,
+     "exp": "Sarah đề xuất 2 phương án: dời sang sáng mai hoặc chơi sân trong nhà. B sai vì cô không hủy; C sai vì sân trong nhà không đóng cửa."
+    },
+    {
+     "text": "ATTENTION PASSENGERS\nFLIGHT DEPARTURES ARE DELAYED BY 2 HOURS BECAUSE OF THICK FOG AT THE AIRPORT. PLEASE CHECK THE MONITORS FOR UPDATED BOARDING TIMES.",
+     "q": "What does the notice say?",
+     "o": [
+      "Passengers can board their flights on time despite the fog.",
+      "Flights are delayed because the airport is completely closed.",
+      "The foggy weather has caused flights to leave later than scheduled."
+     ],
+     "a": 2,
+     "exp": "\"delayed by 2 hours\" vì sương mù → \"leave later than scheduled\". B sai vì sân bay không đóng cửa."
+    },
+    {
+     "text": "Hey Emma,\nIt's freezing outside and it has started snowing! Make sure you put on your thickest coat and boots before leaving the house. Don't forget your umbrella either.\n– Mum",
+     "q": "What is Emma's mum doing?",
+     "o": [
+      "Warning Emma about the cold weather and telling her what to wear.",
+      "Asking Emma to buy a new coat and boots because of the snow.",
+      "Reminding Emma to bring an umbrella because it is going to rain."
+     ],
+     "a": 0,
+     "exp": "Mẹ cảnh báo trời lạnh, có tuyết và dặn mặc áo khoác dày, đi bốt. B sai (không bảo đi mua); C sai (tuyết, không phải mưa)."
+    },
+    {
+     "text": "WARNING: EXTREME HEATWAVE\nTEMPS EXPECTED TO REACH 40°C TODAY. STAY INDOORS BETWEEN 11 AM AND 3 PM. DRINK PLENTY OF WATER AND AVOID DIRECT SUNLIGHT.",
+     "q": "What advice is being given?",
+     "o": [
+      "People should only go outside during the hottest part of the day.",
+      "It is best to remain inside and drink water to cope with the high temperatures.",
+      "You should drink water only when you are working under direct sunlight."
+     ],
+     "a": 1,
+     "exp": "\"stay indoors\" + \"drink plenty of water\". A ngược nghĩa; C sai vì cảnh báo bảo tránh nắng trực tiếp."
+    }
+   ]
+  },
+  {
+   "id": "r-s3",
+   "skill": "reading",
+   "kind": "mcq",
+   "part": 3,
+   "from": 11,
+   "title": "Bài tập tương tự – Part 3: Avalanche Forecaster",
+   "instr": "For each question, choose the correct answer.",
+   "passage": {
+    "title": "Elena Rostova: Avalanche Forecaster",
+    "text": "Elena Rostova has one of the most unusual and dangerous jobs in the world: she predicts avalanches in the high mountains of Switzerland. An avalanche happens when a huge amount of snow suddenly falls down a mountain, which can be highly dangerous for skiers and local villages. Elena's job is to analyze the winter weather conditions every day and warn people when the snow is unsafe. Her daily reports are used by ski resorts, rescue teams, and mountain guides across the region.\n\nElena did not grow up in the mountains. She spent her childhood in a flat, coastal town in Portugal, where the weather was mostly warm and sunny. However, when she was twelve, her family went on a winter holiday to the Alps. It was the first time she had ever seen snow. During that trip, a heavy blizzard trapped them inside their cabin for three days. Instead of being frightened, Elena was completely fascinated by how quickly the weather could change. She spent hours looking out the window, watching the wind create strange shapes with the snow. From that moment, she knew she wanted to understand cold weather.\n\nAt university, Elena decided to study meteorology—the science of weather. While most of her classmates wanted to predict daily rain or sunshine for television channels, Elena was drawn to extreme environments. After graduating, she moved to Switzerland to complete a special research project on mountain climates. She spent months living in a small research station high up in the snow, measuring wind speeds and testing different layers of snow. She loved the peacefulness of the mountains, even when the temperatures dropped well below freezing.\n\nToday, Elena starts her workday at 5:00 AM. She checks data from automated weather stations, looks at satellite images, and often goes out on her skis to check the snow layers herself. She cuts into the snow to see if the top layers are securely attached to the older snow underneath. Elena admits that the job can be stressful, especially when she has to decide whether to close a popular ski slope. However, she believes that keeping people safe is worth the pressure. She also runs weekend workshops to teach young skiers how to read weather signs and stay safe in the mountains."
+   },
+   "qs": [
+    {
+     "q": "What does the writer say about Elena's job in the first paragraph?",
+     "o": [
+      "It involves rescuing skiers who are lost in the snow.",
+      "It helps various groups of people stay safe in the mountains.",
+      "It is mainly done for the local villages near the mountains.",
+      "It requires her to travel to different countries every week."
+     ],
+     "a": 1,
+     "exp": "\"Her daily reports are used by ski resorts, rescue teams, and mountain guides\" → giúp nhiều nhóm người."
+    },
+    {
+     "q": "How did Elena feel during her first experience of a blizzard?",
+     "o": [
+      "She was scared about being trapped inside the cabin.",
+      "She wished her family had chosen a warmer holiday destination.",
+      "She was deeply interested in the dramatic changes in the weather.",
+      "She felt bored because she could not go outside to play in the snow."
+     ],
+     "a": 2,
+     "exp": "\"Instead of being frightened, Elena was completely fascinated...\" – fascinated = deeply interested."
+    },
+    {
+     "q": "What made Elena different from her university classmates?",
+     "o": [
+      "She wanted to work in extreme weather conditions rather than on TV.",
+      "She was much better at science than anyone else in her course.",
+      "She chose to study rain and sunshine instead of mountain climates.",
+      "She preferred doing research projects in Portugal over Switzerland."
+     ],
+     "a": 0,
+     "exp": "Bạn học muốn dự báo thời tiết trên TV, còn Elena \"was drawn to extreme environments\"."
+    },
+    {
+     "q": "What does Elena do as part of her daily routine today?",
+     "o": [
+      "She relies entirely on satellite data to make her predictions.",
+      "She teaches young skiers at a local school every morning.",
+      "She physically examines the state of the snow on the mountains.",
+      "She spends most of her day working in a comfortable indoor office."
+     ],
+     "a": 2,
+     "exp": "\"goes out on her skis to check the snow layers herself. She cuts into the snow...\" → physically examines."
+    },
+    {
+     "q": "What is the writer's main aim in writing the text?",
+     "o": [
+      "to give advice on what to wear during a heavy winter blizzard",
+      "to warn tourists about the dangers of visiting ski resorts in Switzerland",
+      "to explain how a university science degree can help people get a job",
+      "to describe the career and background of an avalanche forecaster"
+     ],
+     "a": 3,
+     "exp": "Cả bài giới thiệu công việc, tuổi thơ, học tập và công việc hằng ngày của Elena."
+    }
+   ]
+  },
+  {
+   "id": "r-s4",
+   "skill": "reading",
+   "kind": "gaptext",
+   "part": 4,
+   "title": "Bài tập tương tự – Part 4: Chasing the Perfect Storm",
+   "instr": "Five sentences have been removed from the text below. For each question, choose the correct answer. There are three extra sentences which you do not need to use.",
+   "passage": {
+    "title": "Chasing the Perfect Storm",
+    "text": "Most people run away from severe storms, but George Kourounis does exactly the opposite. George is a professional storm chaser and adventurer whose job is to track down extreme weather conditions around the globe. He has spent over twenty years capturing photographs of violent tornadoes, massive blizzards, and active volcanoes. {16} He explains that seeing the incredible power of nature firsthand is an unforgettable experience.\n\nGeorge's fascination with extreme weather started when he was a young teenager growing up in Canada. During a summer holiday, a severe thunderstorm hit his hometown, bringing heavy rain and giant pieces of hail. {17} Instead of staying safely inside, he stood by the window for hours, completely captivated by the flashes of lightning. It took several years, however, for him to turn this childhood passion into a full-time career.\n\nChasing tornadoes in an area of the USA known as Tornado Alley is a major part of George's work. To do this safely, he and his team rely on advanced technology and weather satellites to predict exactly where a storm will develop. {18} The wind can change direction in seconds, turning a predictable storm into a deadly situation. George recalls one occasion when a tornado suddenly turned toward his truck. Luckily, he managed to drive away just in time.\n\nIn winter, George often switches his focus to heavy blizzards and ice storms. He has traveled to some of the coldest places on Earth, including Siberia, to document how humans survive in sub-zero temperatures. He notes that modern winter gear makes these freezing expeditions much more manageable today. {19} Early polar explorers had to rely on heavy wool and animal skins, which often got wet and froze.\n\nAccording to George, anyone interested in storm chasing should never try it without professional training. Nature is completely unpredictable and even experienced chasers face moments of fear. {20} He believes that respecting the weather is the most important lesson any adventurer must learn."
+   },
+   "sentences": [
+    {
+     "l": "A",
+     "t": "However, there is always an element of danger involved."
+    },
+    {
+     "l": "B",
+     "t": "Many people prefer to watch these storms on television instead."
+    },
+    {
+     "l": "C",
+     "t": "In fact, he was just a boy when he first started thinking about it."
+    },
+    {
+     "l": "D",
+     "t": "In those days, people did not have access to proper weather forecasts."
+    },
+    {
+     "l": "E",
+     "t": "This terrifying event would have scared most children, but not George."
+    },
+    {
+     "l": "F",
+     "t": "They are also much less effective at keeping out the bitter cold."
+    },
+    {
+     "l": "G",
+     "t": "Despite his long career, he has never been injured by a storm."
+    },
+    {
+     "l": "H",
+     "t": "Many people wonder why he chooses to put himself in such dangerous situations."
+    }
+   ],
+   "answers": [
+    "H",
+    "E",
+    "A",
+    "F",
+    "G"
+   ],
+   "exp": [
+    "Câu sau là lời George giải thích lý do → H (\"Many people wonder why...\") dẫn vào lời giải thích.",
+    "\"This terrifying event\" thay cho trận bão ở câu trước, và nối với việc cậu không ở trong nhà.",
+    "\"However\" tạo tương phản giữa công nghệ an toàn và nguy hiểm thực tế (gió đổi hướng).",
+    "Câu sau nói về đồ của nhà thám hiểm xưa – F so sánh đồ cũ kém giữ ấm hơn.",
+    "Tiếp ý \"moments of fear\" và dẫn tới bài học tôn trọng thời tiết."
+   ]
+  },
+  {
+   "id": "r-s5",
+   "skill": "reading",
+   "kind": "cloze",
+   "part": 5,
+   "title": "Bài tập tương tự – Part 5: Monsoon Seasons",
+   "instr": "For each question, choose the correct answer.",
+   "passage": {
+    "title": "Monsoon Seasons",
+    "text": "A monsoon is a traditional seasonal wind that shifts direction twice a year, bringing a dramatic change in weather. This natural event {21} millions of people living in parts of Asia and Africa. During the summer months, the wind blows from the cool ocean toward the warm land, which {22} to heavy, continuous rainfall.\n\nThere is nothing strange about a bit of rain, of {23}, but a summer monsoon is quite different. It is a common {24} to see entire fields and streets covered in water within just a few days. While these severe rainstorms can cause dangerous flooding, they are also incredibly important for agriculture. The heavy rain fills up rivers and helps crops {25} rice grow successfully.\n\nIn winter, the opposite happens. The wind changes direction and blows from the dry land back toward the ocean. This creates a long period of dry weather and clear skies that can {26} for several months until the summer returns."
+   },
+   "opts": [
+    [
+     "affects",
+     "controls",
+     "directs",
+     "forces"
+    ],
+    [
+     "results",
+     "causes",
+     "leads",
+     "brings"
+    ],
+    [
+     "path",
+     "course",
+     "truth",
+     "fact"
+    ],
+    [
+     "view",
+     "display",
+     "sight",
+     "scene"
+    ],
+    [
+     "like",
+     "as",
+     "such",
+     "same"
+    ],
+    [
+     "hold",
+     "keep",
+     "live",
+     "last"
+    ]
+   ],
+   "answers": [
+    0,
+    2,
+    1,
+    2,
+    0,
+    3
+   ],
+   "exp": [
+    "\"affects\" = ảnh hưởng đến hàng triệu người.",
+    "\"leads to\" = dẫn đến (results in, causes/brings + tân ngữ trực tiếp).",
+    "Thành ngữ \"of course\".",
+    "\"It is a common sight to see...\" – cảnh tượng thường thấy.",
+    "\"crops like rice\" – đưa ví dụ (such phải đi với as).",
+    "\"last for several months\" – kéo dài."
+   ]
+  },
+  {
+   "id": "l-goc",
+   "skill": "listening",
+   "kind": "sheet",
+   "doc": "listening",
+   "title": "Đề gốc – Listening Part 1, 2, 4",
+   "note": "Tài liệu chưa có đáp án Part 3 nên phiếu bỏ qua Part 3.",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "B",
+      "B",
+      "B",
+      "A",
+      "A",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "label": "Part 2",
+     "from": 8,
+     "opts": "ABC",
+     "answers": [
+      "C",
+      "C",
+      "B",
+      "A",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "label": "Part 4",
+     "from": 20,
+     "opts": "ABC",
+     "answers": [
+      "B",
+      "A",
+      "C",
+      "B",
+      "A",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "l-s4",
+   "skill": "listening",
+   "kind": "mcq",
+   "part": 4,
+   "audio": 3,
+   "title": "Bài tập tương tự – Part 4: Jake lost on the mountain",
+   "instr": "Nghe lại Part 4 (phỏng vấn Jake bị lạc trên núi tuyết ở Oregon) và chọn đáp án đúng.",
+   "qs": [
+    {
+     "q": "Why did Jake get separated from his parents while skiing?",
+     "o": [
+      "He decided to walk instead of skiing with them.",
+      "One of his skis was lost in deep snow.",
+      "He couldn't keep up with their fast speed."
+     ],
+     "a": 1,
+     "exp": "\"...when I lost a ski. It disappeared in deep snow. So there was no way I could catch up with them.\""
+    },
+    {
+     "q": "What made Jake stop walking when it began to get dark?",
+     "o": [
+      "He realised he would not be able to return all the way back.",
+      "He wanted to take a moment to look at the stars.",
+      "He remembered some advice from a Bear Grylls TV show."
+     ],
+     "a": 0,
+     "exp": "\"I knew I couldn't get the whole way back, so to stay alive I had to think of something else.\""
+    },
+    {
+     "q": "What problem did Jake face while building his snow cave?",
+     "o": [
+      "The heavy wind kept blowing his cave away.",
+      "His gloves became frozen to his hands.",
+      "He found it difficult to dig into the hill."
+     ],
+     "a": 1,
+     "exp": "\"I was wearing gloves and they froze on my hands! I couldn't get them off.\""
+    },
+    {
+     "q": "What happened while Jake was waiting inside the snow cave?",
+     "o": [
+      "Rescue teams walking on the mountain discovered his cave.",
+      "His parents went outside to search for him.",
+      "Helicopters flew overhead but were unable to spot him."
+     ],
+     "a": 2,
+     "exp": "\"I heard helicopters but they couldn't see me in my snow cave...\" Bố mẹ ở trong nhà chờ tin."
+    },
+    {
+     "q": "How did Jake manage to find his way to the rescue team?",
+     "o": [
+      "He followed the sounds of people shouting in the woods.",
+      "He crawled on the ground to look for missing ski tracks.",
+      "He walked directly towards some lights he saw in the distance."
+     ],
+     "a": 1,
+     "exp": "\"...I got down on my hands and knees to look more closely at the ground and find them.\" Ánh đèn xuất hiện sau đó."
+    },
+    {
+     "q": "What does Jake say about his mother's actions while he was missing?",
+     "o": [
+      "Her warm thoughts made him feel much safer during the storm.",
+      "She was unable to contact him because her mobile phone didn't work.",
+      "She spent the time contacting Bear Grylls for expert advice."
+     ],
+     "a": 1,
+     "exp": "\"...although she couldn't use her mobile phone, she kept sending me warm thoughts...\" Jake nói việc đó không giúp gì cho cậu."
+    }
+   ]
+  },
+  {
+   "id": "s-act",
+   "skill": "speaking",
+   "kind": "speak",
+   "doc": "activity",
+   "title": "Speaking warm-up – Weather forecast & Taboo",
+   "intro": "Hoạt động khởi động: dịch bản tin thời tiết sang tiếng Anh bằng từ gợi ý, sau đó chơi Taboo (mô tả từ mà không dùng các từ cấm).",
+   "cards": [
+    {
+     "title": "Từ vựng dịch bản tin thời tiết",
+     "vocab": [
+      [
+       "monsoon system",
+       "đới gió"
+      ],
+      [
+       "coastal region",
+       "vùng ven biển"
+      ],
+      [
+       "delta region",
+       "đồng bằng"
+      ],
+      [
+       "rainfall",
+       "lượng mưa"
+      ],
+      [
+       "intermittent sunshine and rain",
+       "nắng mưa gián đoạn, đan xen"
+      ],
+      [
+       "fluctuate",
+       "dao động"
+      ],
+      [
+       "localized (adj)",
+       "cục bộ"
+      ],
+      [
+       "hot and humid",
+       "oi bức"
+      ]
+     ],
+     "write": true,
+     "min": 60
+    },
+    {
+     "title": "Taboo – Bộ thẻ chơi",
+     "cols": [
+      "Guessing word",
+      "Forbidden words"
+     ],
+     "rows": [
+      [
+       "Sunny",
+       "sun, hot, bright"
+      ],
+      [
+       "Rainy",
+       "rain, umbrella, wet"
+      ],
+      [
+       "Windy",
+       "wind, blow, air"
+      ],
+      [
+       "Stormy",
+       "storm, thunder, lightning"
+      ],
+      [
+       "Foggy",
+       "fog, see, visibility"
+      ],
+      [
+       "Snowy",
+       "snow, white, winter"
+      ],
+      [
+       "Cloudy",
+       "cloud, sky, grey"
+      ],
+      [
+       "Humid",
+       "wet, sweat, moisture"
+      ],
+      [
+       "Freezing",
+       "cold, ice, winter"
+      ],
+      [
+       "Chilly",
+       "cold, cool, low temperature"
+      ],
+      [
+       "Thunder",
+       "storm, sound, lightning"
+      ],
+      [
+       "Lightning",
+       "thunder, flash, storm"
+      ],
+      [
+       "Hurricane",
+       "storm, strong wind, disaster"
+      ],
+      [
+       "Tornado",
+       "wind, spinning, storm"
+      ],
+      [
+       "Heatwave",
+       "hot, temperature, summer"
+      ],
+      [
+       "Drought",
+       "rain, dry, water"
+      ],
+      [
+       "Flood",
+       "water, rain, river"
+      ],
+      [
+       "Rainbow",
+       "colours, rain, sky"
+      ],
+      [
+       "Forecast",
+       "weather, predict, future"
+      ],
+      [
+       "Climate",
+       "weather, long-term, environment"
+      ],
+      [
+       "Temperature",
+       "hot, cold, degree"
+      ],
+      [
+       "Drizzle",
+       "rain, light, water"
+      ],
+      [
+       "Shower",
+       "rain, short, wet"
+      ],
+      [
+       "Breeze",
+       "wind, light, air"
+      ],
+      [
+       "Sunshine",
+       "sun, bright, light"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

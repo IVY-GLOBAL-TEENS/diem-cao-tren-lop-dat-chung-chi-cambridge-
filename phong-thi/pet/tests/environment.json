@@ -1,0 +1,399 @@
+{
+ "id": "environment",
+ "title": "Environment",
+ "vi": "Môi trường",
+ "icon": "🌱",
+ "docs": {
+  "reading": "1K1nBV68KqwOjb1P1OCuhTED9TIN-B7CwsW0LWg9qMaM",
+  "listening": "1xoUzG-PeHG1algbcEAQGw5-TVvuApKxK7JRZtbvffmw",
+  "speaking": "1UT7Whv8eFcNA8Fh4eAlVJS2avp2h2DLNuzENSWoq3T4",
+  "writing": "1VK8kMucrLnNHHn3xEZj7KDcX5dHDrHOKrvVD4_1jQkY"
+ },
+ "audio": [
+  {
+   "label": "Part 1",
+   "id": "1LP9xzaa18FMK-uCsYWw8jQcmTnuktKte"
+  },
+  {
+   "label": "Part 2",
+   "id": "13nfqCF7oVbvoveZmhhNBoSK96Zu-9vb_"
+  },
+  {
+   "label": "Part 3",
+   "id": "1yXITT0x4EksDVleGvHxYZPAkRBQamMU_"
+  },
+  {
+   "label": "Part 4",
+   "id": "1s-3qeBu09bKnxI-LLVJtoRhcHIYtH9hR"
+  },
+  {
+   "label": "Speaking – Environment",
+   "id": "1-k0OHn0mTXi9smWvskgghn0dT49xkAgN"
+  }
+ ],
+ "sections": [
+  {
+   "id": "r-goc",
+   "skill": "reading",
+   "kind": "sheet",
+   "doc": "reading",
+   "title": "Đề gốc – Reading Part 1, 2, 3, 6",
+   "note": "Part 4 của đề làm trực tiếp ở bên dưới; tài liệu chưa có đáp án Part 5.",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "C",
+      "B",
+      "B",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "label": "Part 2",
+     "from": 6,
+     "opts": "ABCDEFGH",
+     "answers": [
+      "B",
+      "E",
+      "F",
+      "C",
+      "H"
+     ]
+    },
+    {
+     "label": "Part 3",
+     "from": 11,
+     "opts": "ABCD",
+     "answers": [
+      "C",
+      "D",
+      "C",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "label": "Part 6",
+     "from": 27,
+     "text": true,
+     "answers": [
+      [
+       "because",
+       "since",
+       "as"
+      ],
+      [
+       "like"
+      ],
+      [
+       "there"
+      ],
+      [
+       "the"
+      ],
+      [
+       "it"
+      ],
+      [
+       "is"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-p4",
+   "skill": "reading",
+   "kind": "gaptext",
+   "part": 4,
+   "title": "Part 4 – How to Save Petrol and the Environment",
+   "instr": "Five sentences have been removed from the text below. For each question, choose the correct answer. There are three extra sentences which you do not need to use.",
+   "passage": {
+    "title": "How to Save Petrol and the Environment",
+    "text": "We all know how important it is to protect the environment. {16} For example, if you're a motorist, jumping in the car to go somewhere is balanced against the knowledge of how harmful each journey can be. But did you know that making a few simple changes to your driving habits will not only do less damage to our world but will also save you money and could even be good for your health?\n\nDo you really need to take the car? {17} If the service is reliable you'll soon get used to using buses and trains. In fact, for shorter journeys why not take the opportunity to get into shape and go on foot.\n\nWhy not share the journey! How often do you see cars with just one occupant with the driver making the same journey as others living nearby? Why not car share and halve the cost of the journey? {18}\n\nTry changing your habits. When you must use the car, plan your journey so you can go to all the places you need to visit rather than taking the car out again and again. If you get caught in a traffic jam, switch off the engine when you're stationary for a long time. Try not to brake too sharply or accelerate too quickly as this will lead to you using up more fuel. On cold mornings don't warm up the engine before you start your journey and when you next put fuel in your car think about whether you really need to fill up the tank. {19}\n\nTaking care of your car is very important. {20} And keep your car regularly serviced so that it runs as efficiently as possible. Steps like this will save you money and help you do your bit to protect the environment."
+   },
+   "sentences": [
+    {
+     "l": "A",
+     "t": "There are websites where people can arrange to meet up."
+    },
+    {
+     "l": "B",
+     "t": "If your car is this old it may need replacing."
+    },
+    {
+     "l": "C",
+     "t": "Make sure you carry out basic maintenance like checking the tyre pressure regularly."
+    },
+    {
+     "l": "D",
+     "t": "Try making more use of public transport."
+    },
+    {
+     "l": "E",
+     "t": "These problems mainly affect the city centres."
+    },
+    {
+     "l": "F",
+     "t": "All that extra weight will put more pressure on the engine."
+    },
+    {
+     "l": "G",
+     "t": "But sometimes it's difficult for us to do the right thing."
+    },
+    {
+     "l": "H",
+     "t": "They can also advise you on safer driving."
+    }
+   ],
+   "answers": [
+    "G",
+    "D",
+    "A",
+    "F",
+    "C"
+   ]
+  },
+  {
+   "id": "l-goc",
+   "skill": "listening",
+   "kind": "sheet",
+   "doc": "listening",
+   "title": "Đề gốc – Listening Part 1–4",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "C",
+      "B",
+      "A",
+      "A",
+      "B",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 2",
+     "from": 8,
+     "opts": "ABC",
+     "answers": [
+      "B",
+      "C",
+      "B",
+      "B",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 3",
+     "from": 14,
+     "text": true,
+     "answers": [
+      [
+       "shopping"
+      ],
+      [
+       "plastic bags"
+      ],
+      [
+       "charity shops"
+      ],
+      [
+       "environmental"
+      ],
+      [
+       "rivers",
+       "local rivers"
+      ],
+      [
+       "neighbour",
+       "neighbor"
+      ]
+     ]
+    },
+    {
+     "label": "Part 4",
+     "from": 20,
+     "opts": "ABC",
+     "answers": [
+      "C",
+      "A",
+      "B",
+      "C",
+      "A",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s-p3",
+   "skill": "speaking",
+   "kind": "speak",
+   "doc": "speaking",
+   "title": "Speaking Part 3 – Helping the environment",
+   "intro": "A young man would like to do something to help the environment. Talk together about the different things he could do to help the environment and say which would be best. (Mở tài liệu gốc để xem tranh; có audio mẫu trong danh sách file nghe.)",
+   "cards": [
+    {
+     "title": "Useful vocabulary",
+     "vocab": [
+      [
+       "recycle",
+       "tái chế"
+      ],
+      [
+       "recycling bin",
+       "thùng rác tái chế"
+      ],
+      [
+       "separate rubbish",
+       "phân loại rác"
+      ],
+      [
+       "plastic bottle",
+       "chai nhựa"
+      ],
+      [
+       "can",
+       "lon kim loại"
+      ],
+      [
+       "reusable cup",
+       "cốc tái sử dụng"
+      ],
+      [
+       "plastic cup",
+       "cốc nhựa"
+      ],
+      [
+       "avoid single-use plastic",
+       "tránh đồ nhựa dùng một lần"
+      ],
+      [
+       "pick up litter",
+       "nhặt rác"
+      ],
+      [
+       "collect rubbish",
+       "thu gom rác"
+      ],
+      [
+       "clean up rivers / parks",
+       "dọn dẹp sông / công viên"
+      ],
+      [
+       "reduce air pollution",
+       "giảm ô nhiễm không khí"
+      ],
+      [
+       "save energy",
+       "tiết kiệm năng lượng"
+      ],
+      [
+       "turn off lights",
+       "tắt đèn"
+      ],
+      [
+       "switch off electrical appliances",
+       "tắt các thiết bị điện"
+      ],
+      [
+       "use less electricity",
+       "dùng ít điện hơn"
+      ],
+      [
+       "plant trees",
+       "trồng cây"
+      ],
+      [
+       "dig a hole",
+       "đào hố"
+      ],
+      [
+       "water plants",
+       "tưới cây"
+      ],
+      [
+       "protect nature",
+       "bảo vệ thiên nhiên"
+      ],
+      [
+       "environmental poster",
+       "áp phích về môi trường"
+      ],
+      [
+       "learn about the environment",
+       "tìm hiểu về môi trường"
+      ],
+      [
+       "raise awareness",
+       "nâng cao nhận thức"
+      ],
+      [
+       "help the environment",
+       "giúp bảo vệ môi trường"
+      ]
+     ]
+    },
+    {
+     "title": "Cấu trúc câu",
+     "lines": [
+      [
+       "He could + V",
+       "He could recycle more. · He could plant trees. · He could ride a bike."
+      ],
+      [
+       "By + V-ing",
+       "He could save energy by turning off lights. · He could help the environment by using a reusable cup. · He could reduce pollution by cycling instead of driving."
+      ],
+      [
+       "Instead of + V-ing",
+       "He could ride a bike instead of driving a car. · He could use a reusable cup instead of buying plastic cups."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-art",
+   "skill": "writing",
+   "kind": "speak",
+   "doc": "writing",
+   "title": "Writing Part 2 – Article (Environment)",
+   "intro": "Chọn 1 trong 2 đề, viết khoảng 100 từ. Dùng cấu trúc bài Article: tiêu đề hấp dẫn → mở bài → trả lời từng ý → kết bài.",
+   "cards": [
+    {
+     "title": "Question 1",
+     "model0": "",
+     "lines": [
+      [
+       "Đề",
+       "Your school magazine wants students to write articles on environmental topics. Write an article answering these questions: What is the biggest environmental problem in your area? What should people do to solve it?"
+      ]
+     ],
+     "write": true,
+     "min": 100
+    },
+    {
+     "title": "Question 2",
+     "lines": [
+      [
+       "Đề",
+       "Your English teacher has asked you to write an article: \"How can teenagers help protect the environment?\" Write about: things teenagers can do at home · things teenagers can do at school."
+      ]
+     ],
+     "write": true,
+     "min": 100
+    }
+   ]
+  }
+ ]
+}

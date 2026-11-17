@@ -1,0 +1,110 @@
+[
+ {
+  "id": "work",
+  "title": "Work and Jobs",
+  "vi": "Công việc và nghề nghiệp",
+  "icon": "💼",
+  "n": 9,
+  "graded": [
+   "r-goc",
+   "r-p2",
+   "r-p3",
+   "r-p4",
+   "r-p5",
+   "r-p6",
+   "l-goc",
+   "l-p4"
+  ]
+ },
+ {
+  "id": "leisure",
+  "title": "Leisure Activities",
+  "vi": "Hoạt động giải trí",
+  "icon": "🎨",
+  "n": 4,
+  "graded": [
+   "r-goc",
+   "l-goc"
+  ]
+ },
+ {
+  "id": "house",
+  "title": "House and Home",
+  "vi": "Nhà cửa",
+  "icon": "🏠",
+  "n": 4,
+  "graded": [
+   "r-goc",
+   "r-p3",
+   "l-goc"
+  ]
+ },
+ {
+  "id": "travel",
+  "title": "Travel and Holidays",
+  "vi": "Du lịch và kỳ nghỉ",
+  "icon": "✈️",
+  "n": 3,
+  "graded": [
+   "r-goc",
+   "l-goc"
+  ]
+ },
+ {
+  "id": "food",
+  "title": "Food and Drink",
+  "vi": "Đồ ăn và thức uống",
+  "icon": "🍜",
+  "n": 4,
+  "graded": [
+   "r-goc",
+   "l-warm",
+   "l-goc"
+  ]
+ },
+ {
+  "id": "health",
+  "title": "Health and Fitness",
+  "vi": "Sức khỏe và thể thao",
+  "icon": "💪",
+  "n": 8,
+  "graded": [
+   "r-goc",
+   "r-p2",
+   "r-fp1",
+   "r-fp2",
+   "l-goc",
+   "l-fp"
+  ]
+ },
+ {
+  "id": "weather",
+  "title": "Weather",
+  "vi": "Thời tiết",
+  "icon": "⛅",
+  "n": 10,
+  "graded": [
+   "r-goc",
+   "r-p3a",
+   "r-p6",
+   "r-s1",
+   "r-s3",
+   "r-s4",
+   "r-s5",
+   "l-goc",
+   "l-s4"
+  ]
+ },
+ {
+  "id": "environment",
+  "title": "Environment",
+  "vi": "Môi trường",
+  "icon": "🌱",
+  "n": 5,
+  "graded": [
+   "r-goc",
+   "r-p4",
+   "l-goc"
+  ]
+ }
+]

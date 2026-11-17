@@ -11,6 +11,7 @@ Website tĩnh (HTML/CSS/JS thuần) chạy trên GitHub Pages, màu chủ đạo
 | Game theo lứa tuổi | `#/giao-vien/game` | Giáo viên |
 | Phòng thi ảo | `phong-thi/` (`?lv=a1` mở thẳng cấp độ) | Học sinh |
 | Kho đề KET | `phong-thi/ket/` | Học sinh |
+| Kho đề PET | `phong-thi/pet/` | Học sinh: 8 chủ đề B1 – phiếu trả lời đề gốc (đề + audio mở từ Drive) và bài tập tương tự tự chấm |
 | Tài liệu | `tai-lieu/` | Quản lý |
 | Đăng nhập / kích hoạt mã | `#/dang-nhap` | Mọi người |
 | Góc của em | `#/cua-em` | Học sinh: sao, chuỗi ngày học, bài về nhà, điểm KET |
@@ -28,7 +29,7 @@ assets/core.js            Phiên đăng nhập + đồng bộ tiến độ (dùn
 assets/account.js         Trang đăng nhập, Góc của em, Lớp của tôi, Quản lý
 server/                   Code.gs (Google Apps Script) + HUONG-DAN.md cách cài
 data/data.js              Dữ liệu các khoá (sinh từ tools/build_all.py)
-phong-thi/                Phòng thi ảo · phong-thi/ket/ Kho đề KET
+phong-thi/                Phòng thi ảo · phong-thi/ket/ Kho đề KET · phong-thi/pet/ Kho đề PET (tests/<chủ đề>.json; chạy tools/build_pet.py sau khi sửa)
 tai-lieu/                 Tài liệu chương trình
 tools/                    Script sinh data.js (build_boost.py: thêm khoá Boost từ tools/boost/)
 ```

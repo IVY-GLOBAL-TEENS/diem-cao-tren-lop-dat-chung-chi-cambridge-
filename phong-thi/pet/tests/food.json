@@ -1,0 +1,370 @@
+{
+ "id": "food",
+ "title": "Food and Drink",
+ "vi": "Đồ ăn và thức uống",
+ "icon": "🍜",
+ "docs": {
+  "reading": "1DKmAiG6SkdoT9M74UO21eUZHWun-Cst3sYP8UiKpUWc",
+  "listening": "1D7s0YA6nXUmYePIt6UH_4KtGu3BXlghvDkk4V1pa4WU",
+  "speaking": "1C-VxQ-mMGy8Ep6raCD8UN6Xg3lCFtAXLQGCFT1CCYH0",
+  "writing": "1bJQHOTl0Ofr_-_aq_vhasgWfJ58LD-83zrkPjsS8QUA"
+ },
+ "audio": [
+  {
+   "label": "Food and Drink – Listening (cả bài)",
+   "id": "1K8y2oZiCnY5G10tSJvIhxGFDk7YUojnV"
+  },
+  {
+   "label": "Part 1",
+   "id": "1Lh44sXVWpXJSjZMOaYNCT8oNCX305aFi"
+  },
+  {
+   "label": "Part 2",
+   "id": "1mW4BOsxE5lbolGHQkBejalOErK5XSPEf"
+  },
+  {
+   "label": "Part 3",
+   "id": "1bMAtO4CWUflJIF2o7XJEk2PuxV22TWkL"
+  },
+  {
+   "label": "Part 4",
+   "id": "1DnqhW297GYMOZMTbW6oWqgHTLF9I9q32"
+  },
+  {
+   "label": "Warm-up listening",
+   "id": "1rbTS_3zfk7Yf1kJH3JUjcIJEaBgRygS_"
+  }
+ ],
+ "sections": [
+  {
+   "id": "r-goc",
+   "skill": "reading",
+   "kind": "sheet",
+   "doc": "reading",
+   "title": "Đề gốc – Reading Part 1–6",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "B",
+      "C",
+      "A",
+      "A",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 2",
+     "from": 6,
+     "opts": "ABCDEFGH",
+     "answers": [
+      "E",
+      "H",
+      "A",
+      "G",
+      "D"
+     ]
+    },
+    {
+     "label": "Part 3",
+     "from": 11,
+     "opts": "ABCD",
+     "answers": [
+      "D",
+      "C",
+      "B",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 4",
+     "from": 16,
+     "opts": "ABCDEFGH",
+     "answers": [
+      "D",
+      "A",
+      "F",
+      "B",
+      "G"
+     ]
+    },
+    {
+     "label": "Part 5",
+     "from": 21,
+     "opts": "ABCD",
+     "answers": [
+      "A",
+      "C",
+      "D",
+      "A",
+      "B",
+      "B"
+     ]
+    },
+    {
+     "label": "Part 6",
+     "from": 27,
+     "text": true,
+     "answers": [
+      [
+       "from"
+      ],
+      [
+       "on"
+      ],
+      [
+       "about",
+       "of"
+      ],
+      [
+       "of"
+      ],
+      [
+       "in"
+      ],
+      [
+       "with"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "l-warm",
+   "skill": "listening",
+   "kind": "short",
+   "audio": 5,
+   "title": "Warm-up listening – Food words",
+   "instr": "Nghe từng mô tả và viết từ đúng (1 từ, câu 19 là cụm động từ 2 từ).",
+   "qs": [
+    {
+     "q": "",
+     "a": [
+      "salmon"
+     ],
+     "exp": "This is a big fish. It has silver skin and pink meat. People love to use it for sushi. What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "tuna"
+     ],
+     "exp": "This is a very popular fish. People usually buy it in a metal can. They use it to make sandwiches. What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "garlic"
+     ],
+     "exp": "This is a white vegetable. It has a very strong smell. People use it to make food taste better. Vampires hate it! What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "clove"
+     ],
+     "exp": "Look at a garlic bulb. It has many small parts. One small part is called a... what?"
+    },
+    {
+     "q": "",
+     "a": [
+      "cereal"
+     ],
+     "exp": "People often eat this for breakfast. It is made from grain. You put it in a bowl and add cold milk. What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "toast"
+     ],
+     "exp": "You take a slice of bread. You heat it until it is brown and crispy. What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "flavour",
+      "flavor"
+     ],
+     "exp": "Chocolate, vanilla, and strawberry. These are different tastes of ice cream. Another word for 'taste' is... what?"
+    },
+    {
+     "q": "",
+     "a": [
+      "fresh"
+     ],
+     "exp": "This food is not old. It is not frozen. It is not from a can. It was just picked from the farm. It is... what?"
+    },
+    {
+     "q": "",
+     "a": [
+      "spicy"
+     ],
+     "exp": "You eat a dish with a lot of chili or pepper. Your mouth feels very hot! How does the food taste?"
+    },
+    {
+     "q": "",
+     "a": [
+      "salty"
+     ],
+     "exp": "Think about potato chips or ocean water. They have a lot of salt. They taste... what?"
+    },
+    {
+     "q": "",
+     "a": [
+      "sour"
+     ],
+     "exp": "Think about lemons or green apples. When you eat them, your mouth wrinkles up. How do they taste?"
+    },
+    {
+     "q": "",
+     "a": [
+      "bitter"
+     ],
+     "exp": "Think about black coffee or dark chocolate. Many children do not like this taste. It is... what?"
+    },
+    {
+     "q": "",
+     "a": [
+      "umami"
+     ],
+     "exp": "People call this the fifth taste. It is a rich, savory flavor. You can find it in mushrooms or meat soup. What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "mild"
+     ],
+     "exp": "This food is gentle. It is not strong. It is the opposite of spicy. It is... what?"
+    },
+    {
+     "q": "",
+     "a": [
+      "gorgeous"
+     ],
+     "exp": "This word means very beautiful or wonderful. You can use it to say a dish is super delicious. What is the word?"
+    },
+    {
+     "q": "",
+     "a": [
+      "freezer"
+     ],
+     "exp": "This is the coldest part of your refrigerator. You put ice cream here. It turns water into ice. What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "tin",
+      "can"
+     ],
+     "exp": "This is a closed metal container. It keeps food fresh for a long time. You need an opener to open it. What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "supper"
+     ],
+     "exp": "This is a light meal. You eat it late in the evening, before you go to bed. What is it?"
+    },
+    {
+     "q": "",
+     "a": [
+      "fight off"
+     ],
+     "exp": "You are sick. Your body needs to fight the virus to get better. A two-word phrasal verb for this is... what?"
+    }
+   ]
+  },
+  {
+   "id": "l-goc",
+   "skill": "listening",
+   "kind": "sheet",
+   "doc": "listening",
+   "title": "Đề gốc – Listening Part 1, 2, 4",
+   "note": "Tài liệu mới có đáp án câu 14 của Part 3 nên phiếu bỏ qua Part 3.",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "B",
+      "C",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 2",
+     "from": 8,
+     "opts": "ABC",
+     "answers": [
+      "C",
+      "B",
+      "A",
+      "A",
+      "C",
+      "C"
+     ]
+    },
+    {
+     "label": "Part 4",
+     "from": 20,
+     "opts": "ABC",
+     "answers": [
+      "A",
+      "B",
+      "B",
+      "C",
+      "A",
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s-p2",
+   "skill": "speaking",
+   "kind": "speak",
+   "doc": "speaking",
+   "title": "Speaking Part 2 – A family meal",
+   "intro": "Mở tài liệu gốc để xem tranh. Tả tranh 1 phút, dùng từ gợi ý, rồi so với bài mẫu.",
+   "cards": [
+    {
+     "title": "Useful language",
+     "vocab": [
+      [
+       "glass table",
+       "bàn kính"
+      ],
+      [
+       "chopsticks",
+       "đũa ăn"
+      ],
+      [
+       "a pink long-sleeved top",
+       "áo dài tay màu hồng"
+      ],
+      [
+       "a sleeveless red top",
+       "áo không tay màu đỏ"
+      ],
+      [
+       "atmosphere",
+       "không khí"
+      ]
+     ]
+    },
+    {
+     "title": "Sample answer",
+     "model": "I can see a family in the foreground of this picture. It looks like the photo could have been taken in a house because I can see a kitchen in the background. It looks like the photo was taken in the afternoon, because it's sunny. The family looks like they're having lunch or dinner.\n\nThey are all smiling so they look very happy; perhaps because the daughter is feeding her mum. The man on the left looks like the father; he's wearing a blue shirt. The girl in the middle is very young, so she might be the daughter. The woman on the right looks like the mother; she's wearing an orange or pink top.\n\nThis family might be from Asia because they're eating typical Asian food. It looks like they are having a special meal, so they might be celebrating something like a birthday, for example."
+    }
+   ]
+  }
+ ]
+}

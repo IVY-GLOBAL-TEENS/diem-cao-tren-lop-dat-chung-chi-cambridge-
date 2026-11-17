@@ -71,8 +71,9 @@
     return { hw, ket, examStars, bonus, bonusList: st.bonus || [], stars: examStars + bonus, xp: (snap.exam && snap.exam.xp) || 0, streak: K.streak(days), last, idle, why, days };
   }
   const bar = (pct, cls) => `<div class="progress ${cls || ""}"><i style="width:${Math.max(0, Math.min(100, pct || 0))}%"></i></div>`;
-  function ketLabel(id) { const c = catalog && catalog[id]; return c ? `Đề ${+c[1]}.${c[2]} · ${c[3]}` : id; }
-  const keyLabel = (k) => { const [paper, part, mode] = String(k).split("-"); const P = { rw: "Reading & Writing", l: "Listening", s: "Speaking" }[paper] || paper; return `${P} · ${!part || part === "all" ? "cả bài" : "Part " + part} · ${mode === "test" ? "Test" : "Luyện tập"}`; };
+  const PET_T = { work: "Work and Jobs", leisure: "Leisure Activities", house: "House and Home", travel: "Travel and Holidays", food: "Food and Drink", health: "Health and Fitness", weather: "Weather", environment: "Environment" };
+  function ketLabel(id) { if (String(id).startsWith("pet-")) return "PET · " + (PET_T[id.slice(4)] || id.slice(4)); const c = catalog && catalog[id]; return c ? `Đề ${+c[1]}.${c[2]} · ${c[3]}` : id; }
+  const keyLabel = (k) => { if (/^[rlsw]-[a-z0-9]+$/.test(k)) return ({ r: "Reading", l: "Listening", s: "Speaking", w: "Writing" }[k[0]]) + (k.endsWith("-goc") ? " · đề gốc" : " · bài luyện"); const [paper, part, mode] = String(k).split("-"); const P = { rw: "Reading & Writing", l: "Listening", s: "Speaking" }[paper] || paper; return `${P} · ${!part || part === "all" ? "cả bài" : "Part " + part} · ${mode === "test" ? "Test" : "Luyện tập"}`; };
 
   /* ---------- khung chung ---------- */
   function notConfigured() {
@@ -231,7 +232,7 @@
         $("syncGo").addEventListener("click", () => busy($("syncGo"), async () => { try { await K.push(true); $("syncTxt").textContent = "Đã lưu về tài khoản ✓"; } catch (e) { $("syncTxt").textContent = e.message; } }));
         if (r.ket.list.length) loadCatalog().then(() => {
           const box = $("meKet"); if (!box) return;
-          box.innerHTML = `<div class="table-wrap flat"><table><thead><tr><th>Đề</th><th>Phần</th><th>Điểm</th><th></th></tr></thead><tbody>${r.ket.list.slice(0, 8).map((x) => `<tr><td>${esc(ketLabel(x.id))}</td><td style="font-size:13.5px">${esc(keyLabel(x.key))}</td><td><b>${x.s}/${x.mx}</b> ${bar((x.s / x.mx) * 100, "sm")}</td><td><a href="phong-thi/ket/#${esc(x.id)}">Làm lại</a></td></tr>`).join("")}</tbody></table></div>`;
+          box.innerHTML = `<div class="table-wrap flat"><table><thead><tr><th>Đề</th><th>Phần</th><th>Điểm</th><th></th></tr></thead><tbody>${r.ket.list.slice(0, 8).map((x) => `<tr><td>${esc(ketLabel(x.id))}</td><td style="font-size:13.5px">${esc(keyLabel(x.key))}</td><td><b>${x.s}/${x.mx}</b> ${bar((x.s / x.mx) * 100, "sm")}</td><td><a href="${String(x.id).startsWith("pet-") ? `phong-thi/pet/#${esc(x.id.slice(4))}/${esc(x.key)}/luyen` : `phong-thi/ket/#${esc(x.id)}`}">Làm lại</a></td></tr>`).join("")}</tbody></table></div>`;
         });
       },
     };

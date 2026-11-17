@@ -1,0 +1,28 @@
+{"id":"leisure","title":"Leisure Activities","vi":"Hoạt động giải trí","icon":"🎨",
+ "docs":{"reading":"1LMd3QE_BVqtbtu3P5EdDnpJCVV0di438PopYuepWGpo","listening":"10yIX9IfRwGV6uZXmkzZCbUg5mneIfNl5aiqDAoc_2YE","speaking":"1ZKD7o0-S_ZMsJTQcOnaYm3KfGuWM-_6ulaM-EX51R9Q","writing":"1p15KMb6V0qrBxqTWexkzx8k2Y9EdwekN9MLKrhQiz6Q"},
+ "audio":[{"label":"Leisure Activities – Listening (cả bài)","id":"13ZBJOCg484syUI1T2bmZb9GfF-LHxq2U"}],
+ "sections":[
+  {"id":"r-goc","skill":"reading","kind":"sheet","doc":"reading","title":"Đề gốc – Reading Part 1–6","groups":[
+   {"label":"Part 1","from":1,"opts":"ABC","answers":["C","C","B","A","B"]},
+   {"label":"Part 2","from":6,"opts":"ABCDEFGH","answers":["F","B","H","D","A"]},
+   {"label":"Part 3","from":11,"opts":"ABCD","answers":["B","A","D","C","B"]},
+   {"label":"Part 4","from":16,"opts":"ABCDEFGH","answers":["C","H","G","F","B"]},
+   {"label":"Part 5","from":21,"opts":"ABCD","answers":["B","C","D","A","B","A"]},
+   {"label":"Part 6","from":27,"text":true,"answers":[["since"],["me"],["for"],["same"],["one","some"],["than"]]}]},
+  {"id":"l-goc","skill":"listening","kind":"sheet","doc":"listening","title":"Đề gốc – Listening Part 1–4","groups":[
+   {"label":"Part 1","from":1,"opts":"ABC","answers":["B","C","B","A","A","C","C"]},
+   {"label":"Part 2","from":8,"opts":"ABC","answers":["B","A","C","B","A","B"]},
+   {"label":"Part 3","from":14,"text":true,"answers":[["brokley"],["half past eight","eight thirty","8.30","8:30","8.30 pm","8:30 pm"],["blue"],["receptionist","the receptionist"],["hall","the hall"],["3","three","£3","3 pounds","three pounds"]]},
+   {"label":"Part 4","from":20,"opts":"ABC","answers":["B","C","A","C","B","A"]}]},
+  {"id":"w-vocab","skill":"writing","kind":"speak","doc":"writing","title":"Gợi ý từ vựng & ngữ pháp – Watching TV",
+   "intro":"Dùng từ vựng và cấu trúc dưới đây để viết câu trả lời cho từng câu hỏi. Viết ra giấy hoặc ô bên dưới rồi so với câu mẫu.",
+   "cards":[
+    {"title":"Do you spend a lot of time watching TV?","vocab":[["couch potato","người chỉ thích ngồi xem TV, lười vận động"],["TV enthusiast / TV buff","người đam mê các chương trình truyền hình"],["hardly ever","hầu như không bao giờ"],["barely","gần như không"],["in front of the screen","trước màn hình"],["free time / spare time","thời gian rảnh"],["watch TV regularly","xem TV thường xuyên"]],"grammar":"S + spend + thời gian + V-ing","example":"To be honest, I'm not a couch potato, so I only spend a small amount of my free time watching TV.","write":true},
+    {"title":"When do you usually watch TV?","vocab":[["after a stressful day at school","sau một ngày học căng thẳng"],["unwind / relax","thư giãn, xả stress"],["put my feet up","nghỉ ngơi hoàn toàn"],["prime time","khung giờ vàng (buổi tối)"],["during family dinner","trong bữa tối cùng gia đình"],["in the evening / at weekends","vào buổi tối / cuối tuần"]],"grammar":"Mệnh đề thời gian với when, after, as soon as, before","example":"After a stressful day at school, I usually put my feet up and turn on the TV at around 8 p.m. to unwind.","write":true},
+    {"title":"Do you prefer watching TV or watching on a laptop?","vocab":[["portable / portability","dễ mang theo / tính tiện lợi"],["on the go","mọi lúc mọi nơi"],["streaming platforms","các nền tảng xem trực tuyến"],["big screen","màn hình lớn"],["high-quality sound","âm thanh chất lượng cao"],["convenient / flexible","tiện lợi / linh hoạt"]],"grammar":"S + prefer + V-ing + to + V-ing · S + find + sth + adjective","example":"Personally, I prefer watching movies on my laptop to watching them on TV because it's more portable. I can enjoy my favourite shows on the go whenever I have some free time. However, I find watching films on a big TV more enjoyable thanks to the larger screen and better sound.","write":true}]},
+  {"id":"s-p2","skill":"speaking","kind":"speak","doc":"speaking","title":"Speaking Part 2 – Useful language",
+   "intro":"Mở tài liệu gốc để xem 2 bức tranh. Dùng các từ dưới đây để tả tranh trong 1 phút.",
+   "cards":[
+    {"title":"Picture 1","vocab":[["light brown hair","tóc nâu sáng"],["tie back in a ponytail","buộc tóc đuôi ngựa"],["colorful checked shirt","áo kẻ ô nhiều màu"],["denim shirt","áo sơ mi vải bò"],["shoulder-length","ngang vai"],["cozy","ấm áp"],["tablet","máy tính bảng"],["a pair of white headphones","cặp tai nghe màu trắng"],["colorful pillows/cushions","gối/gối tựa nhiều màu"]]},
+    {"title":"Picture 2","vocab":[["helmet","mũ bảo hiểm"],["striped jacket","áo khoác kẻ sọc"],["black sweater","áo len đen"],["black long-sleeved top","áo dài tay màu đen"],["underneath","bên dưới"],["red and brown pattern","họa tiết màu đỏ và nâu"]]}]}
+ ]}

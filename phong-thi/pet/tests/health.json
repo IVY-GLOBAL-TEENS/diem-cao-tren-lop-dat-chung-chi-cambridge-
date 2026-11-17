@@ -1,0 +1,467 @@
+{
+ "id": "health",
+ "title": "Health and Fitness",
+ "vi": "Sức khỏe và thể thao",
+ "icon": "💪",
+ "docs": {
+  "reading": "1GRf50RJ6kOdtCpCvEqKqeB635BalawXIBbBlgue4oOs",
+  "listening": "1vzS8Hdxw9dhu-uKj_d91xH0tbAwZqXUj8_jX_77ngaE",
+  "speaking": "1HLrMY3V5myNSaLw9jVEpG0RhtK2AjMkKY18uc745VSA",
+  "writing": "1OCnTp42HAlaF9YsGNpk9W0UqdAJaja9TOOJuC0-oAA4",
+  "further": "1pjWja1UKYUoRmzZYVNya7q1XeRJznFz0OLLvis5Ipx0",
+  "further2": "1pEfk6KPF3usAYH3r6Ra9KyjpiiG9ubWOr-VD1hvYkvg"
+ },
+ "audio": [
+  {
+   "label": "Part 1",
+   "id": "1JOg994niSB60RnoXtqGNHGKVjoS4fXfS"
+  },
+  {
+   "label": "Part 2",
+   "id": "18TLJDhEfsHlrQUygHUIrgD0-8ePhgxMr"
+  },
+  {
+   "label": "Part 3",
+   "id": "15VGjWMzItwmxWzkI3_jMVzy0Sptybn9d"
+  },
+  {
+   "label": "Part 4",
+   "id": "1nNE-HIU7D3kpposAEUjd2fxSOsh3cPD2"
+  }
+ ],
+ "sections": [
+  {
+   "id": "r-goc",
+   "skill": "reading",
+   "kind": "sheet",
+   "doc": "reading",
+   "title": "Đề gốc – Reading Part 1",
+   "note": "Tài liệu mới có đáp án Part 1 (Part 2 làm ở bài bên dưới); Part 3–6 chưa có đáp án.",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "C",
+      "C",
+      "A",
+      "A",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-p2",
+   "skill": "reading",
+   "kind": "match",
+   "part": 2,
+   "title": "Part 2 – Fitness activities",
+   "instr": "The people below all want to do something to keep fit. There are eight descriptions of fitness activities. Decide which activity would be the most suitable for each person.",
+   "from": 6,
+   "people": [
+    {
+     "name": "Theo",
+     "text": "Theo is new to the area and wants to get fit for the first time in his life. He is more interested in team sports and would like to make friends as well."
+    },
+    {
+     "name": "Barbara",
+     "text": "Barbara loves running and would like to join a running club. She can't afford a membership fee to begin with but if she likes it, she'd be keen to sign up and volunteer as well."
+    },
+    {
+     "name": "Tracy",
+     "text": "Tracy has decided to join a gym. She wants to have someone who can help and encourage her to work hard. She'd also like to go swimming at the weekend."
+    },
+    {
+     "name": "Steve",
+     "text": "Steve is looking for a personal trainer and is returning to exercise after hurting his ankle. He is busy at work and needs someone who is available any day."
+    },
+    {
+     "name": "Debbie",
+     "text": "Debbie is a keen athlete and wants to find somewhere she can train on a race-track and compete against other athletes. She likes to train early in the morning."
+    }
+   ],
+   "options": [
+    {
+     "l": "A",
+     "title": "Stevie's Gym",
+     "text": "Stevie's Gym is well known in the area for offering the best in everything to do with health and fitness. Relax in our luxury swimming pool or use the latest equipment in the gym. It's easy to lose interest if you don't have the right support, and our skilled team of trainers will get you started and help you stay focused."
+    },
+    {
+     "l": "B",
+     "title": "Blackwell Gym",
+     "text": "The very best in personal service. Our members get a free health check when they join. We will then discuss your aims and design a personal programme to help you achieve your goals. Open six days a week, closed on Sundays."
+    },
+    {
+     "l": "C",
+     "title": "The Arcadian Harriers",
+     "text": "We meet in the Arcadian Leisure Centre twice a week and set off on planned routes around the area. Join us on Tuesday for the 6k run and Thursday for the 10k. You don't have to become a member to run with us, but we'd love it if you did. We are also looking for people to help out with events."
+    },
+    {
+     "l": "D",
+     "title": "JDC Gym",
+     "text": "We offer personal, one-to-one training programmes for beginner and more advanced workouts. Our trainers are available seven days a week and can meet you at the gym or at a place that's more convenient to you. Build your strength and fitness and get help with any injuries you may have."
+    },
+    {
+     "l": "E",
+     "title": "Temple Health and Fitness",
+     "text": "Whether you want to improve your fitness or lose weight, you can be sure to find the support you need to achieve your goals with our team of personal trainers. Visit our website to view their personal profiles and areas of expertise. Currently we are offering sessions at weekends only."
+    },
+    {
+     "l": "F",
+     "title": "Arena Leisure Centre",
+     "text": "We know that some days are perfect for achieving goals in the gym, while others are best spent relaxing in the sauna. Whatever your needs, we can promise you a personal service. Please note the swimming pool is being used for competitions every Saturday and Sunday and is not open to the public on these days."
+    },
+    {
+     "l": "G",
+     "title": "Central Fitness and Leisure",
+     "text": "We are one of the larger leisure centres in the area and can offer a huge range of activities at our 24-hour gym and 400-metre running track that is free to use for members. Sign up to our monthly league table and see how your times compare to other members."
+    },
+    {
+     "l": "H",
+     "title": "Sport Special",
+     "text": "For those who want to focus on their own personal fitness, Sport Special provides members with a modern gym with the latest equipment. The leisure centre also organises group events such as five-a-side football or hockey. After the match, get to know your team mates in the café for tea, coffee and snacks."
+    }
+   ],
+   "answers": [
+    "H",
+    "C",
+    "A",
+    "D",
+    "G"
+   ]
+  },
+  {
+   "id": "r-fp1",
+   "skill": "reading",
+   "kind": "cloze",
+   "part": 5,
+   "title": "Further practice – Part 5: Stay Healthy by Walking",
+   "instr": "For each question, choose the correct answer.",
+   "from": 1,
+   "passage": {
+    "title": "Stay Healthy by Walking",
+    "text": "Everybody worries about their general health and fitness. However, what many people don't realize is that walking is one of the best ways to keep healthy.\n\nThis doesn't mean that you {1} to go on long walks in the countryside. You can walk home from work or school. You can walk to the shops. You can use the stairs {2} of using the lift. You can even walk a dog {3} you have one!\n\nNow let's look {4} the benefits of walking. Firstly, it's relaxing. Secondly, it improves your fitness and your health. {5}, it's a great way to socialize with your friends and family.\n\nRemember, you don't need {6} expensive equipment for walking. You just need a good pair of walking boots or shoes."
+   },
+   "opts": [
+    [
+     "must",
+     "have",
+     "should",
+     "might"
+    ],
+    [
+     "instead",
+     "enough",
+     "else",
+     "well"
+    ],
+    [
+     "whether",
+     "if",
+     "as",
+     "that"
+    ],
+    [
+     "on",
+     "at",
+     "for",
+     "with"
+    ],
+    [
+     "Finally",
+     "Conclusion",
+     "End",
+     "Last"
+    ],
+    [
+     "many",
+     "any",
+     "various",
+     "some"
+    ]
+   ],
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "r-fp2",
+   "skill": "reading",
+   "kind": "match",
+   "part": 2,
+   "title": "Further practice – Part 2: Places to eat",
+   "instr": "The people below are all looking for somewhere to eat. Decide which place would be the most suitable for each person.",
+   "from": 1,
+   "people": [
+    {
+     "name": "Tom",
+     "text": "Tom is a vegan who's exploring healthy lifestyle options. He's ravenous and looking for a lunch spot that offers a full meal, completely plant-based."
+    },
+    {
+     "name": "Gina",
+     "text": "Gina just finished her gym workout and needs a light gluten-free snack to keep her energy up without feeling overly full. She's not too hungry, but she likes trying new things."
+    },
+    {
+     "name": "Liam",
+     "text": "Liam is an office worker with lunch vouchers from his employer. He's moderately hungry and prefers a place where he can get a decent meal within his lunch break."
+    },
+    {
+     "name": "Hannah",
+     "text": "Hannah is a student who prefers spicy food. She's looking for a satisfying meal, not too heavy, that fits her modest budget."
+    },
+    {
+     "name": "Jake",
+     "text": "Jake is a foodie who's always open to unique culinary experiences. He's quite peckish and interested in trying out a specialty dish or dessert."
+    }
+   ],
+   "options": [
+    {
+     "l": "A",
+     "title": "GreenBowl",
+     "text": "This restaurant takes pride in its extensive vegan menu, offering a variety of delicious plant-based meals to fill you up. From wholesome salads to vegan burgers, there's something for every craving."
+    },
+    {
+     "l": "B",
+     "title": "SnackFit",
+     "text": "We specialise in post-workout snacks, offering a wide range of gluten-free options. From protein shakes to gluten-free bars, we've got you covered for a quick energy boost."
+    },
+    {
+     "l": "C",
+     "title": "TimeOut Café",
+     "text": "A popular spot among office workers, we accept lunch vouchers and offer a diverse menu featuring hearty meals that can be served quickly. It's perfect for a quick and satisfying lunch break."
+    },
+    {
+     "l": "D",
+     "title": "SpicyBite",
+     "text": "Your destination for affordable and delicious spicy meals. Our menu features a variety of moderately filling dishes that pack a punch without breaking the bank."
+    },
+    {
+     "l": "E",
+     "title": "Dessert Haven",
+     "text": "Indulge in our selection of unique specialty desserts. It's the perfect place for a light snack to satisfy your sweet tooth and embark on a culinary adventure."
+    },
+    {
+     "l": "F",
+     "title": "Healthy Delight",
+     "text": "Our healthy and delicious salads are perfect for a light meal. All ingredients are organic and there are several gluten-free options available."
+    },
+    {
+     "l": "G",
+     "title": "Fast Eats",
+     "text": "This fast-food joint offers quick, budget-friendly meals. Although it's not the healthiest option, it's ideal when you're really hungry and need a quick fix."
+    },
+    {
+     "l": "H",
+     "title": "Specialty Savour",
+     "text": "We offer a unique dining experience with a variety of specialty dishes that you won't find anywhere else. It's perfect for foodies seeking something different and delightful."
+    }
+   ],
+   "answers": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "H"
+   ]
+  },
+  {
+   "id": "l-goc",
+   "skill": "listening",
+   "kind": "sheet",
+   "doc": "listening",
+   "title": "Đề gốc – Listening Part 1–2",
+   "note": "Tài liệu chưa có đáp án Part 3–4 nên phiếu chỉ chấm Part 1–2.",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "B",
+      "B",
+      "A",
+      "A",
+      "B",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "label": "Part 2",
+     "from": 8,
+     "opts": "ABC",
+     "answers": [
+      "B",
+      "B",
+      "A",
+      "C",
+      "B",
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "l-fp",
+   "skill": "listening",
+   "kind": "mcq",
+   "part": 1,
+   "title": "Further practice – At the doctor's",
+   "link": {
+    "label": "Nghe audio tại examenglish.com",
+    "url": "https://www.examenglish.com/B1/b1_listening_health.htm"
+   },
+   "instr": "Mở trang examenglish để nghe đoạn hội thoại giữa bác sĩ và bệnh nhân, sau đó chọn đáp án đúng.",
+   "qs": [
+    {
+     "q": "Why is the woman seeing the doctor?",
+     "o": [
+      "She wants to lose weight.",
+      "She feels stressed and emotional.",
+      "She has trouble sleeping."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What does the doctor say about giving her medicine?",
+     "o": [
+      "He will give her a mild sleeping pill.",
+      "He thinks she doesn't need any medicine.",
+      "He wants to prescribe something for her stress."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What does the woman say she does for pleasure?",
+     "o": [
+      "She goes for a walk.",
+      "She meets her friends.",
+      "She watches TV in the evenings."
+     ],
+     "a": 2
+    },
+    {
+     "q": "How does the woman take care of her health?",
+     "o": [
+      "She exercises regularly.",
+      "She watches her weight and doesn't overeat.",
+      "She follows a strict diet plan."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What advice does the doctor give the woman?",
+     "o": [
+      "Do some exercise every day to help her relax.",
+      "Go on a special diet to feel better.",
+      "Take time off work and rest more."
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "s-p3",
+   "skill": "speaking",
+   "kind": "speak",
+   "doc": "speaking",
+   "title": "Speaking Part 3 – Choosing a sport",
+   "intro": "Mở tài liệu gốc để xem 7 bức tranh. Tình huống: một cô gái trẻ làm văn phòng, rất bận, chưa nhiều tiền. Thảo luận môn thể thao nào hợp với cô ấy.",
+   "cards": [
+    {
+     "title": "Ý tưởng cho từng lựa chọn",
+     "cols": [
+      "Activity",
+      "✅ Suitable because",
+      "❌ Not suitable because"
+     ],
+     "rows": [
+      [
+       "Playing golf",
+       "helps her relax and enjoy nature · a low-impact sport, good for gentle fitness",
+       "takes a lot of time · needs travel to a golf course · expensive, needs special equipment"
+      ],
+      [
+       "Football / freestyle with a ball",
+       "fun, improves coordination · can be done in a short time at a nearby park",
+       "needs space and possibly a partner · might not be her style"
+      ],
+      [
+       "Jogging",
+       "quick and easy to fit into a busy schedule · no equipment, can be done anywhere · great for mental and physical health",
+       "weather-dependent · may feel too tiring after a long workday"
+      ],
+      [
+       "Cycling",
+       "can be used to commute · great for fitness and the environment",
+       "needs a bike and a safe route · may take longer than she can afford"
+      ],
+      [
+       "Skiing",
+       "excellent full-body workout · a fun, exciting break from work",
+       "needs a whole day or a trip to the mountains · seasonal and expensive"
+      ],
+      [
+       "Swimming",
+       "great full-body exercise · relieves stress · indoor pools are weather-proof",
+       "needs access to a pool · takes time to change, shower and travel"
+      ],
+      [
+       "Dancing",
+       "fun and social · can be done at home or in short classes · good for posture and mental health",
+       "may need a partner or regular class · not everyone feels confident dancing"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-art",
+   "skill": "writing",
+   "kind": "speak",
+   "doc": "further2",
+   "title": "Writing Part 2 – Article: Staying healthy",
+   "intro": "Đề: Write an article answering these questions: Is it important to do sport and keep fit? Why? What are some fun ways to stay healthy? Write about 100 words.",
+   "cards": [
+    {
+     "title": "Cấu trúc bài Article",
+     "lines": [
+      [
+       "Title",
+       "Tiêu đề hấp dẫn, không chung chung. VD: Stay Fit, Stay Happy! · Healthy Body, Happy Mind!"
+      ],
+      [
+       "Đoạn 1 – Mở bài",
+       "Câu hỏi tu từ, số liệu thú vị hoặc \"Have you ever…?\". VD: Have you ever felt tired, stressed, or low on energy? If so, you might need to think more about your health!"
+      ],
+      [
+       "Đoạn 2 – Câu hỏi 1",
+       "2–3 lý do + giải thích: keeps our body strong / prevents diseases · reduces stress / improves mood · helps us concentrate at school · helps us sleep better"
+      ],
+      [
+       "Đoạn 3 – Câu hỏi 2",
+       "2–3 gợi ý thú vị: dancing / Zumba · cycling with friends · team sports · cooking healthy meals · hiking · active video games"
+      ],
+      [
+       "Đoạn 4 – Kết bài",
+       "Tóm tắt + kêu gọi hành động. VD: So why not start today? Your body and mind will thank you!"
+      ]
+     ]
+    },
+    {
+     "title": "Viết bài của em",
+     "write": true,
+     "min": 100,
+     "model": "Stay Fit, Stay Happy!\n\nHave you ever felt tired or low on energy? If so, it's time to think about your health! In this article, I will explain why staying healthy matters and share some fun ways to do it.\n\nDoing sport and keeping fit is extremely important for young people. Regular exercise keeps our bodies strong and helps prevent illnesses. Moreover, it reduces stress and helps us concentrate better at school — especially useful during exam time!\n\nThe good news is that staying healthy can be fun! You could try dancing, join a team sport like football, or cook healthy meals at home with your family. There is something enjoyable for everyone!\n\nTo sum up, there are many easy and fun ways to live a healthy life. So why not start today? Your body and mind will thank you!"
+    }
+   ]
+  }
+ ]
+}

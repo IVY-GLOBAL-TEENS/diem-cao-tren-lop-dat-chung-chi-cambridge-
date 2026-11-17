@@ -1,0 +1,635 @@
+{
+ "id": "work",
+ "title": "Work and Jobs",
+ "vi": "Công việc và nghề nghiệp",
+ "icon": "💼",
+ "docs": {
+  "reading": "1P59cJCCLyR_UL0h7QndzpXRunjMusb3NV2AQYpgrtU4",
+  "listening": "1Ihweoqzzgfs6AMLDBKaH6uvPIDr9SDHS2dNH-7_UCpY",
+  "speaking": "14b_Uniyo-bXX9tJ98CDjLTMI1XCz6iKyH23xKixsY7Y"
+ },
+ "audio": [
+  {
+   "label": "Work and Jobs – Listening (cả bài)",
+   "id": "1qt5XBibX6lOsLuNNumNi-n--rT_HPTbU"
+  }
+ ],
+ "sections": [
+  {
+   "id": "r-goc",
+   "skill": "reading",
+   "kind": "sheet",
+   "doc": "reading",
+   "title": "Đề gốc – Reading Part 1–6",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "A",
+      "C",
+      "A",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 2",
+     "from": 6,
+     "opts": "ABCDEFGH",
+     "answers": [
+      "C",
+      "B",
+      "H",
+      "D",
+      "G"
+     ]
+    },
+    {
+     "label": "Part 3",
+     "from": 11,
+     "opts": "ABCD",
+     "answers": [
+      "C",
+      "B",
+      "D",
+      "A",
+      "C"
+     ]
+    },
+    {
+     "label": "Part 4",
+     "from": 16,
+     "opts": "ABCDEFGH",
+     "answers": [
+      "G",
+      "B",
+      "E",
+      "D",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 5",
+     "from": 21,
+     "opts": "ABCD",
+     "answers": [
+      "A",
+      "B",
+      "D",
+      "A",
+      "C",
+      "A"
+     ]
+    },
+    {
+     "label": "Part 6",
+     "from": 27,
+     "text": true,
+     "answers": [
+      [
+       "have"
+      ],
+      [
+       "that",
+       "which"
+      ],
+      [
+       "the",
+       "a"
+      ],
+      [
+       "if"
+      ],
+      [
+       "there"
+      ],
+      [
+       "to"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r-p2",
+   "skill": "reading",
+   "kind": "match",
+   "part": 2,
+   "title": "Bài tập tương tự – Part 2: Matching",
+   "instr": "The people below are all looking for a job. There are descriptions of eight jobs. Decide which job would be the most suitable for each person.",
+   "people": [
+    {
+     "name": "Liam",
+     "text": "Liam is a 16-year-old high school student. He wants to find an unpaid volunteer role on Saturdays to get experience working with young children. He hopes to become a primary school teacher in the future."
+    },
+    {
+     "name": "Chloe",
+     "text": "Chloe is studying Graphic Design at university. She is looking for a well-paid, part-time evening job (from 6 p.m. onwards) during the week where she can use her creative skills and digital tools."
+    },
+    {
+     "name": "Minh",
+     "text": "Minh has just graduated with a degree in Hotel Management. He is looking for a full-time, entry-level position with clear opportunities to be trained and promoted into a managerial or supervisory role quickly."
+    },
+    {
+     "name": "Elena",
+     "text": "Elena speaks fluent Spanish and English. She wants a temporary summer job for two months where she can travel, work outdoors, and interact with international tourists."
+    },
+    {
+     "name": "David",
+     "text": "David is a retired accountant. He wants to stay active by working 2 or 3 mornings a week (Monday to Wednesday). He prefers an office environment where he can help a small business with their financial records or paperwork."
+    }
+   ],
+   "options": [
+    {
+     "l": "A",
+     "title": "Riverside Summer Camp",
+     "text": "We need energetic camp counselors for July and August. You will lead outdoor sports, games, and hiking trips for groups of international teenagers. Excellent communication skills are required. Free accommodation provided."
+    },
+    {
+     "l": "B",
+     "title": "Bright Sparks Nursery",
+     "text": "Are you looking to start a career in early childhood education? We are seeking volunteers to help our staff with fun activities and games for children aged 3–5. This position is only open on Saturdays from 9 a.m. to 1 p.m."
+    },
+    {
+     "l": "C",
+     "title": "TechStart Solutions",
+     "text": "A fast-growing IT company is looking for a full-time Web Designer. You will work from Monday to Friday, 9 a.m. to 5 p.m., creating layouts for client websites. At least two years of previous office experience is necessary."
+    },
+    {
+     "l": "D",
+     "title": "Star Hotel Group",
+     "text": "We are recruiting Full-Time Front Desk Assistants. No prior experience is needed as we provide a comprehensive training program. This is a fantastic step for ambitious graduates, with a fast-track pathway to becoming a team leader within a year."
+    },
+    {
+     "l": "E",
+     "title": "Green Grocery Store",
+     "text": "A busy local supermarket needs a part-time evening cashier to work from Tuesday to Friday (6 p.m. – 10 p.m.). You will handle cash transactions and help customers. A friendly personality and basic math skills are required."
+    },
+    {
+     "l": "F",
+     "title": "Pixel Creative Agency",
+     "text": "We have an exciting part-time opening for a digital content creator. The hours are flexible, ideal for students who want to work online or in our studio during weekday evenings (7 p.m. – 10 p.m.). Good knowledge of design software is essential, and we offer a highly competitive hourly rate."
+    },
+    {
+     "l": "G",
+     "title": "Local Charity Office",
+     "text": "Our small charity team needs a volunteer or part-time assistant to help organize our files and manage basic bookkeeping. We are looking for someone reliable to come in on Monday, Tuesday, and Wednesday mornings (8 a.m. – 12 p.m.)."
+    },
+    {
+     "l": "H",
+     "title": "Sunny Tours",
+     "text": "We are looking for bilingual tour guides who speak both English and Spanish to work in our city center office. This is a permanent, full-time position requiring weekend shifts to help tourists book local city bus tours."
+    }
+   ],
+   "answers": [
+    "B",
+    "F",
+    "D",
+    "A",
+    "G"
+   ],
+   "exp": [
+    "Liam cần việc tình nguyện không lương (unpaid volunteer), vào thứ Bảy, làm việc với trẻ nhỏ. Đoạn B: \"seeking volunteers\", \"children aged 3–5\", \"open on Saturdays\".",
+    "Chloe học thiết kế, cần việc bán thời gian buổi tối trong tuần, lương cao, dùng kỹ năng sáng tạo. Đoạn F: \"digital content creator\", \"weekday evenings\", \"design software\", \"highly competitive hourly rate\".",
+    "Minh mới tốt nghiệp Quản lý Khách sạn, cần việc toàn thời gian, có đào tạo và thăng tiến. Đoạn D: \"comprehensive training program\", \"fast-track pathway to becoming a team leader\".",
+    "Elena cần việc hè 2 tháng, ngoài trời, gặp khách quốc tế. Đoạn A: \"July and August\", \"outdoor sports\", \"international teenagers\". (H sai vì là việc lâu dài, làm ở văn phòng.)",
+    "David muốn làm 2–3 buổi sáng (thứ Hai–thứ Tư), văn phòng, sổ sách tài chính. Đoạn G: \"bookkeeping\", \"Monday, Tuesday, and Wednesday mornings\"."
+   ]
+  },
+  {
+   "id": "r-p3",
+   "skill": "reading",
+   "kind": "mcq",
+   "part": 3,
+   "title": "Bài tập tương tự – Part 3: Multiple choice",
+   "instr": "For each question, choose the correct answer.",
+   "passage": {
+    "title": "From Office Desk to Forest Trails",
+    "intro": "Reporter Emma Watson writes about Thomas Vance, who left a high-flying corporate job to become a national park ranger and wildlife educator.",
+    "text": "When Thomas Vance was a teenager, his parents wanted him to follow a traditional path. They encouraged him to study economics, hoping he would secure a stable office job. Thomas followed their advice, worked hard at university, and quickly landed a job at a major financial firm in the city. He was earning a good salary, and on paper, his life looked perfect. However, spending ten hours a day inside a concrete building staring at spreadsheets began to take a toll. He missed the weekends of his youth, which he used to spend hiking and camping in the countryside with his local scout group.\n\nAfter five years, Thomas realized he needed a change. At the age of 27, he made the brave decision to resign from his corporate role. Many of his colleagues thought he was making a huge mistake to give up financial security. Luckily, his family supported him. He went back to college for a year to study environmental science. 'It was tough being a student again with no steady income,' Thomas told me. 'But the moment I started learning about nature and conservation, I knew I had found my true calling.'\n\nThomas now works as a full-time ranger at Oakwood National Park. His main responsibility is leading educational programs for school groups. 'Many children living in the city have never spent time in a real forest,' Thomas explains. 'When they first arrive, some are afraid of getting dirty or encountering insects. Our job isn't just to show them trees; it's to help them overcome those fears and build a lasting bond with nature so they will want to protect it.'\n\nThe park has recently started using social media influencers to promote its conservation projects. Thomas notes, 'I know some traditional rangers feel that using internet celebrities is just a silly stunt that distracts from our serious scientific work. They worry it makes the park look like a theme park. However, if these popular online figures can encourage thousands of young teenagers to visit and care about the environment, I believe it's an excellent strategy.'"
+   },
+   "qs": [
+    {
+     "q": "When Thomas first started his career in finance",
+     "o": [
+      "he was unhappy with the salary he received.",
+      "he was following the career wishes of his parents.",
+      "he managed to go hiking almost every weekend.",
+      "he regretted choosing to study economics at university."
+     ],
+     "a": 1,
+     "exp": "Đoạn 1: bố mẹ muốn anh đi con đường truyền thống và \"Thomas followed their advice\"."
+    },
+    {
+     "q": "Why does Thomas say he left his corporate job?",
+     "o": [
+      "He wanted more time to spend with his scout group.",
+      "He found the daily office environment unsatisfying.",
+      "His colleagues advised him to try something new.",
+      "He was offered a better position in environmental science."
+     ],
+     "a": 1,
+     "exp": "Ngồi văn phòng 10 tiếng nhìn bảng tính \"began to take a toll\" – môi trường văn phòng khiến anh không thỏa mãn."
+    },
+    {
+     "q": "What does Thomas try to achieve for the children visiting the park?",
+     "o": [
+      "He wants them to learn the names of all the tree species.",
+      "He helps them feel comfortable and connected to the outdoors.",
+      "He teaches them how to survive alone in a real forest.",
+      "He encourages them to choose a future career as a park ranger."
+     ],
+     "a": 1,
+     "exp": "Đoạn 3: \"help them overcome those fears and build a lasting bond with nature\"."
+    },
+    {
+     "q": "According to Thomas, some traditional rangers believe that using influencers can",
+     "o": [
+      "make the public take the park's serious work less seriously.",
+      "help the park raise more money for scientific research.",
+      "attract the wrong type of visitors to the conservation areas.",
+      "reduce the amount of time rangers spend on education."
+     ],
+     "a": 0,
+     "exp": "Đoạn 4: \"distracts from our serious scientific work\", \"makes the park look like a theme park\"."
+    },
+    {
+     "q": "What would Thomas say on his blog?",
+     "o": [
+      "Leaving my financial job was difficult because my family didn't agree with it, but I have no regrets about becoming a student again.",
+      "Working at Oakwood is wonderful because I get to spend my days teaching city children who already love everything about nature.",
+      "Although I used to earn a much higher salary in the city, I am far happier now that I have a career protecting the environment.",
+      "I spend most of my spare time contacting internet celebrities to see if they will help us film our weekly educational videos."
+     ],
+     "a": 2,
+     "exp": "Câu tổng hợp: từng lương cao nhưng không vui, nay tìm được \"true calling\". Loại A (gia đình có ủng hộ), B (trẻ em ban đầu còn sợ), D (công viên dùng influencer, không phải Thomas)."
+    }
+   ]
+  },
+  {
+   "id": "r-p4",
+   "skill": "reading",
+   "kind": "gaptext",
+   "part": 4,
+   "title": "Bài tập tương tự – Part 4: Gapped text",
+   "instr": "Five sentences have been removed from the text below. For each question, choose the correct answer. There are three extra sentences which you do not need to use.",
+   "passage": {
+    "title": "The Mysterious Disappearance of the Scream",
+    "text": "In 1994, art thieves broke into the National Gallery in Oslo, Norway, and stole one of the world's most iconic masterpieces: The Scream by Edvard Munch. The crime took place on the very same day as the opening ceremony of the Winter Olympics in Lillehammer. {16} Because the nation's attention was completely focused on the sporting event, security at the museum was lighter than usual, creating the perfect opportunity for the criminals.\n\nThe thieves carried out the entire robbery in less than sixty seconds. They simply placed a ladder against the wall, climbed up to a second-story window, broke the glass, and cut the painting from the wall. {17} Instead, they left a sarcastic note on the wall that read: \"Thanks for the poor security.\"\n\nThe head of security at the museum was deeply embarrassed by the incident. He admitted to reporters that it was incredibly easy for the criminals to walk away with the priceless artwork. {18} Following the theft, the police immediately launched a massive international investigation, working alongside British detectives from New Scotland Yard.\n\nA few weeks later, the museum received a massive ransom demand from the criminals. They threatened to destroy the painting unless the government paid them one million US dollars. {19} However, the authorities refused to negotiate with the thieves or hand over any money.\n\nInstead, the police set up a clever sting operation using undercover detectives. They pretended to be wealthy art buyers who wanted to purchase the masterpiece for a private collection. The plan worked perfectly, and the thieves were caught red-handed in a hotel room with the undamaged artwork. {20} Today, visitors can see it back in the Oslo museum, but this time, it is protected by an advanced, high-tech security system."
+   },
+   "sentences": [
+    {
+     "l": "A",
+     "t": "This distraction was exactly what the thieves had been counting on."
+    },
+    {
+     "l": "B",
+     "t": "Fortunately, the painting was safely recovered and returned to its rightful home."
+    },
+    {
+     "l": "C",
+     "t": "They didn't even bother to turn off the alarms before running away."
+    },
+    {
+     "l": "D",
+     "t": "He explained that the gallery simply could not afford better alarm systems at the time."
+    },
+    {
+     "l": "E",
+     "t": "If they did not receive the money, they planned to sell it to an international dealer."
+    },
+    {
+     "l": "F",
+     "t": "Previously, nobody had ever managed to break into the museum during the day."
+    },
+    {
+     "l": "G",
+     "t": "He was later arrested while trying to board a train out of the country."
+    },
+    {
+     "l": "H",
+     "t": "So the painting became popular in France instead of Norway."
+    }
+   ],
+   "answers": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "B"
+   ],
+   "exp": [
+    "Trước chỗ trống: cả nước dồn chú ý vào Thế vận hội → \"This distraction...\" nối trực tiếp.",
+    "Trộm cắt tranh rồi \"Instead, they left a sarcastic note...\" → C: chúng chẳng buồn tắt báo động.",
+    "Trưởng an ninh thừa nhận lấy trộm quá dễ → D tiếp tục lời giải thích của ông ấy.",
+    "Trước là yêu cầu tiền chuộc → E nêu điều kiện đe dọa tiếp theo.",
+    "Trộm bị bắt cùng bức tranh nguyên vẹn → B: tranh được thu hồi và trả về."
+   ]
+  },
+  {
+   "id": "r-p5",
+   "skill": "reading",
+   "kind": "cloze",
+   "part": 5,
+   "title": "Bài tập tương tự – Part 5: Multiple-choice cloze",
+   "instr": "For each question, choose the correct answer.",
+   "passage": {
+    "title": "A Dream Job for Animal Lovers",
+    "text": "Many teenagers dream of running their own business one day, but Chloe Smith {21} it happen at the age of just eighteen. Chloe is a professional pet groomer, which means her job is to wash, cut, and style the fur of people's pets. She has always been {22} about dogs, so after leaving school, she decided to take a short training course {23} than going to university.\n\nAt first, Chloe visited customers' houses to groom their pets. {24}, she soon saved enough money to buy a specially designed van. Now, she can drive her mobile salon directly to her clients' homes and work inside it.\n\nChloe loves her job, but she admits that it can sometimes be dangerous. Some dogs get very frightened and try to {25} her. She has to be incredibly patient and gentle with them. Chloe believes that anyone who wants to do this work must {26} a lot of time practicing with different types of animals before starting a business."
+   },
+   "opts": [
+    [
+     "made",
+     "did",
+     "caused",
+     "brought"
+    ],
+    [
+     "keen",
+     "interested",
+     "crazy",
+     "fond"
+    ],
+    [
+     "instead",
+     "rather",
+     "except",
+     "apart"
+    ],
+    [
+     "However",
+     "Although",
+     "Despite",
+     "Whereas"
+    ],
+    [
+     "catch",
+     "bite",
+     "hold",
+     "break"
+    ],
+    [
+     "use",
+     "pass",
+     "spend",
+     "waste"
+    ]
+   ],
+   "answers": [
+    0,
+    2,
+    1,
+    0,
+    1,
+    2
+   ],
+   "exp": [
+    "Make + sb/sth + V-bare → \"made it happen\".",
+    "\"crazy about\" (rất thích). keen on, interested in, fond of không đi với \"about\".",
+    "\"rather than + V-ing\" (thay vì). \"instead\" cần \"of\".",
+    "Trạng từ nối đầu câu có dấu phẩy: \"However, ...\".",
+    "Chó sợ hãi thường cố cắn (bite) người.",
+    "spend + time + V-ing → \"spend a lot of time practicing\"."
+   ]
+  },
+  {
+   "id": "r-p6",
+   "skill": "reading",
+   "kind": "open",
+   "part": 6,
+   "title": "Bài tập tương tự – Part 6: Open cloze",
+   "instr": "For each question, write the correct answer. Write ONE word for each gap.",
+   "passage": {
+    "title": "An Amazing Experience",
+    "text": "I am writing to tell you about my first week {27} work at the local wildlife rescue center. As you know, I have wanted to volunteer there {28} a very long time. On my first day, the manager introduced me to the rest of the team, {29} were all incredibly welcoming and helpful.\n\nMy main job is to prepare food for the injured birds and animals. It is much harder {30} I expected because each animal needs a completely different diet. I also have to clean their cages every morning.\n\nYesterday, I was allowed to help the vet look {31} a beautiful young owl. It was such an exciting moment! I am learning so {32} new things here every day, and I am definitely sure that I want to work with wildlife in the future."
+   },
+   "answers": [
+    [
+     "at"
+    ],
+    [
+     "for"
+    ],
+    [
+     "who"
+    ],
+    [
+     "than"
+    ],
+    [
+     "after"
+    ],
+    [
+     "many"
+    ]
+   ],
+   "exp": [
+    "\"at work\" – ở nơi làm việc.",
+    "Hiện tại hoàn thành + \"for a very long time\".",
+    "Đại từ quan hệ chỉ người: \"the rest of the team, who...\".",
+    "So sánh hơn: \"harder than I expected\".",
+    "Phrasal verb \"look after\" – chăm sóc.",
+    "\"so many\" + danh từ đếm được số nhiều."
+   ]
+  },
+  {
+   "id": "l-goc",
+   "skill": "listening",
+   "kind": "sheet",
+   "doc": "listening",
+   "title": "Đề gốc – Listening Part 1–4",
+   "groups": [
+    {
+     "label": "Part 1",
+     "from": 1,
+     "opts": "ABC",
+     "answers": [
+      "C",
+      "C",
+      "C",
+      "B",
+      "A",
+      "B",
+      "B"
+     ]
+    },
+    {
+     "label": "Part 2",
+     "from": 8,
+     "opts": "ABC",
+     "answers": [
+      "A",
+      "B",
+      "C",
+      "B",
+      "A",
+      "B"
+     ]
+    },
+    {
+     "label": "Part 3",
+     "from": 14,
+     "text": true,
+     "answers": [
+      [
+       "different building"
+      ],
+      [
+       "13 september",
+       "13th september",
+       "september 13",
+       "september 13th",
+       "13/9"
+      ],
+      [
+       "exercises"
+      ],
+      [
+       "manager",
+       "training manager"
+      ],
+      [
+       "restaurant",
+       "company restaurant"
+      ],
+      [
+       "134"
+      ]
+     ]
+    },
+    {
+     "label": "Part 4",
+     "from": 20,
+     "opts": "ABC",
+     "answers": [
+      "A",
+      "B",
+      "A",
+      "B",
+      "C",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "l-p4",
+   "skill": "listening",
+   "kind": "mcq",
+   "part": 4,
+   "audio": 0,
+   "title": "Test lại – Part 4: Interview with James Sweeney",
+   "instr": "Nghe lại Part 4 (đề gốc). You will hear an interview with a man called James Sweeney, who is a tree-climbing instructor. For each question, choose the correct answer.",
+   "qs": [
+    {
+     "q": "What does James say about his childhood?",
+     "o": [
+      "He spent a lot of time climbing trees in his mother's gardens.",
+      "He was forbidden from climbing trees when he was young.",
+      "His mother taught him everything she knew about tree care."
+     ],
+     "a": 1
+    },
+    {
+     "q": "Why did James find his first tree-climbing course surprising?",
+     "o": [
+      "Because the equipment used made him feel completely safe.",
+      "Because they were allowed to stay up in the trees for hours.",
+      "Because he expected the activity to require a lot of physical strength."
+     ],
+     "a": 2
+    },
+    {
+     "q": "What does James dislike about his job as an instructor?",
+     "o": [
+      "Working outdoors when the weather is bad.",
+      "Teaching people who have no childhood memories of climbing.",
+      "Helping students who are afraid of heights."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why does James travel around the USA?",
+     "o": [
+      "Because he wants to visit every single American state.",
+      "Because tree climbing is much more popular abroad than in the US.",
+      "Because people don't want to climb trees in his home region during winter."
+     ],
+     "a": 2
+    },
+    {
+     "q": "What is a disadvantage of sleeping in trees according to James?",
+     "o": [
+      "It is too uncomfortable to get any good rest.",
+      "You are likely to wake up early because of the birds.",
+      "It is difficult to see the night sky clearly."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What does James say about climbing trees in rainforests?",
+     "o": [
+      "Moving too quickly can increase the risk of getting insect bites.",
+      "The trees are physically much harder to climb than usual.",
+      "It is impossible to avoid damaging the environment."
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "s-p2",
+   "skill": "speaking",
+   "kind": "speak",
+   "doc": "speaking",
+   "title": "Speaking Part 2 – Mẫu tả tranh",
+   "intro": "Mở tài liệu gốc để xem 2 bức tranh, tự nói 1 phút, rồi đối chiếu với bài mẫu theo khung 4 bước.",
+   "cards": [
+    {
+     "title": "Picture 1 – Working together in an office",
+     "lines": [
+      [
+       "Mở đầu",
+       "In this photo, I can see a group of people working together in an office or a modern classroom."
+      ],
+      [
+       "Bối cảnh & đồ vật",
+       "They are indoors. There are many computers, laptops, and a whiteboard in the background."
+      ],
+      [
+       "Hành động & ngoại hình",
+       "Most of them are looking at a large computer screen. A man with grey hair looks very serious, while a young man in a blue T-shirt is focusing on the screen. In the foreground, a girl is reading a book or a document."
+      ],
+      [
+       "Cảm xúc & dự đoán",
+       "They look very professional and concentrated. I think they are discussing an important project or solving a problem together."
+      ]
+     ]
+    },
+    {
+     "title": "Picture 2 – A meeting in the park",
+     "lines": [
+      [
+       "Mở đầu",
+       "The photo shows three business people having a meeting or working together outdoors."
+      ],
+      [
+       "Bối cảnh & đồ vật",
+       "They are sitting on the grass in a beautiful park, surrounded by tall trees. I can see a laptop on the ground and they are holding coffee cups."
+      ],
+      [
+       "Hành động & ngoại hình",
+       "There are two men and one woman. They are wearing formal clothes like white shirts and ties. They are all looking at the laptop screen and smiling."
+      ],
+      [
+       "Cảm xúc & dự đoán",
+       "The atmosphere seems very relaxed and friendly. I guess they prefer working outside to enjoy the fresh air instead of staying in a boring office."
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

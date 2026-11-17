@@ -130,6 +130,7 @@
       <div class="grid g3">
         <a class="card practice" href="phong-thi/"><span class="pi">🎯</span><div><b>Phòng thi ảo</b><span>Luyện theo Unit, luyện đề, thi thật</span></div></a>
         <a class="card practice" href="phong-thi/?view=ketbank"><span class="pi">📝</span><div><b>Kho đề KET</b><span>50 đề theo 25 chủ điểm</span></div></a>
+        <a class="card practice" href="phong-thi/pet/"><span class="pi">📘</span><div><b>Kho đề PET</b><span>8 chủ đề B1 · đề gốc + bài tương tự</span></div></a>
         <a class="card practice" href="#/giao-vien"><span class="pi">👩‍🏫</span><div><b>Góc giáo viên</b><span>Lộ trình, giáo án, ngữ pháp, KET</span></div></a>
       </div>
       <h2>Mô hình học tại IVY</h2>
@@ -148,6 +149,7 @@
   function practiceCards(c) {
     return `<div class="grid g3">
       <a class="card practice" href="${examLink(c)}"><span class="pi">🧩</span><div><b>Luyện theo Unit</b><span>Từ vựng, ngữ pháp, nghe, nói, viết và game – gom sao mở rương</span></div></a>
+      ${c.id === "bo" ? `<a class="card practice" href="phong-thi/pet/"><span class="pi">📘</span><div><b>Kho đề PET</b><span>8 chủ đề B1 – Reading, Listening, Writing, Speaking</span></div></a>` : ""}
       ${c.ketbank ? `<a class="card practice" href="phong-thi/?view=ketbank"><span class="pi">📝</span><div><b>Kho đề KET</b><span>Làm từng Part, chế độ Luyện tập hoặc Test</span></div></a>` : ""}
       <a class="card practice" href="phong-thi/?view=mock"><span class="pi">🖥️</span><div><b>Thi thật</b><span>Mô phỏng giao diện thi trên máy, chấm điểm ngay</span></div></a>
     </div>`;

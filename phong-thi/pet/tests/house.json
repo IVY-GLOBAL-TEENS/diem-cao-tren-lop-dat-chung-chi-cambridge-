@@ -1,0 +1,40 @@
+{"id":"house","title":"House and Home","vi":"Nhà cửa","icon":"🏠",
+ "docs":{"reading":"1b5hRVvtx2PokmOX7eGCVYmzPVuzFd7dcfV4ePxQHhv4","listening":"1rK68oRFP7vcBgDrINqwQSzlAW62ICH0uNPy_c4UlaRU","speaking":"1jDQnXUF5TJ_CIcmySIuGZxr_XY55CJSlxSM47gJmeq0","writing":"1in1ZQJSrBKET6xoZxPZ8k6ZTZrfjAWSZEHHyGnRhidk"},
+ "audio":[{"label":"House and Home – Listening (cả bài)","id":"1bHlpB22Ips8nAzBDdaqJWy_PSePjNNKD"},{"label":"Part 3 (tách riêng)","id":"1ajmAl7Nj23v0N0KK2uf2YxtyX6uXwlCX"}],
+ "sections":[
+  {"id":"r-goc","skill":"reading","kind":"sheet","doc":"reading","title":"Đề gốc – Reading Part 1, 5, 6","note":"Tài liệu chưa có đáp án Part 2 và Part 4 nên phiếu chỉ chấm Part 1, 5, 6.","groups":[
+   {"label":"Part 1","from":1,"opts":"ABC","answers":["C","B","A","C","B"]},
+   {"label":"Part 5","from":21,"opts":"ABCD","answers":["B","D","A","C","D","A"]},
+   {"label":"Part 6","from":27,"text":true,"answers":[["it"],["most"],["all"],["forward"],["at"],["if"]]}]},
+  {"id":"r-p3","skill":"reading","kind":"mcq","part":3,"title":"Part 3 – A house-building project","instr":"Read the text and then answer questions 11–15.",
+   "passage":{"title":"A house-building project","intro":"Fourteen-year-old Neil Atkins talks about working on a house-building project in the United States.",
+    "text":"I got involved in the house-building project through my Uncle Brian. We went to stay with him in the United States for six weeks during the summer holiday. He was helping out on the project and asked me to come along. At first I wasn't interested. I was enjoying watching lots of new channels on TV! But after a while I got bored and went along to see what he was doing. I realised that what he was doing was really great!\n\nHe was helping out for an organisation that builds houses for people who can't usually afford them. Instead, the organisation buys all the wood and bricks and things you need to build a house. It lends the family the tools and hires some guys who know what they're doing. They also get people like my uncle, who aren't builders but who just want to help out in the community, to do the more simple building jobs. The family eventually pay all the money back to the organisation, but they can do this over many years, and it's much cheaper than buying a new house.\n\nI helped out with moving dirt and preparing tea. It was a bit disappointing that I wasn't allowed to use the tools and do jobs like cutting wood and nailing things together. I understand why they do it, but I do design and technology at school so I know I could do it right. Some people had no idea how to use a hammer correctly! But if I go back next year, I'll be able to do it, because I'll be fifteen then."},
+   "qs":[
+    {"q":"Why was Neil's uncle involved in the building project?","o":["He lent the family his tools.","He is a qualified builder.","He enjoys helping out other people.","He wants to build his own house."],"a":2},
+    {"q":"Which of the following is true about the building project?","o":["The organisation provides free homes for poor people.","The project was filmed and shown on television.","No experienced builders were needed to build the house.","The future owners helped to build the house."],"a":3},
+    {"q":"Neil was surprised that…","o":["his uncle had such good building skills.","some adults didn't know how to use tools.","he wasn't allowed to cut wood.","houses are so expensive in the USA."],"a":1},
+    {"q":"Neil will be able to use the tools next year because…","o":["he is planning to study design and technology.","he will be old enough.","his uncle is going to teach him how to use them.","there will be fewer people on the project."],"a":1},
+    {"q":"What might Neil write in his diary about his experience?","o":["Building the house was okay, but it wasn't as fun as watching American TV!","I learnt a lot of useful things for my design and technology course from working on the building project.","I really enjoyed building the house. It gave me the chance to use my design and technology skills.","Building the house was better than watching TV, but I wanted to do more building work."],"a":3}]},
+  {"id":"l-goc","skill":"listening","kind":"sheet","doc":"listening","title":"Đề gốc – Listening Part 1–3","note":"Tài liệu chưa có đáp án Part 4 nên phiếu chỉ chấm Part 1–3.","groups":[
+   {"label":"Part 1","from":1,"opts":"ABC","answers":["A","B","B","A","C","C","C"]},
+   {"label":"Part 2","from":8,"opts":"ABC","answers":["B","C","C","C","A","B"]},
+   {"label":"Part 3","from":14,"text":true,"answers":[["five","5"],["bikes","bicycles"],["lake"],["butterflies"],["castle"],["bus","bus service"]]}]},
+  {"id":"s-p4","skill":"speaking","kind":"speak","doc":"speaking","title":"Speaking Part 3 – Choosing a present / a pet",
+   "intro":"Talk to each other about what would be good or not so good to give as a present. Dùng các ý dưới đây để đồng ý / phản đối từng lựa chọn.",
+   "cards":[
+    {"title":"Present for a new apartment","cols":["Gift","Reasons to agree","Reasons to refuse"],"rows":[
+     ["Clock","check the time easily · helps them be on time for work or school · a nice decoration on the wall","a very common gift, I want something more special · they probably already have one"],
+     ["Rug","makes the apartment feel warm and cosy · keeps the floor warm on cold days · adds some colour to their home","we don't know the size of their room · they may not like the design or the colours"],
+     ["Teddy bear","cute and friendly, makes the room look happy · a nice touch for children","too childish for adults · they may prefer something more useful"],
+     ["Vase","elegant, makes the room beautiful · use it for fresh or dry flowers · simple but stylish","breaks easily · they may already have one"],
+     ["Chocolate box","everyone enjoys chocolate – a sweet way to say congratulations · share it with friends when they visit","doesn't last long, I prefer something they can keep · they may not eat sweets or could be allergic"],
+     ["Poster of a singer","a great idea to decorate their room","we don't know if they like this singer, so it's risky · it might not match their style or the colours of the apartment"]]},
+    {"title":"Choosing a pet for a young boy","cols":["Pet","Pros (+)","Cons (−)"],"rows":[
+     ["Dog","very playful, energetic, loyal, a great companion to play fetch with","needs daily walks, takes up a lot of time, can be expensive to feed"],
+     ["Cat","independent, easy to take care of, loves to cuddle, doesn't need walks","might scratch if handled roughly, sleeps most of the day"],
+     ["Rabbit","soft, fluffy, cute, can be held and played with in the garden","needs a large cage, chews wires/furniture if let out"],
+     ["Goldfish","very low maintenance, cheap, quiet, doesn't take up space","you can't play or interact with it – might be boring for a boy"],
+     ["Bird","can sing beautifully, smart, some can learn tricks or words","can be quite noisy, messy with feathers and seeds"],
+     ["Mouse / Rat","small, doesn't need much space, active and interesting to watch","very short lifespan, might bite if scared, some find them creepy"],
+     ["Snake","cool and unique","dangerous – definitely not suitable for a young child, hard to feed"]]}]}
+ ]}
