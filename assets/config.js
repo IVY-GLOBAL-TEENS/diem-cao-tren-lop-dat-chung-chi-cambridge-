@@ -2,5 +2,5 @@
  * Dán URL ứng dụng web Google Apps Script (kết thúc bằng /exec) vào API_URL.
  * Hướng dẫn: server/HUONG-DAN.md. Để trống thì website vẫn chạy, chỉ chưa có đăng nhập. */
 window.IVY_CONFIG = {
-  API_URL: "",
+  API_URL: "https://script.google.com/macros/s/AKfycbwG0xnCKFrb9ui8qvOiUzFjAjSSrJjOLEfJCW1AJ4wSMwY94GkDN71hWKKlskSyszJ_LQ/exec",
 };
