@@ -1318,8 +1318,8 @@ const starRow=(n,max=3,size='')=>Array.from({length:max},(_,i)=>ICON.star(i<n?'#
    ROUTER
    ===================================================================== */
 let V={name:'home'};let tick=null;let E=null;
-function go(name,p={}){clearInterval(tick);tick=null;stopSpeak();V=Object.assign({name},p);render();window.scrollTo({top:0})}
-const NAV=[['home','Luyện tập','practice','var(--red)'],['drill','Luyện đề','drill','var(--teal)'],['mock','Thi thật','exam','var(--navy)'],['challenge','Thách đấu','bolt','var(--orange)'],['profile','Hồ sơ','trophy','var(--lime)']];
+function go(name,p={}){if(name==='mock'||name==='checkin'||name==='mockres')name='home';clearInterval(tick);tick=null;stopSpeak();V=Object.assign({name},p);render();window.scrollTo({top:0})}
+const NAV=[['home','Luyện tập','practice','var(--red)'],['drill','Luyện đề','drill','var(--teal)'],['challenge','Thách đấu','bolt','var(--orange)'],['profile','Hồ sơ','trophy','var(--lime)']];
 function renderNav(){const cur=({level:'home',unit:'home',act:'home',vset:'home',gtopic:'home',room:'drill',checkin:'mock',mockres:'mock'})[V.name]||V.name;
   $('#nav').innerHTML=NAV.map(([id,l,ic,c])=>`<button class="stk" style="--c:${c}" data-act="go" data-arg="${id}" aria-current="${cur===id}">${ICON[ic]}${l}${id==='mock'?'<span class="new">MỚI</span>':''}</button>`).join('')}
 function renderChips(){
@@ -1356,8 +1356,8 @@ VIEWS.home=()=>{
   <div class="dock">
    <div class="panel mascot">${MASCOT}<div class="bubble">${TIPS[Math.floor(Math.random()*TIPS.length)]}</div></div>
    <div class="panel dockcard"><h3>Nhiệm vụ hôm nay</h3>${missionsHTML()}</div>
-   <div class="panel dockcard"><h3>Sắp đi thi?</h3><p class="muted" style="margin:0 0 10px;font-size:.92rem"><b>Luyện đề</b> theo kỹ năng KET, PET, Pre-IELTS. <b>Thi thật</b> mô phỏng bài thi trên máy, đủ các Part.</p>
-    <div class="row"><button class="b3 teal sm" data-act="go" data-arg="drill">Luyện đề</button><button class="b3 navy sm" data-act="go" data-arg="mock">Thi thật</button></div><a class="b3 gold sm" href="ket/" style="margin-top:10px;text-decoration:none;width:100%">📝 Kho đề KET theo chủ điểm · 50 đề</a></div>
+   <div class="panel dockcard"><h3>Sắp đi thi?</h3><p class="muted" style="margin:0 0 10px;font-size:.92rem"><b>Luyện đề</b> theo kỹ năng KET, PET, Pre-IELTS, hoặc làm trọn bộ trong Kho đề KET.</p>
+    <div class="row"><button class="b3 teal sm" data-act="go" data-arg="drill">Luyện đề</button></div><a class="b3 gold sm" href="ket/" style="margin-top:10px;text-decoration:none;width:100%">📝 Kho đề KET theo chủ điểm · 50 đề</a></div>
   </div>`};
 
 /* level map */
@@ -1892,9 +1892,9 @@ VIEWS.profile=()=>{const lv=level();const into=S.xp%200;
     <div class="panel"><h3 style="font-size:1.3rem;margin-bottom:6px;color:var(--red)">Phiếu tiến độ</h3><p class="muted" style="margin:0;font-size:.9rem">Sao luyện tập theo cấp độ, điểm luyện đề và lịch sử thi thật. Dữ liệu lưu trên trình duyệt của thiết bị này.</p></div></div>
    <div class="panel" style="margin-top:14px"><h3 style="color:var(--red);margin-bottom:6px">Luyện tập theo cấp độ</h3><div class="tbl"><table><thead><tr><th>Cấp độ</th><th>Trạm đã qua</th><th>Sao</th><th style="width:30%">Tiến độ</th></tr></thead><tbody>${lrows}</tbody></table></div></div>
    <div class="panel" style="margin-top:14px"><h3 style="color:var(--red);margin-bottom:6px">Luyện đề</h3><div class="tbl"><table><thead><tr><th>Đề</th>${SKILLS.map(s=>`<th>${s.vi}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div></div>
-   <div class="panel" style="margin-top:14px"><h3 style="color:var(--red);margin-bottom:6px">Lịch sử Thi thật</h3>${mrows?`<div class="tbl"><table><thead><tr><th>Ngày</th><th>Bài thi</th><th>Thí sinh</th><th>Điểm</th><th>Xếp loại (ước lượng)</th></tr></thead><tbody>${mrows}</tbody></table></div>`:'<p class="muted" style="margin:0">Chưa có bài thi thật nào. Vào mục Thi thật để làm bài đầu tiên.</p>'}</div>
+   
    <h3 style="font-size:1.4rem;margin:18px 0 10px;color:var(--white)">Huy hiệu</h3>
-   <div class="badges">${BADGES.map(([id,n,d,c])=>`<div class="badge ${S.badges.includes(id)?'on':''}"><svg viewBox="0 0 48 48"><path d="M24 3l17 8v13c0 10-7 18-17 21C14 42 7 34 7 24V11z" fill="${c}" stroke="#fff" stroke-width="2"/><path d="M24 14l3 6 6.5.9-4.7 4.5 1.1 6.4L24 28.8l-5.9 3 1.1-6.4-4.7-4.5L21 20z" fill="#fff"/></svg><h4>${n}</h4><p>${d}</p></div>`).join('')}</div>
+   <div class="badges">${BADGES.filter(([id])=>id!=='mock'&&id!=='pass').map(([id,n,d,c])=>`<div class="badge ${S.badges.includes(id)?'on':''}"><svg viewBox="0 0 48 48"><path d="M24 3l17 8v13c0 10-7 18-17 21C14 42 7 34 7 24V11z" fill="${c}" stroke="#fff" stroke-width="2"/><path d="M24 14l3 6 6.5.9-4.7 4.5 1.1 6.4L24 28.8l-5.9 3 1.1-6.4-4.7-4.5L21 20z" fill="#fff"/></svg><h4>${n}</h4><p>${d}</p></div>`).join('')}</div>
    <div class="panel" style="margin-top:18px"><div class="row"><span class="sp muted">Muốn bắt đầu lại từ đầu?</span>${V.confirmReset?`<span style="font-weight:800">Xóa toàn bộ tiến độ?</span><button class="b3 sm" data-act="resetyes">Xóa</button><button class="b3 ghost sm" data-act="resetno">Hủy</button>`:`<button class="b3 ghost sm" data-act="reset">Đặt lại tiến độ</button>`}</div></div>`};
 
 /* =====================================================================
@@ -2254,12 +2254,11 @@ document.addEventListener('dragstart',e=>{const t=e.target.closest('[data-drag]'
 document.addEventListener('dragover',e=>{const b=e.target.closest('[data-drop]');if(b){e.preventDefault();b.classList.add('over')}});
 document.addEventListener('dragleave',e=>{const b=e.target.closest('[data-drop]');if(b)b.classList.remove('over')});
 document.addEventListener('drop',e=>{const b=e.target.closest('[data-drop]');if(b&&V.kind==='sort'){e.preventDefault();act('sdrop',b.dataset.drop)}});
-(function(){try{const q=new URLSearchParams(location.search);const lv=q.get('lv'),vw=q.get('view');if(lv&&typeof LEVELS!=='undefined'&&LEVELS.find(x=>x.id===lv))V={name:'level',lv};else if(vw&&VIEWS[vw])V={name:vw};}catch(e){}})();
+(function(){try{const q=new URLSearchParams(location.search);const lv=q.get('lv'),vw=q.get('view');if(lv&&typeof LEVELS!=='undefined'&&LEVELS.find(x=>x.id===lv))V={name:'level',lv};else if(vw&&VIEWS[vw]&&!/^(mock|checkin|mockres)$/.test(vw))V={name:vw};}catch(e){}})();
 render();
 </script>
 
 <a href="../" style="position:fixed;left:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;background:#fff;color:#0f766e;font:700 13px/1 system-ui,sans-serif;padding:9px 12px;border-radius:999px;box-shadow:0 3px 10px rgba(0,0,0,.2);text-decoration:none">← IVY Teen</a>
-<a href="ket/" style="position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;background:#f4c13d;color:#2a1a22;font:800 13px/1 system-ui,sans-serif;padding:10px 14px;border-radius:999px;box-shadow:0 3px 10px rgba(0,0,0,.25);text-decoration:none">📝 Kho đề KET (50 đề)</a>
 <script src="../assets/config.js"></script>
 <script src="../assets/core.js"></script>
 </body></html>
