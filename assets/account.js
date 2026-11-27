@@ -217,7 +217,7 @@
         <div class="grid g4 me-stats">
           <div class="card stat"><b id="meStars">⭐ ${r.stars}</b><span id="meStarsTxt">${starTxt(r)}</span></div>
           <div class="card stat"><b>🔥 ${r.streak}</b><span>ngày học liên tiếp</span></div>
-          <div class="card stat"><b>📝 ${r.hw ? (r.hw.due ? r.hw.doneDue + "/" + r.hw.due : r.hw.done) : "—"}</b><span>${r.hw && r.hw.due ? "bài về nhà đã làm (đến hôm nay)" : "bài về nhà đã làm"}</span></div>
+          <div class="card stat"><b id="meHwN">📝 —</b><span id="meHwT">bài thầy cô giao đã nộp</span></div>
           <div class="card stat"><b>🏆 ${r.ket.tests}</b><span>đề KET${r.ket.avg != null ? " · đúng " + r.ket.avg + "%" : ""}</span></div>
         </div>
         <div id="meBonus">${meBonus(r.bonusList)}</div>
@@ -239,7 +239,7 @@
         };
         document.querySelectorAll("[data-metab]").forEach((b) => b.addEventListener("click", () => showTab(b.dataset.metab)));
         D.studentPoints($("mePane-diem"), s);
-        D.todo($("meTodo"), s);
+        D.todo($("meTodo"), s, (n) => { if (!$("meHwN")) return; $("meHwN").textContent = "📝 " + n.done + "/" + n.total; $("meHwT").textContent = n.owe ? `bài thầy cô giao đã nộp · còn nợ ${n.owe}` : "bài thầy cô giao đã nộp"; });
         showTab(meTab);
         $("meAv").addEventListener("click", () => D.pickAvatar(K.session().avatar, s.code, () => A().route()));
         if (!s.avatar && !K.ls.get("dj-av-asked", false)) { K.ls.set("dj-av-asked", true); setTimeout(() => D.pickAvatar("", s.code, () => A().route()), 400); }

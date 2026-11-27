@@ -436,21 +436,21 @@
     K().ls.set(k, cfg); K().soon();
   }
 
-  async function todo(box, s) {
+  async function todo(box, s, onCount) {
     const cls = s.cls;
     box.innerHTML = `<div class="card empty">Đang tải việc cần làm…</div>`;
     let asg = [], subs = {};
     try { const j = await K().api("assignments"); asg = j.assignments || []; (j.submissions || []).forEach((x) => (subs[x.aid] = x)); } catch (e) {}
     const today = K().isoDay(new Date());
     const draw = () => {
-      const items = asg.map((a) => ({ kind: "asg", a, key: a.id, date: a.date, due: a.due || a.date, title: a.title || "Bài tập", text: a.note, link: a.link, done: !!subs[a.id], sub: subs[a.id] }))
-        .concat(curriculumItems(cls));
+      const items = asg.map((a) => ({ kind: "asg", a, key: a.id, date: a.date, due: a.due || a.date, title: a.title || "Bài tập", text: a.note, link: a.link, done: !!subs[a.id], sub: subs[a.id] }));
       const now = items.filter((x) => x.date <= today && x.due >= today && !x.done).sort((p, q) => (q.date > p.date ? 1 : q.date < p.date ? -1 : 0));
       const soon = items.filter((x) => x.kind === "asg" && x.date > today && !x.done).sort((p, q) => (p.date > q.date ? 1 : -1));
-      const owe = items.filter((x) => x.due < today && !x.done && (x.kind === "asg" || x.due >= addDays(today, -21))).sort((p, q) => (q.due > p.due ? 1 : -1));
-      const fin = items.filter((x) => x.done && x.due >= addDays(today, -7)).sort((p, q) => (q.date > p.date ? 1 : -1));
+      const owe = items.filter((x) => x.due < today && !x.done).sort((p, q) => (q.due > p.due ? 1 : -1));
+      if (onCount) onCount({ total: items.filter((x) => x.date <= today).length, done: items.filter((x) => x.done).length, owe: owe.length });
+      const fin = items.filter((x) => x.done).sort((p, q) => (q.date > p.date ? 1 : -1));
       const sec = (t, sub, arr, cls2, empty) => `<div class="td-sec ${cls2 || ""}"><h2>${t}${arr.length ? ` <span class="td-n">${arr.length}</span>` : ""}</h2>${sub ? `<p class="muted td-sub">${sub}</p>` : ""}${arr.length ? `<div class="td-list">${arr.map(card).join("")}</div>` : empty ? `<div class="card td-empty">${empty}</div>` : ""}</div>`;
-      box.innerHTML = sec("📋 Cần làm hôm nay", `Hôm nay ${dayLbl(today)}`, now, "", "🎉 Hôm nay em không còn bài nào. Vào Phòng thi ảo luyện thêm để gom sao nhé!")
+      box.innerHTML = sec("📋 Cần làm hôm nay", `Hôm nay ${dayLbl(today)} · bài thầy cô giao`, now, "", asg.length ? "🎉 Hôm nay em không còn bài nào. Vào Phòng thi ảo luyện thêm để gom sao nhé!" : "Thầy cô chưa giao bài nào. Khi có bài mới, bài sẽ hiện ở đây theo ngày.")
         + (soon.length ? sec("🗓️ Sắp tới", "", soon, "soon") : "")
         + (owe.length ? sec("⏰ Bài còn nợ", "Những bài đã quá hạn mà em chưa làm – làm bù sớm nhé!", owe, "owe") : "")
         + (fin.length ? `<details class="td-sec fin"><summary><h2>✅ Đã hoàn thành <span class="td-n">${fin.length}</span></h2></summary><div class="td-list">${fin.map(card).join("")}</div></details>` : "");
