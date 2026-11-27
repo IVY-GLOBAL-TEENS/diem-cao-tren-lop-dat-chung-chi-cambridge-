@@ -7,39 +7,52 @@
   const $ = (id) => document.getElementById(id);
   const srvMsg = (e) => (/Không rõ thao tác/.test(e.message) ? "Máy chủ chưa có chức năng này. Quản lý cần dán lại Code.gs mới và triển khai phiên bản mới (xem server/HUONG-DAN.md)." : e.message);
 
-  /* ================= avatar quái vật (tự vẽ, 24 mẫu) ================= */
-  const PAL = [["#ff7a59", "#ffc2b0"], ["#3fbf7f", "#a9ebc9"], ["#5b7cfa", "#c0ceff"], ["#f5b301", "#ffe49a"], ["#a462f0", "#dcc2ff"], ["#18a9c2", "#a7e8f2"], ["#ff4f86", "#ffb8cf"], ["#7cb342", "#d2eab1"], ["#ff8f1f", "#ffd3a1"], ["#6c63ff", "#cac6ff"], ["#00a884", "#97e3cf"], ["#e5484d", "#f8b8b5"]];
-  const BODY = [
-    (c) => `<circle cx="50" cy="62" r="30" fill="${c}"/>`,
-    (c) => `<ellipse cx="50" cy="60" rx="26" ry="33" fill="${c}"/>`,
-    (c) => `<rect x="20" y="31" width="60" height="60" rx="22" fill="${c}"/>`,
-    (c) => `<path d="M50 27C69 27 74 45 77 59C81 81 70 92 50 92S19 81 23 59C26 45 31 27 50 27Z" fill="${c}"/>`,
+  /* ================= avatar gấu trúc đỏ (linh vật IVY), 24 mẫu ================= */
+  const BG = ["#dbe4ff", "#ffe3d3", "#dff5e8", "#fff1c2", "#ece0ff", "#d6f3f8"];
+  const C_FUR = "#f2b47e", C_DARK = "#a4532a", C_MARK = "#d9822b", C_LINE = "#5a3420", C_INK = "#2b1a12";
+  const EXPR = [
+    // vui: mắt tròn, miệng cười mở
+    () => `<circle cx="37" cy="58" r="4.2" fill="${C_INK}"/><circle cx="63" cy="58" r="4.2" fill="${C_INK}"/><circle cx="38.4" cy="56.6" r="1.4" fill="#fff"/><circle cx="64.4" cy="56.6" r="1.4" fill="#fff"/><path d="M45 69Q50 75 55 69Z" fill="#7a2c1d"/>`,
+    // híp mắt cười
+    () => `<path d="M32.5 59Q37 53.5 41.5 59" stroke="${C_INK}" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M58.5 59Q63 53.5 67.5 59" stroke="${C_INK}" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M46 69Q48 71.5 50 69.5Q52 71.5 54 69" stroke="${C_LINE}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    // quyết tâm (giống gấu khoanh tay)
+    () => `<path d="M31 51L42 54" stroke="${C_INK}" stroke-width="2.4" stroke-linecap="round"/><path d="M69 51L58 54" stroke="${C_INK}" stroke-width="2.4" stroke-linecap="round"/><ellipse cx="37.5" cy="58.5" rx="3.6" ry="3" fill="${C_INK}"/><ellipse cx="62.5" cy="58.5" rx="3.6" ry="3" fill="${C_INK}"/><path d="M46 70.5Q50 68.5 54 70.5" stroke="${C_LINE}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    // mắt to long lanh
+    () => `<ellipse cx="37" cy="58" rx="5" ry="5.6" fill="${C_INK}"/><ellipse cx="63" cy="58" rx="5" ry="5.6" fill="${C_INK}"/><circle cx="38.8" cy="56" r="2" fill="#fff"/><circle cx="64.8" cy="56" r="2" fill="#fff"/><circle cx="35.6" cy="60" r="0.9" fill="#fff"/><circle cx="61.6" cy="60" r="0.9" fill="#fff"/><path d="M46 69Q48 71.5 50 69.5Q52 71.5 54 69" stroke="${C_LINE}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
   ];
-  const TOP = [
-    (c, l) => `<path d="M33 42L25 17L45 34Z" fill="${l}"/><path d="M67 42L75 17L55 34Z" fill="${l}"/>`,
-    (c, l) => `<path d="M50 32V13" stroke="${c}" stroke-width="3.5" stroke-linecap="round"/><circle cx="50" cy="11" r="6" fill="${l}"/>`,
-    (c, l) => `<circle cx="27" cy="36" r="11" fill="${c}"/><circle cx="27" cy="36" r="5.5" fill="${l}"/><circle cx="73" cy="36" r="11" fill="${c}"/><circle cx="73" cy="36" r="5.5" fill="${l}"/>`,
-    (c) => `<path d="M38 34L42 20L47 32L51 17L55 32L60 20L63 34Z" fill="${c}"/>`,
-  ];
-  const eye = (x, y, r) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#fff"/><circle cx="${x + r * 0.15}" cy="${y + r * 0.15}" r="${r * 0.5}" fill="#1d1d2b"/><circle cx="${x + r * 0.35}" cy="${y - r * 0.2}" r="${r * 0.18}" fill="#fff"/>`;
-  const EYES = [
-    () => eye(40, 54, 8) + eye(60, 54, 8),
-    () => eye(50, 52, 12),
-    () => eye(35, 54, 6.5) + eye(50, 49, 6.5) + eye(65, 54, 6.5),
-  ];
-  const MOUTH = [
-    () => `<path d="M41 69Q50 78 59 69" stroke="#1d1d2b" stroke-width="3" fill="none" stroke-linecap="round"/>`,
-    () => `<path d="M42 68Q50 82 58 68Z" fill="#7a1f2b"/><path d="M46 74Q50 78 54 74" fill="#ff8fa3"/>`,
-    () => `<path d="M40 68Q50 79 60 68Z" fill="#1d1d2b"/><rect x="44" y="68" width="5" height="4.5" rx="1" fill="#fff"/><rect x="51" y="68" width="5" height="4.5" rx="1" fill="#fff"/>`,
+  const ACC = [
+    () => "",
+    // mũ lưỡi trai xanh IVY
+    () => `<path d="M24 38Q26 18 50 17Q74 18 76 38Z" fill="#0b16b0"/><path d="M62 37Q82 36 88 42Q74 44 60 41Z" fill="#070e7a"/><circle cx="50" cy="18" r="2.5" fill="#d7192a"/><text x="50" y="33" text-anchor="middle" font-size="9" font-weight="800" fill="#fff" font-family="Arial,sans-serif">IVY</text>`,
+    // tai nghe
+    () => `<path d="M17 56Q17 20 50 20Q83 20 83 56" stroke="#2c2f48" stroke-width="5" fill="none"/><rect x="11" y="50" width="11" height="17" rx="5" fill="#d7192a"/><rect x="78" y="50" width="11" height="17" rx="5" fill="#d7192a"/>`,
+    // kính tròn
+    () => `<circle cx="37" cy="58" r="8.5" fill="#fff" fill-opacity=".25" stroke="#1d2a6b" stroke-width="2.4"/><circle cx="63" cy="58" r="8.5" fill="#fff" fill-opacity=".25" stroke="#1d2a6b" stroke-width="2.4"/><path d="M45.5 57.5Q50 55 54.5 57.5" stroke="#1d2a6b" stroke-width="2.2" fill="none"/>`,
+    // nơ đỏ
+    () => `<g transform="translate(70 27) rotate(18)"><path d="M0 0L-12 -7L-12 7Z" fill="#ff4f86"/><path d="M0 0L12 -7L12 7Z" fill="#ff4f86"/><circle r="3.4" fill="#d81b60"/></g>`,
+    // mũ tốt nghiệp
+    () => `<path d="M50 9L84 21L50 33L16 21Z" fill="#1d1d2b"/><path d="M33 27V35Q50 42 67 35V27L50 33Z" fill="#2c2c40"/><path d="M80 22V35" stroke="#ffc83d" stroke-width="2"/><circle cx="80" cy="37" r="2.6" fill="#ffc83d"/>`,
   ];
   const AVATARS = Array.from({ length: 24 }, (_, i) => "m" + String(i + 1).padStart(2, "0"));
   function hashAv(code) { let h = 0; for (const ch of String(code || "x")) h = (h * 31 + ch.charCodeAt(0)) >>> 0; return AVATARS[h % AVATARS.length]; }
   function monster(id, code) {
     if (!/^m\d{2}$/.test(id || "")) id = hashAv(code);
     const i = Math.max(0, (parseInt(id.slice(1), 10) || 1) - 1) % 24;
-    const h = i >= 12 ? 1 : 0, j = i % 12;
-    const [c, l] = PAL[(j + h * 6) % 12];
-    return `<svg viewBox="0 0 100 100" class="mon" aria-hidden="true"><circle cx="50" cy="50" r="50" fill="${l}" opacity=".45"/>${TOP[(Math.floor(j / 3) + h * 2) % 4](c, l)}${BODY[(j + h) % 4](c)}<ellipse cx="50" cy="80" rx="15" ry="9" fill="${l}" opacity=".7"/>${EYES[(Math.floor(j / 4) + h) % 3]()}<circle cx="31" cy="67" r="4" fill="#ff7aa2" opacity=".45"/><circle cx="69" cy="67" r="4" fill="#ff7aa2" opacity=".45"/>${MOUTH[(j * 5 + h) % 3]()}<ellipse cx="38" cy="92" rx="8" ry="4" fill="${c}"/><ellipse cx="62" cy="92" rx="8" ry="4" fill="${c}"/></svg>`;
+    const ex = i % 4, ac = Math.floor(i / 4) % 6, bg = BG[(i + Math.floor(i / 4)) % 6];
+    const earFront = ac === 2 || ac === 5;
+    const ears = `<path d="M17 47Q12 20 30 15Q38 22 41 33Z" fill="${C_FUR}" stroke="${C_LINE}" stroke-width="1.2"/><path d="M21 41Q19 25 29 21Q34 26 36 33Z" fill="${C_DARK}"/>
+      <path d="M83 47Q88 20 70 15Q62 22 59 33Z" fill="${C_FUR}" stroke="${C_LINE}" stroke-width="1.2"/><path d="M79 41Q81 25 71 21Q66 26 64 33Z" fill="${C_DARK}"/>`;
+    const head = `<path d="M50 29C73 29 86 41 86 58C86 75 70 85 50 85S14 75 14 58C14 41 27 29 50 29Z" fill="${C_FUR}" stroke="${C_LINE}" stroke-width="1.3"/>
+      <ellipse cx="34" cy="44" rx="4.5" ry="2.6" fill="#fff"/><ellipse cx="66" cy="44" rx="4.5" ry="2.6" fill="#fff"/>
+      <path d="M22 60C22 50 29 48 37 50C45 52 46 60 44 66C40 72 30 72 25 68C23 66 22 63 22 60Z" fill="#fff"/>
+      <path d="M78 60C78 50 71 48 63 50C55 52 54 60 56 66C60 72 70 72 75 68C77 66 78 63 78 60Z" fill="#fff"/>
+      <path d="M31 54C36 52 42 55 42 61C42 67 38 72 34 72C31 68 30 60 31 54Z" fill="${C_MARK}"/>
+      <path d="M69 54C64 52 58 55 58 61C58 67 62 72 66 72C69 68 70 60 69 54Z" fill="${C_MARK}"/>
+      <ellipse cx="50" cy="69" rx="11" ry="8" fill="#fff"/><path d="M47 64.5Q50 63 53 64.5Q51.5 67.5 50 67.8Q48.5 67.5 47 64.5Z" fill="${C_INK}"/>
+      <ellipse cx="27" cy="69" rx="4" ry="2.4" fill="#ff8fa3" opacity=".45"/><ellipse cx="73" cy="69" rx="4" ry="2.4" fill="#ff8fa3" opacity=".45"/>`;
+    return `<svg viewBox="0 0 100 100" class="mon" aria-hidden="true"><circle cx="50" cy="50" r="50" fill="${bg}"/>
+      <path d="M22 100Q24 84 50 82Q76 84 78 100Z" fill="${C_FUR}" stroke="${C_LINE}" stroke-width="1.2"/><path d="M38 100Q40 90 50 89Q60 90 62 100Z" fill="#fff" opacity=".7"/>
+      ${ears}${head}${EXPR[ex]()}${earFront ? "" : ""}${ACC[ac]()}</svg>`;
   }
 
   /* ================= kỹ năng ================= */
@@ -85,12 +98,15 @@
 
   /* ================= chọn avatar ================= */
   function pickAvatar(cur, code, onDone) {
-    const m = modal(`<h2 style="margin-top:0">Chọn bạn đồng hành của em</h2><p class="muted" style="margin:-4px 0 14px">Bấm vào một bạn quái vật. Đổi lại lúc nào cũng được.</p>
+    const m = modal(`<h2 style="margin-top:0">Chọn gấu trúc đỏ của em</h2><p class="muted" style="margin:-4px 0 14px">Bấm chọn một bạn gấu trúc đỏ IVY. Đổi lại lúc nào cũng được.</p>
       <div class="av-grid">${AVATARS.map((a) => `<button class="av-opt ${a === cur ? "on" : ""}" data-av="${a}">${monster(a)}</button>`).join("")}</div><div class="auth-msg" id="avMsg"></div>`, "wide");
     m.querySelectorAll("[data-av]").forEach((b) => b.addEventListener("click", async () => {
       m.querySelectorAll(".av-opt").forEach((x) => x.classList.toggle("on", x === b));
       try { await K().api("setAvatar", { avatar: b.dataset.av }); K().setSession(Object.assign(K().session(), { avatar: b.dataset.av })); close(); onDone && onDone(b.dataset.av); }
-      catch (e) { const el = $("avMsg"); el.className = "auth-msg err"; el.textContent = srvMsg(e); }
+      catch (e) {
+        if (/Không rõ thao tác/.test(e.message)) { K().setSession(Object.assign(K().session(), { avatar: b.dataset.av })); close(); onDone && onDone(b.dataset.av); return; }
+        const el = $("avMsg"); el.className = "auth-msg err"; el.textContent = srvMsg(e);
+      }
     }));
   }
 
