@@ -7,52 +7,72 @@
   const $ = (id) => document.getElementById(id);
   const srvMsg = (e) => (/Không rõ thao tác/.test(e.message) ? "Máy chủ chưa có chức năng này. Quản lý cần dán lại Code.gs mới và triển khai phiên bản mới (xem server/HUONG-DAN.md)." : e.message);
 
-  /* ================= avatar gấu trúc đỏ (linh vật IVY), 24 mẫu ================= */
-  const BG = ["#dbe4ff", "#ffe3d3", "#dff5e8", "#fff1c2", "#ece0ff", "#d6f3f8"];
-  const C_FUR = "#f2b47e", C_DARK = "#a4532a", C_MARK = "#d9822b", C_LINE = "#5a3420", C_INK = "#2b1a12";
+  /* ================= avatar gấu trúc đỏ (linh vật IVY) – vẽ khối 3D, nghiêng đầu, 24 mẫu ================= */
+  const BG = [["#e3e9ff", "#b9c6ff"], ["#ffe9dc", "#ffc3a3"], ["#e2f7ea", "#ace6c4"], ["#fff4cf", "#ffdf85"], ["#f0e6ff", "#d2b9ff"], ["#dcf5fa", "#a5e3ef"]];
+  const POSE = [[0, 0], [-10, -0.6], [9, 0.55], [-5, 0.9], [13, -0.3], [-14, 0.3]]; // [độ nghiêng, quay mặt -1..1]
+  let AVN = 0;
   const EXPR = [
-    // vui: mắt tròn, miệng cười mở
-    () => `<circle cx="37" cy="58" r="4.2" fill="${C_INK}"/><circle cx="63" cy="58" r="4.2" fill="${C_INK}"/><circle cx="38.4" cy="56.6" r="1.4" fill="#fff"/><circle cx="64.4" cy="56.6" r="1.4" fill="#fff"/><path d="M45 69Q50 75 55 69Z" fill="#7a2c1d"/>`,
-    // híp mắt cười
-    () => `<path d="M32.5 59Q37 53.5 41.5 59" stroke="${C_INK}" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M58.5 59Q63 53.5 67.5 59" stroke="${C_INK}" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M46 69Q48 71.5 50 69.5Q52 71.5 54 69" stroke="${C_LINE}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
-    // quyết tâm (giống gấu khoanh tay)
-    () => `<path d="M31 51L42 54" stroke="${C_INK}" stroke-width="2.4" stroke-linecap="round"/><path d="M69 51L58 54" stroke="${C_INK}" stroke-width="2.4" stroke-linecap="round"/><ellipse cx="37.5" cy="58.5" rx="3.6" ry="3" fill="${C_INK}"/><ellipse cx="62.5" cy="58.5" rx="3.6" ry="3" fill="${C_INK}"/><path d="M46 70.5Q50 68.5 54 70.5" stroke="${C_LINE}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
-    // mắt to long lanh
-    () => `<ellipse cx="37" cy="58" rx="5" ry="5.6" fill="${C_INK}"/><ellipse cx="63" cy="58" rx="5" ry="5.6" fill="${C_INK}"/><circle cx="38.8" cy="56" r="2" fill="#fff"/><circle cx="64.8" cy="56" r="2" fill="#fff"/><circle cx="35.6" cy="60" r="0.9" fill="#fff"/><circle cx="61.6" cy="60" r="0.9" fill="#fff"/><path d="M46 69Q48 71.5 50 69.5Q52 71.5 54 69" stroke="${C_LINE}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    (u) => `<ellipse cx="0" cy="0" rx="4.6" ry="5.2" fill="url(#${u}e)"/><circle cx="1.6" cy="-2" r="1.7" fill="#fff"/><circle cx="-1.4" cy="2" r=".8" fill="#fff" opacity=".8"/>`,
+    () => `<path d="M-5 1Q0 -5 5 1" stroke="#2b1a12" stroke-width="2.4" fill="none" stroke-linecap="round"/>`,
+    (u) => `<ellipse cx="0" cy=".5" rx="4.2" ry="3.6" fill="url(#${u}e)"/><circle cx="1.4" cy="-.8" r="1.3" fill="#fff"/><path d="M-6 -6L5 -3.5" stroke="#3a2015" stroke-width="2.2" stroke-linecap="round"/>`,
+    (u) => `<ellipse cx="0" cy="0" rx="5.6" ry="6.4" fill="url(#${u}e)"/><circle cx="2" cy="-2.6" r="2.3" fill="#fff"/><circle cx="-1.8" cy="2.6" r="1.1" fill="#fff" opacity=".85"/>`,
+  ];
+  const MOUTH = [
+    () => `<path d="M-4.5 2.5Q0 9 4.5 2.5Z" fill="#7a2c1d"/><path d="M-2.2 5.6Q0 7.6 2.2 5.6" fill="#ff8fa3"/>`,
+    () => `<path d="M-4.5 2Q-2.2 5 0 2.6Q2.2 5 4.5 2" stroke="#4a2a1a" stroke-width="1.6" fill="none" stroke-linecap="round"/>`,
+    () => `<path d="M-3.5 4Q0 2.4 3.5 4" stroke="#4a2a1a" stroke-width="1.7" fill="none" stroke-linecap="round"/>`,
+    () => `<path d="M-4 2.2Q-2 5.2 0 2.8Q2 5.2 4 2.2" stroke="#4a2a1a" stroke-width="1.6" fill="none" stroke-linecap="round"/><ellipse cx="0" cy="5" rx="1.8" ry="1.4" fill="#ff8fa3"/>`,
   ];
   const ACC = [
     () => "",
-    // mũ lưỡi trai xanh IVY
-    () => `<path d="M24 38Q26 18 50 17Q74 18 76 38Z" fill="#0b16b0"/><path d="M62 37Q82 36 88 42Q74 44 60 41Z" fill="#070e7a"/><circle cx="50" cy="18" r="2.5" fill="#d7192a"/><text x="50" y="33" text-anchor="middle" font-size="9" font-weight="800" fill="#fff" font-family="Arial,sans-serif">IVY</text>`,
-    // tai nghe
-    () => `<path d="M17 56Q17 20 50 20Q83 20 83 56" stroke="#2c2f48" stroke-width="5" fill="none"/><rect x="11" y="50" width="11" height="17" rx="5" fill="#d7192a"/><rect x="78" y="50" width="11" height="17" rx="5" fill="#d7192a"/>`,
-    // kính tròn
-    () => `<circle cx="37" cy="58" r="8.5" fill="#fff" fill-opacity=".25" stroke="#1d2a6b" stroke-width="2.4"/><circle cx="63" cy="58" r="8.5" fill="#fff" fill-opacity=".25" stroke="#1d2a6b" stroke-width="2.4"/><path d="M45.5 57.5Q50 55 54.5 57.5" stroke="#1d2a6b" stroke-width="2.2" fill="none"/>`,
-    // nơ đỏ
-    () => `<g transform="translate(70 27) rotate(18)"><path d="M0 0L-12 -7L-12 7Z" fill="#ff4f86"/><path d="M0 0L12 -7L12 7Z" fill="#ff4f86"/><circle r="3.4" fill="#d81b60"/></g>`,
-    // mũ tốt nghiệp
-    () => `<path d="M50 9L84 21L50 33L16 21Z" fill="#1d1d2b"/><path d="M33 27V35Q50 42 67 35V27L50 33Z" fill="#2c2c40"/><path d="M80 22V35" stroke="#ffc83d" stroke-width="2"/><circle cx="80" cy="37" r="2.6" fill="#ffc83d"/>`,
+    (u) => `<path d="M23 37Q25 15 50 14Q75 15 77 37Q50 31 23 37Z" fill="url(#${u}cap)"/><path d="M60 35Q83 32 91 40Q76 44 58 40Z" fill="#070e7a"/><circle cx="50" cy="15" r="2.6" fill="#d7192a"/><text x="50" y="30" text-anchor="middle" font-size="9" font-weight="800" fill="#fff" font-family="Arial,sans-serif">IVY</text>`,
+    (u) => `<path d="M15 57Q14 18 50 17Q86 18 85 57" stroke="#2c2f48" stroke-width="5.5" fill="none" stroke-linecap="round"/><rect x="8" y="49" width="13" height="20" rx="6" fill="url(#${u}hp)"/><rect x="79" y="49" width="13" height="20" rx="6" fill="url(#${u}hp)"/>`,
+    () => `<g fill="#fff" fill-opacity=".22" stroke="#1d2a6b" stroke-width="2.3"><circle cx="-12.5" cy="0" r="8.6"/><circle cx="12.5" cy="0" r="8.6"/></g><path d="M-4 -.5Q0 -3 4 -.5" stroke="#1d2a6b" stroke-width="2.1" fill="none"/>`,
+    () => `<g transform="translate(71 26) rotate(20)"><path d="M0 0L-12 -8Q-15 0 -12 8Z" fill="#ff5c8d"/><path d="M0 0L12 -8Q15 0 12 8Z" fill="#ff5c8d"/><path d="M-10 -5L-3 -1M10 -5L3 -1" stroke="#fff" stroke-opacity=".5" stroke-width="1.5"/><circle r="3.6" fill="#d81b60"/></g>`,
+    () => `<path d="M50 8L85 20L50 32L15 20Z" fill="#23232f"/><path d="M50 8L85 20L50 24Z" fill="#3a3a4d"/><path d="M33 26V34Q50 41 67 34V26L50 32Z" fill="#2c2c3c"/><path d="M81 21V34" stroke="#ffc83d" stroke-width="2"/><circle cx="81" cy="36" r="2.8" fill="#ffc83d"/>`,
   ];
   const AVATARS = Array.from({ length: 24 }, (_, i) => "m" + String(i + 1).padStart(2, "0"));
   function hashAv(code) { let h = 0; for (const ch of String(code || "x")) h = (h * 31 + ch.charCodeAt(0)) >>> 0; return AVATARS[h % AVATARS.length]; }
   function monster(id, code) {
     if (!/^m\d{2}$/.test(id || "")) id = hashAv(code);
     const i = Math.max(0, (parseInt(id.slice(1), 10) || 1) - 1) % 24;
-    const ex = i % 4, ac = Math.floor(i / 4) % 6, bg = BG[(i + Math.floor(i / 4)) % 6];
-    const earFront = ac === 2 || ac === 5;
-    const ears = `<path d="M17 47Q12 20 30 15Q38 22 41 33Z" fill="${C_FUR}" stroke="${C_LINE}" stroke-width="1.2"/><path d="M21 41Q19 25 29 21Q34 26 36 33Z" fill="${C_DARK}"/>
-      <path d="M83 47Q88 20 70 15Q62 22 59 33Z" fill="${C_FUR}" stroke="${C_LINE}" stroke-width="1.2"/><path d="M79 41Q81 25 71 21Q66 26 64 33Z" fill="${C_DARK}"/>`;
-    const head = `<path d="M50 29C73 29 86 41 86 58C86 75 70 85 50 85S14 75 14 58C14 41 27 29 50 29Z" fill="${C_FUR}" stroke="${C_LINE}" stroke-width="1.3"/>
-      <ellipse cx="34" cy="44" rx="4.5" ry="2.6" fill="#fff"/><ellipse cx="66" cy="44" rx="4.5" ry="2.6" fill="#fff"/>
-      <path d="M22 60C22 50 29 48 37 50C45 52 46 60 44 66C40 72 30 72 25 68C23 66 22 63 22 60Z" fill="#fff"/>
-      <path d="M78 60C78 50 71 48 63 50C55 52 54 60 56 66C60 72 70 72 75 68C77 66 78 63 78 60Z" fill="#fff"/>
-      <path d="M31 54C36 52 42 55 42 61C42 67 38 72 34 72C31 68 30 60 31 54Z" fill="${C_MARK}"/>
-      <path d="M69 54C64 52 58 55 58 61C58 67 62 72 66 72C69 68 70 60 69 54Z" fill="${C_MARK}"/>
-      <ellipse cx="50" cy="69" rx="11" ry="8" fill="#fff"/><path d="M47 64.5Q50 63 53 64.5Q51.5 67.5 50 67.8Q48.5 67.5 47 64.5Z" fill="${C_INK}"/>
-      <ellipse cx="27" cy="69" rx="4" ry="2.4" fill="#ff8fa3" opacity=".45"/><ellipse cx="73" cy="69" rx="4" ry="2.4" fill="#ff8fa3" opacity=".45"/>`;
-    return `<svg viewBox="0 0 100 100" class="mon" aria-hidden="true"><circle cx="50" cy="50" r="50" fill="${bg}"/>
-      <path d="M22 100Q24 84 50 82Q76 84 78 100Z" fill="${C_FUR}" stroke="${C_LINE}" stroke-width="1.2"/><path d="M38 100Q40 90 50 89Q60 90 62 100Z" fill="#fff" opacity=".7"/>
-      ${ears}${head}${EXPR[ex]()}${earFront ? "" : ""}${ACC[ac]()}</svg>`;
+    const ex = i % 4, ac = Math.floor(i / 4) % 6, [b1, b2] = BG[(i + Math.floor(i / 4)) % 6];
+    const [tilt, turn] = POSE[(i * 5 + ac) % 6];
+    const u = "rp" + (++AVN), dx = turn * 5.5;
+    const near = turn >= 0 ? 1 : -1; // bên mặt gần người xem (to hơn)
+    const sL = 1 - Math.max(0, turn) * 0.12, sR = 1 - Math.max(0, -turn) * 0.12; // co phía xa
+    const ear = (side) => { const sc = side < 0 ? sL : sR; const x = 50 + side * 31; return `<g transform="translate(${x} 22) scale(${side * sc} ${sc})"><path d="M-14 22Q-17 -4 0 -9Q12 -3 13 14Z" fill="url(#${u}ear)"/><path d="M-10 18Q-12 -1 0 -4Q8 0 9 12Z" fill="#fff4ea"/><path d="M-7 16Q-8 2 0 0Q5 3 6 11Z" fill="#5b2a14"/></g>`; };
+    const eyeAt = (side) => `<g transform="translate(${50 + side * 12.5 * (side < 0 ? sL : sR) + dx} 57)">${EXPR[ex](u)}</g>`;
+    const patch = (side) => { const sc = side < 0 ? sL : sR; return `<g transform="translate(${50 + dx + side * 15 * sc} 60) scale(${side * sc} 1)"><path d="M-8 -9C-2 -12 7 -10 9 -2C11 7 6 13 -1 13C-8 13 -12 7 -11 0C-11 -4 -10 -7 -8 -9Z" fill="url(#${u}w)"/><path d="M-3 -6C2 -8 6 -4 5 2C4 8 0 14 -4 16C-5 10 -6 2 -3 -6Z" fill="url(#${u}tear)"/></g>`; };
+    return `<svg viewBox="0 0 100 100" class="mon" aria-hidden="true"><defs>
+      <radialGradient id="${u}bg" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="${b1}"/><stop offset="1" stop-color="${b2}"/></radialGradient>
+      <radialGradient id="${u}fur" cx="${0.38 - turn * 0.08}" cy=".3" r=".75"><stop offset="0" stop-color="#ffd2a3"/><stop offset=".45" stop-color="#f0a865"/><stop offset=".85" stop-color="#d27e3e"/><stop offset="1" stop-color="#b8652c"/></radialGradient>
+      <radialGradient id="${u}ear" cx=".3" cy=".3" r=".9"><stop offset="0" stop-color="#e59a5c"/><stop offset="1" stop-color="#9c4e22"/></radialGradient>
+      <radialGradient id="${u}w" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f1e2d6"/></radialGradient>
+      <linearGradient id="${u}tear" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b6612c"/><stop offset="1" stop-color="#8a4420"/></linearGradient>
+      <radialGradient id="${u}e" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#5a3a2a"/><stop offset=".6" stop-color="#22140d"/><stop offset="1" stop-color="#0d0705"/></radialGradient>
+      <linearGradient id="${u}body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c96f33"/><stop offset="1" stop-color="#7a3a17"/></linearGradient>
+      <linearGradient id="${u}cap" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b48e0"/><stop offset="1" stop-color="#0b16b0"/></linearGradient>
+      <linearGradient id="${u}hp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5a68"/><stop offset="1" stop-color="#b3101e"/></linearGradient>
+      <filter id="${u}sh" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter></defs>
+      <circle cx="50" cy="50" r="50" fill="url(#${u}bg)"/>
+      <ellipse cx="50" cy="96" rx="30" ry="6" fill="#000" opacity=".12" filter="url(#${u}sh)"/>
+      <path d="M20 100Q22 80 50 78Q78 80 80 100Z" fill="url(#${u}body)"/><path d="M34 100Q37 86 50 85Q63 86 66 100Z" fill="#5a2a12" opacity=".55"/>
+      <g transform="rotate(${tilt} 50 60)">
+        <ellipse cx="${50 + dx * 0.4}" cy="86" rx="24" ry="5" fill="#000" opacity=".18" filter="url(#${u}sh)"/>
+        ${ear(-1)}${ear(1)}
+        <path d="M50 28C74 28 87 41 87 57C87 63 85 67 82 70L86 73L79 74L81 78L73 77L72 82L64 80Q57 84 50 84Q43 84 36 80L28 82L27 77L19 78L21 74L14 73L18 70C15 67 13 63 13 57C13 41 26 28 50 28Z" fill="url(#${u}fur)"/>
+        <path d="M18 70L14 73L21 74L19 78L27 77L28 82L36 80Q30 76 26 70Q22 70 18 70Z" fill="#fff8f0"/><path d="M82 70L86 73L79 74L81 78L73 77L72 82L64 80Q70 76 74 70Q78 70 82 70Z" fill="#fff8f0"/>
+        <ellipse cx="${38 + dx}" cy="38" rx="13" ry="6" fill="#fff" opacity=".22"/>
+        <ellipse cx="${36 + dx}" cy="44" rx="4.4" ry="2.4" fill="#fff"/><ellipse cx="${64 + dx}" cy="44" rx="4.4" ry="2.4" fill="#fff"/>
+        ${patch(-1)}${patch(1)}
+        <ellipse cx="${50 + dx * 1.15}" cy="69" rx="${11.5 - Math.abs(turn) * 1.5}" ry="8.6" fill="url(#${u}w)"/>
+        ${eyeAt(-1)}${eyeAt(1)}
+        <g transform="translate(${50 + dx * 1.3} 64.5)"><path d="M-3.8 -.6Q0 -2.6 3.8 -.6Q2.6 3 0 3.6Q-2.6 3 -3.8 -.6Z" fill="#241510"/><ellipse cx="-1" cy="-.4" rx="1.3" ry=".7" fill="#fff" opacity=".6"/></g>
+        <g transform="translate(${50 + dx * 1.3} 66.5)">${MOUTH[ex]()}</g>
+        <ellipse cx="${27 + dx * 0.6}" cy="71" rx="4.2" ry="2.4" fill="#ff7f97" opacity=".4"/><ellipse cx="${73 + dx * 0.6}" cy="71" rx="4.2" ry="2.4" fill="#ff7f97" opacity=".4"/>
+        ${ac === 3 ? `<g transform="translate(${50 + dx} 57)">${ACC[3](u)}</g>` : ACC[ac](u)}
+      </g></svg>`;
   }
 
   /* ================= kỹ năng ================= */
