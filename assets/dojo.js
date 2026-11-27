@@ -76,7 +76,7 @@
   }
 
   /* ================= kỹ năng ================= */
-  const POS = [["Phát biểu", "🙋"], ["Làm BTVN", "📝"], ["Tập trung", "🎯"], ["Làm việc nhóm", "🤝"], ["Giúp đỡ bạn", "💛"], ["Sáng tạo", "💡"], ["Nói tiếng Anh", "🗣️"], ["Kiên trì", "💪"]];
+  const POS = [["Khen thưởng", "⭐"], ["Phát biểu", "🙋"], ["Làm BTVN", "📝"], ["Tập trung", "🎯"], ["Làm việc nhóm", "🤝"], ["Giúp đỡ bạn", "💛"], ["Sáng tạo", "💡"], ["Nói tiếng Anh", "🗣️"], ["Kiên trì", "💪"]];
   const NEG = [["Nói chuyện riêng", "🤐"], ["Quên BTVN", "📭"], ["Đi muộn", "⏰"], ["Mất tập trung", "😴"], ["Dùng điện thoại", "📵"], ["Quên sách vở", "🎒"]];
   const ICON = Object.fromEntries([...POS, ...NEG]);
   const skIcon = (s) => ICON[s] || "⭐";
@@ -131,17 +131,19 @@
   }
 
   /* ================= GIÁO VIÊN: lưới lớp học ================= */
-  let lastBatch = null;
+  let lastBatch = null, SRV_OK = false;
+  const SRV_WARN = `<div class="card srv-warn"><b>⚠️ Máy chủ chưa cập nhật nên chưa cộng sao được.</b><ol><li>Mở Google Sheet <b>IVY Teen – Tài khoản</b> → <b>Tiện ích mở rộng → Apps Script</b>.</li><li>Xoá mã cũ, dán toàn bộ mã mới từ <a href="https://raw.githubusercontent.com/IVY-GLOBAL-TEENS/diem-cao-tren-lop-dat-chung-chi-cambridge-/main/server/Code.gs" target="_blank" rel="noopener">link này</a> → bấm <b>Lưu</b>.</li><li><b>Triển khai → Quản lý triển khai → ✏️ → Phiên bản mới → Triển khai</b>, rồi tải lại trang này.</li></ol></div>`;
   function classroom(box, cl, sts, points, refresh) {
     const byCode = {}; points.forEach((p) => (byCode[p.code] = byCode[p.code] || []).push(p));
     let multi = false; const sel = new Set();
     let sort = K().ls.get("dj-sort", "name");
+    if (!SRV_OK) K().api("ping").then(() => (SRV_OK = true)).catch((e) => { if (/Không rõ thao tác/.test(e.message) && box.isConnected) box.insertAdjacentHTML("afterbegin", SRV_WARN); });
     const draw = () => {
       const list = sts.slice().sort((a, b) => (sort === "pts" ? total(byCode[b.code]) - total(byCode[a.code]) : 0) || a.name.split(" ").pop().localeCompare(b.name.split(" ").pop(), "vi"));
       const classPts = total(points.filter((p) => sts.some((x) => x.code === p.code)));
       box.innerHTML = `<div class="dj-bar">
           <button class="btn ${multi ? "primary" : ""}" id="djMulti">${multi ? "✓ Đang chọn nhiều" : "☑️ Chọn nhiều em"}</button>
-          ${multi ? `<button class="btn" id="djAll">Chọn cả lớp</button><button class="btn primary" id="djGiveSel" ${sel.size ? "" : "disabled"}>Cho điểm ${sel.size || ""} em</button>` : ""}
+          ${multi ? `<button class="btn" id="djAll">Chọn cả lớp</button><button class="btn primary" id="djGiveSel" ${sel.size ? "" : "disabled"}>⭐ Cộng sao cho ${sel.size || ""} em</button>` : ""}
           <span class="sp"></span>
           <label class="dj-sort">Xếp theo <select id="djSort"><option value="name" ${sort === "name" ? "selected" : ""}>Tên</option><option value="pts" ${sort === "pts" ? "selected" : ""}>Điểm</option></select></label>
           ${lastBatch ? `<button class="btn" id="djUndo">↶ Huỷ lần vừa cho</button>` : ""}</div>
@@ -149,7 +151,7 @@
           <button class="dj-tile whole" id="djWhole"><span class="dj-av"><span class="whole-ic">👥</span></span><b>Cả lớp</b><span class="dj-pts ${classPts < 0 ? "neg" : ""}">${classPts}</span></button>
           ${list.map((x) => { const t = total(byCode[x.code]); return `<button class="dj-tile ${sel.has(x.code) ? "sel" : ""} ${x.activated ? "" : "off"}" data-code="${esc(x.code)}"><span class="dj-av">${monster(x.avatar, x.code)}</span><b>${esc(x.name.split(" ").slice(-2).join(" "))}</b><span class="dj-pts ${t < 0 ? "neg" : ""}">${t}</span>${multi ? `<i class="dj-check">${sel.has(x.code) ? "✓" : ""}</i>` : ""}</button>`; }).join("")}
         </div>
-        <p class="muted" style="font-size:13px;margin-top:12px">Bấm vào một em để cho điểm <b style="color:#11804a">tích cực</b> hoặc <b style="color:var(--red)">cần cố gắng</b>. Học sinh thấy điểm và lời nhận xét ngay trong trang của em. Ô mờ là em chưa kích hoạt mã.</p>`;
+        <p class="muted" style="font-size:13px;margin-top:12px">Bấm <b>Cả lớp</b> để cộng sao cho cả lớp, bấm <b>một em</b> để cộng riêng, hoặc <b>Chọn nhiều em</b> rồi cộng một lượt. Chọn số sao (1–10) và kỹ năng trong bảng hiện ra. Học sinh thấy sao và lời nhận xét ngay trong trang của em. Ô mờ là em chưa kích hoạt mã.</p>`;
       $("djMulti").onclick = () => { multi = !multi; sel.clear(); draw(); };
       $("djSort").onchange = (e) => { sort = e.target.value; K().ls.set("dj-sort", sort); draw(); };
       if ($("djAll")) $("djAll").onclick = () => { sts.forEach((x) => sel.add(x.code)); draw(); };
@@ -175,21 +177,26 @@
   function giveModal(list, done, whole) {
     if (!list.length) return;
     const one = list.length === 1 ? list[0] : null;
-    const head = one ? `<div class="dj-mh"><span class="dj-av lg">${monster(one.avatar, one.code)}</span><div><h2>${esc(one.name)}</h2><span class="muted">Cho điểm theo kỹ năng</span></div></div>`
-      : `<div class="dj-mh"><span class="dj-av lg"><span class="whole-ic">👥</span></span><div><h2>${whole ? "Cả lớp" : list.length + " học sinh"}</h2><span class="muted">${list.length} em cùng nhận điểm</span></div></div>`;
-    const tiles = (arr, v) => arr.map(([n, ic]) => `<button class="dj-sk ${v > 0 ? "pos" : "neg"}" data-sk="${esc(n)}" data-v="${v}"><span class="ic">${ic}</span><b>${esc(n)}</b><span class="pv">${v > 0 ? "+1" : "−1"}</span></button>`).join("");
+    const head = one ? `<div class="dj-mh"><span class="dj-av lg">${monster(one.avatar, one.code)}</span><div><h2>${esc(one.name)}</h2><span class="muted">Cộng hoặc trừ sao theo kỹ năng</span></div></div>`
+      : `<div class="dj-mh"><span class="dj-av lg"><span class="whole-ic">👥</span></span><div><h2>${whole ? "Cả lớp" : list.length + " học sinh"}</h2><span class="muted">${list.length} em cùng nhận sao</span></div></div>`;
+    let n = K().ls.get("dj-amt", 1) || 1;
+    const tiles = (arr, sign) => arr.map(([nm, ic]) => `<button class="dj-sk ${sign > 0 ? "pos" : "neg"}" data-sk="${esc(nm)}" data-sign="${sign}"><span class="ic">${ic}</span><b>${esc(nm)}</b><span class="pv">${sign > 0 ? "+" : "−"}<i class="amt">${n}</i></span></button>`).join("");
     const m = modal(`${head}
-      <div class="dj-tabs"><button class="on" data-t="pos">👍 Tích cực</button><button data-t="neg">💪 Cần cố gắng</button></div>
+      <div class="dj-amt"><span>Số sao mỗi lần:</span>${[1, 2, 3, 5, 10].map((k) => `<button data-amt="${k}" class="${k === n ? "on" : ""}">${k} ⭐</button>`).join("")}<label>Khác <input type="number" min="1" max="10" id="amtIn" value="${[1, 2, 3, 5, 10].includes(n) ? "" : n}" placeholder="1–10"></label></div>
+      <div class="dj-tabs"><button class="on" data-t="pos">👍 Cộng sao · tích cực</button><button data-t="neg">💪 Trừ sao · cần cố gắng</button></div>
       <div class="dj-sks" data-p="pos">${tiles(POS, 1)}</div><div class="dj-sks" data-p="neg" hidden>${tiles(NEG, -1)}</div>
       <div class="auth-msg" id="gMsg"></div>`, "wide");
+    const setAmt = (k) => { n = Math.max(1, Math.min(10, Math.round(+k) || 1)); K().ls.set("dj-amt", n); m.querySelectorAll("[data-amt]").forEach((b) => b.classList.toggle("on", +b.dataset.amt === n)); m.querySelectorAll(".amt").forEach((x) => (x.textContent = n)); };
+    m.querySelectorAll("[data-amt]").forEach((b) => (b.onclick = () => { $("amtIn").value = ""; setAmt(b.dataset.amt); }));
+    $("amtIn").oninput = (e) => { if (e.target.value) setAmt(e.target.value); };
     m.querySelectorAll(".dj-tabs button").forEach((b) => (b.onclick = () => { m.querySelectorAll(".dj-tabs button").forEach((x) => x.classList.toggle("on", x === b)); m.querySelectorAll(".dj-sks").forEach((p) => (p.hidden = p.dataset.p !== b.dataset.t)); }));
     m.querySelectorAll(".dj-sk").forEach((b) => (b.onclick = async () => {
       m.querySelectorAll(".dj-sk").forEach((x) => (x.disabled = true)); b.classList.add("busy");
-      const v = +b.dataset.v;
+      const v = +b.dataset.sign * n;
       try {
         const j = await K().api("givePoints", { codes: list.map((x) => x.code), skill: b.dataset.sk, value: v });
         close(); ding(v > 0);
-        toast(`${one ? `<span class="dj-av sm">${monster(one.avatar, one.code)}</span>` : "<span class='big'>👥</span>"}<div><b>${v > 0 ? "+1" : "−1"} ${esc(b.dataset.sk)}</b><small>${one ? esc(one.name) : list.length + " em"}</small></div>`, v > 0);
+        toast(`${one ? `<span class="dj-av sm">${monster(one.avatar, one.code)}</span>` : "<span class='big'>👥</span>"}<div><b>${v > 0 ? "+" + v : "−" + -v} ⭐ ${esc(b.dataset.sk)}</b><small>${one ? esc(one.name) : list.length + " em"}</small></div>`, v > 0);
         done(j.points || []);
       } catch (e) { m.querySelectorAll(".dj-sk").forEach((x) => (x.disabled = false)); b.classList.remove("busy"); const el = $("gMsg"); el.className = "auth-msg err"; el.textContent = srvMsg(e); }
     }));
@@ -396,7 +403,7 @@
       const pts = inRange(mine, per), t = tally(pts);
       const rows = sts.map((x) => ({ x, t: tally(pts.filter((p) => p.code === x.code)) })).sort((a, b) => b.t.pos - b.t.neg - (a.t.pos - a.t.neg));
       box.innerHTML = `<div class="dj-periods">${PERIODS.map(([k, l]) => `<button class="${k === per ? "on" : ""}" data-per="${k}">${l}</button>`).join("")}</div>
-        <div class="grid g2 dj-rep"><div class="card"><h3>Cả lớp</h3><div class="dj-sum">${donut(t)}<div><div class="big pos">+${t.pos}</div><small>điểm tích cực</small><div class="big neg">−${t.neg}</div><small>cần cố gắng</small></div></div></div>
+        <div class="grid g2 dj-rep"><div class="card"><h3>Cả lớp</h3><div class="dj-sum">${donut(t)}<div><div class="big pos">+${t.pos}</div><small>sao tích cực</small><div class="big neg">−${t.neg}</div><small>cần cố gắng</small></div></div></div>
           <div class="card"><h3>Theo kỹ năng</h3>${skillBars(pts)}</div></div>
         <div class="card" style="margin-top:14px"><h3>8 tuần gần đây</h3>${weeks(mine)}<p class="muted" style="font-size:12.5px;margin:6px 0 0">Cột xanh: điểm tích cực · cột đỏ: cần cố gắng.</p></div>
         <h2>Từng học sinh</h2>
@@ -420,14 +427,14 @@
   function studentHead(s, cls, extraHtml) {
     const pts = s.points || [];
     return `<div class="dj-me"><button class="dj-me-av" id="meAv" title="Đổi avatar">${monster(s.avatar, s.code)}<i>✏️</i></button>
-      <div class="dj-me-t"><span class="eyebrow">${cls ? "Lớp " + esc(cls.name) : "Học sinh"}</span><h1>${esc(s.name)}</h1><div class="dj-me-chips"><span class="dj-pts big ${total(pts) < 0 ? "neg" : ""}" id="mePts">${total(pts)}</span><span>điểm lớp học</span>${extraHtml || ""}</div></div></div>`;
+      <div class="dj-me-t"><span class="eyebrow">${cls ? "Lớp " + esc(cls.name) : "Học sinh"}</span><h1>${esc(s.name)}</h1><div class="dj-me-chips"><span class="dj-pts big ${total(pts) < 0 ? "neg" : ""}" id="mePts">${total(pts)}</span><span>sao lớp học</span>${extraHtml || ""}</div></div></div>`;
   }
   function studentPoints(box, s) {
     let per = K().ls.get("dj-period-hs", "all");
     const draw = () => {
       const all = s.points || [], pts = inRange(all, per), t = tally(pts);
       box.innerHTML = `<div class="dj-periods">${PERIODS.map(([k, l]) => `<button class="${k === per ? "on" : ""}" data-per="${k}">${l}</button>`).join("")}</div>
-        <div class="grid g2 dj-rep"><div class="card"><div class="dj-sum">${donut(t)}<div><div class="big pos">+${t.pos}</div><small>điểm tích cực</small><div class="big neg">−${t.neg}</div><small>cần cố gắng</small></div></div>${skillBars(pts)}</div>
+        <div class="grid g2 dj-rep"><div class="card"><div class="dj-sum">${donut(t)}<div><div class="big pos">+${t.pos}</div><small>sao tích cực</small><div class="big neg">−${t.neg}</div><small>cần cố gắng</small></div></div>${skillBars(pts)}</div>
           <div class="card"><h3>Thầy cô nhận xét</h3>${feed(pts)}</div></div>
         <div class="card" style="margin-top:14px"><h3>8 tuần gần đây</h3>${weeks(all)}</div>`;
       box.querySelectorAll("[data-per]").forEach((b) => (b.onclick = () => { per = b.dataset.per; K().ls.set("dj-period-hs", per); draw(); }));
@@ -441,7 +448,7 @@
     K().ls.set("dj-seen", pts.map((p) => p.id).slice(0, 400));
     if (!fresh.length || !seen.size) return;
     const t = tally(fresh);
-    setTimeout(() => { ding(t.pos >= t.neg); toast(`<span class="dj-av sm">${monster(s.avatar, s.code)}</span><div><b>${t.pos ? "+" + t.pos + " điểm tích cực" : ""}${t.pos && t.neg ? " · " : ""}${t.neg ? "−" + t.neg + " cần cố gắng" : ""}</b><small>${esc(fresh.slice(0, 3).map((p) => p.skill).join(", "))}</small></div>`, t.pos >= t.neg); }, 600);
+    setTimeout(() => { ding(t.pos >= t.neg); toast(`<span class="dj-av sm">${monster(s.avatar, s.code)}</span><div><b>${t.pos ? "+" + t.pos + " sao" : ""}${t.pos && t.neg ? " · " : ""}${t.neg ? "−" + t.neg + " cần cố gắng" : ""}</b><small>${esc(fresh.slice(0, 3).map((p) => p.skill).join(", "))}</small></div>`, t.pos >= t.neg); }, 600);
   }
 
   /* ================= VIỆC CẦN LÀM (học sinh) + GIAO BÀI (giáo viên) ================= */

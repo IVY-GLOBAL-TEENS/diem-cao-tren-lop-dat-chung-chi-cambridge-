@@ -310,7 +310,10 @@ const ACTIONS = {
     return {};
   },
 
-  /** Chọn avatar (quái vật) cho tài khoản. */
+  /** Kiểm tra phiên bản máy chủ. */
+  ping() { return { version: 4 }; },
+
+  /** Chọn avatar cho tài khoản. */
   setAvatar(req) {
     const a = auth_(req);
     const av = String(req.avatar || '');
@@ -323,7 +326,7 @@ const ACTIONS = {
   givePoints(req) {
     const a = auth_(req, ['gv', 'ql']);
     const v = Math.round(+req.value);
-    if (!(v >= -5 && v <= 5 && v !== 0)) fail_('Điểm không hợp lệ.');
+    if (!(v >= -10 && v <= 10 && v !== 0)) fail_('Số sao mỗi lần từ 1 đến 10.');
     const skill = clean_(req.skill, 40);
     if (!skill) fail_('Chọn kỹ năng.');
     const codes = (Array.isArray(req.codes) ? req.codes : []).map(norm_).filter(Boolean);

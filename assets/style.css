@@ -604,3 +604,12 @@ ul.miss{margin:6px 0 0;padding-left:18px;font-size:14px}
 .pk-test{border:1px solid var(--line);border-radius:14px;padding:10px}
 .pk-test small{display:block;color:var(--muted);font-size:13px;margin-bottom:6px}
 .pk-test .btn{margin:2px}
+.dj-amt{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 12px;font-weight:700;font-size:14px}
+.dj-amt>span{margin-right:4px}
+.dj-amt button{border:2px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:inherit;font-weight:800;cursor:pointer}
+.dj-amt button.on{border-color:var(--gold);background:#fff4cf}
+.dj-amt label{display:flex;gap:6px;align-items:center;font-weight:600}
+.dj-amt input{width:70px;font:inherit;padding:6px 8px;border:2px solid var(--line);border-radius:10px}
+.dj-sk .pv i{font-style:normal}
+.srv-warn{border:2px solid var(--gold);background:#fffbea;margin-bottom:14px}
+.srv-warn ol{margin:8px 0 0;padding-left:20px;line-height:1.7}
