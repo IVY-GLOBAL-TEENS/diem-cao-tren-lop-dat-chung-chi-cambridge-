@@ -200,8 +200,15 @@
     const last14 = []; for (let i = 13; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); last14.push(d); }
     const dset = new Set(r.days);
     const syncAt = K.ls.get("ivy-sync-at", null);
+    const D = window.IVY_DOJO, meTab = K.ls.get("dj-me-tab", "diem");
+    const meTabs = [["diem", "⭐ Điểm của em"], ["bang-tin", "📰 Bảng tin lớp"], ["hoc-tap", "📚 Học tập"]];
     return {
-      html: `<div class="class-hero me-hero" style="background:linear-gradient(120deg,var(--blue-dd),${L.color} 75%)">
+      html: `${D.studentHead(s, cls, `<span class="dj-chip">🔥 ${r.streak} ngày</span><span class="dj-chip">⭐ ${r.stars} sao</span>`)}
+        <div class="tabs dj-metabs">${meTabs.map(([k, l]) => `<button class="tab ${k === meTab ? "on" : ""}" data-metab="${k}">${l}</button>`).join("")}</div>
+        <div id="mePane-diem" class="me-pane" ${meTab === "diem" ? "" : "hidden"}></div>
+        <div id="mePane-bang-tin" class="me-pane" ${meTab === "bang-tin" ? "" : "hidden"}></div>
+        <div id="mePane-hoc-tap" class="me-pane" ${meTab === "hoc-tap" ? "" : "hidden"}>
+        <div class="class-hero me-hero" style="background:linear-gradient(120deg,var(--blue-dd),${L.color} 75%)">
           <span class="eyebrow">${cls ? "Lớp " + esc(cls.name) + (c ? " · " + esc(c.name) + " " + esc(c.cefr) : "") : "Học sinh"}</span>
           <h1>Xin chào, ${esc(s.name)}! 👋</h1><p>Mã của em: <b>${esc(s.code)}</b>${cls && cls.days && cls.days.length ? " · Lịch học: " + esc(dowName(cls.days)) : ""}</p>
           <div class="btn-row">${c ? `<a class="btn light" href="#/hoc-sinh/${c.id}">🎒 Bài tập của lớp</a>` : ""}<a class="btn light" href="phong-thi/${c ? "?lv=" + esc(c.exam) : ""}">🎯 Phòng thi ảo</a><a class="btn light" href="phong-thi/?view=ketbank">📝 Đề KET</a></div>
@@ -220,9 +227,27 @@
         <h2>Kết quả đề KET gần đây</h2><div id="meKet" class="card">${r.ket.list.length ? "Đang tải…" : `<span class="muted">Em chưa làm đề KET nào. <a href="phong-thi/?view=ketbank">Làm đề đầu tiên →</a></span>`}</div>
         <div class="sync-line"><span id="syncTxt">${syncAt ? "Đã lưu về tài khoản lúc " + new Date(syncAt).toLocaleString("vi-VN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" }) : "Chưa đồng bộ lần nào"}</span>
           <button class="btn" id="syncGo">↻ Đồng bộ ngay</button><button class="btn" id="aOut">Đăng xuất</button></div>
-        ${pwForm()}`,
+        ${pwForm()}</div>`,
       after() {
         bindPw(); bindLogout();
+        let storyLoaded = false;
+        const showTab = (k) => {
+          K.ls.set("dj-me-tab", k);
+          document.querySelectorAll("[data-metab]").forEach((b) => b.classList.toggle("on", b.dataset.metab === k));
+          document.querySelectorAll(".me-pane").forEach((p) => (p.hidden = p.id !== "mePane-" + k));
+          if (k === "bang-tin" && !storyLoaded) { storyLoaded = true; D.story($("mePane-bang-tin"), cls, false); }
+        };
+        document.querySelectorAll("[data-metab]").forEach((b) => b.addEventListener("click", () => showTab(b.dataset.metab)));
+        D.studentPoints($("mePane-diem"), s);
+        showTab(meTab);
+        $("meAv").addEventListener("click", () => D.pickAvatar(K.session().avatar, s.code, () => A().route()));
+        if (!s.avatar && !K.ls.get("dj-av-asked", false)) { K.ls.set("dj-av-asked", true); setTimeout(() => D.pickAvatar("", s.code, () => A().route()), 400); }
+        K.refreshMe(true).then((n) => {
+          if (!n || !$("mePane-diem")) return;
+          D.studentPoints($("mePane-diem"), n);
+          const tp = D.total(n.points); $("mePts").textContent = tp; $("mePts").classList.toggle("neg", tp < 0);
+          D.freshPoints(n);
+        });
         K.refreshMe(true).then((n) => {
           if (!n || !$("meBonus")) return;
           const r2 = analyze({ activated: true, snap, bonus: n.bonus }, cls);
@@ -295,13 +320,13 @@
 
   function pageClass(id, q) {
     const stop = needLogin(["gv", "ql"]); if (stop != null) return { html: stop };
-    const tab = q.get("tab") || "tong-quan";
+    const tab = q.get("tab") || "lop-hoc";
     return {
       html: `<div class="crumbs"><a href="#/">Lớp của tôi</a> › <span id="cName">Lớp</span></div><div id="cBox"><div class="card empty">Đang tải lớp…</div></div>`,
       async after() {
         const box = $("cBox");
         let d;
-        try { d = await getDash(); } catch (e) { box.innerHTML = `<div class="card empty">${esc(e.message)}</div>`; return; }
+        try { d = await getDash(tab === "lop-hoc"); } catch (e) { box.innerHTML = `<div class="card empty">${esc(e.message)}</div>`; return; }
         const cl = d.classes.find((x) => x.id === id);
         if (!cl) { box.innerHTML = `<div class="card empty">Không tìm thấy lớp này.</div>`; return; }
         await loadCatalog();
@@ -322,9 +347,12 @@
     const warn = sts.filter((x) => x.a.why.length);
     const head = `<div class="class-hero" style="background:linear-gradient(120deg,var(--blue-dd),${L.color} 75%)"><span class="eyebrow">${esc(c ? c.name + " · " + c.cefr : cl.course)}${s.role === "ql" && cl.teacher_name ? " · GV " + esc(cl.teacher_name) : ""}</span><h1>Lớp ${esc(cl.name)}</h1>
         <p>${sts.length} học sinh · Khai giảng ${esc(dmy(cl.start))} · Lịch học ${esc(dowName(cl.days) || "chưa đặt")}</p><img src="assets/img/${L.panda}" alt=""></div>
-      <div class="tabs">${[["tong-quan", "Tổng quan"], ["thuong-sao", "⭐ Thưởng sao"], ["hoc-sinh", "Học sinh & mã"], ["cai-dat", "Lịch & cài đặt"]].map(([k, l]) => `<a class="tab ${k === tab ? "on" : ""}" href="#/lop-cua-toi/${esc(cl.id)}?tab=${k}">${l}</a>`).join("")}<span class="sp"></span><button class="btn" id="cReload">↻ Làm mới</button></div>`;
+      <div class="tabs">${[["lop-hoc", "🏫 Lớp học"], ["bang-tin", "📰 Bảng tin"], ["cong-cu", "🧰 Công cụ"], ["bao-cao", "📊 Báo cáo"], ["tong-quan", "📈 Tiến độ học"], ["hoc-sinh", "🔑 Học sinh & mã"], ["cai-dat", "⚙️ Cài đặt"]].map(([k, l]) => `<a class="tab ${k === tab ? "on" : ""}" href="#/lop-cua-toi/${esc(cl.id)}?tab=${k}">${l}</a>`).join("")}<span class="sp"></span><button class="btn" id="cReload">↻ Làm mới</button></div>`;
     let body = "";
-    if (tab === "hoc-sinh") {
+    const DJ = { "lop-hoc": "classroom", "bang-tin": "story", "cong-cu": "tools", "bao-cao": "report" };
+    if (DJ[tab]) {
+      body = tab !== "bang-tin" && !sts.length ? `<div class="card empty">Lớp chưa có học sinh. Vào tab <a href="#/lop-cua-toi/${esc(cl.id)}?tab=hoc-sinh">Học sinh & mã</a> để thêm.</div>` : `<div id="djBox"></div>`;
+    } else if (tab === "hoc-sinh") {
       body = `<div class="grid g2">
         <form class="card" id="fAdd"><h3>Thêm học sinh</h3><p class="muted" style="font-size:13.5px;margin:4px 0 10px">Mỗi dòng một họ tên. Website cấp cho mỗi em một mã riêng; em dùng mã để kích hoạt và tự đặt mật khẩu.</p>
           <textarea id="addNames" rows="6" placeholder="Nguyễn Minh Anh&#10;Trần Bảo Châu&#10;Lê Gia Huy"></textarea>
@@ -381,7 +409,13 @@
     $("cReload").addEventListener("click", () => busy($("cReload"), async () => { try { const nd = await getDash(true); const ncl = nd.classes.find((x) => x.id === cl.id); if (ncl) renderClass(nd, ncl, tab); } catch (e) { alertBox(e.message); } }));
     const refresh = async () => { const nd = await getDash(true); const ncl = nd.classes.find((x) => x.id === cl.id); if (ncl) renderClass(nd, ncl, tab); else location.hash = "#/lop-cua-toi"; };
 
-    if (tab === "hoc-sinh") {
+    if (DJ[tab] && $("djBox")) {
+      const D = window.IVY_DOJO, pts = d.points || [];
+      if (tab === "lop-hoc") D.classroom($("djBox"), cl, sts, pts, refresh);
+      else if (tab === "bang-tin") D.story($("djBox"), cl, true);
+      else if (tab === "cong-cu") D.tools($("djBox"), cl, sts);
+      else D.report($("djBox"), cl, sts, pts);
+    } else if (tab === "hoc-sinh") {
       $("fAdd").addEventListener("submit", async (e) => {
         e.preventDefault(); const names = $("addNames").value.split(/\n+/).map((x) => x.replace(/^\s*\d+[.)]\s*/, "").trim()).filter(Boolean);
         if (!names.length) return msg($("addMsg"), "Nhập ít nhất 1 tên.", "err");

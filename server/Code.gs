@@ -12,10 +12,12 @@
  */
 
 const SHEETS = {
-  acc: ['TaiKhoan', ['ma', 'vai_tro', 'ho_ten', 'lop', 'nguoi_tao', 'salt', 'hash', 'kich_hoat', 'tao_luc', 'lan_cuoi']],
+  acc: ['TaiKhoan', ['ma', 'vai_tro', 'ho_ten', 'lop', 'nguoi_tao', 'salt', 'hash', 'kich_hoat', 'tao_luc', 'lan_cuoi', 'avatar']],
   cls: ['Lop', ['ma_lop', 'ten_lop', 'khoa', 'gv', 'khai_giang', 'ngay_hoc', 'tao_luc']],
   prog: ['TienDo', ['ma', 'cap_nhat', 'bai_tap_xong', 'sao', 'xp', 'de_ket', 'ket_tb', 'chuoi_ngay', 'hoat_dong_cuoi', 'du_lieu']],
   bonus: ['ThuongSao', ['id', 'ma', 'ho_ten', 'lop', 'so_sao', 'ly_do', 'nguoi_thuong', 'luc']],
+  pts: ['Diem', ['id', 'ma', 'ho_ten', 'lop', 'ky_nang', 'diem', 'nguoi_cham', 'luc']],
+  story: ['BangTin', ['id', 'lop', 'nguoi_dang', 'ten_nguoi_dang', 'noi_dung', 'anh', 'luc']],
 };
 const BONUS_MAX = 10; // tối đa sao cho 1 lần thưởng / 1 em
 const COURSES = { fd: 'FD', bu: 'BU', ko: 'KO', bo: 'BO', pi: 'PI' };
@@ -167,9 +169,10 @@ const ACTIONS = {
     const students = accs.filter((s) => s.vai_tro === 'hs' && ids[s.lop]).map((s) => {
       const p = prog[s.ma];
       let snap = null; try { snap = p && p.du_lieu ? JSON.parse(p.du_lieu) : null; } catch (e) {}
-      return { code: s.ma, name: s.ho_ten, cls: s.lop, activated: !!s.kich_hoat, last_login: str_(s.lan_cuoi), synced: p ? str_(p.cap_nhat) : '', snap: snap, bonus: bonus[s.ma] || [] };
+      return { code: s.ma, name: s.ho_ten, avatar: s.avatar || '', cls: s.lop, activated: !!s.kich_hoat, last_login: str_(s.lan_cuoi), synced: p ? str_(p.cap_nhat) : '', snap: snap, bonus: bonus[s.ma] || [] };
     });
     const out = { classes: classes.map((c) => Object.assign(cls_(c), { teacher_name: teachers[c.gv] || '' })), students: students };
+    out.points = rows_('pts').filter((x) => ids[x.lop]).map(ptOut_);
     if (a.vai_tro === 'ql') {
       out.teachers = accs.filter((t) => t.vai_tro === 'gv').map((t) => ({ code: t.ma, name: t.ho_ten, activated: !!t.kich_hoat, last_login: str_(t.lan_cuoi), classes: rows_('cls').filter((c) => c.gv === t.ma).length }));
       out.me_code = a.ma;
@@ -304,6 +307,81 @@ const ACTIONS = {
     return {};
   },
 
+  /** Chọn avatar (quái vật) cho tài khoản. */
+  setAvatar(req) {
+    const a = auth_(req);
+    const av = String(req.avatar || '');
+    if (!/^m\d{2}$/.test(av)) fail_('Avatar không hợp lệ.');
+    a.avatar = av; writeRow_('acc', a);
+    return { avatar: av };
+  },
+
+  /** Cho điểm kiểu ClassDojo: +1 (tích cực) hoặc -1 (cần cố gắng) theo kỹ năng, cho 1 hoặc nhiều em. */
+  givePoints(req) {
+    const a = auth_(req, ['gv', 'ql']);
+    const v = Math.round(+req.value);
+    if (!(v >= -5 && v <= 5 && v !== 0)) fail_('Điểm không hợp lệ.');
+    const skill = clean_(req.skill, 40);
+    if (!skill) fail_('Chọn kỹ năng.');
+    const codes = (Array.isArray(req.codes) ? req.codes : []).map(norm_).filter(Boolean);
+    if (!codes.length) fail_('Chọn ít nhất 1 học sinh.');
+    if (codes.length > 80) fail_('Tối đa 80 học sinh mỗi lần.');
+    const accs = {}; rows_('acc').forEach((x) => (accs[String(x.ma).toUpperCase()] = x));
+    const mine = {}; rows_('cls').forEach((c) => { if (a.vai_tro === 'ql' || c.gv === a.ma) mine[c.ma_lop] = 1; });
+    const sh = sheet_('pts'), head = SHEETS.pts[1], at = now_(), rows = [], out = [], seen = {};
+    codes.forEach((code, i) => {
+      if (seen[code]) return; seen[code] = 1;
+      const s = accs[code];
+      if (!s || s.vai_tro !== 'hs' || !mine[s.lop]) fail_('Không tìm thấy học sinh ' + code + ' trong lớp của bạn.');
+      const o = { id: 'P' + Date.now().toString(36).toUpperCase() + i.toString(36).toUpperCase() + rand_(3), ma: s.ma, ho_ten: s.ho_ten, lop: s.lop, ky_nang: skill, diem: String(v), nguoi_cham: a.ma, luc: at };
+      rows.push(head.map((h) => o[h])); out.push(ptOut_(o));
+    });
+    sh.getRange(sh.getLastRow() + 1, 1, rows.length, head.length).setNumberFormat('@').setValues(rows);
+    return { points: out };
+  },
+
+  /** Huỷ điểm vừa cho (bấm nhầm). */
+  undoPoints(req) {
+    const a = auth_(req, ['gv', 'ql']);
+    const ids = {}; (req.ids || []).forEach((x) => (ids[String(x)] = 1));
+    const list = rows_('pts').filter((x) => ids[x.id]);
+    if (!list.length) fail_('Không tìm thấy điểm cần huỷ.');
+    list.forEach((x) => { if (a.vai_tro !== 'ql') ownClass_(a, x.lop); });
+    const sh = sheet_('pts');
+    list.sort((p, q) => q._row - p._row).forEach((x) => sh.deleteRow(x._row));
+    return { removed: list.length };
+  },
+
+  /** Bảng tin lớp: giáo viên xem lớp mình, học sinh xem lớp của em. */
+  stories(req) {
+    const a = auth_(req);
+    const id = a.vai_tro === 'hs' ? a.lop : String(req.id || '');
+    if (a.vai_tro !== 'hs') ownClass_(a, id);
+    const list = rows_('story').filter((x) => x.lop === id).reverse().slice(0, 40);
+    return { stories: list.map((x) => ({ id: x.id, by: x.ten_nguoi_dang, text: x.noi_dung, img: x.anh || '', at: str_(x.luc) })) };
+  },
+
+  postStory(req) {
+    const a = auth_(req, ['gv', 'ql']);
+    const c = ownClass_(a, req.id);
+    const text = String(req.text == null ? '' : req.text).replace(/[\u0000-\u0008\u000b-\u001f<>]/g, '').trim().slice(0, 2000);
+    const img = String(req.img || '');
+    if (img && (!/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+\/=]+$/.test(img) || img.length > 48000)) fail_('Ảnh không hợp lệ hoặc quá lớn.');
+    if (!text && !img) fail_('Nhập nội dung hoặc chọn ảnh.');
+    const o = { id: 'B' + Date.now().toString(36).toUpperCase() + rand_(3), lop: c.ma_lop, nguoi_dang: a.ma, ten_nguoi_dang: a.ho_ten, noi_dung: text, anh: img, luc: now_() };
+    writeRow_('story', o);
+    return { story: { id: o.id, by: o.ten_nguoi_dang, text: o.noi_dung, img: o.anh, at: o.luc } };
+  },
+
+  deleteStory(req) {
+    const a = auth_(req, ['gv', 'ql']);
+    const x = rows_('story').find((r) => r.id === String(req.sid || ''));
+    if (!x) fail_('Không tìm thấy bài đăng.');
+    if (a.vai_tro !== 'ql') ownClass_(a, x.lop);
+    sheet_('story').deleteRow(x._row);
+    return {};
+  },
+
   /** Quản lý tạo mã giáo viên. */
   createTeacher(req) {
     const a = auth_(req, ['ql']);
@@ -362,11 +440,12 @@ function streak_(days) {
 }
 
 function profile_(a) {
-  const out = { code: a.ma, role: a.vai_tro, role_name: ROLE_NAME[a.vai_tro], name: a.ho_ten };
+  const out = { code: a.ma, role: a.vai_tro, role_name: ROLE_NAME[a.vai_tro], name: a.ho_ten, avatar: a.avatar || '' };
   if (a.vai_tro === 'hs') {
     const c = rows_('cls').find((x) => x.ma_lop === a.lop);
     if (c) out.cls = cls_(c);
     out.bonus = bonusByStudent_()[a.ma] || [];
+    out.points = rows_('pts').filter((x) => x.ma === a.ma).map(ptOut_).reverse().slice(0, 300);
   }
   return out;
 }
@@ -382,6 +461,8 @@ function bonusByStudent_() {
 function bonusOut_(b, by) {
   return { id: b.id, code: b.ma, n: +b.so_sao || 0, why: b.ly_do || '', by: by || '', at: str_(b.luc) };
 }
+
+function ptOut_(x) { return { id: x.id, code: x.ma, skill: x.ky_nang, v: +x.diem || 0, at: str_(x.luc) }; }
 
 function cls_(c) {
   return { id: c.ma_lop, name: c.ten_lop, course: c.khoa, teacher: c.gv, start: str_(c.khai_giang), days: String(c.ngay_hoc || '').split(',').filter(String) };
@@ -458,6 +539,7 @@ function json_(o) { return ContentService.createTextOutput(JSON.stringify(o)).se
 
 function ss_() { return SpreadsheetApp.getActive(); }
 
+const HEAD_OK_ = {};
 function sheet_(k) {
   const name = SHEETS[k][0], head = SHEETS[k][1];
   let sh = ss_().getSheetByName(name);
@@ -466,7 +548,11 @@ function sheet_(k) {
     sh.getRange(1, 1, 1000, head.length).setNumberFormat('@');
     sh.getRange(1, 1, 1, head.length).setValues([head]).setFontWeight('bold').setBackground('#0b16b0').setFontColor('#ffffff');
     sh.setFrozenRows(1);
+  } else if (!HEAD_OK_[k]) {
+    const cur = sh.getRange(1, head.length).getValue();
+    if (cur !== head[head.length - 1]) sh.getRange(1, 1, 1, head.length).setValues([head]).setFontWeight('bold').setBackground('#0b16b0').setFontColor('#ffffff');
   }
+  HEAD_OK_[k] = 1;
   return sh;
 }
 

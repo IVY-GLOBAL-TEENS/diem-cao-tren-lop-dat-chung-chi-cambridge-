@@ -119,7 +119,7 @@
       if (owner && owner !== p.code) wipeProgress();
       ls.set("ivy-owner", p.code);
     }
-    setSession({ token: j.token, code: p.code, role: p.role, role_name: p.role_name, name: p.name, cls: p.cls || null, bonus: p.bonus || [], at: Date.now() });
+    setSession({ token: j.token, code: p.code, role: p.role, role_name: p.role_name, name: p.name, cls: p.cls || null, bonus: p.bonus || [], points: p.points || [], avatar: p.avatar || "", at: Date.now() });
     applyClass(p.cls);
     if (p.role === "hs") {
       try { const r = await api("pull"); merge(r.snap); } catch (e) {}
@@ -144,6 +144,8 @@
       const j = await api("me");
       const n = Object.assign(session() || {}, { name: j.profile.name, cls: j.profile.cls || null, checked: Date.now() });
       if (j.profile.bonus) n.bonus = j.profile.bonus;
+      if (j.profile.points) n.points = j.profile.points;
+      n.avatar = j.profile.avatar || "";
       setSession(n); applyClass(j.profile.cls);
       window.dispatchEvent(new Event("ivy-me"));
       return n;
