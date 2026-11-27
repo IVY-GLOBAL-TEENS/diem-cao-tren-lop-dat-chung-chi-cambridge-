@@ -132,7 +132,7 @@
 
   /* ================= GIÁO VIÊN: lưới lớp học ================= */
   let lastBatch = null, SRV_OK = false;
-  const SRV_WARN = `<div class="card srv-warn"><b>⚠️ Máy chủ chưa cập nhật nên chưa cộng sao được.</b><ol><li>Mở Google Sheet <b>IVY Teen – Tài khoản</b> → <b>Tiện ích mở rộng → Apps Script</b>.</li><li>Xoá mã cũ, dán toàn bộ mã mới từ <a href="https://raw.githubusercontent.com/IVY-GLOBAL-TEENS/diem-cao-tren-lop-dat-chung-chi-cambridge-/main/server/Code.gs" target="_blank" rel="noopener">link này</a> → bấm <b>Lưu</b>.</li><li><b>Triển khai → Quản lý triển khai → ✏️ → Phiên bản mới → Triển khai</b>, rồi tải lại trang này.</li></ol></div>`;
+  const SRV_WARN = `<div class="card srv-warn"><b>⚠️ Máy chủ chưa cập nhật nên chưa cộng sao được.</b><ol><li>Mở Google Sheet <b>IVY Teen – Tài khoản</b> → <b>Tiện ích mở rộng → Apps Script</b>.</li><li>Xoá mã cũ, dán toàn bộ mã <b>tự cập nhật</b> từ <a href="https://raw.githubusercontent.com/IVY-GLOBAL-TEENS/diem-cao-tren-lop-dat-chung-chi-cambridge-/main/server/TuCapNhat.gs" target="_blank" rel="noopener">link này</a> → bấm <b>Lưu</b>.</li><li><b>Triển khai → Quản lý triển khai → ✏️ → Phiên bản mới → Triển khai</b>, rồi tải lại trang này.</li></ol></div>`;
   function classroom(box, cl, sts, points, refresh) {
     const byCode = {}; points.forEach((p) => (byCode[p.code] = byCode[p.code] || []).push(p));
     let multi = false; const sel = new Set();

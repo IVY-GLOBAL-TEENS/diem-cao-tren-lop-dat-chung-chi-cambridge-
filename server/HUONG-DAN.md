@@ -1,5 +1,8 @@
 # Bật tài khoản IVY Teen (Google Sheet + Apps Script)
 
+> **Máy chủ tự cập nhật (khuyên dùng):** trong Apps Script, thay toàn bộ mã bằng file [`server/TuCapNhat.gs`](TuCapNhat.gs), bấm Lưu, chạy hàm `kiemTra` một lần để cấp quyền, rồi Triển khai → Quản lý triển khai → ✏️ → Phiên bản mới. Từ đó máy chủ tự lấy bản `Code.gs` mới nhất trên GitHub (khoảng 5 phút), không phải dán lại khi website có chức năng mới.
+
+
 Khoảng 10 phút, làm **một lần**. Sau đó:
 
 - **Quản lý** (bạn) tạo mã cho từng giáo viên.
