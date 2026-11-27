@@ -408,5 +408,139 @@
     setTimeout(() => { ding(t.pos >= t.neg); toast(`<span class="dj-av sm">${monster(s.avatar, s.code)}</span><div><b>${t.pos ? "+" + t.pos + " điểm tích cực" : ""}${t.pos && t.neg ? " · " : ""}${t.neg ? "−" + t.neg + " cần cố gắng" : ""}</b><small>${esc(fresh.slice(0, 3).map((p) => p.skill).join(", "))}</small></div>`, t.pos >= t.neg); }, 600);
   }
 
-  window.IVY_DOJO = { monster, pickAvatar, classroom, story, tools, report, studentHead, studentPoints, freshPoints, total, stopTools, srvMsg };
+  /* ================= VIỆC CẦN LÀM (học sinh) + GIAO BÀI (giáo viên) ================= */
+  const WD = ["CN", "Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7"];
+  const dOf = (iso) => new Date(String(iso).slice(0, 10) + "T00:00:00");
+  const dayLbl = (iso) => { const d = dOf(iso); return `${WD[d.getDay()]} ${d.getDate()}.${d.getMonth() + 1}`; };
+  const addDays = (iso, n) => { const d = dOf(iso); d.setDate(d.getDate() + n); return K().isoDay(d); };
+  const linkOk = (u) => /^https?:\/\//.test(u || "");
+
+  /* Bài về nhà theo lộ trình (tick trên máy, tự đồng bộ). */
+  function curriculumItems(cls) {
+    const app = window.IVY_APP; if (!app || !cls) return [];
+    const c = app.C[cls.course];
+    if (!c || c.status !== "ready" || !c.sessions || !cls.start || !(cls.days || []).length) return [];
+    const dates = app.schedule(c, { start: cls.start, days: cls.days }); if (!dates) return [];
+    const iso = dates.map((d) => K().isoDay(d));
+    const done = ((K().ls.get("ivy-hw-v2-" + c.id, {}) || {}).done) || {};
+    const out = [];
+    c.sessions.forEach((ss, i) => {
+      if (app.has(ss.before)) out.push({ kind: "lt", key: ss.session_id + ":before", date: i ? iso[i - 1] : addDays(iso[i], -2), due: iso[i], title: `Chuẩn bị buổi ${ss.session_no}`, text: ss.before, focus: ss.focus, done: !!done[ss.session_id + ":before"], course: c.id });
+      if (app.has(ss.after)) out.push({ kind: "lt", key: ss.session_id + ":after", date: iso[i], due: iso[i + 1] || addDays(iso[i], 3), title: `Bài về nhà buổi ${ss.session_no}`, text: ss.after, focus: ss.focus, done: !!done[ss.session_id + ":after"], course: c.id });
+    });
+    return out;
+  }
+  function tickCurriculum(course, key, on) {
+    const k = "ivy-hw-v2-" + course, cfg = K().ls.get(k, null) || { cls: "", start: "", days: [], done: {} };
+    cfg.done = cfg.done || {}; if (on) cfg.done[key] = true; else delete cfg.done[key];
+    K().ls.set(k, cfg); K().soon();
+  }
+
+  async function todo(box, s) {
+    const cls = s.cls;
+    box.innerHTML = `<div class="card empty">Đang tải việc cần làm…</div>`;
+    let asg = [], subs = {};
+    try { const j = await K().api("assignments"); asg = j.assignments || []; (j.submissions || []).forEach((x) => (subs[x.aid] = x)); } catch (e) {}
+    const today = K().isoDay(new Date());
+    const draw = () => {
+      const items = asg.map((a) => ({ kind: "asg", a, key: a.id, date: a.date, due: a.due || a.date, title: a.title || "Bài tập", text: a.note, link: a.link, done: !!subs[a.id], sub: subs[a.id] }))
+        .concat(curriculumItems(cls));
+      const now = items.filter((x) => x.date <= today && x.due >= today && !x.done).sort((p, q) => (q.date > p.date ? 1 : q.date < p.date ? -1 : 0));
+      const soon = items.filter((x) => x.kind === "asg" && x.date > today && !x.done).sort((p, q) => (p.date > q.date ? 1 : -1));
+      const owe = items.filter((x) => x.due < today && !x.done && (x.kind === "asg" || x.due >= addDays(today, -21))).sort((p, q) => (q.due > p.due ? 1 : -1));
+      const fin = items.filter((x) => x.done && x.due >= addDays(today, -7)).sort((p, q) => (q.date > p.date ? 1 : -1));
+      const sec = (t, sub, arr, cls2, empty) => `<div class="td-sec ${cls2 || ""}"><h2>${t}${arr.length ? ` <span class="td-n">${arr.length}</span>` : ""}</h2>${sub ? `<p class="muted td-sub">${sub}</p>` : ""}${arr.length ? `<div class="td-list">${arr.map(card).join("")}</div>` : empty ? `<div class="card td-empty">${empty}</div>` : ""}</div>`;
+      box.innerHTML = sec("📋 Cần làm hôm nay", `Hôm nay ${dayLbl(today)}`, now, "", "🎉 Hôm nay em không còn bài nào. Vào Phòng thi ảo luyện thêm để gom sao nhé!")
+        + (soon.length ? sec("🗓️ Sắp tới", "", soon, "soon") : "")
+        + (owe.length ? sec("⏰ Bài còn nợ", "Những bài đã quá hạn mà em chưa làm – làm bù sớm nhé!", owe, "owe") : "")
+        + (fin.length ? `<details class="td-sec fin"><summary><h2>✅ Đã hoàn thành <span class="td-n">${fin.length}</span></h2></summary><div class="td-list">${fin.map(card).join("")}</div></details>` : "");
+      bind();
+    };
+    const card = (x) => {
+      const late = !x.done && x.due < today;
+      const shot = x.kind === "asg" ? `<button class="td-shot ${x.sub && x.sub.img ? "has" : ""}" data-sub="${esc(x.key)}" title="${x.done ? "Xem / sửa bài nộp" : "Chụp ảnh bài làm để nộp"}">${x.sub && x.sub.img ? "🖼️" : "📷"}</button>` : `<span class="td-shot lt">📘</span>`;
+      const go = x.kind === "asg" ? (linkOk(x.link) ? `<a class="td-go" href="${esc(x.link)}" target="_blank" rel="noopener" data-start="${esc(x.key)}">Bắt đầu</a>` : "") : "";
+      const act = x.kind === "asg"
+        ? (x.done ? `<button class="td-done on" data-sub="${esc(x.key)}">✓ Đã nộp</button>` : `<button class="td-done" data-sub="${esc(x.key)}">Nộp bài</button>`)
+        : `<button class="td-done ${x.done ? "on" : ""}" data-lt="${esc(x.key)}" data-course="${esc(x.course)}">${x.done ? "✓ Đã làm" : "Đánh dấu xong"}</button>`;
+      return `<div class="td-card ${x.done ? "done" : ""} ${late ? "late" : ""}">${shot}
+        <div class="td-main"><h3>${dayLbl(x.date)}</h3>
+          ${x.kind === "asg" && linkOk(x.link) ? `<a class="td-link" href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.title || x.link)}</a>` : `<b class="td-title">${esc(x.title)}</b>`}
+          ${x.text ? `<p>${esc(x.text)}</p>` : ""}
+          <small>${late ? `<span class="td-late">Quá hạn ${dayLbl(x.due)}</span>` : `Hạn: ${dayLbl(x.due)}`} · ${x.kind === "asg" ? "Thầy cô giao" : "Lộ trình"}${cls ? " · " + esc(cls.name) : ""}${x.sub ? ` · nộp ${esc(fmtAt(x.sub.at))}` : ""}</small></div>
+        <div class="td-act">${go}${act}</div></div>`;
+    };
+    const bind = () => {
+      box.querySelectorAll("[data-lt]").forEach((b) => (b.onclick = () => { const on = !b.classList.contains("on"); tickCurriculum(b.dataset.course, b.dataset.lt, on); if (on) ding(true); setTimeout(draw, on ? 250 : 0); }));
+      box.querySelectorAll("[data-sub]").forEach((b) => (b.onclick = () => submitModal(asg.find((a) => a.id === b.dataset.sub), subs[b.dataset.sub], (sub) => { if (sub) subs[sub.aid] = sub; else delete subs[b.dataset.sub]; draw(); })));
+    };
+    draw();
+  }
+
+  function submitModal(a, sub, done) {
+    if (!a) return;
+    let img = "", keep = !!(sub && sub.img);
+    const m = modal(`<h2 style="margin-top:0">${sub ? "Bài em đã nộp" : "Nộp bài"}</h2>
+      <p class="muted" style="margin:-4px 0 12px">${esc(a.title || "Bài tập")} · ${dayLbl(a.date)}</p>
+      ${linkOk(a.link) ? `<p><a class="btn" href="${esc(a.link)}" target="_blank" rel="noopener">↗ Mở bài tập</a></p>` : ""}
+      <label class="td-photo" id="tdPhoto">${keep ? `<span class="muted">Đang tải ảnh đã nộp…</span>` : `<span class="ic">📷</span><b>Chụp / chọn ảnh bài làm</b><small>Không bắt buộc – bài làm trên web thì bấm nộp luôn</small>`}<input type="file" accept="image/*" capture="environment" id="tdFile" hidden></label>
+      <label class="field" style="margin-top:12px">Ghi chú cho thầy cô (không bắt buộc)<input id="tdNote" maxlength="300" value="${esc(sub ? sub.note : "")}" placeholder="VD: Em làm xong phần 1 và 2"></label>
+      <div class="btn-row"><button class="btn primary" id="tdGo">${sub ? "Nộp lại" : "✓ Nộp bài"}</button>${sub ? `<button class="btn danger" id="tdUn">Huỷ nộp</button>` : ""}</div><div class="auth-msg" id="tdMsg"></div>`);
+    const ph = $("tdPhoto");
+    const showImg = (src) => { ph.classList.add("has"); ph.innerHTML = `<img src="${src}" alt="Ảnh bài làm"><small>Bấm để chọn ảnh khác</small><input type="file" accept="image/*" capture="environment" id="tdFile" hidden>`; bindFile(); };
+    const bindFile = () => ($("tdFile").onchange = async (e) => { const f = e.target.files[0]; if (!f) return; ph.querySelector("small") && (ph.querySelector("small").textContent = "Đang nén ảnh…"); try { img = (await compress(f)) || ""; } catch (err) { img = ""; } if (img) { keep = false; showImg(img); } else { const el = $("tdMsg"); el.className = "auth-msg err"; el.textContent = "Không đọc được ảnh này."; } });
+    bindFile();
+    if (keep) K().api("submissionImg", { sid: sub.id }).then((j) => { if ($("tdPhoto") && j.img) showImg(j.img); }).catch(() => {});
+    $("tdGo").onclick = async () => {
+      const b = $("tdGo"); b.disabled = true; b.textContent = "Đang nộp…";
+      try { const j = await K().api("submit", { aid: a.id, img, keepImg: keep, note: $("tdNote").value }); close(); ding(true); toast(`<span class="big">✅</span><div><b>Đã nộp bài!</b><small>${esc(a.title || "Bài tập")}</small></div>`, true); done(j.submission); }
+      catch (e) { b.disabled = false; b.textContent = sub ? "Nộp lại" : "✓ Nộp bài"; const el = $("tdMsg"); el.className = "auth-msg err"; el.textContent = srvMsg(e); }
+    };
+    if ($("tdUn")) $("tdUn").onclick = async () => { if (!confirm("Huỷ bài đã nộp?")) return; try { await K().api("unsubmit", { aid: a.id }); close(); done(null); } catch (e) { const el = $("tdMsg"); el.className = "auth-msg err"; el.textContent = srvMsg(e); } };
+  }
+
+  /* Giáo viên: giao bài theo ngày, xem ai đã nộp */
+  function nextClassDay(cl, from) {
+    const d = dOf(from); for (let i = 1; i <= 7; i++) { d.setDate(d.getDate() + 1); if ((cl.days || []).includes(String(d.getDay()))) return K().isoDay(d); }
+    return addDays(from, 2);
+  }
+  async function assign(box, cl, sts) {
+    const today = K().isoDay(new Date());
+    box.innerHTML = `<form class="card" id="aForm"><h3>Giao bài mới</h3>
+        <div class="grid g2"><label class="field">Tên bài<input id="aTitle" maxlength="120" placeholder="VD: Ôn từ vựng Unit 4"></label><label class="field">Link bài tập (dán link artifact, Quizlet, Google Form…)<input id="aLink" type="url" placeholder="https://…"></label></div>
+        <div class="grid g3" style="margin-top:12px"><label class="field">Ngày giao<input id="aDate" type="date" value="${today}"></label><label class="field">Hạn nộp<input id="aDue" type="date" value="${nextClassDay(cl, today)}"></label><label class="field">Ghi chú cho học sinh<input id="aNote" maxlength="500" placeholder="VD: Làm phần 1–3, chụp ảnh nộp"></label></div>
+        <div class="btn-row"><button class="btn primary" id="aGo">📋 Giao cho cả lớp</button></div><div class="auth-msg" id="aMsg"></div></form>
+      <div id="aList"><div class="card empty">Đang tải bài đã giao…</div></div>`;
+    $("aDate").onchange = () => { $("aDue").value = nextClassDay(cl, $("aDate").value || today); };
+    let asg = [], subs = [];
+    const draw = () => {
+      const list = asg.slice().sort((p, q) => (q.date > p.date ? 1 : q.date < p.date ? -1 : q.at > p.at ? 1 : -1));
+      $("aList").innerHTML = list.length ? `<h2>Bài đã giao</h2>${list.map((a) => {
+        const sb = subs.filter((x) => x.aid === a.id), n = sb.length, late = a.due < today;
+        return `<div class="card as-card"><div class="as-head"><div class="as-date"><b>${dayLbl(a.date)}</b><small>Hạn ${dayLbl(a.due)}</small></div>
+          <div class="as-main">${linkOk(a.link) ? `<a href="${esc(a.link)}" target="_blank" rel="noopener"><b>${esc(a.title || a.link)}</b></a>` : `<b>${esc(a.title)}</b>`}${a.note ? `<p class="muted">${esc(a.note)}</p>` : ""}
+            <div class="progress sm ${late && n < sts.length ? "low" : ""}"><i style="width:${sts.length ? (n / sts.length) * 100 : 0}%"></i></div><small>${n}/${sts.length} em đã nộp${late && n < sts.length ? ` · ${sts.length - n} em còn nợ` : ""}</small></div>
+          <div class="as-act"><button class="btn sm" data-open="${esc(a.id)}">Xem</button><button class="btn sm danger" data-adel="${esc(a.id)}">Xoá</button></div></div><div class="as-body" id="ab-${esc(a.id)}" hidden></div></div>`; }).join("")}` : `<div class="card empty">Chưa giao bài nào. Bài giao ở đây sẽ hiện trong mục “Cần làm” của học sinh theo đúng ngày.</div>`;
+      $("aList").querySelectorAll("[data-open]").forEach((b) => (b.onclick = () => { const el = $("ab-" + b.dataset.open); el.hidden = !el.hidden; if (!el.hidden) detail(el, b.dataset.open); }));
+      $("aList").querySelectorAll("[data-adel]").forEach((b) => (b.onclick = async () => { if (!confirm("Xoá bài tập này? Bài nộp của học sinh cũng bị xoá.")) return; b.disabled = true; try { await K().api("deleteAssignment", { aid: b.dataset.adel }); asg = asg.filter((x) => x.id !== b.dataset.adel); draw(); } catch (e) { b.disabled = false; alert(srvMsg(e)); } }));
+    };
+    const detail = (el, aid) => {
+      const sb = {}; subs.filter((x) => x.aid === aid).forEach((x) => (sb[x.code] = x));
+      const yes = sts.filter((x) => sb[x.code]), no = sts.filter((x) => !sb[x.code]);
+      el.innerHTML = `<div class="grid g2"><div><h4>✅ Đã nộp (${yes.length})</h4>${yes.map((x) => `<div class="as-st"><span class="dj-av sm">${monster(x.avatar, x.code)}</span><div><b>${esc(x.name)}</b><small>${esc(fmtAt(sb[x.code].at))}${sb[x.code].note ? " · " + esc(sb[x.code].note) : ""}</small></div>${sb[x.code].img ? `<button class="btn sm" data-img="${esc(sb[x.code].id)}" data-n="${esc(x.name)}">🖼️ Xem ảnh</button>` : ""}</div>`).join("") || `<p class="muted">Chưa em nào nộp.</p>`}</div>
+        <div><h4>⏳ Chưa nộp (${no.length})</h4><div class="as-chips">${no.map((x) => `<span class="as-chip"><span class="dj-av sm">${monster(x.avatar, x.code)}</span>${esc(x.name.split(" ").slice(-2).join(" "))}</span>`).join("") || `<p class="muted">Cả lớp đã nộp 🎉</p>`}</div></div></div>`;
+      el.querySelectorAll("[data-img]").forEach((b) => (b.onclick = async () => { b.disabled = true; try { const j = await K().api("submissionImg", { sid: b.dataset.img }); modal(`<h2 style="margin-top:0">${esc(b.dataset.n)}</h2>${j.img ? `<img src="${j.img}" alt="Bài làm" style="max-width:100%;border-radius:14px">` : `<p class="muted">Không có ảnh.</p>`}`, "wide"); } catch (e) { alert(srvMsg(e)); } b.disabled = false; }));
+    };
+    try { const j = await K().api("assignments", { id: cl.id }); asg = j.assignments || []; subs = j.submissions || []; draw(); }
+    catch (e) { $("aList").innerHTML = `<div class="card empty">${esc(srvMsg(e))}</div>`; }
+    $("aForm").onsubmit = async (e) => {
+      e.preventDefault(); const m = $("aMsg"), b = $("aGo");
+      b.disabled = true; b.textContent = "Đang giao…";
+      try { const j = await K().api("createAssignment", { id: cl.id, title: $("aTitle").value, link: $("aLink").value.trim(), date: $("aDate").value, due: $("aDue").value, note: $("aNote").value }); asg.push(j.assignment); draw(); $("aTitle").value = ""; $("aLink").value = ""; $("aNote").value = ""; m.className = "auth-msg ok"; m.textContent = "Đã giao ✓ – học sinh thấy bài trong mục “Cần làm”."; }
+      catch (err) { m.className = "auth-msg err"; m.textContent = srvMsg(err); }
+      b.disabled = false; b.textContent = "📋 Giao cho cả lớp";
+    };
+  }
+
+  window.IVY_DOJO = { monster, pickAvatar, classroom, story, tools, report, studentHead, studentPoints, freshPoints, total, stopTools, srvMsg, todo, assign };
 })();

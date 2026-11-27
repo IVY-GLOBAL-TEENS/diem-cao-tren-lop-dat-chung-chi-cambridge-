@@ -200,14 +200,15 @@
     const last14 = []; for (let i = 13; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); last14.push(d); }
     const dset = new Set(r.days);
     const syncAt = K.ls.get("ivy-sync-at", null);
-    const D = window.IVY_DOJO, meTab = K.ls.get("dj-me-tab", "diem");
-    const meTabs = [["diem", "⭐ Điểm của em"], ["bang-tin", "📰 Bảng tin lớp"], ["hoc-tap", "📚 Học tập"]];
+    const D = window.IVY_DOJO, meTab = K.ls.get("dj-me-tab2", "hoc-tap");
+    const meTabs = [["hoc-tap", "📚 Học tập"], ["diem", "⭐ Điểm của em"], ["bang-tin", "📰 Bảng tin lớp"]];
     return {
       html: `${D.studentHead(s, cls, `<span class="dj-chip">🔥 ${r.streak} ngày</span><span class="dj-chip">⭐ ${r.stars} sao</span>`)}
         <div class="tabs dj-metabs">${meTabs.map(([k, l]) => `<button class="tab ${k === meTab ? "on" : ""}" data-metab="${k}">${l}</button>`).join("")}</div>
         <div id="mePane-diem" class="me-pane" ${meTab === "diem" ? "" : "hidden"}></div>
         <div id="mePane-bang-tin" class="me-pane" ${meTab === "bang-tin" ? "" : "hidden"}></div>
         <div id="mePane-hoc-tap" class="me-pane" ${meTab === "hoc-tap" ? "" : "hidden"}>
+        <div id="meTodo"></div><div style="height:22px"></div>
         <div class="class-hero me-hero" style="background:linear-gradient(120deg,var(--blue-dd),${L.color} 75%)">
           <span class="eyebrow">${cls ? "Lớp " + esc(cls.name) + (c ? " · " + esc(c.name) + " " + esc(c.cefr) : "") : "Học sinh"}</span>
           <h1>Xin chào, ${esc(s.name)}! 👋</h1><p>Mã của em: <b>${esc(s.code)}</b>${cls && cls.days && cls.days.length ? " · Lịch học: " + esc(dowName(cls.days)) : ""}</p>
@@ -220,7 +221,6 @@
           <div class="card stat"><b>🏆 ${r.ket.tests}</b><span>đề KET${r.ket.avg != null ? " · đúng " + r.ket.avg + "%" : ""}</span></div>
         </div>
         <div id="meBonus">${meBonus(r.bonusList)}</div>
-        <h2>Hôm nay</h2>${hwCard}
         <h2>14 ngày gần đây</h2>
         <div class="card"><div class="daystrip">${last14.map((d) => `<div class="${dset.has(K.isoDay(d)) ? "on" : ""}" title="${app.fmt(d)}"><i>${dset.has(K.isoDay(d)) ? "🔥" : ""}</i><small>${["CN", "T2", "T3", "T4", "T5", "T6", "T7"][d.getDay()]}<br>${d.getDate()}</small></div>`).join("")}</div>
           <p class="muted" style="font-size:13px;margin:10px 0 0">Mỗi ngày em làm bài (tick bài tập, luyện trong Phòng thi ảo, làm đề KET) là một ngọn lửa. Giữ chuỗi thật dài nhé!</p></div>
@@ -232,13 +232,14 @@
         bindPw(); bindLogout();
         let storyLoaded = false;
         const showTab = (k) => {
-          K.ls.set("dj-me-tab", k);
+          K.ls.set("dj-me-tab2", k);
           document.querySelectorAll("[data-metab]").forEach((b) => b.classList.toggle("on", b.dataset.metab === k));
           document.querySelectorAll(".me-pane").forEach((p) => (p.hidden = p.id !== "mePane-" + k));
           if (k === "bang-tin" && !storyLoaded) { storyLoaded = true; D.story($("mePane-bang-tin"), cls, false); }
         };
         document.querySelectorAll("[data-metab]").forEach((b) => b.addEventListener("click", () => showTab(b.dataset.metab)));
         D.studentPoints($("mePane-diem"), s);
+        D.todo($("meTodo"), s);
         showTab(meTab);
         $("meAv").addEventListener("click", () => D.pickAvatar(K.session().avatar, s.code, () => A().route()));
         if (!s.avatar && !K.ls.get("dj-av-asked", false)) { K.ls.set("dj-av-asked", true); setTimeout(() => D.pickAvatar("", s.code, () => A().route()), 400); }
@@ -347,11 +348,11 @@
     const warn = sts.filter((x) => x.a.why.length);
     const head = `<div class="class-hero" style="background:linear-gradient(120deg,var(--blue-dd),${L.color} 75%)"><span class="eyebrow">${esc(c ? c.name + " · " + c.cefr : cl.course)}${s.role === "ql" && cl.teacher_name ? " · GV " + esc(cl.teacher_name) : ""}</span><h1>Lớp ${esc(cl.name)}</h1>
         <p>${sts.length} học sinh · Khai giảng ${esc(dmy(cl.start))} · Lịch học ${esc(dowName(cl.days) || "chưa đặt")}</p><img src="assets/img/${L.panda}" alt=""></div>
-      <div class="tabs">${[["lop-hoc", "🏫 Lớp học"], ["bang-tin", "📰 Bảng tin"], ["cong-cu", "🧰 Công cụ"], ["bao-cao", "📊 Báo cáo"], ["tong-quan", "📈 Tiến độ học"], ["hoc-sinh", "🔑 Học sinh & mã"], ["cai-dat", "⚙️ Cài đặt"]].map(([k, l]) => `<a class="tab ${k === tab ? "on" : ""}" href="#/lop-cua-toi/${esc(cl.id)}?tab=${k}">${l}</a>`).join("")}<span class="sp"></span><button class="btn" id="cReload">↻ Làm mới</button></div>`;
+      <div class="tabs">${[["lop-hoc", "🏫 Lớp học"], ["giao-bai", "📋 Giao bài"], ["bang-tin", "📰 Bảng tin"], ["cong-cu", "🧰 Công cụ"], ["bao-cao", "📊 Báo cáo"], ["tong-quan", "📈 Tiến độ học"], ["hoc-sinh", "🔑 Học sinh & mã"], ["cai-dat", "⚙️ Cài đặt"]].map(([k, l]) => `<a class="tab ${k === tab ? "on" : ""}" href="#/lop-cua-toi/${esc(cl.id)}?tab=${k}">${l}</a>`).join("")}<span class="sp"></span><button class="btn" id="cReload">↻ Làm mới</button></div>`;
     let body = "";
-    const DJ = { "lop-hoc": "classroom", "bang-tin": "story", "cong-cu": "tools", "bao-cao": "report" };
+    const DJ = { "lop-hoc": "classroom", "giao-bai": "assign", "bang-tin": "story", "cong-cu": "tools", "bao-cao": "report" };
     if (DJ[tab]) {
-      body = tab !== "bang-tin" && !sts.length ? `<div class="card empty">Lớp chưa có học sinh. Vào tab <a href="#/lop-cua-toi/${esc(cl.id)}?tab=hoc-sinh">Học sinh & mã</a> để thêm.</div>` : `<div id="djBox"></div>`;
+      body = tab !== "bang-tin" && tab !== "giao-bai" && !sts.length ? `<div class="card empty">Lớp chưa có học sinh. Vào tab <a href="#/lop-cua-toi/${esc(cl.id)}?tab=hoc-sinh">Học sinh & mã</a> để thêm.</div>` : `<div id="djBox"></div>`;
     } else if (tab === "hoc-sinh") {
       body = `<div class="grid g2">
         <form class="card" id="fAdd"><h3>Thêm học sinh</h3><p class="muted" style="font-size:13.5px;margin:4px 0 10px">Mỗi dòng một họ tên. Website cấp cho mỗi em một mã riêng; em dùng mã để kích hoạt và tự đặt mật khẩu.</p>
@@ -413,6 +414,7 @@
       const D = window.IVY_DOJO, pts = d.points || [];
       if (tab === "lop-hoc") D.classroom($("djBox"), cl, sts, pts, refresh);
       else if (tab === "bang-tin") D.story($("djBox"), cl, true);
+      else if (tab === "giao-bai") D.assign($("djBox"), cl, sts);
       else if (tab === "cong-cu") D.tools($("djBox"), cl, sts);
       else D.report($("djBox"), cl, sts, pts);
     } else if (tab === "hoc-sinh") {
