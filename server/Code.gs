@@ -18,6 +18,8 @@ const SHEETS = {
   bonus: ['ThuongSao', ['id', 'ma', 'ho_ten', 'lop', 'so_sao', 'ly_do', 'nguoi_thuong', 'luc']],
   pts: ['Diem', ['id', 'ma', 'ho_ten', 'lop', 'ky_nang', 'diem', 'nguoi_cham', 'luc']],
   story: ['BangTin', ['id', 'lop', 'nguoi_dang', 'ten_nguoi_dang', 'noi_dung', 'anh', 'luc']],
+  asg: ['BaiTap', ['id', 'lop', 'tieu_de', 'link', 'ngay', 'han', 'ghi_chu', 'nguoi_giao', 'luc']],
+  sub: ['NopBai', ['id', 'bai', 'ma', 'ho_ten', 'lop', 'anh', 'ghi_chu', 'luc']],
 };
 const BONUS_MAX = 10; // tối đa sao cho 1 lần thưởng / 1 em
 const COURSES = { fd: 'FD', bu: 'BU', ko: 'KO', bo: 'BO', pi: 'PI' };
@@ -382,6 +384,72 @@ const ACTIONS = {
     return {};
   },
 
+  /** Bài tập giao theo ngày. Học sinh: lớp của em + bài em đã nộp. Giáo viên: một lớp + bài nộp của cả lớp. */
+  assignments(req) {
+    const a = auth_(req);
+    const id = a.vai_tro === 'hs' ? a.lop : String(req.id || '');
+    if (a.vai_tro !== 'hs') ownClass_(a, id);
+    const list = rows_('asg').filter((x) => x.lop === id).map(asgOut_);
+    const subs = rows_('sub').filter((x) => x.lop === id && (a.vai_tro !== 'hs' || x.ma === a.ma)).map(subOut_);
+    return { assignments: list, submissions: subs };
+  },
+
+  createAssignment(req) {
+    const a = auth_(req, ['gv', 'ql']);
+    const c = ownClass_(a, req.id);
+    const title = clean_(req.title, 120);
+    const link = String(req.link || '').trim().slice(0, 500);
+    if (link && !/^https?:\/\/[^\s<>"]+$/.test(link)) fail_('Link phải bắt đầu bằng http:// hoặc https://');
+    if (!title && !link) fail_('Nhập tên bài hoặc link bài tập.');
+    const day = date_(req.date);
+    if (!day) fail_('Chọn ngày.');
+    const due = date_(req.due) || day;
+    const o = { id: 'A' + Date.now().toString(36).toUpperCase() + rand_(3), lop: c.ma_lop, tieu_de: title, link: link, ngay: day, han: due < day ? day : due, ghi_chu: clean_(req.note, 500), nguoi_giao: a.ma, luc: now_() };
+    writeRow_('asg', o);
+    return { assignment: asgOut_(o) };
+  },
+
+  deleteAssignment(req) {
+    const a = auth_(req, ['gv', 'ql']);
+    const x = rows_('asg').find((r) => r.id === String(req.aid || ''));
+    if (!x) fail_('Không tìm thấy bài tập.');
+    if (a.vai_tro !== 'ql') ownClass_(a, x.lop);
+    const sh = sheet_('sub');
+    rows_('sub').filter((r) => r.bai === x.id).sort((p, q) => q._row - p._row).forEach((r) => sh.deleteRow(r._row));
+    sheet_('asg').deleteRow(x._row);
+    return {};
+  },
+
+  /** Học sinh nộp bài (đánh dấu xong, kèm ảnh bài làm nếu có). Nộp lại sẽ thay bài cũ. */
+  submit(req) {
+    const a = auth_(req, ['hs']);
+    const x = rows_('asg').find((r) => r.id === String(req.aid || ''));
+    if (!x || x.lop !== a.lop) fail_('Không tìm thấy bài tập trong lớp của em.');
+    const img = String(req.img || '');
+    if (img && (!/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+\/=]+$/.test(img) || img.length > 48000)) fail_('Ảnh không hợp lệ hoặc quá lớn.');
+    const old = rows_('sub').find((r) => r.bai === x.id && r.ma === a.ma);
+    const o = Object.assign(old || { id: 'N' + Date.now().toString(36).toUpperCase() + rand_(3) }, { bai: x.id, ma: a.ma, ho_ten: a.ho_ten, lop: a.lop, anh: img || (old && req.keepImg ? old.anh : ''), ghi_chu: clean_(req.note, 300), luc: now_() });
+    writeRow_('sub', o);
+    return { submission: subOut_(o) };
+  },
+
+  unsubmit(req) {
+    const a = auth_(req, ['hs']);
+    const old = rows_('sub').find((r) => r.bai === String(req.aid || '') && r.ma === a.ma);
+    if (old) sheet_('sub').deleteRow(old._row);
+    return {};
+  },
+
+  /** Xem ảnh bài nộp. */
+  submissionImg(req) {
+    const a = auth_(req);
+    const x = rows_('sub').find((r) => r.id === String(req.sid || ''));
+    if (!x) fail_('Không tìm thấy bài nộp.');
+    if (a.vai_tro === 'hs') { if (x.ma !== a.ma) fail_('Không có quyền.'); }
+    else ownClass_(a, x.lop);
+    return { img: x.anh || '' };
+  },
+
   /** Quản lý tạo mã giáo viên. */
   createTeacher(req) {
     const a = auth_(req, ['ql']);
@@ -462,6 +530,8 @@ function bonusOut_(b, by) {
   return { id: b.id, code: b.ma, n: +b.so_sao || 0, why: b.ly_do || '', by: by || '', at: str_(b.luc) };
 }
 
+function asgOut_(x) { return { id: x.id, title: x.tieu_de, link: x.link, date: str_(x.ngay), due: str_(x.han) || str_(x.ngay), note: x.ghi_chu || '', at: str_(x.luc) }; }
+function subOut_(x) { return { id: x.id, aid: x.bai, code: x.ma, name: x.ho_ten, img: !!x.anh, note: x.ghi_chu || '', at: str_(x.luc) }; }
 function ptOut_(x) { return { id: x.id, code: x.ma, skill: x.ky_nang, v: +x.diem || 0, at: str_(x.luc) }; }
 
 function cls_(c) {
