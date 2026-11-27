@@ -443,14 +443,14 @@
     try { const j = await K().api("assignments"); asg = j.assignments || []; (j.submissions || []).forEach((x) => (subs[x.aid] = x)); } catch (e) {}
     const today = K().isoDay(new Date());
     const draw = () => {
-      const items = asg.map((a) => ({ kind: "asg", a, key: a.id, date: a.date, due: a.due || a.date, title: a.title || "Bài tập", text: a.note, link: a.link, done: !!subs[a.id], sub: subs[a.id] }));
+      const items = asg.map((a) => ({ kind: "asg", a, key: a.id, date: a.date, due: a.due || a.date, title: a.title || "Bài tập", text: a.note, link: a.link, done: !!subs[a.id], sub: subs[a.id] })).concat(cls && cls.auto ? curriculumItems(cls) : []);
       const now = items.filter((x) => x.date <= today && x.due >= today && !x.done).sort((p, q) => (q.date > p.date ? 1 : q.date < p.date ? -1 : 0));
       const soon = items.filter((x) => x.kind === "asg" && x.date > today && !x.done).sort((p, q) => (p.date > q.date ? 1 : -1));
-      const owe = items.filter((x) => x.due < today && !x.done).sort((p, q) => (q.due > p.due ? 1 : -1));
-      if (onCount) onCount({ total: items.filter((x) => x.date <= today).length, done: items.filter((x) => x.done).length, owe: owe.length });
-      const fin = items.filter((x) => x.done).sort((p, q) => (q.date > p.date ? 1 : -1));
+      const owe = items.filter((x) => x.due < today && !x.done && (x.kind === "asg" || (x.due >= addDays(today, -21) && x.due >= ((cls && cls.auto_from) || "")))).sort((p, q) => (q.due > p.due ? 1 : -1));
+      if (onCount) onCount({ total: items.filter((x) => x.kind === "asg" && x.date <= today).length, done: items.filter((x) => x.kind === "asg" && x.done).length, owe: owe.filter((x) => x.kind === "asg").length });
+      const fin = items.filter((x) => x.done && (x.kind === "asg" || x.due >= addDays(today, -7))).sort((p, q) => (q.date > p.date ? 1 : -1));
       const sec = (t, sub, arr, cls2, empty) => `<div class="td-sec ${cls2 || ""}"><h2>${t}${arr.length ? ` <span class="td-n">${arr.length}</span>` : ""}</h2>${sub ? `<p class="muted td-sub">${sub}</p>` : ""}${arr.length ? `<div class="td-list">${arr.map(card).join("")}</div>` : empty ? `<div class="card td-empty">${empty}</div>` : ""}</div>`;
-      box.innerHTML = sec("📋 Cần làm hôm nay", `Hôm nay ${dayLbl(today)} · bài thầy cô giao`, now, "", asg.length ? "🎉 Hôm nay em không còn bài nào. Vào Phòng thi ảo luyện thêm để gom sao nhé!" : "Thầy cô chưa giao bài nào. Khi có bài mới, bài sẽ hiện ở đây theo ngày.")
+      box.innerHTML = sec("📋 Cần làm hôm nay", `Hôm nay ${dayLbl(today)} · ${cls && cls.auto ? "bài thầy cô giao + bài về nhà theo lộ trình" : "bài thầy cô giao"}`, now, "", asg.length || (cls && cls.auto) ? "🎉 Hôm nay em không còn bài nào. Vào Phòng thi ảo luyện thêm để gom sao nhé!" : "Thầy cô chưa giao bài nào. Khi có bài mới, bài sẽ hiện ở đây theo ngày.")
         + (soon.length ? sec("🗓️ Sắp tới", "", soon, "soon") : "")
         + (owe.length ? sec("⏰ Bài còn nợ", "Những bài đã quá hạn mà em chưa làm – làm bù sớm nhé!", owe, "owe") : "")
         + (fin.length ? `<details class="td-sec fin"><summary><h2>✅ Đã hoàn thành <span class="td-n">${fin.length}</span></h2></summary><div class="td-list">${fin.map(card).join("")}</div></details>` : "");
@@ -506,12 +506,28 @@
   }
   async function assign(box, cl, sts) {
     const today = K().isoDay(new Date());
-    box.innerHTML = `<form class="card" id="aForm"><h3>Giao bài mới</h3>
+    const app = window.IVY_APP, course = app && app.C[cl.course];
+    box.innerHTML = `<div class="card as-mode"><h3>Cách giao bài cho lớp</h3>
+        <label class="as-opt"><input type="radio" name="aMode" value="0" ${cl.auto ? "" : "checked"}><span><b>✋ Giáo viên tự giao</b><small>Học sinh chỉ thấy bài thầy cô giao ở mục “Cần làm”.</small></span></label>
+        <label class="as-opt"><input type="radio" name="aMode" value="1" ${cl.auto ? "checked" : ""} ${course && course.status === "ready" ? "" : "disabled"}><span><b>⚙️ Tự động theo lộ trình</b><small>${course && course.status === "ready" ? `Bài về nhà từng buổi của ${esc(course.name)} tự hiện theo lịch lớp (cần đặt ngày khai giảng + lịch học ở tab Cài đặt). Thầy cô vẫn giao thêm được.` : "Khoá này chưa có lộ trình bài về nhà."}</small></span></label>
+        <div class="auth-msg" id="aModeMsg"></div></div>
+      <form class="card" id="aForm" style="margin-top:14px"><div class="as-fh"><h3>Giao bài mới</h3><span class="sp"></span><button type="button" class="btn" id="aPick">📚 Chọn từ kho bài tập ${esc(course ? course.name : "")}</button></div>
         <div class="grid g2"><label class="field">Tên bài<input id="aTitle" maxlength="120" placeholder="VD: Ôn từ vựng Unit 4"></label><label class="field">Link bài tập (dán link artifact, Quizlet, Google Form…)<input id="aLink" type="url" placeholder="https://…"></label></div>
         <div class="grid g3" style="margin-top:12px"><label class="field">Ngày giao<input id="aDate" type="date" value="${today}"></label><label class="field">Hạn nộp<input id="aDue" type="date" value="${nextClassDay(cl, today)}"></label><label class="field">Ghi chú cho học sinh<input id="aNote" maxlength="500" placeholder="VD: Làm phần 1–3, chụp ảnh nộp"></label></div>
         <div class="btn-row"><button class="btn primary" id="aGo">📋 Giao cho cả lớp</button></div><div class="auth-msg" id="aMsg"></div></form>
       <div id="aList"><div class="card empty">Đang tải bài đã giao…</div></div>`;
     $("aDate").onchange = () => { $("aDue").value = nextClassDay(cl, $("aDate").value || today); };
+    box.querySelectorAll('input[name="aMode"]').forEach((r) => (r.onchange = async () => {
+      const m = $("aModeMsg"), on = r.value === "1";
+      m.className = "auth-msg"; m.textContent = "Đang lưu…";
+      try { await K().api("updateClass", { id: cl.id, auto: on }); cl.auto = on; m.className = "auth-msg ok"; m.textContent = on ? "Đã bật giao bài tự động ✓" : "Đã chuyển sang giáo viên tự giao ✓"; }
+      catch (e) { m.className = "auth-msg err"; m.textContent = srvMsg(e); box.querySelector(`input[name="aMode"][value="${cl.auto ? 1 : 0}"]`).checked = true; }
+    }));
+    $("aPick").onclick = () => pickFromBank(cl, (it) => {
+      $("aTitle").value = it.title || ""; $("aLink").value = it.link || ""; $("aNote").value = it.note || "";
+      if (it.date) { $("aDate").value = it.date; $("aDue").value = it.due || nextClassDay(cl, it.date); }
+      $("aTitle").focus(); const m = $("aMsg"); m.className = "auth-msg"; m.textContent = "Đã điền bài từ kho – kiểm tra ngày rồi bấm “Giao cho cả lớp”.";
+    });
     let asg = [], subs = [];
     const draw = () => {
       const list = asg.slice().sort((p, q) => (q.date > p.date ? 1 : q.date < p.date ? -1 : q.at > p.at ? 1 : -1));
@@ -540,6 +556,70 @@
       catch (err) { m.className = "auth-msg err"; m.textContent = srvMsg(err); }
       b.disabled = false; b.textContent = "📋 Giao cho cả lớp";
     };
+  }
+
+  /* Kho bài tập theo khoá: trạm Phòng thi ảo theo Unit, BTVN từng buổi, kho đề KET/PET */
+  let UNITCAT = null, KETCAT = null, PETCAT = null;
+  const siteBase = () => location.href.split("#")[0].replace(/[^/]*$/, "");
+  async function pickFromBank(cl, onPick) {
+    const app = window.IVY_APP, c = app.C[cl.course];
+    const tabs = [["unit", "🎯 Phòng thi ảo theo Unit"]];
+    if (c && c.sessions) tabs.push(["buoi", "📘 Bài về nhà theo buổi"]);
+    if (["bu", "ko"].includes(cl.course)) tabs.push(["ket", "📝 Kho đề KET"]);
+    if (cl.course === "bo") tabs.push(["pet", "📗 Kho đề PET"]);
+    let tab = tabs[0][0];
+    const m = modal(`<h2 style="margin-top:0">📚 Kho bài tập · ${esc(c ? c.name + " " + c.cefr : cl.course)}</h2>
+      <div class="dj-tabs pk-tabs">${tabs.map(([k, l]) => `<button data-pk="${k}" class="${k === tab ? "on" : ""}">${l}</button>`).join("")}</div>
+      <input class="pk-q" id="pkQ" placeholder="Tìm theo tên bài, chủ đề, từ khoá…"><div id="pkBody" class="pk-body">Đang tải…</div>`, "wide");
+    const base = siteBase();
+    const pick = (it) => { close(); onPick(it); };
+    const dates = c && c.sessions && cl.start && (cl.days || []).length ? app.schedule(c, { start: cl.start, days: cl.days }) : null;
+    const draw = async () => {
+      const q = ($("pkQ").value || "").toLowerCase().trim(), body = $("pkBody");
+      const hit = (t) => !q || t.toLowerCase().includes(q);
+      if (tab === "unit") {
+        UNITCAT = UNITCAT || (await fetch("phong-thi/catalog-units.json").then((r) => r.json()).catch(() => []));
+        const lv = UNITCAT.find((l) => l.id === (c && c.exam)) || null;
+        if (!lv) { body.innerHTML = `<p class="muted">Chưa có trạm luyện cho khoá này.</p>`; return; }
+        body.innerHTML = lv.units.map((u) => { const acts = u.acts.filter((a) => hit(u.name + " " + u.title + " " + u.topic + " " + a.title + " " + a.label)); if (!acts.length) return "";
+          return `<details class="pk-unit" ${q ? "open" : ""}><summary><b>${esc(u.name)} · ${esc(u.title)}</b><small>${esc(u.topic)} · ${u.acts.length} trạm</small></summary>
+            <button class="pk-item whole" data-u="${u.n}"><span>🗂️</span><b>Cả ${esc(u.name)}</b><small>Mở trang Unit, em làm lần lượt các trạm</small></button>
+            ${acts.map((a) => `<button class="pk-item" data-u="${u.n}" data-a="${esc(a.id)}"><span>🎯</span><b>${esc(a.title)}</b><small>${esc(a.label)}</small></button>`).join("")}</details>`; }).join("") || `<p class="muted">Không tìm thấy.</p>`;
+        body.querySelectorAll("[data-u]").forEach((b) => (b.onclick = () => {
+          const u = lv.units.find((x) => x.n === +b.dataset.u), a = b.dataset.a ? u.acts.find((x) => x.id === b.dataset.a) : null;
+          pick({ title: a ? `${u.name} · ${a.title}` : `${u.name} · ${u.title}`, link: `${base}phong-thi/?lv=${lv.id}&u=${u.n}${a ? "&act=" + encodeURIComponent(a.id) : ""}`, note: a ? `${a.label} – Phòng thi ảo, ${u.title}` : `Làm hết các trạm ${u.name} trong Phòng thi ảo (${u.topic})` });
+        }));
+      } else if (tab === "buoi") {
+        const today = K().isoDay(new Date());
+        const rows = c.sessions.map((ss, i) => ({ ss, i, d: dates ? K().isoDay(dates[i]) : null })).filter((r) => app.has(r.ss.after) || app.has(r.ss.before)).filter((r) => hit(`buổi ${r.ss.session_no} ${r.ss.focus} ${r.ss.after || ""} ${r.ss.before || ""}`));
+        const near = rows.findIndex((r) => r.d && r.d >= today);
+        body.innerHTML = rows.map((r, k) => `<div class="pk-sess ${k === near ? "near" : ""}" ${k === near ? 'id="pkNear"' : ""}><div class="pk-sh"><b>Buổi ${r.ss.session_no}</b>${r.d ? `<small>${dayLbl(r.d)}</small>` : ""}<span>${esc(r.ss.focus || "")}</span></div>
+            ${app.has(r.ss.after) ? `<button class="pk-item" data-s="${r.i}" data-k="after"><span>📝</span><b>Về nhà</b><small>${esc(r.ss.after)}</small></button>` : ""}
+            ${app.has(r.ss.before) ? `<button class="pk-item" data-s="${r.i}" data-k="before"><span>📖</span><b>Chuẩn bị</b><small>${esc(r.ss.before)}</small></button>` : ""}</div>`).join("") || `<p class="muted">Không tìm thấy.</p>`;
+        body.querySelectorAll("[data-s]").forEach((b) => (b.onclick = () => {
+          const i = +b.dataset.s, ss = c.sessions[i], k = b.dataset.k;
+          const d = dates ? (k === "after" ? K().isoDay(dates[i]) : i ? K().isoDay(dates[i - 1]) : null) : null;
+          const due = dates ? (k === "after" ? (dates[i + 1] ? K().isoDay(dates[i + 1]) : null) : K().isoDay(dates[i])) : null;
+          pick({ title: `${k === "after" ? "Bài về nhà" : "Chuẩn bị"} buổi ${ss.session_no}${ss.focus ? " · " + ss.focus : ""}`.slice(0, 120), link: "", note: ss[k], date: d && d >= today ? d : null, due: d && d >= today ? due : null });
+        }));
+        if (!q && $("pkNear")) $("pkNear").scrollIntoView({ block: "center" });
+      } else if (tab === "ket") {
+        KETCAT = KETCAT || (await fetch("phong-thi/ket/catalog.json").then((r) => r.json()).catch(() => []));
+        const P = [["", "Cả đề"], ["l", "Listening"], ["rw", "Reading & Writing"], ["s", "Speaking"]];
+        body.innerHTML = `<div class="pk-grid">${KETCAT.filter((t) => hit(`đề ${+t[1]}.${t[2]} ${t[3]}`)).map((t) => `<div class="pk-test"><b>Đề ${+t[1]}.${t[2]}</b><small>${esc(t[3])}</small><div>${P.map(([k, l]) => `<button class="btn sm" data-t="${esc(t[0])}" data-p="${k}">${l}</button>`).join("")}</div></div>`).join("") || `<p class="muted">Không tìm thấy.</p>`}</div>`;
+        body.querySelectorAll("[data-t]").forEach((b) => (b.onclick = () => { const t = KETCAT.find((x) => x[0] === b.dataset.t), p = b.dataset.p, pl = { l: "Listening", rw: "Reading & Writing", s: "Speaking" }[p];
+          pick({ title: `KET Đề ${+t[1]}.${t[2]} · ${t[3]}${pl ? " · " + pl : ""}`, link: `${base}phong-thi/ket/#${t[0]}${p ? "/" + p : ""}`, note: pl ? `Làm phần ${pl} của đề, nộp bài trên web` : "Làm cả đề KET trên web" }); }));
+      } else if (tab === "pet") {
+        PETCAT = PETCAT || (await fetch("phong-thi/pet/topics.json").then((r) => r.json()).catch(() => []));
+        const SK = [["reading", "Reading"], ["listening", "Listening"], ["writing", "Writing"], ["speaking", "Speaking"]];
+        body.innerHTML = `<div class="pk-grid">${PETCAT.filter((t) => hit(t.title + " " + t.vi)).map((t) => `<div class="pk-test"><b>${t.icon || ""} ${esc(t.title)}</b><small>${esc(t.vi)}</small><div>${SK.map(([k, l]) => `<button class="btn sm" data-pt="${esc(t.id)}" data-p="${k}">${l}</button>`).join("")}</div></div>`).join("")}</div>`;
+        body.querySelectorAll("[data-pt]").forEach((b) => (b.onclick = () => { const t = PETCAT.find((x) => x.id === b.dataset.pt), l = SK.find((x) => x[0] === b.dataset.p)[1];
+          pick({ title: `PET · ${t.title} · ${l}`, link: `${base}phong-thi/pet/#${t.id}?${b.dataset.p}`, note: `Làm phần ${l} chủ đề ${t.vi}` }); }));
+      }
+    };
+    m.querySelectorAll("[data-pk]").forEach((b) => (b.onclick = () => { tab = b.dataset.pk; m.querySelectorAll("[data-pk]").forEach((x) => x.classList.toggle("on", x === b)); draw(); }));
+    $("pkQ").oninput = () => draw();
+    draw();
   }
 
   window.IVY_DOJO = { monster, pickAvatar, classroom, story, tools, report, studentHead, studentPoints, freshPoints, total, stopTools, srvMsg, todo, assign };

@@ -13,7 +13,7 @@
 
 const SHEETS = {
   acc: ['TaiKhoan', ['ma', 'vai_tro', 'ho_ten', 'lop', 'nguoi_tao', 'salt', 'hash', 'kich_hoat', 'tao_luc', 'lan_cuoi', 'avatar']],
-  cls: ['Lop', ['ma_lop', 'ten_lop', 'khoa', 'gv', 'khai_giang', 'ngay_hoc', 'tao_luc']],
+  cls: ['Lop', ['ma_lop', 'ten_lop', 'khoa', 'gv', 'khai_giang', 'ngay_hoc', 'tao_luc', 'tu_dong']],
   prog: ['TienDo', ['ma', 'cap_nhat', 'bai_tap_xong', 'sao', 'xp', 'de_ket', 'ket_tb', 'chuoi_ngay', 'hoat_dong_cuoi', 'du_lieu']],
   bonus: ['ThuongSao', ['id', 'ma', 'ho_ten', 'lop', 'so_sao', 'ly_do', 'nguoi_thuong', 'luc']],
   pts: ['Diem', ['id', 'ma', 'ho_ten', 'lop', 'ky_nang', 'diem', 'nguoi_cham', 'luc']],
@@ -204,6 +204,7 @@ const ACTIONS = {
     if (req.name != null) { const n = clean_(req.name, 40); if (n) c.ten_lop = n; }
     if (req.start != null) c.khai_giang = date_(req.start);
     if (req.days != null) c.ngay_hoc = days_(req.days);
+    if (req.auto != null) c.tu_dong = req.auto ? (c.tu_dong || now_().slice(0, 10)) : '';
     if (a.vai_tro === 'ql' && req.teacher) { const t = findAcc_(req.teacher); if (t && t.vai_tro !== 'hs') c.gv = t.ma; }
     writeRow_('cls', c);
     return { cls: cls_(c) };
@@ -535,7 +536,7 @@ function subOut_(x) { return { id: x.id, aid: x.bai, code: x.ma, name: x.ho_ten,
 function ptOut_(x) { return { id: x.id, code: x.ma, skill: x.ky_nang, v: +x.diem || 0, at: str_(x.luc) }; }
 
 function cls_(c) {
-  return { id: c.ma_lop, name: c.ten_lop, course: c.khoa, teacher: c.gv, start: str_(c.khai_giang), days: String(c.ngay_hoc || '').split(',').filter(String) };
+  return { id: c.ma_lop, name: c.ten_lop, course: c.khoa, teacher: c.gv, start: str_(c.khai_giang), days: String(c.ngay_hoc || '').split(',').filter(String), auto: !!String(c.tu_dong || ''), auto_from: /^\d{4}-\d{2}-\d{2}$/.test(String(c.tu_dong || '')) ? String(c.tu_dong) : '' };
 }
 
 function ownClass_(a, id) {

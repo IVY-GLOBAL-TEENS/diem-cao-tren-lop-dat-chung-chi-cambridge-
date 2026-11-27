@@ -248,6 +248,7 @@
           D.studentPoints($("mePane-diem"), n);
           const tp = D.total(n.points); $("mePts").textContent = tp; $("mePts").classList.toggle("neg", tp < 0);
           D.freshPoints(n);
+          if (n.cls && (!cls || !!n.cls.auto !== !!cls.auto) && $("meTodo")) D.todo($("meTodo"), n, (c2) => { if (!$("meHwN")) return; $("meHwN").textContent = "📝 " + c2.done + "/" + c2.total; });
         });
         K.refreshMe(true).then((n) => {
           if (!n || !$("meBonus")) return;

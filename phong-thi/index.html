@@ -2391,7 +2391,9 @@ document.addEventListener('dragstart',e=>{const t=e.target.closest('[data-drag]'
 document.addEventListener('dragover',e=>{const b=e.target.closest('[data-drop]');if(b){e.preventDefault();b.classList.add('over')}});
 document.addEventListener('dragleave',e=>{const b=e.target.closest('[data-drop]');if(b)b.classList.remove('over')});
 document.addEventListener('drop',e=>{const b=e.target.closest('[data-drop]');if(b&&V.kind==='sort'){e.preventDefault();act('sdrop',b.dataset.drop)}});
-(function(){try{const q=new URLSearchParams(location.search);const lv=q.get('lv'),vw=q.get('view');if(lv&&typeof LEVELS!=='undefined'&&LEVELS.find(x=>x.id===lv))V={name:'level',lv};else if(vw&&VIEWS[vw]&&!/^(mock|checkin|mockres)$/.test(vw))V={name:vw};}catch(e){}})();
+(function(){try{const q=new URLSearchParams(location.search);const lv=q.get('lv'),vw=q.get('view'),un=q.get('u'),ac=q.get('act');const L=lv&&typeof LEVELS!=='undefined'&&LEVELS.find(x=>x.id===lv);
+  if(L&&un!=null&&L.units.find(x=>x.n===+un)){V={name:'unit',lv,u:+un};if(ac&&L.units.find(x=>x.n===+un).acts.some(a=>a.id===ac))setTimeout(()=>{try{openAct(ac)}catch(e){}},60);}
+  else if(L)V={name:'level',lv};else if(vw&&VIEWS[vw]&&!/^(mock|checkin|mockres)$/.test(vw))V={name:vw};}catch(e){}})();
 render();
 </script>
 
